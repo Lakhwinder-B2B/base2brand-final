@@ -1,0 +1,32 @@
+/* nav.border-gray-200.px-3.lg\:px-5.py-3.bggray{
+border-bottom:1px solid #CACACA;
+} */
+.Headerbggray {
+    background: #111616 !important;
+}
+li.active {
+    border-bottom: 2px solid #f47b52 !important;
+}
+.footerMenu h5 {
+    color: #F47B52;
+    margin-bottom: 10px;
+}
+.footerMenu li {
+    color: #fff;
+    padding-left: 0px;
+    line-height: 30px;
+}
+.footerMenu ul { 
+    padding-left: 0px;
+}
+.main_footer {
+    border-top: 2px solid #5C5C5C;
+    border-bottom: 2px solid #5C5C5C;
+}
+.p-5.borderbottom {
+    border-bottom: 1px solid #525151;
+}
+.col.footerMenu ul li a {
+    color: #fff !important;
+    text-decoration: auto;
+}

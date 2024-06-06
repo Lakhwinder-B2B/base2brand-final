@@ -1,0 +1,13 @@
+header{
+    position:sticky;
+    top:0;
+    z-index:11;
+}
+a.bg-transparent {
+    text-decoration: none;
+    border-width: 2px !important;
+}
+a.bg-transparent:hover  {
+    background: #F47B52 !important;
+    border-color: #F47B52 !important;
+}
