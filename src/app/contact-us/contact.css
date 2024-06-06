@@ -1,0 +1,62 @@
+.bgWhite {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+.bgImg.text-white {
+    padding: 3rem;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 15px 0px;
+}
+.d-flex.mt-5 {
+    align-items: baseline;
+}
+a.social {
+    background: #1B1B1B;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-right: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.icons.mt-5.pt-5 {
+    position: absolute;
+    bottom: 4rem;
+}
+.socialFacebook{
+    background: #1B1B1B;
+    padding: 10px 17px;
+    border-radius: 50px;
+    margin-right: 2rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+.form-control.removeBorder {
+    border: navajowhite;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+}
+button.btn.btn-primary {
+    background: #000 !important;
+    border: none;
+    padding: 10px 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+.bgImg p.mb-5.pb-5 {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.bgImg{
+    height: 600px !important;
+}
+.d-flex.mt-5 {
+    margin-top: 2rem !important;
+}
+}

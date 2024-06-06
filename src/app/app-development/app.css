@@ -1,0 +1,17 @@
+ul.sub_feature li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 3;
+}
+ul.sub_feature  {
+  padding-left: 0px;
+}
+ul.sub_feature li img {
+    height: 26px; 
+}
+.border-right{
+    border-right: 2px solid #000;
+    margin-right: 10px !important;
+    padding-bottom: 1rem;
+}

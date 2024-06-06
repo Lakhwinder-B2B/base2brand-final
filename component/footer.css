@@ -4,20 +4,53 @@ border-bottom:1px solid #CACACA;
 .Headerbggray {
     background: #111616 !important;
 }
+img.SocialIcon {
+    width: 30px;
+}
+.number li a{
+    color: #fff;
+    text-decoration: none;
+}
+
 li.active {
     border-bottom: 2px solid #f47b52 !important;
 }
 .footerMenu h5 {
-    color: #F47B52;
+    color: #B6CCFF;
     margin-bottom: 10px;
 }
-.footerMenu li {
+.footerMenu ul li, .borderbottom .footerMenu ul li a {
     color: #fff;
     padding-left: 0px;
     line-height: 30px;
+    transition-duration: 1s;
+    position:relative;
+}
+.footerMenu ul li{
+    padding-left:0px;
+}
+.footerMenu ul li::before {
+    position: absolute;
+    content: "";
+    background-image: url(/img/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    width: 12px;
+    height: 10px;
+    left: -10px;
+    top: 10px;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+}
+
+.borderbottom .footerMenu ul li:hover,.borderbottom .footerMenu ul li:hover a,
+.footerMenu li:hover, .borderbottom .footerMenu ul li a:hover,ul.number li a:hover,.main_footer .footerMenu ul li:hover a {
+    color: #B6CCFF !important;
 }
 .footerMenu ul { 
-    padding-left: 0px;
+    padding-left: 20px;
 }
 .main_footer {
     border-top: 2px solid #5C5C5C;
@@ -29,4 +62,37 @@ li.active {
 .col.footerMenu ul li a {
     color: #fff !important;
     text-decoration: auto;
+}
+.main_footer .footerMenu {
+    flex: auto;
+    max-width: 20%;
+}
+.main_footer .footerMenu ul li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:1199px) {
+    footer.footer .footerMenu,.main_footer .footerMenu {
+        max-width: 33%;
+        flex: auto;
+    }
+    .footer-box {
+        row-gap: 2rem;
+    }
+} 
+
+@media screen and (max-width:767px) {
+    footer.footer .footerMenu,.main_footer .footerMenu {
+        max-width: 49%;
+        margin-bottom: 20px;
+    }
+    footer.footer .social {
+        gap: 1rem !important;
+    }  
+}
+
+@media screen and (max-width:575px) {
+    footer.footer .footerMenu,.main_footer .footerMenu {
+        max-width: 100%;
+    }
 }

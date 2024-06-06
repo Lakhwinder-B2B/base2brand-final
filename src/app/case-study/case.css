@@ -1,0 +1,28 @@
+.bgblack{
+    background-color: #111616;
+}
+.caseTabs li .active {
+    border: 2px solid #F47B52;
+    border-radius: 50px;
+    background: #111566;
+    padding: 8px 20px;
+}
+.caseTabs li button {
+    border: 2px solid #fff;
+    border-radius: 50px !important; 
+    padding: 8px 20px;
+    color: #fff;
+}
+.case_box h5 {
+    color: #F47B52;
+    margin-top: 2rem;
+}
+.case_box p {
+    color: #fff;
+}
+img.errow {
+    width: 27px;
+}
+.pointer{
+    cursor: pointer;
+}

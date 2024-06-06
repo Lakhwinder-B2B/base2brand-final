@@ -1,0 +1,121 @@
+img.shopify_img {
+    width: 250px;
+    object-fit: contain;
+    margin: 0px 14px;
+}
+p.desc_service {
+    font-size: 20px;
+    margin-top: 2rem;
+    line-height: 1.8;
+}
+
+.agency_heading{
+display:flex;
+}
+.bg_patner{
+    background: #0F0F0F;
+    }
+ .primary {
+    color: #F47B52;
+} 
+p.mt-4.font-weight-light {
+    font-weight: 100;
+}
+.bg_dev { 
+    background: #000;
+    border-radius: 14px;
+    height:360px;
+    padding: 2px;
+}
+.bg_devs{
+    padding: 3rem; 
+}
+.bg_dev:hover .bg_devs button{
+    display:block !important;
+
+}
+i.fa.fa-hand-o-right.fs-4.hide_ic.mr-3 {
+    display: inline-block !important;
+}
+.bg_dev .bg_devs button{
+display:none;
+}
+.bg_dev:hover{
+    border-width: 2px 2px 2px 2px; 
+    border-radius: 14px !important;
+    border: double 0px transparent;
+    background-image: linear-gradient(black, black), linear-gradient(to bottom, #4D65E5, #F47B52 );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 2px;
+}
+ 
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
+.slick-slide img {
+  transform: scale(.8);
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+.slick-center img {
+  transform: scale(1);
+}
+.slider__item > img {
+  width: 100%;
+  height: auto;
+}
+
+
+ 
+
+img.company {
+    max-width: 80px !important;
+}
+.section_data {
+    margin-bottom: 7rem;
+}
+.overFlow {
+    height: 500px;
+    overflow: auto;
+}
+.overFlow::-webkit-scrollbar {
+    display: none;
+}
+.overFlow{
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+
+
+  img.circle {
+    margin: auto;
+    background: #111616;
+}
+span.centerNumber {
+    position: absolute;
+    top: 3.5rem;
+    left: 45.5%;
+    font-size: 40px;
+}
+h3.bgBlack {
+    background: #111616;
+    padding: 20px 0px;
+}
+.mtTop { 
+    margin-top: 8rem !important;
+}
+
+/* faq< */
+button.accordion-button.collapsed {
+    background: #2E2E2E !important;
+    margin-top: 2rem;
+    font-size: 18px;
+    padding: 22px 15px;
+}
+button.accordion-button {
+    font-size: 18px !important;
+}
+.accordion-item {
+    border-bottom: none;
+}

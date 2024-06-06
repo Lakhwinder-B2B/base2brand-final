@@ -1,0 +1,138 @@
+.Typewriter span {
+    font-size: 70px;
+    color: #fff;
+}
+.hoverEffect {
+    background: rgba(40, 40, 40, 1); 
+    border-radius: 10px; 
+    color: #fff; 
+    transition: 2s;
+    opacity:0.89;
+}
+.single-img {
+    position: relative; 
+  }
+.img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    max-width:96%;
+    margin:0 auto;
+  }
+  .slider__item{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .slick-slide.slick-active.slick-center.slick-current .single-img:hover .img-overlay {
+    height: 100%;
+    border: 1px solid #fff;
+    padding: 2rem;
+  }
+
+  /*.heading_content{
+    font-weight: 200;
+  }*/
+
+  .contentBox {
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 1);
+    border: 1px solid rgba(147, 146, 146, 1);
+    background: rgba(40, 40, 40, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 1rem;
+}
+.contentBox img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+.caseImg{
+    background: rgba(255, 209, 180, 1);
+
+}
+
+.case2{
+    background: #26292e;
+}
+h5.digital_desc {
+    font-weight: 300;
+    padding-right: 5rem;
+}
+img.logo_marketinh.w-100 {
+    max-width: 150px !important;
+    max-width: 150px !important;
+    border: 2px solid #32353B;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+}
+.p-5.bg_marketing {
+    background: #0F0F0F;
+}
+.workIdea {
+    background: #000;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.workIdea p {
+    font-weight: 200;
+    font-size: 14px;
+}
+.workIdea img{
+    width: 50px;
+}
+.needBox {
+    background: #000;
+    border-radius: 26px;
+    border: 2px solid #999999;
+    height: 25rem;
+}
+p.font-weight-normal {
+    font-weight: 100;
+    font-size: 15px;
+}
+img.lineCenter {
+    height: 75%;
+    margin: auto;
+}
+.topSpaceLines {
+    margin-top: 13rem;
+}
+
+
+/*-----SLider-Grid------*/
+.slider-grid {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    column-gap: 0px;
+}
+.slider-grid .single-img img.slider__item {
+    max-height: 550px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius:10px;
+}
+.slider-grid .single-img:hover .hoverEffect {
+    height: 100%;
+    padding: 0 2rem;
+    border-radius:10px;
+}
+
+@media screen and (max-width:575px) {
+    .slider-grid .single-img img.slider__item {
+        min-height: 500px;
+    } 
+}

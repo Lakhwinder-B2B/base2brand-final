@@ -1,59 +1,138 @@
 "use client";
 import Link from 'next/link'
-import logo from '../public/img/logo.png';
+import { useEffect } from "react"; 
+import logo from '../public/img/logo.svg';
+import digital from '../public/img/header.png';
+import call from '../public/img/call1.png';
+import digital2 from '../public/img/header2.png'; 
+import digital3 from '../public/img/header3.png';
+import digital4 from '../public/img/header4.png';
 import './footer.css'
 import { usePathname } from 'next/navigation';
 import './header.css'
+import 'aos/dist/aos.css';
+import AOS from 'aos'; 
+
+ 
 export default function Header() {
-const currentRoute = usePathname();
+
+  const currentRoute = usePathname();
+
+useEffect(() => {
+  AOS.init({
+       duration: 800,
+       once: false,
+     })
+}, [])
+
 
   return (
     <header>
-      
-    <nav className="border-gray-200 px-3 lg:px-5 py-3 Headerbggray">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xxl">
-            <a href="https://flowbite.com" className="flex items-center">
-            <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
-                
+  {/* <div className='top-header bg-dark pl-4 pr-4 pt-1 pb-1'>
+  <div className="d-flex flex-wrap align-items-center justify-content-end contact-num">
+        <a href="tel:+91-836-011-6967" className="text-orange text-white font-semibold hover:text-white text-decoration-none py-2 px-4">
+        India:- +91-836-011-6967</a> 
+        <a href="tel:+1-416-879-2244" className="text-orange text-white font-semibold hover:text-white text-decoration-none py-2 px-4">
+        Canada:- +1 (416) 879-2244</a> 
+    </div>
+            
+  </div> */}
+
+  <nav className="navbar navbar-expand-xl bg-dark navbar-dark pt-4 pb-4 ps-3 pe-3 position-relative">
+    <div className="container-fluid"> 
+      <a href="/" className="flex items-center navbar-brand pt-0">
+        <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
+      </a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul className="navbar-nav align-items-center d-flex flex-wrap Header_link">
+      <li>
+        <a href="/" className={currentRoute === "/"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"} aria-current="page">
+           Home 
+        </a>
+        </li>
+        <li>
+        <Link href="/about" className={currentRoute === "/about"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>About Us</Link>
+        </li>
+        
+        <li className='dropdown'>
+        <Link href="/services" className={currentRoute === "/services"? "active  py-2 pr-4 pl-3 dropdown-toggle" : "dropdown-toggle block py-2 pr-4 pl-3"}>Services</Link>
+        
+        <ul className="dropdown-menu ph_align_drop p-0">
+            <li className='hover-menus'><a className={currentRoute === "/digital-marketing"? "active dropdown-item d-flex" : "dropdown-item d-flex align-items-center"}  href="/digital-marketing">
+             <img src={digital2.src} className='service_icon' alt="" />  Digital Marketing 
             </a>
-            <div className="flex items-center lg:order-2">
-                <a href="#" className="bg-transparent hover:bg-dark text-white font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded-full">Call:- +91 836 011 6967</a> 
-                {/* <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
-                    <span className="sr-only">Open main menu</span>
-                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                    <svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </button> */}
-            </div>
-            <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
-                <ul className="flex flex-col mt-3 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                    <li className={currentRoute === "/" ? "active" : "non-active"}>
-                        <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white" aria-current="page">Home</Link>
-                    </li>
-                    <li>
-                        <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">About Us</Link>
-                    </li>
-                    <li>
-                        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Career</a>
-                    </li>
-                    <li className={currentRoute === "/services" ? "active" : "non-active"}>
-                    <Link href="/services" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Services</Link>
-                    </li>
-                    <li className={currentRoute === "/digital-marketing" ? "active" : "non-active"}>
-                        <Link href="/digital-marketing"  className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Digital Marketing</Link>
-                    </li>
-                    <li>
-                        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Outsourcing</a>
-                    </li>
-                    <li className={currentRoute === "/graphic" ? "active" : "non-active"}>
-                        <a href="/graphic" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Graphic</a>
-                    </li>
-                    <li>
-                        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Knowledge Center</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+              {/* <ul className="dropdown-menu hover-menu-items p-0">
+                <li><a className="dropdown-item" href="/seo">Search Engine Optimization</a></li>
+                <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
+                <li><a className="dropdown-item" href="/online-reputation">Online Reputation Management</a></li>
+                <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
+              </ul> */}
+            </li>
+            <li className='hover-menus'><a className={currentRoute === "/e-commerce"? "active dropdown-item d-flex" : "dropdown-item d-flex   align-items-center"} href="/e-commerce">
+            <img src={digital4.src} className='service_icon' alt="" />Ecommercee </a>
+              {/* <ul className="dropdown-menu hover-menu-items p-0">
+                <li><a className="dropdown-item" href="#">Magneto Development</a></li> 
+                <li><a className="dropdown-item" href="/shopify">Shopify Development</a></li>
+                <li><a className="dropdown-item" href="/big-commerce">Woo Commerce Development</a></li>
+                <li><a className="dropdown-item" href="#">Open cart Development</a></li>
+              </ul> */}
+            </li> 
+            <li className='hover-menus'><a className={currentRoute === "/graphic"? "active dropdown-item d-flex " : "dropdown-item d-flex align-items-center"} href="/graphic">
+            <img src={digital3.src} className='service_icon' alt="" /> Graphic Design </a>
+              {/* <ul className="dropdown-menu hover-menu-items p-0">
+                <li><a className="dropdown-item" href="/graphic">Website Redesign</a></li>
+                <li><a className="dropdown-item" href="#">Responsive Web Design</a></li>
+                <li><a className="dropdown-item" href="#">Video Animation</a></li>
+                <li><a className="dropdown-item" href="/mobile-application">Mobile app designing</a></li>
+              </ul> */}
+            </li> 
+            <li className='hover-menus'><a className={currentRoute === "/app-development"? "active dropdown-item d-flex" : "dropdown-item d-flex align-items-center"} href="/app-development">
+            <img src={digital.src} className='service_icon' alt="" /> App Development </a>
+              {/* <ul className="dropdown-menu hover-menu-items p-0">
+                <li><a className="dropdown-item" href="/mobile-application">Android App Development</a></li>
+                <li><a className="dropdown-item" href="#">IOS App Development</a></li>
+                <li><a className="dropdown-item" href="#">React Native Development</a></li>
+                <li><a className="dropdown-item" href="#">Hybrid App Development</a></li>
+                <li><a className="dropdown-item" href="/php-development">PHP Development</a></li>
+                <li><a className="dropdown-item" href="/asp-net">ASP Development</a></li>
+              </ul> */}
+              {/* <i className="fa fa-chevron-right"></i> */}
+            </li> 
+        </ul>
+        </li>
+
+        <li>
+        <Link href="/case-study" className={currentRoute === "/case-study"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Case Studies</Link>
+        </li>
+        
+
+        <li>
+        <a href="/resources" className={currentRoute === "/resources"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Resources</a>
+        </li>
+
+        <li>
+        <Link href="/blog" className={currentRoute === "/blog"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Blogs</Link>
+        </li>
+        
+       
+        <li>
+        <Link href="/carrer" className={currentRoute === "/carrer"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Career</Link>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div className="d-flex flex-wrap align-items-center contact-num">
+        <div className="call_number_drop">
+          <img className='call_icon' src={call.src} />
+          </div> 
+    </div>
+            
+  </div>
+</nav>
 </header>
   )
 }
