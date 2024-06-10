@@ -103,7 +103,7 @@ a.name_project:hover, .tabs_link:hover {
     padding-left: 3px;
 }
 .tabs_link:hover img{
-    border: 1px solid #F47B52;
+    border: 1px solid #B6CCFF;
 }
 .pink-color {
     color: #F47B52 !important;
@@ -132,13 +132,7 @@ a.name_project:hover, .tabs_link:hover {
 .pointer{
     cursor: pointer;
 }
-img.social_icons {
-    border: 1px solid #fff;
-    padding: 4px;
-    border-radius: 6px;
-    width: 35px;
-    object-fit: contain;
-}
+
 a.remove_under_line {
     color: #fff;
     text-decoration: auto;

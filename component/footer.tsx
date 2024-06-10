@@ -21,13 +21,22 @@ export default function Header() {
                 <a href="/digital-marketing">PPC Management</a>
               </li>
               <li>
-                <a href="/digital-marketing">Search Engine Optimization</a>
+                <a href="/digital-marketing">Media Buyer</a>
               </li>
               <li>
-                <a href="/digital-marketing">Social Media Management</a>
+                <a href="/digital-marketing">Content Writing</a>
+              </li>
+              <li>
+                <a href="/digital-marketing">Google Ads (PPC)</a>
               </li>
               <li>
                 <a href="/digital-marketing">YouTube Marketing</a>
+              </li>
+              <li>
+                <a href="/digital-marketing">Search Engine Optimization</a>
+              </li>
+              <li>
+                <a href="/digital-marketing">Social Media Optimization</a>
               </li>
               <li>
                 <a href="/digital-marketing">Online Reputation Management</a>
@@ -35,10 +44,10 @@ export default function Header() {
             </ul>
           </div>
           <div className="col footerMenu">
-            <h5>Web Development</h5>
+            <h5>Web/Mobile Development</h5>
             <ul className="mb-0">
               <li>
-                <a href="/web-application">Web Designing</a>
+                <a href="/web-application">Remix Framework</a>
               </li>
               <li>
                 <a href="/web-application">Laravel Development</a>
@@ -47,10 +56,16 @@ export default function Header() {
                 <a href="/web-application">MEAN Stack Development</a>
               </li>
               <li>
-                <a href="/web-application">MERN Development</a>
+                <a href="/web-application">ASP.NET Development</a>
               </li>
               <li>
-                <a href="/web-application">WordPress Development</a>
+                <a href="/web-application">MERN Stack Development</a>
+              </li>
+              <li>
+                <a href="/web-application">Native IOS and Android</a>
+              </li>
+              <li>
+                <a href="/web-application">Hybrid apps Development</a>
               </li>
             </ul>
           </div>
@@ -61,32 +76,63 @@ export default function Header() {
                 <a href="/graphic">Graphic Design</a>
               </li>
               <li>
-                <a href="/mobile-application">App Development</a>
+                <a href="/mobile-application">Branding &amp; Identity</a>
               </li>
               <li>
-                <a href="/e-commerce">E-Commerce</a>
+                <a href="/mobile-application">Website &amp; App Design</a>
               </li>
-              <li>Hybrid Apps</li>
-              <li>Native IOS & Android</li>
+              <li>
+                <a href="/mobile-application">Motion Graphics</a>
+              </li>
+              <li>
+                <a href="/mobile-application">Social Media Design</a>
+              </li>
+              <li>
+                <a href="/mobile-application">2D &amp; infographic Design</a>
+              </li>
+              
+            </ul>
+          </div>
+          <div className="col footerMenu">
+            <h5>Ecommerce  Development</h5>
+            <ul className="mb-0">
+              <li>
+                <a href="">Shopify Theme Development</a>
+              </li>
+              <li>
+                <a href="">Woo Commerce Development</a>
+              </li>
+              <li>
+                <a href="">Magento Development</a>
+              </li>
+              <li>
+                <a href="">Big Commerce Development</a>
+              </li>
+              <li>
+                <a href="">Open Cart Development</a>
+              </li>
+              <li>
+                <a href="">Shopify App Developemnt</a>
+              </li>
             </ul>
           </div>
           <div className="col footerMenu">
             <h5>Quick Links</h5>
             <ul className="mb-0">
               <li>
-                <a href="/contact-us">Contact Us</a>
+                <a href="">Services</a>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <a href="">About Us</a>
               </li>
               <li>
-                <a href="/blog">Blogs</a>
+                <a href="">Blogs</a>
               </li>
               <li>
-                <a href="/carrer">Career</a>
+                <a href="">Career</a>
               </li>
               <li>
-                <a href="/resources">Resources</a>
+                <a href="">Hire Resources</a>
               </li>
             </ul>
           </div>
@@ -94,11 +140,20 @@ export default function Header() {
             <h5>Other Links</h5>
             <ul className="mb-0">
               <li>
-                <a href="/case-study">Case Studies</a>
+                <a href="">Case Studies</a>
               </li>
-              <li>Privacy policy</li>
-              <li>Cookies Policy</li>
-              <li>Terms & Conditions</li>
+              <li>
+                <a href="">Privacy policy</a>
+              </li>
+              <li>
+                <a href="">Cookies Policy</a>
+              </li>
+              <li>
+                <a href="">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a href="">Refund Policy</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -115,9 +170,6 @@ export default function Header() {
               >
                 <img src={Facebook.src} className="SocialIcon" alt="Facebook" />{" "}
               </a>
-              <a href="https://twitter.com/techBase2Brand" target="_blank">
-                <img src={Twitter.src} className="SocialIcon" alt="Twitter" />{" "}
-              </a>
               <a
                 href="https://www.instagram.com/techbase2brand/?hl=en"
                 target="_blank"
@@ -128,66 +180,51 @@ export default function Header() {
                   alt="Instagram"
                 />{" "}
               </a>
+              <a href="https://twitter.com/techBase2Brand" target="_blank">
+                <img src={Twitter.src} className="SocialIcon" alt="Twitter" />{" "}
+              </a>
+              
               <a
                 href="https://in.linkedin.com/company/techbase2brand"
                 target="_blank"
               >
                 <img src={Linkedin.src} className="SocialIcon" alt="Linkedin" />{" "}
               </a>
-              <a href="https://www.behance.net/base2brand" target="_blank">
-                <img src={Behance.src} className="SocialIcon" alt="Behance" />{" "}
-              </a>
-              <a href="https://www.youtube.com/@base2brand" target="_blank">
-                <img src={Youtube.src} className="SocialIcon" alt="Linkedin" />{" "}
-              </a>
-              <a
-                href="https://www.pinterest.com/techbase2brand/_created/"
-                target="_blank"
-              >
-                <img
-                  src={Pinterest.src}
-                  className="SocialIcon"
-                  alt="Linkedin"
-                />{" "}
-              </a>
+              
               {/* <a href="https://maps.app.goo.gl/xMquw6oWpdiJwLBh8"><img src={Googlemap.src} className="SocialIcon" alt="Googlemap"/> </a> */}
             </div>
           </div>
           <div className="mb-sm-0 mb-4 footerMenu">
             <h5>Working Hours:</h5>
             <ul className="mb-0">
-              <li>Mon-Fri: 10am- 7pm</li>
+              <li>Mon-Fri: 9 am- 6 pm</li>
               <li>Sat-Sun: Holiday</li>
             </ul>
           </div>
           <div className="mb-sm-0 mb-4 footerMenu">
-            <h5>Address:</h5>
+            <h5>India</h5>
             <ul className="mb-0">
-              <li>F-209, Industrial area<br/>
-              Phase 8-B, Sector 74, Mohali, 160074</li>
+              <li>F-209, Industrial area Phase 8-B,<br/>
+                Sector 74, Mohali, 160074</li>
             </ul>
           </div>
 
           <div className="mb-sm-0 mb-4 footerMenu">
-          <h5>Canada Address:</h5>
+          <h5>Canada</h5>
             <ul className="mb-0">
-              <li>Ms Ady 114,<br/>
-              Bellchase Trail Brampton ON L6P 3L4</li>
-              <li><a className="text-white" href="tel:+1-416-879-2244">+1 (416) 879-2244</a></li>
+              <li>Ms Ady 114, Bellchase Trail Brampton<br/>
+               ON L6P 3LA <a className="text-white" href="tel:+1-416-879-2244">+1(416) 879-2244</a></li>
+             
             </ul>
         </div>
 
 
           <div className="mb-sm-0 mb-4 footerMenu">
-            <h5>Hits Up:</h5>
-            <ul className="number mb-0">
-              <li>
-                <a href="tel:+919041700209">+919041700209</a> |{" "}
-                <a href="tel:+918360116967">+918360116967</a>
-              </li>
-              <li>
-                <a href="mailto:hello@base2brand.com">hello@base2brand.com</a>
-              </li>
+            <h5>UK</h5>
+            <ul className="mb-0">
+              <li>Ms Ady 114, Bellchase Trail Brampton<br/>
+               ON L6P 3LA <a className="text-white" href="tel:+1-416-879-2244">+1(416) 879-2244</a></li>
+             
             </ul>
           </div>
         </div>

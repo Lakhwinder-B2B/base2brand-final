@@ -268,13 +268,13 @@ a.b2b-btn{
   margin-top: 80px;
 }
 .b2b-main-heading{
-  font-size: 54px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 75px;
   color:#ffffff;
 }
 .b2b-heading{
-  font-size: 54px;
+  font-size: 35px;
   font-weight: 600;
   line-height: 109px;
   color:#ffffff;
@@ -294,7 +294,7 @@ a.b2b-btn{
 .b2b-sub-text{
   font-size: 20px;
   font-weight: 300;
-  line-height: 44px;
+  line-height: 25px;
   color:#ffffff;
 }
 .b2b-text{
@@ -392,6 +392,7 @@ button.b2b-blog-btn {
   background: #111616 !important;
   height: 100%;
   border-radius: 10px;
+  margin: 0 15px;
 }
 .b2b-workProcess-wrap .img-wrap {
   background-color: #1F222F;
@@ -406,6 +407,47 @@ button.b2b-blog-btn {
   font-weight: 400;
   margin-top: 25px;
 }
+.footerMenu h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+img.social_icons {
+  border: 1px solid #fff;
+  padding: 4px;
+  border-radius: 6px;
+  width: 35px;
+  object-fit: contain;
+}
+.footer-form input.form-control, .footer-form select, .footer-form textarea {
+  background-color: #111111 !important;
+  border-color: #5A5A5A !important;
+  border-radius: 0 !important;
+  padding: 20px 25px !important;
+  color: #fff !important;
+}
+.footer-form input.form-control::placeholder, .footer-form textarea::placeholder {
+  color: #fff !important;
+}
+.footer-form .form-btn{
+  background: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+  border-radius: 5px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px 55px;
+}
+.form-control:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.reviewSlider {
+  margin-bottom: 60px;
+}
+
 @media only screen and (max-width: 767px){
   button.accordion-button.collapsed{
     padding: 10px 15px !important;
@@ -449,7 +491,6 @@ button.b2b-blog-btn {
   }
     img.name_latter {
       margin: auto;
-      width: 60px !important;
       padding-bottom: 1rem;
     }
     button.carousel-control-prev{
@@ -493,6 +534,90 @@ button.b2b-blog-btn {
   }
   .b2b-text {
     font-size: 22px;
+  }
+  .footerMenu h5 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .footerMenu ul li a, .footerMenu ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1440px){
+  .b2b-partners-heading {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .b2b-btn-lg {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 18px 58px;
+  }
+  .b2b-heading {
+    font-size: 35px;
+    line-height: 52px;
+  }
+  .b2b-sub-heading {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .b2b-sub-text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .b2b-text {
+    font-size: 16px;
+  }
+  .b2b-btn-sm {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 13px 38px;
+  }
+  .b2b-sub-heading-bold {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .b2b-text {
+    font-size: 16px;
+    line-height: 30px;  
+  }
+  .b2b-main-heading {
+    font-size: 35px;
+    line-height: 54px;
+  }
+  .b2b-title-text {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .b2b-workProcess-wrap P {
+    font-size: 18px;
+  }
+  .b2b-home-blog .blog_section  p.blog_desc {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  button.b2b-blog-btn {
+    font-size: 16px;
+  }
+  .footerMenu h5 {
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .footerMenu ul li a, .footerMenu ul li {
+    font-size: 13px;
+  }
+  img.social_icons {
+    width: 28px;
+  }
+  .sub_heading {
+    font-size: 46px;
+    line-height: 75px;
+  }
+  .feedback_user h3 {
+    font-size: 16px !important;
+  }
+  .feedback_user p {
+    font-size: 15px !important;
   }
 }
 @media screen and (max-width: 991px) {
@@ -644,7 +769,7 @@ h3.text_primary.mt-5 {
   }
   .bg_feedback{
       margin-top:1rem;
-      padding: 0rem !important;
+      padding: 2rem !important;
   }
   .active h2 { 
     font-size: 26px !important;
@@ -1022,16 +1147,30 @@ ul.nav.nav-pills.mb-3 {
   .slide {
     padding-top: 25px;
   }
+  .feedback_user h3, .feedback_user p {
+    text-align: center;
+  }
+  .reviewSlider {
+    padding: 0 30px;
+  }
 }
 
 @media screen and (max-width:575px) {
   h1.big {
     font-size: 32px !important;
   }
-}
-@media screen and (min-width: 1600px){
-  body .container{
-    max-width: 1520px;
+  .footerMenu h5, .footerMenu ul li, .footerMenu ul li a, .footerMenu h2 {
+    text-align: center;
+  }
+  footer.footer .social {
+    justify-content: center;
+  }
+  .main_footer>.row {
+    row-gap: 1rem !important;
+  }
+  .reviewSlider {
+    padding: 0 40px;
   }
 }
+
 

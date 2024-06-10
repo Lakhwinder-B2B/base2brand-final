@@ -29,7 +29,7 @@ li.active {
 .footerMenu ul li{
     padding-left:0px;
 }
-.footerMenu ul li::before {
+/* .footerMenu ul li::before {
     position: absolute;
     content: "";
     background-image: url(/img/down-arrow.png);
@@ -43,14 +43,14 @@ li.active {
     transform: translate(-50%, 0%);
     -webkit-transform: translate(-50%, 0%);
     -moz-transform: translate(-50%, 0%);
-}
+} */
 
 .borderbottom .footerMenu ul li:hover,.borderbottom .footerMenu ul li:hover a,
 .footerMenu li:hover, .borderbottom .footerMenu ul li a:hover,ul.number li a:hover,.main_footer .footerMenu ul li:hover a {
     color: #B6CCFF !important;
 }
 .footerMenu ul { 
-    padding-left: 20px;
+    padding-left: 0px;
 }
 .main_footer {
     border-top: 2px solid #5C5C5C;

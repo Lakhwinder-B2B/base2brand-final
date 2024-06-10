@@ -35,7 +35,7 @@ export default function Homeabout() {
             
           </div>
 
-          <div className="row align-items-center row-reverse-mb"> 
+          <div className="row align-items-center row-reverse-mb mt-5"> 
             <div className="col-md-6 text-center mb-5 mb-md-0 about_order"    >
               <img className="m-auto" src={shopifyDev.src} alt="Product" />
             </div> 
@@ -54,7 +54,7 @@ export default function Homeabout() {
         
         <div className='row'>
             <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-5 m-auto'>
-              <h2 className='text-center b2b-sub-heading-bold text-uppercase'>working Process</h2>
+              <h2 className='text-center b2b-sub-heading-bold text-uppercase'>Request a Quote</h2>
               <p className='b2b-text text-center '>How we work for our customer</p>
             </div>
         </div>
@@ -130,6 +130,12 @@ export default function Homeabout() {
                     <p className='text-white text-center'>Launch</p>
                   </div>
               </div>
+            </div>
+          </div>
+
+          <div className='row mt-5'>
+            <div className='col-lg-12 text-center'>
+              <button className='b2b-btn b2b-btn-lg'>Request a Quote</button>
             </div>
           </div>
         </div>

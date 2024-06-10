@@ -1,0 +1,11 @@
+.btn_portfolio {
+    color: #fff !important;
+    padding: 9px 30px !important;
+    border-radius: 50px !important;
+    border: 1px solid #fff !important;
+}
+button.nav-link.btn_portfolio.active {
+    background: #396BDB !important;
+    padding: 9px 30px;
+    border: 1px solid #396BDB !important;
+}
