@@ -167,9 +167,10 @@ span.slide-number {
 .slick_slider_about .slick-dots {
     bottom: unset !important;
     right: unset !important;
-    top: unset; 
-    transform: unset;
+    top: unset !important;
+    transform: translate(-50%,0) !important;
     width: unset !important;
+    left: 50% !important;
 }
 .slick_slider_about li.slick-active{
     opacity: 1 !important;
