@@ -164,6 +164,13 @@ span.slide-number {
     cursor: pointer;
     opacity: 0;
 }
+.slick_slider_about .slick-dots {
+    bottom: unset !important;
+    right: unset !important;
+    top: unset; 
+    transform: unset;
+    width: unset !important;
+}
 .slick_slider_about li.slick-active{
     opacity: 1 !important;
     position: absolute;
