@@ -12,10 +12,10 @@ import processIcon3 from '../../public/img/process-icon-3.svg';
 import processIcon4 from '../../public/img/process-icon-4.svg';   
 import processIcon5 from '../../public/img/process-icon-5.svg';   
 import processIcon6 from '../../public/img/process-icon-6.svg'; 
-import solarJson from '../../public/json/Solar-system-Shopify.json'; 
+// import solarJson from '../../public/json/Solar-system-Shopify.json'; 
 
 import './our-project.css'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+// import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Homeabout() {
  
