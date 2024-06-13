@@ -18,13 +18,13 @@ import b2b1 from '../../public/img/b2b1.png';
 import b2b2 from '../../public/img/b2b2.png'; 
 import b2b3 from '../../public/img/b2b3.png'; 
 import b2b4 from '../../public/img/b2b4.png'; 
-import logo1 from '../../public/img/logo1.png'; 
-import logo2 from '../../public/img/logo2.png'; 
-import logo3 from '../../public/img/logo3.png'; 
-import logo4 from '../../public/img/logo4.png'; 
-import logo5 from '../../public/img/logo5.png'; 
-import logo6 from '../../public/img/logo6.png'; 
-import logo7 from '../../public/img/logo7.png';  
+import logo1 from '../../public/img/logo1.svg'; 
+import logo2 from '../../public/img/logo2.svg'; 
+import logo3 from '../../public/img/logo3.svg'; 
+import logo4 from '../../public/img/logo4.svg'; 
+import logo5 from '../../public/img/logo5.svg'; 
+import logo6 from '../../public/img/logo6.svg'; 
+import logo7 from '../../public/img/logo7.svg';  
 import logo9 from '../../public/img/logo9.png'; 
 import radialBg from '../../public/img/radial_bg.svg'; 
 
@@ -32,6 +32,8 @@ import polygon from '../../public/img/polygon.png';
 import Slider from "react-slick";
 import Typewriter from 'typewriter-effect';
 import Request from "./request-form";
+// import VerticalScroll from "./vertical-scroll";
+// import styles from "./VerticalSlideshow.module.css";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -108,7 +110,7 @@ export default function Home() {
           </div>
         </div>
         <div className="p-3 logo-slider" >
-            <div className="col-md-12 text-center pt-5" >
+            <div className="col-md-12 text-center pt-4" >
                 <h3 className='b2b-partners-heading'>Our Trusted Partners Collaborate Seamlessly To Drive Mutual Success</h3> 
             </div>
             <Slider {...settings} className="w-100">
@@ -147,6 +149,9 @@ export default function Home() {
       <HomeBlog />
       <Feedback />
       <Career />
+      {/* <div className={styles.container}>
+      <VerticalScroll />
+      </div> */}
       <FooterMap />
       <Footer />
     </div>

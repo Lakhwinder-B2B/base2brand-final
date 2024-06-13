@@ -12,7 +12,7 @@ import Googlemap from "../public/img/GoogleMap.png";
 export default function Header() {
   return (
     <footer className="footer">
-      <div className="p-5 borderbottom">
+      <div className="p-5 borderbottom b2b-black-bg">
         <div className="row footer-box">
           <div className="col footerMenu">
             <h5>Digital Marketing</h5>
@@ -158,7 +158,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="main_footer p-5">
+      <div className="main_footer p-5 b2b-black-bg">
         <div className="row d-flex flex-wrap align-items-start row-gap-5"> 
           <div className="mb-sm-0 mb-4 footerMenu">
             {/* <img src={logo.src} className="FooterLogo" alt="logo" /> */}

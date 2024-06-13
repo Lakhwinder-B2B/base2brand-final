@@ -11,8 +11,11 @@ import processIcon2 from '../../public/img/process-icon-2.svg';
 import processIcon3 from '../../public/img/process-icon-3.svg';   
 import processIcon4 from '../../public/img/process-icon-4.svg';   
 import processIcon5 from '../../public/img/process-icon-5.svg';   
-import processIcon6 from '../../public/img/process-icon-6.svg';   
+import processIcon6 from '../../public/img/process-icon-6.svg'; 
+import solarJson from '../../public/json/Solar-system-Shopify.json'; 
+
 import './our-project.css'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Homeabout() {
  
@@ -29,8 +32,14 @@ export default function Homeabout() {
             
               <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More </button>
             </div>
-            <div className="col-md-6 text-center mb-5 mb-md-0 about_order"    >
-              <img className="m-auto" src={technologies.src} alt="Product" />
+            <div className="col-md-6 text-center mb-5 mb-md-0 about_order">
+            <img className="m-auto" src={technologies.src} alt="Product" />
+            {/* <DotLottieReact
+              src='../../public/json/Solar-system-Shopify.json'
+              loop
+              autoplay
+            /> */}
+            
             </div> 
             
           </div>

@@ -38,7 +38,7 @@ useEffect(() => {
             
   </div> */}
 
-  <nav className="navbar navbar-expand-xl bg-dark navbar-dark pt-4 pb-4 ps-3 pe-3 position-relative">
+  <nav className="navbar navbar-expand-xl pt-4 pb-4 ps-3 pe-3 position-relative">
     <div className="container-fluid"> 
       <a href="/" className="flex items-center navbar-brand pt-0">
         <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
@@ -53,74 +53,141 @@ useEffect(() => {
            Home 
         </a>
         </li>
-        <li>
-        <Link href="/about" className={currentRoute === "/about"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>About Us</Link>
+        <li className='dropdown'>
+        <Link href="/about" className={currentRoute === "/about"? "active  py-2 pr-4 pl-3 dropdown-toggle" : "dropdown-toggle block py-2 pr-4 pl-3"}>About Us</Link>
+            <ul className="dropdown-menu ph_align_drop">
+                <li className='mega-menu'>
+                  <div className='row justify-content-center'>
+                      <div className="col-lg-3 mb-3">
+                        <a href="/about">
+                          <div className="menuInner b2b-lightBlue-bg">
+                              <h3 className='b2b-title-text text-black'>About Us</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>We are super efficient and humble to serve you</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-3 mb-3">
+                        <a href=''>
+                          <div className="menuInner b2b-pink-bg">
+                              <h3 className='b2b-title-text text-black'>Team</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>We are proud of our experienced and accomplished team!</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-3 mb-3">
+                        <a href="">
+                          <div className="menuInner b2b-lightBlue-bg">
+                              <h3 className='b2b-title-text text-black'>Career</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>Can you offer such<br /> experience?</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                  </div>
+                </li>
+            </ul>
         </li>
         
         <li className='dropdown'>
         <Link href="/services" className={currentRoute === "/services"? "active  py-2 pr-4 pl-3 dropdown-toggle" : "dropdown-toggle block py-2 pr-4 pl-3"}>Services</Link>
         
-        <ul className="dropdown-menu ph_align_drop p-0">
-            <li className='hover-menus'><a className={currentRoute === "/digital-marketing"? "active dropdown-item d-flex" : "dropdown-item d-flex align-items-center"}  href="/digital-marketing">
-             <img src={digital2.src} className='service_icon' alt="" />  Digital Marketing 
-            </a>
-              {/* <ul className="dropdown-menu hover-menu-items p-0">
-                <li><a className="dropdown-item" href="/seo">Search Engine Optimization</a></li>
-                <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
-                <li><a className="dropdown-item" href="/online-reputation">Online Reputation Management</a></li>
-                <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
-              </ul> */}
+        <ul className="dropdown-menu ph_align_drop">
+            <li className='mega-menu'>
+              <div className='row justify-content-center'>
+                  <div className="col-lg-3 mb-3">
+                    <a href="">
+                      <div className="menuInner b2b-lightBlue-bg">
+                          <h3 className='b2b-title-text text-black'>Web Development</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Innovative apps for mobile devices</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-lg-3 mb-3">
+                    <a href='/app-development'>
+                      <div className="menuInner b2b-pink-bg">
+                          <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Innovative apps for mobile devices</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-lg-3 mb-3">
+                    <a href="/graphic">
+                      <div className="menuInner b2b-lightBlue-bg">
+                          <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Creating Visual Solutions</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+              <div className='row justify-content-center'>
+                  <div className="col-lg-3 mb-3">
+                    <a href="/digital-marketing">
+                      <div className="menuInner b2b-pink-bg">
+                          <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Bespoke Brand Growth Strategies</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-lg-3 mb-3">
+                    <a href="/e-commerce">
+                      <div className="menuInner b2b-lightBlue-bg">
+                          <h3 className='b2b-title-text text-black'>Ecommerce</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Increase online sales seamlessly</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-lg-3 mb-3">
+                    <a href="">
+                      <div className="menuInner b2b-pink-bg">
+                          <h3 className='b2b-title-text text-black'>Shopify Development</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Bespoke Brand Growth Strategies</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+              </div>
             </li>
-            <li className='hover-menus'><a className={currentRoute === "/e-commerce"? "active dropdown-item d-flex" : "dropdown-item d-flex   align-items-center"} href="/e-commerce">
-            <img src={digital4.src} className='service_icon' alt="" />Ecommercee </a>
-              {/* <ul className="dropdown-menu hover-menu-items p-0">
-                <li><a className="dropdown-item" href="#">Magneto Development</a></li> 
-                <li><a className="dropdown-item" href="/shopify">Shopify Development</a></li>
-                <li><a className="dropdown-item" href="/big-commerce">Woo Commerce Development</a></li>
-                <li><a className="dropdown-item" href="#">Open cart Development</a></li>
-              </ul> */}
-            </li> 
-            <li className='hover-menus'><a className={currentRoute === "/graphic"? "active dropdown-item d-flex " : "dropdown-item d-flex align-items-center"} href="/graphic">
-            <img src={digital3.src} className='service_icon' alt="" /> Graphic Design </a>
-              {/* <ul className="dropdown-menu hover-menu-items p-0">
-                <li><a className="dropdown-item" href="/graphic">Website Redesign</a></li>
-                <li><a className="dropdown-item" href="#">Responsive Web Design</a></li>
-                <li><a className="dropdown-item" href="#">Video Animation</a></li>
-                <li><a className="dropdown-item" href="/mobile-application">Mobile app designing</a></li>
-              </ul> */}
-            </li> 
-            <li className='hover-menus'><a className={currentRoute === "/app-development"? "active dropdown-item d-flex" : "dropdown-item d-flex align-items-center"} href="/app-development">
-            <img src={digital.src} className='service_icon' alt="" /> App Development </a>
-              {/* <ul className="dropdown-menu hover-menu-items p-0">
-                <li><a className="dropdown-item" href="/mobile-application">Android App Development</a></li>
-                <li><a className="dropdown-item" href="#">IOS App Development</a></li>
-                <li><a className="dropdown-item" href="#">React Native Development</a></li>
-                <li><a className="dropdown-item" href="#">Hybrid App Development</a></li>
-                <li><a className="dropdown-item" href="/php-development">PHP Development</a></li>
-                <li><a className="dropdown-item" href="/asp-net">ASP Development</a></li>
-              </ul> */}
-              {/* <i className="fa fa-chevron-right"></i> */}
-            </li> 
         </ul>
         </li>
 
         <li>
-        <Link href="/case-study" className={currentRoute === "/case-study"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Case Studies</Link>
+        <Link href="/portfolio" className={currentRoute === "/case-study"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Portfolio</Link>
         </li>
         
 
         <li>
-        <a href="/resources" className={currentRoute === "/resources"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Resources</a>
+        <a href="/resources" className={currentRoute === "/resources"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Resource Outsourcing</a>
         </li>
 
         <li>
         <Link href="/blog" className={currentRoute === "/blog"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Blogs</Link>
         </li>
         
-       
-        <li>
-        <Link href="/carrer" className={currentRoute === "/carrer"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Career</Link>
-        </li>
         
       </ul>
     </div>

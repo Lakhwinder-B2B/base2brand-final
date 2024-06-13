@@ -218,6 +218,10 @@ span.slide-number {
     padding-right: 7rem;
     padding-top: 3rem;
 }
+.tabs_section .element::-webkit-scrollbar {
+    display: none;
+  }
+  
 @media screen and (max-width:1100px) {
     .rating-col p {
         max-width: 90%;

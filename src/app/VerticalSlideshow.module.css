@@ -1,0 +1,55 @@
+/* styles/HorizontalScroll.module.css */
+.scrollContainer {
+  display: flex;
+  width: 400%;
+  height: 100vh;
+}
+
+.section {
+  flex: 1 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  height: 300px;
+    width: 100%;
+}
+
+.gray {
+  background-color: gray;
+  height: 300px;
+    width: 100%;
+}
+
+.purple {
+  background-color: purple;
+  height: 300px;
+    width: 100%;
+}
+
+.green {
+  background-color: green;
+  height: 300px;
+    width: 100%;
+}
+
+.active-1 {
+  /* styles for active red section */
+}
+
+.active-2 {
+  /* styles for active gray section */
+}
+
+.active-3 {
+  /* styles for active purple section */
+}
+
+.active-4 {
+  /* styles for active green section */
+}

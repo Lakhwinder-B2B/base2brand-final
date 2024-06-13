@@ -29,10 +29,9 @@ export default function home() {
                 <p className='col-12 b2b-sub-text'>Our web development service creates customized websites that reflect your unique goals. From user-friendly layouts to seamless navigation, we ensure your online presence stands out. Let&apos;s build a website that speaks for you!</p>
                 <div className="d-flex justify-content-between flex-wrap">
                   <div className="tabs_link b2b-text"><img src={web1.src} className='social_icons mr-3' alt="" /> Remix Framework</div>
-                  <div className="tabs_link b2b-text"><img src={web3.src} className='social_icons mr-3' alt="" /> Laravel Development</div>
-
                   <div className="tabs_link b2b-text"><img src={web2.src} className='social_icons mr-3' alt="" /> MERN Stack Development</div>
 
+                  <div className="tabs_link b2b-text"><img src={web3.src} className='social_icons mr-3' alt="" /> Laravel Development</div>
                   <div className="tabs_link b2b-text"><img src={web4.src} className='social_icons mr-3' alt="" /> ASP.NET Development</div> 
      
                   <div className="tabs_link b2b-text"><img src={web5.src} className='social_icons mr-3' alt="" /> MEAN Stack Development</div>

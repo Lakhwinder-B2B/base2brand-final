@@ -19,6 +19,7 @@ import icon4 from '../../../public/services-img/s4.png';
 import icon5 from '../../../public/services-img/s5.png';  
 import icon6 from '../../../public/services-img/s6.png';  
 import icon7 from '../../../public/services-img/s7.png';  
+import icon8 from '../../../public/img/meta-ads.svg';  
 
 import ecommerce1 from '../../../public/services-img/e1.png';  
 import ecommerce2 from '../../../public/services-img/e2.png';  
@@ -72,14 +73,14 @@ export default function home() {
                   <p className='col-12 b2b-sub-text'>Boosting brand visibility and engagement, our digital marketing services use data-driven strategies for higher ROI. Fun fact: 80% of businesses plan to boost digital marketing spending this year!</p>
                   <div className="d-flex justify-content-between flex-wrap">
                     <div className="tabs_link b2b-text"> <img src={icon1.src} className='social_icons mr-3' alt="" />Search Engine Optimization   </div>
+                    <div className="tabs_link b2b-text"><img src={icon4.src} className='social_icons mr-3' alt="" /> Online Reputation Management </div> 
+
+                    <div className="tabs_link b2b-text"><img src={icon8.src} className='social_icons mr-3' alt="" /> Meta Ads   </div>
                     <div className="tabs_link b2b-text"><img src={icon2.src} className='social_icons mr-3' alt="" /> Social Media Optimization   </div>
 
-                    <div className="tabs_link b2b-text"><img src={icon3.src} className='social_icons mr-3' alt="" /> Facebook/Insta Ads  </div>
-                    <div className="tabs_link b2b-text"><img src={icon4.src} className='social_icons mr-3' alt="" /> Online Reputation Management </div> 
-       
                     <div className="tabs_link b2b-text"><img src={icon5.src} className='social_icons mr-3' alt="" /> Google Ads (PPC) </div>
                     <div className="tabs_link b2b-text"><img src={icon6.src} className='social_icons mr-3' alt="" /> Content Writing </div> 
-  
+                    
                     <div className="tabs_link b2b-text"><img src={icon7.src} className='social_icons mr-3' alt="" /> YouTube Marketing  </div>
                   </div>
                   <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More  </button>

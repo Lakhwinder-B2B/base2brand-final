@@ -32,13 +32,16 @@ export default function home() {
                 <h1 className="b2b-sub-heading">Graphic &amp; UI-UX Designing</h1>
                   <p className='col-12 b2b-sub-text'>Transform your brand with our captivating graphic design services. With attention-grabbing visuals, we&apos;ll help you make a lasting impression. Did you know? Consistent branding can increase revenue by up to 23%!</p>
                   <div className="d-flex justify-content-between flex-wrap">
-                    <div className="tabs_link b2b-text"><img src={graphic1.src} className='social_icons mr-3' alt="" /> Branding & Identity</div>
+                    <div className="tabs_link b2b-text"><img src={graphic1.src} className='social_icons mr-3' alt="" /> Branding &amp; Identity</div>
+                    <div className="tabs_link b2b-text"><img src={graphic3.src} className='social_icons mr-3' alt="" /> Website &amp; App Design</div>
+
+                    <div className="tabs_link b2b-text"><img src={graphic5.src} className='social_icons mr-3' alt="" /> Motion Graphics</div>
                     <div className="tabs_link b2b-text"><img src={graphic2.src} className='social_icons mr-3' alt="" /> Social Media Design</div>
 
-                    <div className="tabs_link b2b-text"><img src={graphic3.src} className='social_icons mr-3' alt="" /> Website & App Design</div>
-                    <div className="tabs_link b2b-text"><img src={graphic4.src} className='social_icons mr-3' alt="" /> 2D & infographic Design</div> 
+                    
+                    <div className="tabs_link b2b-text"><img src={graphic4.src} className='social_icons mr-3' alt="" /> 2D &amp; infographic Design</div> 
        
-                    <div className="tabs_link b2b-text"><img src={graphic5.src} className='social_icons mr-3' alt="" /> Motion Graphics</div>
+                    
                   </div>
                   <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Know More </button>
                 </a>

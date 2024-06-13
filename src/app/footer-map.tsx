@@ -58,6 +58,9 @@ export default function FooterMap() {
                     <div className="row">
                     <div className="col-md-6 text-center mb-5 mb-md-0"    >
                         <img className="m-auto" src={footerMap.src} alt="Map" />
+                        <div className="address1">
+                            <span className=""></span>
+                        </div>
                         </div>  
                         <div className="col-md-6 text-white"   >
                             <form className="footer-form" onSubmit={handleSubmit}>

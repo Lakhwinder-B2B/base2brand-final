@@ -6,6 +6,12 @@
  body {
   font-family: 'Poppins', sans-serif !important;
 }
+ #__next {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
 h1, h2, h3 ,h4, h5, h6{
   font-family: 'Poppins', sans-serif !important;
 }
@@ -315,8 +321,20 @@ a.b2b-btn{
 .b2b-black-bg{
   background-color: #111616;
 }
+.b2b-pink-bg{
+  background-color: #C896FF;
+}
+.b2b-lightBlue-bg{
+  background-color: #B6CCFF;
+}
+.b2b-dark-bg{
+  background-color:#000
+}
+.b2b-light-bg{
+  background-color: #5C5C5C
+}
 .b2b-achievements-wrap{
-  padding: 16px 22px;
+  padding: 16px 18px;
   border-radius: 10px;
   box-shadow: 0px 0px 7.8px 0px #396BDB;
 }
@@ -390,13 +408,17 @@ button.b2b-blog-btn {
 }
 .bg_feedback {
   background: #111616 !important;
-  height: 100%;
+  height: 395px;
   border-radius: 10px;
   margin: 0 15px;
 }
+.feedback_user {
+  position: absolute;
+  bottom: 30px;
+}
 .b2b-workProcess-wrap .img-wrap {
   background-color: #1F222F;
-  padding: 40px;
+  padding: 34px;
   border-radius: 50%;
   box-shadow: 0px 0px 13.8px 0px #7411E1A8;
 
@@ -447,7 +469,22 @@ img.social_icons {
 .reviewSlider {
   margin-bottom: 60px;
 }
-
+span.menuIcon:before{
+  content: '→';
+  font-family: monospace;
+  font-size: 26px;
+  color: #000000;
+}
+.menuText{
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 300;
+}
+.menuInner {
+  padding: 10px 15px;
+  border-radius: 5px;
+}
 @media only screen and (max-width: 767px){
   button.accordion-button.collapsed{
     padding: 10px 15px !important;
@@ -587,7 +624,7 @@ img.social_icons {
   }
   .b2b-title-text {
     font-size: 18px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .b2b-workProcess-wrap P {
     font-size: 18px;
@@ -618,6 +655,10 @@ img.social_icons {
   }
   .feedback_user p {
     font-size: 15px !important;
+  }
+  .menuText{
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 @media screen and (max-width: 991px) {

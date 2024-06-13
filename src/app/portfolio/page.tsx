@@ -2,21 +2,46 @@
 
 import React from "react";
 import Header from "../../../component/header"; 
-import radialLeft from '../../../public/img/radial-left.svg'; 
-import case0 from '../../../public/img/port.svg';         
-import case1 from '../../../public/case/case1.png';        
-import case2 from '../../../public/case/case2.png';        
-import case3 from '../../../public/case/case3.png';        
-import case4 from '../../../public/case/case4.png';        
-import case5 from '../../../public/case/case5.png';        
-import case6 from '../../../public/case/case6.png';        
-import case7 from '../../../public/case/case7.png';        
-import errow from '../../../public/case/right.png';         
+import radialLeft from '../../../public/img/radial-left.svg';         
+import case1 from '../../../public/img/port.svg';        
+import case2 from '../../../public/img/port2.svg';        
+import case3 from '../../../public/img/port3.svg';        
+import case4 from '../../../public/img/port4.svg';        
+import case5 from '../../../public/img/port5.svg';        
+import case6 from '../../../public/img/port6.svg';        
+import case7 from '../../../public/img/port7.svg';        
+import case8 from '../../../public/img/port8.svg';        
+import case9 from '../../../public/img/port9.svg';        
+import case10 from '../../../public/img/port10.svg';        
+import case11 from '../../../public/img/port11.svg';        
+import case12 from '../../../public/img/port12.svg';        
+import case13 from '../../../public/img/port13.svg';        
+import case14 from '../../../public/img/port14.svg';        
+import case15 from '../../../public/img/port15.svg';        
+import case16 from '../../../public/img/port16.svg';        
+import case17 from '../../../public/img/port17.svg';        
+import case18 from '../../../public/img/port18.svg';        
+import case19 from '../../../public/img/port19.svg';        
+import case20 from '../../../public/img/port20.svg';        
+import case21 from '../../../public/img/port21.svg';        
+import case22 from '../../../public/img/port22.svg';        
+import case23 from '../../../public/img/port23.svg';        
+import case24 from '../../../public/img/port24.svg';        
+import case25 from '../../../public/img/port25.svg';          
+import case26 from '../../../public/img/port26.svg';          
+import case27 from '../../../public/img/port27.svg';          
+import case28 from '../../../public/img/port28.svg';          
+import case29 from '../../../public/img/port29.svg';          
+import case30 from '../../../public/img/port30.svg';          
+import case31 from '../../../public/img/port31.svg';          
+import case32 from '../../../public/img/port32.svg';          
+import case33 from '../../../public/img/port33.svg';          
+import case34 from '../../../public/img/port34.svg';          
+import case35 from '../../../public/img/port35.svg';          
 import Typewriter from 'typewriter-effect';
 import Footer from "../../../component/footer";  
 import { useState } from 'react';
 import "./portfolio.css";
-import Request from "../request-quote"; 
 
 
 export default function Portfolio() {
@@ -28,7 +53,7 @@ export default function Portfolio() {
         <div className="  pt-5">
             <div className="row w-100"> 
                 <div className="col-md-6 text-center text-white mt-5 m-auto mb-5 px-5">
-                    <h1>Welcome to our Portfolio</h1>
+                    <h1 className="text-uppercase b2b-heading">Welcome to our Portfolio</h1>
                     <p className="mb-5 mt-4 army">What sets us apart is the inspiring, creative people behind us they are the soul of our company.Here, we proudly display the results of our hard work and dedication.</p>
                     <button className='b2b-btn b2b-btn-lg'>Request a Quote</button> 
                 </div>  
@@ -39,7 +64,7 @@ export default function Portfolio() {
         <div className="work-gallery" style={{ backgroundImage: `url(${radialLeft.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
             <div className="row w-100"> 
                 <div className="col-md-6 text-center text-white mt-5 m-auto px-5">
-                    <h2>impressive portfolio in<br />
+                    <h2 className="text-uppercase b2b-heading">impressive portfolio in<br />
                         in our work gallery</h2>
                 </div>  
                 <div className="col-12">
@@ -63,7 +88,177 @@ export default function Portfolio() {
                                 <div className="row mt-5 justify-content-center">
                                     <div className="col-md-12 mb-5">
                                         <div className="case_box">
-                                            <img src={case0.src} alt="" />
+                                            <img src={case1.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case2.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case3.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case4.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case5.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case6.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case7.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case8.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case9.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case10.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case11.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case12.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case13.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case14.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case15.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case16.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case17.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case18.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case19.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case20.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case21.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case22.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case23.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case24.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case25.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case26.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case27.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case28.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case29.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case30.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case31.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case32.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case33.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case34.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case35.src} alt="" />
                                         </div>
                                     </div>
 
@@ -73,40 +268,193 @@ export default function Portfolio() {
                             </div>
                             <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"  >
                                 <div className="row mt-5 justify-content-center">
-                                <div className="col-md-5 mb-5">
+                                <div className="col-md-12 mb-5">
                                         <div className="case_box">
                                             <img src={case1.src} alt="" />
-                                            <h5>Thinkjr</h5>
-                                            <p>In the dynamic world of web design, where visual aesthetics and user experience reign supreme, typography emerges as a subtle yet powerful tool that can significantly influence.</p>
-                                            <a className="text-white d-flex gap-3 align-items-center pointer">Keep Reading   <img src={errow.src} className="errow" alt="" /> </a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"  >
-                                <div className="row mt-5 justify-content-center">
-                                <div className="col-md-5 mb-5">
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case2.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
                                         <div className="case_box">
                                             <img src={case3.src} alt="" />
-                                            <h5>Protecto</h5>
-                                            <p>In the dynamic world of web design, where visual aesthetics and user experience reign supreme, typography emerges as a subtle yet powerful tool that can significantly influence.</p>
-                                            <a className="text-white d-flex gap-3 align-items-center pointer">Keep Reading   <img src={errow.src} className="errow" alt="" /> </a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case4.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case5.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case6.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case7.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case8.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case9.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case10.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case11.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case12.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case13.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case14.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case15.src} alt="" />
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+
+                            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"  >
+                                <div className="row mt-5 justify-content-center">
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case24.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case25.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case26.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case27.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case28.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case29.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case30.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case31.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case32.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case33.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case34.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case35.src} alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"  >
                                 <div className="row mt-5 justify-content-center">
-                                <div className="col-md-5 mb-5">
+
+                                    <div className="col-md-12 mb-5">
                                         <div className="case_box">
-                                            <img src={case2.src} alt="" />
-                                            <h5>Vyatra</h5>
-                                            <p>In the dynamic world of web design, where visual aesthetics and user experience reign supreme, typography emerges as a subtle yet powerful tool that can significantly influence.</p>
-                                            <a className="text-white d-flex gap-3 align-items-center pointer">Keep Reading   <img src={errow.src} className="errow" alt="" /> </a>
+                                            <img src={case16.src} alt="" />
                                         </div>
                                     </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case17.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case18.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case19.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case20.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case21.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case22.src} alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12 mb-5">
+                                        <div className="case_box">
+                                            <img src={case23.src} alt="" />
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
-                            </div>
 
 
                         </div>
@@ -115,12 +463,6 @@ export default function Portfolio() {
             </div>
         
         </div>
-         
-              
-          
-
-           
-            <Request />
       <Footer />
 
       </div>
