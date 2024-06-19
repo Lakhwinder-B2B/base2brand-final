@@ -26,8 +26,8 @@ import Icon14 from "../../public/services2-img/icon14.svg";
 import Icon15 from "../../public/services2-img/icon15.svg";
 
 
-import Icon16 from "../../public/services2-img/Android-Studio.svg";
-import Icon17 from "../../public/services2-img/Kotlin.svg";
+import Icon16 from "../../public/services2-img/Android-studio.svg";
+import Icon17 from "../../public/services2-img/kotlin.svg";
 import Icon18 from "../../public/services2-img/ios-sdk.svg";
 import Icon19 from "../../public/services2-img/xcode.svg";
 import Icon20 from "../../public/services2-img/React-Native.svg";
