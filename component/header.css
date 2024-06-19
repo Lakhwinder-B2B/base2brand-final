@@ -14,6 +14,7 @@ ul.dropdown-menu {
     padding-top: 34px !important;
     background-color: transparent;
     margin: 0 !important;
+    padding-bottom: 0;
 }
 li.mega-menu {
     padding: 40px 15px !important;

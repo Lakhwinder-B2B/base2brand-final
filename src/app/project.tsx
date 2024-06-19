@@ -44,7 +44,7 @@ export default function home() {
           <div className='container'>
             <div className='progress-count d-flex flex-wrap justify-content-between'>
               <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-achievements-wrap'>
+                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                     <div><img src={yrInIndustury.src} /></div>
                     <div className='ml-3'>
                       <h2 className='text-white text-center'><CountUp end={10} />+</h2>
@@ -54,7 +54,7 @@ export default function home() {
               </div>
 
               <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-achievements-wrap'>
+                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                     <div><img src={projects.src} /></div>
                     <div className='ml-3'>
                       <h2 className='text-white text-center'><CountUp end={500} />+</h2>
@@ -64,7 +64,7 @@ export default function home() {
               </div>
 
               <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-achievements-wrap'>
+                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                     <div><img src={rating.src} /></div>
                     <div className='ml-3'>
                       <h2 className='text-white text-center'><CountUp end={4.9} />+</h2>
@@ -74,7 +74,7 @@ export default function home() {
               </div>
 
               <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-achievements-wrap'>
+                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                     <div><img src={happyClient.src} /></div>
                     <div className='ml-3'>
                       <h2 className='text-white text-center'><CountUp end={100} />+</h2>
@@ -84,7 +84,7 @@ export default function home() {
               </div>
 
               <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-achievements-wrap'>
+                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                     <div><img src={design.src} /></div>
                     <div className='ml-3'>
                       <h2 className='text-white text-center'><CountUp end={100} />+</h2>

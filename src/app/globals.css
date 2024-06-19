@@ -15,6 +15,9 @@
 h1, h2, h3 ,h4, h5, h6{
   font-family: 'Poppins', sans-serif !important;
 }
+a{
+  text-decoration: none !important;
+}
 ul.flex li a {
     font-weight: 100;
     text-decoration: auto;
@@ -485,7 +488,64 @@ span.menuIcon:before{
   padding: 10px 15px;
   border-radius: 5px;
 }
+span.addressDot {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-color: #396BDB;
+  border-radius: 50%;
+  border: 5px solid #828282;
+  border-style: solid;
+}
+.mapWrapper{
+  position: relative;
+}
+.address1 {
+  position: absolute;
+  top: 18%;
+  left: 112px;
+}
+.address2 {
+  position: absolute;
+  top: 32%;
+  left: 44%;
+}
+.address3 {
+  position: absolute;
+  top: 54%;
+  left: 66%;
+}
+.tooltipText{
+  font-size:10px;
+  font-weight: 400;
+  line-height: normal;
+}
+.tooltipTitle{
+  font-size:15px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+.full_height {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b2b-achievements-wrap img {
+  width: auto;
+  height: 50px;
+}
 @media only screen and (max-width: 767px){
+  .logo_brand img {
+    margin: auto;
+    display: flex !important;
+    justify-content: center;
+}
+.row.w-100.d-flex.flex-wrap.align-items-center.m-auto.b2b-gray-bg.p-5 {
+  padding: 10px !important;
+}
   button.accordion-button.collapsed{
     padding: 10px 15px !important;
   }
@@ -586,9 +646,9 @@ span.menuIcon:before{
     line-height: 48px;
   }
   .b2b-btn-lg {
-    font-size: 20px;
-    line-height: 32px;
-    padding: 18px 58px;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 14px 50px;
   }
   .b2b-heading {
     font-size: 35px;

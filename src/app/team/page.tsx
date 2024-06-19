@@ -2,16 +2,56 @@
 
 import React, { useEffect,useState, useRef } from 'react';
 import Header from "../../../component/header";
-import AboutMask from "../../../public/about-img/about-mask.png";
-import Ceo from "../../../public/about-img/ceo.svg"
-import About1 from "../../../public/about-img/about1.svg"
-import About2 from "../../../public/about-img/about-left.svg"
-import AboutColumns from "../about-columns"
-import Quote from "../request-quote";
+import About1 from "../../../public/img/team-page.svg"
 import Footer from "../../../component/footer";
-import "../about/about.css";
+import "../team/about.css";
 import Request from "../request-form";
 import radialBg from '../../../public/img/radial_bg.svg'; 
+import Icon1 from '../../../public/team-img/icon1.svg'; 
+import Icon2 from '../../../public/team-img/icon2.svg'; 
+import manpreetSingh from '../../../public/team-img/manpreet-Singh.png'; 
+import ArshpreetSingh from '../../../public/team-img/Arshpreet-Singh.png'; 
+import Sumek from '../../../public/team-img/Sumek.png'; 
+import SandeepSingh from '../../../public/team-img/Sandeep-Singh.png'; 
+import SurajParkash from '../../../public/team-img/SurajParkash.png'; 
+import DeeptiDixit from '../../../public/team-img/DeeptiDixit.png'; 
+import LoveeJarewal from '../../../public/team-img/LoveeJarewal.png'; 
+import MohdSami from '../../../public/team-img/MohdSami.png'; 
+import SahilSolanki from '../../../public/team-img/SahilSolanki.png'; 
+import SumitKumar from '../../../public/team-img/SumitKumar.png'; 
+import VarshaKumari from '../../../public/team-img/VarshaKumari.png'; 
+import AmanKumar from '../../../public/team-img/AmanKumar.png'; 
+import RishabhDixit from '../../../public/team-img/RishabhDixit.png'; 
+import SameerKathat from '../../../public/team-img/SameerKathat.png'; 
+import Zaid from '../../../public/team-img/Zaid.png'; 
+import NasirAhmed from '../../../public/team-img/NasirAhmed.png'; 
+import Suryathakur from '../../../public/team-img/Suryathakur.png'; 
+import VineetKumarRana from '../../../public/team-img/VineetKumarRana.png'; 
+import AmbalikaPhanker from '../../../public/team-img/AmbalikaPhanker.png'; 
+import RajanKumar from '../../../public/team-img/RajanKumar.png'; 
+import AnuragSharma from '../../../public/team-img/AnuragSharma.png'; 
+import RahulRaj from '../../../public/team-img/RahulRaj.png'; 
+import MDSahjadAnsari from '../../../public/team-img/MDSahjadAnsari.png'; 
+import DeepakChauhan from '../../../public/team-img/DeepakChauhan.png'; 
+import Lakhwinder from '../../../public/team-img/Lakhwinder.png'; 
+import VikashSoni from '../../../public/team-img/VikashSoni.png'; 
+import SanjeevKumar from '../../../public/team-img/SanjeevKumar.png'; 
+import ParshantKumar from '../../../public/team-img/ParshantKumar.png'; 
+import Ramnish from '../../../public/team-img/Ramnish.png'; 
+import OmParkash from '../../../public/team-img/OmParkash.png'; 
+import SaddamHusain from '../../../public/team-img/SaddamHusain.png'; 
+import GauravKumar from '../../../public/team-img/GauravKumar.png'; 
+import RishavKarn from '../../../public/team-img/RishavKarn.png'; 
+import HarshRaj from '../../../public/team-img/HarshRaj.png'; 
+import ShubhamSharma from '../../../public/team-img/ShubhamSharma.png'; 
+import LalitKumar from '../../../public/team-img/LalitKumar.png'; 
+
+import Img1 from '../../../public/team-img/img1.png'; 
+import Img2 from '../../../public/team-img/img2.png'; 
+import Img3 from '../../../public/team-img/img3.png'; 
+import Img4 from '../../../public/team-img/img4.png'; 
+import Img5 from '../../../public/team-img/img5.png'; 
+import Img6 from '../../../public/team-img/img6.png'; 
 import Slider from "react-slick";
 import { Link,  Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import radialRight from '../../../public/img/radial-right.svg'; 
@@ -20,298 +60,372 @@ import radialRight from '../../../public/img/radial-right.svg';
 
 export default function Team() {
 
-  const [showModal, setShowModal] = useState(false);
-
-  const toggleModal = () => {
-    setShowModal(!showModal);
-  };
-  
-  const settings = {
-    dots: true,
-    arrows : true, 
-    infinite: true,
-    centerMode: true,
-    autoplay: false,
-    autoplaySpeed: 2500,
-    slidesToShow: 1,
-    slidesToScroll: 1, 
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-
-  const tabContainerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const activeTab = tabContainerRef.current?.querySelector('.nav-link.active');
-    if (activeTab) {
-      const parentRect = tabContainerRef.current?.getBoundingClientRect();
-      const activeRect = activeTab.getBoundingClientRect();
-      const isInView = activeRect.top >= parentRect.top && activeRect.bottom <= parentRect.bottom;
-      if (!isInView) {
-        const offset = activeRect.top - parentRect.top - (parentRect.height - activeRect.height) / 2;
-        tabContainerRef.current?.scrollBy({ top: offset, behavior: 'smooth' });
-      }
-    }
-  }, []);
-
-
-
   return (
     <>
       <Header />
-        <div className="bg_about pt-0 pb-0">
-          <div className="about-mask pt-5" data-aos="fade-up" style={{backgroundImage: `url(${radialBg.src})`,width: '100%',height: '100%',}}>
-          <div className="row m-0 position-relative text-white pt-5"> 
-              <div className="col-12 col-sm-12 col-md-4 position-relative ph_remove_about" data-aos="slide-down">
-              <img className="about_bottom" src={About2.src} alt="" />
+        <div className="pt-0 pb-0 b2b-black-bg">
+          <div className="about-mask pt-5" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>
+            <div className="row m-0 position-relative text-white pt-5"> 
+              
+              <div className="col-12 col-sm-12 col-md-7 m-auto text-center">
+                  <h1 className='b2b-sub-heading-bold text-uppercase'>Our Cherished Teams</h1>
+                  <p className='b2b-sub-text'>Each member in our team is experienced and well efficient to deliver the assigned projects before the deadline. We rely on them to fulfill the promises we make to our clients.</p>
+                  <div className="mt-5 text-center mb-5 pb-5">
+                    <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                  </div>
+                  <div className='mt-3 text-center'>
+                    <img src={About1.src} alt="" />
+                  </div>
                 
               </div>
-              <div className="col-12 col-sm-12 col-md-4 text-center">
-                  <h1>SMART IDEAS FOR <br /> YOUR BRAND ARE HERE.</h1>
-                  <p>We blend incredible Design and Development Skills with phenomenol Digital Marketing techniques to furnish your brand with the online solutions you deserve</p>
-                  <div className="mt-5 text-center mb-5 pb-5">
-                <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
-                </div>
-              </div>
-              <div className="col-12 col-sm-12 col-md-4 position-relative">
-              <img className="about_bottom" src={About1.src} alt="" />
-
-              </div>
+              
              
             </div>
-            </div>
-
-        <div className="bg_dark_about">
-          <div className="container ">
-            <div className="row">
-              <div className="col-md-10 mx-auto text-center text-white"> 
-          <h1>About Us</h1>
-          <p className='b2b-text'>Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
-        <p className='b2b-text'>Here at Base2Brand, we particularize in providing results-oriented integrated online marketing solutions for medium and large businesses across the globe. We facilitate businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with a Professional Online Marketing Strategy.</p>
-        <div className="mt-5 text-center">
-                <button className="b2b-btn b2b-btn-sm">Read More</button>
-                </div>
-        </div>
-        </div>
-        </div>
-            </div>
-
-
-
-              <div className="slick_slider_about position-relative b2b-black-bg">
-              <Slider {...settings} className="w-100">
-
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">Sahbad Guru</p> 
-                    <div className="detail_box col-md-6">
-                      <p>Dedicated SEO work for ShabadGuru for 2 years, a premier website for Gurbani, Raags, and Kirtan.</p>
-                      <p>We've enhanced Shabad Guru online visibility and accessibility so that spiritual wisdom can easily be found. </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">VIP Number Shop</p> 
-                    <div className="detail_box col-md-6">
-                      <p>We have propelled VIP Number Shop to new heights, a Bollywood celebrities trusted brand, through targeted Meta Ads, Google Ads, Social Media campaigns, and SEO optimizations.</p>
-                      <p>We&apos;ve boosted visibility, engagement, and sales of VIP phone numbers for VIP Number Shop.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">International Nanny</p> 
-                    <div className="detail_box col-md-6">
-                      <p>With four years of dedicated SEO efforts, International Nanny has achieved remarkable success in ranking for various keywords related to nanny services.</p>
-                      <p>Our goal is to provide quality work to our clients like International Nanny for the long term.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">Insight Media Solution</p> 
-                    <div className="detail_box col-md-6">
-                      <p>We have been working together for three years, Insights Media Solution has harnessed the power of SEO to elevate its service pages to top rankings.</p>
-                      <p>We have cemented Insights Media Solution&apos;s reputation as a trusted leader in the digital marketing industry.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">CZUR</p> 
-                    <div className="detail_box col-md-6">
-                      <p>Our partnership with CZUR, a leading brand in office gadgets and equipment, has been achieving their sales goals through organic traffic.</p>
-                      <p>Together, we have opened up the possibility of using digital marketing to supply companies or individuals with electronic equipment.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">Mayacare Foundation</p> 
-                    <div className="detail_box col-md-6">
-                      <p>Mayacare, a charitable organization that makes a difference in the lives of Persons with Disabilities (PWDs) and the elderly.</p>
-                      <p>By using social media marketing strategically, we've been able to expand Mayacare&apos;s reach and reach more people in need.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">World Interior Decor</p> 
-                    <div className="detail_box col-md-6">
-                      <p>World Interior Decor provides high-quality window curtains, blinds, and draperies.</p>
-                      <p>By executing strategic Meta Ads and SEO, we've grown its online presence, making it easier for customers to find World Interior Decor&apos;s window solutions.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="center_slide">
-                  <div className="product_name">
-                    <p className="border_pro_name col-md-3">Healthy Bedroom</p> 
-                    <div className="detail_box col-md-6">
-                      <p>Healthy Bedroom, a luxurious mattress seller, has thrived under our guidance for four years.</p>
-                      <p>Through meticulous Google Ads and SEO strategies, we've positioned Healthy Bedroom at the forefront of the luxury mattress market.</p>
-                    </div>
-                  </div>
-                </div>
-                </Slider>
-              </div>
           
-         
-            <div className="tabs_section py-5 b2b-black-bg">
-              <div className='container'>
-                <div className='row'>
-                  <div className='col-lg-12'>
-                    <h2 className='b2b-main-heading text-center mb-5'>Reasons to collaborate<br />with Base2Brand</h2>
-                  </div>
-                  <div className='col-lg-3 tabsLink'>
-                      <Link className="b2b-main-heading text-uppercase" activeClass="active" to="firstInsideContainer" spy={true} smooth={true} duration={250} containerId="containerElement">
-                        Mission
-                      </Link>
-
-                      <Link className="b2b-main-heading text-uppercase" activeClass="active" to="secondInsideContainer" spy={true} smooth={true} duration={250} containerId="containerElement">
-                        Vission
-                      </Link>
-                      <Link className="b2b-main-heading text-uppercase" activeClass="active" to="thirdInsideContainer" spy={true} smooth={true} duration={250} containerId="containerElement">
-                        Values
-                      </Link>
-                  </div>
-                  <div className='col-lg-9'>
-                    <Element name="test7" className="element" id="containerElement" style={{
-                        position: 'relative',
-                        height: '200px',
-                        overflowY: 'scroll',
-                        scrollBehavior: 'smooth',
-                      }}>
-                        <div className='innerWrap'>
-                        <Element name="firstInsideContainer" style={{
-                            paddingBottom: '200px'
-                          }}>
-                          <p className='b2b-text'>Our mission is to create innovative products and hand-over excellency with constant emphasis on process quality, consumer satisfaction and transparency.</p>
-                          <p className='b2b-text'>We aim to become a remarkable institution by providing premier IT-based services and solutions to establishments worldwide</p>
-                        </Element>
-
-                        <Element name="secondInsideContainer" style={{
-                            paddingBottom: '200px'
-                          }}>
-                            <p className='b2b-text'>The vision in your mind is the future you wish to achieve! The vision of the company is to provide high-quality services to our global clients.</p> 
-                            <p className='b2b-text'>With our vision, we want to create a work environment that encourages creativity, innovation and self-growth.</p>
-                        </Element>
-                        <Element name="thirdInsideContainer" style={{
-                            paddingBottom: '0px'
-                          }}>
-                            <p className='b2b-text'>The strengths of any organization lie in the values they uphold. We believe that quality should be maintained while meeting deadlines. Hence, our USP is delivering quality services within the deadlines!</p>
-
-                            <p className='b2b-text'>As a company, we strive to do business with moral correctness, integrity, and a sincere heart for others. Thus, here at Base2Brand, we work towards nurturing and inculcating them at every stage!</p>
-                        </Element>
-                        </div>
-                      </Element>
-                  </div>
-                </div>
-              </div>
-                
-
-          
-
             
-            </div>
-              <div className="b2b-black-bg pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
-                <div className="container p-5">
-                  <div className="row">
-                    <div className="col-md-8 mx-auto">
-
-                    <div className="ceo_img" style={{backgroundImage: `url(${Ceo.src})`,width: '100%',height: '100%',}}>
-                    <div className='center_desc_about'>
-                      <h3 className='pt-5 mt-3'>Arti Bhatia is the Co-founder, CEO, and growth hacker at Base2Brand  headquartered in MOhali, India, and an office in U.K., CANADA..</h3>
-                        <div className="ceo_name_align">
-                        <h2>Arti Bhatia</h2>
-                          <p className='mb-0 b2b-text fs-7'>Base2Brand is a team of creative and great minds that resonate and find solutions to all the challenges and hardships they face in their jobs.</p>
+              <div className="crew-wrap mt-5">
+                <div className="row justify-content-center higher-officials">
+                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
+                      <h1 className='b2b-sub-heading-bold text-uppercase'>Higher Officials</h1>
+                  </div>
+                  <div className='col-md-4 mb-5'>
+                    <img src={Icon1.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rakesh Arora</h3>
+                      <p>Managing Director (MD)</p>
                     </div>
+                  </div>
+                  <div className='col-md-4 mb-5'>
+                    <img src={Icon2.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rahul Dhyaniya</h3>
+                      <p>Chief Executive Officer (CEO)</p>
                     </div>
-                    </div>
-                    </div>
-
                   </div>
                 </div>
-
-                <div className='container mb-5'>
-                          <div className="row justify-content-center">
-                            <div className="col-lg-12">
-                              <h2 className='b2b-main-heading text-center mb-5'>More about us</h2>
-                            </div>
-                            <div className="col-lg-3 mb-3">
-                              <div className="menuInner b2b-pink-bg">
-                                  <h3 className='b2b-title-text text-black'>Team</h3>
-                                  <div className='d-flex align-items-center justify-content-between'>
-                                    <p className='menuText mb-0'>We are proud of our experienced and accomplished team!</p>
-                                    <span className='menuIcon pl-3'></span>
-                                  </div>
-                              </div>
-                            </div>
-                            <div className="col-lg-3 mb-3">
-                              <div className="menuInner b2b-lightBlue-bg">
-                                  <h3 className='b2b-title-text text-black'>Career</h3>
-                                  <div className='d-flex align-items-center justify-content-between'>
-                                    <p className='menuText mb-0'>Can you offer such<br /> experience?</p>
-                                    <span className='menuIcon pl-3'></span>
-                                  </div>
-                              </div>
-                            </div>
-                          </div>
+                <div className="row justify-content-center mt-5">
+                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
+                      <h1 className='b2b-sub-heading-bold text-uppercase'>Team</h1>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={manpreetSingh.src} alt='' />
+                    <div className='team-details'>
+                      <h3>manpreet Singh</h3>
+                      <p>Project Manager</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={ArshpreetSingh.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Arshpreet Singh</h3>
+                      <p>Project Coordinator</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SandeepSingh.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sandeep Singh</h3>
+                      <p>Technical Lead</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={Sumek.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sumek</h3>
+                      <p>Human Resource Executive</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SurajParkash.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Suraj Parkash</h3>
+                      <p>Quality Analyst</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={DeeptiDixit.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Deepti Dixit</h3>
+                      <p>Business Development Executive</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={LoveeJarewal.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Lovee Jarewal</h3>
+                      <p>Business Development Executive</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={MohdSami.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Mohd Sami</h3>
+                      <p>Business Development Executive</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SahilSolanki.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sahil Solanki</h3>
+                      <p>graphic designer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SumitKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sumit Kumar</h3>
+                      <p>Graphic Designer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={VarshaKumari.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Varsha Kumari</h3>
+                      <p>Graphic Designer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={AmanKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Aman Kumar</h3>
+                      <p>Graphic Designer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={RishabhDixit.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rishabh Dixit</h3>
+                      <p>Video Editor</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SameerKathat.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sameer Kathat</h3>
+                      <p>Digital Marketing Team Lead</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={Zaid.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Zaid</h3>
+                      <p>Digital Marketing Project Manager</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={NasirAhmed.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Nasir Ahmed</h3>
+                      <p>Senior Digital Marketer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={Suryathakur.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Surya thakur</h3>
+                      <p>Senior Digital Marketer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={VineetKumarRana.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Vineet Kumar Rana</h3>
+                      <p>Digital Marketer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={AmbalikaPhanker.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Ambalika Phanker</h3>
+                      <p>Digital Marketer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={RajanKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rajan Kumar</h3>
+                      <p>Digital Marketer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={AnuragSharma.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Anurag Sharma</h3>
+                      <p>Content Writer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={RahulRaj.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rahul Raj</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={MDSahjadAnsari.src} alt='' />
+                    <div className='team-details'>
+                      <h3>MD. Sahjad Ansari</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={DeepakChauhan.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Deepak Chauhan</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={Lakhwinder.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Lakhwinder</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={VikashSoni.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Vikash Soni</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SanjeevKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sanjeev Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={ParshantKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Parshant Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={Ramnish.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Ramnish</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={OmParkash.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Om Parkash</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={SaddamHusain.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Saddam Husain</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={GauravKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Gaurav Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={RishavKarn.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rishav Karn</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={HarshRaj.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Harsh Raj</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={ShubhamSharma.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Shubham Sharma</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col-md-3 mb-5'>
+                    <img src={LalitKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Lalit Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
+            
+          </div>
+
+          
+          
+          <div className="b2b-black-bg pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+              <div className="crew-wrap work-with-us mt-5">
+                <div className="row justify-content-center higher-officials">
+                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
+                      <h1 className='b2b-sub-heading-bold text-uppercase'>We Believe In Ourselves <br />You&apos;ll Love Working With Us</h1>
+                  </div>
+                  <div className='col-md-12 mb-4'>
+                    <img src={Img1.src} alt='' />
+                  </div>
+                  <div className='col-12 col-md-6  mb-4'>
+                    <img src={Img2.src} alt='' />
+                  </div>
+                  <div className='col-12 col-md-6  mb-4'>
+                    <img src={Img3.src} alt='' />
+                  </div>
+                  <div className='col-md-12  mb-4'>
+                    <img src={Img4.src} alt='' />
+                  </div>
+                  <div className='col-12 col-md-6  mb-4'>
+                    <img src={Img5.src} alt='' />
+                  </div>
+                  <div className='col-12 col-md-6  mb-4'>
+                    <img src={Img6.src} alt='' />
+                  </div>
+                </div>
+              </div>
+              
+              <div className='container mb-5 pt-5'>
+                <div className="row justify-content-center">
+                  <div className="col-lg-12">
+                    <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
+                  </div>
+                  <div className="col-lg-3 mb-3">
+                    <a href="/about">
+                      <div className="menuInner b2b-lightBlue-bg">
+                          <h3 className='b2b-title-text text-black'>About Us</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>We are super efficient and humble to serve you.</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a> 
+                  </div>
+                  <div className="col-lg-3 mb-3">
+                    <a href="/career">
+                      <div className="menuInner b2b-lightBlue-bg">
+                          <h3 className='b2b-title-text text-black'>Career</h3>
+                          <div className='d-flex align-items-center justify-content-between'>
+                            <p className='menuText mb-0'>Can you offer such<br /> experience?</p>
+                            <span className='menuIcon pl-3'></span>
+                          </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
           <Footer />
         </div>
-
-        {showModal && 
-        <Request 
-          onCloseModal={toggleModal} 
-        />
-      }
       </>
   );
 }

@@ -27,7 +27,7 @@ export default function AboutUs() {
     setShowModal(!showModal);
   };
   
-  const settings = {
+  const settings = { 
     dots: true,
     arrows : true, 
     infinite: true,
@@ -279,28 +279,32 @@ export default function AboutUs() {
                   </div>
                 </div>
 
-                <div className='container mb-5'>
+                <div className='container mb-5 pt-5'>
                           <div className="row justify-content-center">
                             <div className="col-lg-12">
-                              <h2 className='b2b-main-heading text-center mb-5'>More about us</h2>
+                              <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                             </div>
                             <div className="col-lg-3 mb-3">
-                              <div className="menuInner b2b-pink-bg">
-                                  <h3 className='b2b-title-text text-black'>Team</h3>
-                                  <div className='d-flex align-items-center justify-content-between'>
-                                    <p className='menuText mb-0'>We are proud of our experienced and accomplished team!</p>
-                                    <span className='menuIcon pl-3'></span>
-                                  </div>
-                              </div>
+                              <a href="/team">
+                                <div className="menuInner b2b-pink-bg">
+                                    <h3 className='b2b-title-text text-black'>Team</h3>
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                      <p className='menuText mb-0'>We are proud of our experienced and accomplished team!</p>
+                                      <span className='menuIcon pl-3'></span>
+                                    </div>
+                                </div>
+                              </a>
                             </div>
                             <div className="col-lg-3 mb-3">
-                              <div className="menuInner b2b-lightBlue-bg">
-                                  <h3 className='b2b-title-text text-black'>Career</h3>
-                                  <div className='d-flex align-items-center justify-content-between'>
-                                    <p className='menuText mb-0'>Can you offer such<br /> experience?</p>
-                                    <span className='menuIcon pl-3'></span>
-                                  </div>
-                              </div>
+                              <a href="/career">
+                                <div className="menuInner b2b-lightBlue-bg">
+                                    <h3 className='b2b-title-text text-black'>Career</h3>
+                                    <div className='d-flex align-items-center justify-content-between'>
+                                      <p className='menuText mb-0'>Can you offer such<br /> experience?</p>
+                                      <span className='menuIcon pl-3'></span>
+                                    </div>
+                                </div>
+                              </a>
                             </div>
                           </div>
                 </div>

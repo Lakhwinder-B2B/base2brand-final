@@ -7,6 +7,8 @@ import radialRight from '../../public/img/radial-right.svg';
 import './our-project.css'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Tooltip } from 'react-tooltip';
+
 
 export default function FooterMap() {
     const [formData, setFormData] = useState({
@@ -56,11 +58,44 @@ export default function FooterMap() {
                     </div>
 
                     <div className="row">
-                    <div className="col-md-6 text-center mb-5 mb-md-0"    >
-                        <img className="m-auto" src={footerMap.src} alt="Map" />
-                        <div className="address1">
-                            <span className=""></span>
-                        </div>
+                        <div className="col-md-6 text-center mb-5 mb-md-0"    >
+                            <div className="mapWrapper">
+                                <img className="m-auto" src={footerMap.src} alt="Map" />
+                                <div className="address1">
+                                    
+                                    <span data-tooltip-id="my-tooltip-1" className="addressDot"></span>
+                                </div>
+                                <Tooltip
+                                        id="my-tooltip-1"
+                                        className="tooltipText"
+                                        place="top"
+                                        html="<p class='tooltipTitle'>CANADA</p>
+                                        Ms Ady 114, Bellchase Trail Brampton<br />
+                                        ON L6P 3LA +1(416) 879-22444"
+                                    />
+                                <div className="address2">
+                                    <span data-tooltip-id="my-tooltip-2" className="addressDot"></span>
+                                </div>
+                                <Tooltip
+                                        id="my-tooltip-2"
+                                        className="tooltipText"
+                                        place="top"
+                                        html="<p class='tooltipTitle'>Uk</p>
+                                        Ms Ady 114, Bellchase Trail Brampton,<br />
+                                        ON L6P 3LA +1(416) 879-2244"
+                                    />
+                                <div className="address3">
+                                    <span data-tooltip-id="my-tooltip-3" className="addressDot"></span>
+                                </div>
+                                <Tooltip
+                                        id="my-tooltip-3"
+                                        className="tooltipText"
+                                        place="top"
+                                        html="<p class='tooltipTitle'>India</p>
+                                        F-209, Industrial area Phase 8-B,<br />
+                                        Sector 74, Mohali, 160074"
+                                    />
+                            </div>  
                         </div>  
                         <div className="col-md-6 text-white"   >
                             <form className="footer-form" onSubmit={handleSubmit}>

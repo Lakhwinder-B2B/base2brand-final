@@ -13,14 +13,16 @@ export default function RequestQuote() {
 
   return (
     <>  
-    <div className="p-5 quote"> 
-            <div className="quote-box text-white text-center"  >
-                <h1 className='mb-3'>Let&apos;s get to Work</h1>
-                <p className='mb-4'>Ready to reach your business goals, faster? Drop us a line today.</p>
-                <button type="button"  onClick={toggleModal} className="btn text-white radius outline border-white py-2 px-5">Request a Quote</button>
+    <div className="py-5 mb-5 b2b-black-bg" >
+                <div className="col-md-12 text-center" >
+                    <h3 className='b2b-partners-heading'>Let's Discuss Your Project, We'll Come Up<br />with the Best Solutions</h3> 
+                    <p className="text-white">Ready to reach your business goals, faster? Drop us a line today.</p>
+                    <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
+                      <button className="b2b-btn b2b-btn-lg m-0" onClick={toggleModal}>Request a Quote</button>
+                    </div>
+                </div>
+                
             </div>
-            
-    </div>
 
     {showModal && 
         <Request 
