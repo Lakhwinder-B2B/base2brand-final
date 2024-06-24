@@ -1,0 +1,46 @@
+name: QD Frontend Development
+
+on:
+  push:
+    branches: [ "main" ]
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.17.0]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build
+    - name: ssh deploy
+      uses: easingthemes/ssh-deploy@main
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          REMOTE_HOST: ${{ secrets.HOST }}
+          REMOTE_USER: ${{ secrets.USER }}
+          TARGET: ${{ secrets.LIVE_PATH }}
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_DEPLOY_KEY }}
+          script: |
+              cd ${{ secrets.LIVE_PATH }} 
+              if pm2 describe base2brand > /dev/null; then 
+                pm2 restart base2brand
+              else
+                pm2 start npm --name "base2brand" -- start
+              fi
