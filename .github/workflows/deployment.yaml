@@ -39,8 +39,4 @@ jobs:
           key: ${{ secrets.SSH_DEPLOY_KEY }}
           script: |
               cd ${{ secrets.LIVE_PATH }} 
-              if pm2 describe base2brand > /dev/null; then 
-                pm2 restart base2brand
-              else
-                pm2 start npm --name "base2brand" -- start
-              fi
+              pm2 restart base2brand
