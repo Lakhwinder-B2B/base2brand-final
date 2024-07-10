@@ -81,7 +81,7 @@ export default function Home() {
     
       <Header />
       <div className="bg_home" style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
-        <div className="container mx-auto pt-4 pb-5"> 
+        <div className="container mx-auto pt-4 pb-5 full_height"> 
           <div className="row align-items-center position-relative">
             <div className="col-md-2 mob-none"  >  
                   <img src={b2b1.src} className='banner_icon_section' />

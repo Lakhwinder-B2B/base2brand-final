@@ -1,8 +1,8 @@
 'use client' 
 import React, { useState } from "react";     
 import Theme from '../../../public/app/theme.png';            
-import Big1 from '../../../public/app/b1.png';            
-import Big2 from '../../../public/app/b2.png';            
+import benefits from '../../../public/app/benefita-of-mobile-app.png';            
+import Big2 from '../../../public/app/social-media-marketing.png';            
 import Big3 from '../../../public/app/b3.png';            
 import Big4 from '../../../public/app/b4.png';            
 import Big5 from '../../../public/app/b5.png';            
@@ -20,100 +20,73 @@ export default function Big_Commerce() {
   return (
     <>  
         <div className="p-5 bg_light_green"> 
-    <div className="container"> 
-<div className="row text-white  ">
-      <div className="col-md-12 mx-auto text-center">
-        <h2>Shopline theme and app development<br /> by Base<span className='text_primary'>2</span>Brand</h2>
-        
-      </div>
-      <div className="col-md-4 mt-5">
-        <div className="needBox">
-            <img src={Big1.src} alt="" />
-            <div className="p-3 pb-3">
-                <h4 className='mt-3 mb-3 text_primary'>Custom Shopline Development</h4>
-                <p className='font-weight-normal'>Creating your store from the ground up becomes simpler when aiming for a brand reputation boost. Our Shopline development services provide the perfect solution for your eCommerce store, ensuring high-quality returns.</p>
-                 
-            </div>
+          <div className="container"> 
+            <div className="row text-white justify-content-center">
+              <div className="col-md-12 mx-auto text-center">
+                <h2 className="b2b-heading">Benefits of a Mobile App For Your Business</h2>
+              </div>
+              <div className="col-md-4 mt-5">
+                <div className="benefit-wrap">
+                    <div className="px-3">
+                        <h4 className='b2b-text-lg'>1. Customer Engagemen</h4>
+                        <p className='b2b-text-sm mb-0'>Mobile apps enable personalized notifications, promotions, and feedback, fostering deeper engagement and understanding of preferences, vital for refining products.</p>
+                        
+                    </div>
+                    <div className="px-3">
+                        <h4 className='b2b-text-lg'>2. Brand Visibility</h4>
+                        <p className='b2b-text-sm mb-0'>Brand Visibility: Well-designed apps strengthen brand recognition and recall, ensuring continuous visibility on customers' screens, essential for staying competitive.</p>
+                        
+                    </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 mt-5">
+                    <img src={benefits.src} alt="" />
+              </div>
+
+              <div className="col-md-4 mt-5">
+                <div className="benefit-wrap">
+                    <div className="px-3">
+                        <h4 className='b2b-text-lg'>3. Marketing Efforts</h4>
+                        <p className='b2b-text-sm text-end mb-0'>Apps facilitate targeted campaigns through user data analysis, tailoring promotions and offers to maximize conversion rates and optimize ROI.</p>
+                        
+                    </div>
+                    <div className="px-3">
+                        <h4 className='b2b-text-lg'>4. Customer Service</h4>
+                        <p className='b2b-text-sm text-end mb-0'>Convenient platforms for support, offering features like live chat and FAQs, enhance user experience, resolve issues promptly, and foster long-term loyalty.</p>
+                        
+                    </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 mt-5">
+                    <div className="p-3 pb-3">
+                        <h4 className='b2b-text-lg'>5. Increased Sales</h4>
+                        <p className='b2b-text-sm'>Seamless purchasing experiences on mobile apps significantly boost sales, providing convenient access to products or services anytime, anywhere, driving revenue growth.</p>
+                        
+                    </div>
+              </div>
+
+
+            </div> 
+          </div>
         </div>
-      </div>
 
-      <div className="col-md-4 mt-5">
-        <div className="needBox">
-            <img src={Big2.src} alt="" />
-            <div className="p-3 pb-3">
-                <h4 className='mt-3 mb-3 text_primary'>Shopline Theme Customization </h4>
-                <p className='font-weight-normal'>While Shopline offers a diverse range of pre-designed themes, businesses often have unique ideas that don&apos;t align with the available options. Our Shopline theme customization services allow you to create a visually captivating and one-of-a-kind storefront.</p>
-           
-            </div>
+
+        <div className="py-5">
+          <div className="container">
+              <div className="row align-items-center"> 
+              <div className="col-md-5">
+                    <img src={Big2.src} alt="" />
+                  </div>
+                  <div className="col-md-7 text-white"> 
+                      <h1 className="b2b-heading mb-3">Mobile App Development <br />Services We Offer</h1>
+                      <p className="b2b-text-sm">Our mobile app development services cover iOS, Android, React Native, and Flutter platforms, offering versatile solutions. For iOS, we create sleek, user-friendly experiences optimized for Apple devices, incorporating the latest features. Similarly, our Android expertise ensures seamless performance across a wide range of devices. Additionally, we excel in React Native and Flutter for efficient cross-platform development and visually stunning apps</p>
+                  </div>
+                  
+              </div>
+          </div>
         </div>
-      </div>
-
-      <div className="col-md-4 mt-5">
-        <div className="needBox">
-            <img src={Big3.src} alt="" />
-            <div className="p-3 pb-3">
-                <h4 className='mt-3 mb-3 text_primary'>Shopline Integration</h4>
-                <p className='font-weight-normal'>In certain instances, you may need advanced features and functionalities to enhance your store performance. Fortunately, Shopline app store offers seamless integration with numerous third-party apps and services, providing the boost you need.</p>
- 
-            </div>
-        </div>
-      </div>
-
-
-      <div className="col-md-4 mt-5">
-        <div className="needBox">
-            <img src={Big4.src} alt="" />
-            <div className="p-3 pb-3">
-                <h4 className='mt-3 mb-3 text_primary'>Shopline Migration</h4>
-                <p className='font-weight-normal'>To stay up-to-date with security updates and support, migrating to the latest version of the Shopline platform becomes essential. Our Shopline Migration services ensure accurate mapping and the seamless transfer of your data to the new destination.</p>
-            </div>
-        </div>
-      </div>
-
-      <div className="col-md-4 mt-5">
-        <div className="needBox">
-            <img src={Big5.src} alt="" />
-            <div className="p-3 pb-3">
-                <h4 className='mt-3 mb-3 text_primary'>Support and Maintenance</h4>
-                <p className='font-weight-normal'>We offer continuous support and maintenance services for Shopline, ensuring your store operates smoothly and optimally. Our dedicated team addresses any bugs that may arise, provides timely updates to keep your store up-to-date, and constantly monitors its performance. With our comprehensive support, your Shopline store will function seamlessly, allowing you to focus on your business with peace of mind.</p>
-            </div>
-        </div>
-      </div>
-      <div className="col-md-4 mt-5">
-        <div className="needBox">
-            <img src={Big6.src} alt="" />
-            <div className="p-3 pb-3">
-                <h4 className='mt-3 mb-3 text_primary'>Shopline Update</h4>
-                <p className='font-weight-normal'>As the digital world constantly evolves, it&apos;s crucial for your store to integrate the latest features and performance improvement tools to deliver a seamless user experience. Our Shopline custom development services offer regular updates to keep your store in sync with the latest advancements.</p>
-            </div>
-        </div>
-      </div>
-      <div className="col-md-12 mt-5 pt-5">
-      <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
-
-      </div>
-     </div> 
-</div>
-
-
-
-</div>
-<div className="bg-black mt-5 p-4">
-    <div className="conatiner">
-    <div className="row align-items-center p-2">
-    <div className="col-md-5">
-            <img src={Theme.src} className='bigImg' alt="" />
-        </div>
-        <div className="col-md-7">
-            <h1 className='text_primary mb-4'>Shopline Theme & App Development</h1>
-            <p className='text-white mb-5 desc_big fs-6'>Choose Base2Brand for Shopline Development services for an unmatched experience. We pride ourselves on being a reliable and trusted partner, offering exceptional solutions tailored to your specific needs. With a team of skilled and experienced Shopline developers, we deliver top-notch results that align with your brand vision. Our focus is on creating lightweight, budget-friendly stores with optimal performance.</p>
-            <a className='readMore btn btn-outline-primary m-0'>Read More</a>
-
-        </div>
-       
-        </div>
-    </div>
-</div>
 
 {showModal && 
         <Request 

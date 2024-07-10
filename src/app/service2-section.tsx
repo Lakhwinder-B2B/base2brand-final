@@ -68,7 +68,7 @@ export default function Servicetwo() {
               <div className="d-flex flex-wrap justify-content-start align-items-center">
                 <h2 className="b2b-sub-heading-bold text-uppercase mb-4">Web Development</h2>
                 <p className="b2b-sub-text">We offer comprehensive Web Development services. From responsive website design to seamless functionality, we build tailored solutions that elevate your online presence and drive results for your business. With a keen eye for detail and a focus on user experience, our team ensures that your website not only looks great but also performs flawlessly across all devices.</p>
-              <a className="service_link" href="/digital-marketing"> <button className="b2b-btn b2b-btn-sm m-0">Read More</button></a> 
+              <a className="service_link" href="/web-application"> <button className="b2b-btn b2b-btn-sm m-0">Read More</button></a> 
               </div>
             </div>
 
@@ -207,7 +207,7 @@ export default function Servicetwo() {
               <div className="d-flex flex-wrap justify-content-start align-items-center">
                 <h2 className="b2b-sub-heading-bold text-uppercase mb-4">Graphic &amp; UI/UX Design</h2>
                 <p className="b2b-sub-text">Did you know? 90% of information transmitted to the brain is visual. Harness the power of visuals with our Graphic Design services. From captivating logos to stunning marketing materials, we craft designs that leave a lasting impression, helping your brand stand out in a crowded marketplace.</p>
-              <a className="service_link" href="/digital-marketing"> <button className="b2b-btn b2b-btn-sm m-0">Read More</button></a> 
+              <a className="service_link" href="/graphic"> <button className="b2b-btn b2b-btn-sm m-0">Read More</button></a> 
               </div>
             </div>
 
@@ -247,7 +247,7 @@ export default function Servicetwo() {
                   <div className="d-flex flex-wrap   align-items-center">
                     <h2 className="b2b-sub-heading-bold text-uppercase mb-4">Digital Marketing</h2>
                     <p className="b2b-sub-text">We offer expert Digital Marketing services to boost your brand's online visibility and reach. Did you know? 81% of shoppers research online before buying. Let us optimize your digital strategy for success. Harnessing the power of data-driven insights and cutting-edge techniques, we tailor digital marketing campaigns that resonate with your target audience and drive conversions effectively.</p>
-                    <a className="service_link" href="/e-commerce"><button className="b2b-btn b2b-btn-sm m-0">Read More</button></a>
+                    <a className="service_link" href="/digital-marketing"><button className="b2b-btn b2b-btn-sm m-0">Read More</button></a>
                   </div>
               </div>
               <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap"  data-aos="fade-left">

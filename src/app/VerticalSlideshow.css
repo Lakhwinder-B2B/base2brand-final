@@ -5,19 +5,24 @@
    align-items: center;
    justify-content: center;
 }
-.slide_data h1{
-  font-size: 50px;
+.slide_data h1 {
+  font-size: 94px;
+  text-transform: capitalize;
 }
 .slick-slider {
   margin-top: 0px !important;
 }
-.slide_data1{
+.slide_data1 {
   background-color: #C896FF;
-  height:calc(100vh - 100px);
+  height: calc(100vh - 100px);
+  align-items: center;
+  display: flex !important;
 }
 .slide_data2{
   background-color: #B6CCFF;
   height:calc(100vh - 100px);
+  align-items: center;
+  display: flex !important;
 }
 .slide_data3{
   background-color: #C896FF;
@@ -96,35 +101,59 @@ img.link_icon {
   font-weight: 500;
   color: #000;
 }
+@media screen and (max-width:1200px ){
+  .slide_data h1 {
+    font-size: 40px;
+  }
+  .desc_slide {
+    font-size: 25px;
+  }
+  p.heading_why {
+    margin-bottom: 8px;
+  }
+  p.our_border {
+    font-size: 12px;
+  }
+  .client_desc_data h4 {
+    font-size: 20px;
+  }
+  .client_desc_data p {
+    font-size: 12px;
+  }
+  .pert_num {
+    height: 80px;
+    width: 80px;
+  }
+}
 @media only screen and (max-width: 767px){
-.feedback_user {
-  position: relative;
-  bottom: 0;
-}
-.bg_feedback{
-height: unset;
-}
-.slide_data, .slide_data1, .slide_data2, .slide_data3{
-  /* height: unset !important; */
-  height: 100vh !important;
-  overflow: auto;
-}
-.slide_height{
-  height: 100vh !important;
-}
-.client_desc, .client_descs.d-flex.gap-5.mb-4, .client_descs.d-flex.gap-5.mt-5 {
-  display: block !important;
-  text-align: center;
-  padding-left: 0px !important;
-}
-section.slide_data3 {
-  padding: 2rem 0px;
-}
-.pert_num {
-  margin: auto;
-}
-.client_desc_data{
-  width: 100% !important;
-  margin-top: 1rem;
-}
+  .feedback_user {
+    position: relative;
+    bottom: 0;
+  }
+  .bg_feedback{
+  height: unset;
+  }
+  .slide_data, .slide_data1, .slide_data2, .slide_data3{
+    /* height: unset !important; */
+    height: 100vh !important;
+    overflow: auto;
+  }
+  .slide_height{
+    height: 100vh !important;
+  }
+  .client_desc, .client_descs.d-flex.gap-5.mb-4, .client_descs.d-flex.gap-5.mt-5 {
+    display: block !important;
+    text-align: center;
+    padding-left: 0px !important;
+  }
+  section.slide_data3 {
+    padding: 2rem 0px;
+  }
+  .pert_num {
+    margin: auto;
+  }
+  .client_desc_data{
+    width: 100% !important;
+    margin-top: 1rem;
+  }
 }

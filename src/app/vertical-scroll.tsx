@@ -77,7 +77,7 @@ export default function HorizontalScroll() {
         </div>
         </div>
       </section>
-      <section className='slide_data2 py-5'>
+      <section className='slide_data2 py-5 py-sm-3'>
         <div className='b2b-container'>
           <div className="row align-items-center">
             <div className="col-md-6">

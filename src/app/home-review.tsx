@@ -60,12 +60,12 @@ export default function Home() {
       backgroundSize: 'cover', 
       position: 'relative',
     }}> */}
-      <div className="bgimg_feed1 b2b-gray-bg">
+      <div className="bgimg_feed1 b2b-gray-bg pt-5">
       <div className="container"> 
           <div className="row text-white"> 
               <div className="col-md-12 p-0">
-              <h3 className="b2b-main-heading text-center text-uppercase pt-5">What Our <strong>Clients</strong> Say</h3>
-              <div className="reviewSlider">
+              <h3 className="b2b-main-heading text-center text-uppercase">What Our <strong>Clients</strong> Say</h3>
+              <div className="reviewSlider mt-5">
                 <Slider {...reviewSlider} className="w-100">
                     <div className="h100">
                         <div className="bg_feedback">

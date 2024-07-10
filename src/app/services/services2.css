@@ -30,40 +30,7 @@
     border: 1px solid #F47B52;
     box-shadow: 0px 2px 20px #F47B52;
 }
-.service_tabs{
-    border:1px solid #989393 !important;
-    width: fit-content !important;
-    gap: 0px !important;
-    margin: auto;
-    padding-right: 0px !important;
-}
-.btn_service{
-    text-align: center;
-    width: 100%;
-    font-size: 16px !important;
-}
-.btn_service.active{
-    border-bottom-width: 3px;
-    border-image: linear-gradient(90deg, #396BDB 0%, #7411E1 100%) 0 0 2;
-}
-button.nav-link.btn_service{
-    background: #1A1A1A !important;
-    border-radius: 0px !important;
-    padding: 10px;
-}
-.service_tabs li{
-    border-right:1px solid #989393 !important;
-    width: 140px;
-}
-.service_tabs li:last-child{
-    border-right:0px !important;
 
-}
-img.service_tab_icon {
-    width: 50px;
-    display: inline-block;
-    margin-right: 15px;
-}
 @media screen and (max-width:1200px) {
     .ser-digital img {
         max-width: 400px;

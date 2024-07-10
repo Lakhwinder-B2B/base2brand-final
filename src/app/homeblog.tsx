@@ -36,46 +36,28 @@ export default function Homeblog() {
   return (  
     <>  
       <div className='b2b-home-blog'>
-          <div className="container"> 
-              <div className="row"> 
-              <div className="col-12 text-center">
+          <div className="b2b-container-lg"> 
+            <div className="row"> 
+              <div className="col-12 text-center mb-4">
                 <h2 className='b2b-main-heading text-center text-uppercase'>Our Recent Blogs</h2>
                 <p className="b2b-text">The latest in IT Trends, Strategies and Tips.</p>
               </div>
               {data && data.slice(0, 3).map((blog: BlogItem) => (
               <div key={blog.id} className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
-                <div className="blog_section">
+                <div className="blog_section position-relative">
                   <img className="blog" src={blog.image_url} alt="Blog" />
                   <div className="pt-4 pb-3">
-                    <p className="blog_desc mb-2">{blog.title}</p>
-                      <div className="mt-5 mb-2">
-                      <button className='b2b-blog-btn' onClick={() => router.push(`/blog-detail?id=${blog.id}`)}>Read More <img src={arrowRight.src} alt=""/></button>
-                    </div>
+                    <p className="blog_desc pb-5">{blog.title}</p>
+                      
                   </div>
+                  
+                      <button className='b2b-blog-btn' onClick={() => router.push(`/blog-detail?id=${blog.id}`)}>Read More <img src={arrowRight.src} alt=""/></button>
+                    
                 </div>
             </div>
          
             ))}
 
-              {/* <div className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
-                <div className="blog_section">
-                <img className="blog" src={blog2.src} alt="Blog" />
-                <div className="p-4 pb-5">
-                  <p className="blog_desc mb-5">The Power of Typography in Web Design: Choosing the Right Fonts for Your Business Website</p>
-                  <button className="btn btn-outline-primary m-0">Read More</button>
-                </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
-                <div className="blog_section">
-                <img className="blog" src={blog3.src} alt="Blog" />
-                <div className="p-4 pb-5">
-                  <p className="blog_desc mb-5">The Power of Typography in Web Design: Choosing the Right Fonts for Your Business Website</p>
-                  <button className="btn btn-outline-primary m-0">Read More</button>
-                </div>
-                </div>
-              </div> */}
               <div className="col-md-12 mt-5 text-center">
               <a href='/blog' className="b2b-btn b2b-btn-sm">Show More</a>
 
