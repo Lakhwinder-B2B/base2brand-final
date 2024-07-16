@@ -8,6 +8,7 @@ import graphic2 from '../../../public/services-img/g2.png';
 import graphic3 from '../../../public/services-img/g3.png';  
 import graphic4 from '../../../public/services-img/g4.png';  
 import graphic5 from '../../../public/services-img/g5.png'; 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
  
 import '../project.css'; 
  
@@ -21,7 +22,13 @@ export default function home() {
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
                   <div className="tab-content" id="pills-tabContent">
                     <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
-                      <img className="active_img w-75" src={Servicetab1.src} alt="Search Engine Optimization" />
+                      {/* <img className="active_img w-75" src={Servicetab1.src} alt="Search Engine Optimization" /> */}
+                      <DotLottieReact
+              src='/json/home-page/UI UX JSON.json'
+              loop
+              autoplay
+              style={{ width: '500px', height: '500px' }}
+            />
                     </div>
                   </div>
                 </div>

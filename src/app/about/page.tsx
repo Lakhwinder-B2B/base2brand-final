@@ -3,7 +3,8 @@
 import React, { useEffect,useState, useRef } from 'react';
 import Header from "../../../component/header";
 import AboutMask from "../../../public/about-img/about-mask.png";
-import Ceo from "../../../public/about-img/ceo.svg"
+import Ceo from "../../../public/about-img/ceo.png"
+import QuoteIcon from "../../../public/about-img/quote-about.svg"
 import About1 from "../../../public/about-img/about1.svg"
 import About2 from "../../../public/about-img/about-left.svg"
 import AboutColumns from "../../../src/app/about-columns"
@@ -85,20 +86,22 @@ export default function AboutUs() {
     <>
       <Header />
         <div className="bg_about pt-0 pb-0">
-          <div className="about-mask pt-5" data-aos="fade-up" style={{backgroundImage: `url(${radialBg.src})`,width: '100%',height: '100%',}}>
-          <div className="row m-0 position-relative text-white pt-5"> 
-              <div className="col-12 col-sm-12 col-md-4 position-relative ph_remove_about" data-aos="slide-down">
+          <div className="about-mask aboutWrap" data-aos="fade-up" style={{backgroundImage: `url(${radialBg.src})`,backgroundRepeat: 'no-repeat'}}>
+          <div className="row m-0 position-relative text-white "> 
+              <div className="col-12 col-sm-12 col-md-4 px-0 position-relative ph_remove_about pt-5 mt-5 d-flex align-items-end" data-aos="slide-down">
               <img className="about_bottom" src={About2.src} alt="" />
                 
               </div>
-              <div className="col-12 col-sm-12 col-md-4 text-center">
-                  <h1>SMART IDEAS FOR <br /> YOUR BRAND ARE HERE.</h1>
-                  <p>We blend incredible Design and Development Skills with phenomenol Digital Marketing techniques to furnish your brand with the online solutions you deserve</p>
-                  <div className="mt-5 text-center mb-5 pb-5">
-                <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
+              <div className="col-12 col-sm-12 col-md-4 text-center d-flex align-items-center">
+                <div>
+                    <h1 className='b2b-heading'>We Create Smart Ideas For<br />Your Brand Growth</h1>
+                    <p className='b2b-text'>Our team of experts generate innovative concepts and strategies to drive your growth, offering smart solutions that propel your business forward and achieve your objectives efficiently.</p>
+                    <div className="mt-5 text-center">
+                  <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                  </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-4 position-relative">
+              <div className="col-12 col-sm-12 col-md-4 px-0 position-relative pt-5 mt-5 d-flex align-items-end justify-content-end">
               <img className="about_bottom" src={About1.src} alt="" />
 
               </div>
@@ -110,9 +113,9 @@ export default function AboutUs() {
           <div className="container ">
             <div className="row">
               <div className="col-md-10 mx-auto text-center text-white"> 
-          <h1>About Us</h1>
+          <h2 className='b2b-heading mb-5'>About Us</h2>
           <p className='b2b-text'>Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
-        <p className='b2b-text'>Here at Base2Brand, we particularize in providing results-oriented integrated online marketing solutions for medium and large businesses across the globe. We facilitate businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with a Professional Online Marketing Strategy.</p>
+        <p className='b2b-text'>Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
         <div className="mt-5 text-center">
                 <button className="b2b-btn b2b-btn-sm">Read More</button>
                 </div>
@@ -263,16 +266,25 @@ export default function AboutUs() {
               <div className="b2b-black-bg pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
                 <div className="container p-5">
                   <div className="row">
-                    <div className="col-md-8 mx-auto">
+                    <div className="col-md-9 mx-auto">
 
-                    <div className="ceo_img" style={{backgroundImage: `url(${Ceo.src})`,width: '100%',height: '100%',}}>
-                    <div className='center_desc_about'>
-                      <h3 className='pt-5 mt-3'>Arti Bhatia is the Co-founder, CEO, and growth hacker at Base2Brand  headquartered in MOhali, India, and an office in U.K., CANADA..</h3>
-                        <div className="ceo_name_align">
-                        <h2>Arti Bhatia</h2>
-                          <p className='mb-0 b2b-text fs-7'>Base2Brand is a team of creative and great minds that resonate and find solutions to all the challenges and hardships they face in their jobs.</p>
-                    </div>
-                    </div>
+                    <div className="ceo_img">
+                      <img className="QuoteIcon-about" src={QuoteIcon.src} alt="" />
+                      <div className='row align-items-end'>
+                        <div className="col-md-8">
+                            <div className='center_desc_about'>
+                                <h3 className='pt-5 mt-3'>Arti Bhatia is the founder of the Base2Brand. After Spending more than a decade in the IT Industry, Arti founded Base2Brand in 2020 with its headquarter in Mohali.</h3>
+                                <div className="ceo_name_align">
+                                  <h2>Arti Bhatia</h2>
+                                  <p className='mb-0 b2b-text'>Base2Brand is a team of specialists that consistently delivers outstanding results by combining creative ideas with our vast experience in web design, development, and digital marketing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                          <img src={Ceo.src} alt="" />
+                          </div>
+                        </div>
+                    
                     </div>
                     </div>
 
@@ -284,7 +296,7 @@ export default function AboutUs() {
                             <div className="col-lg-12">
                               <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                             </div>
-                            <div className="col-lg-3 mb-3">
+                            <div className="col-xl-4 col-lg-3 mb-3">
                               <a href="/team">
                                 <div className="menuInner b2b-pink-bg">
                                     <h3 className='b2b-title-text text-black'>Team</h3>
@@ -295,12 +307,12 @@ export default function AboutUs() {
                                 </div>
                               </a>
                             </div>
-                            <div className="col-lg-3 mb-3">
+                            <div className="col-xl-4 col-lg-3 mb-3">
                               <a href="/career">
                                 <div className="menuInner b2b-lightBlue-bg">
                                     <h3 className='b2b-title-text text-black'>Career</h3>
                                     <div className='d-flex align-items-center justify-content-between'>
-                                      <p className='menuText mb-0'>Can you offer such<br /> experience?</p>
+                                      <p className='menuText mb-0'>Know the latest openings in<br />our organization.</p>
                                       <span className='menuIcon pl-3'></span>
                                     </div>
                                 </div>

@@ -45,7 +45,7 @@ import Icon23 from "../../../public/services2-img/python.svg";
 import Icon24 from "../../../public/services2-img/web.svg";
 import Icon25 from "../../../public/services2-img/developer.svg";
 import Icon26 from "../../../public/services2-img/social-media.svg";
-
+import radialRight from '../../../public/img/radial-right.svg'; 
 
 export default function BigCommence() { 
   const [showModal, setShowModal] = useState(false);
@@ -60,7 +60,7 @@ export default function BigCommence() {
       <div className="bg-black">
         <div className="service-banner full_height p-3 p-md-5" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="container mx-auto">
-            <div className="row col-12 col-lg-10 d-flex flex-wrap align-items-center justify-content-center m-auto"> 
+            <div className="row d-flex flex-wrap align-items-center justify-content-center m-auto"> 
               <div className="col-12 col-sm-12 col-md-9 d-flex flex-wrap align-items-center justify-content-center pt-5 pb-5" data-aos="fade-up" >
                  <h1 className="text-center mb-3 b2b-sub-heading-bold text-uppercase">Mobile App Development</h1>
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
@@ -76,7 +76,7 @@ export default function BigCommence() {
           <div className="container">
               <div className="row align-items-center"> 
                   <div className="col-md-7 text-white"> 
-                      <h1 className="b2b-heading mb-3">Developing Custom, Scalable, And <br />Next-Generation Mobile Apps</h1>
+                      <h1 className="b2b-main-heading mb-3">Developing Custom, Scalable, And <br />Next-Generation Mobile Apps</h1>
                       <p className="b2b-text-sm">Crafting innovative, scalable mobile apps demands a holistic approach. We delve into client needs, user expectations, and tech trends. Our process begins with thorough consultations, understanding your goals. Leveraging cutting-edge tech, our skilled team tailors solutions for optimal user experience and interface design.</p>
                       <p className="b2b-text-sm">We prioritize scalability, ensuring seamless growth. From concept to deployment, maintenance, and updates, we offer comprehensive development services. Collaborate with us to realize your vision and redefine mobile excellence.</p>
                   </div>
@@ -116,11 +116,11 @@ export default function BigCommence() {
                     </div>
                     <div className="row mb-5">
                       <div className="col-lg-8 m-auto">
-                        <h2 className="b2b-heading text-center">Technology Stacks We Use For Developing Mobile Apps</h2>
+                        <h2 className="b2b-main-heading text-center">Technology Stacks We Use For Developing Mobile Apps</h2>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-lg-10 col-md-12 m-auto">
+                      <div className="col-md-12 col-xl-12 col-xxl-10  m-auto">
                           <ul className="nav nav-pills mb-3 service_tabs justify-content-center" id="pills-tab" role="tablist">
                               <li className="nav-item" role="presentation">
                                   <button className="nav-link active btn_service" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">FRONT END</button>
@@ -142,7 +142,7 @@ export default function BigCommence() {
                           <div className="tab-content" id="pills-tabContent">
                                   <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                     <div className="container">
-                                      <div className="row row-cols-5 text-white mt-4 justify-content-center align-items-center">
+                                      <div className="row row-cols-5 row-cols-md-4  row-cols-sm-2  row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
                                         <div className="col mb-5">
                                             <img className="service_tab_icon" src={Icon16.src} alt="" />
                                             <span>Android Studio</span>
@@ -178,7 +178,7 @@ export default function BigCommence() {
 
                                   <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                     <div className="container">
-                                      <div className="row row-cols-5 text-white mt-4 justify-content-center align-items-center">
+                                      <div className="row row-cols-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
                                         <div className="col mb-5">
                                             <img className="service_tab_icon" src={Icon23.src} alt="" />
                                             <span>Codeigniter</span>
@@ -206,7 +206,7 @@ export default function BigCommence() {
                                   </div>
                                   <div className="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
                                     <div className="container">
-                                      <div className="row row-cols-4 text-white mt-4 justify-content-center align-items-center">
+                                      <div className="row row-cols-4 row-cols-md-4 row-cols-sm-2  row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
                                         <div className="col mb-5">
                                             <img className="service_tab_icon" src={Icon7.src} alt="" />
                                             <span>Figma</span>
@@ -233,9 +233,79 @@ export default function BigCommence() {
                       </div>
                     </div>
                 </div>
-                
+                <Angagement />
+                <div className="b2b-black-bg pt-5 pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+                      <Faq />
+                        <div className='container mb-5 pt-5'>
+                          <div className="row justify-content-center">
+                            <div className="col-lg-8">
+                              <h2 className='b2b-main-heading text-center mb-4 text-uppercase'>Looking For Other Services</h2>
+                              <p className="text-white text-center b2b-text mb-5">We&apos;re not just about mobile app development; we provide a comprehensive suite of IT solutions. From web development to digital marketing, our services encompass everything your business needs to thrive in the digital landscape</p>
+                            </div>
+                            <div className="col-lg-10">
+                              <div className="row justify-content-center">
+                                  <div className="col-lg-4 mb-3">
+                                    <a href="/">
+                                      <div className="menuInner b2b-pink-bg">
+                                          <h3 className='b2b-title-text text-black'>Web Development</h3>
+                                          <div className='d-flex align-items-center justify-content-between'>
+                                            <p className='menuText mb-0'>Dynamic Website for Mobile Devices</p>
+                                            <span className='menuIcon pl-3'></span>
+                                          </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div className="col-lg-4 mb-3">
+                                    <a href="/">
+                                      <div className="menuInner b2b-lightBlue-bg">
+                                          <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
+                                          <div className='d-flex align-items-center justify-content-between'>
+                                            <p className='menuText mb-0'>Designs that Enhances User Engagement</p>
+                                            <span className='menuIcon pl-3'></span>
+                                          </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div className="col-lg-4 mb-3">
+                                    <a href="/">
+                                      <div className="menuInner b2b-pink-bg">
+                                          <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
+                                          <div className='d-flex align-items-center justify-content-between'>
+                                            <p className='menuText mb-0'>Marketing Strategies that Grow Sales</p>
+                                            <span className='menuIcon pl-3'></span>
+                                          </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div className="col-lg-4 mb-3">
+                                    <a href="/">
+                                      <div className="menuInner b2b-lightBlue-bg">
+                                          <h3 className='b2b-title-text text-black'>Ecommerce</h3>
+                                          <div className='d-flex align-items-center justify-content-between'>
+                                            <p className='menuText mb-0'>Increase online sales seamlessly</p>
+                                            <span className='menuIcon pl-3'></span>
+                                          </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div className="col-lg-4 mb-3">
+                                    <a href="/">
+                                      <div className="menuInner b2b-pink-bg">
+                                          <h3 className='b2b-title-text text-black'>Shopify Development</h3>
+                                          <div className='d-flex align-items-center justify-content-between'>
+                                            <p className='menuText mb-0'>Bespoke Brand Growth Strategies</p>
+                                            <span className='menuIcon pl-3'></span>
+                                          </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                </div>
                <Footer />
-</div>
+        </div>
 {showModal && 
         <Request 
           onCloseModal={toggleModal} 

@@ -40,16 +40,15 @@ import web4 from '../../../public/services-img/w4.png';
 import web5 from '../../../public/services-img/w5.png';  
 
 import hybrig from '../../../public/services-img/hybrig.png';   
-
-
 import Link from 'next/link'
-
 import down from '../../../public/services-img/scroll.png';  
 import '../project.css';
 import CountUp from 'react-countup'; 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
  
 
 export default function home() {
+
   return (
     <>    
       <div className="section-padding-hm-serv w-100"> 
@@ -64,7 +63,14 @@ export default function home() {
                   <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
                   <div className="tab-content" id="pills-tabContent">
                     <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
-                      <img className="active_img w-70" src={digital.src} alt="Search Engine Optimization" />
+                      {/* <img className="active_img w-70" src={digital.src} alt="Search Engine Optimization" /> */}
+                      <DotLottieReact
+              src='/json/home-page/Digital Marketing JSON.json'
+              loop
+              autoplay
+              style={{ width: '500px', height: '500px' }}
+            />
+                    
                     </div>
                   </div>
                 </div>

@@ -6,6 +6,7 @@ import Slide2 from '../slide/slide2';
 import Slide3 from '../slide/slide3';
 import Slide4 from '../slide/slide4';
 import Slide5 from '../slide/slide5';
+import Slide6 from '../slide/slide6';
 import Slider from "react-slick";
 import './slide.css'; 
 import '../project.css'; 
@@ -63,6 +64,9 @@ const Home = () => {
     </div>
     <div className="slide">
     <Slide5 />
+    </div>
+    <div className="slide">
+    <Slide6 />
  </div>
   {/* </Slider> */}
  

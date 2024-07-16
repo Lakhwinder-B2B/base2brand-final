@@ -85,8 +85,8 @@ background:#111616;
     color: #F47B52;
 }
 .Typewriter span{
-  font-size:96px;
-color:#fff;
+  font-size:85px;
+  color:#fff;
 }
 .heading_lable h1{
 font-size:96px;
@@ -180,13 +180,40 @@ ul.order-list li img {
 .flip-slide > div.item:hover .rotate i {
     display:none;
 }
-button.accordion-button.collapsed {
-    background: #2E2E2E !important;
-    margin-top: 2rem;
-    font-size: 18px;
-    padding: 22px 15px;
+.accordion-item {
+  background-color: transparent !important;
 }
-
+.accordion-button{
+  padding: 22px 0 !important;
+}
+button.accordion-button.collapsed {
+    background: transparent !important;
+    margin-top: 0;
+    font-size: 16px;
+    padding: 22px 0 !important;
+    color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  color: #ffff !important;
+  background-color: transparent !important;
+  box-shadow: unset !important;
+}
+.accordion-body{
+  padding: 18px 0 !important;
+}
+.accordion-body p {
+  margin-bottom: 0;
+  color: #fff !important;
+}
+.collapse.show {
+  visibility: visible;
+}
+.accordion-button::after {
+  width: 14px !important;
+  height: 12px !important;
+  background-size: cover !important;
+  filter: invert(1);
+}
 .needBox{
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -232,9 +259,9 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 
 /* CSS 6 june  */
 .sub_heading{
-  font-size: 53.56px;
+  font-size: 45px;
   font-weight: 600;
-  line-height: 80.34px;
+  line-height: 60px;
   text-align: center;
   color: #fff;
 }
@@ -245,16 +272,35 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 }
 
 .b2b-btn{
-  background: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+  background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
   border-radius: 41px;
   text-align: center;
   color: #FFFFFF;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
 }
-.b2b-btn-lg{
-  font-size: 27.66px;
+.b2b-btn:hover{
+  background: #fff;
+  color:#7411E1;
+}
+/* .b2b-btn:before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 4;
+}
+.b2b-btn:hover:before {
+  background-color: #fff;
+} */
+.b2b-btn-lg {
+  font-size: 22px;
   font-weight: 400;
-  line-height: 41.5px;
-  padding: 25px 65px;
+  line-height: 32px;
+  padding: 22px 65px;
 }
 .b2b-btn-sm{
   font-size: 20px;
@@ -265,9 +311,10 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 a.b2b-btn{
   text-decoration: none;
 }
+
 .b2b-partners-heading{
   font-weight: 500;
-  font-size: 45px;
+  font-size: 30px;
   line-height: 59px;
   color: #ffffff;
 }
@@ -320,11 +367,18 @@ a.b2b-btn{
   line-height: 44px;
   color:#ffffff;
 }
+.b2b-lightBlue-text{
+  color: #B6CCFF;
+}
+
 .b2b-gray-bg{
   background-color: #1F222F;
 }
 .b2b-black-bg{
   background-color: #111616;
+}
+.b2b-blue-bg{
+  background-color: #396BDB !important;
 }
 .b2b-pink-bg{
   background-color: #C896FF;
@@ -338,6 +392,7 @@ a.b2b-btn{
 .b2b-light-bg{
   background-color: #5C5C5C
 }
+
 .progress-count .count-col {
   width: 20%;
   padding: 0 15px;
@@ -459,6 +514,7 @@ img.social_icons {
   padding: 4px;
   border-radius: 6px;
   width: 35px;
+  height: 35px;
   object-fit: contain;
 }
 .footer-form input.form-control, .footer-form select, .footer-form textarea {
@@ -661,6 +717,47 @@ img.service_tab_icon {
   margin-right: 15px;
 }
 
+.cell-wrap {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #111616;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 6px;
+}
+.cell-wrap .imgIcon{
+  width: 70px;
+  height: auto;
+
+}
+.cell-wrap span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.count-col:hover {
+  transform: scale(1.1);
+}
+.count-col {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.check_list {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+img.check_icon {
+  width: 18px;
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 767px){
   .logo_brand img {
     margin: auto;
@@ -747,6 +844,7 @@ img.service_tab_icon {
 }
 
 /*--------Slider-End-----------*/
+
 @media screen and (min-width: 1200px){
   .b2b-container-lg{
     max-width: 1120px;
@@ -771,18 +869,64 @@ img.service_tab_icon {
   .Typewriter span{
     font-size:62px;
   }
-  .b2b-text {
-    font-size: 20px;
-}
+
   .footerMenu h5 {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 22px;
   }
   .footerMenu ul li a, .footerMenu ul li {
+    font-size: 13px;
+  }
+  .b2b-btn-lg {
+    font-size: 18px;
+    line-height: normal;
+    padding: 15px 50px;
+  }
+  .b2b-text {
     font-size: 16px;
+    line-height: normal;
+  }
+  .b2b-sub-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .sub_text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .b2b-btn-sm {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 12px 40px;
+  }
+  img.social_icons {
+    width: 32px;
+    height: 32px;
+  }
+  .b2b-sub-heading-bold {
+    font-size: 34px;
+    line-height: 45px;
+  } 
+  .b2b-achievements-wrap p {
+    font-size: 14px;
+  }
+  .b2b-achievements-wrap img {
+    height: 50px;
+  }
+  .b2b-title-text {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .b2b-workProcess-wrap P {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .sub_heading {
+    font-size: 35px;
+    line-height: 40px;
   }
 }
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1400px){
   
   .b2b-achievements-wrap img {
     width: auto;
@@ -827,8 +971,8 @@ img.service_tab_icon {
     line-height: normal;
   }
   .b2b-title-text {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
   }
   .b2b-workProcess-wrap P {
     font-size: 14px;
@@ -841,7 +985,7 @@ img.service_tab_icon {
     font-size: 16px;
   }
   .footerMenu h5 {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 32px;
   }
   .footerMenu ul li a, .footerMenu ul li {
@@ -849,10 +993,11 @@ img.service_tab_icon {
   }
   img.social_icons {
     width: 28px;
+    height: 28px;
   }
   .sub_heading {
-    font-size: 46px;
-    line-height: 75px;
+    font-size: 24px;
+    line-height: 35px;
   }
   .feedback_user h3 {
     font-size: 16px !important;
@@ -865,7 +1010,7 @@ img.service_tab_icon {
     line-height: 18px;
 }
   .b2b-achievements-wrap p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .b2b-achievements-wrap h2 {
     font-size: 24px;
@@ -882,7 +1027,26 @@ img.service_tab_icon {
     padding: 14px 18px !important;
     font-size: 14px;
   }
-  
+  .Typewriter span {
+    font-size: 50px;
+  }
+  .b2b-achievements-wrap {
+    padding: 12px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7.8px 0px #396BDB;
+  }
+  .bg_feedback .b2b-text {
+    font-size: 16px;
+  }
+  img.name_latter {
+    width: 128px;
+  }
+}
+@media screen and (max-width: 1366px){
+  .b2b-heading {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }
 @media screen and (max-width:1200px ){
   .b2b-partners-heading {
@@ -1549,5 +1713,30 @@ ul.nav.nav-pills.mb-3 {
     padding: 0 40px;
   }
 }
-
+@media screen and (max-height: 600px){
+  .banner_icon_section {
+    margin-bottom: 4rem;
+    width: 145px;
+  }
+  .client_desc_data p {
+    margin-bottom: 0 !important;
+    font-size: 14px;
+  }
+  .client_desc_data h4{
+    font-size: 20px !important;
+  }
+  .slide_data h1 {
+    font-size: 60px !important;
+  }
+  .Typewriter span {
+    font-size: 50px;
+  }
+  .sub_heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .full_height .mob-top {
+    margin-top: 0 !important;
+  }
+}
 

@@ -2,10 +2,15 @@
     background: transparent;
 }
 .bg_about{
-    background-color: #000;
+    background-color: #111616;
 }
 .center_desc_about h3 {
-    font-size: 22px;
+    font-size: 33px;
+    line-height: 40px;
+}
+.ceo_name_align h2{
+    font-size: 35px;
+    line-height: normal;
 }
 .web-head{
     color:#F47B52;
@@ -22,7 +27,7 @@ p.digital-para {
     -ms-transition:all 0.3s linear;
 }
 .about-bg-mask {
-    background-color: #111;
+    background-color: #111616;
 }
 .about-img ul > li:hover {
     background-color: #f47852;
@@ -67,14 +72,14 @@ img{
 
 
 /* new css */
-.about_bottom{
+/* .about_bottom{
     position: absolute;
     bottom: 0;
     padding-top: 3rem;
     width: 100%;
-}
+} */
 .bg_dark_about{
-    background: #1F222F;
+    background: #111616;
     padding: 3rem;
 }
 .product_name {
@@ -93,6 +98,7 @@ img{
     
     border: 1px solid #fff;
     padding: 20px;
+    min-height: 236px;
     /* width: 500px;
     margin: auto; */
 }
@@ -110,6 +116,7 @@ img{
 p.border_pro_name {
     position: relative;
     padding: 0 0 11px 15px;
+    font-size: 18px;
 }
 p.border_pro_name:before {
     content: '';
@@ -200,19 +207,15 @@ span.slide-number {
     color: #B6CCFF !important;
     
 }
+
 .ceo_img {
-    background-repeat: no-repeat;
-    height: 450px !important;
-    background-size: contain;
-    background-position: bottom;
+    color: #fff;
+    border: 4px solid #C896FF;
+    border-radius: 16px;
     position: relative;
 }
 .center_desc_about {
-    position: absolute;
-    left: 43%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    color: #fff;
+    padding: 15px 0px 15px 30px;
 }
 .ceo_name_align {
     padding-right: 7rem;
@@ -220,8 +223,49 @@ span.slide-number {
 }
 .tabs_section .element::-webkit-scrollbar {
     display: none;
-  }
-  
+}
+.detail_box  p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.QuoteIcon-about {
+    position: absolute;
+    top: -90px;
+    left: 43px;
+}
+@media screen and (max-width: 1800px){
+    .ceo_name_align .b2b-text {
+        font-size: 16px;
+    }
+    .ceo_name_align h2 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .aboutWrap .b2b-heading {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .center_desc_about h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .QuoteIcon-about {
+        position: absolute;
+        top: -72px;
+        left: 43px;
+        width: 100px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .aboutWrap .b2b-heading {
+        font-size: 25px;
+    }
+    .center_desc_about h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+}
 @media screen and (max-width:1100px) {
     .rating-col p {
         max-width: 90%;

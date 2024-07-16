@@ -7,6 +7,12 @@ import call from '../public/img/call1.png';
 import digital2 from '../public/img/header2.png'; 
 import digital3 from '../public/img/header3.png';
 import digital4 from '../public/img/header4.png';
+import phone from '../public/header/phone.svg';
+import india from '../public/header/india.svg';
+import mail from '../public/header/mail.svg';
+import whatsapp from '../public/header/whatsapp.svg';
+import canada from '../public/header/canada.svg';
+import uk from '../public/header/uk.svg';
 import './footer.css'
 import { usePathname } from 'next/navigation';
 import './header.css'
@@ -49,12 +55,12 @@ useEffect(() => {
     <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
       <ul className="navbar-nav align-items-center d-flex flex-wrap Header_link">
       <li>
-        <a href="/" className={currentRoute === "/"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"} aria-current="page">
+        <a href="/" className={currentRoute === "/"? "active  py-2 px-1 " : "block py-2 px-1"} aria-current="page">
            Home 
         </a>
         </li>
         <li className='dropdown'>
-        <Link href="/about" className={currentRoute === "/about"? "active  py-2 pr-4 pl-3 dropdown-toggle" : "dropdown-toggle block py-2 pr-4 pl-3"}>About Us</Link>
+        <Link href="/about" className={currentRoute === "/about"? "active  py-2 px-1 dropdown-toggle" : "dropdown-toggle block py-2 px-1"}>About Us</Link>
             <ul className="dropdown-menu ph_align_drop">
                 <li className='mega-menu'>
                   <div className='row justify-content-center'>
@@ -97,7 +103,7 @@ useEffect(() => {
         </li>
         
         <li className='dropdown'>
-        <Link href="/services" className={currentRoute === "/services"? "active  py-2 pr-4 pl-3 dropdown-toggle" : "dropdown-toggle block py-2 pr-4 pl-3"}>Services</Link>
+        <Link href="/services" className={currentRoute === "/services"? "active  py-2 px-1 dropdown-toggle" : "dropdown-toggle block py-2 px-1"}>Services</Link>
         
         <ul className="dropdown-menu ph_align_drop">
             <li className='mega-menu'>
@@ -176,16 +182,16 @@ useEffect(() => {
         </li>
 
         <li>
-        <Link href="/portfolio" className={currentRoute === "/case-study"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Portfolio</Link>
+        <Link href="/portfolio" className={currentRoute === "/case-study"? "active  py-2 px-1 " : "block py-2 px-1"}>Portfolio</Link>
         </li>
         
 
         <li>
-        <a href="/resources" className={currentRoute === "/resources"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Resource Outsourcing</a>
+        <a href="/resources" className={currentRoute === "/resources"? "active  py-2 px-1 " : "block py-2 px-1"}>Resource Outsourcing</a>
         </li>
 
         <li>
-        <Link href="/blog" className={currentRoute === "/blog"? "active  py-2 pr-4 pl-3 " : "block py-2 pr-4 pl-3"}>Blogs</Link>
+        <Link href="/blog" className={currentRoute === "/blog"? "active  py-2 px-1 " : "block py-2 px-1"}>Blogs</Link>
         </li>
         
         
@@ -193,9 +199,88 @@ useEffect(() => {
     </div>
 
     <div className="d-flex flex-wrap align-items-center contact-num">
-        <div className="call_number_drop">
-          <img className='call_icon' src={call.src} />
+      <ul className="navbar-nav align-items-center d-flex flex-wrap Header_link">
+        <li className='dropdown'>
+          <div className="call_number_drop">
+            <img className='call_icon' src={call.src} />
           </div> 
+          <ul className="dropdown-menu dropdown-menu-right ph_align_drop">
+            <li className='mega-menu'>
+            <a href="">
+              <div className="menuInner b2b-blue-bg">
+                <div className='phoneMenuIcon'><img src={phone.src} alt="" /></div>
+                  <h3 className='b2b-title-text text-white'>Let&apos;s Connect with mobilecoderzb Team</h3>
+              </div>
+            </a>
+            </li>
+            <li className='mega-menu'>
+            
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'></div>
+                  <h3 className='b2b-title-text text-white text-uppercase'>for sales inquiry</h3>
+              </div>
+            
+            </li>
+            <li className='mega-menu'>
+            <a href="">
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'><img src={india.src} alt="" /></div>
+                  <h3 className='b2b-sub-text text-white'>+91 836 011 6967</h3>
+              </div>
+            </a>
+            </li>
+            <li className='mega-menu'>
+            <a href="">
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'><img src={mail.src} alt="" /></div>
+                  <h3 className='b2b-sub-text text-white'>hello@base2brand.com</h3>
+              </div>
+            </a>
+            </li>
+            <li className='mega-menu'>
+            
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'></div>
+                  <h3 className='b2b-title-text text-white text-uppercase'>for quick connect :</h3>
+              </div>
+            
+            </li>
+            <li className='mega-menu'>
+            <a href="">
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'><img src={whatsapp.src} alt="" /></div>
+                  <h3 className='b2b-sub-text text-white'>+91 9041700209</h3>
+              </div>
+            </a>
+            </li>
+            <li className='mega-menu'>
+            
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'></div>
+                  <h3 className='b2b-title-text text-white text-uppercase'>others</h3>
+              </div>
+            
+            </li>
+            <li className='mega-menu'>
+            <a href="">
+              <div className="menuInner ">
+                <div className='phoneMenuIcon'><img src={canada.src} alt="" /></div>
+                  <h3 className='b2b-sub-text text-white'>+1(416) 879-2244</h3>
+              </div>
+            </a>
+            </li>
+            <li className='mega-menu'>
+            <a href="">
+              <div className="menuInner">
+                <div className='phoneMenuIcon'><img src={uk.src} alt="" /></div>
+                  <h3 className='b2b-sub-text text-white'>+44 07448435973</h3>
+              </div>
+            </a>
+            </li>
+           
+          </ul>
+        </li>
+      </ul>
     </div>
             
   </div>

@@ -3,7 +3,7 @@
 import React from "react"; 
 import Image from 'next/image';
 import About from '../../public/img/about.png';   
-import shopifyDev from '../../public/img/shopify-dev.png';   
+ 
 import b2bTeam from '../../public/img/b2bTeam.png';   
 import technologies from '../../public/img/technologies.png';   
 import processIcon1 from '../../public/img/process-icon-1.svg';   
@@ -12,10 +12,11 @@ import processIcon3 from '../../public/img/process-icon-3.svg';
 import processIcon4 from '../../public/img/process-icon-4.svg';   
 import processIcon5 from '../../public/img/process-icon-5.svg';   
 import processIcon6 from '../../public/img/process-icon-6.svg'; 
+import check from '../../public/img/check.svg'; 
 // import solarJson from '../../public/json/Solar-system-Shopify.json'; 
 
 import './our-project.css'
-// import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Homeabout() {
  
@@ -23,7 +24,7 @@ export default function Homeabout() {
     <>  
       <div className="b2b-container-lg pt-5 pb-5">  
           <div className="row align-items-center row-reverse-mb"> 
-            <div className="col-md-6 text-white"   >
+            <div className="col-md-7 text-white"   >
               <h2 className="b2b-main-heading">Technologies we use</h2> 
               <h3 className="b2b-title-text">We use cutting-edge technologies to craft fully automated solutions</h3>
               <p className="b2b-sub-text">Our approach includes use of state-of-the-art technologies and tools across digital marketing, web development, and graphic design to deliver customized digital solutions tailored to address your most intricate challenges.</p>
@@ -32,31 +33,20 @@ export default function Homeabout() {
             
               <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More </button>
             </div>
-            <div className="col-md-6 text-center mb-5 mb-md-0 about_order">
-            <img className="m-auto" src={technologies.src} alt="Product" />
-            {/* <DotLottieReact
-              src='../../public/json/Solar-system-Shopify.json'
+            <div className="col-md-5 text-center mb-5 mb-md-0 about_order">
+            {/* <img className="m-auto" src={technologies.src} alt="Product" /> */}
+            <DotLottieReact
+              src='/json/home-page/Softwares-Json.json'
               loop
               autoplay
-            /> */}
+              style={{ width: '600px', height: '600px' }}
+            />
             
             </div> 
             
           </div>
 
-          <div className="row align-items-center row-reverse-mb mt-5"> 
-            <div className="col-md-6 text-center mb-5 mb-md-0 about_order"    >
-              <img className="m-auto" src={shopifyDev.src} alt="Product" />
-            </div> 
-            <div className="col-md-6 text-white"   >
-              <h2 className="b2b-main-heading">We Excel in Shopify <br />Development Services</h2> 
-              <p className="b2b-sub-text">In Shopify development services, we don't just meet expectations; we exceed them. With a proven track record of success, we outperform in every aspect of Shopify development. From creating visually stunning and user-friendly storefronts to implementing robust backend solutions, we elevate your online presence to new heights.</p>
-              <p className="b2b-sub-text">Our team of experts combines creativity, technical skills, and strategic insight to deliver tailor-made solutions that drive growth and maximize your ROI. Trust us to go above and beyond in crafting an exceptional Shopify experience that sets your brand apart from the competition.</p>
-              <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More </button>
-            </div>
-            
-            
-          </div>
+        
 
 
           <div className='progress-column mt-5'>
@@ -158,11 +148,28 @@ export default function Homeabout() {
               <p className="b2b-sub-text">Throughout the project, we prioritize clear communication and transparency, guiding you through every step and addressing any doubts or questions that may arise. Despite our high-quality services, we remain committed to offering competitive pricing to ensure accessibility for businesses of all sizes.</p>
               <p className="b2b-sub-text">Having successfully completed hundreds of projects, we bring a wealth of knowledge and expertise to each new endeavor, guaranteeing exceptional results that exceed expectations.</p>
              
-              <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Let&apos;s Talk Over a cup Of Tea </button>
             </div>
             <div className="col-md-6 text-center mb-5 mb-md-0 about_order"    >
-              <img className="m-auto" src={b2bTeam.src} alt="Product" />
+              {/* <img className="m-auto" src={b2bTeam.src} alt="Product" /> */}
+              <DotLottieReact
+              src='/json/home-page/lottie animation.json'
+              loop
+              autoplay
+              style={{ width: '600px', height: '600px' }}
+            />
             </div> 
+            <div className="col-md-8 mb-5 mb-md-0">
+            <h3 className="b2b-sub-text b2b-lightBlue-text">We are the best for</h3>
+             <div className="d-flex justify-content-between flex-wrap">
+                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Our client list includes:</div>
+                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Corporates due to our reliability and scalability</div>
+                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Startups due to our cost-effectiveness</div>
+                
+  
+                
+              </div>
+              <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Let&apos;s Talk Over a cup Of Tea </button>
+            </div>
             
           </div>
       </div> 

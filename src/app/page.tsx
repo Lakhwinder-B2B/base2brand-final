@@ -96,7 +96,7 @@ export default function Home() {
                   loop: true,
                 }}
               />
-              <p className='sub_text text-center text-white mt-5'>Let’s Build something Digital together, We are Leading Innovative Partner for Start-ups and Enterprises</p>
+              <p className='sub_text text-center text-white mt-5'>Let&apos;s Build something Digital together, We are Leading Innovative<br />Partner for Start-ups and Enterprises</p>
               <div className="mt-5 text-center">
                 <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'> 
                 {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
@@ -146,7 +146,7 @@ export default function Home() {
       <About />
       {/* <Ourpurpose />  */}
       <Brand />
-      <HomeBlog />
+      {/* <HomeBlog /> */}
       <Feedback />
       <Career />
       <VerticalScroll />

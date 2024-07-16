@@ -40,7 +40,17 @@ ul.sub_feature li img {
         line-height: 30px;
       }
       .b2b-text-sm{
+        font-size: 16px;
+        line-height: 28px;
+      }
+  }
+  @media screen and (max-width: 1366px){
+    .b2b-text-lg{
         font-size: 18px;
         line-height: 30px;
       }
+      .b2b-text-sm {
+        font-size: 14px;
+        line-height: 25px;
+    }
   }

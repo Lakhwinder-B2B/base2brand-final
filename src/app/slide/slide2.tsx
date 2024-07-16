@@ -7,7 +7,8 @@ import ecommerce2 from '../../../public/services-img/e2.png';
 import ecommerce3 from '../../../public/services-img/e3.png';  
 import ecommerce4 from '../../../public/img/e4.png';  
 import ecommerce5 from '../../../public/services-img/e5.png'; 
-  
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
 import '../project.css'; 
  
 
@@ -45,7 +46,15 @@ export default function home() {
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up"> 
               <div className="tab-content" id="pills-tabContent">
                 <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
-                <img className="w-70 active_img m-auto" src={Servicetab.src} alt="Search Engine Optimization" />
+                {/* <img className="w-70 active_img m-auto" src={Servicetab.src} alt="Search Engine Optimization" /> */}
+                
+                
+                <DotLottieReact
+              src='/json/home-page/E Commerce JSON.json'
+              loop
+              autoplay
+              style={{ width: '500px', height: '500px' }}
+            />
                 </div>
               </div>
             </div>

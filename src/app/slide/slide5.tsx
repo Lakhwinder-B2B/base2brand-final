@@ -6,6 +6,7 @@ import web2 from '../../../public/services-img/w2.png';
 
 import hybrig from '../../../public/services-img/hybrig.png';   
 import '../project.css'; 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
  
 
 export default function home() {
@@ -17,7 +18,13 @@ export default function home() {
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
               <div className="tab-content" id="pills-tabContent">
                 <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
-                  <img className="active_img w-70" src={Servicetab5.src} alt="Search Engine Optimization" />
+                  {/* <img className="active_img w-70" src={Servicetab5.src} alt="Search Engine Optimization" /> */}
+                  <DotLottieReact
+              src='/json/home-page/Mobile App JSON Final.json'
+              loop
+              autoplay
+              style={{ width: '600px', height: '600px' }}
+            />
                 </div>
               </div>
             </div>
