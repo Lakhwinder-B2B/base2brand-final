@@ -757,7 +757,15 @@ img.check_icon {
   width: 18px;
   margin-top: 5px;
 }
-
+.animated-imgs {
+  height: calc(100vh - 200px);
+  width: 100%;
+  overflow: hidden;
+}
+.animated-imgs .canvas{
+  height: calc(100vh - 200px);
+  width: auto;
+}
 @media only screen and (max-width: 767px){
   .logo_brand img {
     margin: auto;
@@ -867,7 +875,7 @@ img.check_icon {
 
 @media screen and (max-width:1800px) {
   .Typewriter span{
-    font-size:62px;
+    font-size:55px;
   }
 
   .footerMenu h5 {
@@ -924,6 +932,26 @@ img.check_icon {
   .sub_heading {
     font-size: 35px;
     line-height: 40px;
+  }
+}
+@media screen and (max-width: 1600px){
+  .Typewriter span{
+    font-size:50px;
+  }
+  .sub_heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .b2b-sub-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .b2b-sub-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .b2b-text {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 1400px){
@@ -1161,6 +1189,38 @@ img.check_icon {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 1024px){
+  img.social_icons {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px !important;
+  }
+  .b2b-achievements-wrap h2 {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  .b2b-achievements-wrap img {
+    height: 34px;
+  }
+  .b2b-achievements-wrap p {
+    font-size: 10px;
+  }
+  .b2b-text {
+    font-size: 11px;
+  }
+  .pert_num {
+    height: 62px !important;
+    width: 62px !important;
+  }
+  .client_desc.gap-5, .client_descs.gap-5 {
+    gap: 1rem!important;
+  }
+  .bg_feedback {
+    padding: 2rem;
+    height: 350px;
+    
+  }
+}
 @media screen and (max-width: 991px) {
   .nav-link .d-flex.justify-content-between {
     display: block !important;
@@ -1208,7 +1268,60 @@ img.check_icon {
   .mobilebanner {
     height: 550px !important;
   }
- 
+  .sub_text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .sub_text br{
+    display: none;
+  }
+  .row-reverse-mb {
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+  }
+  .progress-count .count-col {
+    width: 33.33%;
+    padding: 0 15px;
+    margin-bottom: 28px;
+  }
+  .row.progress-count {
+    justify-content: center !important;
+  }
+  .progress-column {
+    padding: 25px 0 20px 0;
+  }
+  .b2b-achievements-wrap p {
+    font-size: 14px;
+  }
+  .b2b-achievements-wrap img {
+    height: 44px;
+  }
+  body .b2b-achievements-wrap {
+    justify-content: space-evenly !important;
+  }
+  .progress-count.b2b-workProcess .count-col {
+    width: 33.33%;
+    padding: 0 15px;
+  }
+  .bg_feedback {
+    padding: 2rem !important;
+    height: 425px;
+  }
+  .b2b-partners-heading {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .b2b-heading {
+    font-size: 24px;
+    line-height: normal;
+  }
+  .section-padding-hm-serv {
+    padding: 30px 0;
+  }
+  .b2b-workProcess-wrap {
+    justify-content: center;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1366,9 +1479,7 @@ p.about_data {
 a.name_project {
   font-size: 16px;
 }
-.about_order {
-  order: 2;
-}
+
 .col-12.col-sm-6.col-md-6.col-lg-3.mb-4.text-left {
   text-align: center;
 }
@@ -1521,19 +1632,8 @@ p.blog_desc {
 img.ecommerce_img {
   margin-bottom: 20px;
 }
-  div#ECOMMERCE{
-    order: 2;
-    padding-bottom: 2rem;
 
-  }
-  .slide {
-    padding-bottom: 2rem;
-}
-div#WEB {
-  order: 2;
-  padding-bottom: 2rem;
 
-}
 p.mb-5.mt-4.army {
   font-size: 16px !important;
 }
@@ -1553,9 +1653,7 @@ p.mb-5.mt-4.army {
     font-weight: 600;
     margin-bottom: 1rem;
 }
-img.social_icons.mr-3 {
-  border: none;
-}
+
   .count-col {
     margin: auto;
 }
@@ -1626,7 +1724,6 @@ ul.nav.nav-pills.mb-3 {
   }
   .b2b-text {
     font-size: 14px;
-    line-height: normal !important;
   }
   .b2b-btn-sm {
     font-size: 12px;
@@ -1661,10 +1758,7 @@ ul.nav.nav-pills.mb-3 {
     font-size: 14px;
 
   }
-  .row-reverse-mb {
-    flex-direction: column-reverse;
-    margin-bottom: 25px;
-  }
+ 
   .bg_home {
     padding-top: 0;
   }
@@ -1685,14 +1779,35 @@ ul.nav.nav-pills.mb-3 {
   .slick-slider {
     margin-top: 32px;
   }
-  .slide {
-    padding-top: 25px;
-  }
+  
   .feedback_user h3, .feedback_user p {
     text-align: center;
   }
   .reviewSlider {
     padding: 0 30px;
+  }
+  .row.progress-count {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .bgimg_feed1 .container{
+    max-width: 100% !important;
+  }
+  .full_height {
+    height: auto;
+  }
+  .progress-count.b2b-workProcess .count-col {
+    width: 50%;
+    padding: 0 15px;
+  }
+  .b2b-workProcess {
+    max-width: 300px;
+    margin: auto;
+    width: 100%;
+  }
+  .check_list {
+    width: 100%;
+    margin-bottom: 8px;
   }
 }
 
@@ -1711,6 +1826,9 @@ ul.nav.nav-pills.mb-3 {
   }
   .reviewSlider {
     padding: 0 40px;
+  }
+  body .mb-mb-0{
+    margin-bottom: 0 !important;
   }
 }
 @media screen and (max-height: 600px){

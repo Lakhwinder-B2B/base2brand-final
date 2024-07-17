@@ -27,7 +27,7 @@ export default function home() {
               src='/json/home-page/UI UX JSON.json'
               loop
               autoplay
-              style={{ width: '500px', height: '500px' }}
+              className="animated-imgs"
             />
                     </div>
                   </div>

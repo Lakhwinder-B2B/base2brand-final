@@ -22,7 +22,7 @@ export default function home() {
     <>   
     <div className='b2b-gray-bg w-100 section-padding-hm-serv'>
         <div className='b2b-container-lg'>
-          <div className="row w-100 d-flex flex-wrap align-items-center">
+          <div className="row w-100 d-flex flex-wrap align-items-center row-reverse-mb">
             
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" id='WEB' data-aos="fade-down">
               <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -53,7 +53,7 @@ export default function home() {
               src='/json/home-page/Web Development JSON.json'
               loop
               autoplay
-              style={{ width: '500px', height: '500px' }}
+              className="animated-imgs"
             />
                 
                 </div>

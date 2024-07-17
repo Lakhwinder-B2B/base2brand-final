@@ -53,8 +53,8 @@ export default function Home() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
           infinite: true,
           dots: false
         }
@@ -87,7 +87,7 @@ export default function Home() {
                   <img src={b2b1.src} className='banner_icon_section' />
                   <img src={b2b2.src} className='banner_icon_section' /> 
             </div>
-            <div className="col-md-8 text-center pt-5 mt-5 mob-top" data-aos="fade-up" > 
+            <div className="col-md-8 text-center pt-5 mt-5 mt-md-0 pt-md-0 mob-top" data-aos="fade-up" > 
               <h2 className="sub_heading">Design, Develop, Deliver</h2> 
               <Typewriter 
                 options={{

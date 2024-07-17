@@ -54,7 +54,7 @@ export default function home() {
       <div className="section-padding-hm-serv w-100"> 
         <div className="b2b-container-lg"> 
           <div className="row">  
-            <div className="col-md-12 mb-5"  >
+            <div className="col-md-12 mb-5 mb-mb-0"  >
               <h2 className="b2b-heading text-center text-uppercase" >Our Services for Your Digital Transformation</h2>
             </div> 
           </div> 
@@ -68,7 +68,7 @@ export default function home() {
               src='/json/home-page/Digital Marketing JSON.json'
               loop
               autoplay
-              style={{ width: '500px', height: '500px' }}
+              className="animated-imgs"
             />
                     
                     </div>

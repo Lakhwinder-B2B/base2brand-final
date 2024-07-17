@@ -12,7 +12,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 export default function home() {
   return (
     <>   
-      <div className="section-padding-hm-serv w-100"> 
+      <div className="section-padding-hm-serv w-100 p-0"> 
         <div className='b2b-container-lg'>
           <div className="row w-100 d-flex flex-wrap align-items-center">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
@@ -23,7 +23,7 @@ export default function home() {
               src='/json/home-page/Mobile App JSON Final.json'
               loop
               autoplay
-              style={{ width: '600px', height: '600px' }}
+              className="animated-imgs"
             />
                 </div>
               </div>
