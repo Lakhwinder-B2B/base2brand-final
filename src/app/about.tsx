@@ -158,7 +158,7 @@ export default function Homeabout() {
               className="dream_img"
             />
             </div> 
-            <div className="col-lg-8 col-md-12 col-12 mb-5 mb-md-0 order-md-1 order-sm-1 order-xs-1">
+            <div className="col-lg-8 col-md-12 col-12 mb-5 mb-md-0 order-lg-3 order-md-1 order-sm-1 order-xs-1">
             <h3 className="b2b-sub-text b2b-lightBlue-text">We are the best for</h3>
              <div className="d-flex justify-content-between flex-wrap">
                 <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Our client list includes:</div>
