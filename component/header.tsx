@@ -53,7 +53,7 @@ useEffect(() => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-      <ul className="navbar-nav align-items-center d-flex flex-wrap Header_link">
+      <ul className="navbar-nav main-menu align-items-center d-flex flex-wrap Header_link">
       <li>
         <a href="/" className={currentRoute === "/"? "active  py-2 px-1 " : "block py-2 px-1"} aria-current="page">
            Home 
@@ -200,7 +200,10 @@ useEffect(() => {
 
     <div className="d-flex flex-wrap align-items-center contact-num">
       <ul className="navbar-nav align-items-center d-flex flex-wrap Header_link">
-        <li className='dropdown'>
+        <li className='menuBtn'>
+          <a href=""><span>Contact</span></a>
+        </li>
+        <li className='dropdown iconHover'>
           <div className="call_number_drop">
             <img className='call_icon' src={call.src} />
           </div> 
@@ -215,7 +218,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             
-              <div className="menuInner ">
+              <div className="menuInner border-bottom pt-3">
                 <div className='phoneMenuIcon'></div>
                   <h3 className='b2b-title-text text-white text-uppercase'>for sales inquiry</h3>
               </div>
@@ -223,7 +226,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             <a href="">
-              <div className="menuInner ">
+              <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={india.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+91 836 011 6967</h3>
               </div>
@@ -231,7 +234,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             <a href="">
-              <div className="menuInner ">
+              <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={mail.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>hello@base2brand.com</h3>
               </div>
@@ -239,7 +242,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             
-              <div className="menuInner ">
+              <div className="menuInner border-bottom pt-3">
                 <div className='phoneMenuIcon'></div>
                   <h3 className='b2b-title-text text-white text-uppercase'>for quick connect :</h3>
               </div>
@@ -247,7 +250,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             <a href="">
-              <div className="menuInner ">
+              <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={whatsapp.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+91 9041700209</h3>
               </div>
@@ -255,7 +258,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             
-              <div className="menuInner ">
+              <div className="menuInner border-bottom pt-3">
                 <div className='phoneMenuIcon'></div>
                   <h3 className='b2b-title-text text-white text-uppercase'>others</h3>
               </div>
@@ -263,7 +266,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             <a href="">
-              <div className="menuInner ">
+              <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={canada.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+1(416) 879-2244</h3>
               </div>
@@ -271,7 +274,7 @@ useEffect(() => {
             </li>
             <li className='mega-menu'>
             <a href="">
-              <div className="menuInner">
+              <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={uk.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+44 07448435973</h3>
               </div>

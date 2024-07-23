@@ -36,7 +36,7 @@ export default function Homeabout() {
             <div className="col-lg-5 col-md-12 col-12 text-center mb-5 mb-md-0 about_order">
             {/* <img className="m-auto" src={technologies.src} alt="Product" /> */}
             <DotLottieReact
-              src='/json/home-page/Softwares-Json.json'
+              src='/json/home-page/Software JSON.json'
               loop
               autoplay
               className="animated-imgs"
