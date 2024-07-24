@@ -22,7 +22,7 @@ export default function home() {
     <>   
     <div className='w-100 section-padding-hm-serv'>
         <div className='b2b-container-lg'>
-          <div className="row w-100 d-flex flex-wrap align-items-center row-reverse-mb">
+          <div className="row w-100 d-flex flex-wrap align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
               <div className="tab-content" id="pills-tabContent">
                 <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">

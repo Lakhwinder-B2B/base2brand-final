@@ -14,7 +14,7 @@ export default function home() {
     <>   
       <div className="b2b-gray-bg  section-padding-hm-serv w-100 p-0"> 
         <div className='b2b-container-lg'>
-          <div className="row w-100 d-flex flex-wrap align-items-center">
+          <div className="row w-100 d-flex flex-wrap align-items-center row-reverse-mb">
             
 
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" id='MOBILE' data-aos="fade-down">

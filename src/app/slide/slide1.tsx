@@ -22,7 +22,7 @@ export default function home() {
         <div className="b2b-container-lg"> 
           
           
-            <div className="row w-100 d-flex flex-wrap align-items-center m-auto"> 
+            <div className="row w-100 d-flex flex-wrap align-items-center m-auto row-reverse-mb"> 
                 
 
                 <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-down">
