@@ -34,7 +34,7 @@ export default function AboutUs() {
     infinite: true,
     centerMode: true,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1, 
     responsive: [
