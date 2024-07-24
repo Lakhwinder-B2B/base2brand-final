@@ -33,7 +33,7 @@ export default function AboutUs() {
     arrows : true, 
     infinite: true,
     centerMode: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2500,
     slidesToShow: 1,
     slidesToScroll: 1, 
