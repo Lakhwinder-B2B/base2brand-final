@@ -2,9 +2,9 @@
 import { useEffect } from 'react'; 
 import React ,{useState } from "react";   
 import Servicetab5 from '../../../public/img/mb_app.png';    
-import web2 from '../../../public/services-img/w2.png';   
+import web2 from '../../../public/services-img/w5.svg';   
 
-import hybrig from '../../../public/services-img/hybrig.png';   
+import hybrig from '../../../public/services-img/hybrig.svg';   
 import '../project.css'; 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
  
@@ -12,22 +12,10 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 export default function home() {
   return (
     <>   
-      <div className="section-padding-hm-serv w-100 p-0"> 
+      <div className="b2b-gray-bg  section-padding-hm-serv w-100 p-0"> 
         <div className='b2b-container-lg'>
           <div className="row w-100 d-flex flex-wrap align-items-center">
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
-              <div className="tab-content" id="pills-tabContent">
-                <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
-                  {/* <img className="active_img w-70" src={Servicetab5.src} alt="Search Engine Optimization" /> */}
-                  <DotLottieReact
-              src='/json/home-page/Mobile App JSON Final.json'
-              loop
-              autoplay
-              className="animated-imgs"
-            />
-                </div>
-              </div>
-            </div>
+            
 
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" id='MOBILE' data-aos="fade-down">
               <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -43,6 +31,19 @@ export default function home() {
                       </a>
                   </li>
               </div> 
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
+              <div className="tab-content" id="pills-tabContent">
+                <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
+                  {/* <img className="active_img w-70" src={Servicetab5.src} alt="Search Engine Optimization" /> */}
+                  <DotLottieReact
+                      src='/json/home-page/Mobile App JSON Final.json'
+                      loop
+                      autoplay
+                      className="animated-imgs"
+                    />
+                </div>
+              </div>
             </div>
           </div> 
         </div> 

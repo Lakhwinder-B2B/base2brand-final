@@ -103,7 +103,60 @@ button.radius {
     max-width: 80%;
     margin: 0 auto;
 }
-
+.odd-row, .even-row{
+    padding:35px 30px;
+}
+.textWrap {
+    padding: 0 50px;
+}
+.ui-ux-tool-img{
+    height: 50px;
+    margin: auto;
+}
+.deliverable-step {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.deliverable-step {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    padding-left: 65px;
+    margin-left: 36px;
+    background-color: #111616;
+    border-radius: 14px;
+    position: relative;
+    box-shadow: 0px 0px 7.8px 0px #396BDB;
+}
+.deliverable-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -33px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #396BDB;
+    border-radius: 50%;
+}
+.deliverable-icon-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #111616;
+    border-radius: 50%;
+    padding: 15px;
+    display: grid;
+    place-items: center;
+    margin-left: -5px;
+}
+.deliverable-content {
+    padding: 20px 55px;
+}
+.deliverable-content p{
+    margin-bottom: 0;
+}
 @media screen and (max-width:1800px) {
     .graphic-services .inner-create {
         max-width: 90%;

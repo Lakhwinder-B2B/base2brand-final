@@ -245,7 +245,7 @@ export default function BigCommence() {
                             <div className="col-lg-10">
                               <div className="row justify-content-center">
                                   <div className="col-lg-4 mb-3">
-                                    <a href="/">
+                                    <a className="menuLink" href="/">
                                       <div className="menuInner b2b-pink-bg">
                                           <h3 className='b2b-title-text text-black'>Web Development</h3>
                                           <div className='d-flex align-items-center justify-content-between'>
@@ -256,7 +256,7 @@ export default function BigCommence() {
                                     </a>
                                   </div>
                                   <div className="col-lg-4 mb-3">
-                                    <a href="/">
+                                    <a className="menuLink" href="/graphic">
                                       <div className="menuInner b2b-lightBlue-bg">
                                           <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
                                           <div className='d-flex align-items-center justify-content-between'>
@@ -267,7 +267,7 @@ export default function BigCommence() {
                                     </a>
                                   </div>
                                   <div className="col-lg-4 mb-3">
-                                    <a href="/">
+                                    <a className="menuLink" href="/digital-marketing">
                                       <div className="menuInner b2b-pink-bg">
                                           <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
                                           <div className='d-flex align-items-center justify-content-between'>
@@ -278,7 +278,7 @@ export default function BigCommence() {
                                     </a>
                                   </div>
                                   <div className="col-lg-4 mb-3">
-                                    <a href="/">
+                                    <a className="menuLink" href="/e-commerce">
                                       <div className="menuInner b2b-lightBlue-bg">
                                           <h3 className='b2b-title-text text-black'>Ecommerce</h3>
                                           <div className='d-flex align-items-center justify-content-between'>
@@ -289,7 +289,7 @@ export default function BigCommence() {
                                     </a>
                                   </div>
                                   <div className="col-lg-4 mb-3">
-                                    <a href="/">
+                                    <a className="menuLink" href="/">
                                       <div className="menuInner b2b-pink-bg">
                                           <h3 className='b2b-title-text text-black'>Shopify Development</h3>
                                           <div className='d-flex align-items-center justify-content-between'>

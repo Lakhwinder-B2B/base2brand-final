@@ -1,10 +1,13 @@
 'use client' 
 import React, { useState } from "react";   
-import Graphicservicewebsite from '../../public/graphic-service-img/website.png';
-import Graphicservicemobile from '../../public/graphic-service-img/mobile.png';
-import Graphicservicemedia from '../../public/graphic-service-img/media.png';
-import Graphicservicebranding from '../../public/graphic-service-img/branding.png';
-import AI from '../../public/graphic-service-img/ai.png';
+import Icon1 from '../../public/graphics/icon1.svg';
+import Icon2 from '../../public/graphics/icon2.svg';
+import Icon3 from '../../public/graphics/icon3.svg';
+import Icon4 from '../../public/graphics/icon4.svg';
+import Icon5 from '../../public/graphics/icon5.svg';
+import Icon6 from '../../public/graphics/icon6.svg';
+import Icon7 from '../../public/graphics/icon7.svg';
+import Icon8 from '../../public/graphics/icon8.svg';
 import Request from "./request-form";
 
 
@@ -18,89 +21,121 @@ export default function Graphicservices() {
 
   return (
     <>  
-    <div className="p-4 graphic-services"> 
-        {/* <div className="graphic-ser-head text-white mb-5 text-center" data-aos="fade-up">
-            <h1  >Our Services</h1>
-            <p  >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy tex</p>
-        </div> */}
-            <div className="inner-create row text-white align-items-center justify-content-around">
-                <div className="row align-items-center p-0">
-                    <div className="col-md-6 mb-5 mb-md-0">
-                        <div className="inner-col">
-                            <img src={Graphicservicewebsite.src} alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-5 mb-md-0">
-                        <div className="inner-col">
-                            <h1 className="web-head">Website & App Design</h1>
-                            <p className='mb-5'>Our Website & App Design service creates easy-to-use and attractive digital platforms. Design is crucial - it&apos;s what people notice first! We start from scratch and make sure your website or app looks great and works well. We&apos;ll create something that really stands out and keeps people coming back.</p>
-                           <button className="btn btn-outline-primary m-0" onClick={toggleModal}> Request a Quote </button>
-                      
-                        </div>
-                    </div>
-
-                    <div className="col-md-6 mb-5 mb-md-0">
-                        <div className="inner-col">
-                            <h1 className="web-head">Motion Graphics</h1>
-                            <p className='mb-5'>Our motion graphics service brings your ideas to life with moving visuals and animations. Whether it&apos;s for videos, presentations, or social media, we add dynamic elements to grab attention and convey messages effectively. Let us create eye-catching motion graphics that make your content shine and engage your audience.</p>
-                           <button className="btn btn-outline-primary m-0" onClick={toggleModal}> Request a Quote </button>
-
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-5 mb-md-0" >
-                        <div className="inner-col">
-                            <img src={Graphicservicemobile.src} alt="" />
-                        </div>
-                    </div>
-
-                    <div className="col-md-6 mb-5 mb-md-0">
-                        <div className="inner-col">
-                            <img src={Graphicservicemedia.src} className='w-100' alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-5 mb-md-0" >
-                    <div className="inner-col">
-                        <h1 className="web-head">Social Media Design</h1>
-                        <p className='mb-5'> Make your social media business accounts pop with our graphic design service. Did you know posts with pictures get way more likes and comments? We&apos;ll create cool images just for you, so your posts look awesome and people want to follow you. Let&apos;s make your social media accounts shine!</p>
-                        <button className="btn btn-outline-primary m-0" onClick={toggleModal}> Request a Quote </button>
-
-                    </div>
-                    </div>
-                 
-                   
-
-                    <div className="col-md-6 mb-5 mb-md-0">
-                        <div className="inner-col">
-                            <h1 className="web-head">Branding & Identity</h1>
-                            <p className='mb-5'>Our branding and identity service is all about making your business stand out. We&apos;ll create a unique look and feel that represents who you are. From logos to colors and fonts, we&apos;ll design everything you need to make a lasting impression. Let us help you build a strong brand identity that sets you apart from the competition.</p>
-                           <button className="btn btn-outline-primary m-0" onClick={toggleModal}> Request a Quote </button>
-
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-5 mb-md-0"  >
-                        <div className="inner-col">
-                            <img src={Graphicservicebranding.src} alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-5 mb-md-0"  >
-                        <div className="inner-col">
-                            <img src={AI.src} alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-5 mb-md-0">
-                        <div className="inner-col">
-                            <h1 className="web-head">2D & Infographics Design</h1>
-                            <p className='mb-5'>Our 2D & Infographics Design service transforms complex information into visually engaging graphics. Whether it&apos;s for presentations, reports, or marketing materials, we&apos;ll create clear and compelling visuals that captivate your audience. Let us simplify your message and make it easy to understand with our creative 2D designs and infographics.</p>
-                           <button className="btn btn-outline-primary m-0" onClick={toggleModal}> Request a Quote </button>
-
-                        </div>
-                    </div>
-                  
-                </div>
-
-
-                       
+    <div className="w-100 b2b-gray-bg py-5"> 
+       <div className="b2b-container-lg">
+        <div className="row">
+            <div className="col-lg-12">
+                <h3 className="b2b-sub-heading">what we create</h3>
+                <h2 className="b2b-heading">Deliverables</h2>
             </div>
+        </div>
+        <div className="row mt-5">
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon1.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">App Design</h2>
+                        <p className="b2b-text">User-friendly interfaces, intuitive navigation, engaging visuals, responsive layouts, seamless interactions.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon2.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">Websites</h2>
+                        <p className="b2b-text">Responsive layouts, captivating visuals, easy navigation, clear messaging, optimized performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon3.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">Design Systems</h2>
+                        <p className="b2b-text">Consistent design elements, modular components, reusable patterns, scalable frameworks, streamlined workflows.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon4.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">UI Kits</h2>
+                        <p className="b2b-text">Comprehensive design elements, customizable components, consistent styles, efficient resource for designers.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon5.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">Branding</h2>
+                        <p className="b2b-text">Memorable logos, cohesive visual identity, brand guidelines, impactful messaging, consistent across platforms</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon6.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">Prototypes</h2>
+                        <p className="b2b-text">Interactive mockups, user flows, clickable prototypes, usability testing, effective communication of design concepts.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon7.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">Illustration</h2>
+                        <p className="b2b-text">Custom illustrations, visual storytelling, brand personality, enhancing user experience, conveying complex ideas.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-6 mb-4">
+                <div className="deliverable-step">
+                    <div className="deliverable-icon">
+                        <div className="deliverable-icon-bg">
+                            <img src={Icon8.src} alt="" />
+                        </div>
+                    </div>
+                    <div className="deliverable-content">
+                        <h2 className="b2b-sub-heading">Animation</h2>
+                        <p className="b2b-text">Engaging motion graphics, enhancing user interactions, storytelling, adding depth to designs, capturing attention.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
     </div>
 
     {showModal && 

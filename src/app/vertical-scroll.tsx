@@ -30,7 +30,7 @@ export default function HorizontalScroll() {
   };
 
   return (
-    <div className='slider_vertical'>
+    <div className='slider_vertical mt-5'>
       <Slider {...settings}>
       <section className='slide_data text-center text-white slide_height'>
         <h1>What sets <br /> us apart  </h1> 

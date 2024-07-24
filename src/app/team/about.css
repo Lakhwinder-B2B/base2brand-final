@@ -37,3 +37,20 @@
 .crew-wrap.work-with-us .row{
     column-gap: unset;
 }
+.team-animated-img{
+    max-width: 650px;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+}
+.team-animated-img canvas{
+    max-width: 650px !important;
+    width: 100%;
+    height: 650px !important;
+}
+.team-animated-img{
+    overflow: hidden;
+}
+.team-animated-img canvas{
+    margin-top: -250px;
+}

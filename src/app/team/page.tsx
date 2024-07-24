@@ -7,8 +7,8 @@ import Footer from "../../../component/footer";
 import "../team/about.css";
 import Request from "../request-form";
 import radialBg from '../../../public/img/radial_bg.svg'; 
-import Icon1 from '../../../public/team-img/icon1.svg'; 
-import Icon2 from '../../../public/team-img/icon2.svg'; 
+import Icon1 from '../../../public/team-img/rakesh.png'; 
+import Icon2 from '../../../public/team-img/rahul.png'; 
 import manpreetSingh from '../../../public/team-img/manpreet-Singh.png'; 
 import ArshpreetSingh from '../../../public/team-img/Arshpreet-Singh.png'; 
 import Sumek from '../../../public/team-img/Sumek.png'; 
@@ -56,7 +56,7 @@ import Slider from "react-slick";
 import { Link,  Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import radialRight from '../../../public/img/radial-right.svg'; 
 
-
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Team() {
 
@@ -73,8 +73,14 @@ export default function Team() {
                   <div className="mt-5 text-center mb-5 pb-5">
                     <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
                   </div>
-                  <div className='mt-3 text-center'>
-                    <img src={About1.src} alt="" />
+                  <div className='text-center'>
+                    {/* <img src={About1.src} alt="" /> */}
+                    <DotLottieReact
+                        src='/json/about-us/Our Cherished Teams.json'
+                        loop
+                        autoplay
+                        className="team-animated-img"
+                      />
                   </div>
                 
               </div>
@@ -400,7 +406,7 @@ export default function Team() {
                     <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href="/about">
+                    <a className="menuLink" href="/about">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>About Us</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -411,7 +417,7 @@ export default function Team() {
                     </a> 
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href="/career">
+                    <a className="menuLink" href="/career">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Career</h3>
                           <div className='d-flex align-items-center justify-content-between'>

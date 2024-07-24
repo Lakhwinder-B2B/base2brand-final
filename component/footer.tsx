@@ -18,28 +18,25 @@ export default function Header() {
             <h5>Digital Marketing</h5>
             <ul className="mb-0">
               <li>
-                <a href="/digital-marketing">PPC Management</a>
+                <a href="/">Media Buyer</a>
               </li>
               <li>
-                <a href="/digital-marketing">Media Buyer</a>
+                <a href="/">Content Writing</a>
               </li>
               <li>
-                <a href="/digital-marketing">Content Writing</a>
+                <a href="/">Google Ads (PPC)</a>
               </li>
               <li>
-                <a href="/digital-marketing">Google Ads (PPC)</a>
+                <a href="/">YouTube Marketing</a>
               </li>
               <li>
-                <a href="/digital-marketing">YouTube Marketing</a>
+                <a href="/">Search Engine Optimization</a>
               </li>
               <li>
-                <a href="/digital-marketing">Search Engine Optimization</a>
+                <a href="/">Social Media Optimization</a>
               </li>
               <li>
-                <a href="/digital-marketing">Social Media Optimization</a>
-              </li>
-              <li>
-                <a href="/digital-marketing">Online Reputation Management</a>
+                <a href="/">Online Reputation Management</a>
               </li>
             </ul>
           </div>
@@ -47,48 +44,45 @@ export default function Header() {
             <h5>Web/Mobile Development</h5>
             <ul className="mb-0">
               <li>
-                <a href="/web-application">Remix Framework</a>
+                <a href="/">Remix Framework</a>
               </li>
               <li>
-                <a href="/web-application">Laravel Development</a>
+                <a href="/">Laravel Development</a>
               </li>
               <li>
-                <a href="/web-application">MEAN Stack Development</a>
+                <a href="/">MEAN Stack Development</a>
               </li>
               <li>
-                <a href="/web-application">ASP.NET Development</a>
+                <a href="/">ASP.NET Development</a>
               </li>
               <li>
-                <a href="/web-application">MERN Stack Development</a>
+                <a href="/">MERN Stack Development</a>
               </li>
               <li>
-                <a href="/web-application">Native IOS and Android</a>
+                <a href="/">Native IOS and Android</a>
               </li>
               <li>
-                <a href="/web-application">Hybrid apps Development</a>
+                <a href="/">Hybrid apps Development</a>
               </li>
             </ul>
           </div>
           <div className="col footerMenu">
-            <h5>Other Services</h5>
+            <h5>Graphic Design</h5>
             <ul className="mb-0">
               <li>
-                <a href="/graphic">Graphic Design</a>
+                <a href="/">Branding &amp; Identity</a>
               </li>
               <li>
-                <a href="/mobile-application">Branding &amp; Identity</a>
+                <a href="/">Website &amp; App Design</a>
               </li>
               <li>
-                <a href="/mobile-application">Website &amp; App Design</a>
+                <a href="/">Motion Graphics</a>
               </li>
               <li>
-                <a href="/mobile-application">Motion Graphics</a>
+                <a href="/">Social Media Design</a>
               </li>
               <li>
-                <a href="/mobile-application">Social Media Design</a>
-              </li>
-              <li>
-                <a href="/mobile-application">2D &amp; infographic Design</a>
+                <a href="/">2D &amp; infographic Design</a>
               </li>
               
             </ul>
@@ -202,18 +196,19 @@ export default function Header() {
             </ul>
           </div>
           <div className="mb-sm-0 mb-4 footerMenu">
-            <h5>India</h5>
+            <h5>India (headquater) </h5>
             <ul className="mb-0">
               <li>F-209, Industrial area Phase 8-B,<br/>
-                Sector 74, Mohali, 160074</li>
+                Sector 74, Mohali, 160074<br/>
+                <a className="text-white" href="tel:+91-9872487850">+91 9872487850</a></li>
             </ul>
           </div>
 
           <div className="mb-sm-0 mb-4 footerMenu">
-          <h5>Canada</h5>
+          <h5>USA</h5>
             <ul className="mb-0">
-              <li>Ms Ady 114, Bellchase Trail Brampton<br/>
-               ON L6P 3LA <a className="text-white" href="tel:+1-416-879-2244">+1(416) 879-2244</a></li>
+              <li>7311 Gladys Ave, El Cerrito, CA 94530,<br/>
+               USA, <a className="text-white" href="tel:+1-720-903-5933">+1 (720) 903-5933</a></li>
              
             </ul>
         </div>
@@ -223,7 +218,7 @@ export default function Header() {
             <h5>UK</h5>
             <ul className="mb-0">
               <li>Ms Ady 114, Bellchase Trail Brampton<br/>
-               ON L6P 3LA <a className="text-white" href="tel:+1-416-879-2244">+1(416) 879-2244</a></li>
+               ON L6P 3LA <a className="text-white" href="tel:+44-7552-535341">+44 7552 535341</a></li>
              
             </ul>
           </div>

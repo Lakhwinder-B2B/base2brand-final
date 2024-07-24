@@ -233,6 +233,15 @@ span.slide-number {
     top: -90px;
     left: 43px;
 }
+.tabs_section .tabsLink {
+    position: sticky;
+    top: 50px;
+}
+.about-gif {
+    width: 100%;
+    height: calc(100% - 80px);
+    overflow: hidden;
+}
 @media screen and (max-width: 1800px){
     .ceo_name_align .b2b-text {
         font-size: 16px;

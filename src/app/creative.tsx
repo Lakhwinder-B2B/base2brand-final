@@ -2,7 +2,15 @@
 import { useEffect } from 'react';
 
 import React from "react";   
-import Graphic from '../../public/marketing-img/graphic.png';       
+import Graphic1 from '../../public/graphics/step1.png';       
+import Graphic2 from '../../public/graphics/step2.png';       
+import Graphic3 from '../../public/graphics/step3.png';       
+import Graphic4 from '../../public/graphics/step4.png';       
+import Graphic5 from '../../public/graphics/step5.png';       
+import Graphic6 from '../../public/graphics/step6.png';       
+import Graphic7 from '../../public/graphics/step7.png';       
+import Graphic8 from '../../public/graphics/step8.png';       
+import Graphic9 from '../../public/graphics/step9.png';       
 
 
 export default function Creative() {
@@ -11,22 +19,129 @@ export default function Creative() {
 
   return (
     <>  
-    <div className="p-2 p-md-5 creative"> 
-            <div className="inner-create row text-white align-items-center">
-                <div className="col-12 col-sm-12 col-md-7"   data-aos="flip-right"    >
-                    <h1 className='desc_service'>Creative<br/> 
-                        <span className="heading-gradient">UI/UX & Graphic Design</span> Services</h1>
-                </div>
-                <div className="col-12 col-sm-12 col-md-5"   data-aos="flip-left"   >
-                    <p className="creative-para">Experience seamless user interactions and visually stunning designs with our UI/UX and graphic design services. Studies show that 88% of online consumers are less likely to return to a website after a bad experience. Let us improve your digital presence and fascinate your audience with captivating design solutions.</p>
-                </div>       
+    <div className="p-5"> 
+          <div className="b2b-container-lg"> 
+            <div className="row text-white justify-content-center">
+              <div className="col-md-12 mx-auto text-center">
+                <h2 className="b2b-heading">Process of Delivering our UI/UX &amp;<br />Graphic Design Service</h2>
+                <h3 className="b2b-heading mt-5">Our <span className='b2b-primary-text'>process</span></h3>
+              </div>
             </div>
-    </div>
-    <div className="banner-video" data-aos="zoom-in" >
-        <img src={Graphic.src} className='w-100 grap' alt="" />
-        
-        {/* <iframe width="100%" height="600" src="http://player.vimeo.com/video/41406753?byline=0&amp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
-    </div>
+
+            <div className="row align-items-center odd-row">
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Initial Consultation</h2>
+                        <p className='text-white b2b-text'>Gather client requirements, goals, and brand identity. Understand target audience. Clarify project scope and objectives through comprehensive discussion.</p>
+                    </div>
+                </div>
+                <div className='col-lg-6'>
+                    <img src={Graphic1.src} alt="" />
+                </div>
+            </div> 
+
+            <div className="row align-items-center even-row">
+                <div className='col-lg-6'>
+                    <img src={Graphic2.src} alt="" />
+                </div>
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Research and Analysis</h2>
+                        <p className='text-white b2b-text'>Analyze market, competitors, and user preferences. Identify trends and pain points. Use insights to inform design strategy and solutions.</p>
+                    </div>
+              </div>
+              
+            </div> 
+
+            <div className="row align-items-center odd-row">
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Concept Development</h2>
+                        <p className='text-white b2b-text'>Brainstorm design ideas. Sketch multiple concepts exploring layouts, color schemes, typography, and imagery. Align with client preferences.</p>
+                    </div>
+                </div>
+                <div className='col-lg-6'>
+                    <img src={Graphic3.src} alt="" />
+                </div>
+            </div> 
+
+            <div className="row align-items-center even-row">
+                <div className='col-lg-6'>
+                    <img src={Graphic4.src} alt="" />
+                </div>
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Wireframing And<br />Prototyping</h2>
+                        <p className='text-white b2b-text'>Create wireframes to outline interface structure and user flow. Develop interactive prototypes to simulate user interactions and test usability.</p>
+                    </div>
+              </div>
+              
+            </div> 
+
+            <div className="row align-items-center odd-row">
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Design Iteration</h2>
+                        <p className='text-white b2b-text'>Refine design based on client feedback and user testing. Iterate to improve usability, aesthetics, and overall user experience.</p>
+                    </div>
+                </div>
+                <div className='col-lg-6'>
+                    <img src={Graphic5.src} alt="" />
+                </div>
+            </div> 
+
+            <div className="row align-items-center even-row">
+                <div className='col-lg-6'>
+                    <img src={Graphic7.src} alt="" />
+                </div>
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Visual Design</h2>
+                        <p className='text-white b2b-text'>Develop visual elements—color, typography, icons, imagery—consistent with client branding. Create visually appealing designs resonating with the target audience.</p>
+                    </div>
+              </div>
+              
+            </div> 
+
+            <div className="row align-items-center odd-row">
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>UI Development</h2>
+                        <p className='text-white b2b-text'>Translate finalized design into functional user interfaces. Utilize design tools or coding languages ensuring compatibility across devices and screen sizes.</p>
+                    </div>
+                </div>
+                <div className='col-lg-6'>
+                    <img src={Graphic6.src} alt="" />
+                </div>
+            </div> 
+
+            <div className="row align-items-center even-row">
+                <div className='col-lg-6'>
+                    <img src={Graphic8.src} alt="" />
+                </div>
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Testing and Quality Assurance</h2>
+                        <p className='text-white b2b-text'>Conduct thorough testing to identify bugs and usability issues. Ensure design consistency across devices, browsers, and operating systems.</p>
+                    </div>
+              </div>
+              
+            </div> 
+
+            <div className="row align-items-center odd-row">
+                <div className='col-md-6'>
+                    <div className='textWrap'>
+                        <h2 className='b2b-heading'>Delivery and Feedback</h2>
+                        <p className='text-white b2b-text'>Present final design for client review and approval. Provide documentation and assets for implementation. Gather feedback for future refinements.</p>
+                    </div>
+                </div>
+                <div className='col-lg-6'>
+                    <img src={Graphic9.src} alt="" />
+                </div>
+            </div> 
+
+          </div>
+        </div>
     
 </>
 )

@@ -49,7 +49,9 @@ useEffect(() => {
       <a href="/" className="flex items-center navbar-brand pt-0">
         <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
       </a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+    <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span className="navbar-toggler-icon"></span>
+      <span className="navbar-toggler-icon"></span>
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">

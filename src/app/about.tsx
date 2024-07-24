@@ -22,6 +22,7 @@ export default function Homeabout() {
  
   return (
     <>  
+    <div className="b2b-gray-bg">
       <div className="b2b-container-lg pt-5 pb-5">  
           <div className="row align-items-center row-reverse-mb"> 
             <div className="col-lg-7 col-md-12 col-12 text-white"   >
@@ -46,102 +47,102 @@ export default function Homeabout() {
             
           </div>
 
-        
+      </div>  
+      </div>  
+          <div className="b2b-container-lg">  
+              <div className='progress-column mt-5'>
+            
+                <div className='row'>
+                    <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-3 m-auto'>
+                      <h2 className='text-center b2b-sub-heading-bold text-uppercase'>working Process</h2>
+                      <p className='b2b-text text-center '>How we work for our customer</p>
+                    </div>
+                </div>
+            
+            
+                <div className='progress-count d-flex flex-wrap justify-content-between b2b-workProcess'>
+                  <div className="count-col">
+                    <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
+                      
+                        <div className=''>
+                          <div className='img-wrap'>
+                            <img src={processIcon1.src} />
+                          </div>
+                          <p className='text-white text-center'>Research</p>
+                        </div>
+                    </div>
+                  </div>
 
+                  <div className="count-col">
+                    <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
+                        
+                        <div>
+                          <div className='img-wrap'>
+                            <img src={processIcon2.src} />
+                          </div>
+                          <p className='text-white text-center'>Planning</p>
+                        </div>
+                    </div>
+                  </div>
 
-          <div className='progress-column mt-5'>
-        
-            <div className='row'>
-                <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-3 m-auto'>
-                  <h2 className='text-center b2b-sub-heading-bold text-uppercase'>Request a Quote</h2>
-                  <p className='b2b-text text-center '>How we work for our customer</p>
+                  <div className="count-col">
+                    <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
+                        
+                        <div>
+                          <div className='img-wrap'>
+                            <img src={processIcon3.src} />
+                          </div>
+                          <p className='text-white text-center'>Design</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div className="count-col">
+                    <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
+                      
+                        <div>
+                          <div className='img-wrap'>
+                            <img src={processIcon4.src} />
+                          </div>
+                          <p className='text-white text-center'>Development</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div className="count-col">
+                    <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
+                      
+                        <div>
+                          <div className='img-wrap'>
+                            <img src={processIcon5.src} />
+                          </div>
+                          <p className='text-white text-center'>Testing</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div className="count-col">
+                    <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
+                        
+                        <div>
+                          <div className='img-wrap'>
+                            <img src={processIcon6.src} />
+                          </div>
+                          <p className='text-white text-center'>Launch</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='row mt-4'>
+                  <div className='col-lg-12 text-center'>
+                    <button className='b2b-btn b2b-btn-lg'>Request a Quote</button>
+                  </div>
                 </div>
             </div>
-        
-        
-            <div className='progress-count d-flex flex-wrap justify-content-between b2b-workProcess'>
-              <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
-                  
-                    <div className=''>
-                      <div className='img-wrap'>
-                        <img src={processIcon1.src} />
-                      </div>
-                      <p className='text-white text-center'>Research</p>
-                    </div>
-                </div>
-              </div>
-
-              <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
-                    
-                    <div>
-                      <div className='img-wrap'>
-                        <img src={processIcon2.src} />
-                      </div>
-                      <p className='text-white text-center'>Planning</p>
-                    </div>
-                </div>
-              </div>
-
-              <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
-                    
-                    <div>
-                      <div className='img-wrap'>
-                        <img src={processIcon3.src} />
-                      </div>
-                      <p className='text-white text-center'>Design</p>
-                    </div>
-                </div>
-              </div>
-
-              <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
-                  
-                    <div>
-                      <div className='img-wrap'>
-                        <img src={processIcon4.src} />
-                      </div>
-                      <p className='text-white text-center'>Development</p>
-                    </div>
-                </div>
-              </div>
-
-              <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
-                  
-                    <div>
-                      <div className='img-wrap'>
-                        <img src={processIcon5.src} />
-                      </div>
-                      <p className='text-white text-center'>Testing</p>
-                    </div>
-                </div>
-              </div>
-              <div className="count-col">
-                <div className='d-flex justify-content-between b2b-black-bg b2b-workProcess-wrap'>
-                    
-                    <div>
-                      <div className='img-wrap'>
-                        <img src={processIcon6.src} />
-                      </div>
-                      <p className='text-white text-center'>Launch</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='row mt-5'>
-              <div className='col-lg-12 text-center'>
-                <button className='b2b-btn b2b-btn-lg'>Request a Quote</button>
-              </div>
-            </div>
-        </div>
-    
+          
 
 
-          <div className="row align-items-center row-reverse-mb mt-5"> 
+          <div className="row align-items-center row-reverse-mb mt-3 mb-5"> 
             <div className="col-lg-6 col-md-12 col-12 text-white order-md-2 order-sm-2 order-xs-2 mt-md-5"   >
               <h2 className="b2b-main-heading">HAVE A DREAM? <br />WE HAVE A TEAM!</h2> 
               <p className="b2b-sub-text">At our place, we have a stellar team of experts dedicated to bringing your vision to life. With extensive experience and a deep understanding of diverse industries, our team is equipped to handle any challenge that comes our way.</p>
@@ -159,11 +160,11 @@ export default function Homeabout() {
             />
             </div> 
             <div className="col-lg-8 col-md-12 col-12 mb-5 mb-md-0 order-lg-3 order-md-1 order-sm-1 order-xs-1">
-            <h3 className="b2b-sub-text b2b-lightBlue-text">We are the best for</h3>
+            <h3 className="b2b-sub-text b2b-lightBlue-text">Our client list includes:</h3>
              <div className="d-flex justify-content-between flex-wrap">
-                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Our client list includes:</div>
-                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Corporates due to our reliability and scalability</div>
                 <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Startups due to our cost-effectiveness</div>
+                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Corporates due to our reliability and scalability</div>
+                <div className="check_list b2b-text"><img src={check.src} className=' check_icon mr-3' alt="" />  Industries due to our expertise and versatility</div>
                 
   
                 

@@ -2,24 +2,19 @@
 
 import React, { useState } from "react"; 
 import Header from "../../../component/header";
-import Appdevelopment from "../mobile-application/app-development";
-import DesignWork from "../digital-marketing/design-work";
 import Technologystack from "../mobile-application/technologystack";
-import Feedback from "./E-feedback"; 
-import Faq from "./E-faq";
+import EcommerceFunctionality from "./ecommerce-functionality"; 
+import Services from "./services"; 
 import Quote from "../request-quote"; 
 import Footer from "../../../component/footer";
-import banner from '../../../public/ecommerce/banner.png';   
-import ecommerce from '../../../public/ecommerce/e.png';   
-import ecommerce1 from '../../../public/ecommerce/e2.png';   
-import ecommerce2 from '../../../public/ecommerce/e3.png';   
-import ecommerce3 from '../../../public/ecommerce/e4.png';  
-import Steps from "../../../public/net/lines.png"; 
-import Typewriter from 'typewriter-effect';
 import "../mobile-application/mobile.css";
 import "../e-commerce/commerce.css";
 import Request from "../request-form";
 
+
+import Bg from '../../../public/services2-img/service-mask.svg';
+import nextGeneration from '../../../public/ecommerce/e-commerce.png';
+import radialRight from '../../../public/img/radial-right.svg'; 
 
 export default function Ecommerce() {
   const [showModal, setShowModal] = useState(false);
@@ -31,103 +26,111 @@ export default function Ecommerce() {
   return (
     <>
       <Header />
-      <div className="bgblack pt-0 pb-5">
-        <div className="ph_remove_banner  pt-5" style={{
-      backgroundImage: `url(${banner.src})`,
-      width: '100%',
-      height: '700px',  
-      backgroundSize: 'contain',
-      backgroundRepeat: 'no-repeat', 
-    }}>
-         <div className="row w-100 pl-5"> 
-         <div className="col-md-12 text-center text-white mt-5">
-         <Typewriter 
-                options={{
-                  strings: ['E-Commerce Web & Apps Development'],
-                  autoStart: true,
-                  loop: true,
-                }}
-              /> 
-            <p className="mb-5 mt-4 army">Research indicates that 9 out of 10 individuals prefer using mobile apps over browsing websites for online shopping. <br /> Our mobile app development company has leveraged this trend by creating highly functional and personalized e-commerce apps. <br /> With our round-the-clock dedication, we&apos;ve made purchasing goods more convenient and accessible than ever before.</p>
-            <button className="btn btn-outline-primary" onClick={toggleModal}> 
-            {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
-            Request a Quote </button>
-         </div>  
+      <div className="b2b-black-bg">
+      <div className="service-banner full_height p-3 p-md-5" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <div className="container mx-auto">
+            <div className="row d-flex flex-wrap align-items-center justify-content-center m-auto"> 
+              <div className="col-12 col-sm-12 col-md-9 d-flex flex-wrap align-items-center justify-content-center pt-5 pb-5" data-aos="fade-up" >
+                 <h1 className="text-center mb-3 b2b-sub-heading-bold text-uppercase">ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h1>
+                 <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
+                 We specialize in  E-commerce theme and app development, providing customized solutions to enhance your web store</p>
+                 <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
+                  <button className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
+                 </div>
+              </div>
+            </div>
+          </div> 
         </div>
-        </div>  
-              <div className="commerce mb-5 pb-5">
-                <div className="container">
-                  <div className="row text-white align-items-center">
-                    {/* <div className="col-md-12 pb-4 text-center">
-                      <h1 className="text-white">e-Commerce Development</h1>
-                    </div> */}
-                    <div className="col-md-6">
-                      <img src={ecommerce.src} className="ecommerce_img" alt="" />
-                    </div>
-                    <div className="col-md-6 ps-4 pe-4">
-                      <h2 className="textprimary mb-4">Shopify Theme and App Development </h2>
-                      <p className="mb-1"> We specialize in Shopify theme and app development, providing tailored solutions to enhance your e-commerce store. Our team of experts can customize Shopify themes to match your brand identity and optimize user experience. </p>
-                      <p className="mb-5">Additionally, we create bespoke Shopify apps to add advanced functionalities and streamline your business operations. Let us help you elevate your online presence and drive sales growth.</p>
-                      <button className="btn btn-outline-primary m-0" onClick={toggleModal}>  
-                       Request a Quote   
-                       <i className="fa fa-hand-o-right fs-4 hide_ic ml-3" aria-hidden="true"></i>
-                       </button>
-                    </div>
-
-
+        <div className="py-5">
+          <div className="container">
+              <div className="row align-items-center"> 
+                  <div className="col-md-5">
+                    <img src={nextGeneration.src} alt="" />
+                  </div>
+                  <div className="col-md-7 text-white"> 
+                      <h1 className="b2b-main-heading mb-3">E-Commerce Store That<br />Match Your Needs</h1>
+                      <p className="b2b-text-sm">Base2Brand offers bespoke eCommerce solutions tailored to your specific requirements. From design to development, our team ensures your online store reflects your brand identity while providing a seamless shopping experience for your customers. With our expertise, we'll bring your vision to life and create an eCommerce platform that meets your needs and exceeds your expectations.</p>
+                      <button className="b2b-btn b2b-btn-sm m-0" >Read More</button>
+                  </div>
                   
-                    <div className="col-md-6 mt-5 ps-4 pe-4">
-                      <h2 className="textprimary mb-4">Woo Commence Theme and App Development  </h2>
-                      <p className="mb-5"> WooCommerce theme and app development entail crafting visually appealing and functional online stores and mobile applications using the WooCommerce platform. We specialize in creating custom themes and apps tailored to your brand&apos;s needs, ensuring seamless user experiences and robust e-commerce functionality. Let us transform your vision into reality, elevating your online presence and driving sales.</p>
-                      <button className="btn btn-outline-primary m-0" onClick={toggleModal}>  
-                       Request a Quote   
-                       <i className="fa fa-hand-o-right fs-4 hide_ic ml-3" aria-hidden="true"></i>
-                       </button>
-                    </div>
-                    <div className="col-md-6 mt-5">
-                      <img src={ecommerce1.src} className="ecommerce_img" alt="" />
-                    </div>
-
-                    <div className="col-md-6 mt-5">
-                      <img src={ecommerce2.src} className="ecommerce_img" alt="" />
-                    </div>
-                    <div className="col-md-6 mt-5 ps-4 pe-4">
-                      <h2 className="textprimary mb-4">Shopline Theme and App Development   </h2>
-                      <p className="mb-1"> Shopline theme and app development involves creating engaging and efficient e-commerce websites and mobile applications using the Shopline platform. Our team excels in crafting bespoke themes and apps that align with your brand identity and business goals. </p>
-                        <p className="mb-5">With a focus on user experience and functionality, we empower businesses to thrive in the digital marketplace. Let us tailor a solution that amplifies your online presence and maximizes sales potential.</p>
-                      <button className="btn btn-outline-primary m-0" onClick={toggleModal}>  
-                       Request a Quote   
-                       <i className="fa fa-hand-o-right fs-4 hide_ic ml-3" aria-hidden="true"></i>
-                       </button>
-                    </div>
-
-                  
-                    <div className="col-md-6 mt-5 ps-4 pe-4">
-                      <h2 className="textprimary mb-4">Big Commence Theme and App Development  </h2>
-                      <p className="mb-5"> BigCommerce theme and app development services encompass designing and building captivating online stores and mobile applications using the BigCommerce platform. Our expertise lies in creating customized themes and apps that reflect your brand&apos;s essence while optimizing for user experience and sales conversion. Let us propel your e-commerce venture forward by delivering tailored solutions that enhance your online presence and drive growth.</p>
-                      <button className="btn btn-outline-primary m-0" onClick={toggleModal}>  
-                       Request a Quote   
-                       <i className="fa fa-hand-o-right fs-4 hide_ic ml-3" aria-hidden="true"></i>
-                       </button>
-                    </div>
-                    <div className="col-md-6 mt-5">
-                      <img src={ecommerce3.src} className="ecommerce_img" alt="" />
+              </div>
+          </div>
+        </div>
+        <EcommerceFunctionality />
+        <Services />
+        <Technologystack />
+       
+      
+        <div className="b2b-black-bg pt-5 pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+         
+            <div className='container mb-5 pt-5'>
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <h2 className='b2b-main-heading text-center mb-4 text-uppercase'>Looking For Other Services</h2>
+                  <p className="text-white text-center b2b-text mb-5">We&apos;re not just about mobile app development; we provide a comprehensive suite of IT solutions. From web development to digital marketing, our services encompass everything your business needs to thrive in the digital landscape</p>
+                </div>
+                <div className="col-lg-10">
+                  <div className="row justify-content-center">
+                      <div className="col-lg-4 mb-3">
+                        <a className="menuLink" href="/">
+                          <div className="menuInner b2b-pink-bg">
+                              <h3 className='b2b-title-text text-black'>Web Development</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>Dynamic Website for Mobile Devices</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-4 mb-3">
+                        <a className="menuLink" href="/app-development">
+                          <div className="menuInner b2b-lightBlue-bg">
+                              <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>Sales Friendly App for Your Business</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-4 mb-3">
+                        <a className="menuLink" href="/graphic">
+                          <div className="menuInner b2b-pink-bg">
+                              <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>Designs that Enhances User Engagement</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-4 mb-3">
+                        <a className="menuLink" href="/digital-marketing">
+                          <div className="menuInner b2b-lightBlue-bg">
+                              <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>Marketing Strategies that Grow Sales</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="col-lg-4 mb-3">
+                        <a className="menuLink" href="/">
+                          <div className="menuInner b2b-pink-bg">
+                              <h3 className='b2b-title-text text-black'>Shopify Development</h3>
+                              <div className='d-flex align-items-center justify-content-between'>
+                                <p className='menuText mb-0'>Dynamic Stores to Sell Online</p>
+                                <span className='menuIcon pl-3'></span>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-                <DesignWork />
-
-                <div className="text-center text-white pt-5 bgLight">
-        <h1 className="mb-5">5 Steps of Ecommerce Development Project Completion</h1>
-        <img src={Steps.src} className="w-75 m-auto" alt="" />
-    </div>
-
-        <Technologystack />
-        <Feedback/>
-        <Faq/>
-        <Quote/>
-      
+            </div>
+        </div>
         <Footer />
        
       </div>

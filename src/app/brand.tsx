@@ -1,26 +1,29 @@
 'use client'
 
 import React from "react"; 
-import Brand1 from '../../public/img/brand1.png';   
-import Brand2 from '../../public/img/brand2.png';   
-import Brand3 from '../../public/img/brand3.png';   
-import Brand4 from '../../public/img/brand4.png';   
-import Brand5 from '../../public/img/brand5.png';   
-import Brand6 from '../../public/img/brand6.png';   
-import Brand7 from '../../public/img/brand7.png';   
-import Brand8 from '../../public/img/brand8.png';      
-import Brand9 from '../../public/img/brand9.png';   
-import Brand10 from '../../public/img/brand10.png';   
-import Brand11 from '../../public/img/brand11.png';   
-import Brand12 from '../../public/img/brand12.png';   
-import Brand13 from '../../public/img/brand13.png';   
-import Brand14 from '../../public/img/brand14.png';   
-import Brand15 from '../../public/img/brand15.png';   
-import Brand16 from '../../public/img/brand16.png';   
-import Brand17 from '../../public/img/brand17.png';   
-import Brand18 from '../../public/img/brand18.png';   
-import Brand19 from '../../public/img/brand19.png';   
-import Brand20 from '../../public/img/brand20.png';      
+import Brand1 from '../../public/brand/brand1.svg';   
+import Brand2 from '../../public/brand/brand2.svg';   
+import Brand3 from '../../public/brand/brand3.svg';   
+import Brand4 from '../../public/brand/brand4.svg';   
+import Brand5 from '../../public/brand/brand5.svg';   
+import Brand6 from '../../public/brand/brand6.svg';   
+import Brand7 from '../../public/brand/brand7.svg';   
+import Brand8 from '../../public/brand/brand8.svg';      
+import Brand9 from '../../public/brand/brand9.svg';   
+import Brand10 from '../../public/brand/brand10.svg';   
+import Brand11 from '../../public/brand/brand11.svg';   
+import Brand12 from '../../public/brand/brand12.svg';   
+import Brand13 from '../../public/brand/brand13.svg';   
+import Brand14 from '../../public/brand/brand14.svg';   
+import Brand15 from '../../public/brand/brand15.svg';   
+import Brand16 from '../../public/brand/brand16.svg';   
+import Brand17 from '../../public/brand/brand17.svg';   
+import Brand18 from '../../public/brand/brand18.svg';   
+import Brand19 from '../../public/brand/brand19.svg';   
+import Brand20 from '../../public/brand/brand20.svg';      
+import Brand21 from '../../public/brand/brand21.svg';      
+import Brand22 from '../../public/brand/brand22.svg';      
+import Brand23 from '../../public/brand/brand23.svg';      
 import './our-project.css'
 import Slider from "react-slick";
 
@@ -90,6 +93,9 @@ export default function Brand() {
               <img className="logo_brands" src={Brand18.src} alt="Logo" /> 
               <img className="logo_brands" src={Brand19.src} alt="Logo" /> 
               <img className="logo_brands" src={Brand20.src} alt="Logo" /> 
+              <img className="logo_brands" src={Brand21.src} alt="Logo" /> 
+              <img className="logo_brands" src={Brand22.src} alt="Logo" /> 
+              <img className="logo_brands" src={Brand23.src} alt="Logo" /> 
               </Slider>
 
               </div>

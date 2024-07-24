@@ -21,7 +21,7 @@ ul.dropdown-menu {
 }
 li.mega-menu {
     padding: 40px 15px !important;
-    background-color: #111616;
+    background-color: rgb(17 22 22 / 92%);
 }
 .Header_link li a {
     text-decoration: auto;
@@ -205,7 +205,7 @@ li.menuBtn a{
 li.menuBtn a span {
     font-size: 16px;
     line-height: 22px;
-    padding: 12px 40px;
+    padding: 10px 34px;
     display: block;
     color: #fff;
     z-index: 2;
@@ -252,8 +252,8 @@ li.menuBtn a:hover span{
     }
   }
   .iconHover {
-    width: 48px;
-    height: 48px;
+    width: 43px;
+    height: 43px;
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -265,7 +265,7 @@ li.menuBtn a:hover span{
     padding: 0 !important;
 }
   .iconHover:hover {
-    background: #3498db;
+    background: rgb(52 152 219 / 45%);
     border-color: transparent;
   }
 .iconHover::after {
@@ -273,7 +273,7 @@ li.menuBtn a:hover span{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #3498db;
+    background: rgb(52 152 219 / 45%);
     border-radius: 50%;
     will-change: box-shadow;
     top: 0;
@@ -300,7 +300,43 @@ li.menuBtn a:hover span{
     -webkit-text-fill-color: transparent;
     
 }
-
+.navbar-toggler span.navbar-toggler-icon {
+    background-image: unset;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    transform: unset;
+    transition: .5s;
+  }
+  .navbar-toggler span.navbar-toggler-icon:last-child{
+    margin-bottom: 0;
+  }
+  .navbar-toggler span.navbar-toggler-icon:nth-child(2){
+    width: 15px;
+    margin-left: auto;
+    opacity: 1 !important;
+  }
+  .navbar-toggler:not(.collapsed) span.navbar-toggler-icon:nth-child(2){
+    opacity: 0 !important;
+  }
+  .navbar-toggler:not(.collapsed) span.navbar-toggler-icon:nth-child(3){
+    transform: rotate(0.13turn);
+      transform-origin: right;
+  }
+  .navbar-toggler:not(.collapsed) span.navbar-toggler-icon:nth-child(1){
+    transform: rotate(-0.13turn);
+      transform-origin: right;
+  }
+  button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: unset;
+  }
+  button.navbar-toggler {
+    border: 0;
+  }
 @media screen and (max-width:1440px) {
     .navbar-brand {
         max-width: 220px;
@@ -314,8 +350,25 @@ li.menuBtn a:hover span{
     }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1366px) {
+    li.menuBtn a span {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 20px;
+    }
+    li.menuBtn {
+        margin-right: 20px;
+    }
+    .iconHover {
+        width: 40px;
+        height: 40px;
+    }
+}
 
+@media screen and (max-width:1199px) {
+    header .contact-num {
+        display: none !important;
+      }
     button.navbar-toggler {
         right: 20px;
         position: relative;

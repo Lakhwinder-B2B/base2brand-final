@@ -18,14 +18,14 @@ import b2b1 from '../../public/img/b2b1.png';
 import b2b2 from '../../public/img/b2b2.png'; 
 import b2b3 from '../../public/img/b2b3.png'; 
 import b2b4 from '../../public/img/b2b4.png'; 
-import logo1 from '../../public/img/logo1.svg'; 
-import logo2 from '../../public/img/logo2.svg'; 
-import logo3 from '../../public/img/logo3.svg'; 
-import logo4 from '../../public/img/logo4.svg'; 
-import logo5 from '../../public/img/logo5.svg'; 
-import logo6 from '../../public/img/logo6.svg'; 
-import logo7 from '../../public/img/logo7.svg';  
-import logo9 from '../../public/img/logo9.png'; 
+
+import logo1 from '../../public/partner-logo/logo1.svg'; 
+import logo2 from '../../public/partner-logo/logo2.png'; 
+import logo3 from '../../public/partner-logo/logo3.svg'; 
+import logo4 from '../../public/partner-logo/logo4.svg'; 
+import logo5 from '../../public/partner-logo/logo5.svg'; 
+import logo6 from '../../public/partner-logo/logo6.svg'; 
+import logo7 from '../../public/partner-logo/logo7.svg';
 import radialBg from '../../public/img/radial_bg.svg'; 
 
 import polygon from '../../public/img/polygon.png'; 

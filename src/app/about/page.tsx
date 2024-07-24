@@ -6,7 +6,7 @@ import AboutMask from "../../../public/about-img/about-mask.png";
 import Ceo from "../../../public/about-img/ceo.png"
 import QuoteIcon from "../../../public/about-img/quote-about.svg"
 import About1 from "../../../public/about-img/about1.svg"
-import About2 from "../../../public/about-img/about-left.svg"
+import About2 from "../../../public/json/about-us/About-Us.gif"
 import AboutColumns from "../../../src/app/about-columns"
 import Team from "../.././app/team"
 import Quote from "../request-quote";
@@ -88,8 +88,11 @@ export default function AboutUs() {
         <div className="bg_about pt-0 pb-0">
           <div className="about-mask aboutWrap" data-aos="fade-up" style={{backgroundImage: `url(${radialBg.src})`,backgroundRepeat: 'no-repeat'}}>
           <div className="row m-0 position-relative text-white "> 
-              <div className="col-12 col-sm-12 col-md-4 px-0 position-relative ph_remove_about pt-5 mt-5 d-flex align-items-end" data-aos="slide-down">
-              <img className="about_bottom" src={About2.src} alt="" />
+              <div className="col-12 col-sm-12 col-md-4 px-0 position-relative ph_remove_about d-flex align-items-end" data-aos="slide-down">
+                <div className='about-gif'>
+                  <img className="about_bottom" src={About2.src} alt="" />
+                </div>
+                
                 
               </div>
               <div className="col-12 col-sm-12 col-md-4 text-center d-flex align-items-center">
@@ -103,7 +106,7 @@ export default function AboutUs() {
               </div>
               <div className="col-12 col-sm-12 col-md-4 px-0 position-relative pt-5 mt-5 d-flex align-items-end justify-content-end">
               <img className="about_bottom" src={About1.src} alt="" />
-
+              
               </div>
              
             </div>
@@ -297,7 +300,7 @@ export default function AboutUs() {
                               <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                             </div>
                             <div className="col-xl-4 col-lg-3 mb-3">
-                              <a href="/team">
+                              <a className="menuLink" href="/team">
                                 <div className="menuInner b2b-pink-bg">
                                     <h3 className='b2b-title-text text-black'>Team</h3>
                                     <div className='d-flex align-items-center justify-content-between'>
@@ -308,7 +311,7 @@ export default function AboutUs() {
                               </a>
                             </div>
                             <div className="col-xl-4 col-lg-3 mb-3">
-                              <a href="/career">
+                              <a className="menuLink" href="/career">
                                 <div className="menuInner b2b-lightBlue-bg">
                                     <h3 className='b2b-title-text text-black'>Career</h3>
                                     <div className='d-flex align-items-center justify-content-between'>

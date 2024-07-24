@@ -69,9 +69,8 @@ export default function FooterMap() {
                                         id="my-tooltip-1"
                                         className="tooltipText"
                                         place="top"
-                                        html="<p class='tooltipTitle'>CANADA</p>
-                                        Ms Ady 114, Bellchase Trail Brampton<br />
-                                        ON L6P 3LA +1(416) 879-22444"
+                                        html="<p class='tooltipTitle'>USA</p>
+                                        7311 Gladys Ave, El Cerrito, CA 94530,<br/> USA, +1 (720) 903-5933"
                                     />
                                 <div className="address2">
                                     <span data-tooltip-id="my-tooltip-2" className="addressDot"></span>
@@ -82,7 +81,7 @@ export default function FooterMap() {
                                         place="top"
                                         html="<p class='tooltipTitle'>Uk</p>
                                         Ms Ady 114, Bellchase Trail Brampton,<br />
-                                        ON L6P 3LA +1(416) 879-2244"
+                                        ON L6P 3LA +44 7552 535341"
                                     />
                                 <div className="address3">
                                     <span data-tooltip-id="my-tooltip-3" className="addressDot"></span>
@@ -91,9 +90,9 @@ export default function FooterMap() {
                                         id="my-tooltip-3"
                                         className="tooltipText"
                                         place="top"
-                                        html="<p class='tooltipTitle'>India</p>
+                                        html="<p class='tooltipTitle'>India (headquater) </p>
                                         F-209, Industrial area Phase 8-B,<br />
-                                        Sector 74, Mohali, 160074"
+                                        Sector 74, Mohali, 160074 +91 9872487850"
                                     />
                             </div>  
                         </div>  

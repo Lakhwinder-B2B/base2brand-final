@@ -46,7 +46,18 @@ const Home = () => {
 
   return (
     <> 
-    {/* <Slider className='slider bg-black' {...settings}> */}
+    <div className="section-padding-hm-serv w-100"> 
+        <div className="b2b-container-lg"> 
+          <div className="row">  
+            <div className="col-md-12 mb-5 mb-mb-0"  >
+              <h2 className="b2b-heading text-center text-uppercase" >Our Services for Your Digital Transformation</h2>
+            </div> 
+          </div> 
+        </div> 
+    </div> 
+    <div className="slide">
+    <Slide6 />
+    </div>
     <div className="slide">
        <Slide1 />
     </div>
@@ -65,10 +76,8 @@ const Home = () => {
     <div className="slide">
     <Slide5 />
     </div>
-    <div className="slide">
-    <Slide6 />
- </div>
-  {/* </Slider> */}
+    
+
  
   </>
   );

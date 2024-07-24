@@ -30,15 +30,15 @@ export default function Home() {
           slidesToScroll: 2,
           infinite: true,
           dots: false,
-          arrows : false,
+          arrows : true,
         }
       },
       {
-        breakpoint: 767,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows : false,
+          arrows : true,
         }
       },
       {
@@ -46,7 +46,7 @@ export default function Home() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows : false,
+          arrows : true,
         }
       }
     ]
@@ -62,10 +62,10 @@ export default function Home() {
       backgroundSize: 'cover', 
       position: 'relative',
     }}> */}
-      <div className="bgimg_feed1 b2b-gray-bg pt-5">
+      <div className="bgimg_feed1 b2b-gray-bg pt-5 mt-5">
       <div className="container"> 
           <div className="row text-white"> 
-              <div className="col-md-12 p-0">
+              <div className="col-lg-11 col-md-11 col-11 m-auto p-0">
               <h3 className="b2b-main-heading text-center text-uppercase">What Our <strong>Clients</strong> Say</h3>
               <div className="reviewSlider mt-5">
                 <Slider {...reviewSlider} className="w-100">
@@ -86,6 +86,24 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                    {/* ~~~~~~~~~~~~~~~~ */}
+                    <div>
+                        <div className="bg_feedback">
+                          <div className="mb-3 reviewImgWrap"><img className="name_latter" src={csem.src} alt="Product" /></div>
+                          <p className="b2b-text text-left">Was good to collaborate and discuss innovative ideas. Was a very fair and pleasurable experience dealing with the team and we look forward to working together again soon.</p>
+                          <div className=" mt-4">
+                          <div className=" pr-5">
+                            
+                              <div className="feedback_user">
+                                <h3 className="mb-0">Frank Quarato</h3>
+                                <p className="mb-0">CSEM, Inc. </p>
+                              </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                   
                     {/* ~~~~~~~~~~~~~~~~ */}
                     <div>
                         <div className="bg_feedback">

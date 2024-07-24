@@ -25,7 +25,7 @@ export default function home() {
       <Slide />
 
     </div>
-      <div className='progress-column b2b-gray-bg b2b-achievements'>
+      <div className='progress-column b2b-achievements'>
         
           <div className='row'>
               <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-5 p-sm-3 m-auto'>
