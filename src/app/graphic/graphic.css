@@ -113,12 +113,7 @@ button.radius {
     height: 50px;
     margin: auto;
 }
-.deliverable-step {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
+
 .deliverable-step {
     display: flex;
     align-items: center;

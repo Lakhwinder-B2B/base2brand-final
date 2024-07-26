@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"; 
 import Header from "../../../component/header";
-import Technologystack from "../mobile-application/technologystack";
+import Technologystack from "./technologystack";
 import EcommerceFunctionality from "./ecommerce-functionality"; 
 import Services from "./services"; 
 import Quote from "../request-quote"; 
@@ -33,7 +33,7 @@ export default function Ecommerce() {
               <div className="col-12 col-sm-12 col-md-9 d-flex flex-wrap align-items-center justify-content-center pt-5 pb-5" data-aos="fade-up" >
                  <h1 className="text-center mb-3 b2b-sub-heading-bold text-uppercase">ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h1>
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
-                 We specialize in  E-commerce theme and app development, providing customized solutions to enhance your web store</p>
+                 We specialize in E-commerce theme and app development, providing customized solutions to enhance your web store</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
                   <button className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
                  </div>
@@ -63,7 +63,7 @@ export default function Ecommerce() {
       
         <div className="b2b-black-bg pt-5 pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
          
-            <div className='container mb-5 pt-5'>
+            <div className='container mb-5'>
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <h2 className='b2b-main-heading text-center mb-4 text-uppercase'>Looking For Other Services</h2>

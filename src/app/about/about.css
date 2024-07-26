@@ -230,17 +230,35 @@ span.slide-number {
 }
 .QuoteIcon-about {
     position: absolute;
-    top: -90px;
+    top: -74px;
     left: 43px;
+    height: 100px;
+    width: auto;
 }
 .tabs_section .tabsLink {
     position: sticky;
-    top: 50px;
+    top: 150px;
 }
 .about-gif {
     width: 100%;
     height: calc(100% - 80px);
     overflow: hidden;
+}
+
+.tabs_section .innerWrap>div p{
+    margin-bottom: 30px;
+}
+.tabs_section .innerWrap>div{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.tabs_section .innerWrap>div:first-child{
+    padding-bottom: 200px;
+    padding-top: 0;
+}
+.tabs_section .firstInsideContainer:last-child{
+    padding-top: 50px;
+    padding-bottom: 0;
 }
 @media screen and (max-width: 1800px){
     .ceo_name_align .b2b-text {

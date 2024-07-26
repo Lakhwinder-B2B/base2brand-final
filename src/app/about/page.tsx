@@ -68,7 +68,7 @@ export default function AboutUs() {
   const tabContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const activeTab = tabContainerRef.current?.querySelector('.nav-link.active');
+    const activeTab = tabContainerRef.current?.querySelector('.tabInnerWrap.active');
     if (activeTab) {
       const parentRect = tabContainerRef.current?.getBoundingClientRect();
       const activeRect = activeTab.getBoundingClientRect();
@@ -78,6 +78,7 @@ export default function AboutUs() {
         tabContainerRef.current?.scrollBy({ top: offset, behavior: 'smooth' });
       }
     }
+    
   }, []);
 
 
@@ -209,56 +210,57 @@ export default function AboutUs() {
               </div>
           
          
-            <div className="tabs_section py-5 b2b-black-bg">
+            <div className="pt-5 b2b-black-bg">
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-12'>
                     <h2 className='b2b-main-heading text-center mb-5'>Reasons to collaborate<br />with Base2Brand</h2>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="tabs_section pb-5 b2b-black-bg">
+              <div className='container d-flex align-items-start'>
+                
                   <div className='col-lg-3 tabsLink'>
-                      <Link className="b2b-main-heading text-uppercase" activeClass="active" to="firstInsideContainer" spy={true} smooth={true} duration={250} containerId="containerElement">
+                      <a className="tabBtn b2b-main-heading text-uppercase" href="#mission_tab" >
                         Mission
-                      </Link>
+                      </a>
 
-                      <Link className="b2b-main-heading text-uppercase" activeClass="active" to="secondInsideContainer" spy={true} smooth={true} duration={250} containerId="containerElement">
+                      <a className="tabBtn b2b-main-heading text-uppercase" href="#vission_tab" >
                         Vission
-                      </Link>
-                      <Link className="b2b-main-heading text-uppercase" activeClass="active" to="thirdInsideContainer" spy={true} smooth={true} duration={250} containerId="containerElement">
+                      </a>
+                      <a className="tabBtn b2b-main-heading text-uppercase" href="#values_tab" >
                         Values
-                      </Link>
+                      </a>
                   </div>
                   <div className='col-lg-9'>
                     <Element name="test7" className="element" id="containerElement" style={{
                         position: 'relative',
-                        height: '200px',
-                        overflowY: 'scroll',
-                        scrollBehavior: 'smooth',
                       }}>
                         <div className='innerWrap'>
-                        <Element name="firstInsideContainer" style={{
-                            paddingBottom: '200px'
-                          }}>
-                          <p className='b2b-text'>Our mission is to create innovative products and hand-over excellency with constant emphasis on process quality, consumer satisfaction and transparency.</p>
-                          <p className='b2b-text'>We aim to become a remarkable institution by providing premier IT-based services and solutions to establishments worldwide</p>
-                        </Element>
-
-                        <Element name="secondInsideContainer" style={{
-                            paddingBottom: '200px'
-                          }}>
-                            <p className='b2b-text'>The vision in your mind is the future you wish to achieve! The vision of the company is to provide high-quality services to our global clients.</p> 
-                            <p className='b2b-text'>With our vision, we want to create a work environment that encourages creativity, innovation and self-growth.</p>
-                        </Element>
-                        <Element name="thirdInsideContainer" style={{
-                            paddingBottom: '0px'
-                          }}>
+                        
+                          <div className="tabInnerWrap" id='mission_tab'>
+                            <p className='b2b-text'>Our mission is to create innovative products and hand-over excellency with constant emphasis on process quality, consumer satisfaction and transparency.</p>
+                            <p className='b2b-text'>We aim to become a remarkable institution by providing premier IT-based services and solutions to establishments worldwide</p>
+                          </div>
+                         
+                        
+                            <div className="tabInnerWrap" id='vission_tab'>
+                                <p className='b2b-text'>The vision in your mind is the future you wish to achieve! The vision of the company is to provide high-quality services to our global clients.</p> 
+                                <p className='b2b-text'>With our vision, we want to create a work environment that encourages creativity, innovation and self-growth.</p>
+                            </div>
+                       
+                          <div className="tabInnerWrap" id='values_tab'>
                             <p className='b2b-text'>The strengths of any organization lie in the values they uphold. We believe that quality should be maintained while meeting deadlines. Hence, our USP is delivering quality services within the deadlines!</p>
 
                             <p className='b2b-text'>As a company, we strive to do business with moral correctness, integrity, and a sincere heart for others. Thus, here at Base2Brand, we work towards nurturing and inculcating them at every stage!</p>
-                        </Element>
+                          </div>
+                       
                         </div>
                       </Element>
                   </div>
-                </div>
+                
               </div>
                 
 
@@ -266,7 +268,7 @@ export default function AboutUs() {
 
             
             </div>
-              <div className="b2b-black-bg pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+              <div className="b2b-black-bg pb-3 pt-5" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
                 <div className="container p-5">
                   <div className="row">
                     <div className="col-md-9 mx-auto">

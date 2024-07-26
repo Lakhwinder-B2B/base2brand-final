@@ -1,8 +1,114 @@
-.textprimary{
-    color: #F47B52;
-    font-size: 24px;
+.designTabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: end;
+    justify-content: center;
+}
+.designTabsWrap{
+    z-index: 2;
+    position: relative;
+}
+.designTabsWrap *{
+    z-index: 2;
+}
+button.btn_design {
+    font-size: 16px !important;
+    line-height: normal;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 30px;
+}
+button.btn_design span {
+    width: 110px;
+    height: 110px;
+    border: 18px solid #111616;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: #1F222F;
+    margin: 10px auto;
 
 }
-.bgblack{
-    background-color: #111616;
+button.btn_design.active span,
+button.btn_design:hover span {
+    background-color: #C896FF;
+}
+button.btn_design span img{
+    height: 44px;
+    width: auto;
+}
+.designTabsWrap:before {
+    content: '';
+    width: 100%;
+    height: 49%;
+    background-color: #111616 !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+ul.arrowListing{
+    padding: 0;
+}
+.arrowListing li {
+    padding-left: 24px;
+    position: relative;
+    margin-bottom: 12px;
+}
+ul.arrowListing li:before {
+    content: '';
+    background-image: url(/_next/static/media/right_arrow.0d0cd35d.svg);
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.interfaceWrap h3 {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+.deliverable-step {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    padding-left: 65px;
+    margin-left: 36px;
+    background-color: #1F222F;
+    border-radius: 14px;
+    position: relative;
+    box-shadow: 0px 0px 7.8px 0px #396BDB;
+}
+.deliverable-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -33px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #396BDB;
+    border-radius: 50%;
+}
+.deliverable-icon-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #1F222F;
+    border-radius: 50%;
+    padding: 15px;
+    display: grid;
+    place-items: center;
+    margin-left: -5px;
+}
+.deliverable-content {
+    padding: 20px 55px;
+}
+.deliverable-content p{
+    margin-bottom: 0;
 }
