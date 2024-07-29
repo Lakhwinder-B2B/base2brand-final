@@ -18,11 +18,10 @@ export default function Home() {
     dots: false,
     arrows : true,
     infinite: true,
-    autoPlay: true,
-    speed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
@@ -71,7 +70,7 @@ export default function Home() {
               <h3 className="b2b-main-heading text-center text-uppercase">What Our <strong>Clients</strong> Say</h3>
               <div className="reviewSlider mt-5">
                 <Slider {...reviewSlider} className="w-100">
-                    <div className="h100">
+                    <div>
                         <div className="bg_feedback">
                         <div className="mb-3 reviewImgWrap"><img className="name_latter" src={vip.src} alt="Product" /></div>
                           <p className="b2b-text text-left">I had the pleasure of working with an excellent and fully professional team comprising of Arti Bhatia, Ajay Kumar, Rakesh Kumar, and Aashu. They have delivered outstanding work, and I look forward to working with them in the future. </p>
