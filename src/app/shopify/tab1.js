@@ -26,66 +26,66 @@ const MyComponent = () => {
   const sliderRef1 = useRef(null);
   const sliderRef2 = useRef(null);
 
-  useEffect(() => {
-    const slider = $(sliderRef1.current); // main slider 
-    const slider2 = $(sliderRef2.current);
-    slider2.slick({
-      slidesToShow: 1,
-      slidesToScroll: 0,
-      asNavFor: '.right_slider1',
-      dots: false,
-      centerMode: false,
-      focusOnSelect: true,
-      swipeToSlide: false,
-      autoplay: false,
-      arrows: false,
-      focusOnSelect: true,
-      speed: 500,
-      infinite: false,
-    });
-    const memoriesSection = document.querySelector(".tabMainWrap");
-    console.log('test');
-    if (slider.length > 0) {
-      console.log('test1');
-      slider.slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.left_slider1'
-      });
+  // useEffect(() => {
+  //   const slider = $(sliderRef1.current); // main slider 
+  //   const slider2 = $(sliderRef2.current);
+  //   slider2.slick({
+  //     slidesToShow: 1,
+  //     slidesToScroll: 0,
+  //     asNavFor: '.right_slider1',
+  //     dots: false,
+  //     centerMode: false,
+  //     focusOnSelect: true,
+  //     swipeToSlide: false,
+  //     autoplay: false,
+  //     arrows: false,
+  //     focusOnSelect: true,
+  //     speed: 500,
+  //     infinite: false,
+  //   });
+  //   const memoriesSection = document.querySelector(".tabMainWrap");
+  //   console.log('test');
+  //   if (slider.length > 0) {
+  //     console.log('test1');
+  //     slider.slick({
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1,
+  //       arrows: false,
+  //       fade: true,
+  //       asNavFor: '.left_slider1'
+  //     });
      
       
       
-        $('body').on('wheel', function (e) {
-          const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+  //       $('body').on('wheel', function (e) {
+  //         const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
           
-          console.log('tab:'+memoriesSectionY);
-          if(memoriesSectionY == $('header').height()){
+  //         console.log('tab:'+memoriesSectionY);
+  //         if(memoriesSectionY == $('header').height()){
 
-            console.log('header:'+$('header').height());
+  //           console.log('header:'+$('header').height());
 
-            e.preventDefault();
-            $("body").css("overflow", "hidden");
-            if (e.originalEvent.deltaY < 0) {
-              slider.slick('slickNext');
-            } else {
-              slider.slick('slickPrev');
-            }
+  //           e.preventDefault();
+  //           $("body").css("overflow", "hidden");
+  //           if (e.originalEvent.deltaY < 0) {
+  //             slider.slick('slickNext');
+  //           } else {
+  //             slider.slick('slickPrev');
+  //           }
             
-          }
+  //         }
           
-        });
+  //       });
       
-    }
+  //   }
 
-    // Cleanup function to destroy Slick instance if component unmounts
-    return () => {
-      if (slider.length > 0 && slider.hasClass('slick-initialized')) {
-        slider.slick('unslick');
-      }
-    };
-  }, []);
+  //   // Cleanup function to destroy Slick instance if component unmounts
+  //   return () => {
+  //     if (slider.length > 0 && slider.hasClass('slick-initialized')) {
+  //       slider.slick('unslick');
+  //     }
+  //   };
+  // }, []);
 
   return (
     <>
