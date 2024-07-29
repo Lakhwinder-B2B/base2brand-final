@@ -18,7 +18,8 @@ export default function Home() {
     dots: false,
     arrows : true,
     infinite: true,
-    speed: 500,
+    autoPlay: true,
+    speed: 3000,
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -51,6 +52,7 @@ export default function Home() {
       }
     ]
   };
+ 
   return (  
     <>  
     {/* <div className="bgimg" style={{

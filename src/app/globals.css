@@ -319,6 +319,8 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 }
 a.b2b-btn{
   text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .b2b-partners-heading{
@@ -342,7 +344,7 @@ a.b2b-btn{
 .b2b-heading{
   font-size: 35px;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 48px;
   color:#ffffff;
 }
 .b2b-sub-heading{
@@ -541,15 +543,15 @@ img.social_icons {
 .footer-form input.form-control::placeholder, .footer-form textarea::placeholder {
   color: #fff !important;
 }
-.footer-form .form-btn{
+.footer-form .form-btn {
   background: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
   border-radius: 5px;
   text-align: center;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   line-height: normal;
-  padding: 20px 55px;
+  padding: 15px 35px;
   position: relative;
   overflow: hidden;
 }
@@ -898,7 +900,14 @@ img.name_latter {
   width: auto !important;
   height: 100px !important;
 }
-
+.b2b-accordion .accordion-body {
+  padding: 0 !important;
+  padding-bottom: 18px !important;
+}
+.stickyElement {
+  position: sticky;
+  top: 93px;
+}
 
 
 @media only screen and (max-width: 767px){
@@ -1078,8 +1087,8 @@ img.name_latter {
     line-height: 40px;
   }
   .b2b-sub-heading {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 36px;
   }
   .b2b-sub-text {
     font-size: 14px;

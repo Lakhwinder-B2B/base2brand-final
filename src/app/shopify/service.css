@@ -1,121 +1,260 @@
-img.shopify_img {
-    width: 250px;
-    object-fit: contain;
-    margin: 0px 14px;
+h1.banner-text-outline {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #007A00;
+    font-size: 90px !important;
+    font-weight: 700 !important;
+    margin-top: -33px;
 }
-p.desc_service {
-    font-size: 20px;
-    margin-top: 2rem;
-    line-height: 1.8;
+.animated-banner-img canvas{
+    margin-top: -80px;
+    height: 100vh !important;
 }
 
-.agency_heading{
-display:flex;
-}
-.bg_patner{
-    background: #0F0F0F;
-    }
- .primary {
-    color: #F47B52;
-} 
-p.mt-4.font-weight-light {
-    font-weight: 100;
-}
-.bg_dev { 
-    background: #000;
-    border-radius: 14px;
-    height:360px;
-    padding: 2px;
-}
-.bg_devs{
-    padding: 3rem; 
-}
-.bg_dev:hover .bg_devs button{
-    display:block !important;
-
-}
-i.fa.fa-hand-o-right.fs-4.hide_ic.mr-3 {
-    display: inline-block !important;
-}
-.bg_dev .bg_devs button{
-display:none;
-}
-.bg_dev:hover{
-    border-width: 2px 2px 2px 2px; 
-    border-radius: 14px !important;
-    border: double 0px transparent;
-    background-image: linear-gradient(black, black), linear-gradient(to bottom, #4D65E5, #F47B52 );
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    padding: 2px;
-}
- 
-.slick-track {
+.designTabs {
     display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: end;
+    justify-content: center;
+}
+.designTabsWrap{
+    z-index: 2;
+    position: relative;
+}
+.designTabsWrap *{
+    z-index: 2;
+}
+button.btn_design {
+    font-size: 16px !important;
+    line-height: normal;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 30px;
+}
+button.btn_design span {
+    width: 110px;
+    height: 110px;
+    border: 15px solid #111616;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: #1F222F;
+    margin: 10px auto;
+
+}
+button.btn_design.active span,
+button.btn_design:hover span {
+    background-color: #C896FF;
+}
+button.btn_design span img{
+    height: 44px;
+    width: auto;
+}
+.designTabsWrap:before {
+    content: '';
+    width: 100%;
+    height: 49%;
+    background-color: #111616 !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.gallery_slider {
+    display: flex;
+    gap: 2rem;
     align-items: center;
 }
-.slick-slide img {
-  transform: scale(.8);
-  transition: transform .3s cubic-bezier(.4,0,.2,1);
+.main_gallery {
+    background: #1F222F;
+    color: #fff;
 }
-.slick-center img {
-  transform: scale(1);
+.left_thumnails a {
+    padding: 10px;
+    display: flex !important;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    z-index: 2;
+    position: relative;
 }
-.slider__item > img {
-  width: 100%;
-  height: auto;
+.left_thumnails a,
+.left_thumnails .slick-slide {
+    height: 180px !important;
+    width: 180px !important;
 }
 
+.left_thumnails, 
+.left_thumnails .slick-list, 
+.left_thumnails .slick-slider, 
+.left_thumnails .slick-track {
+    width: 100% !important;
+    height: 350px !important;
+    transform: unset !important;
+    position: relative;
+    display: block;
+}
+.left_thumnails .slick-track {
+    transform: unset !important;
+}
 
- 
-
-img.company {
-    max-width: 80px !important;
+.left_thumnails .slick-slide img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    z-index: 2;
 }
-.section_data {
-    margin-bottom: 7rem;
+.left_thumnails{
+    width: 250px !important;
 }
-.overFlow {
-    height: 500px;
-    overflow: auto;
+.right_slider {
+    max-width: calc(100% - 350px) !important;
+    width: 100% !important;
 }
-.overFlow::-webkit-scrollbar {
-    display: none;
+.left_thumnails .slick-slider,
+.right_slider .slick-slider {
+    margin-top: 0 !important;
 }
-.overFlow{
-    -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  }
-
-
-  img.circle {
-    margin: auto;
-    background: #111616;
-}
-span.centerNumber {
+.left_thumnails:before {
+    content: '';
     position: absolute;
-    top: 3.5rem;
-    left: 45.5%;
-    font-size: 40px;
-}
-h3.bgBlack {
-    background: #111616;
-    padding: 20px 0px;
-}
-.mtTop { 
-    margin-top: 8rem !important;
+    right: 78px;
+    top: 0;
+    height: 100%;
+    width: 200%;
+    border: 1px dashed #fff;
+    border-radius: 50%;
 }
 
-/* faq< */
-button.accordion-button.collapsed {
-    background: #2E2E2E !important;
-    margin-top: 2rem;
-    font-size: 18px;
-    padding: 22px 15px;
+.left_thumnails .slick-slide {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+   
 }
-button.accordion-button {
-    font-size: 18px !important;
+
+.left_thumnails .slick-slide.slick-active.slick-current {
+    opacity: 1;
+    visibility: visible;
 }
-.accordion-item {
-    border-bottom: none;
+.slider_right_main h2{
+    margin-bottom: 20px;
+}
+.slider_right_main p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.right_slider .slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.right_slider .slick-track {
+    width: 100% !important;
+    transform: unset !important;
+    position: relative;
+}
+.right_slider  .slick-slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.right_slider .slick-slide.slick-active.slick-current{
+    opacity: 1;
+    visibility: visible;
+}
+.right_slider, 
+.right_slider .slick-list, 
+.right_slider .slick-slider, 
+.right_slider .slick-track {
+    width: 100% !important;
+    height: 350px !important;
+    transform: unset !important;
+    position: relative;
+    display: block;
+}
+.tabMainWrap.stickyElement {
+    position: sticky;
+    top: 93px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery_slider {
+    position: relative;
+}
+
+.gallery_slider.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white; /* or any other background color */
+}
+
+.left_thumnails {
+    float: left;
+    width: 20%; /* Adjust based on your layout */
+}
+
+.right_slider {
+    float: right;
+    width: 80%; /* Adjust based on your layout */
+}
+
+.slider_right_main {
+    padding: 20px;
+}
+
+.b2b-btn {
+    /* Add button styling here */
+}
+.topcls{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white; 
+    height: 250px;
+    overflow: auto;
+    /* or any other background color */
+}
+.panel{
+    background: red;
+    height: 200px;
+    width: 100%;
+}
+.panel.black{
+    background: black;
+    height: 200px;
+    width: 100%;
+}
+.panel{
+    background: red;
+    height: 200px;
+    width: 100%;
 }

@@ -16,79 +16,79 @@ export default function FAQ() {
                   <h2 className='text-white b2b-main-heading text-center'>Frequently Asked Questions</h2>
               </div>
               <div className="col-md-8 m-auto mt-5">
-                <div className="accordion accordion-flush" id="accordionFlushExample">
+                <div className="accordion accordion-flush b2b-accordion" id="accordionFlushExample">
                   <div className="accordion-item"  >
                     <h2 className="accordion-header fs-4">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
                       What is the difference between UI and UX design?
                       </button>
                     </h2>
-                    <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"><p>App development refers to the process of creating software applications designed to run on mobile devices like smartphones and tablets.</p></div>
+                    <div id="flush-collapse1" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"><p>UI (User Interface) design focuses on the visual elements of an interface, while UX (User Experience) design is about the overall feel and functionality, emphasizing user satisfaction and usability.</p></div>
                     </div>
                   </div>
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
                       Why is UI/UX design important for my business?
                       </button>
                     </h2>
-                    <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"> <p>We specialize in developing apps for both iOS and Android platforms, ensuring compatibility with a wide range of devices.</p></div>
+                    <div id="flush-collapse2" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"> <p>Effective UI/UX design can enhance user satisfaction, increase customer loyalty, boost conversion rates, and ultimately drive business growth by providing seamless and engaging digital experiences.</p></div>
                     </div>
                   </div>
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
                       What tools do you use for UI/UX design?
                       </button>
                     </h2>
-                    <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"><p>The timeline for app development varies based on factors such as complexity, features, and client requirements. We provide detailed timelines during the planning phase.</p>
+                    <div id="flush-collapse3" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"><p>We utilize industry-standard tools such as Figma, Adobe XD, Sketch, and Adobe Photoshop to create wireframes, prototypes, and design mockups, ensuring efficient collaboration and high-quality deliverables.</p>
                     </div>
                     </div>
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNew" aria-expanded="false" aria-controls="flush-collapseNew">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
                       What is the typical process for UI/UX design projects?
                       </button>
                     </h2>
-                    <div id="flush-collapseNew" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"><p>We utilize a variety of technologies depending on project requirements. This may include programming languages like Swift, Java, Kotlin, and frameworks like React Native or Flutter.</p>
+                    <div id="flush-collapse4" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"><p>Our process typically involves research and analysis, wireframing and prototyping, visual design, user testing, and iteration to create user-centered designs that meet your objectives and resonate with your target audience.</p>
                     </div>
                     </div>
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNew1" aria-expanded="false" aria-controls="flush-collapseNew1">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
                       How do you ensure consistency across different devices and platforms?
                       </button>
                     </h2>
-                    <div id="flush-collapseNew1" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"><p>Yes, we offer ongoing maintenance and support services to ensure your app remains up-to-date, secure, and optimized for performance.</p>
+                    <div id="flush-collapse5" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"><p>We follow responsive design principles and conduct thorough testing across various devices, screen sizes, and browsers to ensure consistent user experiences, maintaining brand identity and usability regardless of the platform.</p>
                     </div>
                     </div>
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNew1" aria-expanded="false" aria-controls="flush-collapseNew1">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
                       Can you work with our existing brand guidelines?
                       </button>
                     </h2>
-                    <div id="flush-collapseNew1" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"><p>Absolutely, we offer comprehensive app design services to create visually appealing, intuitive user interfaces that enhance user experience.</p>
+                    <div id="flush-collapse6" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"><p>Absolutely! We can incorporate your existing brand guidelines into the design process to ensure consistency with your brand identity, maintaining visual cohesion across all touchpoints and digital assets.</p>
                     </div>
                     </div>
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNew1" aria-expanded="false" aria-controls="flush-collapseNew1">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
                       How do you handle feedback and revisions during the design process?
                       </button>
                     </h2>
-                    <div id="flush-collapseNew1" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                      <div className="accordion-body"><p>Yes, we provide assistance with app store submission, ensuring that your app meets all guidelines and requirements for a successful launch.</p>
+                    <div id="flush-collapse7" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div className="accordion-body"><p>We welcome client feedback at every stage of the design process and provide multiple rounds of revisions to ensure that the final product aligns with your vision and objectives, fostering collaboration and transparency throughout the project.</p>
                     </div>
                     </div>
                   </div> 

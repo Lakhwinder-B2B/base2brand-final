@@ -72,7 +72,7 @@ export default function Graphic() {
                 <div className="col-lg-10">
                   <div className="row justify-content-center">
                       <div className="col-lg-4 mb-3">
-                        <a className="menuLink" href="/">
+                        <a className="menuLink" href="/web-application">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Web Development</h3>
                               <div className='d-flex align-items-center justify-content-between'>
@@ -116,7 +116,7 @@ export default function Graphic() {
                         </a>
                       </div>
                       <div className="col-lg-4 mb-3">
-                        <a className="menuLink" href="/">
+                        <a className="menuLink" href="/shopify">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Shopify Development</h3>
                               <div className='d-flex align-items-center justify-content-between'>

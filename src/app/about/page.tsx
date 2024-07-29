@@ -65,20 +65,94 @@ export default function AboutUs() {
     ]
   };
 
-  const tabContainerRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
-    const activeTab = tabContainerRef.current?.querySelector('.tabInnerWrap.active');
-    if (activeTab) {
-      const parentRect = tabContainerRef.current?.getBoundingClientRect();
-      const activeRect = activeTab.getBoundingClientRect();
-      const isInView = activeRect.top >= parentRect.top && activeRect.bottom <= parentRect.bottom;
-      if (!isInView) {
-        const offset = activeRect.top - parentRect.top - (parentRect.height - activeRect.height) / 2;
-        tabContainerRef.current?.scrollBy({ top: offset, behavior: 'smooth' });
-      }
+    const memoriesSection = document.querySelector(".innerWrap");
+    const headerSection = document.querySelector("header");
+    const headerHeight = headerSection.offsetHeight;
+
+    if (!memoriesSection) {
+      console.error("Element with class 'innerWrap' not found");
+      return;
     }
-    
+
+    const handleScroll = () => {
+      const clientHeight = document.documentElement.clientHeight;
+      const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+      if (clientHeight > memoriesSectionY) {
+            
+            if(memoriesSectionY <= (headerHeight + 100)){
+
+                const tabs = document.querySelectorAll(".tabInnerWrap");
+                const tabbtns = document.querySelectorAll(".tabBtn");
+
+                const tab1 = document.querySelector("#mission_tab");
+                const tab2 = document.querySelector("#vission_tab");
+                const tab3 = document.querySelector("#values_tab");
+                const tab1SectionY = tab1.getBoundingClientRect().y;
+                const tab2SectionY = tab2.getBoundingClientRect().y;
+                const tab3SectionY = tab3.getBoundingClientRect().y;
+
+
+                if(tab1SectionY <= (headerHeight + 100) && tab1SectionY >= 0){
+                  tabs.forEach(tab => {
+                    tab.classList.remove("b2b_vissible");
+                  });
+                  tabbtns.forEach(tabbtn => {
+                    tabbtn.classList.remove("active");
+                  });
+
+                  const btnID = tab1.getAttribute("data-id");
+                  tab1.classList.add("b2b_vissible");
+                  const btnSection = document.querySelector(`#${btnID}`);
+                  btnSection.classList.add("active");
+                }else if(tab2SectionY <= (headerHeight + 100) && tab2SectionY >= 0){
+                  
+                  tabs.forEach(tab => {
+                    tab.classList.remove("b2b_vissible");
+                  });
+                  tabbtns.forEach(tabbtn => {
+                    tabbtn.classList.remove("active");
+                  });
+
+                  const btn2ID = tab2.getAttribute("data-id");
+                  tab2.classList.add("b2b_vissible");
+                  const btn2Section = document.querySelector(`#${btn2ID}`);
+                  btn2Section.classList.add("active");
+
+                }else if(tab3SectionY <= (headerHeight + 100) && tab3SectionY >= 0){
+
+                  tabs.forEach(tab => {
+                    tab.classList.remove("b2b_vissible");
+                  });
+                  tabbtns.forEach(tabbtn => {
+                    tabbtn.classList.remove("active");
+                  });
+                  
+                  const btn3ID = tab3.getAttribute("data-id");
+                  tab3.classList.add("b2b_vissible");
+                  const btn3Section = document.querySelector(`#${btn3ID}`);
+                  btn3Section.classList.add("active");
+                }
+                else if(tab1SectionY > (headerHeight + 100)){
+                  tabs.forEach(tab => {
+                    tab.classList.remove("b2b_vissible");
+                  });
+                  tabbtns.forEach(tabbtn => {
+                    tabbtn.classList.remove("active");
+                  });
+                }
+                
+          }
+      }
+     
+    };
+
+    document.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
 
@@ -223,14 +297,14 @@ export default function AboutUs() {
               <div className='container d-flex align-items-start'>
                 
                   <div className='col-lg-3 tabsLink'>
-                      <a className="tabBtn b2b-main-heading text-uppercase" href="#mission_tab" >
+                      <a id="mission_btn" className="tabBtn b2b-main-heading text-uppercase" href="#mission_tab" >
                         Mission
                       </a>
 
-                      <a className="tabBtn b2b-main-heading text-uppercase" href="#vission_tab" >
+                      <a id="vission_btn" className="tabBtn b2b-main-heading text-uppercase" href="#vission_tab" >
                         Vission
                       </a>
-                      <a className="tabBtn b2b-main-heading text-uppercase" href="#values_tab" >
+                      <a id="values_btn" className="tabBtn b2b-main-heading text-uppercase" href="#values_tab" >
                         Values
                       </a>
                   </div>
@@ -240,18 +314,18 @@ export default function AboutUs() {
                       }}>
                         <div className='innerWrap'>
                         
-                          <div className="tabInnerWrap" id='mission_tab'>
+                          <div className="tabInnerWrap" id='mission_tab' data-id="mission_btn">
                             <p className='b2b-text'>Our mission is to create innovative products and hand-over excellency with constant emphasis on process quality, consumer satisfaction and transparency.</p>
                             <p className='b2b-text'>We aim to become a remarkable institution by providing premier IT-based services and solutions to establishments worldwide</p>
                           </div>
                          
                         
-                            <div className="tabInnerWrap" id='vission_tab'>
+                            <div className="tabInnerWrap" id='vission_tab' data-id="vission_btn">
                                 <p className='b2b-text'>The vision in your mind is the future you wish to achieve! The vision of the company is to provide high-quality services to our global clients.</p> 
                                 <p className='b2b-text'>With our vision, we want to create a work environment that encourages creativity, innovation and self-growth.</p>
                             </div>
                        
-                          <div className="tabInnerWrap" id='values_tab'>
+                          <div className="tabInnerWrap" id='values_tab' data-id="values_btn">
                             <p className='b2b-text'>The strengths of any organization lie in the values they uphold. We believe that quality should be maintained while meeting deadlines. Hence, our USP is delivering quality services within the deadlines!</p>
 
                             <p className='b2b-text'>As a company, we strive to do business with moral correctness, integrity, and a sincere heart for others. Thus, here at Base2Brand, we work towards nurturing and inculcating them at every stage!</p>

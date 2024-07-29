@@ -41,10 +41,20 @@ import Icon20 from "../../../public/services2-img/React-Native.svg";
 import Icon21 from "../../../public/services2-img/ionic.svg";
 import Icon22 from "../../../public/services2-img/flutter.svg";
 
-import Icon23 from "../../../public/services2-img/python.svg";
-import Icon24 from "../../../public/services2-img/web.svg";
-import Icon25 from "../../../public/services2-img/developer.svg";
-import Icon26 from "../../../public/services2-img/social-media.svg";
+import b1 from "../../../public/services2-img/b1.svg";
+import b2 from "../../../public/services2-img/b2.svg";
+import b3 from "../../../public/services2-img/b3.svg";
+import b4 from "../../../public/services2-img/b4.svg";
+import b5 from "../../../public/services2-img/b5.svg";
+import b6 from "../../../public/services2-img/b6.svg";
+import b7 from "../../../public/services2-img/b7.svg";
+import b8 from "../../../public/services2-img/b8.svg";
+
+import c1 from "../../../public/services2-img/c1.svg";
+import c2 from "../../../public/services2-img/c2.svg";
+
+import t1 from "../../../public/services2-img/t1.svg";
+import t2 from "../../../public/services2-img/t2.svg";
 import radialRight from '../../../public/img/radial-right.svg'; 
 
 export default function BigCommence() { 
@@ -180,24 +190,64 @@ export default function BigCommence() {
                                     <div className="container">
                                       <div className="row row-cols-5 row-cols-md-4 row-cols-sm-2 row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
                                         <div className="col mb-5">
-                                            <img className="service_tab_icon" src={Icon23.src} alt="" />
-                                            <span>Codeigniter</span>
+                                            <img className="service_tab_icon" src={b1.src} alt="" />
+                                            <span>Firebase</span>
                                         </div>
+                                        
                                         <div className="col mb-5">
-                                        <img className="service_tab_icon" src={Icon24.src} alt="" />
-                                            <span>Laravel</span>
-                                        </div>
-                                        <div className="col mb-5">
-                                        <img className="service_tab_icon" src={Icon25.src} alt="" />
-                                            <span>NodeJS</span>
+                                        <img className="service_tab_icon" src={b2.src} alt="" />
+                                            <span>SQLite</span>
                                         </div>
                                         <div className="col mb-5"> 
-                                        <img className="service_tab_icon" src={Icon26.src} alt="" />
-                                            <span>PHP</span>
+                                        <img className="service_tab_icon" src={b3.src} alt="" />
+                                            <span>AWS</span>
                                         </div>
                                         <div className="col mb-5">
-                                        <img className="service_tab_icon" src={Icon20.src} alt="" />
-                                            <span>Python</span>
+                                        <img className="service_tab_icon" src={b4.src} alt="" />
+                                            <span>MySQL</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                        <img className="service_tab_icon" src={b5.src} alt="" />
+                                            <span>NodeJS</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                        <img className="service_tab_icon" src={b6.src} alt="" />
+                                            <span>MongoDB</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                        <img className="service_tab_icon" src={b7.src} alt="" />
+                                            <span>Django</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                        <img className="service_tab_icon" src={b8.src} alt="" />
+                                            <span>PHP</span>
+                                        </div>
+                                      
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                    <div className="container">
+                                      <div className="row row-cols-4 row-cols-md-4 row-cols-sm-2  row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
+                                        <div className="col mb-5">
+                                            <img className="service_tab_icon" src={c1.src} alt="" />
+                                            <span>Firebase</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                        <img className="service_tab_icon" src={Icon22.src} alt="" />
+                                            <span>Flutter</span>
+                                        </div>
+                                        <div className="col mb-5"> 
+                                        <img className="service_tab_icon" src={b3.src} alt="" />
+                                            <span>AWS</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                            <img className="service_tab_icon" src={b1.src} alt="" />
+                                            <span>Firebase</span>
+                                        </div>
+                                        <div className="col mb-5"> 
+                                          <img className="service_tab_icon" src={c2.src} alt="" />
+                                            <span>Heroku</span>
                                         </div>
                                       
                                       
@@ -228,6 +278,22 @@ export default function BigCommence() {
                                       </div>
                                     </div>
                                   </div>
+                                  <div className="tab-pane fade" id="pills-testing" role="tabpanel" aria-labelledby="pills-testing-tab">
+                                    <div className="container">
+                                      <div className="row row-cols-4 row-cols-md-4 row-cols-sm-2  row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
+                                        <div className="col mb-5">
+                                            <img className="service_tab_icon" src={t1.src} alt="" />
+                                            <span>Appium</span>
+                                        </div>
+                                        <div className="col mb-5">
+                                          <img className="service_tab_icon" src={t2.src} alt="" />
+                                            <span>Jest</span>
+                                        </div>
+                                      
+                                      
+                                      </div>
+                                    </div>
+                                  </div>
 
                         </div>
                       </div>
@@ -245,7 +311,7 @@ export default function BigCommence() {
                             <div className="col-lg-10">
                               <div className="row justify-content-center">
                                   <div className="col-lg-4 mb-3">
-                                    <a className="menuLink" href="/">
+                                    <a className="menuLink" href="/web-application">
                                       <div className="menuInner b2b-pink-bg">
                                           <h3 className='b2b-title-text text-black'>Web Development</h3>
                                           <div className='d-flex align-items-center justify-content-between'>
@@ -289,7 +355,7 @@ export default function BigCommence() {
                                     </a>
                                   </div>
                                   <div className="col-lg-4 mb-3">
-                                    <a className="menuLink" href="/">
+                                    <a className="menuLink" href="/shopify">
                                       <div className="menuInner b2b-pink-bg">
                                           <h3 className='b2b-title-text text-black'>Shopify Development</h3>
                                           <div className='d-flex align-items-center justify-content-between'>

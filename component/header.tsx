@@ -168,7 +168,7 @@ useEffect(() => {
                     </a>
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href="">
+                    <a href="/shopify">
                       <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Shopify Development</h3>
                           <div className='d-flex align-items-center justify-content-between'>

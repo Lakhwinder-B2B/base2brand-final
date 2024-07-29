@@ -55,7 +55,7 @@ export default function WebApplication() {
                       
                       <div className="col-lg-4 mb-3">
                         <a className="menuLink" href="/app-development">
-                          <div className="menuInner b2b-lightBlue-bg">
+                          <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
                               <div className='d-flex align-items-center justify-content-between'>
                                 <p className='menuText mb-0'>Sales Friendly App for Your Business</p>
@@ -66,7 +66,7 @@ export default function WebApplication() {
                       </div>
                       <div className="col-lg-4 mb-3">
                         <a className="menuLink" href="/graphic">
-                          <div className="menuInner b2b-pink-bg">
+                          <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
                               <div className='d-flex align-items-center justify-content-between'>
                                 <p className='menuText mb-0'>Designs that Enhances User Engagement</p>
@@ -98,7 +98,7 @@ export default function WebApplication() {
                         </a>
                       </div>
                       <div className="col-lg-4 mb-3">
-                        <a className="menuLink" href="/">
+                        <a className="menuLink" href="/shopify">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Shopify Development</h3>
                               <div className='d-flex align-items-center justify-content-between'>
