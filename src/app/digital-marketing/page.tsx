@@ -47,9 +47,7 @@ export default function Digital() {
     const toggleModal = () => {
       setShowModal(!showModal);
     };
-    // const sliderForRef = useRef<Slider | null>(null);
-    // const sliderNavRef = useRef<Slider | null>(null);
-  
+   
     const [nav1, setNav1] = useState(null);
     const [nav2, setNav2] = useState(null);
     let sliderRef1 = useRef(null);
@@ -59,28 +57,7 @@ export default function Digital() {
       setNav1(sliderRef1);
       setNav2(sliderRef2);
     }, []);
-    // const settingsFor = {
-    //   slidesToShow: 1,
-    //   slidesToScroll: 1,
-    //   arrows: false,
-    //   fade: true,
-    //   adaptiveHeight: true,
-    //   asNavFor: sliderNavRef.current,
-    //   speed: 500,
-    //   infinite: true,
-    //   autoplay: true,
-    // };
   
-    // const settingsNav = {
-    //   slidesToShow: 4,
-    //   slidesToScroll: 1,
-    //   dots: false,
-    //   centerMode: false,
-    //   focusOnSelect: true,
-    //   variableWidth: true,
-    //   asNavFor: sliderForRef.current,
-      
-    // };
 
    
 
