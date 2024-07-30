@@ -16,94 +16,94 @@ import  link  from '../../public/img/link1.svg';
 const MyComponent = () => {
   const sliderRef = useRef(null);
   
-  useEffect(() => {
-    const slider = $(sliderRef.current);
-    const memoriesSection = document.querySelector(".slider_vertical");
-    const headerSection = document.querySelector("header");
-    const headerHeight = headerSection.offsetHeight;
-    const clientHeight = document.documentElement.clientHeight;
-    const clientWidth = document.documentElement.clientWidth;
-    if (slider.length > 0) {
-      slider.slick({
-        dots: false,
-        arrows : false,
-        infinite: false,
-        speed: 4000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        swipeToSlide:true,
-      });
+  // useEffect(() => {
+  //   const slider = $(sliderRef.current);
+  //   const memoriesSection = document.querySelector(".slider_vertical");
+  //   const headerSection = document.querySelector("header");
+  //   const headerHeight = headerSection.offsetHeight;
+  //   const clientHeight = document.documentElement.clientHeight;
+  //   const clientWidth = document.documentElement.clientWidth;
+  //   if (slider.length > 0) {
+  //     slider.slick({
+  //       dots: false,
+  //       arrows : false,
+  //       infinite: false,
+  //       speed: 4000,
+  //       slidesToShow: 1,
+  //       slidesToScroll: 1,
+  //       initialSlide: 0,
+  //       swipeToSlide:true,
+  //     });
      
-      console.log('slider.length'+slider.length);
-        $('body').on('wheel', function (e) {
+  //     console.log('slider.length'+slider.length);
+  //       $('body').on('wheel', function (e) {
           
-            const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
-            if (clientHeight > memoriesSectionY && memoriesSectionY > 0) {
-               memoriesSection.classList.add("stickyElement");
-               (memoriesSection as HTMLElement).style.top = `${headerHeight}px`;
+  //           const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+  //           if (clientHeight > memoriesSectionY && memoriesSectionY > 0) {
+  //              memoriesSection.classList.add("stickyElement");
+  //              (memoriesSection as HTMLElement).style.top = `${headerHeight}px`;
                
-            }
-            if (clientHeight < memoriesSectionY) {
-              memoriesSection.classList.remove("stickyElement");
-              (memoriesSection as HTMLElement).style.top = `unset`;
+  //           }
+  //           if (clientHeight < memoriesSectionY) {
+  //             memoriesSection.classList.remove("stickyElement");
+  //             (memoriesSection as HTMLElement).style.top = `unset`;
              
-            }
+  //           }
 
-          console.log('memoriesSection'+memoriesSectionY);
+  //         console.log('memoriesSection'+memoriesSectionY);
           
-          if(memoriesSectionY == headerHeight){
-            e.preventDefault();
-            $("body").css("overflow", "hidden");
+  //         if(memoriesSectionY == headerHeight){
+  //           e.preventDefault();
+  //           $("body").css("overflow", "hidden");
             
-            const firstSection = document.querySelector(".slide_data");
-            const firstSectionX = firstSection.getBoundingClientRect().x;
-            const lastSection = document.querySelector(".slide_data3");
-            const lastSectionX = lastSection.getBoundingClientRect().x;
+  //           const firstSection = document.querySelector(".slide_data");
+  //           const firstSectionX = firstSection.getBoundingClientRect().x;
+  //           const lastSection = document.querySelector(".slide_data3");
+  //           const lastSectionX = lastSection.getBoundingClientRect().x;
 
 
-            if (e.originalEvent.deltaY < 0) {
-              if (clientWidth > firstSectionX && firstSectionX == 0) {
-                  $("body").css("overflow", "unset");
+  //           if (e.originalEvent.deltaY < 0) {
+  //             if (clientWidth > firstSectionX && firstSectionX == 0) {
+  //                 $("body").css("overflow", "unset");
                   
-              }else{
-                slider.slick('slickPrev');
-              }
+  //             }else{
+  //               slider.slick('slickPrev');
+  //             }
               
-            } else {
-              if (clientWidth > firstSectionX && firstSectionX == 0) {
-                setTimeout(function() {
-                  slider.slick('slickNext');
-                }, 500); 
-              }else if(clientWidth > lastSectionX && lastSectionX == 0){
-                  $("body").css("overflow", "unset");
-                  memoriesSection.classList.remove("stickyElement");
-                  (memoriesSection as HTMLElement).style.top = `unset`;
-              }else{
-                slider.slick('slickNext');
-              }
+  //           } else {
+  //             if (clientWidth > firstSectionX && firstSectionX == 0) {
+  //               setTimeout(function() {
+  //                 slider.slick('slickNext');
+  //               }, 500); 
+  //             }else if(clientWidth > lastSectionX && lastSectionX == 0){
+  //                 $("body").css("overflow", "unset");
+  //                 memoriesSection.classList.remove("stickyElement");
+  //                 (memoriesSection as HTMLElement).style.top = `unset`;
+  //             }else{
+  //               slider.slick('slickNext');
+  //             }
               
-            }
-          }else{
-            $("body").css("overflow", "unset");
-          }
+  //           }
+  //         }else{
+  //           $("body").css("overflow", "unset");
+  //         }
           
-        });
+  //       });
       
-    }
+  //   }
 
-    // Cleanup function to destroy Slick instance if component unmounts
-    return () => {
-      if (slider.length > 0 && slider.hasClass('slick-initialized')) {
-        slider.slick('unslick');
-      }
-    };
-  }, []);
+  //   // Cleanup function to destroy Slick instance if component unmounts
+  //   return () => {
+  //     if (slider.length > 0 && slider.hasClass('slick-initialized')) {
+  //       slider.slick('unslick');
+  //     }
+  //   };
+  // }, []);
  
   return (
     // <div onWheel={onWheelSlider} className='slider_vertical mt-5'>
     <div className='slider_vertical mt-5'>
-      <div className="right_slider1" ref={sliderRef}>
+      {/* <div className="right_slider1" ref={sliderRef}>
           <section className='slide_data text-center text-white slide_height'>
             <h1>What sets <br /> us apart  </h1> 
             </section>
@@ -193,7 +193,7 @@ const MyComponent = () => {
             </div>
             </div>
             </section> 
-        </div>
+        </div> */}
     </div>
   );
 };
