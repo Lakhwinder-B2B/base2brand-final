@@ -32,7 +32,7 @@ import polygon from '../../public/img/polygon.png';
 import Slider from "react-slick";
 import Typewriter from 'typewriter-effect';
 import Request from "./request-form";
-import VerticalScroll from "./vertical-scroll.js";
+import VerticalScroll from "./vertical-scroll-sec";
 // import styles from "./VerticalSlideshow.module.css";
 
 export default function Home() {

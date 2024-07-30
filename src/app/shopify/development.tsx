@@ -26,7 +26,7 @@ export default function Development() {
           const headerHeight = headerSection.offsetHeight;
       
           if (!memoriesSection) {
-            console.error("Element with class 'tabMainWrap' not found");
+            console.error("Element with class 'tabMainWrap' not found"); 
             return;
           }
           console.log('headerHeight'+headerHeight);
