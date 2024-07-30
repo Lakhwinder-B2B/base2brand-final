@@ -6,7 +6,6 @@ import Team2 from "../.././public/about-img/team2.png"
 import Team3 from "../.././public/about-img/team3.png"
 import Team4 from "../.././public/about-img/team4.png"
 export default function Team() {
-   
   return (
     <>  
       <div className="container-fluid pb-2"> 
