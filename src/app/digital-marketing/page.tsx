@@ -33,7 +33,7 @@ import growBusiness from "../../../public/digital/grow-business.png";
 import I1 from "../../../public/digital/i1.svg";
 import I2 from "../../../public/digital/i2.svg";
 
-import whyChoose from "../../../public/digital/whychoose.png";
+import whyChoose from "../../../public/digital/img1.png";
 import dm1 from "../../../public/digital/dm1.svg";
 import dm2 from "../../../public/digital/dm2.svg";
 import dm3 from "../../../public/digital/dm3.svg";
