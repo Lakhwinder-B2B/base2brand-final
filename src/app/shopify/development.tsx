@@ -13,49 +13,49 @@ import CREATIVE_DESIGN from '../../../public/web-app/CREATIVE_DESIGN.svg';
 import RESPONSIVE_DEVELOPMENT from '../../../public/web-app/RESPONSIVE_DEVELOPMENT.svg'; 
 import QUALITY_ASSURANCE from '../../../public/web-app/QUALITY_ASSURANCE.svg'; 
 
-import Tab1 from './tab1.js';
+import Tab1 from './tabs';
 // import TabSlick from './tab-slick';
 import '../shopify/service.css'
 
 export default function Development() {
  
-     useEffect(() => {
-          const memoriesSection = document.querySelector(".tabMainWrap");
-          const headerSection = document.querySelector("header");
-          const bodySection = document.querySelector("body");
-          const headerHeight = headerSection.offsetHeight;
+     // useEffect(() => {
+     //      const memoriesSection = document.querySelector(".tabMainWrap");
+     //      const headerSection = document.querySelector("header");
+     //      const bodySection = document.querySelector("body");
+     //      const headerHeight = headerSection.offsetHeight;
       
-          if (!memoriesSection) {
-            console.error("Element with class 'tabMainWrap' not found"); 
-            return;
-          }
-          console.log('headerHeight'+headerHeight);
+     //      if (!memoriesSection) {
+     //        console.error("Element with class 'tabMainWrap' not found"); 
+     //        return;
+     //      }
+     //      console.log('headerHeight'+headerHeight);
       
-          const handleScroll = () => {
-            const clientHeight = document.documentElement.clientHeight;
-            const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
-            if (clientHeight > memoriesSectionY) {
-               memoriesSection.classList.add("stickyElement");
-               (memoriesSection as HTMLElement).style.top = `${headerHeight}px`;
-               if(memoriesSectionY == headerHeight){
-                    memoriesSection.classList.add("inViewport"); 
+     //      const handleScroll = () => {
+     //        const clientHeight = document.documentElement.clientHeight;
+     //        const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+     //        if (clientHeight > memoriesSectionY) {
+     //           memoriesSection.classList.add("stickyElement");
+     //           (memoriesSection as HTMLElement).style.top = `${headerHeight}px`;
+     //           if(memoriesSectionY == headerHeight){
+     //                memoriesSection.classList.add("inViewport"); 
                     
-               }
-            }
-            if (clientHeight < memoriesSectionY) {
-              memoriesSection.classList.remove("stickyElement");
-              (memoriesSection as HTMLElement).style.top = `unset`;
-              memoriesSection.classList.remove("inViewport");
-            }
-          };
+     //           }
+     //        }
+     //        if (clientHeight < memoriesSectionY) {
+     //          memoriesSection.classList.remove("stickyElement");
+     //          (memoriesSection as HTMLElement).style.top = `unset`;
+     //          memoriesSection.classList.remove("inViewport");
+     //        }
+     //      };
       
-          document.addEventListener("scroll", handleScroll);
+     //      document.addEventListener("scroll", handleScroll);
       
-          // Clean up the event listener on component unmount
-          return () => {
-            document.removeEventListener("scroll", handleScroll);
-          };
-        }, []);
+     //      // Clean up the event listener on component unmount
+     //      return () => {
+     //        document.removeEventListener("scroll", handleScroll);
+     //      };
+     //    }, []);
 
   return (
      <>  
