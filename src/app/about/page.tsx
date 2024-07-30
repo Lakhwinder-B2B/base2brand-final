@@ -37,6 +37,7 @@ export default function AboutUs() {
     autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1, 
+    cssEase: 'linear',
     responsive: [
       {
         breakpoint: 1024,

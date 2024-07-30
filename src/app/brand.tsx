@@ -33,9 +33,12 @@ export default function Brand() {
     arrows : false, 
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 500,
+    speed: 8000,
     slidesToShow: 5,
     slidesToScroll: 1, 
+    cssEase: 'linear',
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,

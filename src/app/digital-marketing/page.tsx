@@ -21,7 +21,13 @@ import Ads2 from "../../../public/digital/ads2.svg";
 import Ads3 from "../../../public/digital/ads3.svg";
 import Ads4 from "../../../public/digital/ads4.svg";
 import Ads5 from "../../../public/digital/ads5.svg";
+
 import Social from "../../../public/digital/social.svg";
+import Social1 from "../../../public/digital/social1.svg";
+import Social2 from "../../../public/digital/social2.svg";
+import Social3 from "../../../public/digital/social3.svg";
+import Social4 from "../../../public/digital/social4.svg";
+import Social5 from "../../../public/digital/social5.svg";
 
 import growBusiness from "../../../public/digital/grow-business.png";
 import I1 from "../../../public/digital/i1.svg";
@@ -129,12 +135,12 @@ export default function Digital() {
                       >
                     
                       
-                      <a><img src={Ads2.src} alt="" /></a>
-                      <a><img src={Ads3.src} alt="" /></a>
+                      <a><img src={Ads.src} alt="" /></a>
+                      <a><img src={Ads5.src} alt="" /></a>
                       <a><img src={Ads4.src} alt="" /></a>
-                      <a><img src={Ads5.src} alt="" /></a> 
-                      <a><img src={Ads5.src} alt="" /></a> 
-                      <a><img src={Ads5.src} alt="" /></a> 
+                      <a><img src={Ads3.src} alt="" /></a>
+                      <a><img src={Ads2.src} alt="" /></a>
+                      <a><img src={Ads1.src} alt="" /></a> 
                     
                       </Slider>
                   </div>
@@ -168,7 +174,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social.src} alt="" />
+                              <img className="social_img" src={Social1.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -186,7 +192,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social.src} alt="" />
+                              <img className="social_img" src={Social2.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -203,7 +209,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social.src} alt="" />
+                              <img className="social_img" src={Social3.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -220,7 +226,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social.src} alt="" />
+                              <img className="social_img" src={Social4.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -237,7 +243,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social.src} alt="" />
+                              <img className="social_img" src={Social5.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">

@@ -94,33 +94,33 @@ export default function FAQ() {
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
                       What kind of ongoing support do you offer for ORM?
                       </button>
                     </h2>
-                    <div id="flush-collapse7" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapse8" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                       <div className="accordion-body"><p>We provide ongoing monitoring of your online presence, prompt response to reviews and comments, and proactive strategies to enhance your brand's reputation continuously.</p>
                     </div>
                     </div>
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
                       What is YouTube Marketing?
                       </button>
                     </h2>
-                    <div id="flush-collapse7" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapse9" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                       <div className="accordion-body"><p>YouTube Marketing involves leveraging the platform for promoting your brand, products, or services through engaging video content.</p>
                     </div>
                     </div>
                   </div> 
                   <div className="accordion-item"  >
                     <h2 className="accordion-header">
-                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
                       How do you ensure success with YouTube Marketing?
                       </button>
                     </h2>
-                    <div id="flush-collapse7" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapse10" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                       <div className="accordion-body"><p>We create compelling video content, optimize it for search visibility, promote it across relevant channels, and analyze performance metrics to refine strategies for maximum impact.</p>
                     </div>
                     </div>
