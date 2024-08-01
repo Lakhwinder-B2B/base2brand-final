@@ -174,7 +174,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social1.src} alt="" />
+                              <img className="social_img w-100" src={Social1.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -192,7 +192,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social2.src} alt="" />
+                              <img className="social_img w-100" src={Social2.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -209,7 +209,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social3.src} alt="" />
+                              <img className="social_img w-100" src={Social3.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -226,7 +226,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social4.src} alt="" />
+                              <img className="social_img w-100" src={Social4.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -243,7 +243,7 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social5.src} alt="" />
+                              <img className="social_img w-100" src={Social5.src} alt="" />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -267,7 +267,7 @@ export default function Digital() {
             <div className="container-fluid">
               <div className="row">
                 <div className="col-md-6" >
-                  <img src={growBusiness.src} alt="" />
+                  <img className='w-100' src={growBusiness.src} alt="" />
                 </div>
                 <div className="col-md-5" >
                   <h3 className='b2b-heading mb-4'>Are you Ready to Grow <br />your Businesses</h3> 

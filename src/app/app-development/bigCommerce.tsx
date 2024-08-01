@@ -41,7 +41,7 @@ export default function Big_Commerce() {
               </div>
 
               <div className="col-md-4 mt-5">
-                    <img src={benefits.src} alt="" />
+                    <img className="w-100" src={benefits.src} alt="" />
               </div>
 
               <div className="col-md-4 mt-5">
@@ -77,8 +77,8 @@ export default function Big_Commerce() {
           <div className="container">
               <div className="row align-items-center"> 
               <div className="col-md-5">
-                    <img src={Big2.src} alt="" />
-                  </div>
+                    <img className="w-100" src={Big2.src} alt="" />
+                  </div> 
                   <div className="col-md-7 text-white"> 
                       <h1 className="b2b-heading mb-3">Mobile App Development <br />Services We Offer</h1>
                       <p className="b2b-text-sm">Our mobile app development services cover iOS, Android, React Native, and Flutter platforms, offering versatile solutions. For iOS, we create sleek, user-friendly experiences optimized for Apple devices, incorporating the latest features. Similarly, our Android expertise ensures seamless performance across a wide range of devices. Additionally, we excel in React Native and Flutter for efficient cross-platform development and visually stunning apps</p>

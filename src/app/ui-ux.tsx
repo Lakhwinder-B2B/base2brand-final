@@ -31,7 +31,7 @@ export default function UIUX() {
                     <button className="b2b-btn b2b-btn-sm m-0" >Request a Quote</button>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={UiUx.src} alt="" />
+                    <img className='w-100' src={UiUx.src} alt="" />
                 </div>
             </div>
         </div>

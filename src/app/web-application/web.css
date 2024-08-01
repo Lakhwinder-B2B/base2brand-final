@@ -19,6 +19,8 @@ button.btn_design {
     color: #fff;
     text-transform: capitalize;
     padding: 15px 30px;
+    background: #11161600;
+    border: none;
 }
 button.btn_design span {
     width: 110px;
@@ -56,6 +58,7 @@ ul.arrowListing{
     padding-left: 24px;
     position: relative;
     margin-bottom: 12px;
+    list-style: none;
 }
 ul.arrowListing li:before {
     content: '';

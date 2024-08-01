@@ -85,6 +85,9 @@ ul.dropdown-menu.show li {
     padding: 0;
     line-height: 3;
 }
+img.call_icon {
+    width: 100%;
+}
 
 .contact-num a {
     /* border-radius: 30px; */

@@ -91,7 +91,7 @@ export default function BigCommence() {
                       <p className="b2b-text-sm">We prioritize scalability, ensuring seamless growth. From concept to deployment, maintenance, and updates, we offer comprehensive development services. Collaborate with us to realize your vision and redefine mobile excellence.</p>
                   </div>
                   <div className="col-md-5">
-                    <img src={nextGeneration.src} alt="" />
+                    <img className="w-100" src={nextGeneration.src} alt="" />
                   </div>
               </div>
           </div>

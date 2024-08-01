@@ -46,7 +46,7 @@ export default function Graphic() {
           <div className="container">
               <div className="row align-items-center"> 
                   <div className="col-md-5">
-                    <img src={nextGeneration.src} alt="" />
+                    <img className="w-100" src={nextGeneration.src} alt="" />
                   </div>
                   <div className="col-md-7 text-white"> 
                       <h1 className="b2b-main-heading mb-3">How UI/UX Affect Your App<br />or Website&apos;s Performance?</h1>

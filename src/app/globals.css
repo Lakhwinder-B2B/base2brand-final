@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
  
  body {
@@ -21,6 +21,9 @@ a{
 ul.flex li a {
     font-weight: 100;
     text-decoration: auto;
+}
+ul li{
+  list-style: none;
 }
 .left.d-flex.align-items-center {
   margin: auto;
@@ -282,7 +285,9 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
   font-size: 16px;
   line-height: 32px;
 }
-
+.deliverable-icon-bg img {
+  width: 100%;
+}
 .b2b-btn{
   background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
   border-radius: 41px;
@@ -292,6 +297,7 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
   z-index: 9;
   overflow: hidden;
   transition: 0.6s;
+  border: none;
 }
 .b2b-btn::after {
   position: absolute;

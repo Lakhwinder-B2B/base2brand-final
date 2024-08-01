@@ -45,7 +45,7 @@ export default function Ecommerce() {
           <div className="container">
               <div className="row align-items-center"> 
                   <div className="col-md-5">
-                    <img src={nextGeneration.src} alt="" />
+                    <img className="w-100" src={nextGeneration.src} alt="" />
                   </div>
                   <div className="col-md-7 text-white"> 
                       <h1 className="b2b-main-heading mb-3">E-Commerce Store That<br />Match Your Needs</h1>

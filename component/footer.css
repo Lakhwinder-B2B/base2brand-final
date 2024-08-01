@@ -4,6 +4,9 @@ border-bottom:1px solid #CACACA;
 .Headerbggray {
     background: #111616 !important;
 }
+.col.footerMenu ul li, .footerMenu ul li {
+    list-style: none;
+}
 img.SocialIcon {
     width: 30px;
 }

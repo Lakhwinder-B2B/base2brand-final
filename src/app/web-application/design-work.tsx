@@ -249,7 +249,7 @@ export default function DesignWork() {
           <div className="container">
               <div className="row align-items-center"> 
                   <div className="col-md-5">
-                    <img src={system_website.src} alt="" />
+                    <img className="w-100" src={system_website.src} alt="" /> 
                   </div>
                   <div className="col-md-7 text-white"> 
                       <h1 className="b2b-main-heading mb-3">Why Does Your Business <br />Need a Website?</h1>
@@ -406,7 +406,7 @@ export default function DesignWork() {
                     <div className="col-lg-6 mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                         <img src={Icons4.src} className="imgIcon" alt="" />
-                        <div className="pl-4">
+                        <div className="ps-4">
                             <h3>Team of Experts</h3>
                             <p className="b2b-text mb-0">Years of experience and skilled professionals ensure diverse expertise in web development, guaranteeing precision and excellence throughout your project's execution.</p>
                         </div>
@@ -415,7 +415,7 @@ export default function DesignWork() {
                     <div className="col-lg-6 mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                         <img src={Icons1.src} className="imgIcon" alt="" />
-                        <div className="pl-4">
+                        <div className="ps-4">
                             <h3>Custom Solutions</h3>
                             <p className="b2b-text mb-0">We understand that every business is unique. Our custom solutions are tailored to your specific needs, ensuring that your website reflects your brand identity and meets your objectives perfectly.</p>
                         </div>
@@ -424,7 +424,7 @@ export default function DesignWork() {
                     <div className="col-lg-6 mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                         <img src={Icons2.src} className="imgIcon" alt="" />
-                        <div className="pl-4">
+                        <div className="ps-4">
                             <h3>Responsive Design</h3>
                             <p className="b2b-text mb-0">Our websites are designed to adapt seamlessly to different devices and screen sizes, providing an optimal user experience for visitors regardless of how they access your site.</p>
                         </div>
@@ -433,7 +433,7 @@ export default function DesignWork() {
                     <div className="col-lg-6 mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                         <img src={Icons3.src} className="imgIcon" alt="" />
-                        <div className="pl-4">
+                        <div className="ps-4">
                             <h3>Quality Assurance</h3>
                             <p className="b2b-text mb-0">Rigorous testing ensures flawless website functionality, delivering a smooth, error-free user experience through integrated quality assurance procedures in our development process.</p>
                         </div>
@@ -442,7 +442,7 @@ export default function DesignWork() {
                     <div className="col-lg-6 mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                         <img src={Icons4.src} className="imgIcon" alt="" />
-                        <div className="pl-4">
+                        <div className="ps-4">
                             <h3>Communication</h3>
                             <p className="b2b-text mb-0">We prioritize clear and transparent communication, keeping you informed every step of the way and ensuring your feedback is incorporated into the final product.</p>
                         </div>
@@ -451,7 +451,7 @@ export default function DesignWork() {
                     <div className="col-lg-6 mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                         <img src={Icons5.src} className="imgIcon" alt="" />
-                        <div className="pl-4">
+                        <div className="ps-4">
                             <h3>Customer Satisfaction</h3>
                             <p className="b2b-text mb-0">Our ultimate goal is your satisfaction. We exceed expectations by delivering high-quality, innovative solutions that not only meet but surpass your requirements, ensuring a positive experience working with us.</p>
                         </div>
