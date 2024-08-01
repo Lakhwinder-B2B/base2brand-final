@@ -5,7 +5,7 @@ import Header from "../../../component/header";
 import AboutMask from "../../../public/about-img/about-mask.png";
 import Ceo from "../../../public/about-img/ceo.png"
 import QuoteIcon from "../../../public/about-img/quote-about.svg"
-import About1 from "../../../public/about-img/about1.svg"
+import About1 from "../../../public/about-img/about.gif"
 import About2 from "../../../public/json/about-us/About-Us.gif"
 import AboutColumns from "../../../src/app/about-columns"
 import Team from "../.././app/team"
@@ -34,7 +34,7 @@ export default function AboutUs() {
     infinite: true,
     centerMode: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1, 
     cssEase: 'linear',

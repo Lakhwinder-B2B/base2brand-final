@@ -8,6 +8,7 @@ import Sh2 from '../../../public/services-img/sh2.svg';
 import Sh3 from '../../../public/services-img/sh3.svg';
 import Sh4 from '../../../public/services-img/sh4.svg';
 import Sh5 from '../../../public/services-img/sh5.svg';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
   
 import '../project.css'; 
  
@@ -22,8 +23,13 @@ export default function home() {
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
               <div className="tab-content" id="pills-tabContent">
                 <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
-                <img className="w-70 active_img m-auto" src={shopifyDev.src} alt="Search Engine Optimization" />
-               
+                {/* <img className="w-70 active_img m-auto" src={shopifyDev.src} alt="Search Engine Optimization" /> */}
+                <DotLottieReact
+                      src='/json/home-page/Shopify-development-services.json'
+                      loop
+                      autoplay
+                      className="animated-imgs"
+                    />
                 </div>
               </div>
             </div>

@@ -1,6 +1,15 @@
 .accordion button.accordion-button {
     background: transparent;
 }
+.tabInnerWrap {
+    opacity: 0;
+    transition:   2s;
+}
+.tabInnerWrap.b2b_vissible{
+    opacity: 1;
+    transition:   2s;
+
+}
 .bg_about{
     background-color: #111616;
 }
@@ -250,10 +259,10 @@ span.slide-number {
 }
 .tabs_section .innerWrap>div{
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 .tabs_section .innerWrap>div:first-child{
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     padding-top: 0;
 }
 .tabs_section .firstInsideContainer:last-child{

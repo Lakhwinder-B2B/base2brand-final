@@ -57,9 +57,9 @@ useEffect(() => {
     <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
       <ul className="navbar-nav main-menu align-items-center d-flex flex-wrap Header_link">
       <li>
-        <a href="/" className={currentRoute === "/"? "active  py-2 px-1 " : "block py-2 px-1"} aria-current="page">
+        <Link href="/" className={currentRoute === "/"? "active  py-2 px-1 " : "block py-2 px-1"} aria-current="page">
            Home 
-        </a>
+        </Link>
         </li>
         <li className='dropdown'>
         <Link href="/about" className={currentRoute === "/about"? "active  py-2 px-1 dropdown-toggle" : "dropdown-toggle block py-2 px-1"}>About Us</Link>
@@ -67,7 +67,7 @@ useEffect(() => {
                 <li className='mega-menu'>
                   <div className='row justify-content-center'>
                       <div className="col-lg-3 mb-3">
-                        <a href="/about">
+                        <Link href="/about">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>About Us</h3>
                               <div className='d-flex align-items-center justify-content-between'>
@@ -75,10 +75,10 @@ useEffect(() => {
                                 <span className='menuIcon pl-3'></span>
                               </div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                       <div className="col-lg-3 mb-3">
-                        <a href='/team'>
+                        <Link href='/team'>
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Team</h3>
                               <div className='d-flex align-items-center justify-content-between'>
@@ -86,10 +86,10 @@ useEffect(() => {
                                 <span className='menuIcon pl-3'></span>
                               </div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                       <div className="col-lg-3 mb-3">
-                        <a href="/career">
+                        <Link href="/career">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Career</h3>
                               <div className='d-flex align-items-center justify-content-between'>
@@ -97,7 +97,7 @@ useEffect(() => {
                                 <span className='menuIcon pl-3'></span>
                               </div>
                           </div>
-                        </a>
+                        </Link>
                       </div>
                   </div>
                 </li>
@@ -111,7 +111,7 @@ useEffect(() => {
             <li className='mega-menu'>
               <div className='row justify-content-center'>
                   <div className="col-lg-3 mb-3">
-                    <a href="/web-application">
+                    <Link href="/web-application">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Web Development</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -119,10 +119,10 @@ useEffect(() => {
                             <span className='menuIcon pl-3'></span>
                           </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href='/app-development'>
+                    <Link href='/app-development'>
                       <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -130,10 +130,10 @@ useEffect(() => {
                             <span className='menuIcon pl-3'></span>
                           </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href="/graphic">
+                    <Link href="/graphic">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -141,12 +141,12 @@ useEffect(() => {
                             <span className='menuIcon pl-3'></span>
                           </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
               </div>
               <div className='row justify-content-center'>
                   <div className="col-lg-3 mb-3">
-                    <a href="/digital-marketing">
+                    <Link href="/digital-marketing">
                       <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -154,10 +154,10 @@ useEffect(() => {
                             <span className='menuIcon pl-3'></span>
                           </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href="/e-commerce">
+                    <Link href="/e-commerce">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Ecommerce</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -165,10 +165,10 @@ useEffect(() => {
                             <span className='menuIcon pl-3'></span>
                           </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-3 mb-3">
-                    <a href="/shopify">
+                    <Link href="/shopify">
                       <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Shopify Development</h3>
                           <div className='d-flex align-items-center justify-content-between'>
@@ -176,7 +176,7 @@ useEffect(() => {
                             <span className='menuIcon pl-3'></span>
                           </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
               </div>
             </li>
@@ -189,7 +189,7 @@ useEffect(() => {
         
 
         <li>
-        <a href="/resources" className={currentRoute === "/resources"? "active  py-2 px-1 " : "block py-2 px-1"}>Resource Outsourcing</a>
+        <Link href="/resources" className={currentRoute === "/resources"? "active  py-2 px-1 " : "block py-2 px-1"}>Resource Outsourcing</Link>
         </li>
 
         <li>
@@ -211,12 +211,12 @@ useEffect(() => {
           </div> 
           <ul className="dropdown-menu dropdown-menu-right ph_align_drop">
             <li className='mega-menu'>
-            <a href="">
+            <Link href="">
               <div className="menuInner b2b-blue-bg">
                 <div className='phoneMenuIcon'><img src={phone.src} alt="" /></div>
                   <h3 className='b2b-title-text text-white'>Let&apos;s Connect with mobilecoderzb Team</h3>
               </div>
-            </a>
+            </Link>
             </li>
             <li className='mega-menu'>
             
@@ -227,20 +227,20 @@ useEffect(() => {
             
             </li>
             <li className='mega-menu'>
-            <a href="">
+            <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={india.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+91 836 011 6967</h3>
               </div>
-            </a>
+            </Link>
             </li>
             <li className='mega-menu'>
-            <a href="">
+            <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={mail.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>hello@base2brand.com</h3>
               </div>
-            </a>
+            </Link>
             </li>
             <li className='mega-menu'>
             
@@ -251,12 +251,12 @@ useEffect(() => {
             
             </li>
             <li className='mega-menu'>
-            <a href="">
+            <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={whatsapp.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+91 9041700209</h3>
               </div>
-            </a>
+            </Link>
             </li>
             <li className='mega-menu'>
             
@@ -267,20 +267,20 @@ useEffect(() => {
             
             </li>
             <li className='mega-menu'>
-            <a href="">
+            <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={canada.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+1(416) 879-2244</h3>
               </div>
-            </a>
+            </Link>
             </li>
             <li className='mega-menu'>
-            <a href="">
+            <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={uk.src} alt="" /></div>
                   <h3 className='b2b-sub-text text-white'>+44 07448435973</h3>
               </div>
-            </a>
+            </Link>
             </li>
            
           </ul>

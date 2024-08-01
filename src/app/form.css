@@ -18,10 +18,24 @@ body.modal-open {
 .modal-header {
     border-bottom: none !important;
 }
+button.btn.btn-Quite {
+    border: 1px solid #000;
+    width: 100%;
+}
+button.btn-close.alignTop {
+    filter: none;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    background-color: #e1e1e1;
+    opacity: 1 !important;
+    padding: 9px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
 .modal-content {
-    border-radius: 30px;
-    background: #1c1c1c !important;
-    color: #fff !important;
+    border-radius: 30px; 
     padding: 12px 2rem;
 }
 button.btn-close {

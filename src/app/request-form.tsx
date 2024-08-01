@@ -59,23 +59,44 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
 
     return (
         <div className="modal request-form fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog modal-lg">
-                <div className="modal-content p-0">
+            <div className="modal-dialog">
+                <div className="modal-content bg-white">
                   
                   
-                    <div className="modal-body p-0">
-                        <div className="row pr-3">
-                            <div className="col-md-6 p-0">
-                            <img src={FormImg.src} alt="" className="w-100 request_img" /> 
-                            </div>
-                            <div className="col-md-6">
-                            <div className="d-flex justify-content-between pr-2 pt-2 align-items-center mb-3">
-                                <h4 className="modal-title text-center" id="exampleModalLabel">Request a Quote</h4>
-                                <button type="button" onClick={onCloseModal} className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal-body text-center">
+                        <div className="row ">
+                            
+                            <div className="col-md-12">
+                            <div className="d-flex justify-content-center pr-2 align-items-center mb-3">
+                                <h4 className="modal-title text-center" id="exampleModalLabel">Quote</h4>
+                                <button type="button" onClick={onCloseModal} className="btn-close alignTop" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div> 
+                            <p className="text-center">What services would you like to opt?</p>
                             <form onSubmit={handleSubmit}>
                             <div className="row">
-                                <div className="col-md-12">
+
+                            <div className="col-md-12">
+                                    <div className="mb-3">
+                                      <button type="button" className="btn btn-Quite">UI/UX</button>
+                                    </div>
+                                    <div className="mb-3">
+                                      <button type="button" className="btn btn-Quite">Branding</button>
+                                    </div>
+                                    <div className="mb-3">
+                                      <button type="button" className="btn btn-Quite">Development</button>
+                                    </div>
+                                    <div className="mb-3">
+                                      <button type="button" className="btn btn-Quite">Marketing</button>
+                                    </div>
+                                    <div className="mb-3">
+                                      <button type="button" className="btn btn-Quite">All Services</button>
+                                    </div>
+                                        <div className="text-center">
+                                            <a className="Continue">Continue</a>
+                                        </div>
+                                    </div>
+
+                                {/* <div className="col-md-12">
                                     <div className="mb-3">
                                         <label htmlFor="name">Name</label>
                                         <input type="text" className="form-control" id="name" name="name" value={formData.name} onChange={handleChange} required/>
@@ -105,7 +126,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                         onChange={handleRecaptchaVerify}
                                     />
                                     <button type="submit" className="btn btn-outline-primary mt-4">Submit</button>
-                                </div>
+                                </div> */}
                             </div>
                         </form>
                             </div>

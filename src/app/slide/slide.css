@@ -41,3 +41,40 @@
   .active_img {
     max-width: 80%;
 }
+
+
+
+
+
+/* new service design css */
+.service_box_gradiant:hover {
+  border: 1px solid white;
+}
+
+.service_box_gradiant {
+  background: linear-gradient(90deg, rgba(66, 65, 65, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);
+  border: 0.74px solid #474747;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.1s ;
+
+}
+
+h3.b2b-service-heading {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+a.b2b-service-text {
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+img.IconAlign {
+  width: 65px;
+  height: 60px;
+  object-fit: contain;
+}

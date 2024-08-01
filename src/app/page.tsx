@@ -80,8 +80,34 @@ export default function Home() {
     <>
     
       <Header />
-      <div className="bg_home" style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
-        <div className="container mx-auto pt-4 pb-5 full_height"> 
+
+      <div className="bannerSection pt-5 pb-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="d-flex align-items-center gap-2">
+              <h2 className="sub_heading">Build your</h2>
+            <Typewriter 
+                options={{
+                  strings: ['Web Designing', 'Web Development', 'Digital Marketing'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+              </div> 
+              <h2 className="sub_heading">with flawless technology, <br /> design, and execution</h2> 
+              <p className='sub_text text-white mt-4'>Let&apos;s Build something Digital together, We are Leading <br /> Innovative Partner for Start-ups and Enterprises</p>
+              <div className="mt-4">
+                <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'> 
+                
+                Request a Quote </button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg_home" >
+        {/* style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }} <div className="container mx-auto pt-4 pb-5 full_height"> 
           <div className="row align-items-center position-relative">
             <div className="col-md-2 mob-none"  >  
                   <img src={b2b1.src} className='banner_icon_section' />
@@ -99,7 +125,7 @@ export default function Home() {
               <p className='sub_text text-center text-white mt-5'>Let&apos;s Build something Digital together, We are Leading Innovative<br />Partner for Start-ups and Enterprises</p>
               <div className="mt-5 text-center">
                 <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'> 
-                {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+                
                 Request a Quote </button> 
               </div>
             </div>
@@ -108,7 +134,7 @@ export default function Home() {
                 <img src={b2b4.src} className='icon_four banner_icon_section ml-4' />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="p-3 logo-slider" >
             <div className="col-md-12 text-center pt-4" >
                 <h3 className='b2b-partners-heading'>Our Trusted Partners Collaborate Seamlessly To Drive Mutual Success</h3> 

@@ -11,7 +11,18 @@ import Slider from "react-slick";
 import './slide.css'; 
 import '../project.css'; 
 import './slider.js'; 
-
+import Icon from '../../../public/service-icon/1.svg'
+import Icon2 from '../../../public/service-icon/2.svg'
+import Icon3 from '../../../public/service-icon/3.svg'
+import Icon4 from '../../../public/service-icon/4.svg'
+import Icon5 from '../../../public/service-icon/5.svg'
+import Icon6 from '../../../public/service-icon/6.svg'
+import Arrow from '../../../public/service-icon/arrow.png'
+import Arrow1 from '../../../public/service-icon/arrow1.png'
+import Arrow2 from '../../../public/service-icon/arrow2.png'
+import Arrow3 from '../../../public/service-icon/arrow3.png'
+import Arrow4 from '../../../public/service-icon/arrow4.png'
+import Arrow5 from '../../../public/service-icon/arrow5.png'
 const Home = () => {
   // const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -49,12 +60,91 @@ const Home = () => {
     <div className="section-padding-hm-serv w-100"> 
         <div className="b2b-container-lg"> 
           <div className="row">  
-            <div className="col-md-12 mb-5 mb-mb-0"  >
+            <div className="col-md-12"  >
               <h2 className="b2b-heading text-center text-uppercase" >Our Services for Your Digital Transformation</h2>
             </div> 
           </div> 
         </div> 
     </div> 
+    <div className="container">
+    <div className="row">
+      <div className="col-md-4">
+        <div className="service_box_gradiant">
+          <div className="serviceIcon">
+            <img className='IconAlign' src={Icon.src} alt="" />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <h3 className='b2b-service-heading'>Shopify <br /> development</h3>
+              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow.src} alt="" /> </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4">
+        <div className="service_box_gradiant">
+          <div className="serviceIcon">
+            <img className='IconAlign' src={Icon6.src} alt="" />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <h3 className='b2b-service-heading'>Digital  <br /> Marketing</h3>
+              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow1.src} alt="" /> </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="col-md-4">
+        <div className="service_box_gradiant">
+          <div className="serviceIcon">
+            <img className='IconAlign' src={Icon2.src} alt="" />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <h3 className='b2b-service-heading'>Ecommrce  <br /> development</h3>
+              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow2.src} alt="" /> </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="col-md-4 mt-4">
+        <div className="service_box_gradiant">
+          <div className="serviceIcon">
+            <img  className='IconAlign' src={Icon3.src} alt="" />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <h3 className='b2b-service-heading'>Graphic & uI/UX  <br /> Designing</h3>
+              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow3.src} alt="" /> </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="col-md-4 mt-4">
+        <div className="service_box_gradiant">
+          <div className="serviceIcon">
+            <img className='IconAlign' src={Icon4.src} alt="" />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <h3 className='b2b-service-heading'>Web  <br /> development</h3>
+              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow4.src} alt="" /> </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="col-md-4 mt-4">
+        <div className="service_box_gradiant">
+          <div className="serviceIcon">
+            <img className='IconAlign' src={Icon5.src} alt="" />
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <h3 className='b2b-service-heading'>Mobile <br /> development</h3>
+              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow5.src} alt="" /> </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div className="slide">
     <Slide6 />
     </div>
