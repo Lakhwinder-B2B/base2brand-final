@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
  
  body {
@@ -380,6 +380,9 @@ a.b2b-btn{
   color: #B6CCFF;
 }
 
+.b2b-gray-bg-gk{
+  background-color:#12151D !important;
+}
 .b2b-gray-bg{
   background-color: #1F222F !important;
 }
