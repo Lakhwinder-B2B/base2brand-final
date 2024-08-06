@@ -176,7 +176,7 @@ export default function AboutUs() {
                     <h1 className='b2b-heading'>We Create Smart Ideas For<br />Your Brand Growth</h1>
                     <p className='b2b-text'>Our team of experts generate innovative concepts and strategies to drive your growth, offering smart solutions that propel your business forward and achieve your objectives efficiently.</p>
                     <div className="mt-5 text-center">
-                  <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
                   </div>
                 </div>
               </div>

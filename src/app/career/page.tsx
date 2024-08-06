@@ -175,7 +175,7 @@ export default function Team() {
                   <div className="col-lg-12">
                     <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                   </div>
-                  <div className="col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-3 mb-3">
                   <a className="menuLink" href="/about">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>About Us</h3>
@@ -186,7 +186,7 @@ export default function Team() {
                       </div>
                     </a>
                   </div>
-                  <div className="col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-3 mb-3">
                     <a className="menuLink" href="/team">
                       <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Team</h3>

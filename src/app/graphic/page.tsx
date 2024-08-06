@@ -1,6 +1,6 @@
 "use client";
 
-import  React  from "react";
+import  React, { useState }  from "react";
 // import { useEffect } from "react";
 import Header from "../../../component/header";
 import Footer from "../../../component/footer";
@@ -11,7 +11,7 @@ import Faq from "../graphic/faq";
 import '../graphic/graphic.css'
 
 import 'aos/dist/aos.css';
-
+import Request from "../request-form";
 import Bg from '../../../public/services2-img/service-mask.svg';
 import nextGeneration from '../../../public/graphics/representations-ui-ux.png';
 import radialRight from '../../../public/img/radial-right.svg'; 
@@ -23,8 +23,13 @@ export default function Graphic() {
 //        })
 //  }, [])
 
+const [showModal, setShowModal] = useState(false);
 
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
+    
     <>
       <Header />
       <div className="b2b-black-bg">
@@ -36,7 +41,7 @@ export default function Graphic() {
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
                  Let us improve your digital presence and fascinate your audience with captivating and visually stunning designs with our UI/UX and graphic design services</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
-                  <button className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
+                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
                  </div>
               </div>
             </div>
@@ -51,7 +56,7 @@ export default function Graphic() {
                   <div className="col-md-7 text-white"> 
                       <h1 className="b2b-main-heading mb-3">How UI/UX Affect Your App<br />or Website&apos;s Performance?</h1>
                       <p className="b2b-text-sm">Studies show that 86% of visitors leave a website or app within two seconds if it does not have good visuals and graphics. So the performance of your online platform largely depends on how it presents itself to visitors. No matter how skillfully and sincerely your content describes your services or products, if it lacks quality graphics and the product images are pixelated and unenhanced, it is a waste of resources.</p>
-                      <button className="b2b-btn b2b-btn-sm m-0" >Request a Quote</button>
+                      <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0" >Request a Quote</button>
                   </div>
                   
               </div>
@@ -134,6 +139,11 @@ export default function Graphic() {
         <Footer />
        
       </div>
+      {showModal && 
+        <Request 
+          onCloseModal={toggleModal} 
+        />
+      }
     </>
   );
 }

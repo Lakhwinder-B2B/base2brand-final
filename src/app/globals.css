@@ -28,6 +28,10 @@ ul li{
 .left.d-flex.align-items-center {
   margin: auto;
 }
+img{
+  width:100%;
+  height: auto;
+}
 .dropdown-item.active, .dropdown-item:active, .dropdown-item:focus{
   background-color: #f47b5236 !important ;
   color: #fff !important; 
@@ -516,7 +520,7 @@ button.b2b-blog-btn {
   background: transparent !important;
 }
 .bg_feedback {
-  background: #111616 !important;
+  background: linear-gradient(182.02deg, rgba(66, 65, 65, 0.3) 1.69%, rgba(0, 0, 0, 0.3) 98.31%) !important;
   height: 395px;
   border-radius: 10px;
   margin: 0 15px;
@@ -723,9 +727,12 @@ span.addressDot {
 }
 img.social_logo {
   width: auto;
-  height: auto;
+  height: 70px;
   object-fit: unset;
   margin: 0.5rem auto 2rem;
+}
+.logo-slider .slick-slide {
+  width: auto !important;
 }
 .logo-slider .slick-slide div {
   display: flex !important;

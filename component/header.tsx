@@ -203,7 +203,7 @@ useEffect(() => {
     <div className="d-flex flex-wrap align-items-center contact-num">
       <ul className="navbar-nav align-items-center d-flex flex-wrap Header_link">
         <li className='menuBtn'>
-          <a href=""><span>Contact</span></a>
+          <a href="/contact-us"><span>Contact</span></a>
         </li>
         <li className='dropdown iconHover'>
           <div className="call_number_drop">

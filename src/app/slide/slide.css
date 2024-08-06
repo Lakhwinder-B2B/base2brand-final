@@ -50,6 +50,14 @@
 .service_box_gradiant:hover {
   border: 1px solid white;
 }
+.service_box_gradiant .arrowIcon {
+  transition: 0.5s;
+  width: 14px;
+  height: auto;
+}
+.service_box_gradiant:hover .arrowIcon {
+ transform: translateX(8px);
+}
 
 .service_box_gradiant {
   background: linear-gradient(90deg, rgba(66, 65, 65, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%);

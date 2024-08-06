@@ -7,7 +7,7 @@ import Footer from "../../../component/footer";
 import Bg from '../../../public/services2-img/service-mask.svg';
 import '../../app/services/services2.css';
 import './digital.css';
-import Request from "../request-form";
+import Request from "../request-form"; 
 import Digital0 from "../../../public/digital/digital.png";
 import Digital1 from "../../../public/digital/digital1.png";
 import Digital2 from "../../../public/digital/digital2.png";
@@ -601,7 +601,7 @@ export default function Digital() {
       </div>
    
 
- {showModal && 
+      {showModal && 
         <Request 
           onCloseModal={toggleModal} 
         />

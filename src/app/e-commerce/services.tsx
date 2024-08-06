@@ -96,25 +96,25 @@ export default function services() {
                 <div className="row choose-us-wrap"> 
                   <div className="col-md-6 text-white mb-5"> 
                     <div className='chosseInnerWrap'>
-                      <h1 className="b2b-heading mb-3">Experience &amp; Expertise</h1>
+                      <h1 className="b2b-sub-heading mb-3">Experience &amp; Expertise</h1>
                       <p className="b2b-text-sm pr-5 pr-sm-0">Our seasoned team brings extensive eCommerce development experience, delivering innovative, scalable solutions tailored to your business needs, ensuring project success with industry insights.</p>
                     </div>
                   </div>
                   <div className="col-md-6 text-white mb-5"> 
                     <div className='chosseInnerWrap'>
-                      <h1 className="b2b-heading mb-3">Customization</h1>
+                      <h1 className="b2b-sub-heading mb-3">Customization</h1>
                       <p className="b2b-text-sm pr-5 pr-sm-0">Tailoring our services to your unique brand, we offer highly customizable solutions from design to functionality, providing a personalized experience that sets you apart.</p>
                     </div>
                   </div>
                   <div className="col-md-6 text-white mb-5"> 
                     <div className='chosseInnerWrap'>
-                      <h1 className="b2b-heading mb-3">Quality Assurance</h1>
+                      <h1 className="b2b-sub-heading mb-3">Quality Assurance</h1>
                       <p className="b2b-text-sm pr-5 pr-sm-0">Ensuring excellence, our rigorous testing procedures guarantee bug-free, fully functional eCommerce stores optimized for performance, delivering a seamless shopping experience.</p>
                     </div>
                   </div>
                   <div className="col-md-6 text-white mb-5"> 
                     <div className='chosseInnerWrap'>
-                      <h1 className="b2b-heading mb-3">Support and Collaboration</h1>
+                      <h1 className="b2b-sub-heading mb-3">Support and Collaboration</h1>
                       <p className="b2b-text-sm pr-5 pr-sm-0">Beyond project completion, we offer ongoing support, updates, and collaboration to ensure your eCommerce store remains competitive and responsive to market demands.</p>
                     </div>
                   </div>

@@ -59,7 +59,11 @@ import radialRight from '../../../public/img/radial-right.svg';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Team() {
+  const [showModal, setShowModal] = useState(false);
 
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <>
       <Header />
@@ -71,7 +75,7 @@ export default function Team() {
                   <h1 className='b2b-sub-heading-bold text-uppercase'>Our Cherished Teams</h1>
                   <p className='b2b-sub-text'>Each member in our team is experienced and well efficient to deliver the assigned projects before the deadline. We rely on them to fulfill the promises we make to our clients.</p>
                   <div className="mt-5 text-center mb-5 pb-5">
-                    <button className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                    <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
                   </div>
                   <div className='text-center'>
                     {/* <img src={About1.src} alt="" /> */}
@@ -405,7 +409,7 @@ export default function Team() {
                   <div className="col-lg-12">
                     <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                   </div>
-                  <div className="col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-3 mb-3">
                     <a className="menuLink" href="/about">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>About Us</h3>
@@ -416,7 +420,7 @@ export default function Team() {
                       </div>
                     </a> 
                   </div>
-                  <div className="col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-3 mb-3">
                     <a className="menuLink" href="/career">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Career</h3>
@@ -432,6 +436,11 @@ export default function Team() {
           </div>
           <Footer />
         </div>
+        {showModal && 
+          <Request 
+            onCloseModal={toggleModal} 
+          />
+        }
       </>
   );
 }

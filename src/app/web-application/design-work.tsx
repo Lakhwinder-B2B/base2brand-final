@@ -254,7 +254,7 @@ export default function DesignWork() {
                   <div className="col-md-7 text-white"> 
                       <h1 className="b2b-main-heading mb-3">Why Does Your Business <br />Need a Website?</h1>
                       <p className="b2b-text-sm">In today's digital landscape, a website serves as your business's virtual storefront, accessible to potential customers 24/7. It establishes credibility, expands market reach, and facilitates customer engagement. A well-designed website showcases your brand, offers valuable information, and converts visitors into loyal customers, driving growth and fostering lasting relationships.</p>
-                      <button className="b2b-btn b2b-btn-sm m-0 mt-3" >Request a Quote</button>
+                      <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0 mt-3" >Request a Quote</button>
                   </div>
                   
               </div>
@@ -463,7 +463,7 @@ export default function DesignWork() {
           </div>
                 
         </div> 
-{showModal && 
+        {showModal && 
         <Request 
           onCloseModal={toggleModal} 
         />

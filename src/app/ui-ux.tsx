@@ -1,16 +1,22 @@
 'use client'
 import { useEffect } from 'react';
 
-import React from "react";   
+import React, { useState } from "react";   
 
 import UiUx from '../../public/graphics/ui-ux.svg';
 import UiUxIcons from '../../public/graphics/ui-ux-icons.svg';
 
+import Request from "./request-form";
 export default function UIUX() {
  
-  
+    const [showModal, setShowModal] = useState(false);
+
+    const toggleModal = () => {
+      setShowModal(!showModal);
+    };
 
   return (
+
     <>  
     <div className="py-5"> 
         <div className="graphic-ser-head text-white text-center">
@@ -28,7 +34,7 @@ export default function UIUX() {
                         Graphic Design Project<br />
                         Journey with Us Today</h2>
                     <p className="b2b-text text-white">Book a free discovery session</p>
-                    <button className="b2b-btn b2b-btn-sm m-0" >Request a Quote</button>
+                    <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0" >Request a Quote</button>
                 </div>
                 <div className='col-lg-6'>
                     <img className='w-100' src={UiUx.src} alt="" />
@@ -37,6 +43,11 @@ export default function UIUX() {
         </div>
             
     </div>
+    {showModal && 
+        <Request 
+          onCloseModal={toggleModal} 
+        />
+      }
 </>
 )
 }

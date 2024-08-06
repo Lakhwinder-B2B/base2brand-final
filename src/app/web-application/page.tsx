@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../../component/header";
 import DesignWork from "./design-work";
 import Faq from "./faq"; 
@@ -9,8 +9,15 @@ import "./web.css";
 import radialRight from '../../../public/img/radial-right.svg'; 
 import Bg from '../../../public/services2-img/service-mask.svg';
 
-export default function WebApplication() {
- 
+import Request from "../request-form";
+
+export 
+default function WebApplication() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <>
       <Header />
@@ -23,7 +30,7 @@ export default function WebApplication() {
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
                  Our web development service offers tailored digital solutions through a collaborative team approach. We align our strategies with your project goals to create innovative websites that engage your audience effectively.</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
-                  <button className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
+                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
                  </div>
               </div>
             </div>
@@ -116,6 +123,11 @@ export default function WebApplication() {
         <Footer />
        
       </div>
+      {showModal && 
+        <Request 
+          onCloseModal={toggleModal} 
+        />
+      }
     </>
   );
 }

@@ -70,3 +70,129 @@ li.mail a{
     width: max-content;
     margin: auto;
 }
+.form-container {
+    max-width: 1046px;
+    margin: auto;
+    padding: 0 15px;
+}
+.formRow .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #D9D9D9;
+    border-radius: 0 !important;
+    max-width: 300px;
+    width: 100%;
+}
+.formRow .form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.formRow {
+    display: flex;
+    align-items: center;
+}
+.formRow label,
+.formTextarea label {
+    color: #fff;
+    white-space: nowrap;
+    margin-bottom: 0 !important;
+    margin-right: 22px;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.formRow .form-control::placeholder{
+    color: #D6D6D6;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 600;
+    opacity: 55%;
+}
+.contact-img {
+    width: 550px;
+    margin-left: -90px;
+    margin-top: -28px;
+}
+.formTextarea textarea {
+    border: 1px solid #5A5A5A;
+    border-radius: 5px !important;
+    background-color: transparent !important;
+    height: 150px;
+}
+.formBtn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.googleReview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.googleReview>div {
+    margin-left: 12px;
+}
+.googleReview span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 40px;
+    display: block;
+}
+.firstForm,
+.secondForm{
+    display: block;
+    position: relative;
+}
+.secondForm{
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.secondForm.show{
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+.formServices input{
+    display: none;
+}
+.formServices>div{
+    display: inline-block;
+    background-color: #111111;
+    border: 1px solid #5A5A5A;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    line-height: 36px;
+    
+}
+.formServices label {
+    color: #fff;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px;
+}
+.formServices input:checked+label {
+    background-color: #B6CCFF;
+    border-color: #B6CCFF;
+    color: #000;
+}

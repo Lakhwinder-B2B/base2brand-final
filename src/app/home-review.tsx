@@ -63,7 +63,7 @@ export default function Home() {
       backgroundSize: 'cover', 
       position: 'relative',
     }}> */}
-      <div className="bgimg_feed1 b2b-gray-bg pt-5 mt-5">
+      <div className="bgimg_feed1 pt-5">
       <div className="container"> 
           <div className="row text-white"> 
               <div className="col-lg-11 col-md-11 col-11 m-auto p-0">

@@ -2,11 +2,7 @@
 
 import React, { useState , ChangeEvent  } from "react";
 import Header from "../../../component/header";  
-import Quote from "../request-quote"; 
 import Footer from "../../../component/footer";
-import Contact from "../../../public/contact-us/contact.png";
-import Wanna from "../../../public/contact-us/wanna.png";
-import Loader from "../../../public/img/loader.gif";
 import "../../../src/app/contact-us/contact.css";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,6 +13,8 @@ import Icon1 from '../../../public/contact-us/icon1.svg';
 import Icon2 from '../../../public/contact-us/icon2.svg';
 import Icon3 from '../../../public/contact-us/icon3.svg';
 import Icon4 from '../../../public/contact-us/icon4.svg';
+import googleTag from '../../../public/contact-us/google-tag.svg';
+import starRating from '../../../public/contact-us/star-rating.svg';
 
   function ContactUs() { 
     const [formData, setFormData] = useState({
@@ -55,12 +53,23 @@ import Icon4 from '../../../public/contact-us/icon4.svg';
             toast.error('Error submitting form'); 
         } 
     };
+
+    const showForm = async () => {
+        const firstForm = document.querySelector(".secondForm");
+        firstForm.classList.add("show");
+        return false;
+    };
+
+    const handleClick = (event) => {
+        event.preventDefault();
+        showForm();
+    };
   return (
     <>
-      <Header />
+      <Header /> 
       <div className="pt-0 pb-0 b2b-black-bg">
             <div className="about-mask pt-5" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>
-              <div className="b2b-container-lg">
+              <div className="form-container">
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="formHeading">
@@ -68,35 +77,83 @@ import Icon4 from '../../../public/contact-us/icon4.svg';
                             <p>Fill Out the Form</p>
                         </div>
                         <form className="py-5" onSubmit={handleSubmit}>
-                            <div className="mb-5">
-                                <label className="form-label">Name</label>
-                                <input type="text" className="form-control removeBorder" name="name" value={formData.name} onChange={handleChange}   aria-describedby="emailHelp" required/> 
+                            <div className="firstForm" onClick={handleClick}>
+                                <div className="formRow mb-4 pb-2">
+                                    <label className="form-label">Hi ! am</label>
+                                    <input type="text" placeholder="eg.Andy" className="form-control removeBorder" name="name" value={formData.name} onChange={handleChange}   aria-describedby="emailHelp" required/> 
+                                </div>
+                                <div className="formRow mb-4 pb-2">
+                                    <label className="form-label">Reach me at</label>
+                                    <input type="email" placeholder="eg.hello@gmail.com" className="form-control removeBorder" name="email"   value={formData.email} onChange={handleChange}  required/>
+                                </div>
                             </div>
-                            <div className="mb-5">
-                                <label className="form-label">Phone No.</label>
-                                <input type="number" className="form-control removeBorder" name="phoneNo" value={formData.phoneNo} onChange={handleChange}  required/>
-                            </div>
-                            <div className="mb-5">
-                                <label className="form-label">Email</label>
-                                <input type="email" className="form-control removeBorder" name="email"   value={formData.email} onChange={handleChange}  required/>
-                            </div>
-                            <div className="mb-5">
-                                <label className="form-label">Select Services</label>
-                                <select className="form-control removeBorder" id="" name="service" value={formData.service} onChange={handleChange}  required> 
-                                    <option value="digital marketing">Digital Marketing</option>
-                                    <option value="ecommerce development">Ecommerce Development</option>
-                                    <option value="graphic design">Graphic Design</option> 
-                                    <option value="web development">Web Development</option>
-                                    <option value="mobile app development">Mobile App Development</option>
-                                </select>
-                            </div>
-                            <div className="mb-5">
-                                <label className="form-label">Message</label>
-                                <textarea className="form-control removeBorder" id="" name='message' value={formData.message} onChange={handleChange}  required></textarea>
+                            <div className="secondForm">
+                                <div className="formRow mb-4 pb-2">
+                                    <label className="form-label">Country</label>
+                                    <select className="form-control removeBorder" id="" name="service" value={formData.service} onChange={handleChange}  required> 
+                                         <option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="AmericanSamoa">AmericanSamoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina"></option><option value="Armenia"></option>
+                                    </select>
+                                </div>
+                                <div className="formRow mb-4 pb-2">
+                                    <label className="form-label">Mobile No.</label>
+                                    <input type="number" placeholder="7686788766" className="form-control removeBorder" name="phoneNo" value={formData.phoneNo} onChange={handleChange}  required/>
+                                </div>
+                                <div className="formRow mb-4 pb-2">
+                                    <label className="form-label">Company Name</label>
+                                    <input type="number" placeholder="Base2brand" className="form-control removeBorder" name="phoneNo" value={formData.phoneNo} onChange={handleChange}  required/>
+                                </div>
+                                
+                                <div className="formServices mb-4 pb-2">
+                                    <div>
+                                        <input id="uxui" type="radio" name="service" value="UI/UX" />
+                                        <label htmlFor="uxui">UX-UI</label>
+                                    </div>
+                                    <div>
+                                        <input id="mob_apps" type="radio" name="service" value="Mobile Apps" />
+                                        <label htmlFor="mob_apps">Mobile Apps</label>
+                                
+                                    </div>
+                                    <div>
+                                        <input id="web_tech" type="radio" name="service" value="Web Tech" />
+                                        <label htmlFor="web_tech">Web Tech</label>
+                                        
+                                    </div>
+                                    <div>
+                                        <input id="seo" type="radio" name="service" value="SEO" />
+                                        <label htmlFor="seo">SEO</label>
+                                    </div>
+                                    <div>
+                                        <input id="smm" type="radio" name="service" value="SMM" />
+                                        <label htmlFor="smm">SMM</label>
+                                    </div>
+                                    <div>
+                                        <input id="branding" type="radio" name="service" value="Branding" />
+                                        <label htmlFor="branding">Branding</label>
+                                        
+                                    </div>
+                                    <div>
+                                        <input id="others" type="radio" name="service" value="Others" />
+                                        <label htmlFor="others">Others</label>
+                                    </div>
+                                </div>
+                                
+                                <div className="formTextarea">
+                                    <label className="form-label pb-2">Comments</label>
+                                    <textarea className="form-control removeBorder" id="" name='message' value={formData.message} onChange={handleChange}  required></textarea>
+                                </div>
                             </div>
                             
-                            <div className="text-right">
-                                <button type="submit" className="btn btn-primary">Send Message</button>
+                            <div className="formBtn">
+                                <button type="submit" className="b2b-btn b2b-btn-sm">Send Message</button>
+                                <div className="googleReview">
+                                    <div>
+                                        <img src={googleTag.src} alt="" />
+                                    </div>
+                                    <div>
+                                        <img src={starRating.src} alt="" />
+                                        <span>26 Review</span>
+                                    </div>
+                                </div>
                             </div>
                             
                         
@@ -117,77 +174,82 @@ import Icon4 from '../../../public/contact-us/icon4.svg';
                         </div>
                     </div>
                 </div>
-                <div className="row addressRow">
-                    <div className="col-lg-3">
-                        <div className="addressWrap">
-                            <div className="d-flex align-items-center mb-3">
-                                <div className="address-title">
-                                    <h3>INDIA</h3>
-                                    <p>05:18 PM</p>
+                
+              </div>
+            </div>
+            <div className="b2b-gray-bg mt-5 mb-5 w-100 py-5">
+                <div className="b2b-container-lg">
+                    <div className="row addressRow ">
+                        <div className="col-lg-3">
+                            <div className="addressWrap">
+                                <div className="d-flex align-items-center mb-3">
+                                    <div className="address-title">
+                                        <h3>INDIA</h3>
+                                        <p>05:18 PM</p>
+                                    </div>
+                                    <div className="address-icon">
+                                        <img src={Icon1.src} alt="" />
+                                    </div>
                                 </div>
-                                <div className="address-icon">
-                                    <img src={Icon1.src} alt="" />
+                                <div className="address">
+                                    <p>F-209, Industrial area<br />
+                                        Phase 8-B, Sector 74, Mohali, 160074</p>
                                 </div>
-                            </div>
-                            <div className="address">
-                                <p>F-209, Industrial area<br />
-                                    Phase 8-B, Sector 74, Mohali, 160074</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="addressWrap">
-                            <div className="d-flex align-items-center mb-3">
-                                <div className="address-title">
-                                    <h3>CANADA</h3>
-                                    <p>09:10 PM</p>
+                        <div className="col-lg-3">
+                            <div className="addressWrap">
+                                <div className="d-flex align-items-center mb-3">
+                                    <div className="address-title">
+                                        <h3>CANADA</h3>
+                                        <p>09:10 PM</p>
+                                    </div>
+                                    <div className="address-icon">
+                                        <img src={Icon2.src} alt="" />
+                                    </div>
                                 </div>
-                                <div className="address-icon">
-                                    <img src={Icon2.src} alt="" />
+                                <div className="address">
+                                    <p>Ms Ady 114, Bellchase Trail Brampton<br />
+                                    ON L6P 3LA +1(416) 879-22444</p>
                                 </div>
-                            </div>
-                            <div className="address">
-                                <p>Ms Ady 114, Bellchase Trail Brampton<br />
-                                ON L6P 3LA +1(416) 879-22444</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="addressWrap">
-                            <div className="d-flex align-items-center mb-3">
-                                <div className="address-title">
-                                    <h3>UK</h3>
-                                    <p>10:10 PM</p>
+                        <div className="col-lg-3">
+                            <div className="addressWrap">
+                                <div className="d-flex align-items-center mb-3">
+                                    <div className="address-title">
+                                        <h3>UK</h3>
+                                        <p>10:10 PM</p>
+                                    </div>
+                                    <div className="address-icon">
+                                        <img src={Icon3.src} alt="" />
+                                    </div>
                                 </div>
-                                <div className="address-icon">
-                                    <img src={Icon3.src} alt="" />
+                                <div className="address">
+                                    <p>Ms Ady 114, Bellchase Trail Brampton<br />
+                                    ON L6P 3LA +1(416) 879-22444</p>
                                 </div>
-                            </div>
-                            <div className="address">
-                                <p>Ms Ady 114, Bellchase Trail Brampton<br />
-                                ON L6P 3LA +1(416) 879-22444</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="addressWrap">
-                            <div className="d-flex align-items-center mb-3">
-                                <div className="address-title">
-                                    <h3>USA</h3>
-                                    <p>10:10 PM</p>
+                        <div className="col-lg-3">
+                            <div className="addressWrap">
+                                <div className="d-flex align-items-center mb-3">
+                                    <div className="address-title">
+                                        <h3>USA</h3>
+                                        <p>10:10 PM</p>
+                                    </div>
+                                    <div className="address-icon">
+                                        <img src={Icon4.src} alt="" />
+                                    </div>
                                 </div>
-                                <div className="address-icon">
-                                    <img src={Icon4.src} alt="" />
+                                <div className="address">
+                                    <p>Ms Ady 114, Bellchase Trail Brampton<br />
+                                    ON L6P 3LA +1(416) 879-22444</p>
                                 </div>
-                            </div>
-                            <div className="address">
-                                <p>Ms Ady 114, Bellchase Trail Brampton<br />
-                                ON L6P 3LA +1(416) 879-22444</p>
                             </div>
                         </div>
                     </div>
                 </div>
-              </div>
             </div>
         <Footer />
        

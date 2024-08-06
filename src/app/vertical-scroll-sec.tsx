@@ -31,8 +31,8 @@ export default function HorizontalScroll() {
   };
  
   return (
-    // <div onWheel={onWheelSlider} className='slider_vertical mt-5'>
-    <div className='slider_vertical mt-5'>
+  
+    <div className='slider_vertical'>
       <Slider {...settings}>
       <section className='slide_data text-center text-white slide_height'>
         <h1>What sets <br /> us apart  </h1> 

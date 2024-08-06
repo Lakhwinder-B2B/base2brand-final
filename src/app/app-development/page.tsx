@@ -20,7 +20,7 @@ import Typewriter from 'typewriter-effect';
 import '../big-commerce/commerce.css';
 import '../app-development/app.css';
 import Request from "../request-form";
-
+ 
 import Bg from '../../../public/services2-img/service-mask.svg';
 import nextGeneration from '../../../public/app/next-generation.png';
 import Icon1 from '../../../public/app/icon1.svg';
@@ -60,9 +60,9 @@ import radialRight from '../../../public/img/radial-right.svg';
 export default function BigCommence() { 
   const [showModal, setShowModal] = useState(false);
 
-    const toggleModal = () => {
-      setShowModal(!showModal);
-    };
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <>
     
@@ -76,7 +76,7 @@ export default function BigCommence() {
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
                  We offer comprehensive app development for iOS and Android, covering design, coding, testing, and deployment. Collaborative efforts ensure bespoke, top-tier solutions for clients.</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
-                  <button className="b2b-btn b2b-btn-lg m-0" onClick={toggleModal}>Request a Quote</button>
+                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg m-0">Request a Quote</button>
                  </div>
               </div>
             </div>
@@ -101,25 +101,25 @@ export default function BigCommence() {
                     <div className="row mb-5">
                       <div className="col-lg-3 mb-4">
                         <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-                          <div className="mr-2"><img src={Icon1.src} alt="IOS App Development" /></div>
+                          <div className="me-3"><img src={Icon1.src} alt="IOS App Development" /></div>
                           <h3 className="b2b-sub-text ml-3 mb-0">IOS App<br />Development</h3>
                         </div>
                       </div>
                       <div className="col-lg-3 mb-4">
                         <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-                          <div className="mr-2"><img src={Icon2.src} alt="Android App Development" /></div>
+                          <div className="me-3"><img src={Icon2.src} alt="Android App Development" /></div>
                           <h3 className="b2b-sub-text ml-3 mb-0">Android App<br />Development</h3>
                         </div>
                       </div>
                       <div className="col-lg-3 mb-4">
                         <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-                          <div className="mr-2"><img src={Icon3.src} alt="React Native App Development" /></div>
+                          <div className="me-3"><img src={Icon3.src} alt="React Native App Development" /></div>
                           <h3 className="b2b-sub-text ml-3 mb-0">React Native App<br />Development</h3>
                         </div>
                       </div>
                       <div className="col-lg-3 mb-4">
                         <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-                          <div className="mr-2"><img src={Icon4.src} alt="Flutter App Development" /></div>
+                          <div className="me-3"><img src={Icon4.src} alt="Flutter App Development" /></div>
                           <h3 className="b2b-sub-text ml-3 mb-0">Flutter App<br />Development</h3>
                         </div>
                       </div>
@@ -372,7 +372,7 @@ export default function BigCommence() {
                 </div>
                <Footer />
         </div>
-{showModal && 
+        {showModal && 
         <Request 
           onCloseModal={toggleModal} 
         />

@@ -16,7 +16,7 @@ import '../project.css';
 export default function home() {
   return (
     <>   
-    <div className='w-100 section-padding-hm-serv'>
+    <div className='w-100 section-padding-hm-serv blackGradient mt-5'>
         <div className='b2b-container-lg'>
           
           <div className="row w-100 d-flex flex-wrap align-items-center">
@@ -36,20 +36,19 @@ export default function home() {
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-md-5" id='WEB' data-aos="fade-down">
               <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <li className="nav-item" role="presentation">
-                  <a className='remove_under_line' href='/web-application'>  
+                  
                       <h1 className="b2b-sub-heading">We Excel in Shopify <br />Development Services</h1>
                         <p className='col-12 b2b-sub-text'>In Shopify development services, we don't just meet expectations; we exceed them. With a proven track record of success, we outperform in every aspect of Shopify development. </p>
                         <div className="d-flex justify-content-between flex-wrap">
-                          <div className="tabs_link b2b-text"><img src={Sh1.src} className='social_icons mr-3' alt="" />  App development</div>
-                          <div className="tabs_link b2b-text"><img src={Sh2.src} className='social_icons mr-3' alt="" />  Headless Store Development</div>
+                          <div className="tabs_link b2b-text"><img src={Sh1.src} className='social_icons me-3' alt="" />  App development</div>
+                          <div className="tabs_link b2b-text"><img src={Sh2.src} className='social_icons me-3' alt="" />  Headless Store Development</div>
 
-                          <div className="tabs_link b2b-text"><img src={Sh3.src} className='social_icons mr-3' alt="" />  Custom Integration</div>
-                          <div className="tabs_link b2b-text"><img src={Sh4.src} className='social_icons mr-3' alt="" />  CRO ( Conversation Rate Optimization)</div>
+                          <div className="tabs_link b2b-text"><img src={Sh3.src} className='social_icons me-3' alt="" />  Custom Integration</div>
+                          <div className="tabs_link b2b-text"><img src={Sh4.src} className='social_icons me-3' alt="" />  CRO ( Conversation Rate Optimization)</div>
 
-                          <div className="tabs_link b2b-text"><img src={Sh5.src} className='social_icons mr-3' alt="" />  E-commerce Store Design</div>
+                          <div className="tabs_link b2b-text"><img src={Sh5.src} className='social_icons me-3' alt="" />  E-commerce Store Design</div>
                         </div>
-                        <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More </button>
-                      </a>
+                        <a className='remove_under_line' href='/shopify'>  <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More </button></a>
                   </li>
               </div> 
             </div>

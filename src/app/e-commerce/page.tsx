@@ -10,7 +10,7 @@ import Footer from "../../../component/footer";
 import "../mobile-application/mobile.css";
 import "../e-commerce/commerce.css";
 import Request from "../request-form";
-
+ 
 
 import Bg from '../../../public/services2-img/service-mask.svg';
 import nextGeneration from '../../../public/ecommerce/e-commerce.png';
@@ -35,7 +35,7 @@ export default function Ecommerce() {
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
                  We specialize in E-commerce theme and app development, providing customized solutions to enhance your web store</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
-                  <button className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
+                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
                  </div>
               </div>
             </div>

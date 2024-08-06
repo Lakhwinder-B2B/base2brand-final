@@ -9,14 +9,23 @@ import Slide1 from './slide/slide2'
 import Slide2 from './slide/slide3'
 import Slide3 from './slide/slide4'
 import Slide4 from './slide/slide5'
+import Request from "./request-form";
 
-import yrInIndustury from '../../public/img/icon1.svg'; 
-import projects from '../../public/img/icon2.svg'; 
-import rating from '../../public/img/icon3.svg'; 
-import happyClient from '../../public/img/icon4.svg'; 
-import design from '../../public/img/icon5.svg'; 
+
+
+import processIcon1 from '../../public/img/process-icon-1.svg';   
+import processIcon2 from '../../public/img/process-icon-2.svg';   
+import processIcon3 from '../../public/img/process-icon-3.svg';   
+import processIcon4 from '../../public/img/process-icon-4.svg';   
+import processIcon5 from '../../public/img/process-icon-5.svg';   
+import processIcon6 from '../../public/img/process-icon-6.svg'; 
 
 export default function home() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <>  
  
@@ -25,69 +34,104 @@ export default function home() {
       <Slide />
 
     </div>
-      <div className='progress-column b2b-achievements'>
-        
-          <div className='row'>
-              <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-5 p-sm-3 m-auto'>
-                <h2 className='text-center b2b-sub-heading-bold text-uppercase'>Our Achievements &amp; Milestones</h2>
-                <p className='b2b-text text-center '>Explore our company&apos;s remarkable achievements, milestones, and records that showcase our success and expertise</p>
+    <div className='radialGradient'>
+      <div className='b2b-container-lg'>
+          <div className='progress-column'>
+              
+              <div className='row'>
+                  <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-3 m-auto'>
+                    <h2 className='text-center b2b-sub-heading-bold text-uppercase'>working Process</h2>
+                    <p className='b2b-text text-center '>How we work for our customer</p>
+                  </div>
               </div>
-          </div>
           
-          <div className='b2b-container-lg'>
-            <div className='row progress-count d-flex flex-wrap justify-content-between'>
-              <div className="count-col">
-                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
-                    <div><img src={yrInIndustury.src} /></div>
-                    <div className='ml-2'>
-                      <h2 className='text-white text-center'><CountUp end={10} />+</h2>
-                      <p className='text-white text-center'>Years of IT Industury</p>
-                    </div>
+          
+              <div className='progress-count d-flex flex-wrap justify-content-between b2b-workProcess'>
+                <div className="count-col">
+                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                    
+                      <div className=''>
+                        <div className='img-wrap'>
+                          <img src={processIcon1.src} />
+                        </div>
+                        <p className='text-white text-center'>Research</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div className="count-col">
+                  <div className='d-flex justify-content-between  b2b-workProcess-wrap'>
+                      
+                      <div>
+                        <div className='img-wrap'>
+                          <img src={processIcon2.src} />
+                        </div>
+                        <p className='text-white text-center'>Planning</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div className="count-col">
+                  <div className='d-flex justify-content-between  b2b-workProcess-wrap'>
+                      
+                      <div>
+                        <div className='img-wrap'>
+                          <img src={processIcon3.src} />
+                        </div>
+                        <p className='text-white text-center'>Design</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div className="count-col">
+                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                    
+                      <div>
+                        <div className='img-wrap'>
+                          <img src={processIcon4.src} />
+                        </div>
+                        <p className='text-white text-center'>Development</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div className="count-col">
+                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                    
+                      <div>
+                        <div className='img-wrap'>
+                          <img src={processIcon5.src} />
+                        </div>
+                        <p className='text-white text-center'>Testing</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="count-col">
+                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                      
+                      <div>
+                        <div className='img-wrap'>
+                          <img src={processIcon6.src} />
+                        </div>
+                        <p className='text-white text-center'>Launch</p>
+                      </div>
+                  </div>
                 </div>
               </div>
 
-              <div className="count-col">
-                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
-                    <div><img src={projects.src} /></div>
-                    <div className='ml-2'>
-                      <h2 className='text-white text-center'><CountUp end={500} />+</h2>
-                      <p className='text-white text-center'>Successfull Project</p>
-                    </div>
+              <div className='row mt-4'>
+                <div className='col-lg-12 text-center'>
+                  <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'>Request a Quote</button>
                 </div>
               </div>
-
-              <div className="count-col">
-                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
-                    <div><img src={rating.src} /></div>
-                    <div className='ml-2'>
-                      <h2 className='text-white text-center'><CountUp end={4.9} />+</h2>
-                      <p className='text-white text-center'>Ratings on Clutch</p>
-                    </div>
-                </div>
-              </div>
-
-              <div className="count-col">
-                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
-                    <div><img src={happyClient.src} /></div>
-                    <div className='ml-2'>
-                      <h2 className='text-white text-center'><CountUp end={100} />+</h2>
-                      <p className='text-white text-center'>Happy Client</p>
-                    </div>
-                </div>
-              </div>
-
-              <div className="count-col">
-                <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
-                    <div><img src={design.src} /></div>
-                    <div className='ml-2'>
-                      <h2 className='text-white text-center'><CountUp end={100} />+</h2>
-                      <p className='text-white text-center'>Website Designed</p>
-                    </div>
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
+      </div>
+    </div>
+    {showModal && 
+        <Request 
+          onCloseModal={toggleModal} 
+        />
+      }
     </>
   )
 }

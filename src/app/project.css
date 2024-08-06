@@ -137,3 +137,11 @@ a.remove_under_line {
     color: #fff;
     text-decoration: auto;
 }
+.blackGradient{
+    background: linear-gradient(90deg, rgba(66, 65, 65, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+
+}
+.radialGradient{
+    background: radial-gradient(85.95% 85.95% at 51.75% 51.4%, rgba(65, 48, 140, 0.2) 0%, rgba(17, 22, 22, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}

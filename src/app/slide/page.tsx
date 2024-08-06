@@ -72,9 +72,9 @@ const Home = () => {
         <div className="service_box_gradiant">
           <div className="serviceIcon">
             <img className='IconAlign' src={Icon.src} alt="" />
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            <div className="d-flex justify-content-between align-items-end mt-4">
               <h3 className='b2b-service-heading'>Shopify <br /> development</h3>
-              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow.src} alt="" /> </a>
+              <a href="shopify" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow.src} alt="" /> </a>
             </div>
             </div>
           </div>
@@ -84,9 +84,9 @@ const Home = () => {
         <div className="service_box_gradiant">
           <div className="serviceIcon">
             <img className='IconAlign' src={Icon6.src} alt="" />
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            <div className="d-flex justify-content-between align-items-end mt-4">
               <h3 className='b2b-service-heading'>Digital  <br /> Marketing</h3>
-              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow1.src} alt="" /> </a>
+              <a href="/digital-marketing" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow1.src} alt="" /> </a>
             </div>
             </div>
           </div>
@@ -97,9 +97,9 @@ const Home = () => {
         <div className="service_box_gradiant">
           <div className="serviceIcon">
             <img className='IconAlign' src={Icon2.src} alt="" />
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            <div className="d-flex justify-content-between align-items-end mt-4">
               <h3 className='b2b-service-heading'>Ecommrce  <br /> development</h3>
-              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow2.src} alt="" /> </a>
+              <a href="/e-commerce" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow2.src} alt="" /> </a>
             </div>
             </div>
           </div>
@@ -110,9 +110,9 @@ const Home = () => {
         <div className="service_box_gradiant">
           <div className="serviceIcon">
             <img  className='IconAlign' src={Icon3.src} alt="" />
-            <div className="d-flex justify-content-between align-items-center mt-4">
-              <h3 className='b2b-service-heading'>Graphic & uI/UX  <br /> Designing</h3>
-              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow3.src} alt="" /> </a>
+            <div className="d-flex justify-content-between align-items-end mt-4">
+              <h3 className='b2b-service-heading'>Graphic &amp; uI/UX  <br /> Designing</h3>
+              <a href="/graphic" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow3.src} alt="" /> </a>
             </div>
             </div>
           </div>
@@ -123,9 +123,9 @@ const Home = () => {
         <div className="service_box_gradiant">
           <div className="serviceIcon">
             <img className='IconAlign' src={Icon4.src} alt="" />
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            <div className="d-flex justify-content-between align-items-end mt-4">
               <h3 className='b2b-service-heading'>Web  <br /> development</h3>
-              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow4.src} alt="" /> </a>
+              <a href="/web-application" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow4.src} alt="" /> </a>
             </div>
             </div>
           </div>
@@ -136,9 +136,9 @@ const Home = () => {
         <div className="service_box_gradiant">
           <div className="serviceIcon">
             <img className='IconAlign' src={Icon5.src} alt="" />
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            <div className="d-flex justify-content-between align-items-end mt-4">
               <h3 className='b2b-service-heading'>Mobile <br /> development</h3>
-              <a className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow5.src} alt="" /> </a>
+              <a href="/app-development" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow5.src} alt="" /> </a>
             </div>
             </div>
           </div>
@@ -148,24 +148,24 @@ const Home = () => {
     <div className="slide">
     <Slide6 />
     </div>
-    <div className="slide">
+    {/* <div className="slide">
        <Slide1 />
-    </div>
-    <div className="slide">
+    </div> */}
+    {/* <div className="slide">
     <Slide2 />
 
-    </div>
-    <div className="slide">
+    </div> */}
+    {/* <div className="slide">
     <Slide3 />
 
-    </div>
-    <div className="slide">
+    </div> */}
+    {/* <div className="slide">
     <Slide4 />
 
-    </div>
-    <div className="slide">
+    </div> */}
+    {/* <div className="slide">
     <Slide5 />
-    </div>
+    </div> */}
     
 
  
