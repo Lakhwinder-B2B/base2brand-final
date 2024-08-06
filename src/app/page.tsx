@@ -56,7 +56,7 @@ export default function Home() {
           slidesToShow: 4,
           slidesToScroll: 4,
           infinite: true,
-          dots: false
+          dots: false 
         }
       },
       {
