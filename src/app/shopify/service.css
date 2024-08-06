@@ -145,8 +145,9 @@ button.btn_design span img{
     opacity: 1;
     visibility: visible;
 }
-.slider_right_main h2{
+.slider_right_main h2 {
     margin-bottom: 20px;
+    color: #fff;
 }
 .slider_right_main p {
     font-size: 14px;

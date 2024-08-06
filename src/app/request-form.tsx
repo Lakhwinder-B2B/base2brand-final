@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react"; 
-import $ from 'jquery';
+// import $ from 'jquery';
 import quoteImg from "../../public/contact-us/quote-img.svg";
 import './form.css'; 
 import ReCAPTCHA from "react-google-recaptcha";
@@ -111,27 +111,29 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
     };
     const handleClick = (event) => {
         event.preventDefault();
-        const ModalBody = document.querySelector(".b2b-modal-body");
-        const TabNumber = ModalBody.getAttribute("data-tab");
-        if(parseInt(TabNumber) == 1){
-            if($('.serviceCheckbox').is(':checked')){
-                $('.errorBox').css('display','none');
-                nextForm();
-            }else{
-                $('.serviceError').css('display','block');
-            }
-        }else if(parseInt(TabNumber) == 2){
-            $('.errorBox').css('display','none');
-            nextForm();
+        // const ModalBody = document.querySelector(".b2b-modal-body");
+        // const TabNumber = ModalBody.getAttribute("data-tab");
+        // if(parseInt(TabNumber) == 1){
+        //     if($('.serviceCheckbox').is(':checked')){
+        //         $('.errorBox').css('display','none');
+        //         nextForm();
+        //     }else{
+        //         $('.serviceError').css('display','block');
+        //     }
+        // }else if(parseInt(TabNumber) == 2){
+        //     $('.errorBox').css('display','none');
+        //     nextForm();
             
-        }else if(parseInt(TabNumber) == 3){
-            if($('.project_description').val() != ''){
-                $('.errorBox').css('display','none');
-                nextForm();
-            }else{
-                $('.descError').css('display','block');
-            }
-        }
+        // }else if(parseInt(TabNumber) == 3){
+        //     if($('.project_description').val() != ''){
+        //         $('.errorBox').css('display','none');
+        //         nextForm();
+        //     }else{
+        //         $('.descError').css('display','block');
+        //     }
+        // }
+
+        nextForm();
         
     };
     return (
