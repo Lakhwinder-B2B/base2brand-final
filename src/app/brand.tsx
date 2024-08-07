@@ -26,14 +26,14 @@ import Brand22 from '../../public/brand/brand22.svg';
 import Brand23 from '../../public/brand/brand23.svg';      
 import './our-project.css'
 import Slider from "react-slick";
-import PresonalHeader from "./shopify-pricing/PresonalHeader";
+
 interface BrandProps {
   heading: string;
-  brands?: { src: string; alt: string }[];
+
   bgcolor:string;
   color:string;
 }
-export default function Brand({ heading, brands = [],bgcolor, color }: BrandProps) {
+export default function Brand({ heading, bgcolor, color }: BrandProps) {
 
   const settings = {
     dots: false,

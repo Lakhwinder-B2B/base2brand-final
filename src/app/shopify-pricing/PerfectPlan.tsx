@@ -34,9 +34,7 @@ const PerfectPlan = () => {
             <div className="row  resource gap-lg-5 gap-4  pt-lg-5 pt-4  justify-content-center overflow-hidden px-lg-0 px-3 ">
               <div
                 className="col-12 col-xl-3 col-md-5 p-4 gk-rounded "
-                style={{ borderColor: "white", borderRadius:'20px', 
-                  border:"1.5px solid white",
-                }}
+              
               >
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
@@ -45,7 +43,7 @@ const PerfectPlan = () => {
                   <p className="b2b-sub-text">E-Commerce Website</p>
                   <h2 className="fontlinear ">₹ 149,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                    <li>Shopify Website Creation and Setup</li>
+                  <li>Shopify Website Creation and Setup</li>
                     <li>Upto 200 Products Upload By Our Team</li>
                     <li>SEO Ready Website</li>
                     <li>SSL Certificate</li>
@@ -73,9 +71,7 @@ const PerfectPlan = () => {
               </div>
               <div
                 className="col-12 col-xl-3 col-md-5 p-4 gk-rounded "
-                style={{ borderColor: "white", borderRadius:'20px', 
-                  border:"1.5px solid white",
-                }}
+              
               >
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
@@ -84,14 +80,14 @@ const PerfectPlan = () => {
                   <p className="b2b-sub-text">Advanced E-Commerce Website + Android App</p>
                   <h2 className="fontlinear ">₹ 249,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                    <li>Shopify Website Creation and Setup</li>
+                  <li>Shopify Website Creation and Setup</li>
+                    <li>Android Hybrid App</li>
+                    <li>Google Play Publishing</li>
+                    <li>Referral Integration</li>
+                    <li>Abandoned Checkout</li>
                     <li>Upto 200 Products Upload By Our Team</li>
                     <li>SEO Ready Website</li>
                     <li>SSL Certificate</li>
-                    <li>Responsive Website</li>
-                    <li>Content 2000 Words</li>
-                    <li>Social Media Integration</li>
-                    <li>Google Analytics Integration</li>
                   </div>
                   <button className=" card-btn mt-4 ">
                     <i
@@ -112,9 +108,7 @@ const PerfectPlan = () => {
               </div>
               <div
                 className="col-12 col-xl-3  col-md-5  p-4 gk-rounded "
-                style={{ borderColor: "white", borderRadius:'20px', 
-                  border:"1.5px solid white",
-                }}
+             
               >
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
@@ -123,14 +117,14 @@ const PerfectPlan = () => {
                   <p className="b2b-sub-text">Advanced E-Commerce Website + Android App + iOS Hybrid App</p>
                   <h2 className="fontlinear ">₹ 299,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                    <li>Shopify Website Creation and Setup</li>
+                  <li>Shopify Website Creation and Setup</li>
+                    <li>Android Hybrid App</li>
+                    <li>Google Play Publishing</li>
+                    <li>iOS Web App</li>
+                    <li>Referral Integration</li>
+                    <li>Abandoned Checkout</li>
                     <li>Upto 200 Products Upload By Our Team</li>
                     <li>SEO Ready Website</li>
-                    <li>SSL Certificate</li>
-                    <li>Responsive Website</li>
-                    <li>Content 2000 Words</li>
-                    <li>Social Media Integration</li>
-                    <li>Google Analytics Integration</li>
                   </div>
                   <button className=" card-btn mt-4 ">
                     <i
