@@ -28,10 +28,10 @@ import './our-project.css'
 import Slider from "react-slick";
 
 interface BrandProps {
-  heading: string;
+  heading?: string;
 
-  bgcolor:string;
-  color:string;
+  bgcolor?:string;
+  color?:string;
 }
 export default function Brand({ heading, bgcolor, color }: BrandProps) {
 
