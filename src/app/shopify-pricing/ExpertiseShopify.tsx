@@ -12,11 +12,8 @@ const ExpertiseShopify = () => {
               <div className="flex-grow-1 w-100">
                 <div className="p-0 p-md-3">
                   <p
-                    className=""
-                    style={{
-                      color: "#82BC29",
-                      letterSpacing: "4px",
-                    }}
+                    className="gk-rendom-text"
+                 
                   >
                     SHOPIFY AGENCY
                   </p>

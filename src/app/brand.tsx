@@ -78,7 +78,7 @@ export default function Brand({ heading, brands = [],bgcolor, color }: BrandProp
   };
   return (  
     <>  
-      <PresonalHeader/>
+
 
       <div className={`w-100 b2b-brands-wrap  ${bgcolor==="b2b-gray-bg" ? "b2b-white-bg" : "BG-RED "}`} >
             <div className="b2b-container-lg">

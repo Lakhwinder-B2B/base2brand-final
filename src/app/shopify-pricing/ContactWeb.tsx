@@ -125,8 +125,8 @@ const ContactWeb = () => {
                   </span>
 
                   <span className="gk-acco-text text-white">
-                    <a href="tel:+919900000000" className="text-white">
-                      +91-9900-000-000
+                    <a href="tel:+919872487850" className="text-white">
+                      +91-9872-487-850
                     </a>
                   </span>
                 </div>
@@ -134,11 +134,11 @@ const ContactWeb = () => {
                   <Image className="Image-icon" src={mailto} alt="" />
                   <span className="gk-acco-text text-white">
                     <a
-                      href="mailto:  base2brand@gmail.com"
+                      href="mailto: hello@base2brand.com"
                       className="text-white"
                     >
                       {" "}
-                      base2brand@gmail.com
+                      hello@base2brand.com
                     </a>
                   </span>
                 </div>

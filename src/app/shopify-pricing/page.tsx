@@ -56,7 +56,7 @@ const page = () => {
               </div>
 
               <div className="pricing-shopifty-page">
-                <h1 className="gk-sub-heading">
+                <h1 className="gk-sub-heading text-white">
                   Launch Your Online Business With A Stunning Shopify Website
                 </h1>
               </div>

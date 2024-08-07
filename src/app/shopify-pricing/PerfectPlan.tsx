@@ -31,7 +31,7 @@ const PerfectPlan = () => {
             </h3>
           </div>
           <div className="b2b-container-lg">
-            <div className="row  resource gap-lg-5 gap-4  pt-lg-5 pt-4  justify-content-center overflow-hidden ">
+            <div className="row  resource gap-lg-5 gap-4  pt-lg-5 pt-4  justify-content-center overflow-hidden px-lg-0 px-3 ">
               <div
                 className="col-12 col-xl-3 col-md-5 p-4 gk-rounded "
                 style={{ borderColor: "white", borderRadius:'20px', 
@@ -40,7 +40,7 @@ const PerfectPlan = () => {
               >
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
-                    Shoplift Website (only) Package
+                  Shopify Website (only) Package
                   </p>
                   <p className="b2b-sub-text">E-Commerce Website</p>
                   <h2 className="fontlinear ">₹ 149,000</h2>
@@ -59,7 +59,7 @@ const PerfectPlan = () => {
                       className="fa fa-chevron-right text-white"
                       aria-hidden="true"
                     ></i>
-                    <span className="gk-b2b-bold text-white">
+                    <span className="gk-b2b-btn-text text-white">
                       View More Inclusions
                     </span>
                   </button>
@@ -67,7 +67,7 @@ const PerfectPlan = () => {
                     TALK TO US
                   </h5>
                   <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                    +91-9900-000-000
+                 +91-9872-487-850
                   </h5>
                 </div>
               </div>
@@ -79,9 +79,9 @@ const PerfectPlan = () => {
               >
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
-                    Shoplift Website (only) Package
+                  Shopify Website + Android App Package
                   </p>
-                  <p className="b2b-sub-text">E-Commerce Website</p>
+                  <p className="b2b-sub-text">Advanced E-Commerce Website + Android App</p>
                   <h2 className="fontlinear ">₹ 249,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
                     <li>Shopify Website Creation and Setup</li>
@@ -98,7 +98,7 @@ const PerfectPlan = () => {
                       className="fa fa-chevron-right text-white"
                       aria-hidden="true"
                     ></i>
-                    <span className="gk-b2b-bold text-white">
+                    <span className="gk-b2b-btn-text  text-white">
                       View More Inclusions
                     </span>
                   </button>
@@ -106,7 +106,7 @@ const PerfectPlan = () => {
                     TALK TO US
                   </h5>
                   <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                    +91-9900-000-000
+                  +91-9872-487-850
                   </h5>
                 </div>
               </div>
@@ -118,9 +118,9 @@ const PerfectPlan = () => {
               >
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
-                    Shoplift Website (only) Package
+                  Shopify Website + Android & iOS App Package
                   </p>
-                  <p className="b2b-sub-text">E-Commerce Website</p>
+                  <p className="b2b-sub-text">Advanced E-Commerce Website + Android App + iOS Hybrid App</p>
                   <h2 className="fontlinear ">₹ 299,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
                     <li>Shopify Website Creation and Setup</li>
@@ -137,7 +137,7 @@ const PerfectPlan = () => {
                       className="fa fa-chevron-right text-white"
                       aria-hidden="true"
                     ></i>
-                    <span className="gk-b2b-bold text-white">
+                    <span className="gk-b2b-btn-text  text-white">
                       View More Inclusions
                     </span>
                   </button>
@@ -145,7 +145,7 @@ const PerfectPlan = () => {
                     TALK TO US
                   </h5>
                   <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                    +91-9900-000-000
+                  +91-9872-487-850
                   </h5>
                 </div>
               </div>
