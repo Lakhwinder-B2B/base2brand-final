@@ -169,7 +169,7 @@ const page = () => {
       <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
       <PerfectPlan />
       <ExpertiseShopify />
-      <ContactWeb /> 
+      <ContactWeb />
       <Footweb />
  
 

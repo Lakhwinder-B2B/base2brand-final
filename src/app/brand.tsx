@@ -80,9 +80,11 @@ export default function Brand({ heading, brands = [],bgcolor, color }: BrandProp
     <>  
       <PresonalHeader/>
 
-      <div className="w-100 b2b-brands-wrap radialGradient">  
+      <div className={`w-100 b2b-brands-wrap  ${bgcolor==="b2b-gray-bg" ? "b2b-white-bg" : "BG-RED "}`} >
             <div className="b2b-container-lg">
-              <h3 className="b2b-main-heading text-center text-white text-uppercase">The Brands We Have Worked With</h3>
+            <h3 className={`b2b-main-heading text-center text-uppercase ${color ? color : 'text-white'}`}>
+          {heading}
+        </h3>
               <div className="logo_brand">
               <Slider {...settings} className="w-100">
               <img className="logo_brands" src={Brand1.src} alt="Logo" /> 
