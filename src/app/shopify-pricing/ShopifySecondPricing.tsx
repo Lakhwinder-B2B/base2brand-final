@@ -8,13 +8,13 @@ const ShopifySecondPricing = () => {
     <>
       <section className="b2b-brands-wrap b2b-gray-bg-gk  ">
         <div className="b2b-container-lg">
-          <h2 className="text-center gk-heading-bold ">
+          <h2 className="text-center gk-sub-heading-bold  text-white ">
             Shopify Website Development @ ₹149,000
           </h2>
           <p className="b2b-text text-center ">
             FREE DOMAIN* | FREE PROFESSIONAL EMAILS*
           </p>
-          <div className="row align-items-lg-center gap-lg-0 gap-4">
+          <div className="row align-items-lg-center gap-lg-0 gap-4 pt-3 pt-lg-5">
 
             <div className="col-lg-6">
               <Image
