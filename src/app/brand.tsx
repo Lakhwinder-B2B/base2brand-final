@@ -26,8 +26,15 @@ import Brand22 from '../../public/brand/brand22.svg';
 import Brand23 from '../../public/brand/brand23.svg';      
 import './our-project.css'
 import Slider from "react-slick";
+import PresonalHeader from "./shopify-pricing/PresonalHeader";
+interface BrandProps {
+  heading: string;
+  brands?: { src: string; alt: string }[];
+  bgcolor:string;
+  color:string;
+}
+export default function Brand({ heading, brands = [],bgcolor, color }: BrandProps) {
 
-export default function Brand() {
   const settings = {
     dots: false,
     arrows : false, 
@@ -71,6 +78,8 @@ export default function Brand() {
   };
   return (  
     <>  
+      <PresonalHeader/>
+
       <div className="w-100 b2b-brands-wrap radialGradient">  
             <div className="b2b-container-lg">
               <h3 className="b2b-main-heading text-center text-white text-uppercase">The Brands We Have Worked With</h3>
