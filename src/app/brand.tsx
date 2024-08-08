@@ -27,7 +27,14 @@ import Brand23 from '../../public/brand/brand23.svg';
 import './our-project.css'
 import Slider from "react-slick";
 
-export default function Brand() {
+interface BrandProps {
+  heading?: string;
+
+  bgcolor?:string;
+  color?:string;
+}
+export default function Brand({ heading, bgcolor, color }: BrandProps) {
+
   const settings = {
     dots: false,
     arrows : false, 
@@ -71,9 +78,13 @@ export default function Brand() {
   };
   return (  
     <>  
-      <div className="w-100 b2b-brands-wrap radialGradient">  
+
+
+      <div className={`w-100 b2b-brands-wrap  ${bgcolor==="b2b-gray-bg" ? "b2b-white-bg" : "BG-RED "}`} >
             <div className="b2b-container-lg">
-              <h3 className="b2b-main-heading text-center text-white text-uppercase">The Brands We Have Worked With</h3>
+            <h3 className={`b2b-main-heading text-center text-uppercase ${color ? color : 'text-white'}`}>
+          {heading}
+        </h3>
               <div className="logo_brand">
               <Slider {...settings} className="w-100">
               <img className="logo_brands" src={Brand1.src} alt="Logo" /> 
