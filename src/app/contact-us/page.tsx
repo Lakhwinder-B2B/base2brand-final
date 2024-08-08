@@ -180,7 +180,7 @@ import starRating from '../../../public/contact-us/star-rating.svg';
             <div className="b2b-gray-bg mt-5 mb-5 w-100 py-5">
                 <div className="b2b-container-lg">
                     <div className="row addressRow ">
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -197,7 +197,7 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        {/* <div className="col-lg-3">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -213,8 +213,8 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                     ON L6P 3LA +1(416) 879-22444</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-3">
+                        </div> */}
+                        <div className="col-lg-4">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -231,7 +231,7 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-4">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">

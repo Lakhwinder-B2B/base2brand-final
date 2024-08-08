@@ -157,6 +157,12 @@ ul.arrowListing li:before {
     font-size: 14px;
     line-height: normal;
 }
+.interfaceWrap .cell-wrap:hover {
+    transition: .5s;
+}
+.interfaceWrap .cell-wrap:hover {
+    transform: translateY(-10px);
+}
   @media screen and (max-width: 1440px){
     .b2b-text-lg{
         font-size: 20px;

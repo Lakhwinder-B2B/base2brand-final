@@ -16,7 +16,7 @@ import SandeepSingh from '../../../public/team-img/Sandeep-Singh.png';
 import SurajParkash from '../../../public/team-img/SurajParkash.png'; 
 import DeeptiDixit from '../../../public/team-img/DeeptiDixit.png'; 
 import LoveeJarewal from '../../../public/team-img/LoveeJarewal.png'; 
-import MohdSami from '../../../public/team-img/MohdSami.png'; 
+import Gaganjot from '../../../public/team-img/Gaganjot.png'; 
 import SahilSolanki from '../../../public/team-img/SahilSolanki.png'; 
 import SumitKumar from '../../../public/team-img/SumitKumar.png'; 
 import VarshaKumari from '../../../public/team-img/VarshaKumari.png'; 
@@ -98,14 +98,14 @@ export default function Team() {
                   <div className="col-md-12 mx-auto text-center text-white mb-5"> 
                       <h1 className='b2b-sub-heading-bold text-uppercase'>Higher Officials</h1>
                   </div>
-                  <div className='col-md-4 mb-5'>
+                  <div className='col-md-3 mb-5'>
                     <img src={Icon1.src} alt='' />
                     <div className='team-details'>
                       <h3>Rakesh Arora</h3>
                       <p>Managing Director (MD)</p>
                     </div>
                   </div>
-                  <div className='col-md-4 mb-5'>
+                  <div className='col-md-3 mb-5'>
                     <img src={Icon2.src} alt='' />
                     <div className='team-details'>
                       <h3>Rahul Dhyaniya</h3>
@@ -113,262 +113,277 @@ export default function Team() {
                     </div>
                   </div>
                 </div>
-                <div className="row justify-content-center mt-5">
+                <div className="row row-cols-5 justify-content-center mt-5">
                   <div className="col-md-12 mx-auto text-center text-white mb-5"> 
                       <h1 className='b2b-sub-heading-bold text-uppercase'>Team</h1>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={manpreetSingh.src} alt='' />
                     <div className='team-details'>
                       <h3>manpreet Singh</h3>
                       <p>Project Manager</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={ArshpreetSingh.src} alt='' />
                     <div className='team-details'>
                       <h3>Arshpreet Singh</h3>
                       <p>Project Coordinator</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={SandeepSingh.src} alt='' />
                     <div className='team-details'>
                       <h3>Sandeep Singh</h3>
                       <p>Technical Lead</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={Sumek.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Sumek</h3>
-                      <p>Human Resource Executive</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={SurajParkash.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Suraj Parkash</h3>
-                      <p>Quality Analyst</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={DeeptiDixit.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Deepti Dixit</h3>
-                      <p>Business Development Executive</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={LoveeJarewal.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Lovee Jarewal</h3>
-                      <p>Business Development Executive</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={MohdSami.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Mohd Sami</h3>
-                      <p>Business Development Executive</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={SahilSolanki.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Sahil Solanki</h3>
-                      <p>graphic designer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={SumitKumar.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Sumit Kumar</h3>
-                      <p>Graphic Designer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={VarshaKumari.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Varsha Kumari</h3>
-                      <p>Graphic Designer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={AmanKumar.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Aman Kumar</h3>
-                      <p>Graphic Designer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={RishabhDixit.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Rishabh Dixit</h3>
-                      <p>Video Editor</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={SameerKathat.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Sameer Kathat</h3>
-                      <p>Digital Marketing Team Lead</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={Zaid.src} alt='' />
                     <div className='team-details'>
                       <h3>Zaid</h3>
                       <p>Digital Marketing Project Manager</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
+                    <img src={Sumek.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sumek</h3>
+                      <p>Human Resource Executive</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={SurajParkash.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Suraj Parkash</h3>
+                      <p>Quality Analyst</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={DeeptiDixit.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Deepti Dixit</h3>
+                      <p>Business Development Executive</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={SahilSolanki.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sahil Solanki</h3>
+                      <p>graphic &amp; uI/UX designer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={SameerKathat.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sameer Kathat</h3>
+                      <p>Digital Marketing Team Lead</p>
+                    </div>
+                  </div>
+                  
+                  <div className='col mb-5'>
                     <img src={NasirAhmed.src} alt='' />
                     <div className='team-details'>
                       <h3>Nasir Ahmed</h3>
                       <p>Senior Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={Suryathakur.src} alt='' />
                     <div className='team-details'>
                       <h3>Surya thakur</h3>
                       <p>Senior Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={VineetKumarRana.src} alt='' />
                     <div className='team-details'>
                       <h3>Vineet Kumar Rana</h3>
                       <p>Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={AmbalikaPhanker.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Ambalika Phanker</h3>
-                      <p>Digital Marketer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={RajanKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Rajan Kumar</h3>
                       <p>Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
+                    <img src={AmbalikaPhanker.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Ambalika Phanker</h3>
+                      <p>Digital Marketer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={AmanKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Aman Kumar</h3>
+                      <p>graphic &amp; uI/UX designer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={VarshaKumari.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Varsha Kumari</h3>
+                      <p>graphic &amp; uI/UX designer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={SumitKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sumit Kumar</h3>
+                      <p>graphic &amp; uI/UX designer</p>
+                    </div>
+                  </div>
+                  
+                  <div className='col mb-5'>
+                    <img src={RishabhDixit.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rishabh Dixit</h3>
+                      <p>Video Editor</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
                     <img src={AnuragSharma.src} alt='' />
                     <div className='team-details'>
                       <h3>Anurag Sharma</h3>
                       <p>Content Writer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={RahulRaj.src} alt='' />
+                  <div className='col mb-5'>
+                    <img src={ShubhamSharma.src} alt='' />
                     <div className='team-details'>
-                      <h3>Rahul Raj</h3>
-                      <p>Software Developer</p>
+                      <h3>Shubham Sharma</h3>
+                      <p>React Native</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={MDSahjadAnsari.src} alt='' />
+                  <div className='col mb-5'>
+                    <img src={LalitKumar.src} alt='' />
                     <div className='team-details'>
-                      <h3>MD. Sahjad Ansari</h3>
-                      <p>Software Developer</p>
+                      <h3>Lalit Kumar</h3>
+                      <p>React Native</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={DeepakChauhan.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Deepak Chauhan</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={Lakhwinder.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Lakhwinder</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={VikashSoni.src} alt='' />
                     <div className='team-details'>
                       <h3>Vikash Soni</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={SanjeevKumar.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Sanjeev Kumar</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={ParshantKumar.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Parshant Kumar</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={Ramnish.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Ramnish</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={OmParkash.src} alt='' />
-                    <div className='team-details'>
-                      <h3>Om Parkash</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
                     <img src={SaddamHusain.src} alt='' />
                     <div className='team-details'>
                       <h3>Saddam Husain</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={GauravKumar.src} alt='' />
+                  <div className='col mb-5'>
+                    <img src={MDSahjadAnsari.src} alt='' />
                     <div className='team-details'>
-                      <h3>Gaurav Kumar</h3>
+                      <h3>MD. Sahjad Ansari</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
+                    <img src={DeepakChauhan.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Deepak Chauhan</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={Lakhwinder.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Lakhwinder</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  
+                  <div className='col mb-5'>
+                    <img src={SanjeevKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Sanjeev Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  
+                  <div className='col mb-5'>
+                    <img src={OmParkash.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Om Parkash</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={RahulRaj.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Rahul Raj</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={ParshantKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Parshant Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
+                    <img src={Ramnish.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Ramnish</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
                     <img src={RishavKarn.src} alt='' />
                     <div className='team-details'>
                       <h3>Rishav Karn</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col mb-5'>
+                    <img src={GauravKumar.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Gaurav Kumar</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div className='col mb-5'>
                     <img src={HarshRaj.src} alt='' />
                     <div className='team-details'>
                       <h3>Harsh Raj</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={ShubhamSharma.src} alt='' />
+                  <div className='col mb-5'>
+                    <img src={LoveeJarewal.src} alt='' />
                     <div className='team-details'>
-                      <h3>Shubham Sharma</h3>
-                      <p>Software Developer</p>
+                      <h3>Lovee Jarewal</h3>
+                      <p>Business Development Executive</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
-                    <img src={LalitKumar.src} alt='' />
+                  <div className='col mb-5'>
+                    <img src={Gaganjot.src} alt='' />
                     <div className='team-details'>
-                      <h3>Lalit Kumar</h3>
-                      <p>Software Developer</p>
+                      <h3>Gaganjot Singh</h3>
+                      <p>Business Development Executive</p>
                     </div>
                   </div>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
                   
                 </div>
               </div>

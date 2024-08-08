@@ -87,16 +87,21 @@ export default function Tab1() {
                   <div className="right_slider">
                       <Slider className="right_slider1" asNavFor={nav2} ref={(slider1) => setNav1(slider1)}
                       autoplay={false}
+                      centerMode= {true}
+                      centerPadding= '60px'
                       arrows={false}
-                      slidesToShow={1}
+                      dots={true}
+                      slidesToShow={3}
                       slidesToScroll={1}
                       speed={500}
-                      infinite={false}
+                      infinite={true}
+                      focusOnSelect= {true}
+                      cssEase= 'linear'
                       >
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             
-                            <div className="col-md-8 m-auto">
+                            <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                
                                 <h2>Checkout UI Extension</h2>
@@ -113,7 +118,7 @@ export default function Tab1() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             
-                            <div className="col-md-8 m-auto">
+                            <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Up Sell</h2>
@@ -130,7 +135,7 @@ export default function Tab1() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             
-                            <div className="col-md-8 m-auto">
+                            <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Discount Formula&apos;s</h2>
@@ -145,7 +150,7 @@ export default function Tab1() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             
-                            <div className="col-md-8 m-auto">
+                            <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Custom Filters</h2>
@@ -161,7 +166,7 @@ export default function Tab1() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             
-                            <div className="col-md-8 m-auto">
+                            <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Custom Search</h2>

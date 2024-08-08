@@ -193,8 +193,8 @@ export default function AboutUs() {
             <div className="row">
               <div className="col-md-10 mx-auto text-center text-white"> 
           <h2 className='b2b-heading mb-5'>About Us</h2>
-          <p className='b2b-text'>Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
-        <p className='b2b-text'>Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
+          <p className='b2b-text-sm'>Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
+        <p className='b2b-text-sm'>Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
         <div className="mt-5 text-center">
                 <button className="b2b-btn b2b-btn-sm">Read More</button>
                 </div>

@@ -3,7 +3,8 @@
 import React from "react"; 
 import Image from 'next/image';
 import About from '../../public/img/about.png';   
-import CountUp from 'react-countup'; 
+import CountUp, { useCountUp } from 'react-countup'; 
+// import VisibilitySensor from 'react-visibility-sensor';
 import b2bTeam from '../../public/img/b2bTeam.png';   
 import technologies from '../../public/img/technologies.png';   
 
@@ -20,7 +21,12 @@ import './our-project.css'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Homeabout() {
- 
+  useCountUp({
+    ref: 'counter',
+    enableScrollSpy: true,
+    scrollSpyDelay: 2000,
+    end: 0
+  });
   return (
     <>  
     <div className="blackGradient">
@@ -68,7 +74,8 @@ export default function Homeabout() {
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                       <div><img src={yrInIndustury.src} /></div>
                       <div className='ml-2'>
-                        <h2 className='text-white text-center'><CountUp end={10} />+</h2>
+                        <h2 className='text-white text-center'><CountUp end={10} enableScrollSpy />
+                        +</h2>
                         <p className='text-white text-center'>Years of IT Industury</p>
                       </div>
                   </div>
@@ -78,7 +85,7 @@ export default function Homeabout() {
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                       <div><img src={projects.src} /></div>
                       <div className='ml-2'>
-                        <h2 className='text-white text-center'><CountUp end={500} />+</h2>
+                        <h2 className='text-white text-center'><CountUp end={500} enableScrollSpy />+</h2>
                         <p className='text-white text-center'>Successfull Project</p>
                       </div>
                   </div>
@@ -88,7 +95,7 @@ export default function Homeabout() {
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                       <div><img src={rating.src} /></div>
                       <div className='ml-2'>
-                        <h2 className='text-white text-center'><CountUp end={4.9} />+</h2>
+                        <h2 className='text-white text-center'><CountUp end={4.9} enableScrollSpy decimals={1} decimal="."/>+</h2>
                         <p className='text-white text-center'>Ratings on Clutch</p>
                       </div>
                   </div>
@@ -98,7 +105,7 @@ export default function Homeabout() {
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                       <div><img src={happyClient.src} /></div>
                       <div className='ml-2'>
-                        <h2 className='text-white text-center'><CountUp end={100} />+</h2>
+                        <h2 className='text-white text-center'><CountUp end={100} enableScrollSpy />+</h2>
                         <p className='text-white text-center'>Happy Client</p>
                       </div>
                   </div>
@@ -108,7 +115,7 @@ export default function Homeabout() {
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-black-bg b2b-achievements-wrap'>
                       <div><img src={design.src} /></div>
                       <div className='ml-2'>
-                        <h2 className='text-white text-center'><CountUp end={100} />+</h2>
+                        <h2 className='text-white text-center'><CountUp end={100} enableScrollSpy />+</h2>
                         <p className='text-white text-center'>Website Designed</p>
                       </div>
                   </div>

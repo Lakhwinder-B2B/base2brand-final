@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Header from '../../component/header'
 import Footer from '../../component/footer'
+import HomeBanner from './banner-home'
 import OurServices from '../app/our-services'
 import Projects from '../app/project'
 import OurProject from '../app/our-project'
@@ -31,24 +32,20 @@ import radialBg from '../../public/img/radial_bg.svg';
 import polygon from '../../public/img/polygon.png'; 
 import Slider from "react-slick";
 import Typewriter from 'typewriter-effect';
-import Request from "./request-form";
 import VerticalScroll from "./vertical-scroll-sec";
 // import styles from "./VerticalSlideshow.module.css";
 
 export default function Home() {
-  const [showModal, setShowModal] = useState(false);
-
-  const toggleModal = () => {
-    setShowModal(!showModal);
-  };
+  
   const settings = {
     dots: false,
     arrows : false,
-    infinite: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
     speed: 500,
-    slidesToShow: 8,
-    slidesToScroll: 8,
-    initialSlide: 0,
+    slidesToShow: 7,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -81,31 +78,7 @@ export default function Home() {
     
       <Header />
 
-      <div className="bannerSection pt-5 pb-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="d-flex align-items-center gap-2">
-              <h2 className="sub_heading">Build your</h2>
-            <Typewriter 
-                options={{
-                  strings: ['Web Designing', 'Web Development', 'Digital Marketing'],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-              </div> 
-              <h2 className="sub_heading">with flawless technology, <br /> design, and execution</h2> 
-              <p className='sub_text text-white mt-4'>Let&apos;s Build something Digital together, We are Leading <br /> Innovative Partner for Start-ups and Enterprises</p>
-              <div className="mt-4">
-                <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'> 
-                
-                Request a Quote </button> 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <HomeBanner />
       <div className="bg_home" >
         {/* style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }} <div className="container mx-auto pt-4 pb-5 full_height"> 
           <div className="row align-items-center position-relative">
@@ -139,6 +112,7 @@ export default function Home() {
             <div className="col-md-12 text-center pt-4" >
                 <h3 className='b2b-partners-heading'>Our Trusted Partners Collaborate Seamlessly To Drive Mutual Success</h3> 
             </div>
+            <div className="b2b-container-lg">
             <Slider {...settings} className="w-100">
               <div>
                 <img src={logo1.src} className='social_logo' /> 
@@ -161,11 +135,32 @@ export default function Home() {
               <div>
               <img src={logo7.src} className='social_logo' /> 
               </div>  
+              <div>
+                <img src={logo1.src} className='social_logo' /> 
+              </div>
+              <div>
+                <img src={logo2.src} className='social_logo' /> 
+              </div> 
+              <div>
+              <img src={logo3.src} className='social_logo' /> 
+              </div>
+              <div>
+              <img src={logo4.src} className='social_logo' /> 
+              </div> 
+              <div>
+              <img src={logo5.src} className='social_logo' /> 
+              </div>
+              <div>
+              <img src={logo6.src} className='social_logo' /> 
+              </div>
+              <div>
+              <img src={logo7.src} className='social_logo' /> 
+              </div> 
               {/* <div>
               <img src={logo9.src} className='social_logo' /> 
               </div> */}
             </Slider>
-        </div>
+        </div></div>
        
       <Projects />
       {/* <OurProject /> */}
@@ -175,17 +170,13 @@ export default function Home() {
       {/* <HomeBlog /> */}
       <Feedback />
       <Career />
-      <VerticalScroll />
+      {/* <VerticalScroll /> */}
               
       <FooterMap />
       <Footer />
     </div>
 
-        {showModal && 
-        <Request 
-          onCloseModal={toggleModal} 
-        />
-      }
+      
     </>
   )
 }

@@ -203,7 +203,7 @@ span.slide-number {
     display: none;
 }
 .tabs_section .element .innerWrap{
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 .tabs_section .tabsLink a {
@@ -216,7 +216,9 @@ span.slide-number {
     color: #B6CCFF !important;
     
 }
-
+.tabInnerWrap  p.b2b-text {
+    font-size: 20px;
+}
 .ceo_img {
     color: #fff;
     border: 4px solid #C896FF;
@@ -269,6 +271,12 @@ span.slide-number {
     padding-top: 50px;
     padding-bottom: 0;
 }
+.b2b-text-sm {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #ffffff;
+}   
 @media screen and (max-width: 1800px){
     .ceo_name_align .b2b-text {
         font-size: 16px;
@@ -281,7 +289,7 @@ span.slide-number {
         font-size: 30px;
     }
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1440px){
     .center_desc_about h3 {
         font-size: 24px;
         line-height: 32px;
@@ -291,6 +299,10 @@ span.slide-number {
         top: -72px;
         left: 43px;
         width: 100px;
+    }
+    .b2b-text-sm {
+        font-size: 16px;
+        line-height: 28px;
     }
 }
 @media screen and (max-width: 1366px){

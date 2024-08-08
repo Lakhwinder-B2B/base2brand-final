@@ -137,8 +137,8 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
         
     };
     return (
-        <div className="modal request-form fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog modal-lg">
+        <div className="modal request-form fade" id="exampleModal" aria-labelledby="exampleModalLabel" data-modal="hideTab" >
+            <div className="modal-dialog modal-lg ">
                 <div className="modal-content b2b-modal-content p-0">
                   
                   

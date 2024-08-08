@@ -64,6 +64,7 @@ a.nav-link {
     align-items: center;
     width: 50%;
     line-height: 3;
+    cursor: pointer;
 }
 img.icon_seo {
     width: 25px;
@@ -144,4 +145,41 @@ a.remove_under_line {
 .radialGradient{
     background: radial-gradient(85.95% 85.95% at 51.75% 51.4%, rgba(65, 48, 140, 0.2) 0%, rgba(17, 22, 22, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
+}
+.img-wrap {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 0;
+}
+.b2b-workProcess-wrap img.icon {
+    width: 81px;
+    height: 81px;
+}
+.b2b-workProcess-wrap .animated-icon-wrap {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+.b2b-workProcess-wrap img.animated-icon {
+    width: 138px;
+    height: 138px;
+    object-fit: contain;
+}
+.b2b-workProcess-wrap:hover .animated-icon-wrap{
+    opacity: 1;
+    visibility: visible;
+}
+.b2b-workProcess-wrap:hover img.icon{
+    opacity: 0;
+    visibility: hidden;
 }

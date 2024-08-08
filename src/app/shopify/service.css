@@ -145,9 +145,8 @@ button.btn_design span img{
     opacity: 1;
     visibility: visible;
 }
-.slider_right_main h2 {
+.slider_right_main h2{
     margin-bottom: 20px;
-    color: #fff;
 }
 .slider_right_main p {
     font-size: 14px;
@@ -160,12 +159,12 @@ button.btn_design span img{
     padding: 0;
     position: relative;
 }
-.right_slider .slick-track {
+/* .right_slider .slick-track {
     width: 100% !important;
     transform: unset !important;
     position: relative;
-}
-.right_slider  .slick-slide {
+} */
+/* .right_slider  .slick-slide {
     position: absolute;
     left: 0;
     top: 0;
@@ -181,23 +180,74 @@ button.btn_design span img{
 .right_slider .slick-slide.slick-active.slick-current{
     opacity: 1;
     visibility: visible;
-}
+} */
 .right_slider, 
 .right_slider .slick-list, 
 .right_slider .slick-slider, 
 .right_slider .slick-track {
-    width: 100% !important;
+    /* width: 100% !important; */
     height: 350px !important;
-    transform: unset !important;
+    /* transform: unset !important;
     position: relative;
-    display: block;
+    display: block; */
 }
 .tabMainWrap.stickyElement {
     position: sticky;
     top: 93px;
 }
+.right_slider{
+    z-index: 2;
+}
+.right_slider .slick-slide {
+    position: relative;
+}
 
+.right_slider .slick-slide>div {
+    background-color: #111616;
+    opacity: 0;
+    
+}
+.right_slider .slick-slide.slick-active>div {
+    width: 600px !important;
+    background-color: #111616;
+    z-index: 99;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    z-index: 1;
+    filter: blur(1px);
+    opacity: 0.2;
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+.right_slider .slick-slide.slick-active.slick-center.slick-current>div {
+    opacity: 1;
+    z-index: 2;
+    filter: blur(0);
+    transform: translateX(-50%) scale(1);
+    
+}
+.right_slider .slick-slide.slick-active>div a {
+    pointer-events: none;
+}
+.right_slider .slick-slide.slick-active.slick-center.slick-current>div a {
+    pointer-events: initial;
+}
 
+.social_ads{
+    padding: 20px 0;
+}
+.right_slider .slick-dots li button:before {
+    width: 10px;
+    height: 10px;
+    content: '';
+    opacity: .25;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.right_slider .slick-dots li.slick-active button:before {
+    opacity: .75;
+    background-color: #fff;
+}
 
 
 

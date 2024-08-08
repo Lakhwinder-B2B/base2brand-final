@@ -20,11 +20,25 @@ import processIcon4 from '../../public/img/process-icon-4.svg';
 import processIcon5 from '../../public/img/process-icon-5.svg';   
 import processIcon6 from '../../public/img/process-icon-6.svg'; 
 
+import processIcon1Anim from '../../public/json/working-Process/process-icon-1-anim.gif';  
+import processIcon2Anim from '../../public/json/working-Process/process-icon-2-anim.gif';  
+import processIcon3Anim from '../../public/json/working-Process/process-icon-3-anim.gif';  
+import processIcon4Anim from '../../public/json/working-Process/process-icon-4-anim.gif';  
+import processIcon5Anim from '../../public/json/working-Process/process-icon-5-anim.gif';  
+import processIcon6Anim from '../../public/json/working-Process/process-icon-6-anim.gif';   
+
 export default function home() {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
     setShowModal(!showModal);
+    setTimeout(function() {
+      const ModalBody = document.querySelector(".request-form");
+      if(ModalBody){
+        ModalBody.classList.add("transformAnim");
+      }
+                               
+      }, 200);
   };
   return (
     <>  
@@ -52,7 +66,11 @@ export default function home() {
                     
                       <div className=''>
                         <div className='img-wrap'>
-                          <img src={processIcon1.src} />
+                          <img src={processIcon1.src} className="icon" />
+                          <div className='animated-icon-wrap'>
+                            <img src={processIcon1Anim.src} className="animated-icon" />
+                          </div>
+                          
                         </div>
                         <p className='text-white text-center'>Research</p>
                       </div>

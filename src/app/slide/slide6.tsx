@@ -20,7 +20,7 @@ export default function home() {
         <div className='b2b-container-lg'>
           
           <div className="row w-100 d-flex flex-wrap align-items-center">
-          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade-up">
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6" >
               <div className="tab-content" id="pills-tabContent">
                 <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
                 {/* <img className="w-70 active_img m-auto" src={shopifyDev.src} alt="Search Engine Optimization" /> */}
@@ -33,7 +33,7 @@ export default function home() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-md-5" id='WEB' data-aos="fade-down">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-md-5" id='WEB' >
               <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <li className="nav-item" role="presentation">
                   

@@ -140,10 +140,10 @@ nav.navbar {
 header .navbar ul.navbar-nav.main-menu li > a {
     overflow: hidden !important;
     display: block;
-    background-clip: text;
+    /* background-clip: text;
     background-size: 200% 100%;
     background-position: 100%;
-    background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+    background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%); */
     transition: 0.6s; 
 }
 header .navbar ul.navbar-nav.main-menu li > a:before {
@@ -160,11 +160,11 @@ header .navbar ul.navbar-nav.main-menu li:hover > a:before,
 header .navbar ul.navbar-nav.main-menu li > a.active:before{
     left:0;
 }
-header .navbar ul.navbar-nav.main-menu li:hover > a,
+/* header .navbar ul.navbar-nav.main-menu li:hover > a,
 header .navbar ul.navbar-nav.main-menu li > a.active{
     background-position: 0;
     -webkit-text-fill-color: transparent;
-}
+} */
 .dropdown-menu-right{
     max-width: 375px !important;
     width: 100% !important;

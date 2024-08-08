@@ -28,11 +28,11 @@
     margin-top: 22px;
 }
 .crew-wrap{
-    max-width: 900px;
+    max-width: 1199px;
     margin: 0 auto;
 }
 .crew-wrap .row{
-    column-gap: 50px;
+    column-gap: 20px;
 }
 .crew-wrap.work-with-us .row{
     column-gap: unset;
