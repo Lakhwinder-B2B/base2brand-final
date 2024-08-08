@@ -212,7 +212,10 @@ img.Image-icon {
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.hhh {
+    width: 71%;
+    margin: 0 auto;
+}
 
 
 
@@ -235,6 +238,10 @@ img.Image-icon {
     }
     .para {
         padding: 10px 10px;
+    }
+    .hhh {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
