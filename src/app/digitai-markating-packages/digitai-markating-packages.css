@@ -8,19 +8,19 @@
     
 }
 .gk-sub-heading-bold {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 45px;
+    line-height: 55px;
     color: white;
     font-weight: 600;
 }
 
 .gk-b2b-bold {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 35px;
     font-weight: 600;
 }
 .gk-b2b-btn-text {
-    font-size: 21px;
+    font-size: 20px;
     line-height: 32px;
     font-weight: 400;
 }
@@ -41,6 +41,11 @@
     font-weight: 400;
     line-height: 32px;
 }
+.gk-heading-bold {
+    font-size: 55px;
+    color: white;
+    line-height: 65px;
+}
 
 
 
@@ -51,14 +56,14 @@
         line-height: 42px;
     }
     .gk-heading-bold {
-        font-size: 26px;
+        font-size: 36px !important;
         font-weight: 500;
     }
     .gk-sub-heading-bold {
-        font-size: 26px;
-        line-height: 36px;
-        color: white;
-        font-weight: 600;
+        font-size: 26px !important;
+        line-height: 38px !important;
+        color: white !important;
+        font-weight: 600 !important;
     }
     .gk-b2b-bold {
         font-size: 26px !important;
@@ -87,8 +92,36 @@
         font-weight: 400;
         line-height: 26px;
     }
+
     
     
+}
+@media only screen and (max-width: 1400px) {
+
+
+    .gk-heading-bold {
+        font-size: 38px;
+        color: white;
+        line-height: 48px;
+    }
+    .gk-sub-heading-bold {
+        font-size: 40px;
+        line-height: 50px;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+.gk-heading-bold {
+    font-size: 26px !important;
+    color: white;
+    line-height: 36px;
+}
 }
 
 
@@ -141,7 +174,7 @@
     background-color: #12151D;
 }
 .gk-width-lg{
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
 }
 .Shopify-Website-img {
@@ -212,10 +245,15 @@ img.Image-icon {
     background-repeat: no-repeat;
     background-position: center;
 }
-.hhh {
-    width: 71%;
-    margin: 0 auto;
+.card-price {
+    width: 30%;
 }
+.cardi-main {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
 
 
 
@@ -223,7 +261,7 @@ img.Image-icon {
     border-radius: 10px;
 }
 .gk-width {
-    width: 73%;
+    width: 93%;
     margin: 0 auto;
 }
 
@@ -239,9 +277,15 @@ img.Image-icon {
     .para {
         padding: 10px 10px;
     }
-    .hhh {
-        width: 100%;
-        margin: 0 auto;
+    .card-price {
+        width: 48%;
+    }
+    .cardi-main {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 27px;
     }
 }
 
@@ -253,6 +297,23 @@ img.Image-icon {
     }
     .gk-width {
         width: 100%;
+    }
+
+
+}
+@media only screen and (max-width: 767px) {
+  
+    .card-price {
+        width: 100%;
+    }
+    .cardi-main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px;
+        justify-content: space-between;
+    }
+    .icon-image {
+        width: 50px;
     }
 
 }

@@ -10,7 +10,7 @@ const ContactWeb = () => {
     <>
       <section className="gk-bg-Contact pt-lg-5 pb-lg-5 pt-4 pb-4">
         <div className="b2b-container-lg">
-          <h2 className="gk-sub-heading-bold text-center text-uppercase text-cente m-auto gk-width">
+          <h2 className="gk-heading-bold text-center text-uppercase text-cente m-auto gk-width">
             Let's build an e-commerce masterpiece together! Drop us a line for
             Shopify website development.
           </h2>

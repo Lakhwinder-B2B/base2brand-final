@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import Perfect from "../../../public/img/PerfectPlan.svg";
 const PerfectPlan = () => {
-  
   return (
     <>
       <section
@@ -16,9 +15,9 @@ const PerfectPlan = () => {
           height: "100%",
         }}
       >
-        <div className="perfectplane">
+        <div className="perfectplane b2b-container-lg">
           <div className="">
-            <h3 className="gk-sub-heading-bold text-center text-uppercase text-cente m-auto gk-width-lg">
+            <h2 className="gk-heading-bold text-center text-uppercase text-cente m-auto gk-width-lg">
               Choose Your Perfect Plan: Shopify Web Development by Base
               <span
                 style={{
@@ -28,22 +27,19 @@ const PerfectPlan = () => {
                 2
               </span>
               Brand
-            </h3>
+            </h2>
           </div>
-          <div className="b2b-container-lg">
-            <div className="row  resource gap-lg-5 gap-4  pt-lg-5 pt-4  justify-content-center overflow-hidden px-lg-0 px-3 ">
-              <div
-                className="col-12 col-xl-3 col-md-5 p-4 gk-rounded "
-              
-              >
+          <div className="">
+            <div className=" cardi-main     pt-lg-5 pt-4   overflow-hidden px-lg-0  ">
+              <div className="  p-4 gk-rounded card-price">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
-                  Shopify Website (only) Package
+                    Shopify Website (only) Package
                   </p>
                   <p className="b2b-sub-text">E-Commerce Website</p>
                   <h2 className="fontlinear ">₹ 149,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                  <li>Shopify Website Creation and Setup</li>
+                    <li>Shopify Website Creation and Setup</li>
                     <li>Upto 200 Products Upload By Our Team</li>
                     <li>SEO Ready Website</li>
                     <li>SSL Certificate</li>
@@ -65,22 +61,27 @@ const PerfectPlan = () => {
                     TALK TO US
                   </h5>
                   <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                 +91-9872-487-850
+                    <a
+                      href="tel:+919872487850"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      +91-9872-487-850
+                    </a>
                   </h5>
                 </div>
               </div>
-              <div
-                className="col-12 col-xl-3 col-md-5 p-4 gk-rounded "
-              
-              >
+              <div className="p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
-                  Shopify Website + Android App Package
+                    Shopify Website + Android App Package
                   </p>
-                  <p className="b2b-sub-text">Advanced E-Commerce Website + Android App</p>
+                  <p className="b2b-sub-text">
+                    Advanced E-Commerce Website + Android App
+                  </p>
                   <h2 className="fontlinear ">₹ 249,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                  <li>Shopify Website Creation and Setup</li>
+                    <li>Shopify Website Creation and Setup</li>
                     <li>Android Hybrid App</li>
                     <li>Google Play Publishing</li>
                     <li>Referral Integration</li>
@@ -102,22 +103,27 @@ const PerfectPlan = () => {
                     TALK TO US
                   </h5>
                   <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                  +91-9872-487-850
+                    <a
+                      href="tel:+919872487850"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      +91-9872-487-850
+                    </a>
                   </h5>
                 </div>
               </div>
-              <div
-                className="col-12 col-xl-3  col-md-5  p-4 gk-rounded "
-             
-              >
+              <div className=" p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
-                  Shopify Website + Android & iOS App Package
+                    Shopify Website + Android & iOS App Package
                   </p>
-                  <p className="b2b-sub-text">Advanced E-Commerce Website + Android App + iOS Hybrid App</p>
+                  <p className="b2b-sub-text">
+                    Advanced E-Commerce Website + Android App + iOS Hybrid App
+                  </p>
                   <h2 className="fontlinear ">₹ 299,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                  <li>Shopify Website Creation and Setup</li>
+                    <li>Shopify Website Creation and Setup</li>
                     <li>Android Hybrid App</li>
                     <li>Google Play Publishing</li>
                     <li>iOS Web App</li>
@@ -139,7 +145,13 @@ const PerfectPlan = () => {
                     TALK TO US
                   </h5>
                   <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                  +91-9872-487-850
+                    <a
+                      href="tel:+919872487850"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      +91-9872-487-850
+                    </a>
                   </h5>
                 </div>
               </div>

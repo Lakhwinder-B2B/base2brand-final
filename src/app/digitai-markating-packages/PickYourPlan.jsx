@@ -17,18 +17,18 @@ const PickYourPlan = () => {
         }}
       >
         <div className="perfectplane">
-          <div className=" d-flex ">
-            <h3 className="gk-sub-heading-bold text-center text-uppercase text-cente  ">
+          <div className=" d-flex  justify-content-center gap-3 align-items-center ">
+            <h3 className="gk-heading-bold text-center text-uppercase text-cente  ">
               Facebook Ads
             </h3>
             <span>
-              <Image className="mb-2" src={facebook} alt="" width={50} height={50} marginBottom={8} />
+              <Image className="mb-2 icon-image" src={facebook} alt=""  />
             </span>
           </div>
 
           <div className="b2b-container-lg">
-            <div className="row  resource gap-lg-5 gap-4  pt-lg-5 pt-4  justify-content-center overflow-hidden px-lg-0 px-3 ">
-              <div className="col-12 col-xl-3 col-md-5 p-4 gk-rounded ">
+            <div className="cardi-main     pt-lg-5 pt-4   overflow-hidden px-lg-0 ">
+              <div className=" p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
                     Shopify Website (only) Package
@@ -62,7 +62,7 @@ const PickYourPlan = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-12 col-xl-3 col-md-5 p-4 gk-rounded ">
+              <div className=" p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
                     Shopify Website + Android App Package
@@ -98,7 +98,7 @@ const PickYourPlan = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-12 col-xl-3  col-md-5  p-4 gk-rounded ">
+              <div className=" p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">
                     Shopify Website + Android & iOS App Package
