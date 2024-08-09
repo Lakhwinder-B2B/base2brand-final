@@ -6,6 +6,11 @@ import ShopifySecondPricing from "../shopify-pricing/ShopifySecondPricing";
 import MarketingPackages from "./MarketingPackages";
 import Brand from "../brand";
 import PickYourPlan from "./PickYourPlan"
+import SocialMediaMarketingI from "./SocialMediaMarketingI";
+import instagram from "../../../public/img/digitai-markating-packags/instagram.svg";
+import GoogleAds from "./GoogleAds";
+import EmailMarkating from "./EmailMarkating";
+import SearchEngineOptimization from "./SearchEngineOptimization";
 
 const page = () => {
   return (
@@ -22,6 +27,11 @@ const page = () => {
      <MarketingPackages/>
      <Brand heading="Our Digital Marketing Clients"/>
    <PickYourPlan/>
+   <SocialMediaMarketingI />
+   <GoogleAds />
+   <EmailMarkating/>
+   <SearchEngineOptimization/>
+   
     </>
   );
 };

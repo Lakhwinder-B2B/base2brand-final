@@ -41,10 +41,10 @@ const PerfectPlan = () => {
                   <div className="list d-flex  flex-column gap-3 pt-3">
                     <li>Shopify Website Creation and Setup</li>
                     <li>Upto 200 Products Upload By Our Team</li>
-                    <li>SEO Ready Website</li>
-                    <li>SSL Certificate</li>
-                    <li>Responsive Website</li>
-                    <li>Content 2000 Words</li>
+                    <li className="fw-bold fs-5">SEO Ready Website</li>
+                    <li className="fw-bold fs-5">SSL Certificate</li>
+                    <li className="fw-bold fs-5">Responsive Website</li>
+                    <li className="fw-bold fs-5">Content 2000 Words</li>
                     <li>Social Media Integration</li>
                     <li>Google Analytics Integration</li>
                   </div>
@@ -84,10 +84,10 @@ const PerfectPlan = () => {
                     <li>Shopify Website Creation and Setup</li>
                     <li>Android Hybrid App</li>
                     <li>Google Play Publishing</li>
-                    <li>Referral Integration</li>
-                    <li>Abandoned Checkout</li>
+                    <li className="fw-bold fs-5">Referral Integration</li>
+                    <li className="fw-bold fs-5">Abandoned Checkout</li>
                     <li>Upto 200 Products Upload By Our Team</li>
-                    <li>SEO Ready Website</li>
+                    <li className="fw-bold fs-5">SEO Ready Website</li>
                     <li>SSL Certificate</li>
                   </div>
                   <button className=" card-btn mt-4 ">
@@ -124,13 +124,13 @@ const PerfectPlan = () => {
                   <h2 className="fontlinear ">₹ 299,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
                     <li>Shopify Website Creation and Setup</li>
-                    <li>Android Hybrid App</li>
-                    <li>Google Play Publishing</li>
-                    <li>iOS Web App</li>
+                    <li className="fw-bold fs-5">Android Hybrid App</li>
+                    <li className="fw-bold fs-5">Google Play Publishing</li>
+                    <li className="fw-bold fs-5">iOS Web App</li>
                     <li>Referral Integration</li>
                     <li>Abandoned Checkout</li>
                     <li>Upto 200 Products Upload By Our Team</li>
-                    <li>SEO Ready Website</li>
+                    <li className="fw-bold fs-5">SEO Ready Website</li>
                   </div>
                   <button className=" card-btn mt-4 ">
                     <i

@@ -1,0 +1,6 @@
+{
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js",
+  "/shopify-pricing/page": "app/shopify-pricing/page.js",
+  "/digitai-markating-packages/page": "app/digitai-markating-packages/page.js"
+}

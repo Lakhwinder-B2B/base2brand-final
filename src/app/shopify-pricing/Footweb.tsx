@@ -24,8 +24,18 @@ const Footweb = () => {
               skills and expertise to help you achieve your goals.
             </p>
           </div>
+
         </div>
+
       </section>
+      <div className="text-center p-3 b2b-gray-bg main_footer">
+        <p className="m-0 text-white">
+          ©2024
+          <a className="text-white " target="_blank" href="https://www.base2brand.com/"> base2brand.com </a>
+
+           .All rights reserved
+        </p>
+      </div>
     </>
   );
 };

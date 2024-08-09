@@ -2,11 +2,13 @@
     font-size: 50px;
     line-height: 65px;
 }
+
 .gk-heading-bold {
     font-size: 36px;
     font-weight: 600;
-    
+
 }
+
 .gk-sub-heading-bold {
     font-size: 45px;
     line-height: 55px;
@@ -19,28 +21,33 @@
     line-height: 35px;
     font-weight: 600;
 }
+
 .gk-b2b-btn-text {
     font-size: 20px;
     line-height: 32px;
     font-weight: 400;
 }
+
 .gk-rendom-text {
     color: #82BC29;
     font-size: 22px;
     letter-spacing: 3px;
     line-height: 30px;
 }
+
 .gk-acco-text {
     font-size: 22px;
     line-height: 32px;
     font-weight: 500;
 }
+
 .gk-sub-text-small {
     font-size: 20px;
     margin-top: 10px;
     font-weight: 400;
     line-height: 32px;
 }
+
 .gk-heading-bold {
     font-size: 55px;
     color: white;
@@ -55,47 +62,70 @@
         font-size: 36px;
         line-height: 42px;
     }
+
     .gk-heading-bold {
         font-size: 36px !important;
         font-weight: 500;
     }
+
     .gk-sub-heading-bold {
         font-size: 26px !important;
         line-height: 38px !important;
         color: white !important;
         font-weight: 600 !important;
     }
+
     .gk-b2b-bold {
         font-size: 26px !important;
         line-height: 36px !important;
-        
+
     }
+
     .gk-b2b-btn-text {
         font-size: 20px;
         line-height: 32px;
         font-weight: 400;
     }
+
     .gk-rendom-text {
         color: #82BC29;
         font-size: 20px;
         letter-spacing: 3px;
         line-height: 25px;
     }
+
     .gk-acco-text {
         font-size: 18px;
         line-height: 27px;
         font-weight: 500;
     }
+
     .gk-sub-text-small {
         font-size: 16px;
         margin-top: 10px;
         font-weight: 400;
         line-height: 26px;
     }
+    .titl-css {
 
-    
-    
+
+        font: 700 36px 'Droid Sans', sans-serif !important;
+        color: #7411E1;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 1),
+            0px 2px 0px rgba(255, 255, 255, 1),
+            -1px 1px 0px rgba(255, 255, 255, 1),
+            -2px 0px 0px rgba(255, 255, 255, 1),
+            -1px -1px 0px rgba(255, 255, 255, 1),
+            0px -2px 0px rgba(255, 255, 255, 1),
+            1px -1px 0px rgba(255, 255, 255, 1),
+            2px 0px 0px rgba(255, 255, 255, 1);
+            letter-spacing: 3px;
+    }
+
+
+
 }
+
 @media only screen and (max-width: 1400px) {
 
 
@@ -104,12 +134,31 @@
         color: white;
         line-height: 48px;
     }
+
     .gk-sub-heading-bold {
         font-size: 40px;
         line-height: 50px;
         color: white;
         font-weight: 600;
     }
+    .titl-css {
+
+
+        font: 700 42px 'Droid Sans', sans-serif !important;
+        color: #7411E1;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 1),
+            0px 2px 0px rgba(255, 255, 255, 1),
+            -1px 1px 0px rgba(255, 255, 255, 1),
+            -2px 0px 0px rgba(255, 255, 255, 1),
+            -1px -1px 0px rgba(255, 255, 255, 1),
+            0px -2px 0px rgba(255, 255, 255, 1),
+            1px -1px 0px rgba(255, 255, 255, 1),
+            2px 0px 0px rgba(255, 255, 255, 1);
+            letter-spacing: 3px;
+            font-size: 36px !important;
+    }
+   
+
 }
 
 
@@ -117,11 +166,11 @@
 
 @media only screen and (max-width: 576px) {
 
-.gk-heading-bold {
-    font-size: 26px !important;
-    color: white;
-    line-height: 36px;
-}
+    .gk-heading-bold {
+        font-size: 26px !important;
+        color: white;
+        line-height: 36px;
+    }
 }
 
 
@@ -170,37 +219,72 @@
 
 
 /* css all css */
-.b2b-gray-bg-gk{
+.b2b-gray-bg-gk {
     background-color: #12151D;
 }
-.gk-width-lg{
+
+.gk-width-lg {
     width: 65%;
     margin: 0 auto;
 }
+
 .Shopify-Website-img {
     width: 90% !important;
 }
+
 .BG-RED {
     background: #12151d;
 }
+
 .fontlinear {
 
 
     font: 700 50px 'Droid Sans', sans-serif;
     color: #396BDB;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 1),
-                 0px 2px 0px rgba(255, 255, 255, 1),
-                -1px 1px 0px rgba(255, 255, 255, 1),
-                -2px 0px 0px rgba(255, 255, 255, 1),
-                -1px -1px 0px rgba(255, 255, 255, 1),
-                 0px -2px 0px rgba(255, 255, 255, 1),
-                 1px -1px 0px rgba(255, 255, 255, 1),
-                 2px 0px 0px rgba(255, 255, 255, 1);
-  }
-  .list {
+        0px 2px 0px rgba(255, 255, 255, 1),
+        -1px 1px 0px rgba(255, 255, 255, 1),
+        -2px 0px 0px rgba(255, 255, 255, 1),
+        -1px -1px 0px rgba(255, 255, 255, 1),
+        0px -2px 0px rgba(255, 255, 255, 1),
+        1px -1px 0px rgba(255, 255, 255, 1),
+        2px 0px 0px rgba(255, 255, 255, 1);
+}
+
+.titl-css {
+
+
+    font: 700 50px 'Droid Sans', sans-serif;
+    color: #7411E1;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1),
+        0px 2px 0px rgba(255, 255, 255, 1),
+        -1px 1px 0px rgba(255, 255, 255, 1),
+        -2px 0px 0px rgba(255, 255, 255, 1),
+        -1px -1px 0px rgba(255, 255, 255, 1),
+        0px -2px 0px rgba(255, 255, 255, 1),
+        1px -1px 0px rgba(255, 255, 255, 1),
+        2px 0px 0px rgba(255, 255, 255, 1);
+        letter-spacing: 3px;
+}
+.backlinear {
+    padding: 20px;
+    background: linear-gradient(148deg, #7411e1, #396bdb);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    rotate: -3deg;
+    transition: transform 0.3s ease;
+}
+.backlinear:hover {
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.list {
     font-size: 16px;
     color: white;
 }
+
 .card-btn {
     background: transparent;
     border-style: none;
@@ -212,18 +296,21 @@
     width: 100%;
     padding-bottom: 25px;
 }
+
 .gk-rounded {
     border-color: white;
     border-radius: 20px;
     border: 1.5px solid white;
     transition: border-color 0.3s ease;
-  }
-  
-  .gk-rounded:hover {
-    transition-delay: 0.3; /* Delay the start of the transition by 1 second */
+}
+
+.gk-rounded:hover {
+    transition-delay: 0.3;
+    /* Delay the start of the transition by 1 second */
     border-color: #396BDB;
-  }
-  .para {
+}
+
+.para {
     padding: 20px 20px;
 }
 
@@ -231,23 +318,27 @@
 button.accordion-button.collapsed {
     padding: 0 !important;
 }
+
 button.accordion-button {
     padding: 0 !important;
 }
+
 img.Image-icon {
     width: 90px;
 }
 
 
-.gk-bg-Contact{
+.gk-bg-Contact {
     background-image: url(../../../public//img/gk-bg-Contact.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .card-price {
     width: 30%;
 }
+
 .cardi-main {
     display: flex;
     gap: 30px;
@@ -260,26 +351,37 @@ img.Image-icon {
 .border-radious {
     border-radius: 10px;
 }
+
 .gk-width {
     width: 93%;
     margin: 0 auto;
+}
+.icon-image {
+    transition: transform 0.3s ease;
+}
+.icon-image:hover {
+    transform: scale(1.4); /* Slight enlargement on hover */
 }
 
 
 @media only screen and (max-width: 1024px) {
 
-    .gk-width-lg{
+    .gk-width-lg {
         width: 100%;
     }
+
     .Shopify-Website-img {
         width: 100% !important;
     }
+
     .para {
         padding: 10px 10px;
     }
+
     .card-price {
         width: 48%;
     }
+
     .cardi-main {
         display: flex;
         gap: 10px;
@@ -295,23 +397,27 @@ img.Image-icon {
     img.Image-icon {
         width: 65px !important;
     }
+
     .gk-width {
         width: 100%;
     }
 
 
 }
+
 @media only screen and (max-width: 767px) {
-  
+
     .card-price {
         width: 100%;
     }
+
     .cardi-main {
         display: flex;
         flex-wrap: wrap;
         gap: 27px;
         justify-content: space-between;
     }
+
     .icon-image {
         width: 50px;
     }
