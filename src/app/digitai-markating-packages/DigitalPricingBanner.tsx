@@ -13,7 +13,7 @@ const DigitalPricing = () => {
           backgroundPosition: "80% 90%",
         }}
       >
-        <div className="b2b-container-lg">
+        <div className="b2b-container-lg  ">
           <div className="row  align-items-center justify-content-between  pt-lg-3  pb-lg-5 pt-3 pb-4">
             <div className="col-sm-1 col-md-12 col-lg-6 col-xl-6 ">
               <div className="pricing-shopifty-page">

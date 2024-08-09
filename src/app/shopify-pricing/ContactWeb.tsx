@@ -118,8 +118,8 @@ const ContactWeb = () => {
               </div>
             </div>
             <div className=" counr-2    w-full">
-              <div className="icon-class d-flex flex-lg-column  flex-column  gap-md-5 gap-4">
-                <div className="d-flex align-items-center gap-4">
+              <div className="icon-class d-flex flex-lg-column  flex-column  gap-md-4 gap-4">
+                <div className="d-flex align-items-center gap-3">
                   <span className="icon">
                     <Image className="Image-icon" src={callto} alt="" />
                   </span>
@@ -130,7 +130,7 @@ const ContactWeb = () => {
                     </a>
                   </span>
                 </div>
-                <div className="d-flex align-items-center gap-4">
+                <div className="d-flex align-items-center gap-3">
                   <Image className="Image-icon" src={mailto} alt="" />
                   <span className="gk-acco-text text-white">
                     <a
@@ -142,16 +142,17 @@ const ContactWeb = () => {
                     </a>
                   </span>
                 </div>
-                <div className="d-flex align-items-center gap-4">
+                <div className="d-flex align-items-start gap-3">
                   <Image className="Image-icon" src={location} alt="" />
-                  <span className="gk-acco-text text-white text-md-start ">
+                  <span className="gk-acco-text text-white text-md-start divider  ">
                     <a
                       href="https://www.google.com/maps/place/Base+2+Brand+Infotech+Pvt.+Ltd./@30.7112168,76.692165,17z/data=!4m15!1m8!3m7!1s0x390fee55f17e093d:0xeb3482c7f127c305!2sF,+209,+Phase+8B,+Industrial+Area,+Sector+74,+Sahibzada+Ajit+Singh+Nagar,+Punjab+160074!3b1!8m2!3d30.7112168!4d76.692165!16s%2Fg%2F11vywjx481!3m5!1s0x390fef3d91f0cc77:0x214b2cbd35685f0d!8m2!3d30.7112168!4d76.692165!16s%2Fg%2F11r3l8std0?entry=ttu"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white"
+                      className="text-white "
                     >
-                      F, 209, Phase 8B, Industrial Area, Sector 74, Sahibzada
+                      F, 209, Phase 8B, Industrial Area,
+                       Sector 74, Sahibzada
                       Ajit Singh Nagar, Punjab 160074
                     </a>
                   </span>

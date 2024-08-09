@@ -181,7 +181,8 @@
     width: 90% !important;
 }
 .BG-RED {
-    background: #12151d;
+    /* background: #12151d; */
+    background: linear-gradient(277deg, #7411e1d4, #396bdbba);
 }
 .fontlinear {
 
@@ -243,7 +244,7 @@ img.Image-icon {
     background-image: url(../../../public//img/gk-bg-Contact.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 100%;
 }
 .card-price {
     width: 30%;
@@ -264,7 +265,12 @@ img.Image-icon {
     width: 93%;
     margin: 0 auto;
 }
-
+img.Image-icon {
+    width: 65px !important;
+}
+.divider {
+    width: 60%;
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -287,15 +293,19 @@ img.Image-icon {
         justify-content: space-between;
         gap: 27px;
     }
+   
 }
 
 
 
 @media only screen and (max-width: 767px) {
     img.Image-icon {
-        width: 65px !important;
+        width: 50px !important;
     }
     .gk-width {
+        width: 100%;
+    }
+    .divider {
         width: 100%;
     }
 
@@ -312,5 +322,21 @@ img.Image-icon {
         gap: 27px;
         justify-content: space-between;
     }
+    .headercall{
+        width: 250px !important;
+    }
+    .gk-heder {
+      
+        font-size: 14px !important;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
 
+}
+.main_footer {
+    border-top: 2px solid #5C5C5C;
+    border-bottom: 2px solid #5C5C5C;
+}
+.headercall{
+    width: auto;
 }
