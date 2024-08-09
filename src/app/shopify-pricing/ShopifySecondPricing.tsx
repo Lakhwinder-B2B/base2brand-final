@@ -25,7 +25,7 @@ const ShopifySecondPricing = ({
     <>
       <section className="b2b-brands-wrap b2b-gray-bg-gk  ">
         <div className="b2b-container-lg">
-          <h2 className="text-center gk-sub-heading-bold  text-white ">
+          <h2 className="text-center gk-heading-bold  text-white gk-width-lg pb-3 ">
             {heading}
 
           
@@ -44,10 +44,10 @@ const ShopifySecondPricing = ({
               />
             </div>
             <div className="col-lg-6 pb-lg-0 pb-3">
-              <h1 className="gk-sub-heading-bold">
+              <h3 className="gk-sub-heading-bold">
                 {subheading}
                
-              </h1>
+              </h3>
               <p className=" b2b-sub-text">
                 {para1}
               
