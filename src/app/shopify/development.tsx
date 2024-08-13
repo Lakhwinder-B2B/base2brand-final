@@ -8,12 +8,12 @@ import design3 from '../../../public/shopify/design3.svg';
 import design4 from '../../../public/shopify/design4.svg'; 
 import design5 from '../../../public/shopify/design5.svg'; 
  
-import PLANNING_INFORMATION from '../../../public/web-app/PLANNING_INFORMATION.svg'; 
-import CREATIVE_DESIGN from '../../../public/web-app/CREATIVE_DESIGN.svg'; 
-import RESPONSIVE_DEVELOPMENT from '../../../public/web-app/RESPONSIVE_DEVELOPMENT.svg'; 
-import QUALITY_ASSURANCE from '../../../public/web-app/QUALITY_ASSURANCE.svg'; 
 
-import Tab1 from './tabs';
+import Tab1 from './tab1';
+import Tab2 from './tab2';
+import Tab3 from './tab3';
+import Tab4 from './tab4';
+import Tab5 from './tab5';
 // import TabSlick from './tab-slick';
 import '../shopify/service.css'
 
@@ -123,22 +123,22 @@ export default function Development() {
                                    </div>
                                    <div className="tab-pane fade" id="pill2" role="tabpanel" aria-labelledby="pill2-tab">
                                         <div>
-                                             <Tab1 />
+                                             <Tab2 />
                                         </div> 
                                    </div>
                                    <div className="tab-pane fade" id="pill3" role="tabpanel" aria-labelledby="pill3-tab">
                                         <div>
-                                             <Tab1 />
+                                             <Tab3 />
                                         </div>
                                    </div>
                                    <div className="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="pill4-tab">
                                         <div>
-                                             <Tab1 />
+                                             <Tab4 />
                                         </div>
                                    </div>
                                    <div className="tab-pane fade" id="pill5" role="tabpanel" aria-labelledby="pill5-tab">
                                         <div>
-                                             <Tab1 />
+                                             <Tab5 />
                                         </div>
                                    </div>
 

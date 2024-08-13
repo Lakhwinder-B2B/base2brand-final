@@ -69,12 +69,12 @@ export default function Team() {
       <Header />
         <div className="pt-0 pb-0 b2b-black-bg">
           <div className="about-mask pt-5" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>
-            <div className="row m-0 position-relative text-white pt-5"> 
+            <div className="row m-0 position-relative text-white pt-md-5 pt-0"> 
               
               <div className="col-12 col-sm-12 col-md-7 m-auto text-center">
                   <h1 className='b2b-sub-heading-bold text-uppercase'>Our Cherished Teams</h1>
                   <p className='b2b-sub-text'>Each member in our team is experienced and well efficient to deliver the assigned projects before the deadline. We rely on them to fulfill the promises we make to our clients.</p>
-                  <div className="mt-5 text-center mb-5 pb-5">
+                  <div className="mt-md-5 mt-3 text-center mb-md-5 mb-3 pb-md-5 pb-0">
                     <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
                   </div>
                   <div className='text-center'>
@@ -98,14 +98,14 @@ export default function Team() {
                   <div className="col-md-12 mx-auto text-center text-white mb-5"> 
                       <h1 className='b2b-sub-heading-bold text-uppercase'>Higher Officials</h1>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col-md-3 col-sm-4 col-6 mb-md-5 mb-4'>
                     <img src={Icon1.src} alt='' />
                     <div className='team-details'>
                       <h3>Rakesh Arora</h3>
                       <p>Managing Director (MD)</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col-md-3 col-sm-4 col-6 mb-md-5 mb-4'>
                     <img src={Icon2.src} alt='' />
                     <div className='team-details'>
                       <h3>Rahul Dhyaniya</h3>
@@ -113,8 +113,8 @@ export default function Team() {
                     </div>
                   </div>
                 </div>
-                <div className="row row-cols-5 justify-content-center mt-5">
-                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
+                <div className="employeesWrap row row-cols-xl-5 row-cols-lg-5 row-cols-md-4 row-cols-2 justify-content-center mt-5">
+                  <div className="w-100 col-md-12 mx-auto text-center text-white mb-5"> 
                       <h1 className='b2b-sub-heading-bold text-uppercase'>Team</h1>
                   </div>
                   <div className='col mb-5'>
@@ -376,15 +376,6 @@ export default function Team() {
                   
                   
                   
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
                 </div>
               </div>
             
@@ -395,7 +386,7 @@ export default function Team() {
           <div className="b2b-black-bg pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
               <div className="crew-wrap work-with-us mt-5">
                 <div className="row justify-content-center higher-officials">
-                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
+                  <div className="col-md-12 mx-auto text-center text-white mb-md-5 mb-3"> 
                       <h1 className='b2b-sub-heading-bold text-uppercase'>We Believe In Ourselves <br />You&apos;ll Love Working With Us</h1>
                   </div>
                   <div className='col-md-12 mb-4'>
@@ -424,7 +415,7 @@ export default function Team() {
                   <div className="col-lg-12">
                     <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
                   </div>
-                  <div className="col-xl-4 col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-4 col-md-6 mb-3">
                     <a className="menuLink" href="/about">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>About Us</h3>
@@ -435,7 +426,7 @@ export default function Team() {
                       </div>
                     </a> 
                   </div>
-                  <div className="col-xl-4 col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-4 col-md-6 mb-3">
                     <a className="menuLink" href="/career">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Career</h3>

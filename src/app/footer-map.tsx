@@ -58,7 +58,7 @@ export default function FooterMap() {
                     </div>
 
                     <div className="row">
-                        <div className="col-md-6 text-center mb-5 mb-md-0"    >
+                        <div className="col-lg-6 col-md-12 text-center mb-5 mb-md-0"    >
                             <div className="mapWrapper">
                                 <img className="m-auto" src={footerMap.src} alt="Map" />
                                 <div className="address1">
@@ -96,7 +96,7 @@ export default function FooterMap() {
                                     />
                             </div>  
                         </div>  
-                        <div className="col-md-6 text-white"   >
+                        <div className="col-lg-6 col-md-12 text-white"   >
                             <form className="footer-form" onSubmit={handleSubmit}>
                                 <div className="row">
                                         <div className="col-lg-6 mb-3">

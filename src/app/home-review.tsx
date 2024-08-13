@@ -34,7 +34,7 @@ export default function Home() {
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 991,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

@@ -33,10 +33,23 @@ import polygon from '../../public/img/polygon.png';
 import Slider from "react-slick";
 import Typewriter from 'typewriter-effect';
 import VerticalScroll from "./vertical-scroll-sec";
+import Request from "./request-form";
 // import styles from "./VerticalSlideshow.module.css";
 
 export default function Home() {
-  
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+    setTimeout(function() {
+      const ModalBody = document.querySelector(".request-form");
+      if(ModalBody){
+        ModalBody.classList.add("transformAnim");
+      }
+                               
+      }, 200);
+  };
+
   const settings = {
     dots: false,
     arrows : false,
@@ -78,9 +91,10 @@ export default function Home() {
     
       <Header />
 
-      <HomeBanner />
-      <div className="bg_home" >
-        {/* style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }} <div className="container mx-auto pt-4 pb-5 full_height"> 
+      {/* <HomeBanner /> */}
+      <div className="bg_home" 
+        style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }} >
+        <div className="container mx-auto pt-4 pb-5 full_height"> 
           <div className="row align-items-center position-relative">
             <div className="col-md-2 mob-none"  >  
                   <img src={b2b1.src} className='banner_icon_section' />
@@ -107,76 +121,81 @@ export default function Home() {
                 <img src={b2b4.src} className='icon_four banner_icon_section ml-4' />
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="p-3 logo-slider" >
             <div className="col-md-12 text-center pt-4" >
                 <h3 className='b2b-partners-heading'>Our Trusted Partners Collaborate Seamlessly To Drive Mutual Success</h3> 
             </div>
             <div className="b2b-container-lg">
-            <Slider {...settings} className="w-100">
-              <div>
-                <img src={logo1.src} className='social_logo' /> 
-              </div>
-              <div>
-                <img src={logo2.src} className='social_logo' /> 
-              </div> 
-              <div>
-              <img src={logo3.src} className='social_logo' /> 
-              </div>
-              <div>
-              <img src={logo4.src} className='social_logo' /> 
-              </div> 
-              <div>
-              <img src={logo5.src} className='social_logo' /> 
-              </div>
-              <div>
-              <img src={logo6.src} className='social_logo' /> 
-              </div>
-              <div>
-              <img src={logo7.src} className='social_logo' /> 
-              </div>  
-              <div>
-                <img src={logo1.src} className='social_logo' /> 
-              </div>
-              <div>
-                <img src={logo2.src} className='social_logo' /> 
-              </div> 
-              <div>
-              <img src={logo3.src} className='social_logo' /> 
-              </div>
-              <div>
-              <img src={logo4.src} className='social_logo' /> 
-              </div> 
-              <div>
-              <img src={logo5.src} className='social_logo' /> 
-              </div>
-              <div>
-              <img src={logo6.src} className='social_logo' /> 
-              </div>
-              <div>
-              <img src={logo7.src} className='social_logo' /> 
-              </div> 
-              {/* <div>
-              <img src={logo9.src} className='social_logo' /> 
-              </div> */}
-            </Slider>
-        </div></div>
+                <Slider {...settings} className="w-100">
+                  <div>
+                    <img src={logo1.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                    <img src={logo2.src} className='social_logo' /> 
+                  </div> 
+                  <div>
+                  <img src={logo3.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                  <img src={logo4.src} className='social_logo' /> 
+                  </div> 
+                  <div>
+                  <img src={logo5.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                  <img src={logo6.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                  <img src={logo7.src} className='social_logo' /> 
+                  </div>  
+                  <div>
+                    <img src={logo1.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                    <img src={logo2.src} className='social_logo' /> 
+                  </div> 
+                  <div>
+                  <img src={logo3.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                  <img src={logo4.src} className='social_logo' /> 
+                  </div> 
+                  <div>
+                  <img src={logo5.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                  <img src={logo6.src} className='social_logo' /> 
+                  </div>
+                  <div>
+                  <img src={logo7.src} className='social_logo' /> 
+                  </div> 
+                  {/* <div>
+                  <img src={logo9.src} className='social_logo' /> 
+                  </div> */}
+                </Slider>
+            </div>
+        </div>
        
-      <Projects />
-      {/* <OurProject /> */}
-      <About />
-      {/* <Ourpurpose />  */}
-      <Brand />
-      {/* <HomeBlog /> */}
-      <Feedback />
-      <Career />
-      {/* <VerticalScroll /> */}
-              
-      <FooterMap />
-      <Footer />
-    </div>
+        <Projects />
+        {/* <OurProject /> */}
+        <About />
+        {/* <Ourpurpose />  */}
+        <Brand heading={"The brand we have worked with"}  bgcolor="" color="text-white" />
+        {/* <HomeBlog /> */}
+        <Feedback />
+        <Career />
+        {/* <VerticalScroll /> */}
+                
+        <FooterMap />
+        <Footer />
+      </div>
 
-      
+      {showModal && 
+        <Request 
+          onCloseModal={toggleModal} 
+        />
+      }
     </>
   )
 }

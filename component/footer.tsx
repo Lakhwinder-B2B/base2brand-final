@@ -198,8 +198,8 @@ export default function Header() {
           <div className="mb-sm-0 mb-4 footerMenu">
             <h5>India (headquater) </h5>
             <ul className="mb-0">
-              <li>F-209, Industrial area Phase 8-B,<br/>
-                Sector 74, Mohali, 160074<br/>
+              <li>F-209, Industrial area Phase 8-B, <br/>
+                Sector 74, Mohali, 160074 <br/>
                 <a className="text-white" href="tel:+91-9872487850">+91 9872487850</a></li>
             </ul>
           </div>
@@ -207,7 +207,7 @@ export default function Header() {
           <div className="mb-sm-0 mb-4 footerMenu">
           <h5>USA</h5>
             <ul className="mb-0">
-              <li>7311 Gladys Ave, El Cerrito, CA 94530,<br/>
+              <li>7311 Gladys Ave, El Cerrito, CA 94530, <br/>
                USA, <a className="text-white" href="tel:+1-720-903-5933">+1 (720) 903-5933</a></li>
              
             </ul>
@@ -217,7 +217,7 @@ export default function Header() {
           <div className="mb-sm-0 mb-4 footerMenu">
             <h5>UK</h5>
             <ul className="mb-0">
-              <li>Ms Ady 114, Bellchase Trail Brampton<br/>
+              <li>Ms Ady 114, Bellchase Trail Brampton <br/>
                ON L6P 3LA <a className="text-white" href="tel:+44-7552-535341">+44 7552 535341</a></li>
              
             </ul>

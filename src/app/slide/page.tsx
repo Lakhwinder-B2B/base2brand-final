@@ -68,7 +68,7 @@ const Home = () => {
     </div> 
     <div className="container">
     <div className="row">
-      <div className="col-md-4">
+      <div className="col-lg-4 col-md-6 mb-3">
         <div className="service_box_outer greenGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">
@@ -82,7 +82,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-6 mb-3">
         <div className="service_box_outer purpleGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">
@@ -97,7 +97,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-md-4">
+        <div className="col-lg-4 col-md-6 mb-3">
         <div className="service_box_outer skyBlueGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">
@@ -112,7 +112,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-md-4 mt-4">
+        <div className="col-lg-4 col-md-6 mb-3">
         <div className="service_box_outer yellowGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">
@@ -127,7 +127,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-md-4 mt-4">
+        <div className="col-lg-4 col-md-6 mb-3">
         <div className="service_box_outer pinkGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">
@@ -142,7 +142,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-md-4 mt-4">
+        <div className="col-lg-4 col-md-6 mb-3">
         <div className="service_box_outer blueGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">

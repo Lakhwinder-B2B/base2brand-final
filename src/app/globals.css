@@ -885,10 +885,6 @@ img.check_icon {
   width: 100%;
   overflow: hidden;
 }
-.animated-imgs .canvas{
-  height: calc(100vh - 200px);
-  width: auto;
-}
 .tabs_link {
   line-height: normal !important;
   margin-bottom: 15px;
@@ -1156,7 +1152,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   
   .b2b-achievements-wrap img {
     width: auto;
-    height: 50px;
+    height: 40px;
   }
   .b2b-partners-heading {
     font-size: 30px;
@@ -1184,9 +1180,9 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: normal;
   }
   .b2b-btn-sm {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 18px;
-    padding: 13px 38px;
+    padding: 10px 30px;
   }
   .b2b-sub-heading-bold {
     font-size: 28px;
@@ -1273,7 +1269,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: 26px;
   }
   .footerMenu ul li a, .footerMenu ul li {
-    font-size: 12px;
+    font-size: 11px;
   }
   .Typewriter span {
     font-size: 26px;
@@ -1286,11 +1282,14 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 14px;
     line-height: 24px;
     padding: 10px 35px;
-}
-.bannerSection .sub_text {
-  font-size: 14px;
-  line-height: 22px;
-}
+  }
+  .bannerSection .sub_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .service_box_gradiant .b2b-service-heading {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width:1200px ){
@@ -1328,10 +1327,14 @@ body .request-form.fade.transformAnim .modal-dialog {
     margin-bottom: 0;
   }
   .b2b-achievements-wrap img {
-    height: 45px;
+    height: 36px;
+  }
+  .b2b-achievements-wrap h2 {
+    font-size: 20px;
+    line-height: 20px;
   }
   .b2b-achievements-wrap p {
-    font-size: 11px;
+    font-size: 10px;
     margin-bottom: 0;
   }
   .b2b-workProcess-wrap .img-wrap {
@@ -1358,12 +1361,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   .bg_feedback {
     padding: 1rem 2rem;
   }
-  .bg_feedback {
-    background: #111616 !important;
-    height: 300px;
-    border-radius: 10px;
-    margin: 0 15px;
-  }
+ 
   .feedback_user h3 {
     font-size: 12px !important;
   }
@@ -1405,6 +1403,12 @@ body .request-form.fade.transformAnim .modal-dialog {
   .footer p {
     font-size: 12px;
   }
+  .service_box_gradiant .b2b-service-heading {
+    font-size: 16px;
+  }
+  .bg_feedback .b2b-text {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1024px){
@@ -1421,7 +1425,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     height: 34px;
   }
   .b2b-achievements-wrap p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .b2b-text {
     font-size: 11px;
@@ -1453,7 +1457,24 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 30px !important;
   }
   .Typewriter span{
-    font-size: 35px !important;
+    font-size: 20px !important;
+    line-height: 23px;
+  }
+  .sub_heading {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .bannerSection .sub_text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .b2b-btn-lg {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 8px 25px;
+  }
+  .logo-slider .slick-slider {
+    margin-top: 30px;
   }
   .col.borderStack {
     flex: 33% !important;
@@ -1529,14 +1550,13 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .bg_feedback {
     padding: 2rem !important;
-    height: 425px;
   }
   .b2b-partners-heading {
-    font-size: 16px;
+    font-size: 20px;
     line-height: normal;
   }
   .b2b-heading {
-    font-size: 24px;
+    font-size: 20px;
     line-height: normal;
   }
   .section-padding-hm-serv {
@@ -1545,12 +1565,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   body .b2b-workProcess-wrap {
     justify-content: center !important;
   }
-  .animated-imgs {
-    height: 300px;
-  }
-  .animated-imgs .canvas{
-    height: 300px;
-  }
+  
   .slider_vertical{
     display: none !important;
   }
@@ -1936,17 +1951,9 @@ ul.nav.nav-pills.mb-3 {
     line-height: normal;
     padding: 8px 20px;
   }
-  .b2b-partners-heading {
-    font-size: 18px;
-    line-height: 25px;
-  }
   img.social_logo {
     height: 82px;
     margin: 0 auto 0;
-  }
-  .b2b-heading {
-    font-size: 24px;
-    line-height: 34px;
   }
   .b2b-sub-heading {
     font-size: 20px;
@@ -2042,6 +2049,38 @@ ul.nav.nav-pills.mb-3 {
     width: 100%;
     margin-bottom: 8px;
   }
+  .sub_heading br{
+    display: none;
+  }
+  .banner_icon_section {
+    width: 94px;
+  }
+  .animated-imgs {
+    height: 300px;
+  }
+  .bg_feedback{
+    position: relative;
+  }
+  .feedback_user {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .footer-form .form-btn {
+    font-size: 12px;
+    padding: 9px 24px;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+  }
+  .footer-form textarea {
+    height: 159px;
+  }
+  .footer-form input.form-control, .footer-form select, .footer-form textarea {
+    padding: 14px 18px !important;
+    font-size: 12px;
+    border-radius: 10px !important;
+  }
+
 }
 
 @media screen and (max-width:575px) {
@@ -2076,12 +2115,72 @@ ul.nav.nav-pills.mb-3 {
   .bg_feedback {
     margin-top: 1rem;
     padding: 1rem !important;
+    height: 330px;
+  }
+  .bg_home .sub_text {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .Typewriter span {
+    font-size: 22px !important;
+  }
+  .sub_heading {
+    font-size: 14px;
+  }
+  .banner_icon_section {
+    width: 70px;
+  }
+  .address1 {
+    position: absolute;
+    top: 18%;
+    left: 70px;
+  }
+}
+@media screen and (max-width: 375px){
+  .b2b-achievements {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .b2b-achievements .count-col {
+    width: 100%;
+  }
+  img.name_latter {
+    height: 62px !important;
+  }
+  .bg_feedback {
+    margin: 0;
+  }
+  .bg_feedback p {
+    font-size: 11px !important;
+  }
+  .bgimg_feed1 .slick-prev {
+    left: -42px !important;
+  }
+  .bgimg_feed1 .slick-next {
+    right: -42px !important;
+  }
+  .reviewSlider {
+    margin-bottom: 20px !important;
+  }
+  .footer-map .header-columns.p-5 {
+    padding: 1rem !important;
+  }
+  footer.footer p {
+    font-size: 10px !important;
+  }
+  .address1 {
+    top: 18%;
+    left: 62px;
+  }
+  span.addressDot {
+    width: 14px;
+    height: 14px;
   }
 }
 @media screen and (max-height: 600px){
   .banner_icon_section {
     margin-bottom: 4rem;
-    width: 145px;
+    width: 94px;
   }
   .client_desc_data p {
     margin-bottom: 0 !important;

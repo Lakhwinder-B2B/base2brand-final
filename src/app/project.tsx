@@ -106,7 +106,10 @@ export default function home() {
                     
                       <div>
                         <div className='img-wrap'>
-                          <img src={processIcon4.src} />
+                          <img src={processIcon4.src} className="icon" />
+                          <div className='animated-icon-wrap'>
+                            <img src={processIcon4Anim.src} className="animated-icon" />
+                          </div>
                         </div>
                         <p className='text-white text-center'>Development</p>
                       </div>
