@@ -318,6 +318,7 @@ width: 80%;
 .header-padding{
     padding-top: 100px !important;
 }
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/digitai-markating-packages/digitai-markating-packages.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -429,6 +430,7 @@ width: 80%;
         font-weight: 400;
         line-height: 26px;
     }
+
     .titl-css {
 
 
@@ -442,7 +444,7 @@ width: 80%;
             0px -2px 0px rgba(255, 255, 255, 1),
             1px -1px 0px rgba(255, 255, 255, 1),
             2px 0px 0px rgba(255, 255, 255, 1);
-            letter-spacing: 3px;
+        letter-spacing: 3px;
     }
 
 
@@ -464,6 +466,7 @@ width: 80%;
         color: white;
         font-weight: 600;
     }
+
     .titl-css {
 
 
@@ -477,10 +480,10 @@ width: 80%;
             0px -2px 0px rgba(255, 255, 255, 1),
             1px -1px 0px rgba(255, 255, 255, 1),
             2px 0px 0px rgba(255, 255, 255, 1);
-            letter-spacing: 3px;
-            font-size: 36px !important;
+        letter-spacing: 3px;
+        font-size: 36px !important;
     }
-   
+
 
 }
 
@@ -587,8 +590,9 @@ width: 80%;
         0px -2px 0px rgba(255, 255, 255, 1),
         1px -1px 0px rgba(255, 255, 255, 1),
         2px 0px 0px rgba(255, 255, 255, 1);
-        letter-spacing: 3px;
+    letter-spacing: 3px;
 }
+
 .backlinear {
     padding: 20px;
     background: linear-gradient(148deg, #7411e1, #396bdb);
@@ -599,8 +603,10 @@ width: 80%;
     rotate: -3deg;
     transition: transform 0.3s ease;
 }
+
 .backlinear:hover {
-    transform: scale(1.05); /* Slight enlargement on hover */
+    transform: scale(1.05);
+    /* Slight enlargement on hover */
 }
 
 .list {
@@ -679,11 +685,14 @@ img.Image-icon {
     width: 93%;
     margin: 0 auto;
 }
+
 .icon-image {
     transition: transform 0.3s ease;
 }
+
 .icon-image:hover {
-    transform: scale(1.4); /* Slight enlargement on hover */
+    transform: scale(1.4);
+    /* Slight enlargement on hover */
 }
 
 
@@ -712,6 +721,14 @@ img.Image-icon {
         justify-content: space-between;
         gap: 27px;
     }
+    button.nav-link {
+        width: 100% !important;
+        margin-right: 20px !important;
+        padding: 10px 20px !important;
+        line-height: 25px !important;
+        font-size: 16px !important;
+    }
+
 }
 
 
@@ -744,8 +761,78 @@ img.Image-icon {
     .icon-image {
         width: 50px;
     }
+    button.nav-link {
+        margin: 0% !important;
+    }
+    .line-1 {
+        border-right: 0px !important;
+    }
+ 
 
 }
+
+
+
+
+
+
+
+/* ChousePackages */
+.button-tabs {
+    padding-right: 50px !important;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+}
+
+button.nav-link {
+    color: #fff !important;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 20px ;
+    width: 70%;
+    border: 2px solid white;
+    transition: transform 0.3s ease;
+    line-height: 22px;
+    font-size: 18px !important;
+}
+
+button.nav-link.active {
+    background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+    border: 2px solid white !important;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 12px 20px !important;
+    background: linear-gradient(45deg, #7411E1, #396BDB) !important;
+   
+   font-size: 18px !important;
+
+}
+.line-1 {
+    border-right: 2px solid #ffffff4a;
+}
+/* .gk-b2b-btn:hover {
+    transform: scale(1.2);
+} */
+.gk-b2b-btn:hover {
+    transform: translateY(-6px);
+}
+
+.gk-b2b-btn::after {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 0;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0.6) 100%);
+    transform: skewX(-25deg);
+}
+
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/shopify-pricing/ShopifyPricing.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
@@ -1090,4 +1177,10 @@ img.Image-icon {
 }
 .headercall{
     width: auto;
+}
+/* .gk-b2b-btn:hover {
+    transform: scale(1.2);
+} */
+.gk-b2b-btn:hover {
+    transform: translateY(-6px);
 }

@@ -1,0 +1,672 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/our-project.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.bgimg_feed{
+    background: #111;
+}
+.bgimg_feed1 .carousel-inner {
+    background: #111;
+}
+.feedback_heading strong {
+    color: #F47B52;
+    font-weight: 800;
+}
+ul.nav.nav-pills.mb-3 {
+   gap: 30px;
+}
+p.about_data {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+button.nav-link.active {
+    background:transparent !important;
+    border-bottom:2px solid #F47B52 !important;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 12px 20px;
+}
+button.nav-link {
+    color: #fff !important;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 12px 20px;
+}
+.main_box_product {
+    background: #1D1D1D;
+    border-radius: 22px;
+    padding: 20px;
+}
+.desc_data h2 {
+    font-size: 33px;
+}
+span.sub_title {
+    color: #F2F1F1;
+    font-size: 18px;
+}
+.main_box_product h3 {
+    color: #F47B52;
+    font-size: 34px;
+}
+.main_box_product p {
+    font-size: 22px;
+    color: #fff;
+}
+.tab-content.pillPadding {
+    padding: 20px 0rem 0 0;
+}
+a.name_project {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 26px;
+    color: #fff;
+    -webkit-text-decoration: auto;
+            text-decoration: auto;
+    cursor: pointer;
+}
+img.arrow {
+    width: 50px;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative;
+    top: 3px;
+}
+
+.removeBgTransprint{
+    background: transparent !important;
+}
+/* about css */
+.accordion-item {
+    background: transparent !important;
+}
+button.accordion-button {
+    background: transparent !important;
+    color: #A3A3A3 !important;
+    font-size: 18px !important;
+    padding: 20px 0px;
+}
+.accordion-button:not(.collapsed){
+    background: transparent !important; 
+    color:#fff !important;
+}
+.accordion-body{
+    color:#fff !important;
+    padding: 20px 0px !important;
+
+}
+.collapse {
+    visibility: visible !important;
+}
+.accordion-button::after {
+    filter: contrast(0);
+}
+h3.sub_story {
+    color: #F47B52;
+    line-height: 2;
+    margin-top: 2rem;
+}
+.accordion-button:focus{
+    border:none !important;
+    box-shadow: none !important
+}
+.purpose{
+    transition: 0.4s;
+}
+.purpose:hover{
+    border: 1px solid #F47B52;
+}
+/* purpose css */
+.purpose {
+    background: #000000;
+    padding: 30px;
+    border-radius: 10px;
+}
+.purpose h4 {
+    color: #F47B52;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+img.icon_our {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.borderLeft{ 
+        border-image-source: linear-gradient(#F47B52, #4D65E5);
+        padding: 16px;
+        border-image-repeat: round;
+        border-image-slice: 1;
+        border-width: 0px 0px 0px 2px; 
+}
+.borderGradiant h1 {
+    font-size: 80px;
+    font-weight: 300;
+}
+.borderGradiant {
+    padding: 45px 0px;
+}
+.borderGradiant p {
+    font-weight: 200;
+}
+
+
+/* brand logo */
+.bg_blackBrand {
+    background: #000;
+    padding: 3rem;
+    text-align: center;
+    /* border-radius: 21px;
+    box-shadow: 0px 5px 14px #000; */
+}
+.logo_brand {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0 5rem;
+        margin-top: 2rem;
+    }
+.logo_brand img {
+    width: 180px !important;
+    height: 100px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    object-fit: contain;
+}
+
+/* blog css */
+.blog_section {
+    border-width: 2px 2px 2px 2px;
+    border-radius: 10px !important;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to bottom, #4D65E5, #F47B52 );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.blog_section .p-4 {
+    background: #111616;
+    border-radius: 0px 0px 7px 7px;
+}
+p.blog_desc.mb-5 {
+    font-size: 20px;
+}
+.title_desc {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.blog_section img.blog {
+    border-radius: 7px 7px 0px 0px;
+    background: #111616;
+    width: 100%;
+    height: 300px;
+}
+p.blob_sub {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    line-height: 30px;
+}
+
+/* feedback css */
+.bg_feedback {
+    /* background: #00000080; */
+    padding: 2rem 3rem;
+    text-align: left;
+}
+.bgimg:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #0000008c;
+    height: 100%;
+    width: 100%;
+}
+.p-5.Mainslide {
+    z-index: 9;
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bg_feedback .fs-6 {
+    margin-bottom: 3rem;
+}
+button.carousel-control-prev {
+    /* position:static; */
+    background:#fff;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    opacity:1;
+    left:3rem;
+    top: 50%;
+    border-radius: 50px;
+}
+button.carousel-control-next {
+    /* position:static; */
+    background: #fff;
+    width: 40px;
+    opacity:1;
+    height: 40px;
+    top: 50%; 
+    right:3rem;
+    padding: 10px;
+    border-radius: 50px;
+}
+/* span.carousel-control-next-icon {
+    filter: invert(0) !important;
+} */
+.miui{
+    filter: invert(1);
+    width: 200px !important;
+
+}
+img.name_latter {
+    width: 100px;
+    object-fit: contain;
+}
+.feedback_user h3 {
+    color: #F27B54;
+}
+.col-md-6.position-relative h2.feedback_heading.mb-4{
+    color:#fff !important;
+}
+
+/* career css */
+span.graydiant_text {
+    background: -webkit-linear-gradient(left, #F47B52, #4D65E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+p.mb-5.line-height {
+    line-height: 1.8;
+}
+.carrerImg{
+position:relative;
+top:3rem;
+}
+.carrerImgs{
+    position:relative;
+    bottom:0rem;
+}
+
+.unique-head {
+    font-size: 52px !important;
+    line-height: 60px !important;
+}
+
+/* .sliding-slide .row {
+    height: 100vh;
+} */
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/shopify-pricing/ShopifyPricing.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.gk-sub-heading {
+    font-size: 50px;
+    line-height: 65px;
+}
+.gk-heading-bold {
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+.gk-sub-heading-bold {
+    font-size: 45px;
+    line-height: 55px;
+    color: white;
+    font-weight: 600;
+}
+
+.gk-b2b-bold {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.gk-b2b-btn-text {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.gk-rendom-text {
+    color: #82BC29;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+.gk-acco-text {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.gk-sub-text-small {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.gk-heading-bold {
+    font-size: 55px;
+    color: white;
+    line-height: 65px;
+}
+
+
+
+/* text mediaquary */
+@media only screen and (max-width: 1024px) {
+    .gk-sub-heading {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .gk-heading-bold {
+        font-size: 36px !important;
+        font-weight: 500;
+    }
+    .gk-sub-heading-bold {
+        font-size: 26px !important;
+        line-height: 38px !important;
+        color: white !important;
+        font-weight: 600 !important;
+    }
+    .gk-b2b-bold {
+        font-size: 26px !important;
+        line-height: 36px !important;
+        
+    }
+    .gk-b2b-btn-text {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .gk-rendom-text {
+        color: #82BC29;
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+    .gk-acco-text {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 500;
+    }
+    .gk-sub-text-small {
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    
+    
+}
+@media only screen and (max-width: 1400px) {
+
+
+    .gk-heading-bold {
+        font-size: 38px;
+        color: white;
+        line-height: 48px;
+    }
+    .gk-sub-heading-bold {
+        font-size: 40px;
+        line-height: 50px;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+.gk-heading-bold {
+    font-size: 26px !important;
+    color: white;
+    line-height: 36px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button */
+.gk-b2b-btn {
+    background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    transition: 0.6s;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css all css */
+.b2b-gray-bg-gk{
+    background-color: #12151D;
+}
+.gk-width-lg{
+    width: 65%;
+    margin: 0 auto;
+}
+.Shopify-Website-img {
+    width: 90% !important;
+}
+.BG-RED {
+    /* background: #12151d; */
+    background: linear-gradient(277deg, #7411e1d4, #396bdbba);
+}
+.fontlinear {
+
+
+    font: 700 50px 'Droid Sans', sans-serif;
+    color: #396BDB;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 1),
+                 0px 2px 0px rgba(255, 255, 255, 1),
+                -1px 1px 0px rgba(255, 255, 255, 1),
+                -2px 0px 0px rgba(255, 255, 255, 1),
+                -1px -1px 0px rgba(255, 255, 255, 1),
+                 0px -2px 0px rgba(255, 255, 255, 1),
+                 1px -1px 0px rgba(255, 255, 255, 1),
+                 2px 0px 0px rgba(255, 255, 255, 1);
+  }
+  .list {
+    font-size: 16px;
+    color: white;
+}
+.card-btn {
+    background: transparent;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0;
+    border-bottom: 2px solid aliceblue;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.gk-rounded {
+    border-color: white;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    transition: border-color 0.3s ease;
+  }
+  
+  .gk-rounded:hover {
+    transition-delay: 0.3; /* Delay the start of the transition by 1 second */
+    border-color: #396BDB;
+  }
+  .para {
+    padding: 20px 20px;
+}
+
+
+button.accordion-button.collapsed {
+    padding: 0 !important;
+}
+button.accordion-button {
+    padding: 0 !important;
+}
+img.Image-icon {
+    width: 90px;
+}
+
+
+.gk-bg-Contact{
+    background-image: url(/_next/static/media/gk-bg-Contact.b3f0ee8c.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+.card-price {
+    width: 30%;
+}
+.cardi-main {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+
+.border-radious {
+    border-radius: 10px;
+}
+.gk-width {
+    width: 93%;
+    margin: 0 auto;
+}
+img.Image-icon {
+    width: 65px !important;
+}
+.divider {
+    width: 60%;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .gk-width-lg{
+        width: 100%;
+    }
+    .Shopify-Website-img {
+        width: 100% !important;
+    }
+    .para {
+        padding: 10px 10px;
+    }
+    .card-price {
+        width: 48%;
+    }
+    .cardi-main {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 27px;
+    }
+   
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    img.Image-icon {
+        width: 50px !important;
+    }
+    .gk-width {
+        width: 100%;
+    }
+    .divider {
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width: 767px) {
+  
+    .card-price {
+        width: 100%;
+    }
+    .cardi-main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px;
+        justify-content: space-between;
+    }
+    .headercall{
+        width: 250px !important;
+    }
+    .gk-heder {
+      
+        font-size: 14px !important;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+
+}
+.main_footer {
+    border-top: 2px solid #5C5C5C;
+    border-bottom: 2px solid #5C5C5C;
+}
+.headercall{
+    width: auto;
+}
+/* .gk-b2b-btn:hover {
+    transform: scale(1.2);
+} */
+.gk-b2b-btn:hover {
+    transform: translateY(-6px);
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./src/app/shopify-pricing/PresonalHeader.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+
+@media only screen and (max-width: 767px) {
+    .logo-header{
+width: 80%;
+    }
+}
+.header-padding{
+    padding-top: 100px !important;
+}
+

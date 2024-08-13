@@ -48,15 +48,63 @@ const PerfectPlan = () => {
                     <li>Social Media Integration</li>
                     <li>Google Analytics Integration</li>
                   </div>
-                  <button className=" card-btn mt-4 ">
-                    <i
-                      className="fa fa-chevron-right text-white"
-                      aria-hidden="true"
-                    ></i>
-                    <span className="gk-b2b-btn-text text-white">
-                      View More Inclusions
-                    </span>
-                  </button>
+                  {/*  */}
+                  <div className="vewmore mt-4">
+                    <div
+                      className="accordion Accodian-style"
+                      id="accordionPanelsStayOpenExample"
+                    >
+                      <div
+                        className="accordion-item"
+                        style={{ border: "none" }}
+                      >
+                        <p
+                          className="accordion-header pb-4"
+                          id="panelsStayOpen-headingFourty"
+                          style={{ borderBottom: "2px solid white" }}
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFourty"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFourty"
+                          >
+                            <span className="gk-b2b-btn-text text-white">
+                              View More Inclusions
+                            </span>
+                          </button>
+                        </p>
+                        <div
+                          id="panelsStayOpen-collapseFourty"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-collapseFourty"
+                        >
+                          <div className="accordion-body pb-0">
+                            <div className="list d-flex flex-column gap-3">
+                              <li>Shopify Website Creation and Setup</li>
+                              <li className="fw-bold fs-5">
+                                Android Hybrid App
+                              </li>
+                              <li className="fw-bold fs-5">
+                                Google Play Publishing
+                              </li>
+                              <li>iOS Web App</li>
+                              <li>Referral Integration</li>
+                              <li className="fw-bold fs-5 b2b-sub-text">
+                                Abandoned Checkout
+                              </li>
+                              <li>Upto 200 Products Upload By Our Team</li>
+                              <li className="fw-bold fs-5">
+                                SEO Ready Website
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <h5 className="text-white mt-lg-3 mt-2 pt-lg-4 pt-3 gk-border-top-2px  gk-text-bold">
                     TALK TO US
                   </h5>
@@ -90,15 +138,63 @@ const PerfectPlan = () => {
                     <li className="fw-bold fs-5">SEO Ready Website</li>
                     <li>SSL Certificate</li>
                   </div>
-                  <button className=" card-btn mt-4 ">
-                    <i
-                      className="fa fa-chevron-right text-white"
-                      aria-hidden="true"
-                    ></i>
-                    <span className="gk-b2b-btn-text  text-white">
-                      View More Inclusions
-                    </span>
-                  </button>
+                                   {/*  */}
+                                   <div className="vewmore mt-4">
+                    <div
+                      className="accordion Accodian-style"
+                      id="accordionPanelsStayOpenExample"
+                    >
+                      <div
+                        className="accordion-item"
+                        style={{ border: "none" }}
+                      >
+                        <p
+                          className="accordion-header pb-4"
+                          id="panelsStayOpen-headingTwentyOne"
+                          style={{ borderBottom: "2px solid white" }}
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwentyOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwentyOne"
+                          >
+                            <span className="gk-b2b-btn-text text-white">
+                              View More Inclusions
+                            </span>
+                          </button>
+                        </p>
+                        <div
+                          id="panelsStayOpen-collapseTwentyOne"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-collapseTwentyOne"
+                        >
+                          <div className="accordion-body pb-0">
+                            <div className="list d-flex flex-column gap-3">
+                              <li>Shopify Website Creation and Setup</li>
+                              <li className="fw-bold fs-5">
+                                Android Hybrid App
+                              </li>
+                              <li className="fw-bold fs-5">
+                                Google Play Publishing
+                              </li>
+                              <li>iOS Web App</li>
+                              <li>Referral Integration</li>
+                              <li className="fw-bold fs-5 b2b-sub-text">
+                                Abandoned Checkout
+                              </li>
+                              <li>Upto 200 Products Upload By Our Team</li>
+                              <li className="fw-bold fs-5">
+                                SEO Ready Website
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <h5 className="text-white mt-lg-3 mt-2 pt-lg-4 pt-3 gk-border-top-2px  gk-text-bold">
                     TALK TO US
                   </h5>
@@ -132,15 +228,63 @@ const PerfectPlan = () => {
                     <li>Upto 200 Products Upload By Our Team</li>
                     <li className="fw-bold fs-5">SEO Ready Website</li>
                   </div>
-                  <button className=" card-btn mt-4 ">
-                    <i
-                      className="fa fa-chevron-right text-white"
-                      aria-hidden="true"
-                    ></i>
-                    <span className="gk-b2b-btn-text  text-white">
-                      View More Inclusions
-                    </span>
-                  </button>
+                  {/*  */}
+                  <div className="vewmore mt-4">
+                    <div
+                      className="accordion Accodian-style"
+                      id="accordionPanelsStayOpenExample"
+                    >
+                      <div
+                        className="accordion-item"
+                        style={{ border: "none" }}
+                      >
+                        <p
+                          className="accordion-header pb-4"
+                          id="panelsStayOpen-headingTwenty"
+                          style={{ borderBottom: "2px solid white" }}
+                        >
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwenty"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwenty"
+                          >
+                            <span className="gk-b2b-btn-text text-white">
+                              View More Inclusions
+                            </span>
+                          </button>
+                        </p>
+                        <div
+                          id="panelsStayOpen-collapseTwenty"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="panelsStayOpen-collapseTwenty"
+                        >
+                          <div className="accordion-body pb-0">
+                            <div className="list d-flex flex-column gap-3">
+                              <li>Shopify Website Creation and Setup</li>
+                              <li className="fw-bold fs-5">
+                                Android Hybrid App
+                              </li>
+                              <li className="fw-bold fs-5">
+                                Google Play Publishing
+                              </li>
+                              <li>iOS Web App</li>
+                              <li>Referral Integration</li>
+                              <li className="fw-bold fs-5 b2b-sub-text">
+                                Abandoned Checkout
+                              </li>
+                              <li>Upto 200 Products Upload By Our Team</li>
+                              <li className="fw-bold fs-5">
+                                SEO Ready Website
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <h5 className="text-white mt-lg-3 mt-2 pt-lg-4 pt-3 gk-border-top-2px  gk-text-bold">
                     TALK TO US
                   </h5>

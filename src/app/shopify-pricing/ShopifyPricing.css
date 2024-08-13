@@ -340,3 +340,9 @@ img.Image-icon {
 .headercall{
     width: auto;
 }
+/* .gk-b2b-btn:hover {
+    transform: scale(1.2);
+} */
+.gk-b2b-btn:hover {
+    transform: translateY(-6px);
+}
