@@ -34,7 +34,7 @@ const page = () => {
      
       />
       <MarketingPackages />
-      <Brand heading="Our Digital Marketing Clients" />
+      <Brand heading="Our Digital Marketing Clients" bgcolor=""  color="text-white" />
       <FacebookAds />
       <SocialMediaMarketingI />
       <GoogleAds />
