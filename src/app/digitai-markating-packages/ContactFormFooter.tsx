@@ -5,30 +5,59 @@ import mailto from "../../../public/img/mailto.svg";
 import location from "../../../public/img/location.svg";
 import Link from "next/link";
 
-const ContactWeb = () => {
+const ContactFormFooter = () => {
   return (
     <>
       <section className="gk-bg-Contact pt-lg-5 pb-lg-5 pt-4 pb-4">
         <div className="b2b-container-lg">
           <h2 className="gk-heading-bold text-center text-uppercase text-cente m-auto gk-width">
-            Let's build an e-commerce masterpiece together! Drop us a line for
-            Shopify website development.
+            Ready to Boost Your Digital Growth?
           </h2>
+          <p className=" b2b-sub-text text-center pt-3 pb-3 gk-width-lg">
+            Fill out the form below and let Base2Brand boom your online success.
+            Our digital marketing packages enhance your brand, drive traffic,
+            and maximize growth.
+          </p>
           <div className="d-flex flex-lg-row justify-content-lg-between gap-lg-5 gap-md-3 gap-4 align-items-center flex-column pt-lg-5  pb-lg-4 pt-4 pb-3">
-            <div className="   counr-1 bg-white border-radious  w-lg-75  w-md-100 w-full">
+            <div className="   counr-1 bg-white border-radious  w-lg-100  w-md-100 ">
               <div className="p-lg-4 p-4  w-100 ">
                 <h3 className="b2b-sub-heading text-black">
                   Submit Details Below To Get A Call Back
                 </h3>
                 <form className="">
                   <div className="mb-3">
-                  <label htmlFor="name" className="text-black mb-2">
-                        Name
+                    <label htmlFor="name" className="text-black mb-2">
+                      Name
+                    </label>
+                    <input
+                      id="name"
+                      type="text"
+                      placeholder="Enter your name"
+                      className="form-control w-100"
+                      style={{
+                        padding: "10px",
+                        borderStyle: "none",
+                        border: "1px solid",
+                      }}
+                    />
+                  </div>
+                  <div className="d-flex justify-content-between mb-3">
+                    <div className="me-2 flex-fill">
+                      <label htmlFor="email" className="text-black mb-2">
+                        Email
+                        <span
+                          style={{
+                            color: "red",
+                          }}
+                        >
+                          {" "}
+                          *
+                        </span>
                       </label>
                       <input
-                        id="name"
-                        type="text"
-                        placeholder="Enter your name"
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email"
                         className="form-control w-100"
                         style={{
                           padding: "10px",
@@ -36,64 +65,39 @@ const ContactWeb = () => {
                           border: "1px solid",
                         }}
                       />
-                  </div>
-                  <div className="d-flex justify-content-between mb-3">
-                    <div className="me-2 flex-fill">
-                    <label htmlFor="email" className="text-black mb-2">
-                          Email
-                          <span
-                            style={{
-                              color: "red",
-                            }}
-                          >
-                            {" "}
-                            *
-                          </span>
-                        </label>
-                        <input
-                          id="email"
-                          type="email"
-                          placeholder="Enter your email"
-                          className="form-control w-100"
-                          style={{
-                            padding: "10px",
-                            borderStyle: "none",
-                            border: "1px solid",
-                          }}
-                        />
                     </div>
                     <div className="ms-2 flex-fill">
-                    <label htmlFor="phone" className="text-black mb-2">
-                          Phone Number
-                        </label>
-                        <input
-                          id="phone"
-                          type="number"
-                          placeholder="Enter your number"
-                          className="form-control w-100"
-                          style={{
-                            padding: "10px",
-                            borderStyle: "none",
-                            border: "1px solid",
-                          }}
-                        />
-                    </div>
-                  </div>
-                  <div className="mb-3">
-                  <label htmlFor="message" className="text-black mb-2">
-                        Message
+                      <label htmlFor="phone" className="text-black mb-2">
+                        Phone Number
                       </label>
-                      <textarea
-                        id="message"
-                        placeholder="Give us a small brief about your project"
+                      <input
+                        id="phone"
+                        type="number"
+                        placeholder="Enter your number"
                         className="form-control w-100"
                         style={{
-                          height: "150px",
                           padding: "10px",
                           borderStyle: "none",
                           border: "1px solid",
                         }}
-                      ></textarea>
+                      />
+                    </div>
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="message" className="text-black mb-2">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      placeholder="Give us a small brief about your project"
+                      className="form-control w-100"
+                      style={{
+                        height: "150px",
+                        padding: "10px",
+                        borderStyle: "none",
+                        border: "1px solid",
+                      }}
+                    ></textarea>
                   </div>
                   <div>
                     <button
@@ -108,7 +112,7 @@ const ContactWeb = () => {
                       rel="noopener noreferrer"
                       className="mt-4 gk-acco-text w-100 border-dark p-2 rounded d-block text-center text-black"
                       style={{
-                        border:'2px solid '
+                        border: "2px solid ",
                       }}
                     >
                       Send a WhatsApp Message
@@ -151,8 +155,7 @@ const ContactWeb = () => {
                       rel="noopener noreferrer"
                       className="text-white "
                     >
-                      F, 209, Phase 8B, Industrial Area,
-                       Sector 74, Sahibzada
+                      F, 209, Phase 8B, Industrial Area, Sector 74, Sahibzada
                       Ajit Singh Nagar, Punjab 160074
                     </a>
                   </span>
@@ -166,4 +169,4 @@ const ContactWeb = () => {
   );
 };
 
-export default ContactWeb;
+export default ContactFormFooter;

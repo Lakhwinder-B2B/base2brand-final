@@ -6,7 +6,7 @@ const Footweb = () => {
       <section className="pt-lg-5 pt-4 pb-lg-5 pb-4 b2b-gray-bg ">
         <div className="b2b-container-lg">
           <div className="last-gk">
-            <h2 className="gk-sub-heading-bold text-center text-uppercase text-cente m-auto gk-width">
+            <h2 className="gk-heading-bold  text-center text-uppercase text-cente m-auto gk-width">
               Shopify Website Development Service
             </h2>
             <p className="b2b-sub-text text-center  mt-4 ">
@@ -24,8 +24,18 @@ const Footweb = () => {
               skills and expertise to help you achieve your goals.
             </p>
           </div>
+
         </div>
+
       </section>
+      <div className="text-center p-3 b2b-gray-bg main_footer">
+        <p className="m-0 text-white">
+          ©2024
+          <a className="text-white " target="_blank" href="https://www.base2brand.com/"> base2brand.com </a>
+
+           .All rights reserved
+        </p>
+      </div>
     </>
   );
 };

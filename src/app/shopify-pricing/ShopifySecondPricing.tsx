@@ -1,48 +1,67 @@
 import Image from "next/image";
 import React from "react";
 import ShopifyWebsite from "../../../public/img/Shopify Website.png";
-import "./ShopifyPricing.css"
+import "./ShopifyPricing.css";
 
-const ShopifySecondPricing = () => {
+interface BrandingNew {
+  heading?: string;
+
+  subtxt?: string;
+  btntx?: string;
+  subheading?: string;
+  para1?: string;
+  para2?: string;
+  images?:any;
+}
+
+const ShopifySecondPricing = ({
+  heading,
+  subtxt,
+  btntx,
+  para1,
+  para2,
+  subheading,
+  images,
+}: BrandingNew) => {
   return (
     <>
-      <section className="b2b-brands-wrap b2b-gray-bg-gk  ">
+      <section className="b2b-brands-wra  p b2b-gray-bg-gk py-3 py-lg-5  ">
         <div className="b2b-container-lg">
-          <h2 className="text-center gk-sub-heading-bold  text-white ">
-            Shopify Website Development @ ₹149,000
+          <h2 className="text-center gk-heading-bold  text-white gk-width-lg pb-3 ">
+            {heading}
+
+          
           </h2>
-          <p className="b2b-text text-center ">
-            FREE DOMAIN* | FREE PROFESSIONAL EMAILS*
+          <p className="b2b-text text-center hhh ">
+            {subtxt}
+
+         
           </p>
           <div className="row align-items-lg-center gap-lg-0 gap-4 pt-3 pt-lg-5">
-
             <div className="col-lg-6">
               <Image
-              className="w-100 Shopify-Website-img h-100 h-lg-auto"
-
-                src={ShopifyWebsite}
+                className="w-100 Shopify-Website-img h-100 h-lg-auto"
+                src={ShopifyWebsite}  
                 alt="Shopify Website"
               />
             </div>
             <div className="col-lg-6 pb-lg-0 pb-3">
-              <h1 className="gk-sub-heading-bold">
-                Maximize Your Roi With A Shopify 
-                Website Tailored To Your Business Needs
-              </h1>
+              <h3 className="gk-sub-heading-bold">
+                {subheading}
+               
+              </h3>
               <p className=" b2b-sub-text">
-                Creating a Shopify website involves much more than just setting
-                up a template and adding products. Our team of experienced
-                developers and designers will work with you to create a website
-                that reflects your brand and meets your business needs.
+                {para1}
+              
               </p>
               <p className=" b2b-sub-text">
-                Our process includes in-depth research and analysis of your
-                industry, target audience, and competition, to ensure that your
-                website is optimized for conversions and user experience. We
-                will also integrate important features such as payment gateways,
-                shipping options, and much more to streamline your operations.
+                {para2}
+               
               </p>
-              <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0"> Send a WhatsApp Message </button>
+              <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
+                {btntx}
+              
+              </button>
             </div>
           </div>
         </div>
