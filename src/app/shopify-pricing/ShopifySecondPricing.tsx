@@ -11,6 +11,7 @@ interface BrandingNew {
   subheading?: string;
   para1?: string;
   para2?: string;
+  images?:any;
 }
 
 const ShopifySecondPricing = ({
@@ -20,10 +21,11 @@ const ShopifySecondPricing = ({
   para1,
   para2,
   subheading,
+  images,
 }: BrandingNew) => {
   return (
     <>
-      <section className="b2b-brands-wrap b2b-gray-bg-gk  ">
+      <section className="b2b-brands-wra  p b2b-gray-bg-gk py-3 py-lg-5  ">
         <div className="b2b-container-lg">
           <h2 className="text-center gk-heading-bold  text-white gk-width-lg pb-3 ">
             {heading}
@@ -39,7 +41,7 @@ const ShopifySecondPricing = ({
             <div className="col-lg-6">
               <Image
                 className="w-100 Shopify-Website-img h-100 h-lg-auto"
-                src={ShopifyWebsite}
+                src={ShopifyWebsite}  
                 alt="Shopify Website"
               />
             </div>

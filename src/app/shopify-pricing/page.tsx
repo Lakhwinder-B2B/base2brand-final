@@ -16,6 +16,7 @@ import ExpertiseShopify from "./ExpertiseShopify";
 import ContactWeb from "./ContactWeb";
 import Footweb from "./Footweb";
 import PresonalHeader from "./PresonalHeader";
+import shopifypng from "../../../public/img/Shopify Website.png"
 
 
 
@@ -171,7 +172,8 @@ const page = () => {
       btntx="Send a WhatsApp Message"
       para1="Creating a Shopify website involves much more than just setting up a template and adding products. Our team of experienced developers and designers will work with you to create a website that reflects your brand and meets your business needs."
       para2="Our process includes in-depth research and analysis of your industry, target audience, and competition, to ensure that your website is optimized for conversions and user experience. We will also integrate important features such as payment gateways, shipping options, and much more to streamline your operations."
-      />
+
+     />
       <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
       <PerfectPlan />
       <ExpertiseShopify />

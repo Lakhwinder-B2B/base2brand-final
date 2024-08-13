@@ -52,7 +52,13 @@ const EmailMarkating = () => {
                                         TALK TO US
                                     </h5>
                                     <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                                        +91-9872-487-850
+                                    <a
+                      href="tel:+919872487850"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      +91-9872-487-850
+                    </a>
                                     </h5>
                                 </div>
                             </div>
@@ -78,7 +84,13 @@ const EmailMarkating = () => {
                                         TALK TO US
                                     </h5>
                                     <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                                        +91-9872-487-850
+                                    <a
+                      href="tel:+919872487850"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      +91-9872-487-850
+                    </a>
                                     </h5>
                                 </div>
                             </div>
@@ -105,7 +117,13 @@ const EmailMarkating = () => {
                                         TALK TO US
                                     </h5>
                                     <h5 className="text-white mt-lg-4 mt-3 gk-text-bold">
-                                        +91-9872-487-850
+                                    <a
+                      href="tel:+919872487850"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      +91-9872-487-850
+                    </a>
                                     </h5>
                                 </div>
                             </div>

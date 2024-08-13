@@ -2101,3 +2101,24 @@ ul.nav.nav-pills.mb-3 {
   
 }
 
+
+
+
+
+
+/* gaurav class */
+
+
+
+
+.vewmore .accordion-button {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  gap: 20px;
+}
+.vewmore .accordion-button::after {
+
+  margin-left: 0;
+}
+
