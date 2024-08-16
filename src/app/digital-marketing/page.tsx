@@ -50,9 +50,16 @@ import Slider from 'react-slick';
 export default function Digital() {
   const [showModal, setShowModal] = useState(false);
 
-    const toggleModal = () => {
-      setShowModal(!showModal);
-    };
+  const toggleModal = () => {
+    setShowModal(!showModal);
+    setTimeout(function() {
+      const ModalBody = document.querySelector(".request-form");
+      if(ModalBody){
+        ModalBody.classList.add("transformAnim");
+      }
+                               
+      }, 200);
+  };
    
     const [nav1, setNav1] = useState(null);
     const [nav2, setNav2] = useState(null);

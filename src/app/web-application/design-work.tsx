@@ -28,6 +28,13 @@ export default function DesignWork() {
 
     const toggleModal = () => {
       setShowModal(!showModal);
+      setTimeout(function() {
+        const ModalBody = document.querySelector(".request-form");
+        if(ModalBody){
+          ModalBody.classList.add("transformAnim");
+        }
+                                 
+        }, 200);
     };
 
   return (
