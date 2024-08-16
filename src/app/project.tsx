@@ -62,7 +62,7 @@ export default function home() {
           
               <div className='progress-count d-flex flex-wrap justify-content-between b2b-workProcess'>
                 <div className="count-col">
-                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                  <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                     
                       <div className=''>
                         <div className='img-wrap'>
@@ -78,11 +78,14 @@ export default function home() {
                 </div>
 
                 <div className="count-col">
-                  <div className='d-flex justify-content-between  b2b-workProcess-wrap'>
+                  <div className='d-flex justify-content-center  b2b-workProcess-wrap'>
                       
                       <div>
                         <div className='img-wrap'>
-                          <img src={processIcon2.src} />
+                          <img src={processIcon2.src} className="icon" />
+                          <div className='animated-icon-wrap'>
+                            <img src={processIcon2Anim.src} className="animated-icon" />
+                          </div>
                         </div>
                         <p className='text-white text-center'>Planning</p>
                       </div>
@@ -90,11 +93,14 @@ export default function home() {
                 </div>
 
                 <div className="count-col">
-                  <div className='d-flex justify-content-between  b2b-workProcess-wrap'>
+                  <div className='d-flex justify-content-center  b2b-workProcess-wrap'>
                       
                       <div>
                         <div className='img-wrap'>
-                          <img src={processIcon3.src} />
+                          <img src={processIcon3.src} className="icon" />
+                          <div className='animated-icon-wrap'>
+                            <img src={processIcon3Anim.src} className="animated-icon" />
+                          </div>
                         </div>
                         <p className='text-white text-center'>Design</p>
                       </div>
@@ -102,7 +108,7 @@ export default function home() {
                 </div>
 
                 <div className="count-col">
-                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                  <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                     
                       <div>
                         <div className='img-wrap'>
@@ -117,22 +123,28 @@ export default function home() {
                 </div>
 
                 <div className="count-col">
-                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                  <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                     
                       <div>
                         <div className='img-wrap'>
-                          <img src={processIcon5.src} />
+                          <img src={processIcon5.src} className="icon" />
+                          <div className='animated-icon-wrap'>
+                            <img src={processIcon5Anim.src} className="animated-icon" />
+                          </div>
                         </div>
                         <p className='text-white text-center'>Testing</p>
                       </div>
                   </div>
                 </div>
                 <div className="count-col">
-                  <div className='d-flex justify-content-between b2b-workProcess-wrap'>
+                  <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                       
                       <div>
                         <div className='img-wrap'>
-                          <img src={processIcon6.src} />
+                          <img src={processIcon6.src} className="icon" />
+                          <div className='animated-icon-wrap'>
+                            <img src={processIcon6Anim.src} className="animated-icon" />
+                          </div>
                         </div>
                         <p className='text-white text-center'>Launch</p>
                       </div>

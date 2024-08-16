@@ -1,0 +1,412 @@
+.designTabsWrap .slick-slider {
+    margin-top: 0 !important;
+}
+button.btn_design span {
+    display: grid !important;
+    place-items: center;
+}
+body .designTabsWrap .slick-track {
+    position: relative;
+    width: 100% !important;
+    transform: unset !important;
+}
+.designTabsWrap .slick-slide {
+    position: absolute;
+    left: 50%;
+    height: 100px;
+    width: 100px !important;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease-in-out;
+}
+.designTabsWrap .slick-slide.slick-active.slick-current{
+    opacity: 1;
+    visibility: visible;
+}
+.designTabsWrap .slick-slide button.btn_design {
+    padding: 0;
+}
+.designTabsWrap .slick-slide button.btn_design span {
+    margin: auto;
+}
+.designTabsWrap .slick-track,
+.designTabsWrap .slick-list,
+.designTabsWrap .slick-slider{
+    height: 100px;
+}
+.slick-arrow:before {
+    content: '' !important;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-repeat: no-repeat;
+}
+.designTabsWrap .slick-next:before{
+    background-image: url(../../public/team-img/arrow-right.svg);
+}
+.designTabsWrap .slick-prev:before{
+    background-image: url(../../public/team-img/arrow-left.svg);
+}
+/* tab content  */
+
+.designTabsContentWrap .slick-slide {
+    transition: 0.9s !important;
+    
+}
+
+/* responsive style
+services pages */
+@media screen and (min-width: 1701px){
+    .deliverable-icon {
+        width: 140px;
+        height: 140px;
+        left: -60px;
+    }
+    .odd-row:after,
+    .even-row:after {
+        background-size: 100%;
+    }
+    .even-row .textWrap:before {
+        right: 24px;
+        border-width: 3px;
+    }
+    .even-row .textWrap:after {
+        right: 29px;
+    }
+    .odd-row .textWrap:before {
+        border-width: 3px;
+        left: 0px;
+    }
+    .odd-row .textWrap:after {
+        left: 4px;
+    }
+    .first-row::before {
+        bottom: calc(50% - 44px);
+        left: -85px;
+        background-size: 59% 100%;
+    }
+}
+@media screen and (max-width:1700px) {
+    .deliverable-content .b2b-sub-heading {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .deliverable-content .b2b-text {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .deliverable-icon {
+        width: 120px;
+        height: 120px;
+        left: -47px;
+    }
+}
+@media screen and (max-width: 1600px){
+}
+@media screen and (max-width: 1440px){
+    button.btn_design {
+        font-size: 14px !important;
+    }
+    button.btn_design span {
+        border-width: 10px;
+    }
+    .b2b-text-lg{
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .b2b-text-sm, .designTabsContentWrap ul li{
+        font-size: 14px;
+        line-height: 24px;
+      }
+      .interfaceWrap h3 {
+        font-size: 20px;
+    }
+    .deliverable-content .b2b-sub-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .benefitOuterWrap .b2b-text-sm{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .deliverable-content .b2b-text {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .benefitOuterWrap .b2b-text-sm {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width:1200px ){
+    button.btn_design {
+        font-size: 12px !important;
+    }
+    button.btn_design span {
+        width: 90px;
+        height: 90px;
+    }
+    button.btn_design span img {
+        height: 34px;
+        width: auto;
+    }
+    .designTabsContentWrap img{
+        width: 75%;
+        height: auto;
+    }
+    .deliverable-content {
+        padding: 18px 20px 18px 34px;
+    }
+    .deliverable-icon {
+        width: 100px;
+        height: 100px;
+        left: -33px;
+    }
+    .deliverable-icon-bg {
+        padding: 24px;
+    }
+    .deliverable-step{
+        margin: auto;
+    }
+    .benefitOuterWrap .b2b-text-sm {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .b2b-sub-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .mobileAppWrap .cell-wrap span {
+        font-size: 12px;
+    }
+    .mobileAppWrap .cell-wrap .imgIcon {
+        width: 50px;
+        height: auto;
+    }
+    .mobileAppWrap .cell-wrap {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1024px){
+    button.btn_design {
+        padding: 15px 20px;
+    }
+    .b2b-text-sm, .designTabsContentWrap ul li {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    ul.arrowListing li:before {
+        width: 10px;
+        height: 10px;
+        top: 4px;
+    }
+    .arrowListing li {
+        padding-left: 18px;
+        margin-bottom: 6px;
+    }
+    .b2b-sub-heading {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .deliverable-step {
+        width: 85%;
+    }
+    .benefitOuterWrap .b2b-text-lg {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .service-banner p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .designTabsWrap * {
+        display: block !important;
+        z-index: 2;
+        position: relative;
+    }
+    .designTabs {
+        width: 300px;
+        margin: auto;
+    }
+    button.btn_design {
+        margin: auto;
+    }
+    .designTabsWrap:before {
+        height: 55%;
+    }
+    .designTabsContentWrap .slick-slider {
+        margin-top: 30px !important;
+    }
+    .interfaceWrap h3 {
+        font-size: 16px;
+    }
+    .cell-wrap {
+        padding: 25px 15px;
+    }
+    .interfaceWrap .cell-wrap .imgIcon {
+        width: auto;
+        height: 64px;
+    }
+    .deliverable-step {
+        width: 400px;
+    }
+    .benefitOuterWrap .px-3 {
+        padding-right: 0rem!important;
+        padding-left: 0rem!important;
+    }
+    .benefitOuterWrap .b2b-text-lg {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .benefitOuterWrap .b2b-text-sm {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .benefitOuterWrap .p-3 {
+        padding: 0rem !important;
+    }
+    .b2b-achievements-wrap img {
+        height: 30px;
+    }
+    .b2b-achievements-wrap .b2b-sub-text {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .mobileAppWrap .cell-wrap {
+        padding: 20px 12px;
+    }
+    .deliverableSteps{
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .service-banner p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .designTabsContentWrap img{
+        margin: auto;
+    }
+    .about-accordion .accordion-body p {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .whyChooseWrap .cell-wrap .imgIcon {
+        width: 25px;
+        height: auto;
+    }
+    .whyChooseWrap .cell-wrap .b2b-text {
+        font-size: 12px;
+    }
+    .whyChooseWrap .cell-wrap h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .whyChooseWrap .cell-wrap .ps-4 {
+        padding-left: 0.5rem!important;
+    }
+    .nextGenWrap{
+        background: #111616 !important;
+    }
+    body .b2b-achievements-wrap {
+        width: 200px;
+        margin: auto;
+    }
+    .b2b-achievements-wrap .b2b-sub-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    body .b2b-achievements-wrap {
+        justify-content: flex-start !important;
+    }
+    .deliverableSteps .b2b-sub-heading {
+        font-size: 14px;
+        line-height: normal;
+        margin-bottom: 2px;
+    }
+    .graphic-ser-head p {
+        margin: 0 auto 1em;
+    }
+    .uiux-cta {
+        text-align: center;
+    }
+    .uiux-cta h2.b2b-heading {
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
+    }
+    .uiux-cta h2.b2b-heading br{
+        display: none;
+    }
+}
+@media screen and (max-width:575px) {
+    .service-banner h1 {
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+    .service-banner p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .designTabs {
+        width: calc(100% - 50px);
+        margin: auto;
+    }
+    .designTabsContentWrap .slick-slider {
+        margin-top: 12px !important;
+    }
+    .designTabsContentWrap img{
+        width: 100%;
+        height: auto;
+    }
+    .deliverable-step {
+        width: 259px;
+        padding-left: 30px;
+    }
+    .deliverable-icon {
+        width: 80px;
+        height: 80px;
+        left: -33px;
+    }
+    .deliverable-icon-bg {
+        padding: 18px;
+    }
+    .deliverable-content .b2b-sub-heading {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .deliverable-content {
+        padding: 18px 14px 18px 26px;
+    }
+    .deliverable-content .b2b-text {
+        font-size: 10px;
+        line-height: normal;
+    }
+    .whyChooseWrap .cell-wrap .imgIcon {
+        width: 32px;
+        height: auto;
+    }
+    .mobileAppWrap {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    .deliverable-step {
+        width: calc(100% - 50px);
+        margin: unset;
+        margin-left: 38px;
+        padding-left: 30px;
+    }
+    ul.arrowListing li:before {
+        top: 5px;
+    }
+}

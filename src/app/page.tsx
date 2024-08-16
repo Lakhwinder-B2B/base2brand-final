@@ -110,7 +110,7 @@ export default function Home() {
                 }}
               />
               <p className='sub_text text-center text-white mt-5'>Let&apos;s Build something Digital together, We are Leading Innovative<br />Partner for Start-ups and Enterprises</p>
-              <div className="mt-5 text-center">
+              <div className="mt-md-5 mt-3 text-center">
                 <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'> 
                 
                 Request a Quote </button> 

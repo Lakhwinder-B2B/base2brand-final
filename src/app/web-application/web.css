@@ -104,16 +104,23 @@ ul.arrowListing li:before {
     height: 100%;
     background-color: #1F222F;
     border-radius: 50%;
-    padding: 15px;
+    padding: 28px;
     display: grid;
     place-items: center;
     margin-left: -5px;
 }
 .deliverable-content {
-    padding: 20px 55px;
+    padding: 20px 48px;
 }
 .deliverable-content p{
     margin-bottom: 0;
+}
+.interfaceWrap .cell-wrap {
+    align-items: flex-start;
+}
+.interfaceWrap .cell-wrap .imgIcon {
+    width: auto;
+    height: 70px;
 }
 .whyChooseWrap .cell-wrap {
     flex-wrap: nowrap;
@@ -163,23 +170,6 @@ ul.arrowListing li:before {
 .interfaceWrap .cell-wrap:hover {
     transform: translateY(-10px);
 }
-  @media screen and (max-width: 1440px){
-    .b2b-text-lg{
-        font-size: 20px;
-        line-height: 30px;
-      }
-      .b2b-text-sm{
-        font-size: 16px;
-        line-height: 28px;
-      }
-  }
-  @media screen and (max-width: 1366px){
-    .b2b-text-lg{
-        font-size: 18px;
-        line-height: 30px;
-      }
-      .b2b-text-sm {
-        font-size: 14px;
-        line-height: 25px;
-    }
-  }
+.about-accordion .accordion-item {
+    border-style: dashed;
+}

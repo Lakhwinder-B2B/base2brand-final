@@ -28,7 +28,7 @@ export default function Graphicservices() {
 
   return (
     <>  
-    <div className="w-100 b2b-gray-bg py-5"> 
+    <div className="w-100 b2b-gray-bg py-md-5 py-4 deliverableSteps"> 
        <div className="b2b-container-lg">
         <div className="row">
             <div className="col-lg-12">
@@ -37,7 +37,7 @@ export default function Graphicservices() {
             </div>
         </div>
         <div className="row mt-5">
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -50,7 +50,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -63,7 +63,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -76,7 +76,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -89,7 +89,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -102,7 +102,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -115,7 +115,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">
@@ -128,7 +128,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4">
                 <div className="deliverable-step">
                     <div className="deliverable-icon">
                         <div className="deliverable-icon-bg">

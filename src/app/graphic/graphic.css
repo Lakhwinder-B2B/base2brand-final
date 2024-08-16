@@ -144,15 +144,15 @@ button.radius {
     height: 100%;
     background-color: #111616;
     border-radius: 50%;
-    padding: 15px;
+    padding: 28px;
     display: grid;
     place-items: center;
     margin-left: -5px;
 }
 .deliverable-content {
-    padding: 20px 55px;
+    padding: 20px 48px;
 }
-.deliverable-content p{
+.deliverable-content p{ 
     margin-bottom: 0;
 }
 .odd-row, .even-row{

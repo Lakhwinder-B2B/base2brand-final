@@ -71,11 +71,11 @@ export default function Digital() {
     <>
       <Header />
       <div className="bg_home p-0">
-        <div className="service-banner full_height p-3 p-md-5" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div className="service-banner full_height p-md-5 p-0" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="container mx-auto">
             <div className="row col-12 col-lg-10 d-flex flex-wrap align-items-center justify-content-center m-auto"> 
-              <div className="col-12 col-sm-12 col-md-9 d-flex flex-wrap align-items-center justify-content-center pt-5 pb-5" data-aos="fade-up" >
-                 <h1 className="text-center mb-3 b2b-sub-heading-bold text-uppercase">Digital Marketing</h1>
+              <div className="col-12 col-sm-12 col-md-9 d-flex flex-wrap align-items-center justify-content-center py-md-5 py-5" data-aos="fade-up" >
+                 <h1 className="text-center mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">Digital Marketing</h1>
                  <p className="text-white text-center col-12 col-sm-12 col-md-8 m-auto">
                  Improve Your Online Presence with Our Proven Digital Marketing Strategies. Partner with us for digital marketing excellence</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
@@ -527,7 +527,7 @@ export default function Digital() {
         
           <div className="b2b-black-bg pt-5 pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
             <Faq />
-            <div className='container mt-5 mb-5'>
+            <div className='container mb-md-5 mb-3 pt-5'>
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <h2 className='b2b-main-heading text-center mb-4 text-uppercase'>Looking For Other Services</h2>
@@ -535,7 +535,7 @@ export default function Digital() {
                 </div>
                 <div className="col-lg-10">
                   <div className="row justify-content-center">
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/web-application">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Web Development</h3>
@@ -546,7 +546,7 @@ export default function Digital() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/app-development">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
@@ -557,7 +557,7 @@ export default function Digital() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/graphic">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
@@ -568,7 +568,7 @@ export default function Digital() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/e-commerce">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Ecommerce</h3>
@@ -579,7 +579,7 @@ export default function Digital() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/shopify">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Shopify Development</h3>

@@ -292,6 +292,9 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 .deliverable-icon-bg img {
   width: 100%;
 }
+.letterSpacing-1 {
+  letter-spacing: 0.08rem;
+}
 .b2b-btn{
   background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
   border-radius: 41px;
@@ -531,10 +534,43 @@ button.b2b-blog-btn {
 }
 .b2b-workProcess-wrap .img-wrap {
   background-color: #1F222F;
-  padding: 34px;
+  padding: 15px;
   border-radius: 50%;
   box-shadow: 0px 0px 13.8px 0px #7411E1A8;
-
+  width: 146px;
+  height: 146px;
+}
+.b2b-workProcess-wrap img.icon {
+  width: 78px;
+  height: 78px;
+}
+.b2b-workProcess-wrap .animated-icon-wrap {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.b2b-workProcess-wrap img.animated-icon {
+  width: 138px;
+  height: 138px;
+  object-fit: contain;
+  max-width: unset !important;
+}
+.b2b-workProcess-wrap:hover .animated-icon-wrap{
+  opacity: 1;
+  visibility: visible;
+}
+.b2b-workProcess-wrap:hover img.icon{
+  opacity: 0;
+  visibility: hidden;
 }
 .b2b-workProcess-wrap P {
   font-size: 24px;
@@ -791,6 +827,7 @@ button.nav-link.btn_service{
   background: #1A1A1A !important;
   border-radius: 0px !important;
   padding: 10px;
+  color: #fff !important;
 }
 .service_tabs li{
   border-right:1px solid #989393 !important;
@@ -948,6 +985,10 @@ body .request-form.fade.transformAnim .modal-dialog {
   transform: translateY(0);
   transition: 0.5s ease-in-out;
 }
+.banner_icon_section{
+  width: 150px;
+}
+
 @media only screen and (max-width: 767px){
   .logo_brand img {
     margin: auto;
@@ -1044,6 +1085,15 @@ body .request-form.fade.transformAnim .modal-dialog {
   .b2b-container-lg{
     max-width: 1320px;
   }
+  .b2b-accordion .accordion-button,
+  .b2b-accordion button.accordion-button.collapsed {
+    font-size: 20px !important;
+    line-height: normal;
+  }
+  .b2b-accordion .accordion-body p {
+    font-size: 14px !important;
+    line-height: normal;
+  }
 }
 @media screen and (min-width: 1700px){
   .b2b-container-lg{
@@ -1051,6 +1101,15 @@ body .request-form.fade.transformAnim .modal-dialog {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+  }
+  .b2b-accordion .accordion-button,
+  .b2b-accordion button.accordion-button.collapsed {
+    font-size: 24px !important;
+    line-height: normal;
+  }
+  .b2b-accordion .accordion-body p {
+    font-size: 16px !important;
+    line-height: normal;
   }
 }
 
@@ -1126,7 +1185,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 14px;
   }
   .menuText {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 15px;
     color: #000;
     font-weight: 300;
@@ -1235,8 +1294,20 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 24px;
   }
   .b2b-workProcess-wrap .img-wrap {
-    padding: 35px;
-    width: 135px;
+    width: 134px;
+    height: 134px;
+  }
+  .b2b-workProcess-wrap img.icon {
+    width: 62px;
+    height: 62px;
+  }
+  .b2b-workProcess-wrap .animated-icon-wrap  {
+    width: 74px;
+    height: 74px;
+  }
+  .b2b-workProcess-wrap img.animated-icon {
+    width: 126px;
+    height: 126px;
   }
   .footer-form .form-btn {
     font-size: 14px;
@@ -1338,8 +1409,8 @@ body .request-form.fade.transformAnim .modal-dialog {
     margin-bottom: 0;
   }
   .b2b-workProcess-wrap .img-wrap {
-    padding: 30px;
     width: 112px;
+    height: 112px;
   }
   .b2b-achievements-wrap {
     padding: 14px;
@@ -1409,6 +1480,17 @@ body .request-form.fade.transformAnim .modal-dialog {
   .bg_feedback .b2b-text {
     font-size: 14px;
   }
+  .b2b-accordion .accordion-body p {
+    font-size: 14px !important;
+    line-height: normal;
+  }
+  img.service_tab_icon {
+    height: 40px;
+    margin-right: 12px;
+  }
+  img.service_tab_icon+span{
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 1024px){
@@ -1447,6 +1529,13 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .bgimg_feed1 .slick-next {
     right: -35px !important;
+  }
+  .b2b-main-heading {
+    font-size: 22px;
+    line-height: normal;
+  }
+  img.service_tab_icon+span{
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -1569,9 +1658,28 @@ body .request-form.fade.transformAnim .modal-dialog {
   .slider_vertical{
     display: none !important;
   }
+  .service_tabs li {
+    width: 130px;
+  }
+  .btn_service {
+    font-size: 14px !important;
+  }
+  img.service_tab_icon {
+    height: 40px;
+  }
+  .row.appIcons {
+    justify-content: flex-start !important;
+    margin-top: 30px !important;
+  }
+  .banner_icon_section {
+    width: 114px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .d-none-md{
+    display: none !important;
+  }
   .col-6.col-md-4.p-5.remove_service_padding.text-white.digital-column.justify-content-center.align-items-center.d-flex.flex-wrap {
     padding: 10px !important;
 }
@@ -1987,9 +2095,22 @@ ul.nav.nav-pills.mb-3 {
     line-height: 22px;
   }
   .b2b-workProcess-wrap .img-wrap {
-    padding: 28px;
-    width: 82%;
+    width: 100px;
+    height: 100px;
     margin: auto;
+}
+  .b2b-workProcess-wrap img.icon {
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 0 !important;
+  }
+  .b2b-workProcess-wrap .animated-icon-wrap  {
+    width: 62px !important;
+    height: 62px !important;
+  }
+  .b2b-workProcess-wrap img.animated-icon {
+    width: 92px;
+    height: 93px;
   }
   .d-flex.b2b-workProcess-wrap {
     justify-content: space-around !important;
@@ -2080,7 +2201,36 @@ ul.nav.nav-pills.mb-3 {
     font-size: 12px;
     border-radius: 10px !important;
   }
-
+  .b2b-accordion .accordion-button,
+  .b2b-accordion button.accordion-button.collapsed {
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+  ul.nav.nav-pills.service_tabs {
+    gap: 0 !important;
+    border: 0 !important;
+  }
+  .service_tabs li {
+    border-top: 1px solid #989393;
+    border-bottom: 1px solid #989393;
+  }
+  .service_tabs li:last-child {
+    border-right: 1px solid #989393 !important;
+  }
+  .service_tabs li:first-child {
+    border-left: 1px solid #989393 !important;
+  }
+  .service_tabs li:nth-child(4),
+  .service_tabs li:nth-child(5) {
+    border-top: 0 !important;
+  }
+  .service_tabs li:nth-child(4){
+    border-left: 1px solid #989393 !important;
+  }
+  .row.appIcons {
+    justify-content: flex-start !important;
+    margin-top: 30px !important;
+  }
 }
 
 @media screen and (max-width:575px) {
@@ -2135,6 +2285,38 @@ ul.nav.nav-pills.mb-3 {
     top: 18%;
     left: 70px;
   }
+  .b2b-accordion .accordion-body p {
+    font-size: 12px !important;
+    line-height: normal;
+  }
+  body .b2b-accordion .accordion-button,
+  body .b2b-accordion button.accordion-button.collapsed {
+    font-size: 14px !important;
+    line-height: normal !important;
+  }
+  .b2b-main-heading br{
+    display: none;
+  }
+  .service_tabs li {
+    width: 100px;
+  }
+  ul.nav.nav-pills.service_tabs {
+    width: 375px !important;
+  }
+  .service_tabs button.nav-link {
+    font-size: 14px !important;
+  }
+  img.service_tab_icon {
+    height: 30px;
+    margin-right: 12px;
+  }
+  img.service_tab_icon+span{
+    font-size: 12px;
+  }
+  .row.appIcons {
+    justify-content: flex-start !important;
+    margin-top: 30px !important;
+  }
 }
 @media screen and (max-width: 375px){
   .b2b-achievements {
@@ -2175,6 +2357,33 @@ ul.nav.nav-pills.mb-3 {
   span.addressDot {
     width: 14px;
     height: 14px;
+  }
+  .b2b-text {
+    font-size: 12px;
+  }
+  .b2b-main-heading {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .service_tabs button.nav-link {
+    font-size: 10px !important;
+    padding: 8px 5px !important;
+  }
+  .service_tabs li {
+    width: 80px;
+  }
+  ul.nav.nav-pills.service_tabs {
+    width: 300px !important;
+  }
+  img.service_tab_icon+span {
+    font-size: 10px;
+  }
+  img.service_tab_icon {
+    height: 24px;
+    margin-right: 10px;
+  }
+  .appIcons .col.mb-5{
+    margin-bottom: 20px !important;
   }
 }
 @media screen and (max-height: 600px){

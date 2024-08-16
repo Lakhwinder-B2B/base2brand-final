@@ -20,14 +20,14 @@ export default function engagementmodal() {
 
   return (
     <>  
-        <div className="p-5 b2b-gray-bg"> 
+        <div className="p-5 b2b-gray-bg mobileAppWrap"> 
           <div className="container"> 
             <div className="row p-2">
               <div className="col-md-12 mx-auto text-center">
                 <h2 className='text-white b2b-main-heading text-center'>How Mobile App Development Can Be A Game-Changer<br />For Your Business?</h2>
               </div>
               <div className="col-lg-10 m-auto mt-5">
-                <div className='row row-cols-5'>
+                <div className='row row-cols-md-5 row-cols-sm-3  row-cols-2'>
                   <div className="col mb-4">
                       <div className="cell-wrap">
                         <img src={benefit1.src} className="imgIcon" alt="" />
