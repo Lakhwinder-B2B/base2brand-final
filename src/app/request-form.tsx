@@ -215,7 +215,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                     <div>
                                         <textarea className="project_description" name="project_description" ></textarea>
                                     </div>
-                                </div>
+                                </div> 
                                 <div className="errorBox descError" style={{display: 'none'}}>
                                     <span className="error">Please fill out this field</span>
                                 </div>
