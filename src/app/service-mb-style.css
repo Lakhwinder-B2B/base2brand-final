@@ -58,7 +58,7 @@ body .designTabsWrap .slick-track {
 
 /* responsive style
 services pages */
-@media screen and (min-width: 1701px){
+@media screen and (min-width: 1700px){
     .deliverable-icon {
         width: 140px;
         height: 140px;
@@ -88,7 +88,7 @@ services pages */
         background-size: 59% 100%;
     }
 }
-@media screen and (max-width:1700px) {
+@media screen and (max-width:1699px) {
     .deliverable-content .b2b-sub-heading {
         font-size: 22px;
         line-height: 35px;
@@ -101,6 +101,11 @@ services pages */
         width: 120px;
         height: 120px;
         left: -47px;
+    }
+    .first-row::before {
+        bottom: calc(50% - 40px);
+        left: -64px;
+        background-size: 58% 95%;
     }
 }
 @media screen and (max-width: 1600px){
@@ -130,6 +135,31 @@ services pages */
     .benefitOuterWrap .b2b-text-sm{
         font-size: 18px;
         line-height: 26px;
+    }
+    .process_row .b2b-heading {
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1399px){
+    .first-row::before {
+        bottom: calc(50% - 40px);
+        left: -54px;
+        background-size: 58% 95%;
+    }
+    .odd-row img, .even-row img {
+        height: 215px;
+        width: auto;
+    }
+    .even-row .textWrap:before {
+        right: 10px;
+    }
+    .even-row .textWrap:after {
+        right: 15px;
+    }
+    .first-row {
+        margin-top: 82px !important; 
     }
 }
 @media screen and (max-width: 1366px){
@@ -189,6 +219,53 @@ services pages */
     }
     .mobileAppWrap .cell-wrap {
         padding: 20px;
+    }
+    
+}
+@media screen and (max-width: 1199px){
+    .odd-row img, .even-row img {
+        height: 200px;
+        width: auto;
+    }
+    .process_row .b2b-heading {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .odd-row .textWrap {
+        padding: 0 30px 0 20px;
+    }
+    .odd-row, .even-row {
+        padding: 19px 25px;
+    }
+    .last-row {
+        padding-bottom: 50px;
+    }
+    .odd-row .textWrap:before,
+    .even-row .textWrap:before {
+        width: 30px;
+        height: 30px;
+    }
+    .odd-row .textWrap:after,
+    .even-row .textWrap:after {
+        width: 20px;
+        height: 20px;
+    }
+    .odd-row .textWrap:before {
+        left: -2px;
+    }
+    .odd-row .textWrap:after {
+        left: 3px;
+    }
+    .even-row .textWrap:before {
+        right: 11px;
+    }
+    .even-row .textWrap:after {
+        right: 16px;
+    }
+    .first-row::before {
+        bottom: calc(50% - 18px);
+        left: -54px;
+        background-size: 58% 100%;
     }
 }
 @media screen and (max-width: 1024px){

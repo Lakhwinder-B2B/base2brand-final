@@ -184,7 +184,7 @@ button.radius {
     position: absolute;
     top: calc(50% - 10px);
     left: 0;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
@@ -197,7 +197,7 @@ button.radius {
     position: absolute;
     top: calc(50% - 7px);
     left: 0;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
