@@ -679,7 +679,7 @@ span.menuIcon:before{
   width: 100%;
   height: 200%;
   position: absolute;
-  top: -200%;
+  top: -30px;
   left: 0;
   transition: 0.8s;
   background-image: url(../../public/img/wave1.svg);
@@ -699,7 +699,7 @@ span.menuIcon:before{
 } */
 .menuLink:hover .menuInner:before,
 .mega-menu a:hover .menuInner:before{
-  top:-30px;
+  top:-200%;
 }
 .menuLink:hover .menuIcon,
 .mega-menu a:hover .menuIcon{
