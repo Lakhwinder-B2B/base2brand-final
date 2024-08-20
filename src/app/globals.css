@@ -677,21 +677,29 @@ span.menuIcon:before{
 .menuInner:before {
   content: '';
   width: 100%;
-  height: 100%;
+  height: 200%;
   position: absolute;
-  top: 0;
-  left: -100%;
+  top: -200%;
+  left: 0;
   transition: 0.8s;
+  background-image: url(../../public/img/wave1.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  opacity: .5;
 }
-.menuInner.b2b-pink-bg:before{
+.menuInner.b2b-lightBlue-bg:before {
+  background-image: url(../../public/img/wave2.svg);
+}
+/* .menuInner.b2b-pink-bg:before{
   background-color: #b16af7;
 }
 .menuInner.b2b-lightBlue-bg:before{
   background-color: #88acff;
-}
+} */
 .menuLink:hover .menuInner:before,
 .mega-menu a:hover .menuInner:before{
-  left:0;
+  top:-30px;
 }
 .menuLink:hover .menuIcon,
 .mega-menu a:hover .menuIcon{
