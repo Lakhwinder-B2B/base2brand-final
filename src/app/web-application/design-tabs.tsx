@@ -29,7 +29,7 @@ const useMediaQuery = (width) => {
 };
 
 
-const Navbar = () => {
+const DesignTabs = () => {
    const isBreakpoint = useMediaQuery(991)
    return (
     <div>
@@ -46,4 +46,4 @@ const Navbar = () => {
     )}
 
 
-export default Navbar;
+export default DesignTabs;

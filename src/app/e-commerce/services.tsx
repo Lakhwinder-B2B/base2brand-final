@@ -17,15 +17,15 @@ export default function services() {
 
   return (
     <>  
-    <div className="p-5 b2b-gray-bg w-100"> 
+    <div className="p-md-5 p-0 b2b-gray-bg w-100"> 
           <div className="container"> 
             <div className="row p-2">
-              <div className="col-md-9 mx-auto text-center">
+              <div className="col-md-9 col-12 mx-auto text-center">
                 <h2 className='text-white b2b-main-heading text-center'>eCommerce Design &amp; Development<br />Service Process</h2>
                 <p className='b2b-text'>Our eCommerce development service follows a strategic process to ensure your online store meets your specific requirements and exceeds your expectations.</p>
               </div>
               <div className="col-lg-12 m-auto mt-5">
-                <div className='row row-cols-3 ecommerceserviceWrap'>
+                <div className='row row-cols-lg-3 row-cols-md-2 row-cols-1 ecommerceserviceWrap'>
                   <div className="col mb-4">
                       <div className="cell-wrap ">
                         <div>
@@ -84,10 +84,10 @@ export default function services() {
         <div className="py-5">
           <div className="container">
               <div className="row align-items-center "> 
-                  <div className="col-md-6 mb-4">
+                  <div className="col-md-6 mb-4 order-md-1 order-2">
                     <img src={nextGeneration.src} alt="" />
                   </div>
-                  <div className="col-md-6 text-white mb-4"> 
+                  <div className="col-md-6 text-white mb-4 order-md-2 order-1"> 
                       <h1 className="b2b-main-heading mb-3">Why Choose Us for <br />Designing and Developing <br />a Store?</h1>
                       <p className="b2b-text-sm pr-5 pr-sm-0">With our experienced team, customizable solutions, rigorous quality assurance, and ongoing support, there are multiple reasons to choose us for your eCommerce development needs.</p>
            

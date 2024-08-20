@@ -53,15 +53,15 @@ export default function FooterMap() {
             <div className="container pt-5 pb-5">  
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-5 m-auto'>
-                        <h2 className='text-center b2b-main-heading text-uppercase'>Get in touch</h2>
+                        <h2 className='text-center b2b-main-heading text-uppercase' data-aos="fade-up">Get in touch</h2>
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-lg-6 col-md-12 text-center mb-5 mb-md-0"    >
                             <div className="mapWrapper">
-                                <img className="m-auto" src={footerMap.src} alt="Map" />
-                                <div className="address1">
+                                <img className="m-auto" src={footerMap.src} alt="Map" data-aos="zoom-in-up" data-aos-delay="300"/>
+                                <div className="address1" data-aos="zoom-in" data-aos-delay="600">
                                     
                                     <span data-tooltip-id="my-tooltip-1" className="addressDot"></span>
                                 </div>
@@ -72,7 +72,7 @@ export default function FooterMap() {
                                         html="<p class='tooltipTitle'>USA</p>
                                         7311 Gladys Ave, El Cerrito, CA 94530,<br/> USA, +1 (720) 903-5933"
                                     />
-                                <div className="address2">
+                                <div className="address2" data-aos="zoom-in" data-aos-delay="700">
                                     <span data-tooltip-id="my-tooltip-2" className="addressDot"></span>
                                 </div>
                                 <Tooltip
@@ -83,7 +83,7 @@ export default function FooterMap() {
                                         Ms Ady 114, Bellchase Trail Brampton,<br />
                                         ON L6P 3LA +44 7552 535341"
                                     />
-                                <div className="address3">
+                                <div className="address3" data-aos="zoom-in" data-aos-delay="800">
                                     <span data-tooltip-id="my-tooltip-3" className="addressDot"></span>
                                 </div>
                                 <Tooltip
@@ -96,7 +96,7 @@ export default function FooterMap() {
                                     />
                             </div>  
                         </div>  
-                        <div className="col-lg-6 col-md-12 text-white"   >
+                        <div className="col-lg-6 col-md-12 text-white"  data-aos="fade-up">
                             <form className="footer-form" onSubmit={handleSubmit}>
                                 <div className="row">
                                         <div className="col-lg-6 mb-3">

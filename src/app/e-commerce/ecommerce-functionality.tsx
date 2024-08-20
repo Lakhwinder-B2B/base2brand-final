@@ -15,15 +15,15 @@ export default function ecommerceFunctionality() {
 
   return (
     <>  
-    <div className="p-5"> 
+    <div className="p-md-5 p-0 "> 
           <div className="container"> 
             <div className="row p-2">
-              <div className="col-md-9 mx-auto text-center">
-                <h2 className='text-white b2b-main-heading text-center'>Improve Your Online Sales with Comprehensive<br />eCommerce Functionality</h2>
+              <div className="col-md-9 col-12 mx-auto text-center">
+                <h2 className='text-white b2b-main-heading text-center'>Improve Your Online Sales with Comprehensive <br />eCommerce Functionality</h2>
                 <p className='b2b-text'>Our comprehensive eCommerce solutions tailored to your business needs. From vendor registration and product catalog management to search and filtering, order management, and analytics reporting, we offer a streamlined platform to empower your online presence. With our expertise, enhance your customers' shopping experience and maximize your business potential in the digital marketplace.</p>
               </div>
               <div className="col-lg-8 m-auto mt-5">
-                <div className='row row-cols-3 ecommerceWrap'>
+                <div className='row row-cols-md-3 row-cols-2 ecommerceWrap'>
                   <div className="col mb-4">
                       <div className="cell-wrap b2b-gray-bg">
                       <div className='text-center'><img src={benefit1.src} className="imgIcon" alt="" />

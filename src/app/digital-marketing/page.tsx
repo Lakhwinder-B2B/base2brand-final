@@ -7,6 +7,7 @@ import Footer from "../../../component/footer";
 import Bg from '../../../public/services2-img/service-mask.svg';
 import '../../app/services/services2.css';
 import './digital.css';
+import "../service-mb-style.css"; 
 import Request from "../request-form"; 
 import Digital0 from "../../../public/digital/digital.png";
 import Digital1 from "../../../public/digital/digital1.png";
@@ -94,7 +95,7 @@ export default function Digital() {
         </div>
           <div className="container py-5">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 mb-md-0 mb-4">
                 <div className="digital_box">
                   <img className="digital_img" src={Digital0.src} alt="" />
                   <img className="digital_icon" src={Icon3.src} alt="" /> 
@@ -104,7 +105,7 @@ export default function Digital() {
                 </div>
               </div>
 
-              <div className="col-md-4">
+              <div className="col-md-4 mb-md-0 mb-4">
                 <div className="digital_box">
                   <img className="digital_img" src={Digital2.src} alt="" />
                   <img className="digital_icon" src={Icon2.src} alt="" /> 
@@ -114,7 +115,7 @@ export default function Digital() {
                 </div>
               </div>
 
-              <div className="col-md-4">
+              <div className="col-md-4 mb-md-0 mb-4">
                 <div className="digital_box">
                   <img className="digital_img" src={Digital1.src} alt="" />
                   <img className="digital_icon" src={Icon1.src} alt="" /> 
@@ -138,7 +139,7 @@ export default function Digital() {
                         autoplay={false}
                         arrows={false}
                         focusOnSelect={true}
-                        speed={3000}
+                        speed={800}
                       >
                     
                       
@@ -157,7 +158,7 @@ export default function Digital() {
                       arrows={false}
                       slidesToShow={1}
                       slidesToScroll={1}
-                      speed={3000}
+                      speed={800}
                       >
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
@@ -273,18 +274,18 @@ export default function Digital() {
           <div className="py-5" >
             <div className="container-fluid">
               <div className="row">
-                <div className="col-md-6" >
+                <div className="col-md-6 mb-md-0 mb-4" >
                   <img className='w-100' src={growBusiness.src} alt="" />
                 </div>
                 <div className="col-md-5" >
                   <h3 className='b2b-heading mb-4'>Are you Ready to Grow <br />your Businesses</h3> 
                   <p className="b2b-text mb-4">Over a decade of digital marketing experience fuels our strategies, ensuring maximum impact for your brand. Trust our expertise to navigate the complexities of the online landscape and drive tangible results for your business.</p>
                   <div className="row growBusinessType">
-                    <div className="col-lg-6 d-flex align-items0center">
+                    <div className="col-lg-6 col-md-6 col-6 d-flex align-items-center">
                       <img src={I1.src} alt="" />
                       <p className="mb-0">Businesses Growth</p>
                     </div>
-                    <div className="col-lg-6 d-flex align-items0center">
+                    <div className="col-lg-6 col-md-6 col-6 d-flex align-items-center">
                       <img src={I2.src} alt="" />
                       <p className="mb-0">Marketing Solution</p>
                     </div>
@@ -384,7 +385,7 @@ export default function Digital() {
           <div className="py-5 whyChoosewrap">
             <div className="b2b-container-lg">
               <div className="row gap-5">
-                <div className="col-md-6" >
+                <div className="col-lg-6 col-md-7 order-md-1 order-2" >
                   <div className='b2b-gray-bg mb-4 p-3 w-100'>
                     <h4>Customized Solutions</h4>
                     <p className='b2b-text'>We understand that every business is unique, so we craft personalized strategies that align with your goals and objectives, delivering tailored solutions for maximum impact.</p>
@@ -402,7 +403,7 @@ export default function Digital() {
                     <p className='b2b-text'>We stay ahead of the curve with cutting-edge tools, techniques, and trends in digital marketing, ensuring our strategies are always fresh, relevant, and effective in today's ever-evolving landscape.</p>
                   </div>
                 </div>
-                <div className="col-md-5" >
+                <div className="col-lg-5 col-md-5 order-md-2 order-1 mb-md-0 mb-5" >
                   <h3 className='b2b-heading mb-4'>Why Choose Us for <br />Marketing Your Business or <br />Services?</h3> 
                   <p className="b2b-text mb-4">Our team comprises seasoned professionals with years of experience in digital marketing.</p>
                   <img className="mt-4" src={whyChoose.src} alt="" />
@@ -415,7 +416,7 @@ export default function Digital() {
 
                 </div>
               </div>
-              <div className="row row-cols-6 gap-3 mt-5 whyChoosewrap-row">
+              <div className="row row-cols-md-6 row-cols-3 gap-3 mt-md-5 mt-3 whyChoosewrap-row">
                 <div className='col mb-4'>
                   <div className='dmWrap'>
                     <img className="icon" src={dm1.src} alt="" />

@@ -82,10 +82,10 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
 
       <div className={`w-100 b2b-brands-wrap radialGradient  ${bgcolor==="b2b-gray-bg" ? "b2b-white-bg" : "BG-RED "}`} >
             <div className="b2b-container-lg">
-            <h3 className={`gk-heading-bold text-center text-uppercase ${color ? color : 'text-white'}`}>
+            <h3 className={`gk-heading-bold text-center text-uppercase ${color ? color : 'text-white'}`} data-aos="fade-up">
           {heading}
         </h3>
-              <div className="logo_brand">
+              <div className="logo_brand" data-aos="fade-up" data-aos-delay="300">
               <Slider {...settings} className="w-100">
               <img className="logo_brands" src={Brand1.src} alt="Logo" /> 
               <img className="logo_brands" src={Brand2.src} alt="Logo" /> 

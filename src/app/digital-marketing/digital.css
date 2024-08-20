@@ -177,12 +177,20 @@ img.digital_icon {
     display: flex;
     gap: 2rem;
     align-items: center;
+    height: 100%;
 }
 .main_gallery {
     background: #1F222F;
     /* padding: 3rem 0px; */
     /* margin-top: 2rem; */
     color: #fff;
+}
+.main_gallery .b2b-container-lg {
+    height: 100%;
+}
+.left_thumnails {
+    display: flex;
+    align-items: center;
 }
 .left_thumnails a {
     border: 1px solid #fff;
@@ -354,8 +362,12 @@ ul.checkListing li:before {
     border-radius: 225px;
     background-color: #1F222F;
     height: 270px;
+    width: 176px;
     position: relative;
-    margin: 0 10px;
+    margin: auto;
+}
+.whyChoosewrap-row {
+    justify-content: center;
 }
 .dmWrap:before {
     content: '';
@@ -367,6 +379,7 @@ ul.checkListing li:before {
     border-width: 2px;
     border-radius: 225px;
     border-style: dashed;
+    border-color: #fff;
     opacity: 0.5;
 }
 .whyChoosewrap .dmWrap p {

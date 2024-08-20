@@ -67,8 +67,8 @@ export default function Home() {
       <div className="container"> 
           <div className="row text-white"> 
               <div className="col-lg-11 col-md-11 col-11 m-auto p-0">
-              <h3 className="b2b-main-heading text-center text-uppercase">What Our <strong>Clients</strong> Say</h3>
-              <div className="reviewSlider mt-5">
+              <h3 className="b2b-main-heading text-center text-uppercase" data-aos="fade-up">What Our <strong>Clients</strong> Say</h3>
+              <div className="reviewSlider mt-5" data-aos="fade-up" data-aos-delay="500">
                 <Slider {...reviewSlider} className="w-100">
                     <div>
                         <div className="bg_feedback">

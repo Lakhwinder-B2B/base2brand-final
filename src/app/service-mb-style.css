@@ -87,6 +87,9 @@ services pages */
         left: -85px;
         background-size: 59% 100%;
     }
+    .animated-imgs {
+        height: calc(100vh - 236px);
+    }
 }
 @media screen and (max-width:1699px) {
     .deliverable-content .b2b-sub-heading {
@@ -140,6 +143,14 @@ services pages */
         font-size: 28px;
         line-height: 30px;
     }
+    .ecommerceserviceWrap .b2b-sub-heading {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .ecommerceserviceWrap .cell-wrap .imgIcon {
+        width: 56px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1399px){
@@ -160,6 +171,9 @@ services pages */
     }
     .first-row {
         margin-top: 82px !important; 
+    }
+    .leader_box {
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 1366px){
@@ -267,6 +281,46 @@ services pages */
         left: -54px;
         background-size: 58% 100%;
     }
+    .ecommerceWrap .cell-wrap {
+        padding: 30px 20px;
+    }
+    .ecommerceWrap .cell-wrap img {
+        margin: auto;
+        width: auto;
+        height: 50px;
+    }
+    .ecommerceWrap .cell-wrap:before {
+        width: 100px;
+        height: 100px;
+    }
+    .ecommerceserviceWrap .b2b-sub-heading {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .ecommerceserviceWrap .cell-wrap {
+        padding: 30px 20px 70px 20px;
+    }
+    .leader_box {
+        padding: 20px 66px 20px 94px;
+        font-size: 14px;
+    }
+    ul.checkListing {
+        margin-top: 28px;
+    }
+    .checkListing li {
+        padding-left: 24px;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+    ul.checkListing li:before {
+        width: 14px;
+        height: 14px;
+        top: 1px;
+    }
+    .counterWrap .counterInnerWrap h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (max-width: 1024px){
     button.btn_design {
@@ -296,7 +350,59 @@ services pages */
         font-size: 18px;
         line-height: 24px;
     }
-    
+    .btnIcon img {
+        height: 36px;
+        width: auto;
+    }
+    button.btn_platfotm {
+        font-size: 14px;
+    }
+    .main_gallery.full_height {
+        height: auto;
+    }
+    .left_thumnails .slick-slide img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .left_thumnails a, .left_thumnails .slick-slide {
+        height: 60px !important;
+        width: 60px !important;
+    }
+    .slider_right_main .row.gap-5 {
+        gap: 1rem !important;
+    }
+    .social_ads h2 {
+        font-size: 20px;
+    }
+    .social_ads p {
+        font-size: 12px;
+    }
+    .social_ads small {
+        font-size: 12px;
+    }
+    .growBusinessType p {
+        font-size: 15px;
+        margin-left: 14px;
+        padding-right: 50px;
+    }
+    .growBusinessType img {
+        height: 42px;
+        width: auto;
+    }
+    .counterWrap .counterInnerWrap:nth-child(odd) {
+        padding-right: 40px;
+    }
+    .counterWrap .counterInnerWrap:nth-child(even) {
+        padding-left: 40px;
+    }
+    .dmWrap {
+        padding: 44px 18px;
+        height: 254px;
+        width: 164px;
+    }
+    .whyChoosewrap .dmWrap p {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 991px) {
     .service-banner p {
@@ -362,6 +468,86 @@ services pages */
     .deliverableSteps{
         border-radius: 20px;
     }
+    .chosseInnerWrap .b2b-sub-heading {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .platform-tabs div#pills-tabContent {
+        margin-right: 55px;
+        padding: 40px 45px 50px 80px;
+    }
+    .platform-tabs p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    img.digital_img {
+        width: 100%;
+        height: 200px;
+    }
+    img.digital_icon {
+        padding: 10px;
+        bottom: 60px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .leader_box {
+        padding: 20px 38px 20px 60px;
+        font-size: 13px;
+    }
+    .leader_box i {
+        right: 12px;
+        bottom: 14px;
+    }
+    .leader_box i:before {
+        font-size: 20px;
+    }
+    .whyChoosewrap h4 {
+        font-size: 16px;
+    }
+    .whyChoosewrap .row.gap-5 {
+        gap: 0rem !important;
+    }
+    .dmWrap {
+        padding: 34px 6px;
+        height: 200px;
+        width: 128px;
+    }
+    .dmWrap:before {
+        content: '';
+        width: calc(100% - 24px);
+        height: calc(100% - 24px);
+        left: 12px;
+        top: 12px;
+    }
+    .whyChoosewrap .dmWrap p {
+        font-size: 12px;
+    }
+    .whyChoosewrap img.icon {
+        height: 36px;
+        width: auto;
+    }
+    .whyChoosewrap img.checkicon {
+        height: 22px;
+        width: 22px;
+    }
+    .shopify-banner .full_height{
+        height: auto;
+    }
+    .animated-imgs {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .animated-banner-img canvas {
+        margin-top: 0;
+        height: 800px !important;
+    }
+    h1.banner-text-outline {
+        font-size: 50px !important;
+    }
 }
 @media screen and (max-width: 767px) {
     .service-banner p {
@@ -422,6 +608,150 @@ services pages */
     .uiux-cta h2.b2b-heading br{
         display: none;
     }
+    .cell-wrap span {
+        font-size: 12px;
+    }
+    .ecommerceWrap .cell-wrap {
+        padding: 28px 15px;
+    }
+    .ecommerceserviceWrap .b2b-sub-heading {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .ecommerceserviceWrap .cell-wrap .imgIcon {
+        width: 44px;
+        height: auto;
+    }
+    .ecommerceserviceWrap .cell-wrap {
+        max-width: 280px;
+        margin: auto;
+    }
+    .choose-us-wrap>div:nth-child(even) {
+        place-items: unset;
+    }
+    .b2b-main-heading br {
+        display: none;
+    }
+    .choose-us-wrap .chosseInnerWrap {
+        width: 100%;
+        height: 100%;
+    }
+    .platform-tabs ul#pills-tab {
+        width: 100%;
+        left: 0;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .platform-tabs {
+        flex-wrap: wrap;
+    }
+    button.btn_platfotm span{
+        display: none;
+    }
+    .btn_platfotm.active {
+        background: linear-gradient(180deg, #7411E1 0%, #396BDB 100%);
+    }
+    button.btn_platfotm {
+        box-shadow: none;
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 0 !important;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .btnIcon{
+        width: unset;
+        padding-right: 0;
+    }
+    .btnIcon img{
+        height: 30px;
+    }
+    .platform-tabs div#pills-tabContent {
+        margin-right: 0;
+        padding: 40px;
+        border-radius: 14px;
+    }
+    .digital_box {
+        width: 280px;
+        margin: auto;
+    }
+    .leader_box i {
+        right: 20px;
+        bottom: 14px;
+    }
+    .gallery_slider {
+        flex-wrap: wrap;
+        padding: 30px 0; 
+    }
+    .left_thumnails, .left_thumnails .slick-track {
+        width: 100% !important;
+        height: 100px !important;
+        
+    }
+    .left_thumnails:before {
+        left: 0;
+        top: 50%;
+        height: 2px;
+        width: 100%;
+    }
+    .left_thumnails .slick-list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left_thumnails .slick-slider {
+        width: 100%;
+    }
+    .left_thumnails .slick-track {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        transform: unset !important;
+    }
+    .right_slider img.social_img {
+        width: 280px !important;
+        margin: auto;
+    }
+    .right_slider {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .main_gallery .b2b-container-lg {
+        padding: 0;
+    }
+    .left_thumnails a, .left_thumnails .slick-slide {
+        margin-bottom: 0 !important;
+    }
+    .b2b-heading br{
+        display: none;
+    }
+    .counterWrap .counterInnerWrap:nth-child(odd) {
+        padding-right: 15px;
+    }
+    .counterWrap .counterInnerWrap:nth-child(even) {
+        padding-left: 15px;
+    }
+    .whyChoosewrap-row .col:nth-child(3) {
+        width: 100%;
+        margin-top: -50px;
+    }
+    .whyChoosewrap-row .col:nth-child(1),
+    .whyChoosewrap-row .col:nth-child(2) {
+        margin-top: 0;
+    }
+    .whyChoosewrap-row .col {
+        margin-top: -50px;
+    }
+    .service-banner.shopify-banner h1 {
+        font-size: 34px !important;
+        line-height: normal;
+    }
 }
 @media screen and (max-width:575px) {
     .service-banner h1 {
@@ -474,7 +804,23 @@ services pages */
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+    .ecommerceWrap .cell-wrap {
+        padding: 28px 12px;
+    }
+    .btnIcon img {
+        height: 26px;
+    }
+    button.btn_platfotm {
+        padding: 4px;
+    }
+    .platform-tabs div#pills-tabContent {
+        padding: 28px;
+    }
     
+    .platform-tabs .tab-pane.active h2 {
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
 }
 @media screen and (max-width: 375px){
     .deliverable-step {
@@ -485,5 +831,29 @@ services pages */
     }
     ul.arrowListing li:before {
         top: 5px;
+    }
+    .btnIcon img {
+        height: 20px;
+    }
+    .platform-tabs p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .left_thumnails .slick-slide img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .left_thumnails a, .left_thumnails .slick-slide {
+        height: 40px !important;
+        width: 40px !important;
+        margin-bottom: 0 !important;
+    }
+    .left_thumnails, .left_thumnails .slick-track {
+        width: 100% !important;
+        height: 60px !important;
+    }
+    .right_slider img.social_img {
+        width: 230px !important;
+        margin: auto;
     }
 }

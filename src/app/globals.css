@@ -278,7 +278,7 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 
 /* CSS 6 june  */
 .sub_heading{
-  font-size: 35px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 40px;
   /* text-align: center; */
@@ -294,6 +294,9 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 }
 .letterSpacing-1 {
   letter-spacing: 0.08rem;
+}
+.b2b-overflow-hidden{
+  overflow: hidden;
 }
 .b2b-btn{
   background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
@@ -450,15 +453,15 @@ a.b2b-btn{
 .b2b-achievements-wrap{
   padding: 16px 18px;
   border-radius: 10px;
-  box-shadow: 0px 0px 7.8px 0px #396BDB;
+  /* box-shadow: 0px 0px 7.8px 0px #396BDB; */
 }
 .b2b-achievements-wrap h2{
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 700;
   line-height: normal;
 }
 .b2b-achievements-wrap p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: normal;
 }
@@ -642,11 +645,15 @@ span.menuIcon{
   transition: .6s;
 }
 span.menuIcon:before{
-  content: '→';
-  font-family: monospace;
-  font-size: 26px;
-  color: #000000;
+  content: '';
+  background-image: url(../../public/img/menu-icon.svg);
   z-index: 2;
+  position: relative;
+  width: 24px;
+  height: 20px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .menuText{
   font-size: 16px;
@@ -665,6 +672,7 @@ span.menuIcon:before{
   position: relative;
   z-index: 2;
   overflow: hidden;
+  height: 100%;
 }
 .menuInner:before {
   content: '';
@@ -701,6 +709,7 @@ span.addressDot {
   box-shadow: 0 0 0 0em rgba(52, 152, 219, 0), 0em 0.05em 0.1em rgba(0, 0, 0, 0.2);
   transform: translate3d(0, 0, 0) scale(1.5);
   animation: addressDotAnim 3000ms infinite;
+  cursor: pointer;
 }
 @keyframes addressDotAnim {
   0% {
@@ -900,13 +909,13 @@ img.service_tab_icon {
   margin-top: 16px;
   font-size: 14px;
 }
-.b2b-achievements .count-col:hover {
+/* .b2b-achievements .count-col:hover {
   transform: scale(1.1);
 }
 .count-col {
   transition: 0.3s ease-in-out;
   cursor: pointer;
-}
+} */
 .check_list {
   width: 50%;
   display: flex;
@@ -969,13 +978,12 @@ img.name_latter {
   top: 93px;
 }
 .Typewriter span{
-    background-clip: text;
+    /* background-clip: text;
     background-size: 200% 100%;
     background-position: 100%;
-    /* background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%); */
     background-image: linear-gradient(348deg, #7411E1 0%, #396BDB 100%);
     background-position: 0;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 body .request-form.fade .modal-dialog {
@@ -1346,8 +1354,8 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 26px;
   }
   .sub_heading {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 40px;
   }
   .b2b-btn-lg {
     font-size: 14px;
@@ -1551,7 +1559,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .sub_heading {
     font-size: 20px;
-    line-height: 23px;
+    line-height: 26px;
   }
   .bannerSection .sub_text {
     font-size: 12px;

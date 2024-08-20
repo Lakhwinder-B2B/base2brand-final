@@ -250,13 +250,6 @@ button.btn_design span img{
 }
 
 
-
-
-
-
-
-
-
 .gallery_slider {
     position: relative;
 }
@@ -310,4 +303,52 @@ button.btn_design span img{
     background: red;
     height: 200px;
     width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .mobileTabsContentShopify .right_slider {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .mobileTabsContentShopify .left_thumnails, 
+    .mobileTabsContentShopify .left_thumnails .slick-track {
+        width: 270px !important;
+        height: 300px !important;
+    }
+    .mobileTabsContentShopify .left_thumnails a, 
+    .mobileTabsContentShopify .left_thumnails .slick-slide {
+        height: 130px !important;
+        width: 130px !important;
+    }
+    .mobileTabsContentShopify .left_thumnails:before {
+        content: '';
+        position: absolute;
+        right: 62px;
+        top: 0;
+        height: 100%;
+        width: 200%;
+        border: 1px dashed #fff;
+        border-radius: 50%;
+        left: unset;
+    }
+    .mobileTabsContentShopify .gallery_slider {
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 0rem;
+    }
+    .mobileTabsContentShopify .left_thumnails .slick-slide img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .designTabsContentWrap.mobileTabsContentShopify .slick-slider {
+        margin-top: 0 !important;
+    }
+    .mobileTabsContentShopify .left_thumnails .slick-list, 
+    .mobileTabsContentShopify .left_thumnails .slick-slider, 
+    .mobileTabsContentShopify .left_thumnails .slick-track {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .mobileTabsContentShopify .slick-dots li button:before{
+        display: none;
+    }
 }

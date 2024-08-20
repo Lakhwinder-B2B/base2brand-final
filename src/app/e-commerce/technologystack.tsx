@@ -11,40 +11,35 @@ export default function technologystack() {
    
   return (
     <>  
-      <div className="b2b-container-lg px-5 mb-5"> 
+      <div className="b2b-container-lg mb-md-5 mb-0"> 
          <div className="row">
             <div className="col-lg-12">
                 <h2 className="b2b-main-heading text-center mb-3">Platforms Used by Our eCommerce <br />Website Developers</h2>
-                <div className="platform-tabs">
+                <div className="platform-tabs px-md-5 px-0">
                   <ul className="nav nav-pills mb-3 " id="pills-tab" role="tablist">
                       <li className="nav-item" role="presentation">
                           <button className="nav-link active btn_platfotm" id="pill-tab" data-bs-toggle="pill" data-bs-target="#pills" type="button" role="tab" aria-controls="pills" aria-selected="true">
-                            <div className="btnIcon"><img src={btnIcon1.src} alt="" /></div>Shopify Development</button>
+                            <div className="btnIcon"><img src={btnIcon1.src} alt="" /></div><span>Shopify Development</span></button>
                       </li>
                       <li className="nav-item" role="presentation">
                           <button className="nav-link btn_platfotm" id="pill1-tab" data-bs-toggle="pill" data-bs-target="#pills1" type="button" role="tab" aria-controls="pills1" aria-selected="false">
-                            <div className="btnIcon"><img src={btnIcon2.src} alt="" /></div>WordPress
-Development</button>
+                            <div className="btnIcon"><img src={btnIcon2.src} alt="" /></div><span>WordPress Development</span></button>
                       </li>
                       <li className="nav-item" role="presentation">
                           <button className="nav-link btn_platfotm" id="pill2-tab" data-bs-toggle="pill" data-bs-target="#pills2" type="button" role="tab" aria-controls="pills2" aria-selected="false">
-                            <div className="btnIcon"><img src={btnIcon3.src} alt="" /></div>Custom
-Development</button>
+                            <div className="btnIcon"><img src={btnIcon3.src} alt="" /></div><span>Custom Development</span></button>
                       </li>
                       <li className="nav-item" role="presentation">
                           <button className="nav-link btn_platfotm" id="pill3-tab" data-bs-toggle="pill" data-bs-target="#pills3" type="button" role="tab" aria-controls="pills3" aria-selected="false">
-                            <div className="btnIcon"><img src={btnIcon4.src} alt="" /></div>Magento
-Development</button>
+                            <div className="btnIcon"><img src={btnIcon4.src} alt="" /></div><span>Magento Development</span></button>
                       </li>
                       <li className="nav-item" role="presentation">
                           <button className="nav-link btn_platfotm" id="pill4-tab" data-bs-toggle="pill" data-bs-target="#pills4" type="button" role="tab" aria-controls="pills4" aria-selected="false">
-                            <div className="btnIcon"><img src={btnIcon5.src} alt="" /></div>OpenCart
-Development</button>
+                            <div className="btnIcon"><img src={btnIcon5.src} alt="" /></div><span>OpenCart Development</span></button>
                       </li>
                       <li className="nav-item" role="presentation">
                           <button className="nav-link btn_platfotm" id="pill5-tab" data-bs-toggle="pill" data-bs-target="#pills5" type="button" role="tab" aria-controls="pills5" aria-selected="false">
-                            <div className="btnIcon"><img src={btnIcon6.src} alt="" /></div>PrestaShop
-Development</button>
+                            <div className="btnIcon"><img src={btnIcon6.src} alt="" /></div><span>PrestaShop Development</span></button>
                       </li>
                   </ul>
                   <div className="tab-content b2b-gray-bg" id="pills-tabContent">

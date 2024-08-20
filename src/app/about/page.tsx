@@ -176,40 +176,40 @@ export default function AboutUs() {
     <>
       <Header />
         <div className="bg_about pt-0 pb-0">
-          <div className="about-mask aboutWrap" data-aos="fade-up" style={{backgroundImage: `url(${radialBg.src})`,backgroundRepeat: 'no-repeat'}}>
-          <div className="row m-0 position-relative text-white "> 
-              <div className="col-6 col-sm-6 col-md-4 px-0 position-relative ph_remove_about d-flex align-items-end order-md-1 order-2">
-                <div className='about-gif'>
-                  <img className="about_bottom" src={About2.src} alt="" />
+          <div className="about-mask aboutWrap" style={{backgroundImage: `url(${radialBg.src})`,backgroundRepeat: 'no-repeat'}}>
+            <div className="row m-0 position-relative text-white "> 
+                <div className="col-6 col-sm-6 col-md-4 px-0 position-relative ph_remove_about d-flex align-items-end order-md-1 order-2">
+                  <div className='about-gif' data-aos="fade-up-right" data-aos-delay="300">
+                    <img className="about_bottom" src={About2.src} alt="" />
+                  </div>
+                  
+                  
                 </div>
-                
-                
-              </div>
-              <div className="col-12 col-sm-12 col-md-4 text-center d-flex align-items-center order-md-2 order-1">
-                <div className='aboutHeader'>
-                    <h1 className='b2b-heading'>We Create Smart Ideas For<br />Your Brand Growth</h1>
-                    <p className='b2b-text'>Our team of experts generate innovative concepts and strategies to drive your growth, offering smart solutions that propel your business forward and achieve your objectives efficiently.</p>
-                    <div className="mt-lg-4 mt-md-3 mt-2 text-center">
-                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                <div className="col-12 col-sm-12 col-md-4 text-center d-flex align-items-center order-md-2 order-1">
+                  <div className='aboutHeader' data-aos="fade-up">
+                      <h1 className='b2b-heading'>We Create Smart Ideas For<br />Your Brand Growth</h1>
+                      <p className='b2b-text'>Our team of experts generate innovative concepts and strategies to drive your growth, offering smart solutions that propel your business forward and achieve your objectives efficiently.</p>
+                      <div className="mt-lg-4 mt-md-3 mt-2 text-center">
+                    <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-12 col-xs-12 col-sm-6 col-md-4 px-0 position-relative pt-md-5 pt-0 mt-md-5 mt-0 d-flex align-items-end justify-content-end order-md-3 order-3">
-              <img className="about_bottom" src={About1.src} alt="" />
+                <div className="col-12 col-xs-12 col-sm-6 col-md-4 px-0 position-relative pt-md-5 pt-0 mt-md-5 mt-0 d-flex align-items-end justify-content-end order-md-3 order-3">
+                  <img className="about_bottom" src={About1.src} alt="" data-aos="fade-up-left" data-aos-delay="300"/>
+                
+                </div>
               
               </div>
-             
-            </div>
             </div>
 
         <div className="bg_dark_about">
           <div className="container ">
             <div className="row">
               <div className="col-lg-10 col-md-12 mx-auto text-center text-white"> 
-          <h2 className='b2b-heading mb-xl-5 mb-lg-3 mb-2'>About Us</h2>
-          <p className='b2b-text-sm'>Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
-        <p className='b2b-text-sm'>Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
-        <div className="mt-xl-5 mt-lg-3 mt-2 text-center">
+          <h2 className='b2b-heading mb-xl-5 mb-lg-3 mb-2' data-aos="fade-up">About Us</h2>
+          <p className='b2b-text-sm' data-aos="fade-up" data-aos-delay="300">Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
+        <p className='b2b-text-sm' data-aos="fade-up" data-aos-delay="400">Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
+        <div className="mt-xl-5 mt-lg-3 mt-2 text-center" data-aos="fade-up" data-aos-delay="500">
                 <button className="b2b-btn b2b-btn-sm">Read More</button>
                 </div>
         </div>
@@ -219,7 +219,7 @@ export default function AboutUs() {
 
 
 
-              <div className="slick_slider_about position-relative b2b-black-bg">
+              <div className="slick_slider_about position-relative b2b-black-bg" data-aos="fade-up">
               <Slider {...settings} className="w-100">
 
                 <div className="center_slide">
@@ -303,7 +303,7 @@ export default function AboutUs() {
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-12'>
-                    <h2 className='b2b-main-heading text-center mb-5'>Reasons to collaborate<br />with Base2Brand</h2>
+                    <h2 className='b2b-main-heading text-center mb-5' data-aos="fade-up" >Reasons to collaborate<br />with Base2Brand</h2>
                   </div>
                 </div>
               </div>
@@ -363,7 +363,7 @@ export default function AboutUs() {
               <div className="b2b-black-bg pb-3 pt-5" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
                 <div className="container p-lg-5 p-4">
                   <div className="row">
-                    <div className="col-xxl-10 col-xl-10 col-lg-9 col-md-12 mx-auto">
+                    <div className="col-xxl-10 col-xl-10 col-lg-9 col-md-12 mx-auto" data-aos="fade-up" data-aos-delay="300">
 
                     <div className="ceo_img">
                       <img className="QuoteIcon-about" src={QuoteIcon.src} alt="" />
@@ -396,9 +396,9 @@ export default function AboutUs() {
                 <div className='container mb-5 pt-5'>
                           <div className="row justify-content-center">
                             <div className="col-lg-12">
-                              <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
+                              <h2 className='b2b-main-heading text-center mb-5 text-uppercase' data-aos="fade-up">More about us</h2>
                             </div>
-                            <div className="col-xl-4  col-lg-4 col-md-6 mb-3">
+                            <div className="col-xl-4  col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                               <a className="menuLink" href="/team">
                                 <div className="menuInner b2b-pink-bg">
                                     <h3 className='b2b-title-text text-black'>Team</h3>
@@ -409,7 +409,7 @@ export default function AboutUs() {
                                 </div>
                               </a>
                             </div>
-                            <div className="col-xl-4  col-lg-4 col-md-6 mb-3">
+                            <div className="col-xl-4  col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="400">
                               <a className="menuLink" href="/career">
                                 <div className="menuInner b2b-lightBlue-bg">
                                     <h3 className='b2b-title-text text-black'>Career</h3>

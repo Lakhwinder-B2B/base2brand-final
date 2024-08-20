@@ -92,13 +92,13 @@ export default function Home() {
       <Header />
 
       {/* <HomeBanner /> */}
-      <div className="bg_home" 
+      <div className="bg_home b2b-overflow-hidden" 
         style={{ backgroundImage: `url(${radialBg.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }} >
         <div className="container mx-auto pt-4 pb-5 full_height"> 
           <div className="row align-items-center position-relative">
             <div className="col-md-2 mob-none"  >  
-                  <img src={b2b1.src} className='banner_icon_section' />
-                  <img src={b2b2.src} className='banner_icon_section' /> 
+                  <img src={b2b1.src} className='banner_icon_section' data-aos="fade-up-right" data-aos-delay="300" data-aos-easing="linear"/>
+                  <img src={b2b2.src} className='banner_icon_section' data-aos="fade-up-right" data-aos-delay="300" data-aos-easing="linear"/> 
             </div>
             <div className="col-md-8 text-center pt-5 mt-5 mt-md-0 pt-md-0 mob-top" data-aos="fade-up" > 
               <h2 className="sub_heading">Design, Develop, Deliver</h2> 
@@ -117,16 +117,16 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-2 mob-none"  > 
-                <img src={b2b3.src} className='icon_three banner_icon_section' />
-                <img src={b2b4.src} className='icon_four banner_icon_section ml-4' />
+                <img src={b2b3.src} className='icon_three banner_icon_section' data-aos="fade-up-left" data-aos-delay="300" data-aos-easing="linear"/>
+                <img src={b2b4.src} className='icon_four banner_icon_section ml-4' data-aos="fade-up-left" data-aos-delay="300" data-aos-easing="linear"/>
             </div>
           </div>
         </div>
         <div className="p-3 logo-slider" >
             <div className="col-md-12 text-center pt-4" >
-                <h3 className='b2b-partners-heading'>Our Trusted Partners Collaborate Seamlessly To Drive Mutual Success</h3> 
+                <h3 className='b2b-partners-heading' data-aos="fade-up">Our Trusted Partners Collaborate Seamlessly To Drive Mutual Success</h3> 
             </div>
-            <div className="b2b-container-lg">
+            <div className="b2b-container-lg" data-aos="fade-up">
                 <Slider {...settings} className="w-100">
                   <div>
                     <img src={logo1.src} className='social_logo' /> 

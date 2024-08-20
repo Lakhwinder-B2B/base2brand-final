@@ -61,14 +61,14 @@ const Home = () => {
         <div className="b2b-container-lg"> 
           <div className="row">  
             <div className="col-md-12"  >
-              <h2 className="b2b-heading text-center text-uppercase" >Our Services for Your Digital Transformation</h2>
+              <h2 className="b2b-heading text-center text-uppercase" data-aos="fade-up">Our Services for Your Digital Transformation</h2>
             </div> 
           </div> 
         </div> 
     </div> 
     <div className="container">
     <div className="row">
-      <div className="col-lg-4 col-md-6 mb-3">
+      <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="300">
       <a href="shopify">
         <div className="service_box_outer greenGradiant">
           <div className="service_box_gradiant ">
@@ -84,7 +84,7 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="col-lg-4 col-md-6 mb-3">
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="400">
           <a href="/digital-marketing">
             <div className="service_box_outer purpleGradiant">
               <div className="service_box_gradiant ">
@@ -101,7 +101,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-lg-4 col-md-6 mb-3">
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left"data-aos-delay="500" >
           <a href="/e-commerce">
             <div className="service_box_outer skyBlueGradiant">
               <div className="service_box_gradiant ">
@@ -118,7 +118,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-lg-4 col-md-6 mb-3">
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="600">
           <a href="/graphic">
             <div className="service_box_outer yellowGradiant">
               <div className="service_box_gradiant ">
@@ -135,7 +135,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-lg-4 col-md-6 mb-3">
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="700">
           <a href="/web-application">
             <div className="service_box_outer pinkGradiant">
               <div className="service_box_gradiant ">
@@ -152,7 +152,7 @@ const Home = () => {
         </div>
 
 
-        <div className="col-lg-4 col-md-6 mb-3">
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="800">
           <a href="/app-development">
             <div className="service_box_outer blueGradiant">
               <div className="service_box_gradiant ">

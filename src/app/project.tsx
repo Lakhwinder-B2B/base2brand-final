@@ -54,14 +54,14 @@ export default function home() {
               
               <div className='row'>
                   <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-3 m-auto'>
-                    <h2 className='text-center b2b-sub-heading-bold text-uppercase'>working Process</h2>
-                    <p className='b2b-text text-center '>How we work for our customer</p>
+                    <h2 className='text-center b2b-sub-heading-bold text-uppercase' data-aos="fade-up">working Process</h2>
+                    <p className='b2b-text text-center ' data-aos="fade-up" data-aos-delay="300">How we work for our customer</p>
                   </div>
               </div>
           
           
               <div className='progress-count d-flex flex-wrap justify-content-between b2b-workProcess'>
-                <div className="count-col">
+                <div className="count-col" data-aos="fade-up" data-aos-delay="500">
                   <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                     
                       <div className=''>
@@ -77,7 +77,7 @@ export default function home() {
                   </div>
                 </div>
 
-                <div className="count-col">
+                <div className="count-col" data-aos="fade-up" data-aos-delay="600">
                   <div className='d-flex justify-content-center  b2b-workProcess-wrap'>
                       
                       <div>
@@ -92,7 +92,7 @@ export default function home() {
                   </div>
                 </div>
 
-                <div className="count-col">
+                <div className="count-col" data-aos="fade-up" data-aos-delay="700">
                   <div className='d-flex justify-content-center  b2b-workProcess-wrap'>
                       
                       <div>
@@ -107,7 +107,7 @@ export default function home() {
                   </div>
                 </div>
 
-                <div className="count-col">
+                <div className="count-col" data-aos="fade-up" data-aos-delay="800">
                   <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                     
                       <div>
@@ -122,7 +122,7 @@ export default function home() {
                   </div>
                 </div>
 
-                <div className="count-col">
+                <div className="count-col" data-aos="fade-up" data-aos-delay="900">
                   <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                     
                       <div>
@@ -136,7 +136,7 @@ export default function home() {
                       </div>
                   </div>
                 </div>
-                <div className="count-col">
+                <div className="count-col" data-aos="fade-up" data-aos-delay="1000">
                   <div className='d-flex justify-content-center b2b-workProcess-wrap'>
                       
                       <div>
@@ -153,7 +153,7 @@ export default function home() {
               </div>
 
               <div className='row mt-4'>
-                <div className='col-lg-12 text-center'>
+                <div className='col-lg-12 text-center' data-aos="fade-up" data-aos-delay="1200">
                   <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'>Request a Quote</button>
                 </div>
               </div>

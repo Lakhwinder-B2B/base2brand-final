@@ -59,6 +59,10 @@
     width: 100%;
     border-radius: 50%;
 }
+.crew-wrap.work-with-us img{
+    border-radius: 0;
+}
+
 @media screen and (max-width:1200px) {
     .team-details p {
         font-size: 10px;

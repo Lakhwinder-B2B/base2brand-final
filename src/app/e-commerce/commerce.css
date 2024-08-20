@@ -101,6 +101,9 @@
     display: flex;
     align-items: flex-start;
     z-index: 2;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 28px;
 }
 .platform-tabs ul#pills-tab {
     display: block;
@@ -159,4 +162,9 @@ button.btn_platfotm {
     color: #fff;
     font-size: 16px;
     line-height: 24px;
+}
+.ecommerceWrap .cell-wrap img {
+    margin: auto;
+    width: auto;
+    height: 70px;
 }
