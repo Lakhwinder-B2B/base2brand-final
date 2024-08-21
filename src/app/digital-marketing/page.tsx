@@ -95,38 +95,45 @@ export default function Digital() {
         </div>
           <div className="container py-5">
             <div className="row">
-              <div className="col-md-4 mb-md-0 mb-4">
-                <div className="digital_box">
-                  <img className="digital_img" src={Digital0.src} alt="" />
-                  <img className="digital_icon" src={Icon3.src} alt="" /> 
-                 <div className="leader_box">
-                 <a>Leader in <br />digital marketing <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
-                 </div>
+              <div className="col-md-4 mb-md-0 mb-4"> 
+                <div className="hoverGradient blueGD">
+                  <div className="digital_box">
+                    <img className="digital_img" src={Digital0.src} alt="" />
+                    <img className="digital_icon" src={Icon3.src} alt="" /> 
+                  
+                    <div className="leader_box">
+                      <a>Leader in <br />digital marketing <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="col-md-4 mb-md-0 mb-4">
-                <div className="digital_box">
-                  <img className="digital_img" src={Digital2.src} alt="" />
-                  <img className="digital_icon" src={Icon2.src} alt="" /> 
-                 <div className="leader_box">
-                 <a>Highest Success <br />rates <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
-                 </div>
+                <div className="hoverGradient blueGD">
+                  <div className="digital_box">
+                    <img className="digital_img" src={Digital2.src} alt="" />
+                    <img className="digital_icon" src={Icon2.src} alt="" /> 
+                  <div className="leader_box">
+                  <a>Highest Success <br />rates <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </div>
+                  </div>
                 </div>
               </div>
 
               <div className="col-md-4 mb-md-0 mb-4">
-                <div className="digital_box">
-                  <img className="digital_img" src={Digital1.src} alt="" />
-                  <img className="digital_icon" src={Icon1.src} alt="" /> 
-                 <div className="leader_box">
-                 <a>Quality Marketing <br />Solutions <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
-                 </div>
+                <div className="hoverGradient blueGD">
+                  <div className="digital_box">
+                    <img className="digital_img" src={Digital1.src} alt="" />
+                    <img className="digital_icon" src={Icon1.src} alt="" /> 
+                  <div className="leader_box">
+                  <a>Quality Marketing <br />Solutions <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="main_gallery full_height">
+          <div className="main_gallery">
               <div className="b2b-container-lg">
                 <div className="gallery_slider">
                   <div className="left_thumnails">
@@ -313,69 +320,81 @@ export default function Digital() {
               </div>
               <div className="row counterWrap mt-5">
                 <div className="col-md-6 mb-5 counterInnerWrap" >
-                  <div className=" w-100 h-100 border-bottom" >
-                 
-                    <div className='counter'>
-                      <span>01</span>
-                      <a href="" className='box-nav'><span></span></a>
+                  <div className="hoverGradient blueGD">
+                    <div className=" w-100 h-100 border-bottom" >
+                  
+                      <div className='counter'>
+                        <span>01</span>
+                        <a href="" className='box-nav'><span></span></a>
+                      </div>
+                      <h3>Search Engine Optimization (SEO)</h3> 
+                      <p className="b2b-text mb-4">Enhance online visibility with Base2Brand's SEO expertise. 93% of online experiences begin with a search engine. Let our strategies elevate your rankings and boost organic traffic.</p>
                     </div>
-                    <h3>Search Engine Optimization (SEO)</h3> 
-                    <p className="b2b-text mb-4">Enhance online visibility with Base2Brand's SEO expertise. 93% of online experiences begin with a search engine. Let our strategies elevate your rankings and boost organic traffic.</p>
                   </div>
                 </div>
                 <div className="col-md-6 mb-5 counterInnerWrap" >
-                  <div className=" w-100 h-100 border-bottom" >
+                  <div className="hoverGradient blueGD">
+                    <div className=" w-100 h-100 border-bottom" >
                  
-                    <div className='counter'>
-                      <span>02</span>
-                      <a href="" className='box-nav'><span></span></a>
+                      <div className='counter'>
+                        <span>02</span>
+                        <a href="" className='box-nav'><span></span></a>
+                      </div>
+                      <h3>Meta Ads</h3> 
+                      <p className="b2b-text mb-4">Supercharge your social media presence with targeted Facebook and Instagram Ads. With over 3.5 billion active users combined, these platforms offer unparalleled reach for businesses.</p>
                     </div>
-                    <h3>Meta Ads</h3> 
-                    <p className="b2b-text mb-4">Supercharge your social media presence with targeted Facebook and Instagram Ads. With over 3.5 billion active users combined, these platforms offer unparalleled reach for businesses.</p>
                   </div>
                 </div>
                 <div className="col-md-6 mb-5 counterInnerWrap" >
-                  <div className=" w-100 h-100 border-bottom" >
+                  <div className="hoverGradient blueGD">
+                    <div className=" w-100 h-100 border-bottom" >
                  
-                    <div className='counter'>
-                      <span>03</span>
-                      <a href="" className='box-nav'><span></span></a>
+                      <div className='counter'>
+                        <span>03</span>
+                        <a href="" className='box-nav'><span></span></a>
+                      </div>
+                      <h3>Social Media Optimization (SMO)</h3> 
+                      <p className="b2b-text mb-4">We specializes in SMO, optimizing social platforms to enhance brand visibility and engagement, tailored to your business goals.</p>
                     </div>
-                    <h3>Social Media Optimization (SMO)</h3> 
-                    <p className="b2b-text mb-4">We specializes in SMO, optimizing social platforms to enhance brand visibility and engagement, tailored to your business goals.</p>
                   </div>
                 </div>
                 <div className="col-md-6 mb-5 counterInnerWrap" >
-                  <div className=" w-100 h-100 border-bottom" >
+                  <div className="hoverGradient blueGD">
+                    <div className=" w-100 h-100 border-bottom" >
                  
-                    <div className='counter'>
-                      <span>04</span>
-                      <a href="" className='box-nav'><span></span></a>
+                      <div className='counter'>
+                        <span>04</span>
+                        <a href="" className='box-nav'><span></span></a>
+                      </div>
+                      <h3>YouTube Marketing</h3> 
+                      <p className="b2b-text mb-4">Base2Brand excels in YouTube Marketing, leveraging engaging video content to drive business profits from its vast audience</p>
                     </div>
-                    <h3>YouTube Marketing</h3> 
-                    <p className="b2b-text mb-4">Base2Brand excels in YouTube Marketing, leveraging engaging video content to drive business profits from its vast audience</p>
                   </div>
                 </div>
                 <div className="col-md-6 mb-5 counterInnerWrap" >
-                  <div className=" w-100 h-100 border-bottom" >
+                  <div className="hoverGradient blueGD">
+                    <div className=" w-100 h-100 border-bottom" >
                  
-                    <div className='counter'>
-                      <span>05</span>
-                      <a href="" className='box-nav'><span></span></a>
+                      <div className='counter'>
+                        <span>05</span>
+                        <a href="" className='box-nav'><span></span></a>
+                      </div>
+                      <h3>Online Reputation Management</h3> 
+                      <p className="b2b-text mb-4">Base2Brand is your expert in ORM, safeguarding your brand's reputation, addressing negative feedback, and fostering positive sentiments for online success.</p>
                     </div>
-                    <h3>Online Reputation Management</h3> 
-                    <p className="b2b-text mb-4">Base2Brand is your expert in ORM, safeguarding your brand's reputation, addressing negative feedback, and fostering positive sentiments for online success.</p>
                   </div>
                 </div>
                 <div className="col-md-6 mb-5 counterInnerWrap" >
-                  <div className=" w-100 h-100 border-bottom" >
+                  <div className="hoverGradient blueGD">
+                    <div className=" w-100 h-100 border-bottom" >
                  
-                    <div className='counter'>
-                      <span>06</span>
-                      <a href="" className='box-nav'><span></span></a>
+                      <div className='counter'>
+                        <span>06</span>
+                        <a href="" className='box-nav'><span></span></a>
+                      </div>
+                      <h3>Content Writing</h3> 
+                      <p className="b2b-text mb-4">Our Content Writing service crafts engaging, SEO-friendly content, tailored to your brand across blog posts, website copy, and social media.</p>
                     </div>
-                    <h3>Content Writing</h3> 
-                    <p className="b2b-text mb-4">Our Content Writing service crafts engaging, SEO-friendly content, tailored to your brand across blog posts, website copy, and social media.</p>
                   </div>
                 </div>
               </div>
@@ -386,21 +405,29 @@ export default function Digital() {
             <div className="b2b-container-lg">
               <div className="row gap-5">
                 <div className="col-lg-6 col-md-7 order-md-1 order-2" >
-                  <div className='b2b-gray-bg mb-4 p-3 w-100'>
-                    <h4>Customized Solutions</h4>
-                    <p className='b2b-text'>We understand that every business is unique, so we craft personalized strategies that align with your goals and objectives, delivering tailored solutions for maximum impact.</p>
+                  <div className="hoverGradient blueGD mb-4 w-100">
+                    <div className='b2b-gray-bg p-3 w-100'>
+                      <h4>Customized Solutions</h4>
+                      <p className='b2b-text'>We understand that every business is unique, so we craft personalized strategies that align with your goals and objectives, delivering tailored solutions for maximum impact.</p>
+                    </div>
                   </div>
-                  <div className='b2b-gray-bg mb-4 p-3 w-100'>
-                    <h4>Transparency</h4>
-                    <p className='b2b-text'>We believe in open communication and transparency throughout our partnership, providing regular updates, performance reports, and insights to keep you informed every step of the way.</p>
+                  <div className="hoverGradient blueGD mb-4 w-100">
+                    <div className='b2b-gray-bg p-3 w-100'>
+                      <h4>Transparency</h4>
+                      <p className='b2b-text'>We believe in open communication and transparency throughout our partnership, providing regular updates, performance reports, and insights to keep you informed every step of the way.</p>
+                    </div>
                   </div>
-                  <div className='b2b-gray-bg mb-4 p-3 w-100'>
-                    <h4>Proven Results</h4>
-                    <p className='b2b-text'>With a track record of success and satisfied clients, we deliver tangible results that drive business growth, whether it's increased website traffic, higher conversion rates, or improved brand visibility.</p>
+                  <div className="hoverGradient blueGD mb-4 w-100">
+                    <div className='b2b-gray-bg p-3 w-100'>
+                      <h4>Proven Results</h4>
+                      <p className='b2b-text'>With a track record of success and satisfied clients, we deliver tangible results that drive business growth, whether it's increased website traffic, higher conversion rates, or improved brand visibility.</p>
+                    </div>
                   </div>
-                  <div className='b2b-gray-bg mb-4 p-3 w-100'>
-                    <h4>Innovative Approach</h4>
-                    <p className='b2b-text'>We stay ahead of the curve with cutting-edge tools, techniques, and trends in digital marketing, ensuring our strategies are always fresh, relevant, and effective in today's ever-evolving landscape.</p>
+                  <div className="hoverGradient blueGD mb-4 w-100">
+                    <div className='b2b-gray-bg p-3 w-100'>
+                      <h4>Innovative Approach</h4>
+                      <p className='b2b-text'>We stay ahead of the curve with cutting-edge tools, techniques, and trends in digital marketing, ensuring our strategies are always fresh, relevant, and effective in today's ever-evolving landscape.</p>
+                    </div>
                   </div>
                 </div>
                 <div className="col-lg-5 col-md-5 order-md-2 order-1 mb-md-0 mb-5" >
@@ -418,44 +445,54 @@ export default function Digital() {
               </div>
               <div className="row row-cols-md-6 row-cols-3 gap-3 mt-md-5 mt-3 whyChoosewrap-row">
                 <div className='col mb-4'>
-                  <div className='dmWrap'>
-                    <img className="icon" src={dm1.src} alt="" />
-                    <p>Precision Targeting</p>
-                    <img className="checkicon" src={checkCircle.src} alt="" />
+                  <div className="hoverGradient blueGD withGray">
+                    <div className='dmWrap'>
+                      <img className="icon" src={dm1.src} alt="" />
+                      <p>Precision Targeting</p>
+                      <img className="checkicon" src={checkCircle.src} alt="" />
+                    </div>
                   </div>
                 </div>
                 <div className='col mb-4'>
-                  <div className='dmWrap'>
-                    <img className="icon" src={dm2.src} alt="" />
-                    <p>Engaging Content</p>
-                    <img className="checkicon" src={checkCircle.src} alt="" />
+                  <div className="hoverGradient blueGD withGray">
+                    <div className='dmWrap'>
+                      <img className="icon" src={dm2.src} alt="" />
+                      <p>Engaging Content</p>
+                      <img className="checkicon" src={checkCircle.src} alt="" />
+                    </div>
                   </div>
                 </div>
                 <div className='col mb-4'>
-                  <div className='dmWrap'>
-                    <img className="icon" src={dm3.src} alt="" />
-                    <p>Personalized Campaigns</p>
-                    <img className="checkicon" src={checkCircle.src} alt="" />
+                  <div className="hoverGradient blueGD withGray">
+                    <div className='dmWrap'>
+                      <img className="icon" src={dm3.src} alt="" />
+                      <p>Personalized Campaigns</p>
+                      <img className="checkicon" src={checkCircle.src} alt="" />
+                    </div>
                   </div>
                 </div>
                 <div className='col mb-4'>
-                  <div className='dmWrap'>
-                    <img className="icon" src={dm4.src} alt="" />
-                    <p>Enhanced Conversions</p>
-                    <img className="checkicon" src={checkCircle.src} alt="" />
+                  <div className="hoverGradient blueGD withGray">
+                    <div className='dmWrap'>
+                      <img className="icon" src={dm4.src} alt="" />
+                      <p>Enhanced Conversions</p>
+                      <img className="checkicon" src={checkCircle.src} alt="" />
+                    </div>
                   </div>
                 </div>
                 <div className='col mb-4'>
-                  <div className='dmWrap'>
-                    <img className="icon" src={dm5.src} alt="" />
-                    <p>Enhanced Visibility</p>
-                    <img className="checkicon" src={checkCircle.src} alt="" />
+                  <div className="hoverGradient blueGD withGray">
+                    <div className='dmWrap'>
+                      <img className="icon" src={dm5.src} alt="" />
+                      <p>Enhanced Visibility</p>
+                      <img className="checkicon" src={checkCircle.src} alt="" />
+                    </div>
                   </div>
                 </div>
               </div>
               </div>
             </div>
-            <div className="py-5 b2b-gray-bg" >
+            <div className="py-5 b2b-gray-bg businessNeed" >
             <div className="b2b-container-lg">
               <div className="row">
                 <div className="col-md-12" >
@@ -465,63 +502,75 @@ export default function Digital() {
                 <div className='col-lg-9 m-auto'>
                   <div className="row counterWrap mt-5">
                     <div className="col-md-6 mb-4 counterInnerWrap" >
-                      <div className=" w-100 h-100 " >
-                        <ul className='counter-checklist'>
-                          <li>
-                            <h4>Increased Reach</h4>
-                            <p className="b2b-text mb-0">Digital marketing broadens audience reach beyond traditional methods, engaging online communities and potential customers actively, ensuring brand visibility across diverse platforms.</p> 
-                          </li>
-                        </ul>
+                      <div className="hoverGradient blueGD">
+                        <div className=" w-100 h-100 " >
+                          <ul className='counter-checklist'>
+                            <li>
+                              <h4>Increased Reach</h4>
+                              <p className="b2b-text mb-0">Digital marketing broadens audience reach beyond traditional methods, engaging online communities and potential customers actively, ensuring brand visibility across diverse platforms.</p> 
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-6 mb-4 counterInnerWrap" >
-                      <div className=" w-100 h-100 " >
-                        <ul className='counter-checklist'>
-                          <li>
-                            <h4>Cost-Effectiveness</h4> 
-                            <p className="b2b-text mb-0">Digital marketing is more cost-effective than traditional channels, enabling strategic budget allocation for higher ROI via targeted campaigns.</p>
-                          </li>
-                        </ul>
+                      <div className="hoverGradient blueGD">
+                        <div className=" w-100 h-100 " >
+                          <ul className='counter-checklist'>
+                            <li>
+                              <h4>Cost-Effectiveness</h4> 
+                              <p className="b2b-text mb-0">Digital marketing is more cost-effective than traditional channels, enabling strategic budget allocation for higher ROI via targeted campaigns.</p>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-6 mb-4 counterInnerWrap" >
-                      <div className=" w-100 h-100 " >
-                        <ul className='counter-checklist'>
-                          <li>
-                            <h4>Improved Targeting</h4> 
-                            <p className="b2b-text mb-0">Digital marketing offers precise targeting, tailoring messaging to specific demographics, interests, ensuring resonant content for higher engagement and conversions.</p>
-                          </li>
-                        </ul>
+                      <div className="hoverGradient blueGD">
+                        <div className=" w-100 h-100 " >
+                          <ul className='counter-checklist'>
+                            <li>
+                              <h4>Improved Targeting</h4> 
+                              <p className="b2b-text mb-0">Digital marketing offers precise targeting, tailoring messaging to specific demographics, interests, ensuring resonant content for higher engagement and conversions.</p>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-6 mb-4 counterInnerWrap" >
-                      <div className=" w-100 h-100 " >
-                        <ul className='counter-checklist'>
-                          <li>
-                            <h4>Enhanced Brand Awareness</h4> 
-                            <p className="b2b-text mb-0">Digital marketing boosts brand visibility and recognition through consistent online presence and strategic branding efforts, fostering trust and loyalty.</p>
-                          </li>
-                        </ul>
+                      <div className="hoverGradient blueGD">
+                        <div className=" w-100 h-100 " >
+                          <ul className='counter-checklist'>
+                            <li>
+                              <h4>Enhanced Brand Awareness</h4> 
+                              <p className="b2b-text mb-0">Digital marketing boosts brand visibility and recognition through consistent online presence and strategic branding efforts, fostering trust and loyalty.</p>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-6 mb-4 counterInnerWrap" >
-                      <div className=" w-100 h-100 " >
-                        <ul className='counter-checklist'>
-                          <li>
-                            <h4>Real-Time Analytics</h4> 
-                            <p className="b2b-text mb-0">Digital marketing provides real-time analytics, tracking campaign effectiveness, identifying improvement areas, and making data-driven decisions for optimized results.</p>
-                          </li>
-                        </ul>
+                      <div className="hoverGradient blueGD">
+                        <div className=" w-100 h-100 " >
+                          <ul className='counter-checklist'>
+                            <li>
+                              <h4>Real-Time Analytics</h4> 
+                              <p className="b2b-text mb-0">Digital marketing provides real-time analytics, tracking campaign effectiveness, identifying improvement areas, and making data-driven decisions for optimized results.</p>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                     <div className="col-md-6 mb-4 counterInnerWrap" >
-                      <div className=" w-100 h-100 " >
-                        <ul className='counter-checklist'>
-                          <li>
-                            <h4>Adaptability and Flexibility</h4> 
-                            <p className="b2b-text mb-0">Digital marketing offers flexibility to adjust strategies to changing market trends, consumer preferences, ensuring business agility in dynamic digital environments</p>
-                          </li>
-                        </ul>
+                      <div className="hoverGradient blueGD">
+                        <div className=" w-100 h-100 " >
+                          <ul className='counter-checklist'>
+                            <li>
+                              <h4>Adaptability and Flexibility</h4> 
+                              <p className="b2b-text mb-0">Digital marketing offers flexibility to adjust strategies to changing market trends, consumer preferences, ensuring business agility in dynamic digital environments</p>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                     <div className="col-lg-12 mt-3 text-center">

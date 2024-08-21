@@ -85,7 +85,7 @@ export default function MobileTabs() {
                         <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)}
                             autoplay={false}
                             arrows={false}
-                            dots={true}
+                            dots={false}
                             slidesToShow={1}
                             slidesToScroll={1}
                             speed={800}

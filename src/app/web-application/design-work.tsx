@@ -47,24 +47,30 @@ export default function DesignWork() {
                         <h2 className="text-center mb-3 b2b-heading">Proficient in Each Interface of a Website Development</h2>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4">
-                      <div className="cell-wrap b2b-gray-bg text-center">
-                        <img src={develop.src} className="imgIcon" alt="" />
-                        <h3>Front-end</h3>
-                        <p className="b2b-text letterSpacing-1 mb-0">Craft intuitive interfaces, captivating designs, and seamless navigation for engaging user experiences on websites and applications.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg text-center">
+                          <img src={develop.src} className="imgIcon" alt="" />
+                          <h3>Front-end</h3>
+                          <p className="b2b-text letterSpacing-1 mb-0">Craft intuitive interfaces, captivating designs, and seamless navigation for engaging user experiences on websites and applications.</p>
+                        </div>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4">
-                      <div className="cell-wrap b2b-gray-bg text-center">
-                        <img src={backend.src} className="imgIcon" alt="" />
-                        <h3>Front-end + Backend</h3>
-                        <p className="b2b-text letterSpacing-1 mb-0">Build robust, scalable, and secure server-side solutions, optimizing performance and data processing for reliable digital operations.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg text-center">
+                          <img src={backend.src} className="imgIcon" alt="" />
+                          <h3>Front-end + Backend</h3>
+                          <p className="b2b-text letterSpacing-1 mb-0">Build robust, scalable, and secure server-side solutions, optimizing performance and data processing for reliable digital operations.</p>
+                        </div>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4">
-                      <div className="cell-wrap b2b-gray-bg text-center">
-                        <img src={adminPanel.src} className="imgIcon" alt="" />
-                        <h3>Admin Panel</h3>
-                        <p className="b2b-text letterSpacing-1 mb-0">Develop intuitive tools for managing websites and applications, empowering administrators with efficient content control and system oversight.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg text-center">
+                          <img src={adminPanel.src} className="imgIcon" alt="" />
+                          <h3>Admin Panel</h3>
+                          <p className="b2b-text letterSpacing-1 mb-0">Develop intuitive tools for managing websites and applications, empowering administrators with efficient content control and system oversight.</p>
+                        </div>
                       </div>
                     </div>
                     
@@ -96,68 +102,78 @@ export default function DesignWork() {
                 </div>
                 <div className="row mt-5">
                     <div className="col-xl-6 col-lg-6 mb-5">
-                        <div className="deliverable-step">
-                            <div className="deliverable-icon">
-                                <div className="deliverable-icon-bg">
-                                    <img src={Icon1.src} alt="" />
+                        <div className="deliverable-step-outer">
+                          <div className="deliverable-step">
+                                <div className="deliverable-icon">
+                                    <div className="deliverable-icon-bg">
+                                        <img src={Icon1.src} alt="" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="deliverable-content">
-                                <h2 className="b2b-sub-heading">Website Development</h2>
-                                <p className="b2b-text letterSpacing-1">Crafted from scratch, our custom websites are tailored to your unique business needs, ensuring a personalized online presence that resonates with your audience.</p>
-                            </div>
+                                <div className="deliverable-content">
+                                    <h2 className="b2b-sub-heading">Website Development</h2>
+                                    <p className="b2b-text letterSpacing-1">Crafted from scratch, our custom websites are tailored to your unique business needs, ensuring a personalized online presence that resonates with your audience.</p>
+                                </div>
+                          </div>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 mb-5">
-                        <div className="deliverable-step">
-                            <div className="deliverable-icon">
-                                <div className="deliverable-icon-bg">
-                                    <img src={Icon2.src} alt="" />
-                                </div>
-                            </div>
-                            <div className="deliverable-content">
-                                <h2 className="b2b-sub-heading">Responsive Web Design</h2>
-                                <p className="b2b-text letterSpacing-1">With our responsive web design expertise, your website will adapt flawlessly to various devices and screen sizes, providing an optimal viewing experience for every visitor.</p>
-                            </div>
+                      <div className="deliverable-step-outer">
+                          <div className="deliverable-step">
+                              <div className="deliverable-icon">
+                                  <div className="deliverable-icon-bg">
+                                      <img src={Icon2.src} alt="" />
+                                  </div>
+                              </div>
+                              <div className="deliverable-content">
+                                  <h2 className="b2b-sub-heading">Responsive Web Design</h2>
+                                  <p className="b2b-text letterSpacing-1">With our responsive web design expertise, your website will adapt flawlessly to various devices and screen sizes, providing an optimal viewing experience for every visitor.</p>
+                              </div>
+                          </div>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 mb-5">
-                        <div className="deliverable-step">
-                            <div className="deliverable-icon">
-                                <div className="deliverable-icon-bg">
-                                    <img src={Icon3.src} alt="" />
-                                </div>
-                            </div>
-                            <div className="deliverable-content">
-                                <h2 className="b2b-sub-heading">Ecommerce Development</h2>
-                                <p className="b2b-text letterSpacing-1">We create dynamic online stores with seamless navigation, secure payment gateways, and intuitive product management systems to empower your business.</p>
-                            </div>
+                      <div className="deliverable-step-outer">
+                          <div className="deliverable-step">
+                              <div className="deliverable-icon">
+                                  <div className="deliverable-icon-bg">
+                                      <img src={Icon3.src} alt="" />
+                                  </div>
+                              </div>
+                              <div className="deliverable-content">
+                                  <h2 className="b2b-sub-heading">Ecommerce Development</h2>
+                                  <p className="b2b-text letterSpacing-1">We create dynamic online stores with seamless navigation, secure payment gateways, and intuitive product management systems to empower your business.</p>
+                              </div>
+                          </div>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 mb-5">
-                        <div className="deliverable-step">
-                            <div className="deliverable-icon">
-                                <div className="deliverable-icon-bg">
-                                    <img src={Icon4.src} alt="" />
-                                </div>
-                            </div>
-                            <div className="deliverable-content">
-                                <h2 className="b2b-sub-heading">CMS Development</h2>
-                                <p className="b2b-text letterSpacing-1">Our CMS solutions offer user-friendly interfaces for effortless content creation, editing, and publishing, enabling you to maintain a dynamic and engaging online presence with ease.</p>
-                            </div>
+                      <div className="deliverable-step-outer">
+                          <div className="deliverable-step">
+                              <div className="deliverable-icon">
+                                  <div className="deliverable-icon-bg">
+                                      <img src={Icon4.src} alt="" />
+                                  </div>
+                              </div>
+                              <div className="deliverable-content">
+                                  <h2 className="b2b-sub-heading">CMS Development</h2>
+                                  <p className="b2b-text letterSpacing-1">Our CMS solutions offer user-friendly interfaces for effortless content creation, editing, and publishing, enabling you to maintain a dynamic and engaging online presence with ease.</p>
+                              </div>
+                          </div>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 mb-5">
-                        <div className="deliverable-step">
-                            <div className="deliverable-icon">
-                                <div className="deliverable-icon-bg">
-                                    <img src={Icon5.src} alt="" />
-                                </div>
-                            </div>
-                            <div className="deliverable-content">
-                                <h2 className="b2b-sub-heading">Web Application Development</h2>
-                                <p className="b2b-text letterSpacing-1">Our web applications are designed to streamline processes, enhance user engagement, and drive efficiency, leveraging cutting-edge technologies to deliver intuitive and scalable solutions.</p>
-                            </div>
+                      <div className="deliverable-step-outer">
+                          <div className="deliverable-step">
+                              <div className="deliverable-icon">
+                                  <div className="deliverable-icon-bg">
+                                      <img src={Icon5.src} alt="" />
+                                  </div>
+                              </div>
+                              <div className="deliverable-content">
+                                  <h2 className="b2b-sub-heading">Web Application Development</h2>
+                                  <p className="b2b-text letterSpacing-1">Our web applications are designed to streamline processes, enhance user engagement, and drive efficiency, leveraging cutting-edge technologies to deliver intuitive and scalable solutions.</p>
+                              </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -230,56 +246,68 @@ export default function DesignWork() {
               <div className="col-lg-8 m-auto">
                 <div className="row mt-4">
                     <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
-                      <div className="cell-wrap b2b-gray-bg">
-                        <img src={Icons4.src} className="imgIcon" alt="" />
-                        <div className="ps-4">
-                            <h3>Team of Experts</h3>
-                            <p className="b2b-text letterSpacing-1 mb-0">Years of experience and skilled professionals ensure diverse expertise in web development, guaranteeing precision and excellence throughout your project's execution.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg">
+                          <img src={Icons4.src} className="imgIcon" alt="" />
+                          <div className="ps-4">
+                              <h3>Team of Experts</h3>
+                              <p className="b2b-text letterSpacing-1 mb-0">Years of experience and skilled professionals ensure diverse expertise in web development, guaranteeing precision and excellence throughout your project's execution.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
-                      <div className="cell-wrap b2b-gray-bg">
-                        <img src={Icons1.src} className="imgIcon" alt="" />
-                        <div className="ps-4">
-                            <h3>Custom Solutions</h3>
-                            <p className="b2b-text letterSpacing-1 mb-0">We understand that every business is unique. Our custom solutions are tailored to your specific needs, ensuring that your website reflects your brand identity and meets your objectives perfectly.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg">
+                          <img src={Icons1.src} className="imgIcon" alt="" />
+                          <div className="ps-4">
+                              <h3>Custom Solutions</h3>
+                              <p className="b2b-text letterSpacing-1 mb-0">We understand that every business is unique. Our custom solutions are tailored to your specific needs, ensuring that your website reflects your brand identity and meets your objectives perfectly.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
-                      <div className="cell-wrap b2b-gray-bg">
-                        <img src={Icons2.src} className="imgIcon" alt="" />
-                        <div className="ps-4">
-                            <h3>Responsive Design</h3>
-                            <p className="b2b-text letterSpacing-1 mb-0">Our websites are designed to adapt seamlessly to different devices and screen sizes, providing an optimal user experience for visitors regardless of how they access your site.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg">
+                          <img src={Icons2.src} className="imgIcon" alt="" />
+                          <div className="ps-4">
+                              <h3>Responsive Design</h3>
+                              <p className="b2b-text letterSpacing-1 mb-0">Our websites are designed to adapt seamlessly to different devices and screen sizes, providing an optimal user experience for visitors regardless of how they access your site.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
-                      <div className="cell-wrap b2b-gray-bg">
-                        <img src={Icons3.src} className="imgIcon" alt="" />
-                        <div className="ps-4">
-                            <h3>Quality Assurance</h3>
-                            <p className="b2b-text letterSpacing-1 mb-0">Rigorous testing ensures flawless website functionality, delivering a smooth, error-free user experience through integrated quality assurance procedures in our development process.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg">
+                          <img src={Icons3.src} className="imgIcon" alt="" />
+                          <div className="ps-4">
+                              <h3>Quality Assurance</h3>
+                              <p className="b2b-text letterSpacing-1 mb-0">Rigorous testing ensures flawless website functionality, delivering a smooth, error-free user experience through integrated quality assurance procedures in our development process.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
-                      <div className="cell-wrap b2b-gray-bg">
-                        <img src={Icons4.src} className="imgIcon" alt="" />
-                        <div className="ps-4">
-                            <h3>Communication</h3>
-                            <p className="b2b-text letterSpacing-1 mb-0">We prioritize clear and transparent communication, keeping you informed every step of the way and ensuring your feedback is incorporated into the final product.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg">
+                          <img src={Icons4.src} className="imgIcon" alt="" />
+                          <div className="ps-4">
+                              <h3>Communication</h3>
+                              <p className="b2b-text letterSpacing-1 mb-0">We prioritize clear and transparent communication, keeping you informed every step of the way and ensuring your feedback is incorporated into the final product.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
-                      <div className="cell-wrap b2b-gray-bg">
-                        <img src={Icons5.src} className="imgIcon" alt="" />
-                        <div className="ps-4">
-                            <h3>Customer Satisfaction</h3>
-                            <p className="b2b-text letterSpacing-1 mb-0">Our ultimate goal is your satisfaction. We exceed expectations by delivering high-quality, innovative solutions that not only meet but surpass your requirements, ensuring a positive experience working with us.</p>
+                      <div className="hoverGradient blueGD withGray">
+                        <div className="cell-wrap b2b-gray-bg">
+                          <img src={Icons5.src} className="imgIcon" alt="" />
+                          <div className="ps-4">
+                              <h3>Customer Satisfaction</h3>
+                              <p className="b2b-text letterSpacing-1 mb-0">Our ultimate goal is your satisfaction. We exceed expectations by delivering high-quality, innovative solutions that not only meet but surpass your requirements, ensuring a positive experience working with us.</p>
+                          </div>
                         </div>
                       </div>
                     </div>

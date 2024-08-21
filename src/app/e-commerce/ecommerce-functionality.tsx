@@ -25,40 +25,52 @@ export default function ecommerceFunctionality() {
               <div className="col-lg-8 m-auto mt-5">
                 <div className='row row-cols-md-3 row-cols-2 ecommerceWrap'>
                   <div className="col mb-4">
+                    <div className="hoverGradient skyBlueGD">
                       <div className="cell-wrap b2b-gray-bg">
                       <div className='text-center'><img src={benefit1.src} className="imgIcon" alt="" />
                         <span>Vendor Management</span></div>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient skyBlueGD">
                       <div className="cell-wrap b2b-gray-bg">
                         <div className='text-center'><img src={benefit2.src} className="imgIcon" alt="" />
                         <span>Product Catalog Management</span></div>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient skyBlueGD">
                       <div className="cell-wrap b2b-gray-bg">
                       <div className='text-center'><img src={benefit3.src} className="imgIcon" alt="" />
                         <span>Search and Navigation</span></div>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient skyBlueGD">
                       <div className="cell-wrap b2b-gray-bg">
                       <div className='text-center'><img src={benefit4.src} className="imgIcon" alt="" />
                         <span>Order Management</span></div>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient skyBlueGD">
                       <div className="cell-wrap b2b-gray-bg">
                       <div className='text-center'><img src={benefit5.src} className="imgIcon" alt="" />
                         <span>Financial Management</span></div>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient skyBlueGD">
                   <div className="cell-wrap b2b-gray-bg">
                        <div className='text-center'> <img src={benefit6.src} className="imgIcon" alt="" />
                         <span>Analytics and Reporting</span></div>
                       </div>
+                    </div>
                   </div>
                 </div>
               </div>

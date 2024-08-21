@@ -87,7 +87,7 @@ export default function Tab4() {
                       autoplay={false}
                       centerMode= {true}
                       centerPadding= '60px'
-                      arrows={false}
+                      arrows={true}
                       dots={true}
                       slidesToShow={3}
                       slidesToScroll={1}

@@ -1,7 +1,7 @@
-.Typewriter span {
+/* .Typewriter span {
     font-size: 70px;
     color: #fff;
-}
+} */
 .hoverEffect {
     background: rgba(40, 40, 40, 1); 
     border-radius: 10px; 
@@ -428,8 +428,46 @@ ul.counter-checklist li:before {
     width: 100%;
     display: block;
 }
-
-
+.counterInnerWrap .hoverGradient.blueGD:hover>div {
+    background: radial-gradient(47.91% 76.58% at 45% 75.25%, rgba(42, 54, 156, 0.99) 0%, #1f222f 100%);
+}
+.counterInnerWrap .hoverGradient:hover>div {
+    box-shadow: none;
+  }
+.counterInnerWrap .hoverGradient:after {
+    bottom: -10px;
+}
+.whyChoosewrap .hoverGradient {
+    height: unset;
+}
+.whyChoosewrap .hoverGradient>div {
+    border: 0.74px solid transparent;
+}
+.whyChoosewrap .hoverGradient:hover>div {
+    box-shadow: none;
+    border-color: #474747;
+}
+.whyChoosewrap .hoverGradient:hover .dmWrap {
+    box-shadow: none;
+}
+.whyChoosewrap .hoverGradient .dmWrap {
+    border: 0;
+}
+.whyChoosewrap .hoverGradient:after {
+    display: none;
+}
+.businessNeed .hoverGradient>div {
+    border-bottom: 1px solid transparent;
+  }
+.businessNeed .hoverGradient:hover>div {
+    border-color: #fff;
+}
+.hoverGradient.blueGD:hover .digital_box {
+    background: radial-gradient(50.91% 76.58% at 80.73% 75.25%, rgba(42, 54, 156, 0.99) 0%, #1f222f 100%);
+}
+.hoverGradient.blueGD:hover .digital_box img.digital_img{
+    border-color: rgba(42, 54, 156, 0.99);
+}
 @media screen and (max-width:991px) {
     .counterWrap .counterInnerWrap:nth-child(odd){
         padding-right:15px;

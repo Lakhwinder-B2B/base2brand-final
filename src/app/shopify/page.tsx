@@ -18,7 +18,7 @@ export default function services() {
         <div className="service-banner shopify-banner" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="container-fluid mx-auto">
             <div className="row d-flex flex-wrap align-items-center justify-content-center m-auto"> 
-              <div className="full_height col-12 col-sm-12 col-md-12 d-flex flex-wrap align-items-center justify-content-center py-md-5 py-2">
+              <div className="full_height col-12 col-sm-12 col-md-12 d-flex flex-wrap align-items-center justify-content-center py-2">
               <DotLottieReact
                   src='/json/Solar-system-Shopify.json'
                   loop
@@ -26,10 +26,16 @@ export default function services() {
                   className="animated-imgs animated-banner-img"
                 />
                 </div>
-                <div className="col-12 col-sm-12 col-md-12 d-flex flex-wrap align-items-center justify-content-center py-md-5 py-2" data-aos="fade-up" >
+                <div className="col-12 col-sm-12 col-md-12 d-flex flex-wrap align-items-center justify-content-center py-1" data-aos="fade-up" >
                 
-                 <h1 className="banner-text-outline text-center mb-3 text-uppercase">SHOPIFY EXPERTS</h1>
-                 
+                 {/* <h1 className="banner-text-outline text-center mb-3 text-uppercase">SHOPIFY EXPERTS</h1> */}
+                 <div className="bannerTitle">
+                      <svg viewBox="0 0 1320 300">
+                          <text x="50%" y="50%" dy=".35em" text-anchor="middle" stroke-dasharray="5,5">
+                              SHOPIFY EXPERTS
+                          </text>
+                      </svg>
+                  </div>
               </div>
             </div>
           </div> 

@@ -29,64 +29,84 @@ export default function engagementmodal() {
               <div className="col-lg-10 m-auto mt-5">
                 <div className='row row-cols-md-5 row-cols-sm-3  row-cols-2'>
                   <div className="col mb-4">
-                      <div className="cell-wrap">
-                        <img src={benefit1.src} className="imgIcon" alt="" />
-                        <span>Health Care</span>
+                    <div className="hoverGradient blueGD">
+                        <div className="cell-wrap">
+                          <img src={benefit1.src} className="imgIcon" alt="" />
+                          <span>Health Care</span>
+                        </div>
                       </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit2.src} className="imgIcon" alt="" />
                         <span>E-Commerce</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit3.src} className="imgIcon" alt="" />
                         <span>E-Learning</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit4.src} className="imgIcon" alt="" />
                         <span>Travel</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit5.src} className="imgIcon" alt="" />
                         <span>Logistic</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit6.src} className="imgIcon" alt="" />
                         <span>Saas</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit7.src} className="imgIcon" alt="" />
                         <span>Fintech</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit8.src} className="imgIcon" alt="" />
                         <span>Restaurant</span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit9.src} className="imgIcon" alt="" />
                         <span>On Demand </span>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap">
                         <img src={benefit10.src} className="imgIcon" alt="" />
                         <span>Social Media</span>
                       </div>
+                    </div>
                   </div>
                 </div>
               </div>

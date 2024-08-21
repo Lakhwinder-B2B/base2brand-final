@@ -27,55 +27,66 @@ export default function services() {
               <div className="col-lg-12 m-auto mt-5">
                 <div className='row row-cols-lg-3 row-cols-md-2 row-cols-1 ecommerceserviceWrap'>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
-                        <div>
-                          <img src={s1.src} className="imgIcon" alt="" />
-                          <h3 className=' b2b-sub-heading'>Consultation and Planning</h3> </div>
-                          <p className='b2b-text mb-0'>Thorough consultations gather business goals, target audience, and needs, followed by meticulous planning for transparent, successful project outcomes.</p>
-                          <a href="" className='box-nav'><span></span></a>
+                        <div><img src={s1.src} className="imgIcon" alt="" />
+                        <h3 className=' b2b-sub-heading'>Consultation and Planning</h3> </div>
+                        <p className='b2b-text mb-0'>Thorough consultations gather business goals, target audience, and needs, followed by meticulous planning for transparent, successful project outcomes.</p>
+                        <a href="" className='box-nav'><span></span></a>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                         <div><img src={s2.src} className="imgIcon" alt="" />
                         <h3 className=' b2b-sub-heading'>Design &amp; Work Plan</h3></div>
                         <p className='b2b-text mb-0'>Create visually stunning, user-friendly designs reflecting brand identity and enhancing shopping experience using cutting-edge principles.</p>
                         <a href="" className='box-nav'><span></span></a>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                       <div><img src={s3.src} className="imgIcon" alt="" />
                       <h3 className=' b2b-sub-heading'>Coding</h3></div>
                       <p className='b2b-text mb-0'>Expert developers bring designs to life, building robust eCommerce platforms with latest technologies for scalability and flexibility.</p>
                       <a href="" className='box-nav'><span></span></a>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                       <div><img src={s4.src} className="imgIcon" alt="" />
                       <h3 className=' b2b-sub-heading'>Testing</h3></div>
                       <p className='b2b-text mb-0'>Rigorous testing ensures bug-free, optimized eCommerce stores, identifying and addressing issues before launch with comprehensive strategies.</p>
                       <a href="" className='box-nav'><span></span></a>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
+                    <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                       <div><img src={s5.src} className="imgIcon" alt="" />
                       <h3 className=' b2b-sub-heading'>Deployment</h3></div>
                       <p className='b2b-text mb-0'>Post-testing, deploy eCommerce stores seamlessly, minimizing downtime, ensuring uninterrupted access for customers to browse and make purchases effortlessly.</p>
                       <a href="" className='box-nav'><span></span></a>
                       </div>
+                    </div>
                   </div>
                   <div className="col mb-4">
-                  <div className="cell-wrap ">
-                      <div> <img src={s6.src} className="imgIcon" alt="" />
-                      <h3 className=' b2b-sub-heading'>Support &amp; Maintenance</h3></div>
-                      <p className='b2b-text mb-0'>Offer ongoing support, maintenance, updates, and enhancements for smooth eCommerce store operations, providing proactive monitoring and issue resolution.</p>
-                      <a href="" className='box-nav'><span></span></a>
+                    <div className="hoverGradient blueGD">
+                      <div className="cell-wrap ">
+                          <div> <img src={s6.src} className="imgIcon" alt="" />
+                            <h3 className=' b2b-sub-heading'>Support &amp; Maintenance</h3></div>
+                            <p className='b2b-text mb-0'>Offer ongoing support, maintenance, updates, and enhancements for smooth eCommerce store operations, providing proactive monitoring and issue resolution.</p>
+                            <a href="" className='box-nav'><span></span></a>
+                          </div>
                       </div>
+                    </div>
                   </div>
-                </div>
               </div>
 
             </div> 
@@ -95,27 +106,35 @@ export default function services() {
                 </div>
                 <div className="row choose-us-wrap"> 
                   <div className="col-md-6 text-white mb-5"> 
-                    <div className='chosseInnerWrap'>
-                      <h1 className="b2b-sub-heading mb-3">Experience &amp; Expertise</h1>
-                      <p className="b2b-text-sm pr-5 pr-sm-0">Our seasoned team brings extensive eCommerce development experience, delivering innovative, scalable solutions tailored to your business needs, ensuring project success with industry insights.</p>
+                   <div className="hoverGradient blueGD me-3">
+                      <div className='chosseInnerWrap'>
+                        <h1 className="b2b-sub-heading mb-3">Experience &amp; Expertise</h1>
+                        <p className="b2b-text-sm pr-5 pr-sm-0">Our seasoned team brings extensive eCommerce development experience, delivering innovative, scalable solutions tailored to your business needs, ensuring project success with industry insights.</p>
+                      </div>
                     </div>
                   </div>
                   <div className="col-md-6 text-white mb-5"> 
-                    <div className='chosseInnerWrap'>
-                      <h1 className="b2b-sub-heading mb-3">Customization</h1>
-                      <p className="b2b-text-sm pr-5 pr-sm-0">Tailoring our services to your unique brand, we offer highly customizable solutions from design to functionality, providing a personalized experience that sets you apart.</p>
+                   <div className="hoverGradient blueGD me-3">
+                      <div className='chosseInnerWrap'>
+                        <h1 className="b2b-sub-heading mb-3">Customization</h1>
+                        <p className="b2b-text-sm pr-5 pr-sm-0">Tailoring our services to your unique brand, we offer highly customizable solutions from design to functionality, providing a personalized experience that sets you apart.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 text-white mb-5">
+                     <div className="hoverGradient blueGD me-3"> 
+                      <div className='chosseInnerWrap'>
+                        <h1 className="b2b-sub-heading mb-3">Quality Assurance</h1>
+                        <p className="b2b-text-sm pr-5 pr-sm-0">Ensuring excellence, our rigorous testing procedures guarantee bug-free, fully functional eCommerce stores optimized for performance, delivering a seamless shopping experience.</p>
+                      </div>
                     </div>
                   </div>
                   <div className="col-md-6 text-white mb-5"> 
-                    <div className='chosseInnerWrap'>
-                      <h1 className="b2b-sub-heading mb-3">Quality Assurance</h1>
-                      <p className="b2b-text-sm pr-5 pr-sm-0">Ensuring excellence, our rigorous testing procedures guarantee bug-free, fully functional eCommerce stores optimized for performance, delivering a seamless shopping experience.</p>
-                    </div>
-                  </div>
-                  <div className="col-md-6 text-white mb-5"> 
-                    <div className='chosseInnerWrap'>
-                      <h1 className="b2b-sub-heading mb-3">Support and Collaboration</h1>
-                      <p className="b2b-text-sm pr-5 pr-sm-0">Beyond project completion, we offer ongoing support, updates, and collaboration to ensure your eCommerce store remains competitive and responsive to market demands.</p>
+                   <div className="hoverGradient blueGD me-3">
+                      <div className='chosseInnerWrap'>
+                        <h1 className="b2b-sub-heading mb-3">Support and Collaboration</h1>
+                        <p className="b2b-text-sm pr-5 pr-sm-0">Beyond project completion, we offer ongoing support, updates, and collaboration to ensure your eCommerce store remains competitive and responsive to market demands.</p>
+                      </div>
                     </div>
                   </div>
                   

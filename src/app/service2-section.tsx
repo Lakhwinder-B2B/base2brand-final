@@ -173,27 +173,35 @@ export default function Servicetwo() {
         </div>
         <div className="row mb-5">
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon1.src} alt="IOS App Development" /></div>
+              <div className="me-3"><img src={Icon1.src} alt="IOS App Development" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">IOS App<br />Development</h3>
             </div>
+            </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon2.src} alt="Android App Development" /></div>
+              <div className="me-3"><img src={Icon2.src} alt="Android App Development" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Android App<br />Development</h3>
             </div>
-          </div>
-          <div className="col-lg-3 mb-4">
-            <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon3.src} alt="React Native App Development" /></div>
-              <h3 className="b2b-sub-text ml-3 mb-0">React Native App<br />Development</h3>
             </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon4.src} alt="Flutter App Development" /></div>
+              <div className="me-3"><img src={Icon3.src} alt="React Native App Development" /></div>
+              <h3 className="b2b-sub-text ml-3 mb-0">React Native App<br />Development</h3>
+            </div>
+            </div>
+          </div>
+          <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
+            <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+              <div className="me-3"><img src={Icon4.src} alt="Flutter App Development" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Flutter App<br />Development</h3>
+            </div>
             </div>
           </div>
         </div>
@@ -214,27 +222,35 @@ export default function Servicetwo() {
         </div>
         <div className="row mb-5">
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon5.src} alt="Illustrator" /></div>
+              <div className="me-3"><img src={Icon5.src} alt="Illustrator" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Illustrator</h3>
             </div>
+            </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon6.src} alt="Photoshop" /></div>
+              <div className="me-3"><img src={Icon6.src} alt="Photoshop" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Photoshop</h3>
             </div>
-          </div>
-          <div className="col-lg-3 mb-4">
-            <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon7.src} alt="Figma" /></div>
-              <h3 className="b2b-sub-text ml-3 mb-0">Figma</h3>
             </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon8.src} alt="After Effect" /></div>
+              <div className="me-3"><img src={Icon7.src} alt="Figma" /></div>
+              <h3 className="b2b-sub-text ml-3 mb-0">Figma</h3>
+            </div>
+            </div>
+          </div>
+          <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
+            <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+              <div className="me-3"><img src={Icon8.src} alt="After Effect" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">After Effect</h3>
+            </div>
             </div>
           </div>
 
@@ -257,45 +273,59 @@ export default function Servicetwo() {
         </div>
         <div className="row">
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon9.src} alt="Search Engine Optimization" /></div>
+              <div className="me-3"><img src={Icon9.src} alt="Search Engine Optimization" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Search Engine<br />Optimization</h3>
             </div>
+            </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon10.src} alt="Media Buyer" /></div>
+              <div className="me-3"><img src={Icon10.src} alt="Media Buyer" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Media Buyer</h3>
             </div>
+            </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon11.src} alt="Social Media Optimization" /></div>
+              <div className="me-3"><img src={Icon11.src} alt="Social Media Optimization" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Social Media<br />Optimization</h3>
             </div>
+            </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon12.src} alt="YouTube Marketing" /></div>
+              <div className="me-3"><img src={Icon12.src} alt="YouTube Marketing" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">YouTube Marketing</h3>
             </div>
+            </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon13.src} alt="Online Reputation Management" /></div>
+              <div className="me-3"><img src={Icon13.src} alt="Online Reputation Management" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Online Reputation<br />Management</h3>
             </div>
-          </div>
-          <div className="col-lg-3 mb-4">
-            <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon14.src} alt="Content Writing" /></div>
-              <h3 className="b2b-sub-text ml-3 mb-0">Content Writing</h3>
             </div>
           </div>
           <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
-              <div className="mr-2"><img src={Icon15.src} alt="Google ads (PPC)" /></div>
+              <div className="me-3"><img src={Icon14.src} alt="Content Writing" /></div>
+              <h3 className="b2b-sub-text ml-3 mb-0">Content Writing</h3>
+            </div>
+            </div>
+          </div>
+          <div className="col-lg-3 mb-4">
+            <div className="hoverGradient blueGD">
+            <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+              <div className="me-3"><img src={Icon15.src} alt="Google ads (PPC)" /></div>
               <h3 className="b2b-sub-text ml-3 mb-0">Google ads (PPC)</h3>
+            </div>
             </div>
           </div>
         </div>
@@ -306,7 +336,7 @@ export default function Servicetwo() {
       <div className="container-fluid py-0 pb-2 overflow-hidden" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}> 
         <div className="row">
 
-            <Brand />
+            <Brand heading={"The brand we have worked with"}  bgcolor="" color="text-white" />
             <Request />
             
         </div>

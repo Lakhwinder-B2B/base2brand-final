@@ -213,7 +213,7 @@ services pages */
     .deliverable-icon-bg {
         padding: 24px;
     }
-    .deliverable-step{
+    .deliverable-step-outer{
         margin: auto;
     }
     .benefitOuterWrap .b2b-text-sm {
@@ -343,7 +343,7 @@ services pages */
         font-size: 24px;
         line-height: normal;
     }
-    .deliverable-step {
+    .deliverable-step-outer {
         width: 85%;
     }
     .benefitOuterWrap .b2b-text-lg {
@@ -437,7 +437,7 @@ services pages */
         width: auto;
         height: 64px;
     }
-    .deliverable-step {
+    .deliverable-step-outer {
         width: 400px;
     }
     .benefitOuterWrap .px-3 {
@@ -773,7 +773,7 @@ services pages */
         width: 100%;
         height: auto;
     }
-    .deliverable-step {
+    .deliverable-step-outer {
         width: 259px;
         padding-left: 30px;
     }
@@ -823,7 +823,7 @@ services pages */
     }
 }
 @media screen and (max-width: 375px){
-    .deliverable-step {
+    .deliverable-step-outer {
         width: calc(100% - 50px);
         margin: unset;
         margin-left: 38px;

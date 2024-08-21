@@ -12,7 +12,7 @@ import "../e-commerce/commerce.css";
 import "../service-mb-style.css"; 
 import Request from "../request-form";
  
-
+ 
 import Bg from '../../../public/services2-img/service-mask.svg';
 import nextGeneration from '../../../public/ecommerce/e-commerce.png';
 import radialRight from '../../../public/img/radial-right.svg'; 
