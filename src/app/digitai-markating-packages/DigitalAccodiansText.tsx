@@ -5,7 +5,7 @@ import AccodianText from "./AccodianText";
 const DigitalAccodiansText = () => {
   return (
     <>
-      <section className="pt-lg-5 pb-lg-5 b2b-gray-bg">
+      <section className="pt-lg-5 pb-lg-5 b2b-gray-bg-gk">
         <div className="b2b-container-lg">
           <div className="pt-lg-3 pt-5 pb-5">
             <div className="d-flex flex-column flex-lg-row align-items-start gap-4" >
