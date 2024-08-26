@@ -42,14 +42,10 @@ img{
   background: #111616;
 }
 .Typewriter span {
-  font-size: 35px;
+  font-size: 45px;
   color: #fff;
   font-weight: 600;
 }
-
-
-
-
 
 .bggray{
   background: #1B1B1B;
@@ -1068,7 +1064,22 @@ body .request-form.fade.transformAnim .modal-dialog {
 .banner_icon_section{
   width: 150px;
 }
-
+.animated-imgs.animated-banner-img {
+  height: calc(100vh - 200px);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animated-banner-img canvas{
+  margin-top: 0;
+  height: calc(100vh - 100px) !important;
+}
+.sub_heading {
+  font-size: 40px;
+  line-height: 46px;
+}
 @media only screen and (max-width: 767px){
   .logo_brand img {
     margin: auto;

@@ -243,9 +243,9 @@ export default function DesignWork() {
                 <h3 className='b2b-partners-heading'>Why Choose Us?</h3> 
                 <p className="text-white b2b-text letterSpacing-1">Choose us for web development Service because we offer tailored solutions that align with your unique business goals. Our experienced team ensures top-notch quality, timely delivery, and ongoing support.</p>
               </div>
-              <div className="col-lg-8 m-auto">
+              <div className="col-lg-10 m-auto">
                 <div className="row mt-4">
-                    <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons4.src} className="imgIcon" alt="" />
@@ -256,7 +256,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons1.src} className="imgIcon" alt="" />
@@ -267,7 +267,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons2.src} className="imgIcon" alt="" />
@@ -278,7 +278,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons3.src} className="imgIcon" alt="" />
@@ -289,7 +289,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons4.src} className="imgIcon" alt="" />
@@ -300,7 +300,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons5.src} className="imgIcon" alt="" />

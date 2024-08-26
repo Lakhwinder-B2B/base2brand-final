@@ -5,18 +5,7 @@ h1.banner-text-outline {
     font-weight: 700 !important;
     margin-top: -33px;
 }
-.animated-imgs.animated-banner-img {
-    height: calc(100vh - 200px);
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.animated-banner-img canvas{
-    margin-top: 0;
-    height: calc(100vh - 100px) !important;
-}
+
 
 .designTabs {
     display: flex !important;
@@ -323,10 +312,11 @@ button.btn_design span img{
 }
 .bannerTitle svg text {
     text-transform: uppercase;
-    animation: stroke 5s infinite alternate;
-    stroke-width: 2;
+    animation: stroke 5s infinite;
+    stroke-width: 3px;
     stroke: #007A00;
-    font-size: 75px;
+    font-size: 100px;
+    font-weight: 700;
 }
 
 @keyframes stroke {
@@ -335,7 +325,7 @@ button.btn_design span img{
         stroke: #007A00;
         stroke-dashoffset: 25%;
         stroke-dasharray: 0 50%;
-        stroke-width: 2;
+        stroke-width: 3;
     }
 
     70% {
@@ -352,7 +342,7 @@ button.btn_design span img{
     100% {
         fill: #007A00;
         stroke: rgba(54, 95, 160, 0);
-        stroke-dashoffset: -25%;
+        stroke-dashoffset: 25%;
         stroke-dasharray: 50% 0;
         stroke-width: 0;
     }
@@ -364,7 +354,13 @@ button.btn_design span img{
 .right_slider .slick-prev:before{
     background-image: url(../../../public/team-img/arrow-left.svg);
 }
-
+.animated-banner-img.animated-shbanner-img{
+    height: calc(100vh - 300px);
+}
+.animated-banner-img.animated-shbanner-img canvas {
+    margin-top: 0;
+    height: calc(100vh - 100px) !important;
+}
 @media screen and (max-width: 1200px) {
     .designTabsContentWrap .left_thumnails a, 
     .designTabsContentWrap .left_thumnails .slick-slide {

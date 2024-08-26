@@ -16,6 +16,7 @@ import Icon4 from '../../../public/contact-us/icon4.svg';
 import googleTag from '../../../public/contact-us/google-tag.svg';
 import starRating from '../../../public/contact-us/star-rating.svg';
 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
   function ContactUs() { 
     const [formData, setFormData] = useState({
         name: '',
@@ -68,12 +69,22 @@ import starRating from '../../../public/contact-us/star-rating.svg';
     <>
       <Header /> 
       <div className="pt-0 pb-0 b2b-black-bg">
-            <div className="about-mask pt-5" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>
+            <div className="about-mask pt-md-5 pt-3" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>
               <div className="form-container">
                 <div className="row">
-                    <div className="col-lg-7">
+                    <div className="col-md-7">
+                        
                         <div className="formHeading">
                             <h1>Let&apos;s Reach <br />Out To Us</h1>
+                            <div className="call-us mobileShow">
+                            <ul>
+                                
+                                <li className="phone-link"><span>IND: </span><a href="tel:+918360116967">+918360116967</a><a href="mailto:hello@base2brand.com" className="mailID">hello@base2brand.com</a></li>
+                                <li className="phone-link"><span>CANADA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
+                                <li className="phone-link"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
+                                
+                            </ul>
+                        </div>
                             <p>Fill Out the Form</p>
                         </div>
                         <form className="py-5" onSubmit={handleSubmit}>
@@ -105,34 +116,34 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                 
                                 <div className="formServices mb-4 pb-2">
                                     <div>
-                                        <input id="uxui" type="radio" name="service" value="UI/UX" />
+                                        <input id="uxui" type="checkbox" name="service" value="UI/UX" />
                                         <label htmlFor="uxui">UX-UI</label>
                                     </div>
                                     <div>
-                                        <input id="mob_apps" type="radio" name="service" value="Mobile Apps" />
+                                        <input id="mob_apps" type="checkbox" name="service" value="Mobile Apps" />
                                         <label htmlFor="mob_apps">Mobile Apps</label>
                                 
                                     </div>
                                     <div>
-                                        <input id="web_tech" type="radio" name="service" value="Web Tech" />
+                                        <input id="web_tech" type="checkbox" name="service" value="Web Tech" />
                                         <label htmlFor="web_tech">Web Tech</label>
                                         
                                     </div>
                                     <div>
-                                        <input id="seo" type="radio" name="service" value="SEO" />
+                                        <input id="seo" type="checkbox" name="service" value="SEO" />
                                         <label htmlFor="seo">SEO</label>
                                     </div>
                                     <div>
-                                        <input id="smm" type="radio" name="service" value="SMM" />
+                                        <input id="smm" type="checkbox" name="service" value="SMM" />
                                         <label htmlFor="smm">SMM</label>
                                     </div>
                                     <div>
-                                        <input id="branding" type="radio" name="service" value="Branding" />
+                                        <input id="branding" type="checkbox" name="service" value="Branding" />
                                         <label htmlFor="branding">Branding</label>
                                         
                                     </div>
                                     <div>
-                                        <input id="others" type="radio" name="service" value="Others" />
+                                        <input id="others" type="checkbox" name="service" value="Others" />
                                         <label htmlFor="others">Others</label>
                                     </div>
                                 </div>
@@ -147,10 +158,10 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                 <button type="submit" className="b2b-btn b2b-btn-sm">Send Message</button>
                                 <div className="googleReview">
                                     <div>
-                                        <img src={googleTag.src} alt="" />
+                                        <img src={googleTag.src} className="googleImg" alt="" />
                                     </div>
                                     <div>
-                                        <img src={starRating.src} alt="" />
+                                        <img src={starRating.src} className="starImg" alt="" />
                                         <span>26 Review</span>
                                     </div>
                                 </div>
@@ -160,14 +171,20 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                         </form>
                         
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-md-5 call-us-wrap">
                         <div className="contact-img">
-                            <img src={contactImg.src} alt="" />
+                            {/* <img src={contactImg.src} alt="" /> */}
+                            <DotLottieReact
+                                src='/json/banner/Contact us.json'
+                                loop
+                                autoplay
+                                className="animated-imgs animated-contact-img"
+                                />
                         </div>
-                        <div className="call-us">
+                        <div className="call-us mobileHide">
                             <ul>
                                 <li className="mail"><a href="mailto:hello@base2brand.com">hello@base2brand.com</a></li>
-                                <li className="phone-link"><span>IND: </span><a href="tel:+918360116967">+918360116967</a></li>
+                                <li className="phone-link Ind"><span>IND: </span><a href="tel:+918360116967">+918360116967</a></li>
                                 <li className="phone-link"><span>CANADA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
                                 <li className="phone-link"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
                             </ul>
@@ -177,10 +194,10 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                 
               </div>
             </div>
-            <div className="b2b-gray-bg mt-5 mb-5 w-100 py-5">
+            <div className="b2b-gray-bg my-lg-5 my-3 w-100 py-5">
                 <div className="b2b-container-lg">
                     <div className="row addressRow ">
-                        <div className="col-lg-4">
+                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -214,7 +231,7 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                 </div>
                             </div>
                         </div> */}
-                        <div className="col-lg-4">
+                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -231,7 +248,7 @@ import starRating from '../../../public/contact-us/star-rating.svg';
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
