@@ -9,9 +9,10 @@ import Quote from "../request-quote";
 import Footer from "../../../component/footer";
 import "../mobile-application/mobile.css";
 import "../e-commerce/commerce.css";
+import "../service-mb-style.css"; 
 import Request from "../request-form";
  
-
+ 
 import Bg from '../../../public/services2-img/service-mask.svg';
 import nextGeneration from '../../../public/ecommerce/e-commerce.png';
 import radialRight from '../../../public/img/radial-right.svg'; 
@@ -21,17 +22,24 @@ export default function Ecommerce() {
 
   const toggleModal = () => {
     setShowModal(!showModal);
+    setTimeout(function() {
+      const ModalBody = document.querySelector(".request-form");
+      if(ModalBody){
+        ModalBody.classList.add("transformAnim");
+      }
+                               
+      }, 200);
   };
 
   return (
     <>
       <Header />
       <div className="b2b-black-bg">
-      <div className="service-banner full_height p-3 p-md-5" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+      <div className="service-banner full_height p-md-5 p-0" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="container mx-auto">
             <div className="row d-flex flex-wrap align-items-center justify-content-center m-auto"> 
-              <div className="col-12 col-sm-12 col-md-9 d-flex flex-wrap align-items-center justify-content-center pt-5 pb-5" data-aos="fade-up" >
-                 <h1 className="text-center mb-3 b2b-sub-heading-bold text-uppercase">ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h1>
+              <div className="col-12 col-sm-12 col-md-8 d-flex flex-wrap align-items-center justify-content-center py-md-5 py-5" data-aos="fade-up" >
+                 <h1 className="text-center mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h1>
                  <p className="text-white text-center col-12 col-sm-12 col-md-12 m-auto">
                  We specialize in E-commerce theme and app development, providing customized solutions to enhance your web store</p>
                  <div className="service-btn d-flex flex-wrap justify-content-center mt-3 w-100">
@@ -44,7 +52,7 @@ export default function Ecommerce() {
         <div className="py-5">
           <div className="container">
               <div className="row align-items-center"> 
-                  <div className="col-md-5">
+                  <div className="col-md-5 mb-md-0 mb-4">
                     <img className="w-100" src={nextGeneration.src} alt="" />
                   </div>
                   <div className="col-md-7 text-white"> 
@@ -63,7 +71,7 @@ export default function Ecommerce() {
       
         <div className="b2b-black-bg pt-5 pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
          
-            <div className='container mb-5'>
+            <div className='container mb-md-5 mb-3 pt-mb-5 pt-0'>
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <h2 className='b2b-main-heading text-center mb-4 text-uppercase'>Looking For Other Services</h2>
@@ -71,7 +79,7 @@ export default function Ecommerce() {
                 </div>
                 <div className="col-lg-10">
                   <div className="row justify-content-center">
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/web-application">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Web Development</h3>
@@ -82,7 +90,7 @@ export default function Ecommerce() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/app-development">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
@@ -93,7 +101,7 @@ export default function Ecommerce() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/graphic">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
@@ -104,7 +112,7 @@ export default function Ecommerce() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/digital-marketing">
                           <div className="menuInner b2b-lightBlue-bg">
                               <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
@@ -115,7 +123,7 @@ export default function Ecommerce() {
                           </div>
                         </a>
                       </div>
-                      <div className="col-lg-4 mb-3">
+                      <div className="col-lg-4 col-md-6 col-sm-8 mb-3">
                         <a className="menuLink" href="/shopify">
                           <div className="menuInner b2b-pink-bg">
                               <h3 className='b2b-title-text text-black'>Shopify Development</h3>

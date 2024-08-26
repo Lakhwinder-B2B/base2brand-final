@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 import Typewriter from 'typewriter-effect';
 import Request from "./request-form";
+import BannerAnim from "./banner-animation.svg";
 // import "./gsap";
 
 
@@ -47,6 +48,9 @@ export default function HomeBanner() {
                 Request a Quote </button> 
               </div>
             </div>
+            {/* <div className="BannerAnimation">
+              <img src={BannerAnim.src} />
+            </div> */}
           </div>
         </div>
       </div>

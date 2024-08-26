@@ -42,10 +42,21 @@ import Typewriter from 'typewriter-effect';
 import Footer from "../../../component/footer";  
 import { useState } from 'react';
 import "./portfolio.css";
-
+import Request from "../request-form";
 
 export default function Portfolio() {
-  
+    const [showModal, setShowModal] = useState(false);
+
+    const toggleModal = () => {
+      setShowModal(!showModal);
+      setTimeout(function() {
+        const ModalBody = document.querySelector(".request-form");
+        if(ModalBody){
+          ModalBody.classList.add("transformAnim");
+        }
+                                 
+        }, 200);
+    };
   return (    
         <>
       <Header />
@@ -55,7 +66,7 @@ export default function Portfolio() {
                 <div className="col-md-6 text-center text-white mt-5 m-auto mb-5 px-5">
                     <h1 className="text-uppercase b2b-heading">Welcome to our Portfolio</h1>
                     <p className="mb-5 mt-4 army">What sets us apart is the inspiring, creative people behind us they are the soul of our company.Here, we proudly display the results of our hard work and dedication.</p>
-                    <button className='b2b-btn b2b-btn-lg'>Request a Quote</button> 
+                    <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'>Request a Quote</button> 
                 </div>  
             </div>
         </div> 
@@ -466,7 +477,11 @@ export default function Portfolio() {
       <Footer />
 
       </div>
-
+      {showModal && 
+        <Request 
+          onCloseModal={toggleModal} 
+        />
+      }
     </>
   )
 }

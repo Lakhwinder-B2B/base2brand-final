@@ -15,7 +15,7 @@ export default function FAQ() {
               <div className="col-md-12">
                   <h2 className='text-white b2b-main-heading text-center'>Frequently Asked Questions</h2>
               </div>
-              <div className="col-md-8 m-auto mt-5">
+              <div className="col-xl-8 col-lg-9 col-md-12 m-auto mt-5">
                 <div className="accordion accordion-flush b2b-accordion" id="accordionFlushExample">
                   <div className="accordion-item"  >
                     <h2 className="accordion-header fs-4">

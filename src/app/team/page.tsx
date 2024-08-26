@@ -63,18 +63,25 @@ export default function Team() {
 
   const toggleModal = () => {
     setShowModal(!showModal);
+    setTimeout(function() {
+      const ModalBody = document.querySelector(".request-form");
+      if(ModalBody){
+        ModalBody.classList.add("transformAnim");
+      }
+                               
+      }, 200);
   };
-  return (
+  return ( 
     <>
       <Header />
         <div className="pt-0 pb-0 b2b-black-bg">
           <div className="about-mask pt-5" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>
-            <div className="row m-0 position-relative text-white pt-5"> 
+            <div className="row m-0 position-relative text-white pt-md-5 pt-0"> 
               
-              <div className="col-12 col-sm-12 col-md-7 m-auto text-center">
+              <div className="col-12 col-sm-12 col-md-7 m-auto text-center" data-aos="fade-up">
                   <h1 className='b2b-sub-heading-bold text-uppercase'>Our Cherished Teams</h1>
                   <p className='b2b-sub-text'>Each member in our team is experienced and well efficient to deliver the assigned projects before the deadline. We rely on them to fulfill the promises we make to our clients.</p>
-                  <div className="mt-5 text-center mb-5 pb-5">
+                  <div className="mt-md-5 mt-3 text-center mb-md-5 mb-3 pb-md-5 pb-0">
                     <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
                   </div>
                   <div className='text-center'>
@@ -96,16 +103,16 @@ export default function Team() {
               <div className="crew-wrap mt-5">
                 <div className="row justify-content-center higher-officials">
                   <div className="col-md-12 mx-auto text-center text-white mb-5"> 
-                      <h1 className='b2b-sub-heading-bold text-uppercase'>Higher Officials</h1>
+                      <h1 className='b2b-sub-heading-bold text-uppercase' data-aos="fade-up">Higher Officials</h1>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col-md-3 col-sm-4 col-6 mb-md-5 mb-4' data-aos="zoom-in-up" data-aos-delay="100">
                     <img src={Icon1.src} alt='' />
                     <div className='team-details'>
                       <h3>Rakesh Arora</h3>
                       <p>Managing Director (MD)</p>
                     </div>
                   </div>
-                  <div className='col-md-3 mb-5'>
+                  <div className='col-md-3 col-sm-4 col-6 mb-md-5 mb-4' data-aos="zoom-in-up" data-aos-delay="200">
                     <img src={Icon2.src} alt='' />
                     <div className='team-details'>
                       <h3>Rahul Dhyaniya</h3>
@@ -113,67 +120,67 @@ export default function Team() {
                     </div>
                   </div>
                 </div>
-                <div className="row row-cols-5 justify-content-center mt-5">
-                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
-                      <h1 className='b2b-sub-heading-bold text-uppercase'>Team</h1>
+                <div className="employeesWrap row row-cols-xl-5 row-cols-lg-5 row-cols-md-4 row-cols-2 justify-content-center mt-5">
+                  <div className="w-100 col-md-12 mx-auto text-center text-white mb-5"> 
+                      <h1 className='b2b-sub-heading-bold text-uppercase' data-aos="fade-up">Team</h1>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={manpreetSingh.src} alt='' />
                     <div className='team-details'>
                       <h3>manpreet Singh</h3>
                       <p>Project Manager</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={ArshpreetSingh.src} alt='' />
                     <div className='team-details'>
                       <h3>Arshpreet Singh</h3>
                       <p>Project Coordinator</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SandeepSingh.src} alt='' />
                     <div className='team-details'>
                       <h3>Sandeep Singh</h3>
                       <p>Technical Lead</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Zaid.src} alt='' />
                     <div className='team-details'>
                       <h3>Zaid</h3>
                       <p>Digital Marketing Project Manager</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Sumek.src} alt='' />
                     <div className='team-details'>
                       <h3>Sumek</h3>
                       <p>Human Resource Executive</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SurajParkash.src} alt='' />
                     <div className='team-details'>
                       <h3>Suraj Parkash</h3>
                       <p>Quality Analyst</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={DeeptiDixit.src} alt='' />
                     <div className='team-details'>
                       <h3>Deepti Dixit</h3>
                       <p>Business Development Executive</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SahilSolanki.src} alt='' />
                     <div className='team-details'>
                       <h3>Sahil Solanki</h3>
                       <p>graphic &amp; uI/UX designer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SameerKathat.src} alt='' />
                     <div className='team-details'>
                       <h3>Sameer Kathat</h3>
@@ -181,56 +188,56 @@ export default function Team() {
                     </div>
                   </div>
                   
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={NasirAhmed.src} alt='' />
                     <div className='team-details'>
                       <h3>Nasir Ahmed</h3>
                       <p>Senior Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Suryathakur.src} alt='' />
                     <div className='team-details'>
                       <h3>Surya thakur</h3>
                       <p>Senior Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={VineetKumarRana.src} alt='' />
                     <div className='team-details'>
                       <h3>Vineet Kumar Rana</h3>
                       <p>Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={RajanKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Rajan Kumar</h3>
                       <p>Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={AmbalikaPhanker.src} alt='' />
                     <div className='team-details'>
                       <h3>Ambalika Phanker</h3>
                       <p>Digital Marketer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={AmanKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Aman Kumar</h3>
                       <p>graphic &amp; uI/UX designer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={VarshaKumari.src} alt='' />
                     <div className='team-details'>
                       <h3>Varsha Kumari</h3>
                       <p>graphic &amp; uI/UX designer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SumitKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Sumit Kumar</h3>
@@ -238,63 +245,63 @@ export default function Team() {
                     </div>
                   </div>
                   
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={RishabhDixit.src} alt='' />
                     <div className='team-details'>
                       <h3>Rishabh Dixit</h3>
                       <p>Video Editor</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={AnuragSharma.src} alt='' />
                     <div className='team-details'>
                       <h3>Anurag Sharma</h3>
                       <p>Content Writer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={ShubhamSharma.src} alt='' />
                     <div className='team-details'>
                       <h3>Shubham Sharma</h3>
                       <p>React Native</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={LalitKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Lalit Kumar</h3>
                       <p>React Native</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={VikashSoni.src} alt='' />
                     <div className='team-details'>
                       <h3>Vikash Soni</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SaddamHusain.src} alt='' />
                     <div className='team-details'>
                       <h3>Saddam Husain</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={MDSahjadAnsari.src} alt='' />
                     <div className='team-details'>
                       <h3>MD. Sahjad Ansari</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={DeepakChauhan.src} alt='' />
                     <div className='team-details'>
                       <h3>Deepak Chauhan</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Lakhwinder.src} alt='' />
                     <div className='team-details'>
                       <h3>Lakhwinder</h3>
@@ -302,7 +309,7 @@ export default function Team() {
                     </div>
                   </div>
                   
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SanjeevKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Sanjeev Kumar</h3>
@@ -310,78 +317,69 @@ export default function Team() {
                     </div>
                   </div>
                   
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={OmParkash.src} alt='' />
                     <div className='team-details'>
                       <h3>Om Parkash</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={RahulRaj.src} alt='' />
                     <div className='team-details'>
                       <h3>Rahul Raj</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={ParshantKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Parshant Kumar</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Ramnish.src} alt='' />
                     <div className='team-details'>
                       <h3>Ramnish</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={RishavKarn.src} alt='' />
                     <div className='team-details'>
                       <h3>Rishav Karn</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={GauravKumar.src} alt='' />
                     <div className='team-details'>
                       <h3>Gaurav Kumar</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={HarshRaj.src} alt='' />
                     <div className='team-details'>
                       <h3>Harsh Raj</h3>
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={LoveeJarewal.src} alt='' />
                     <div className='team-details'>
                       <h3>Lovee Jarewal</h3>
                       <p>Business Development Executive</p>
                     </div>
                   </div>
-                  <div className='col mb-5'>
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Gaganjot.src} alt='' />
                     <div className='team-details'>
                       <h3>Gaganjot Singh</h3>
                       <p>Business Development Executive</p>
                     </div>
                   </div>
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
                   
                   
                   
@@ -395,25 +393,25 @@ export default function Team() {
           <div className="b2b-black-bg pb-3" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
               <div className="crew-wrap work-with-us mt-5">
                 <div className="row justify-content-center higher-officials">
-                  <div className="col-md-12 mx-auto text-center text-white mb-5"> 
-                      <h1 className='b2b-sub-heading-bold text-uppercase'>We Believe In Ourselves <br />You&apos;ll Love Working With Us</h1>
+                  <div className="col-md-12 mx-auto text-center text-white mb-md-5 mb-3"> 
+                      <h1 className='b2b-sub-heading-bold text-uppercase' data-aos="fade-up" data-aos-delay="100">We Believe In Ourselves <br />You&apos;ll Love Working With Us</h1>
                   </div>
-                  <div className='col-md-12 mb-4'>
+                  <div className='col-md-12 mb-4' data-aos="zoom-in-up" data-aos-delay="200">
                     <img src={Img1.src} alt='' />
                   </div>
-                  <div className='col-12 col-md-6  mb-4'>
+                  <div className='col-12 col-md-6  mb-4' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Img2.src} alt='' />
                   </div>
-                  <div className='col-12 col-md-6  mb-4'>
+                  <div className='col-12 col-md-6  mb-4' data-aos="zoom-in-up" data-aos-delay="400">
                     <img src={Img3.src} alt='' />
                   </div>
-                  <div className='col-md-12  mb-4'>
+                  <div className='col-md-12  mb-4' data-aos="zoom-in-up" data-aos-delay="500">
                     <img src={Img4.src} alt='' />
                   </div>
-                  <div className='col-12 col-md-6  mb-4'>
+                  <div className='col-12 col-md-6  mb-4' data-aos="zoom-in-up" data-aos-delay="600">
                     <img src={Img5.src} alt='' />
                   </div>
-                  <div className='col-12 col-md-6  mb-4'>
+                  <div className='col-12 col-md-6  mb-4' data-aos="zoom-in-up" data-aos-delay="700">
                     <img src={Img6.src} alt='' />
                   </div>
                 </div>
@@ -422,9 +420,9 @@ export default function Team() {
               <div className='container mb-5 pt-5'>
                 <div className="row justify-content-center">
                   <div className="col-lg-12">
-                    <h2 className='b2b-main-heading text-center mb-5 text-uppercase'>More about us</h2>
+                    <h2 className='b2b-main-heading text-center mb-5 text-uppercase' data-aos="fade-up">More about us</h2>
                   </div>
-                  <div className="col-xl-4 col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                     <a className="menuLink" href="/about">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>About Us</h3>
@@ -435,7 +433,7 @@ export default function Team() {
                       </div>
                     </a> 
                   </div>
-                  <div className="col-xl-4 col-lg-3 mb-3">
+                  <div className="col-xl-4 col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="400">
                     <a className="menuLink" href="/career">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Career</h3>

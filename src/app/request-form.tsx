@@ -39,9 +39,9 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                 // Handle success, maybe show a success message
                 toast.success('Form submitted successfully');
                 nextForm();
-                setTimeout(function() {
-                    onCloseModal();                          
-                    }, 800);
+                // setTimeout(function() {
+                //     onCloseModal();                          
+                //     }, 800);
                 //  onCloseModal();
 
 
@@ -153,26 +153,26 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                 <h3>What services would you like to opt?</h3>
                                 <div className="formServices mb-2 pb-2">
                                     <div>
-                                        <input className="serviceCheckbox" id="uxui" type="radio" name="service" value="UI/UX" />
+                                        <input className="serviceCheckbox" id="uxui" type="checkbox" name="service" value="UI/UX" />
                                         <label htmlFor="uxui">UX-UI</label>
                                     </div>
                                     <div>
-                                        <input className="serviceCheckbox" id="branding" type="radio" name="service" value="Branding" />
+                                        <input className="serviceCheckbox" id="branding" type="checkbox" name="service" value="Branding" />
                                         <label htmlFor="branding">Branding</label>
                                         
                                     </div>
                                     <div>
-                                        <input className="serviceCheckbox" id="development" type="radio" name="service" value="Development" />
+                                        <input className="serviceCheckbox" id="development" type="checkbox" name="service" value="Development" />
                                         <label htmlFor="development">Development</label>
                                 
                                     </div>
                                     <div>
-                                        <input className="serviceCheckbox" id="marketing" type="radio" name="service" value="Marketing" />
+                                        <input className="serviceCheckbox" id="marketing" type="checkbox" name="service" value="Marketing" />
                                         <label htmlFor="marketing">Marketing</label>
                                         
                                     </div>
                                     <div>
-                                        <input className="serviceCheckbox" id="all" type="radio" name="service" value="All Services" />
+                                        <input className="serviceCheckbox" id="all" type="checkbox" name="service" value="All Services" />
                                         <label htmlFor="all">All Services</label>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                     <div>
                                         <textarea className="project_description" name="project_description" ></textarea>
                                     </div>
-                                </div>
+                                </div> 
                                 <div className="errorBox descError" style={{display: 'none'}}>
                                     <span className="error">Please fill out this field</span>
                                 </div>

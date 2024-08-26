@@ -145,3 +145,12 @@ img.IconAlign {
   height: 60px;
   object-fit: contain;
 }
+@media screen and (max-width:1200px ){
+  img.IconAlign {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 991px) {
+}

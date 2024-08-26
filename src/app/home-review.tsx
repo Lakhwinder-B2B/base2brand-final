@@ -34,7 +34,7 @@ export default function Home() {
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 991,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -67,8 +67,8 @@ export default function Home() {
       <div className="container"> 
           <div className="row text-white"> 
               <div className="col-lg-11 col-md-11 col-11 m-auto p-0">
-              <h3 className="b2b-main-heading text-center text-uppercase">What Our <strong>Clients</strong> Say</h3>
-              <div className="reviewSlider mt-5">
+              <h3 className="b2b-main-heading text-center text-uppercase" data-aos="fade-up">What Our <strong>Clients</strong> Say</h3>
+              <div className="reviewSlider mt-5" data-aos="fade-up" data-aos-delay="500">
                 <Slider {...reviewSlider} className="w-100">
                     <div>
                         <div className="bg_feedback">
@@ -109,13 +109,13 @@ export default function Home() {
                     <div>
                         <div className="bg_feedback">
                           <div className="mb-3 reviewImgWrap"><img className="name_latter" src={csem.src} alt="Product" /></div>
-                          <p className="b2b-text text-left">Was good to collaborate and discuss innovative ideas. Was a very fair and pleasurable experience dealing with the team and we look forward to working together again soon.</p>
+                          <p className="b2b-text text-left">Base2Brand has very professional developers, diligent and always tries their best. I. Will continue to work with them in the future and highly recommend their services to colleagues and friends.</p>
                           <div className=" mt-4">
                           <div className=" pr-5">
                             
                               <div className="feedback_user">
-                                <h3 className="mb-0">Frank Quarato</h3>
-                                <p className="mb-0">CSEM, Inc. </p>
+                                <h3 className="mb-0">John Rivera</h3>
+                                <p className="mb-0">Entrepreneur </p>
                               </div>
                             </div>
 
@@ -124,6 +124,43 @@ export default function Home() {
                     </div>
                    
                     {/* ~~~~~~~~~~~~~~~~ */}
+                    <div>
+                        <div className="bg_feedback">
+                          <div className="mb-3 reviewImgWrap"><img className="name_latter" src={csem.src} alt="Product" /></div>
+                          <p className="b2b-text text-left">B2B is fantastic! they understood our business and made great suggestions for improving our marketing plan. When you hire experts, it's like having a marketing professional on staff that knows your company and product and doesn't need much supervision!</p>
+                          <div className=" mt-4">
+                          <div className=" pr-5">
+                            
+                              <div className="feedback_user">
+                                <h3 className="mb-0">Spencer Tarring</h3>
+                                <p className="mb-0">CEO &amp; Founder at Vous Music Group Ltd </p>
+                              </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                    {/* ~~~~~~~~~~~~~~~~ */}
+                    <div>
+                        <div className="bg_feedback">
+                          <div className="mb-3 reviewImgWrap"><img className="name_latter" src={csem.src} alt="Product" /></div>
+                          <p className="b2b-text text-left">B2B team is brilliant. Efficient and friendly, they recommended and tried out a few strategies that I had never thought about. At some point the strategies they set up were sending so much traffic my way, and it was so perfectly targeted, that I wasn’t able to handle the resulting workload (a great problem to have as a new business).</p>
+                          <div className=" mt-4">
+                          <div className=" pr-5">
+                            
+                              <div className="feedback_user">
+                                <h3 className="mb-0">Sheila Janakos</h3>
+                                <p className="mb-0">CEO (Health Horizons) </p>
+                              </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                    {/* ~~~~~~~~~~~~~~~~ */}
+                   
                 </Slider>
               </div>
               </div>

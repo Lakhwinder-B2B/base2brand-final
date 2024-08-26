@@ -5,9 +5,17 @@ h1.banner-text-outline {
     font-weight: 700 !important;
     margin-top: -33px;
 }
+.animated-imgs.animated-banner-img {
+    height: calc(100vh - 200px);
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .animated-banner-img canvas{
-    margin-top: -80px;
-    height: 100vh !important;
+    margin-top: 0;
+    height: calc(100vh - 100px) !important;
 }
 
 .designTabs {
@@ -219,7 +227,8 @@ button.btn_design span img{
     opacity: 0.2;
     transition: transform .3s cubic-bezier(.4,0,.2,1);
 }
-.right_slider .slick-slide.slick-active.slick-center.slick-current>div {
+.right_slider .slick-slide.slick-center>div,
+.right_slider .slick-slide.slick-center.slick-current>div {
     opacity: 1;
     z-index: 2;
     filter: blur(0);
@@ -248,13 +257,6 @@ button.btn_design span img{
     opacity: .75;
     background-color: #fff;
 }
-
-
-
-
-
-
-
 
 
 .gallery_slider {
@@ -310,4 +312,133 @@ button.btn_design span img{
     background: red;
     height: 200px;
     width: 100%;
+}
+.bannerTitle {
+    width: 100%;
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 150px;
+    overflow: hidden;
+}
+.bannerTitle svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #007A00;
+    font-size: 75px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #007A00;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #007A00;
+    }
+
+    80% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #007A00;
+        stroke-width: 3;
+    }
+
+    100% {
+        fill: #007A00;
+        stroke: rgba(54, 95, 160, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+.right_slider .slick-next:before{
+    background-image: url(../../../public/team-img/arrow-right.svg);
+}
+.right_slider .slick-prev:before{
+    background-image: url(../../../public/team-img/arrow-left.svg);
+}
+
+@media screen and (max-width: 1200px) {
+    .designTabsContentWrap .left_thumnails a, 
+    .designTabsContentWrap .left_thumnails .slick-slide {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .designTabsContentWrap .left_thumnails .slick-slide img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .mobileTabsContentShopify .right_slider .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+        content: '';
+        opacity: .25;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    .mobileTabsContentShopify .right_slider .slick-dots li.slick-active button:before {
+        opacity: .75;
+        background-color: #fff;
+    }
+    
+    .mobileTabsContentShopify .slick-list, 
+    .mobileTabsContentShopify .slick-slider, 
+    .mobileTabsContentShopify .slick-track {
+        height: 350px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mobileTabsContentShopify .right_slider {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .mobileTabsContentShopify .left_thumnails, 
+    .mobileTabsContentShopify .left_thumnails .slick-track {
+        width: 270px !important;
+        height: 300px !important;
+    }
+    .mobileTabsContentShopify .left_thumnails a, 
+    .mobileTabsContentShopify .left_thumnails .slick-slide {
+        height: 130px !important;
+        width: 130px !important;
+    }
+    .mobileTabsContentShopify .left_thumnails:before {
+        content: '';
+        position: absolute;
+        right: 62px;
+        top: 0;
+        height: 100%;
+        width: 200%;
+        border: 1px dashed #fff;
+        border-radius: 50%;
+        left: unset;
+    }
+    .mobileTabsContentShopify .gallery_slider {
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 0rem;
+    }
+    .mobileTabsContentShopify .left_thumnails .slick-slide img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .designTabsContentWrap.mobileTabsContentShopify .slick-slider {
+        margin-top: 0 !important;
+    }
+    .mobileTabsContentShopify .left_thumnails .slick-list, 
+    .mobileTabsContentShopify .left_thumnails .slick-slider, 
+    .mobileTabsContentShopify .left_thumnails .slick-track {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
 }

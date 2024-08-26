@@ -61,99 +61,111 @@ const Home = () => {
         <div className="b2b-container-lg"> 
           <div className="row">  
             <div className="col-md-12"  >
-              <h2 className="b2b-heading text-center text-uppercase" >Our Services for Your Digital Transformation</h2>
+              <h2 className="b2b-heading text-center text-uppercase" data-aos="fade-up">Our Services for Your Digital Transformation</h2>
             </div> 
           </div> 
         </div> 
     </div> 
     <div className="container">
     <div className="row">
-      <div className="col-md-4">
+      <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="300">
+      <a href="shopify">
         <div className="service_box_outer greenGradiant">
           <div className="service_box_gradiant ">
             <div className="serviceIcon">
               <img className='IconAlign' src={Icon.src} alt="" />
               <div className="d-flex justify-content-between align-items-end mt-4">
                 <h3 className='b2b-service-heading'>Shopify <br /> development</h3>
-                <a href="shopify" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow.src} alt="" /> </a>
+                <span className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow.src} alt="" /> </span>
               </div>
               </div>
             </div>
           </div>
+          </a>
         </div>
 
-        <div className="col-md-4">
-        <div className="service_box_outer purpleGradiant">
-          <div className="service_box_gradiant ">
-            <div className="serviceIcon">
-              <img className='IconAlign' src={Icon6.src} alt="" />
-              <div className="d-flex justify-content-between align-items-end mt-4">
-                <h3 className='b2b-service-heading'>Digital  <br /> Marketing</h3>
-                <a href="/digital-marketing" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow1.src} alt="" /> </a>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div className="col-md-4">
-        <div className="service_box_outer skyBlueGradiant">
-          <div className="service_box_gradiant ">
-            <div className="serviceIcon">
-              <img className='IconAlign' src={Icon2.src} alt="" />
-              <div className="d-flex justify-content-between align-items-end mt-4">
-                <h3 className='b2b-service-heading'>Ecommrce  <br /> development</h3>
-                <a href="/e-commerce" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow2.src} alt="" /> </a>
-              </div>
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="400">
+          <a href="/digital-marketing">
+            <div className="service_box_outer purpleGradiant">
+              <div className="service_box_gradiant ">
+                <div className="serviceIcon">
+                  <img className='IconAlign' src={Icon6.src} alt="" />
+                  <div className="d-flex justify-content-between align-items-end mt-4">
+                    <h3 className='b2b-service-heading'>Digital  <br /> Marketing</h3>
+                    <span className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow1.src} alt="" /> </span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
 
-        <div className="col-md-4 mt-4">
-        <div className="service_box_outer yellowGradiant">
-          <div className="service_box_gradiant ">
-            <div className="serviceIcon">
-              <img  className='IconAlign' src={Icon3.src} alt="" />
-              <div className="d-flex justify-content-between align-items-end mt-4">
-                <h3 className='b2b-service-heading'>Graphic &amp; uI/UX  <br /> Designing</h3>
-                <a href="/graphic" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow3.src} alt="" /> </a>
-              </div>
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left"data-aos-delay="500" >
+          <a href="/e-commerce">
+            <div className="service_box_outer skyBlueGradiant">
+              <div className="service_box_gradiant ">
+                <div className="serviceIcon">
+                  <img className='IconAlign' src={Icon2.src} alt="" />
+                  <div className="d-flex justify-content-between align-items-end mt-4">
+                    <h3 className='b2b-service-heading'>Ecommrce  <br /> development</h3>
+                    <span className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow2.src} alt="" /> </span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
 
-        <div className="col-md-4 mt-4">
-        <div className="service_box_outer pinkGradiant">
-          <div className="service_box_gradiant ">
-            <div className="serviceIcon">
-              <img className='IconAlign' src={Icon4.src} alt="" />
-              <div className="d-flex justify-content-between align-items-end mt-4">
-                <h3 className='b2b-service-heading'>Web  <br /> development</h3>
-                <a href="/web-application" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow4.src} alt="" /> </a>
-              </div>
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="600">
+          <a href="/graphic">
+            <div className="service_box_outer yellowGradiant">
+              <div className="service_box_gradiant ">
+                <div className="serviceIcon">
+                  <img  className='IconAlign' src={Icon3.src} alt="" />
+                  <div className="d-flex justify-content-between align-items-end mt-4">
+                    <h3 className='b2b-service-heading'>Graphic &amp; uI/UX  <br /> Designing</h3>
+                    <span className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow3.src} alt="" /> </span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
 
-        <div className="col-md-4 mt-4">
-        <div className="service_box_outer blueGradiant">
-          <div className="service_box_gradiant ">
-            <div className="serviceIcon">
-              <img className='IconAlign' src={Icon5.src} alt="" />
-              <div className="d-flex justify-content-between align-items-end mt-4">
-                <h3 className='b2b-service-heading'>Mobile <br /> development</h3>
-                <a href="/app-development" className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow5.src} alt="" /> </a>
-              </div>
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="700">
+          <a href="/web-application">
+            <div className="service_box_outer pinkGradiant">
+              <div className="service_box_gradiant ">
+                <div className="serviceIcon">
+                  <img className='IconAlign' src={Icon4.src} alt="" />
+                  <div className="d-flex justify-content-between align-items-end mt-4">
+                    <h3 className='b2b-service-heading'>Web  <br /> development</h3>
+                    <span className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow4.src} alt="" /> </span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
+        </div>
+
+
+        <div className="col-lg-4 col-md-6 mb-3" data-aos="fade-up-left" data-aos-delay="800">
+          <a href="/app-development">
+            <div className="service_box_outer blueGradiant">
+              <div className="service_box_gradiant ">
+                <div className="serviceIcon">
+                  <img className='IconAlign' src={Icon5.src} alt="" />
+                  <div className="d-flex justify-content-between align-items-end mt-4">
+                    <h3 className='b2b-service-heading'>Mobile <br /> development</h3>
+                    <span className='b2b-service-text'>Learn more  <img className='arrowIcon' src={Arrow5.src} alt="" /> </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>

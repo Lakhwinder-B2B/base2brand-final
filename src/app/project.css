@@ -71,10 +71,6 @@ img.icon_seo {
     height: 25px;
     margin-right: 12px;
 }
-.active h2 {
-    color: #F47B52 !important;
-    font-size: 30px; 
-}
 .active .tabs_link img{
     filter: grayscale(0) !important;
 opacity: 1 !important;
@@ -138,49 +134,13 @@ a.remove_under_line {
     color: #fff;
     text-decoration: auto;
 }
-.blackGradient{
-    background: linear-gradient(90deg, rgba(66, 65, 65, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
 
-}
-.radialGradient{
-    background: radial-gradient(85.95% 85.95% at 51.75% 51.4%, rgba(65, 48, 140, 0.2) 0%, rgba(17, 22, 22, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
-}
 .img-wrap {
     position: relative;
     display: grid;
     place-items: center;
     padding: 0;
+    
 }
-.b2b-workProcess-wrap img.icon {
-    width: 81px;
-    height: 81px;
-}
-.b2b-workProcess-wrap .animated-icon-wrap {
-    width: 90px;
-    height: 90px;
-    overflow: hidden;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    visibility: hidden;
-}
-.b2b-workProcess-wrap img.animated-icon {
-    width: 138px;
-    height: 138px;
-    object-fit: contain;
-    max-width: unset !important;
-}
-.b2b-workProcess-wrap:hover .animated-icon-wrap{
-    opacity: 1;
-    visibility: visible;
-}
-.b2b-workProcess-wrap:hover img.icon{
-    opacity: 0;
-    visibility: hidden;
-}
+
+

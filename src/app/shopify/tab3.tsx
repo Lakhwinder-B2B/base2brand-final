@@ -3,22 +3,20 @@ import React, { useRef, useState, useEffect } from 'react';
   
 import Slider from 'react-slick';
 
-import tab1Icon1 from "../../../public/shopify/tab1-icon1.png";
-import tab1Icon2 from "../../../public/shopify/tab1-icon2.png";
-import tab1Icon3 from "../../../public/shopify/tab1-icon3.png";
-import tab1Icon4 from "../../../public/shopify/tab1-icon4.png";
-import tab1Icon5 from "../../../public/shopify/tab1-icon5.png";
+import tab3Icon1 from "../../../public/shopify/tab3-icon1.png";
+import tab3Icon2 from "../../../public/shopify/tab3-icon2.png";
+import tab3Icon3 from "../../../public/shopify/tab3-icon3.png";
 
 
-export default function Tab1() {
-    const [nav1, setNav1] = useState(null);
-    const [nav2, setNav2] = useState(null);
-    let sliderRef1 = useRef(null);
-    let sliderRef2 = useRef(null);
+export default function Tab3() {
+    const [nav5, setNav5] = useState(null);
+    const [nav6, setNav6] = useState(null);
+    let sliderRef5 = useRef(null);
+    let sliderRef6 = useRef(null);
   
     useEffect(() => {
-      setNav1(sliderRef1);
-      setNav2(sliderRef2);
+      setNav5(sliderRef5);
+      setNav6(sliderRef6);
     }, []);
 
     // useEffect(() => {
@@ -63,8 +61,8 @@ export default function Tab1() {
         <div className="gallery_slider">
                   <div className="left_thumnails">
                     <Slider
-                        asNavFor={nav1}
-                        ref={(slider2) => setNav2(slider2)}
+                        asNavFor={nav5}
+                        ref={(slider6) => setNav6(slider6)}
                         slidesToShow={1}
                         slidesToScroll={0}
                         swipeToSlide={false}
@@ -73,23 +71,22 @@ export default function Tab1() {
                         focusOnSelect={true}
                         speed={500}
                         infinite={false}
+                        initialSlide = {1}
                       >
                     
                       
-                      <a><img src={tab1Icon1.src} alt="" /></a>
-                      <a><img src={tab1Icon2.src} alt="" /></a>
-                      <a><img src={tab1Icon3.src} alt="" /></a>
-                      <a><img src={tab1Icon4.src} alt="" /></a> 
-                      <a><img src={tab1Icon5.src} alt="" /></a> 
+                      <a><img src={tab3Icon1.src} alt="" /></a>
+                      <a><img src={tab3Icon2.src} alt="" /></a>
+                      <a><img src={tab3Icon3.src} alt="" /></a>
                     
                       </Slider>
                   </div>
                   <div className="right_slider">
-                      <Slider className="right_slider1" asNavFor={nav2} ref={(slider1) => setNav1(slider1)}
+                      <Slider className="right_slider1" asNavFor={nav6} ref={(slider5) => setNav5(slider5)}
                       autoplay={false}
                       centerMode= {true}
                       centerPadding= '60px'
-                      arrows={false}
+                      arrows={true}
                       dots={true}
                       slidesToShow={3}
                       slidesToScroll={1}
@@ -97,6 +94,7 @@ export default function Tab1() {
                       infinite={true}
                       focusOnSelect= {true}
                       cssEase= 'linear'
+                      initialSlide = {1}
                       >
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
@@ -104,8 +102,8 @@ export default function Tab1() {
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                
-                                <h2>Checkout UI Extension</h2>
-                                <p>A Checkout UI Extension enhances the user experience during the checkout process on Shopify. Our Shopify experts can tailor this extension to streamline checkout, optimize form fields, implement guest checkout options, and integrate secure payment gateways, ensuring seamless transactions and higher conversion rates for your online store.</p>
+                                <h2>Hydrogen</h2>
+                                <p>Hydrogen in Shopify refers to a versatile framework for building custom storefronts and progressive web apps (PWAs). Leveraging modern web technologies like React and GraphQL, Hydrogen enables developers to create fast, engaging, and tailored shopping experiences, enhancing brand identity and customer satisfaction on Shopify platforms.</p>
                                 <div className="mt-4">
                                   <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
@@ -121,8 +119,8 @@ export default function Tab1() {
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
-                                <h2>Up Sell</h2>
-                                <p>Upselling is a strategic technique to increase average order value by offering complementary or upgraded products during the checkout process. Our Shopify experts can implement upsell features, suggest related items, and design compelling offers to maximize revenue and enhance customer satisfaction.</p>
+                                <h2>Node JS</h2>
+                                <p>Node.js offers a lightweight, efficient, and scalable runtime environment for server-side JavaScript applications. Our developers harness its non-blocking I/O model and event-driven architecture to build fast, real-time applications. With expertise in Node.js, we ensure optimized performance and seamless scalability for your projects</p>
                                 <div className="mt-4">
                                   <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
@@ -138,8 +136,8 @@ export default function Tab1() {
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
-                                <h2>Discount Formula&apos;s</h2>
-                                <p>The Discount Formula in Shopify allows you to apply discounts to products based on fixed amounts or percentages. Our Shopify experts can configure discount codes, automatic discounts, or bulk discounts tailored to your promotional strategies, encouraging sales and customer engagement in your online store.</p>
+                                <h2>React JS</h2>
+                                <p>React.js is a powerful JavaScript library for building dynamic user interfaces. Its component-based architecture and virtual DOM enable developers to create reusable, interactive UI components efficiently. Our team specializes in React.js development, crafting responsive, high-performance web applications that engage users and drive business growth.</p>
                                 <div className="mt-4">
                                   <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
@@ -147,37 +145,7 @@ export default function Tab1() {
                             </div>
                           </div>
                         </div>
-                        <div className='slider_right_main'>
-                          <div className="row gap-5 align-items-center">
-                            
-                            <div className="col-md-10 m-auto">
-                              <div className="social_ads text-white text-center">
-                                
-                                <h2>Custom Filters</h2>
-                                <p>Custom Filters enable personalized product searches on Shopify, enhancing user experience. Our experts can implement filters based on attributes like size, color, or price, empowering customers to find products quickly. With tailored filters, you can boost conversion rates and improve customer satisfaction in your Shopify store.</p>
-                                <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className='slider_right_main'>
-                          <div className="row gap-5 align-items-center">
-                            
-                            <div className="col-md-10 m-auto">
-                              <div className="social_ads text-white text-center">
-                                
-                                <h2>Custom Search</h2>
-                                <p>Custom Search functionality allows users to find specific products or information on a Shopify store with ease. Our experts can integrate advanced search features, such as autocomplete suggestions, filters, and synonyms, optimizing the search experience and helping customers discover relevant items efficiently, ultimately increasing sales.</p>
-                                <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        
                         
 
                       </Slider>
