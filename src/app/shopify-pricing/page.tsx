@@ -14,11 +14,12 @@ import ShopifySecondPricing from "./ShopifySecondPricing";
 import Brand from "../brand";
 import PerfectPlan from "./PerfectPlan";
 import ExpertiseShopify from "./ExpertiseShopify";
-import ContactWeb from "./ContactWeb";
+// import ContactWeb from "./ContactWeb";
 import Footweb from "./Footweb";
 import PresonalHeader from "./PresonalHeader";
 import shopifypng from "../../../public/img/Shopify Website.png"
-import CartFooter from "./CartFooter";
+import ContactFormFooter from "../digitai-markating-packages/ContactFormFooter";
+// import CartFooter from "./CartFooter";
 
 
 
@@ -179,9 +180,10 @@ const page = () => {
       <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
       <PerfectPlan />
       <ExpertiseShopify />
-      <ContactWeb />
-      <Footweb />
-      <CartFooter/>
+      <ContactFormFooter/>
+      {/* <ContactWeb /> */}
+      <Footweb title=" Shopify Website Development Service" />
+      {/* <CartFooter/> */}
  
 
       

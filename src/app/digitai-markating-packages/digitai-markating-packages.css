@@ -223,9 +223,7 @@ button{
 
 
 /* css all css */
-.b2b-gray-bg-gk {
-    background-color: #12151D;
-}
+
 
 .gk-width-lg {
     width: 65%;
@@ -483,7 +481,8 @@ button.nav-link.active {
     border-radius: 10px;
     font-size: 20px;
     padding: 12px 20px !important;
-    background: linear-gradient(222deg, #0000007a, #42414175) !important;
+    background: linear-gradient(45deg, #396bdb, #7411e1) !important;
+
     font-size: 18px !important;
 }
 img.omg {

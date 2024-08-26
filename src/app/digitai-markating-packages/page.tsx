@@ -54,7 +54,7 @@ const page = () => {
       <QualityLeads />
       <DigitalAccodiansText />
       <ContactFormFooter />
-      <Footweb />
+      <Footweb title=" Shopify Website Development Service" />
     </>
   );
 };
