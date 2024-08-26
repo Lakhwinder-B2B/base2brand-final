@@ -81,7 +81,7 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
 
 
       <div className={`w-100 b2b-brands-wrap  ${bgcolor==="b2b-gray-bg" ? "b2b-white-bg" : "BG-RED "}`} >
-            <div className="b2b-container-lg">
+            <div className="fff">
             <h3 className={`gk-heading-bold text-center text-uppercase ${color ? color : 'text-white'}`}>
           {heading}
         </h3>
