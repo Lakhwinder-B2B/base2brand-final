@@ -170,9 +170,7 @@
 
 
 /* css all css */
-.b2b-gray-bg-gk{
-    background-color: #12151D;
-}
+
 .gk-width-lg{
     width: 65%;
     margin: 0 auto;
@@ -182,7 +180,7 @@
 }
 .BG-RED {
   
-    background: linear-gradient(277deg, #7411e1d4, #396bdbba);
+    background: linear-gradient(45deg, #111616, #41308c);
 }
 .fontlinear {
 
@@ -345,4 +343,18 @@ img.Image-icon {
 } */
 .gk-b2b-btn:hover {
     transform: translateY(-6px);
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  
+
+    .gk-heder {
+      
+        font-size: 13px !important;
+        letter-spacing: 1px !important;
+        line-height: 25px !important;
+    }
+
 }

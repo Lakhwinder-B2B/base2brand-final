@@ -73,15 +73,15 @@ const FacebookAds = () => {
                   <h2 className="fontlinear ">₹ 149,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
                     <li className="fw-bold fs-5">
-                      Shopify Website Creation and Setup
+                    2 Campaigns a month
                     </li>
-                    <li>Upto 200 Products Upload By Our Team</li>
-                    <li className="fw-bold fs-5">SEO Ready Website</li>
-                    <li className="fw-bold fs-5">SSL Certificate</li>
-                    <li className="fw-bold fs-5">Responsive Website</li>
-                    <li>Content 2000 Words</li>
-                    <li>Social Media Integration</li>
-                    <li>Google Analytics Integration</li>
+                    <li>Pixel Setup</li>
+                    <li className="fw-bold fs-5">Weekly Ad Optimization </li>
+                    <li className="fw-bold fs-5">Ad Graphics</li>
+                    <li >Initial Audience Research and Targeting</li>
+                    <li>Ad Copywriting and Design</li>
+                    <li>Conversion Setup</li>
+                    <li>Custom Conversion Tracking</li>
                   </div>
                   {/*  */}
                   <div className="vewmore mt-4">
@@ -161,21 +161,21 @@ const FacebookAds = () => {
               <div className=" p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">6 Months Plan</p>
-                  <p className="b2b-sub-text">
+                  {/* <p className="b2b-sub-text">
                     Advanced E-Commerce Website + Android App
-                  </p>
+                  </p> */}
                   <h2 className="fontlinear ">₹ 249,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
                     <li className="fw-bold fs-5">
-                      Shopify Website Creation and Setup
+                    5 Campaigns a month
                     </li>
-                    <li className="fw-bold fs-5">Android Hybrid App</li>
-                    <li>Google Play Publishing</li>
-                    <li>Referral Integration</li>
-                    <li className="fw-bold fs-5">Abandoned Checkout</li>
-                    <li>Upto 200 Products Upload By Our Team</li>
-                    <li className="fw-bold fs-5">SEO Ready Website</li>
-                    <li>SSL Certificate</li>
+                    <li className="fw-bold fs-5">Comprehensive Pixel Setup</li>
+                    <li>Weekly Ad Optimization </li>
+                    <li className="fw-bold fs-5">Ad Graphics</li>
+                    <li >Detailed Audience Research and Targeting</li>
+                    <li>Enhanced Ad Copywriting and Design </li>
+                    <li className="fw-bold fs-5">Weekly Ad Optimization</li>
+                    <li>Advanced Bid Management</li>
                   </div>
                   {/*  */}
                   <div className="vewmore mt-4">
@@ -216,22 +216,17 @@ const FacebookAds = () => {
                         >
                           <div class="accordion-body pb-0">
                             <div className="list d-flex  flex-column gap-3 ">
-                              <li>Shopify Website Creation and Setup</li>
+                              <li>Advanced Conversion Setup</li>
                               <li className="fw-bold fs-5">
-                                Android Hybrid App
+                              Detailed Custom Conversion Tracking
                               </li>
                               <li className="fw-bold fs-5">
-                                Google Play Publishing
+                              Weekly Performance Reports
                               </li>
-                              <li>iOS Web App</li>
-                              <li>Referral Integration</li>
-                              <li className="fw-bold fs-5  b2b-sub-text ">
-                                Abandoned Checkout
+                              <li className="">
+                              Weekly Strategy Review
                               </li>
-                              <li>Upto 200 Products Upload By Our Team</li>
-                              <li className="fw-bold fs-5">
-                                SEO Ready Website
-                              </li>
+                              
                             </div>
                           </div>
                         </div>
@@ -255,21 +250,21 @@ const FacebookAds = () => {
               <div className=" p-4 gk-rounded card-price ">
                 <div className="border-secondary">
                   <p className="gk-b2b-bold text-white">12 Months Plan</p>
-                  <p className="b2b-sub-text">
+                  {/* <p className="b2b-sub-text">
                     Advanced E-Commerce Website + Android App + iOS Hybrid App
-                  </p>
+                  </p> */}
                   <h2 className="fontlinear ">₹ 299,000</h2>
                   <div className="list d-flex  flex-column gap-3 pt-3">
-                    <li>Shopify Website Creation and Setup</li>
-                    <li className="fw-bold fs-5">Android Hybrid App</li>
-                    <li className="fw-bold fs-5">Google Play Publishing</li>
-                    <li>iOS Web App</li>
-                    <li>Referral Integration</li>
+                    <li>8 Campaigns a month</li>
+                    <li className="fw-bold fs-5">Pixel Setup</li>
+                    <li className="fw-bold fs-5">Ad Optimization </li>
+                    <li>Extensive Image/Video Variants</li>
+                    <li>Conversion Setup</li>
                     <li className="fw-bold fs-5  b2b-sub-text ">
-                      Abandoned Checkout
+                    Weekly Ad Optimization 
                     </li>
-                    <li>Upto 200 Products Upload By Our Team</li>
-                    <li className="fw-bold fs-5">SEO Ready Website</li>
+                    <li>A/B Testing</li>
+                    <li className="fw-bold fs-5">Full Conversion Setup</li>
                   </div>
 
                   {/*  */}
@@ -307,22 +302,22 @@ const FacebookAds = () => {
                         >
                           <div className="accordion-body pb-0">
                             <div className="list d-flex flex-column gap-3">
-                              <li>Shopify Website Creation and Setup</li>
+                              <li>Advanced Custom Conversion Tracking</li>
                               <li className="fw-bold fs-5">
-                                Android Hybrid App
+                              Detailed Ad Copy Testing
                               </li>
                               <li className="fw-bold fs-5">
-                                Google Play Publishing
+                              Weekly Performance Reports
                               </li>
-                              <li>iOS Web App</li>
-                              <li>Referral Integration</li>
-                              <li className="fw-bold fs-5 b2b-sub-text">
+                              <li>Weekly Strategy Review</li>
+                              <li>Monthly Deep-Dive Analysis</li>
+                              {/* <li className="fw-bold fs-5 b2b-sub-text">
                                 Abandoned Checkout
                               </li>
                               <li>Upto 200 Products Upload By Our Team</li>
                               <li className="fw-bold fs-5">
                                 SEO Ready Website
-                              </li>
+                              </li> */}
                             </div>
                           </div>
                         </div>

@@ -2,6 +2,7 @@ import React from "react";
 // import Header from "../../../component/header";
 import Footer from "../../../component/footer";
 import "./ShopifyPricing.css";
+import Header from "../../../component/header"; 
 
 import Image from "next/image";
 import ShopifyExpert from "../../../public/img/shopify-prodduct/logoww.png";
@@ -13,18 +14,20 @@ import ShopifySecondPricing from "./ShopifySecondPricing";
 import Brand from "../brand";
 import PerfectPlan from "./PerfectPlan";
 import ExpertiseShopify from "./ExpertiseShopify";
-import ContactWeb from "./ContactWeb";
+// import ContactWeb from "./ContactWeb";
 import Footweb from "./Footweb";
 import PresonalHeader from "./PresonalHeader";
 import shopifypng from "../../../public/img/Shopify Website.png"
+import ContactFormFooter from "../digitai-markating-packages/ContactFormFooter";
+// import CartFooter from "./CartFooter";
 
 
 
 const page = () => {
   return (
     <>
-      {/* <Header /> */}
-      <PresonalHeader/>
+      <Header />
+      {/* <PresonalHeader/> */}
 
       <section
         className="Shopify-Pricing-Banner  header-padding "
@@ -177,8 +180,10 @@ const page = () => {
       <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
       <PerfectPlan />
       <ExpertiseShopify />
-      <ContactWeb />
-      <Footweb />
+      <ContactFormFooter/>
+      {/* <ContactWeb /> */}
+      <Footweb title=" Shopify Website Development Service" />
+      {/* <CartFooter/> */}
  
 
       

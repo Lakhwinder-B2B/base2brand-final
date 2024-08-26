@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../../../component/header"; 
 import PresonalHeader from "../shopify-pricing/PresonalHeader";
 import DigitalPricing from "./DigitalPricingBanner";
 import "./digitai-markating-packages.css";
@@ -17,14 +18,21 @@ import QualityLeads from "./QualityLeads";
 import DigitalAccodiansText from "./DigitalAccodiansText";
 import ContactFormFooter from "./ContactFormFooter";
 import Footweb from "../shopify-pricing/Footweb";
-import FacebookAds from "./FacebookAds";
+// import FacebookAds from "./FacebookAds";
 import ShopifyWebsite from "../../../public/img/Shopify Website.png";
+import ServicesPricing from "./ServicesPricing";
+
+
+
 
 const page = () => {
   return (
     <>
-      <PresonalHeader />
+    <Header/>
+      {/* <PresonalHeader /> */}
       <DigitalPricing />
+     
+    
       <ShopifySecondPricing
         heading="Digital Marketing Packages – Get An Affordable Online Marketing Packages"
         subtxt="Join Base2Brand and board on a journey towards unmatched revenue growth for your business. Working with us, we can ensure that your brand achieves remarkable success in the future. Explore our digital marketing pricing packages or online marketing packages today and let’s achieve greatness together!"
@@ -35,17 +43,18 @@ const page = () => {
       />
       <MarketingPackages />
       <Brand heading="Our Digital Marketing Clients" bgcolor=""  color="text-white" />
-      <FacebookAds />
-      <SocialMediaMarketingI />
-      <GoogleAds />
-      <EmailMarkating />
-      <SearchEngineOptimization />
+      {/* <FacebookAds /> not use  */}
+    <ServicesPricing/>
+      {/* <SocialMediaMarketingI /> */}
+      {/* <GoogleAds /> */}
+      {/* <EmailMarkating /> */}
+      {/* <SearchEngineOptimization /> */}
       <Servingservice />
       <ChousePackages />
       <QualityLeads />
       <DigitalAccodiansText />
       <ContactFormFooter />
-      <Footweb />
+      <Footweb title=" Shopify Website Development Service" />
     </>
   );
 };

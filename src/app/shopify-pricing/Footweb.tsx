@@ -1,13 +1,13 @@
 import React from "react";
 
-const Footweb = () => {
+const Footweb = ( {title}) => {
   return (
     <>
       <section className="pt-lg-5 pt-4 pb-lg-5 pb-4 b2b-gray-bg ">
         <div className="b2b-container-lg">
           <div className="last-gk">
-            <h2 className="gk-heading-bold  text-center text-uppercase text-cente m-auto gk-width">
-              Shopify Website Development Service
+            <h2 className="gk-heading-bold  text-center  text-cente m-auto gk-width">
+             {title}
             </h2>
             <p className="b2b-sub-text text-center  mt-4 ">
               At Base2Brand, we specialize in creating Shopify websites that are

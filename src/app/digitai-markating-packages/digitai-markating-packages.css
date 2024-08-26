@@ -206,7 +206,9 @@
 
 
 
-
+button{
+    border-style: none;
+}
 
 
 
@@ -221,9 +223,7 @@
 
 
 /* css all css */
-.b2b-gray-bg-gk {
-    background-color: #12151D;
-}
+
 
 .gk-width-lg {
     width: 65%;
@@ -235,7 +235,7 @@
 }
 
 .BG-RED {
-    background: linear-gradient(277deg, #7411e1d4, #396bdbba);
+    background: linear-gradient(45deg, #111616, #41308c);
 }
 
 .fontlinear {
@@ -476,18 +476,28 @@ button.nav-link {
 }
 
 button.nav-link.active {
-    background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+
     border: 2px solid white !important;
     border-radius: 10px;
     font-size: 20px;
     padding: 12px 20px !important;
-    background: linear-gradient(45deg, #7411E1, #396BDB) !important;
-   
-   font-size: 18px !important;
+    background: linear-gradient(45deg, #396bdb, #7411e1) !important;
 
+    font-size: 18px !important;
 }
+img.omg {
+    width: 33px;
+    
+  }
 .line-1 {
     border-right: 2px solid #ffffff4a;
+}
+button.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 70px;
 }
 /* .gk-b2b-btn:hover {
     transform: scale(1.2);
@@ -508,3 +518,5 @@ button.nav-link.active {
     background: linear-gradient(to right,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0.6) 100%);
     transform: skewX(-25deg);
 }
+
+/* end  */
