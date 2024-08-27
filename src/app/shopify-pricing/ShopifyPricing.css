@@ -153,6 +153,42 @@
     border: none;
 }
 
+.whatsapp-btn a span {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 34px;
+    display: block;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    background-color: #1F1D38;
+    border-radius: 25px;
+    width: 100%;
+}
+.whatsapp-btn a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, #396BDB 0%, #7411E1 100%);
+    transition: 0.6s;
+    background-size: 50% 100%;
+}
+.whatsapp-btn a {
+    text-align: center;
+    position: relative;
+    border-radius: 25px;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 2px;
+}
+.whatsapp-btn {
+ 
+   margin-top: 15px;
+}
 
 
 
@@ -182,7 +218,7 @@
   
     background: linear-gradient(45deg, #111616, #41308c);
 }
-.fontlinear {
+/* .fontlinear {
 
 
     font: 700 50px 'Droid Sans', sans-serif;
@@ -195,7 +231,7 @@
                  0px -2px 0px rgba(255, 255, 255, 1),
                  1px -1px 0px rgba(255, 255, 255, 1),
                  2px 0px 0px rgba(255, 255, 255, 1);
-  }
+  } */
   .list {
     font-size: 16px;
     color: white;
@@ -233,9 +269,7 @@ button.accordion-button.collapsed {
 button.accordion-button {
     padding: 0 !important;
 }
-img.Image-icon {
-    width: 90px;
-}
+
 
 
 .gk-bg-Contact{
@@ -264,7 +298,7 @@ img.Image-icon {
     margin: 0 auto;
 }
 img.Image-icon {
-    width: 65px !important;
+    width: 35px !important;
 }
 .divider {
     width: 60%;
@@ -298,7 +332,7 @@ img.Image-icon {
 
 @media only screen and (max-width: 767px) {
     img.Image-icon {
-        width: 50px !important;
+        width: 25px !important;
     }
     .gk-width {
         width: 100%;
