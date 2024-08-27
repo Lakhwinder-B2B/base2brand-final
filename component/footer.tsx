@@ -18,25 +18,25 @@ export default function Header() {
             <h5>Digital Marketing</h5>
             <ul className="mb-0">
               <li>
-                <a href="/digital-marketing">Media Buyer</a>
+                <a href="/">Media Buyer</a>
               </li>
               <li>
-                <a href="/digital-marketing">Content Writing</a>
+                <a href="/">Content Writing</a>
               </li>
               <li>
-                <a href="/digital-marketing">Google Ads (PPC)</a>
+                <a href="/">Google Ads (PPC)</a>
               </li>
               <li>
-                <a href="/digital-marketing">YouTube Marketing</a>
+                <a href="/">YouTube Marketing</a>
               </li>
               <li>
-                <a href="/digital-marketing">Search Engine Optimization</a>
+                <a href="/">Search Engine Optimization</a>
               </li>
               <li>
-                <a href="/digital-marketing">Social Media Optimization</a>
+                <a href="/">Social Media Optimization</a>
               </li>
               <li>
-                <a href="/digital-marketing">Online Reputation Management</a>
+                <a href="/">Online Reputation Management</a>
               </li>
             </ul>
           </div>
@@ -44,25 +44,25 @@ export default function Header() {
             <h5>Web/Mobile Development</h5>
             <ul className="mb-0">
               <li>
-                <a href="/web-application">Remix Framework</a>
+                <a href="/">Remix Framework</a>
               </li>
               <li>
-                <a href="/web-application">Laravel Development</a>
+                <a href="/">Laravel Development</a>
               </li>
               <li>
-                <a href="/web-application">MEAN Stack Development</a>
+                <a href="/">MEAN Stack Development</a>
               </li>
               <li>
-                <a href="/web-application">ASP.NET Development</a>
+                <a href="/">ASP.NET Development</a>
               </li>
               <li>
-                <a href="/web-application">MERN Stack Development</a>
+                <a href="/">MERN Stack Development</a>
               </li>
               <li>
-                <a href="/web-application">Native IOS and Android</a>
+                <a href="/">Native IOS and Android</a>
               </li>
               <li>
-                <a href="/web-application">Hybrid apps Development</a>
+                <a href="/">Hybrid apps Development</a>
               </li>
             </ul>
           </div>
@@ -70,19 +70,19 @@ export default function Header() {
             <h5>Graphic Design</h5>
             <ul className="mb-0">
               <li>
-                <a href="/graphic">Branding &amp; Identity</a>
+                <a href="/">Branding &amp; Identity</a>
               </li>
               <li>
-                <a href="/graphic">Website &amp; App Design</a>
+                <a href="/">Website &amp; App Design</a>
               </li>
               <li>
-                <a href="/graphic">Motion Graphics</a>
+                <a href="/">Motion Graphics</a>
               </li>
               <li>
-                <a href="/graphic">Social Media Design</a>
+                <a href="/">Social Media Design</a>
               </li>
               <li>
-                <a href="/graphic">2D &amp; infographic Design</a>
+                <a href="/">2D &amp; infographic Design</a>
               </li>
               
             </ul>
@@ -91,22 +91,22 @@ export default function Header() {
             <h5>Ecommerce  Development</h5>
             <ul className="mb-0">
               <li>
-                <a href="/shopify">Shopify Theme Development</a>
+                <a href="">Shopify Theme Development</a>
               </li>
               <li>
-                <a href="/e-commerce">Woo Commerce Development</a>
+                <a href="">Woo Commerce Development</a>
               </li>
               <li>
-                <a href="/e-commerce">Magento Development</a>
+                <a href="">Magento Development</a>
               </li>
               <li>
-                <a href="/e-commerce">Big Commerce Development</a>
+                <a href="">Big Commerce Development</a>
               </li>
               <li>
-                <a href="/e-commerce">Open Cart Development</a>
+                <a href="">Open Cart Development</a>
               </li>
               <li>
-                <a href="/shopify">Shopify App Developemnt</a>
+                <a href="">Shopify App Developemnt</a>
               </li>
             </ul>
           </div>
@@ -114,19 +114,19 @@ export default function Header() {
             <h5>Quick Links</h5>
             <ul className="mb-0">
               <li>
-                <a href="/services">Services</a>
+                <a href="">Services</a>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <a href="">About Us</a>
               </li>
               <li>
-                <a href="/blog">Blogs</a>
+                <a href="">Blogs</a>
               </li>
               <li>
-                <a href="/career">Career</a>
+                <a href="">Career</a>
               </li>
               <li>
-                <a href="/resources">Hire Resources</a>
+                <a href="">Hire Resources</a>
               </li>
             </ul>
           </div>

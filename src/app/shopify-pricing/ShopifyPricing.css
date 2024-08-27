@@ -218,20 +218,18 @@
   
     background: linear-gradient(45deg, #111616, #41308c);
 }
-/* .fontlinear {
-
-
-    font: 700 50px 'Droid Sans', sans-serif;
+.fontlinear {
+    font: 700 45px 'Droid Sans', sans-serif;
     color: #396BDB;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 1),
-                 0px 2px 0px rgba(255, 255, 255, 1),
-                -1px 1px 0px rgba(255, 255, 255, 1),
-                -2px 0px 0px rgba(255, 255, 255, 1),
-                -1px -1px 0px rgba(255, 255, 255, 1),
-                 0px -2px 0px rgba(255, 255, 255, 1),
-                 1px -1px 0px rgba(255, 255, 255, 1),
-                 2px 0px 0px rgba(255, 255, 255, 1);
-  } */
+        0px 2px 0px rgba(255, 255, 255, 1),
+        -1px 1px 0px rgba(255, 255, 255, 1),
+        -2px 0px 0px rgba(255, 255, 255, 1),
+        -1px -1px 0px rgba(255, 255, 255, 1),
+        0px -2px 0px rgba(255, 255, 255, 1),
+        1px -1px 0px rgba(255, 255, 255, 1),
+        2px 0px 0px rgba(255, 255, 255, 1);
+}
   .list {
     font-size: 16px;
     color: white;

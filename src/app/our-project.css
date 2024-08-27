@@ -17,6 +17,13 @@ p.about_data {
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+button.nav-link.active {
+    background:transparent !important;
+    border-bottom:2px solid #F47B52 !important;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 12px 20px;
+}
 button.nav-link {
     color: #fff !important;
     border-radius: 0px;

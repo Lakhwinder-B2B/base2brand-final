@@ -107,16 +107,11 @@
 }
 .platform-tabs ul#pills-tab {
     display: block;
-    width: 350px;
+    width: 280px;
     left: 44px;
     margin-top: 40px;
     z-index: 2;
     position: relative;
-    height: 238px;
-    overflow-x: scroll;
-    padding-top: 1px;
-    padding-left: 2px;
-    padding-right: 15px;
 }
 .platform-tabs div#pills-tabContent {
     max-width: 866px;
@@ -127,7 +122,6 @@
     margin-right: 70px;
     padding: 40px 45px 50px 100px;
     z-index: 1;
-    height: 280px;
 }
 .platform-tabs div#pills-tabContent p:last-child{
     margin-bottom: 0 !important; 
@@ -179,31 +173,4 @@ button.btn_platfotm {
   }
 .ecommerceWrap .hoverGradient:hover .cell-wrap:before{
     display: none;
-}
-@media screen and (max-width:1400px) {
-    .platform-tabs div#pills-tabContent {
-        height: 340px;
-    }
-    .platform-tabs ul#pills-tab {
-        height: 300px;
-    }
-    .btnIcon img {
-        height: 40px;
-        width: auto;
-    }
-}
-@media screen and (max-width:991px) {
-    .platform-tabs div#pills-tabContent {
-        height: 420px;
-    }
-    .platform-tabs ul#pills-tab {
-        height: 380px;
-    }
-    .btnIcon img {
-        height: 32px;
-        width: auto;
-    }
-    button.btn_platfotm {
-        font-size: 13px;
-    }
 }

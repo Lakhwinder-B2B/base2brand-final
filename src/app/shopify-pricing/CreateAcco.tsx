@@ -10,22 +10,22 @@ const CreateAcco = () => {
     {
       id: "two",
       question: "Can I use my own domain name with a Shopify website?",
-      answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, laudantium! Ipsam dolores obcaecati neque distinctio id error eius, minus eos."
+      answer: "Absolutely! In fact, using your own domain name is often a better choice than using a generic one provided by Shopify. It gives your brand a more professional and recognizable image, and makes it easier for your customers to remember and find your website. We can help you connect your existing domain name to your new Shopify website, or if you don’t have one yet, we can help you purchase and set one up."
     },
     {
       id: "three",
       question: "Do I need any technical skills to manage my Shopify website?",
-      answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, laudantium! Ipsam dolores obcaecati neque distinctio id error eius, minus eos."
+      answer: "No, Shopify is designed to be user-friendly and easy to manage, even if you have no technical skills. We also provide training to help you get started."
     },
     {
       id: "four",
       question: "Can you help me set up shipping and taxes on my Shopify store?",
-      answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, laudantium! Ipsam dolores obcaecati neque distinctio id error eius, minus eos."
+      answer: "Yes, we can help you set up shipping and tax rates on your Shopify store. We will work with you to determine the appropriate rates based on your products and location, and configure your store accordingly."
     },
     {
       id: "five",
       question: "How do I know if Shopify is the right platform for my business?",
-      answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, laudantium! Ipsam dolores obcaecati neque distinctio id error eius, minus eos."
+      answer: "Shopify is a great platform for businesses of all sizes and industries, but it may not be the right fit for everyone. We can work with you to determine if Shopify is the best platform for your business based on your unique needs and goals."
     }
   ];
 

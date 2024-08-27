@@ -1,5 +1,4 @@
-import Header from '../components/header'
-
+import Header from "./component/header"
 export default function IndexPage() {
   return (
     <>

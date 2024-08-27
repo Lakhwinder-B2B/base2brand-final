@@ -90,7 +90,9 @@ img.lan_icon {
 .resource-col .nav button.nav-link:hover::before {
     width:100%;
 }
-
+button.nav-link.active {
+    border-bottom: 1px solid #F47B52 !important;
+}
 ul.order-list::before {
     position: absolute;
     content: "";

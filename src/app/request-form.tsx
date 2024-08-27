@@ -39,10 +39,10 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                 // Handle success, maybe show a success message
                 toast.success('Form submitted successfully');
                 nextForm();
-                setTimeout(function() {
-                    onCloseModal();                          
-                    }, 800);
-                 onCloseModal();
+                // setTimeout(function() {
+                //     onCloseModal();                          
+                //     }, 800);
+                //  onCloseModal();
 
 
             } else {

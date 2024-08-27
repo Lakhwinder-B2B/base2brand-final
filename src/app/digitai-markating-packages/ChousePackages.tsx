@@ -25,13 +25,12 @@ const ChousePackages = () => {
       >
         <div className="b2b-container-lg">
           <h3 className="gk-heading-bold text-center m-auto gk-width-lg">
-            What Does Our Digital Marketing Packages Include?
+            What Do Our Digital Marketing Packages Include?
           </h3>
           <p className=" b2b-sub-text text-center pt-3 pb-3">
-            We offer a complete range of services to boost your business.
-            Usually, these online marketing packages include vital services such
-            as SEO, content marketing, and paid advertising. Here are the main
-            components of our digital marketing price packages.
+            Our comprehensive digital marketing packages are designed to elevate
+            your business. They typically encompass essential services such as
+            SEO, content marketing, and paid advertising.
           </p>
 
           <div className="row py-2 py-md-5">
@@ -43,12 +42,11 @@ const ChousePackages = () => {
               >
                 <li className="nav-item display-int" role="presentation">
                   <button
-                    className={`nav-link ${
-                      activeTab === "tab1" ? "active" : ""
-                    }`}
+                    className={`nav-link ${activeTab === "tab1" ? "active" : ""
+                      }`}
                     onClick={() => handleTabClick("tab1")}
                   >
-                    Initial Review & Analysis
+                    Search Engine Optimization
                     <span className="arrow-icon-gk ">
                       <Image className="omg" src={Arrowicon} alt="" />
                     </span>
@@ -56,12 +54,11 @@ const ChousePackages = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
-                    className={`nav-link ${
-                      activeTab === "tab2" ? "active" : ""
-                    }`}
+                    className={`nav-link ${activeTab === "tab2" ? "active" : ""
+                      }`}
                     onClick={() => handleTabClick("tab2")}
                   >
-                    On-Page Optimization
+                   Content Marketing
                     <span className="arrow-icon-gk ">
                       <Image className="omg" src={Arrowicon} alt="" />
                     </span>
@@ -69,12 +66,11 @@ const ChousePackages = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
-                    className={`nav-link ${
-                      activeTab === "tab3" ? "active" : ""
-                    }`}
+                    className={`nav-link ${activeTab === "tab3" ? "active" : ""
+                      }`}
                     onClick={() => handleTabClick("tab3")}
                   >
-                    Local Search Optimization
+                    Paid Advertising
                     <span className="arrow-icon-gk ">
                       <Image className="omg" src={Arrowicon} alt="" />
                     </span>
@@ -82,12 +78,11 @@ const ChousePackages = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
-                    className={`nav-link ${
-                      activeTab === "tab4" ? "active" : ""
-                    }`}
+                    className={`nav-link ${activeTab === "tab4" ? "active" : ""
+                      }`}
                     onClick={() => handleTabClick("tab4")}
                   >
-                    Google Ads
+                   Social Media Management
                     <span className="arrow-icon-gk ">
                       <Image className="omg" src={Arrowicon} alt="" />
                     </span>
@@ -95,12 +90,11 @@ const ChousePackages = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
-                    className={`nav-link ${
-                      activeTab === "tab5" ? "active" : ""
-                    }`}
+                    className={`nav-link ${activeTab === "tab5" ? "active" : ""
+                      }`}
                     onClick={() => handleTabClick("tab5")}
                   >
-                    Social Media Marketing
+                    Analytics and Reporting
                     <span className="arrow-icon-gk ">
                       <Image className="omg" src={Arrowicon} alt="" />
                     </span>
@@ -108,12 +102,11 @@ const ChousePackages = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
-                    className={`nav-link ${
-                      activeTab === "tab6" ? "active" : ""
-                    }`}
+                    className={`nav-link ${activeTab === "tab6" ? "active" : ""
+                      }`}
                     onClick={() => handleTabClick("tab6")}
                   >
-                    Customer Support
+                    Conversion Rate Optimization
                     <span className="arrow-icon-gk ">
                       <Image className="omg" src={Arrowicon} alt="" />
                     </span>
@@ -124,84 +117,74 @@ const ChousePackages = () => {
             <div className="col-md-8 pt-4 pt-md-0">
               <div className="tab-content">
                 <div
-                  className={`tab-pane fade ${
-                    activeTab === "tab1" ? "show active" : ""
-                  }`}
+                  className={`tab-pane fade ${activeTab === "tab1" ? "show active" : ""
+                    }`}
                 >
                   <h4 className="gk-b2b-bold text-white">
-                    Initial Review & Analysis
+                    Search Engine Optimization (SEO)
                   </h4>
                   <p className=" b2b-sub-text">
-                    An initial review and analysis are essential to any digital
-                    marketing pricing packages. This critical step measures your
-                    website's current state, identifies improvement areas, and
-                    crafts a strategy for better search engine visibility.
-                    Throughout this phase, all issues or opportunities are
-                    identified for later addressing through targeted strategies.
+
+                    Our digital marketing packages include thorough SEO services aimed at enhancing your website’s visibility on search engines. This involves keyword research, on-page optimization, technical SEO, and building high-quality backlinks. Our goal is to improve your search engine rankings, drive organic traffic, and ensure your website meets the latest SEO standards. By optimizing your site’s content and structure, we help you attract and retain more potential customers.
+
                   </p>
                   <p className=" b2b-sub-text">
-                    The process involves a comprehensive audit covering
-                    structure, content, technical SEO, backlinks, and
-                    competition. After gathering and analyzing data, we
-                    formulate a plan that addresses both short-term and
-                    long-term goals. This approach also helps in identifying
-                    potential risks associated with implementing specific
-                    solutions, such as changes in algorithms or fluctuations in
-                    keyword ranking positions.
+               
                   </p>
                 </div>
                 <div
-                  className={`tab-pane fade ${
-                    activeTab === "tab2" ? "show active" : ""
-                  }`}
+                  className={`tab-pane fade ${activeTab === "tab2" ? "show active" : ""
+                    }`}
                 >
                   <h4 className="gk-b2b-bold text-white">
-                    On-Page Optimization
+                  Content Marketing
                   </h4>
                   <p className=" b2b-sub-text">
-                    Details about On-Page Optimization...
+                  Content marketing is a crucial component of our packages, focusing on creating and distributing valuable, relevant content to engage your target audience. This includes blog posts, articles, infographics, and videos tailored to your industry and audience interests. Our approach ensures that your content not only drives traffic but also builds brand authority and trust. Effective content marketing helps establish your business as an industry leader and encourages customer loyalty.
                   </p>
                 </div>
                 <div
-                  className={`tab-pane fade ${
-                    activeTab === "tab3" ? "show active" : ""
-                  }`}
+                  className={`tab-pane fade ${activeTab === "tab3" ? "show active" : ""
+                    }`}
                 >
                   <h4 className="gk-b2b-bold text-white">
-                    Local Search Optimization
+                  Paid Advertising
                   </h4>
                   <p className=" b2b-sub-text">
-                    Details about Local Search Optimization...
+                  Our packages feature targeted paid advertising strategies to drive immediate traffic and conversions. This includes pay-per-click (PPC) campaigns on platforms like Google Ads and social media advertising on channels such as Facebook and Instagram. We manage ad creation, targeting, and budget optimization to ensure maximum ROI. By leveraging precise targeting and performance tracking, we help you reach potential customers who are actively searching for products or services like yours.
                   </p>
                 </div>
                 <div
-                  className={`tab-pane fade ${
-                    activeTab === "tab4" ? "show active" : ""
-                  }`}
+                  className={`tab-pane fade ${activeTab === "tab4" ? "show active" : ""
+                    }`}
                 >
-                  <h4 className="gk-b2b-bold text-white">Google Ads</h4>
-                  <p className=" b2b-sub-text">Details about Google Ads...</p>
+                  <h4 className="gk-b2b-bold text-white">Social Media Management</h4>
+                  <p className=" b2b-sub-text">
+Social media management is integral to our digital marketing services, focusing on building and maintaining a strong presence across various platforms. We create engaging content, manage your social media profiles, and interact with your audience to foster community and brand loyalty. Our team develops and implements strategies to increase followers, drive engagement, and analyze performance metrics. This helps your business stay relevant and connected with its target audience.
+</p>
                 </div>
                 <div
-                  className={`tab-pane fade ${
-                    activeTab === "tab5" ? "show active" : ""
-                  }`}
+                  className={`tab-pane fade ${activeTab === "tab5" ? "show active" : ""
+                    }`}
                 >
                   <h4 className="gk-b2b-bold text-white">
-                    Social Media Marketing
+                  Analytics and Reporting
                   </h4>
                   <p className=" b2b-sub-text">
-                    Details about Social Media Marketing...
+                  
+Our digital marketing packages include detailed analytics and reporting to track the effectiveness of your campaigns. We provide regular reports on key performance indicators such as website traffic, conversion rates, and ROI. By analyzing this data, we identify trends, measure success, and make data-driven decisions to optimize your marketing efforts. Transparent reporting ensures you are informed about your campaign performance and the value of our services.
+
                   </p>
                 </div>
                 <div
-                  className={`tab-pane fade ${
-                    activeTab === "tab6" ? "show active" : ""
-                  }`}
+                  className={`tab-pane fade ${activeTab === "tab6" ? "show active" : ""
+                    }`}
                 >
-                  <h4 className="gk-b2b-bold text-white">Customer Support</h4>
+                  <h4 className="gk-b2b-bold text-white">Conversion Rate Optimizatio</h4>
                   <p className=" b2b-sub-text ">
-                    Details about Customer Support...
+                   
+Conversion Rate Optimization is a vital aspect of our digital marketing services, focusing on improving your website’s ability to convert visitors into customers. This involves analyzing user behavior, testing different design elements, and refining calls-to-action. Our team works to enhance the user experience, streamline the conversion process, and increase the effectiveness of your landing pages. By optimizing for conversions, we help you achieve better results from your existing traffic.
+
                   </p>
                 </div>
               </div>
