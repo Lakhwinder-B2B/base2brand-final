@@ -2529,6 +2529,11 @@ ul.nav.nav-pills.mb-3 {
 
 
 /* facebookpricing  */
+img.appesect-ico {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
 .price-table {
   margin-top: 50px;
 }
@@ -2776,3 +2781,232 @@ li.nav-item-gk {
 
 
 
+
+/* pricing page form animation */
+
+
+.contact-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.flip-card {
+  border-radius: 0.5em;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  width: 5em;
+  padding: 0.5em;
+  border: 0.1em solid #fff;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.envelope {
+  position: relative;
+  display: block;
+  width: 30em;
+  height: 35em;
+  margin: 0 auto;
+}
+
+.envelope.active .content {
+  padding: 15em 2em 2em;
+}
+
+.envelope.active .paper.front,
+.envelope.active .paper.back {
+  animation-duration: 1.5s;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.envelope.active .paper.front {
+  animation-name: envelope-front;
+}
+
+.envelope.active .paper.back {
+  animation-name: envelope-back;
+}
+
+.envelope .content {
+  padding: 2em;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 9;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 1s;
+}
+
+.top-wrapper,
+.bottom-wrapper {
+  box-sizing: border-box;
+  background: #03a9f5;
+  color: #fff;
+}
+
+form label {
+  display: block;
+  padding-bottom: 0.5em;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-shadow: 0;
+  background: transparent;
+  color: #fff;
+}
+
+form input {
+  border-width: 0 0 0.1em;
+  border-color: #fff;
+  border-style: solid;
+}
+
+form textarea {
+  border: 0.1em solid #fff;
+  border-radius: 0.25em;
+}
+
+.submit-card {
+  background: #fff;
+  color: #222;
+  text-align: center;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.paper {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  overflow: hidden;
+}
+
+/* Add keyframes for the animation */
+@keyframes envelope-front {
+  0% {
+    top: 10em;
+    z-index: 0;
+  }
+
+  50% {
+    top: 15em;
+    z-index: 9;
+  }
+
+  100% {
+    top: 10em;
+    z-index: 9;
+  }
+}
+
+@keyframes envelope-back {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 5em;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes envelope-back-before {
+  0% {
+    border-color: transparent transparent #d3d3d3 transparent;
+    transform: rotateX(0deg);
+    z-index: 0;
+  }
+
+  100% {
+    border-color: transparent transparent #fff transparent;
+    transform: rotateX(180deg);
+    z-index: 99;
+    position: relative;
+  }
+}
+
+.envelope .paper.back:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: -1px;
+  border-style: solid;
+  border-width: 0 15em 10em 15em;
+  border-color: transparent transparent #d3d3d3 transparent;
+  transform-origin: bottom;
+  transform-style: preserve-3d;
+  z-index: 0;
+}
+.envelope .paper.back:after {
+  content: '';
+  display: block;
+  background-color: #ed2d2d;
+  width: 30em;
+  height: 20em;
+}
+.envelope .paper.front:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10em 15em 0 15em;
+  border-color: transparent #fff;
+}
+.envelope .paper.front:after {
+  content: '';
+  display: block;
+  width: 30em;
+  height: 10em;
+  background: #fff;
+  margin-top: -1px;
+}
+.envelope.active .paper.front,
+.envelope.active .paper.back {
+  animation-duration: 3s; /* Slowed down from 1.5s to 3s */
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.features-list::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.features-list::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.features-list::-webkit-scrollbar-thumb {
+
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.44, #7411E1),
+      color-stop(0.72, #7411E1),
+      color-stop(0.86, #7411E1)
+  );
+}

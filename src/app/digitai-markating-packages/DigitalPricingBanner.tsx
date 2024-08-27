@@ -1,7 +1,19 @@
-import React from "react";
+
+"use client"
+import { log } from "console";
 import BannerImage from "../../../public/img/digitai-markating-packags/digitai-markating-packagsbanner.svg";
+import React, { useState } from "react";
 
 const DigitalPricing = () => {
+  const [submitform, setSubmit] = useState(false);
+
+  function handleClick() {
+    console.log("vcalue");
+    
+    setSubmit(!submitform);
+    
+  }
+  
   return (
     <>
       <section
@@ -42,7 +54,10 @@ const DigitalPricing = () => {
                   <h3 className="b2b-sub-heading text-black">
                     Submit Details Below To Get A Call Back
                   </h3>
+                  
                   <form className="">
+              
+                    <>
                     <div className="mb-3">
                       <label htmlFor="name" className="text-black mb-2">
                         Name
@@ -117,10 +132,13 @@ const DigitalPricing = () => {
                         }}
                       ></textarea>
                     </div>
+                    </>
+
                     <div>
-                      <button
+                      <button 
                         type="button"
-                        className="gk-b2b-btn b2b-btn-sm mt-3 "
+                        className="gk-b2b-btn b2b-btn-sm mt-3  "
+                        onClick={handleClick}
                       >
                         SUBMIT
                       </button>
