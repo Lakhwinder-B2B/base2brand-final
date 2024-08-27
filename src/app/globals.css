@@ -2578,8 +2578,15 @@ img.appesect-ico {
 .features-list {
   margin-top: 20px;
   height: 365px;
+  height: 100%;
   overflow-y: auto;
 }
+/* .features-list {
+  margin-top: 20px;
+  height: 365px;
+  height: 100%;
+  overflow-y: auto;
+} */
 
 
 .features-list li {

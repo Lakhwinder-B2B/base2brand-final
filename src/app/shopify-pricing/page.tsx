@@ -169,9 +169,9 @@ const page = () => {
           </div>
         </div>
       </section>
-      <ShopifySecondPricing heading="Shopify Website Development @ ₹149,000"
+      <ShopifySecondPricing heading="Shopify Website Development @ ₹99999 / $1119"
       subtxt="FREE DOMAIN* | FREE PROFESSIONAL EMAILS*"
-     subheading="Maximize Your Roi With A Shopify Website Tailored To Your Business Needs"
+     subheading="Maximize Your ROI With A Shopify Website Tailored To Your Business Needs"
       btntx="Send a WhatsApp Message"
       para1="Creating a Shopify website involves much more than just setting up a template and adding products. Our team of experienced developers and designers will work with you to create a website that reflects your brand and meets your business needs."
       para2="Our process includes in-depth research and analysis of your industry, target audience, and competition, to ensure that your website is optimized for conversions and user experience. We will also integrate important features such as payment gateways, shipping options, and much more to streamline your operations."
@@ -180,9 +180,11 @@ const page = () => {
       <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
       <PerfectPlan />
       <ExpertiseShopify />
-      <ContactFormFooter/>
+      <ContactFormFooter param=""/>
       {/* <ContactWeb /> */}
-      <Footweb title=" Shopify Website Development Service" />
+      <Footweb title=" Shopify Website Development Service"  para1="At Base2Brand, we specialize in creating Shopify websites that are tailored to meet the unique needs of our clients. From design and development to optimization and launch, we handle every aspect of the website development process with a focus on delivering exceptional results." para2="Our team of experts is committed to staying up-to-date with the latest trends and technologies in ecommerce to ensure that our clients are always ahead of the curve. Whether you’re looking to launch a new Shopify store or revamp an existing one, we have the skills and expertise to help you achieve your goals.
+
+"/>
       {/* <CartFooter/> */}
  
 

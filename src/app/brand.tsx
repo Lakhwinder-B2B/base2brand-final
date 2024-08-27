@@ -41,7 +41,7 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 500,
-    speed: 8000,
+    speed: 2000,
     slidesToShow: 5,
     slidesToScroll: 1,
     cssEase: 'linear',

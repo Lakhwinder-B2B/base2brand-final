@@ -1530,6 +1530,287 @@ const ServicesPricing = () => {
                                 </span>
                                 Instagram Ads Monitoring and Management
                               </li>
+                              <li className="d-flex gap-2 fw-bold fs-5">
+                                LinkedIn Marketing
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Campaign Manager Account Set Up
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                LinkedIn Insight Tag Installation
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Creation of Custom Conversion
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Ads Monitoring
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Monthly Report
+                              </li>
+
+                              <li className="d-flex gap-2 fw-bold fs-5">
+                                YouTube Marketing
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                YouTube Ad Account Set Up
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Skippable In-Stream Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Non-Skippable In-Stream Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Bumper Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Discovery Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                YouTube Video Sequence Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Detailed Audience Creation
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Custom Audience Creation
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                A/B Testing of Targeting
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Remarketing Video Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Video Ads with Promotion of Your Products
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Monthly Report
+                              </li>
+
+                              <li className="d-flex gap-2 fw-bold fs-5">
+                                Twitter Marketing
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Tweet Engagement Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Video or GIF View Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Awareness Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Website Conversion Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                In-stream Video View Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Follower Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                App Install Ads
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                App Reengagement
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Audience Creation
+                              </li>
+                              <li className="d-flex gap-2">
+                                <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={cross}
+                                    alt=""
+                                  />
+                                </span>
+                                Monthly Report
+                              </li>
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
@@ -2655,7 +2936,14 @@ const ServicesPricing = () => {
                               Monthly EXCLUSIVE OF ALL TAXES
                             </p>
                             <ul className="list-unstyled features-list text-white">
-                              <li className="d-flex gap-2 fw-bold fs-5">
+                              <li className="d-flex gap-2 ">
+                              <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={appesect}
+                                    alt=""
+                                  />
+                                </span>
                                 Campaign – 1
                               </li>
                               <li className="d-flex gap-2">
@@ -2864,7 +3152,15 @@ const ServicesPricing = () => {
                               Monthly EXCLUSIVE OF ALL TAXES
                             </p>
                             <ul className="list-unstyled features-list text-white">
-                              <li className="d-flex gap-2 fw-bold fs-5">
+                              <li className="d-flex gap-2 ">
+                              <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={appesect}
+                                    alt=""
+                                  />
+                                </span>
+                                
                                 Campaign – 2
                               </li>
                               <li className="d-flex gap-2">
@@ -3074,8 +3370,15 @@ const ServicesPricing = () => {
                               Monthly EXCLUSIVE OF ALL TAXES
                             </p>
                             <ul className="list-unstyled features-list text-white">
-                              <li className="d-flex gap-2 fw-bold fs-5">
-                                Campaign – 2
+                              <li className="d-flex gap-2 ">
+                              <span>
+                                  <Image
+                                    className="appesect-ico"
+                                    src={appesect}
+                                    alt=""
+                                  />
+                                </span>
+                                Campaign – 5
                               </li>
                               <li className="d-flex gap-2">
                                 <span>
@@ -3085,7 +3388,7 @@ const ServicesPricing = () => {
                                     alt=""
                                   />
                                 </span>
-                                AD Groups – 6
+                                AD Groups – 10
                               </li>
                               <li className="d-flex gap-2">
                                 <span>
@@ -3095,7 +3398,7 @@ const ServicesPricing = () => {
                                     alt=""
                                   />
                                 </span>
-                                No. of Keywords – 100
+                                No. of Keywords – 150
                               </li>
                               <li className="d-flex gap-2">
                                 <span>

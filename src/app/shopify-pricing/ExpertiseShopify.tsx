@@ -42,7 +42,7 @@ const ExpertiseShopify = () => {
                   <p className="b2b-sub-text">
                     From user-friendly design to optimized functionality, our
                     Shopify experts will ensure that your online store is ready
-                    to take on the competition. With WebzPlot, you can rest
+                    to take on the competition. With Base2Brand, you can rest
                     assured that your e-commerce site is in safe hands, ready to
                     flex its muscles and achieve success.
                   </p>

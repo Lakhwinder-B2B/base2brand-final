@@ -7,7 +7,7 @@ import callto from "../../../public/img/logo/logo2.svg";
 import mailto from "../../../public/img/logo/logo3.svg";
 import location from "../../../public/img/logo/logo1.svg";
 
-const ContactFormFooter = () => {
+const ContactFormFooter = ({param}) => {
   return (
     <section className="gk-bg-Contact pt-5 pb-5">
       <div className="b2b-container-lg ">
@@ -15,9 +15,8 @@ const ContactFormFooter = () => {
           Ready to Boost Your Digital Growth?
         </h2>
         <p className="b2b-sub-text text-center pt-3 pb-3 gk-width-lg">
-          Fill out the form below and let Base2Brand boom your online success.
-          Our digital marketing packages enhance your brand, drive traffic, and
-          maximize growth.
+        
+          {param}
         </p>
 
         <div className="row ">
@@ -25,7 +24,8 @@ const ContactFormFooter = () => {
           <div className="col-xl-6 bg-accodian gk-rounded">
             <div className="p-4 w-100">
               <h3 className="b2b-sub-heading text-white">
-                Submit Details Below To Get A Call Back
+              Let’s Connect, Fill out the Form Given Below
+
               </h3>
               <form>
                 <div className="mb-3">

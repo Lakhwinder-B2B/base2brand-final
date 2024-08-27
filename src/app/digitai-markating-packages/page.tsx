@@ -53,8 +53,14 @@ const page = () => {
       <ChousePackages />
       <QualityLeads />
       <DigitalAccodiansText />
-      <ContactFormFooter />
-      <Footweb title=" Shopify Website Development Service" />
+      <ContactFormFooter param="  Fill out the form below and let Base2Brand boom your online success.
+          Our digital marketing packages enhance your brand, drive traffic, and
+          maximize growth." />
+      <Footweb title=" One of The Highest Rated Digital Marketing Companies in India
+" para1="You can read 100s of verified reviews about our digital marketing services online on platforms like Upwork, Freelancer, Etc.
+" para2="Base2Brand is a competitive SEO company that works for success and puts 100% of its knowledge and skill to provide our client’s website with a better position in search engines.
+This is what we love to do and live to do. We read hundreds of SEO articles every day to keep our skills updated so you get the best from our agency.
+" />
     </>
   );
 };
