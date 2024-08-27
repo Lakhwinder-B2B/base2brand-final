@@ -109,7 +109,7 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
               <img className="logo_brands" src={Brand22.src} alt="Logo" />
               <img className="logo_brands" src={Brand23.src} alt="Logo" />
             </Slider>
-
+ 
           </div>
         </div>
       </div>
