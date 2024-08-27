@@ -3370,6 +3370,7 @@ const ServicesPricing = () => {
                             <ul className="list-unstyled features-list text-white">
                               <li className="d-flex gap-2">
                                 <span>
+                                  {/*  */}
                                   <Image
                                     className="appesect-ico"
                                     src={appesect}
