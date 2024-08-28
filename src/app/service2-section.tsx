@@ -40,6 +40,11 @@ import Icon25 from "../../public/services2-img/developer.svg";
 import Icon26 from "../../public/services2-img/social-media.svg";
 import Icon27 from "../../public/services2-img/vector.svg";
 
+import c1 from "../../public/services2-img/c1.svg";
+import c2 from "../../public/services2-img/c2.svg";
+import b1 from "../../public/services2-img/b1.svg";
+import b3 from "../../public/services2-img/b3.svg";
+
 import Brand from '../app/brand';
 import Request from '../app/request-quote';
 import RequestForm from "./request-form";
@@ -61,10 +66,10 @@ export default function Servicetwo() {
 
         <div className="row process text-white align-items-center mb-5 justify-content-center pt-5 px-5"> 
       
-           <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
+           <div className="ser-digital col-12 col-md-6 pb-5 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
                   <img src={Service1.src} alt=""/>
             </div>
-            <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5" data-aos="fade-left">
+            <div className="ser-digital-col col-12 col-md-6 pb-5" data-aos="fade-left">
               <div className="d-flex flex-wrap justify-content-start align-items-center">
                 <h2 className="b2b-sub-heading-bold text-uppercase mb-4">Web Development</h2>
                 <p className="b2b-sub-text">We offer comprehensive Web Development services. From responsive website design to seamless functionality, we build tailored solutions that elevate your online presence and drive results for your business. With a keen eye for detail and a focus on user experience, our team ensures that your website not only looks great but also performs flawlessly across all devices.</p>
@@ -152,6 +157,34 @@ export default function Servicetwo() {
                                 </div>
                               </div>
                             </div>
+                            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                      <div className="container">
+                                        <div className="row appIcons row-cols-2 row-cols-lg-4 row-cols-md-3 row-cols-sm-2  row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">
+                                          <div className="col mb-5">
+                                              <img className="service_tab_icon" src={c1.src} alt="" />
+                                              <span>Firebase</span>
+                                          </div>
+                                          <div className="col mb-5">
+                                          <img className="service_tab_icon" src={Icon22.src} alt="" />
+                                              <span>Flutter</span>
+                                          </div>
+                                          <div className="col mb-5"> 
+                                          <img className="service_tab_icon" src={b3.src} alt="" />
+                                              <span>AWS</span>
+                                          </div>
+                                          <div className="col mb-5">
+                                              <img className="service_tab_icon" src={b1.src} alt="" />
+                                              <span>Firebase</span>
+                                          </div>
+                                          <div className="col mb-5"> 
+                                            <img className="service_tab_icon" src={c2.src} alt="" />
+                                              <span>Heroku</span>
+                                          </div>
+                                        
+                                        
+                                        </div>
+                                      </div>
+                                    </div>
 
                             </div>
         </div>
@@ -159,14 +192,14 @@ export default function Servicetwo() {
         <div className="row process text-white mb-5 align-items-center justify-content-center px-5 pb-5">  
               
 
-              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5"  data-aos="fade-right">
+              <div className="ser-digital-col col-12 col-md-6 pb-5"  data-aos="fade-right">
                   <div className="d-flex flex-wrap   align-items-center">
                     <h2 className="b2b-sub-heading-bold text-uppercase mb-4">Mobile App Development</h2>
                     <p className="b2b-sub-text">Tap into the mobile market with our expert Mobile Application Development service. With mobile app usage accounting for 92% of total digital time spent, we craft innovative apps tailored to your needs, enhancing user engagement and expanding your reach.</p>
                     <a className="service_link" href="/e-commerce"><button className="b2b-btn b2b-btn-sm m-0">Read More</button></a>
                   </div>
               </div>
-              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap"  data-aos="fade-left">
+              <div className="ser-digital col-12 col-md-6 pb-5 justify-content-start d-flex flex-wrap"  data-aos="fade-left">
                   <img src={Service2.src} alt=""/>
               </div> 
         
@@ -259,14 +292,14 @@ export default function Servicetwo() {
         <div className="row process text-white mb-5 align-items-center justify-content-center px-5 pb-5">  
               
 
-              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5"  data-aos="fade-right">
+              <div className="ser-digital-col col-12 col-md-6 pb-5 "  data-aos="fade-right">
                   <div className="d-flex flex-wrap   align-items-center">
                     <h2 className="b2b-sub-heading-bold text-uppercase mb-4">Digital Marketing</h2>
                     <p className="b2b-sub-text">We offer expert Digital Marketing services to boost your brand's online visibility and reach. Did you know? 81% of shoppers research online before buying. Let us optimize your digital strategy for success. Harnessing the power of data-driven insights and cutting-edge techniques, we tailor digital marketing campaigns that resonate with your target audience and drive conversions effectively.</p>
                     <a className="service_link" href="/digital-marketing"><button className="b2b-btn b2b-btn-sm m-0">Read More</button></a>
                   </div>
               </div>
-              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap"  data-aos="fade-left">
+              <div className="ser-digital col-12 col-md-6 pb-5  justify-content-start d-flex flex-wrap"  data-aos="fade-left">
                   <img src={Service4.src} alt=""/>
               </div> 
         

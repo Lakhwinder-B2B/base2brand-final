@@ -1,6 +1,6 @@
 'use client'
 
-import React from "react"; 
+import React, { useState } from "react"; 
 import Image from 'next/image';
 import About from '../../public/img/about.png';   
 import CountUp, { useCountUp } from 'react-countup'; 
@@ -16,11 +16,23 @@ import projects from '../../public/img/icon2.svg';
 import rating from '../../public/img/icon3.svg'; 
 import happyClient from '../../public/img/icon4.svg'; 
 import design from '../../public/img/icon5.svg'; 
-
+import Request from "./request-form";
 import './our-project.css'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Homeabout() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+    setTimeout(function() {
+      const ModalBody = document.querySelector(".request-form");
+      if(ModalBody){
+        ModalBody.classList.add("transformAnim");
+      }
+                               
+      }, 200);
+  };
   useCountUp({
     ref: 'counter',
     enableScrollSpy: true,
@@ -157,10 +169,15 @@ export default function Homeabout() {
   
                 
               </div>
-              <button className="b2b-btn b2b-btn-sm mt-4 m-0" data-aos="fade-up-right" data-aos-delay="1200"> Let&apos;s Talk Over a cup Of Tea </button>
+              <button className="b2b-btn b2b-btn-sm mt-4 m-0" onClick={toggleModal} data-aos="fade-up-right" data-aos-delay="1200"> Let&apos;s Talk Over a cup Of Tea </button>
             </div>
             
           </div>
+          {showModal && 
+            <Request 
+              onCloseModal={toggleModal} 
+            />
+          }
       </div> 
     </>
   )

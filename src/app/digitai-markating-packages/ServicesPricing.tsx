@@ -488,7 +488,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -872,7 +879,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -1257,7 +1271,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -1814,7 +1835,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -2360,7 +2388,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -2905,7 +2940,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -3131,7 +3173,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -3348,7 +3397,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -3566,7 +3622,14 @@ const ServicesPricing = () => {
 
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -3650,7 +3713,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -3725,7 +3795,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -3801,7 +3878,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -4287,7 +4371,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -4760,7 +4851,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>
@@ -5231,7 +5329,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                              <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                               </button>
                             </div>
                           </div>

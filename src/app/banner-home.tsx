@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 import Request from "./request-form";
 import BannerAnim from "./banner-animation.svg";
 // import "./gsap";
-
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function HomeBanner() {
   const [showModal, setShowModal] = useState(false);
@@ -28,17 +28,17 @@ export default function HomeBanner() {
 
       <div className="bannerSection pt-5 pb-5">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6">
+          <div className="row align-items-center">
+            <div className="col-md-7">
               <div className="d-flex align-items-center gap-2">
-              <h2 className="sub_heading">Build your</h2>
-            <Typewriter 
-                options={{
-                  strings: ['Web Designing', 'Web Development', 'Digital Marketing','Shopify Development'],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+                <h2 className="sub_heading">Build your</h2>
+              <Typewriter 
+                  options={{
+                    strings: ['Web Designing', 'Web Development', 'Digital Marketing','Shopify Development'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
               </div> 
               <h2 className="sub_heading">with flawless technology, <br /> design, and execution</h2> 
               <p className='sub_text text-white mt-4'>Let&apos;s Build something Digital together, We are Leading <br /> Innovative Partner for Start-ups and Enterprises</p>
@@ -48,9 +48,14 @@ export default function HomeBanner() {
                 Request a Quote </button> 
               </div>
             </div>
-            {/* <div className="BannerAnimation">
-              <img src={BannerAnim.src} />
-            </div> */}
+            <div className="col-md-5">
+                <DotLottieReact
+                  src='/json/banner/home page.json'
+                  loop
+                  autoplay
+                  className="animated-imgs animated-banner-img"
+                />
+            </div>
           </div>
         </div>
       </div>

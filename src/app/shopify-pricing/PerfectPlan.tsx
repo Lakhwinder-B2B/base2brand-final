@@ -38,8 +38,8 @@ const PerfectPlan = () => {
                 <div className="card">
                   <div className="card-body-gk ">
                     <h5 className="text-center gk-b2b-bold text-white">
-                      Shopify Website  (only)
-                      <br/>
+                      Shopify Website (only)
+                      <br />
                       Package
                     </h5>
                     <hr />
@@ -288,7 +288,14 @@ const PerfectPlan = () => {
                     </ul>
                     <div className="parent-container">
                       <button className="custom-button" data-ico="￫">
-                        <span className="btn-custom "> Call Us</span>
+                        <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -568,7 +575,14 @@ const PerfectPlan = () => {
                     </ul>
                     <div className="parent-container">
                       <button className="custom-button" data-ico="￫">
-                        <span className="btn-custom "> Call Us</span>
+                        <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -580,17 +594,17 @@ const PerfectPlan = () => {
                 <div className="card">
                   <div className="card-body-gk ">
                     <h5 className="text-center gk-b2b-bold text-white">
-                    Shopify Website + Android & iOS App Package
+                      Shopify Website + Android & iOS App Package
                     </h5>
                     <hr />
                     <p className="card-text-gk  fontlinear text-center ">
-                    199,000 INR / 2699 USD
+                      199,000 INR / 2699 USD
                     </p>
                     <p className="card-desc text-white text-center">
-                    Advanced E-Commerce Website + Android App + iOS Hybrid App
+                      Advanced E-Commerce Website + Android App + iOS Hybrid App
                     </p>
                     <ul className="list-unstyled features-list text-white">
-                    <li className="d-flex gap-2">
+                      <li className="d-flex gap-2">
                         <span>
                           {/* Insert your icon image here */}
                           <Image
@@ -604,7 +618,11 @@ const PerfectPlan = () => {
                       <li className="d-flex gap-2">
                         <span>
                           {/* Insert your icon image here */}
-                          <Image className="appesect-ico" src={appesect} alt="" />
+                          <Image
+                            className="appesect-ico"
+                            src={appesect}
+                            alt=""
+                          />
                         </span>
                         iOS Web App
                       </li>
@@ -849,7 +867,14 @@ const PerfectPlan = () => {
                     </ul>
                     <div className="parent-container">
                       <button className="custom-button" data-ico="￫">
-                        <span className="btn-custom "> Call Us</span>
+                        <a
+                          href="https://wa.me/+918360116967?text=Hello%20there!"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-custom"
+                        >
+                          <span className="text-black">Call Us</span>
+                        </a>
                       </button>
                     </div>
                   </div>

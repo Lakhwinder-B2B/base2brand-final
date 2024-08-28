@@ -105,10 +105,17 @@ const Servingservice = () => {
                 </div>
               </div>
             </div>
-            <div className="d-flex pt-3 pt-md-5">
-              <button className="gk-b2b-btn b2b-btn-sm  m-0 m-auto">
-                Let’s Talk
-              </button>
+            <div className="d-flex pt-3 pt-md-5 d-flex justify-content-center align-items-center  ">
+            <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
+                  <a
+                    href="https://wa.me/+918360116967?text=Hello%20there!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white"
+                  >
+                    Let’s Talk
+                  </a>
+                </button>
             </div>
           </div>
         </div>

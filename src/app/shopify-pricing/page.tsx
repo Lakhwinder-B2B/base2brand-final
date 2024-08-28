@@ -11,7 +11,7 @@ import ShopifyPartner from "../../../public/img/shopify-prodduct/[CITYPNG.COM]Hi
 import ShopifyPartnerback from "../../../public/img/back-Shopify-Pricing.svg";
 import ShopifySecondPricing from "./ShopifySecondPricing";
 
-import Brand from "../brand";
+// import Brand from "../brand";
 import PerfectPlan from "./PerfectPlan";
 import ExpertiseShopify from "./ExpertiseShopify";
 // import ContactWeb from "./ContactWeb";
@@ -19,6 +19,7 @@ import Footweb from "./Footweb";
 import PresonalHeader from "./PresonalHeader";
 import shopifypng from "../../../public/img/Shopify Website.png"
 import ContactFormFooter from "../digitai-markating-packages/ContactFormFooter";
+import BrandsLogos from "./BrandsLogos";
 // import CartFooter from "./CartFooter";
 
 
@@ -41,7 +42,7 @@ const page = () => {
         <div className="b2b-container-lg">
           <div className="row  align-items-center justify-content-between  pt-lg-3  pb-lg-5 pt-3 pb-4">
             <div className="col-sm-1 col-md-12 col-lg-6 col-xl-6 ">
-              <div className="image-bar d-flex align-items-center pb-lg-5 pb-4 gap-3  Banner-image">
+              <div className="image-bar d-flex align-items-center pb-lg-4 pb-4 gap-3  Banner-image">
                 <div className="w-75">
                  
                   <Image
@@ -64,9 +65,16 @@ const page = () => {
                   Launch Your Online Business With A Stunning Shopify Website
                 </h1>
               </div>
-              <button className="gk-b2b-btn b2b-btn-sm mt-3 ">
-                Send a WhatsApp Message
-              </button>
+              <div className="mt-4">
+         <a 
+         href="https://wa.me/+918360116967?text=Hello%20there!" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         className="gk-b2b-btn b2b-btn-sm "
+       >
+         Send a WhatsApp Message
+       </a>
+       </div>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 pt-4 pt-lg-0">
               <div
@@ -177,7 +185,8 @@ const page = () => {
       para2="Our process includes in-depth research and analysis of your industry, target audience, and competition, to ensure that your website is optimized for conversions and user experience. We will also integrate important features such as payment gateways, shipping options, and much more to streamline your operations."
 
      />
-      <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
+      {/* <Brand heading={"Our Shopify Clients"}  bgcolor="" color="text-white" /> not use the brands slider this  */}
+      <BrandsLogos heading={"Our Shopify Clients"}  bgcolor="" color="text-white" />
       <PerfectPlan />
       <ExpertiseShopify />
       <ContactFormFooter param=""/>

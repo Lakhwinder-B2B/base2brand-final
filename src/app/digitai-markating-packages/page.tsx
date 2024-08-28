@@ -5,7 +5,7 @@ import DigitalPricing from "./DigitalPricingBanner";
 import "./digitai-markating-packages.css";
 import ShopifySecondPricing from "../shopify-pricing/ShopifySecondPricing";
 import MarketingPackages from "./MarketingPackages";
-import Brand from "../brand";
+// import Brand from "../brand";
 
 import SocialMediaMarketingI from "./SocialMediaMarketingI";
 import instagram from "../../../public/img/digitai-markating-packags/instagram.svg";
@@ -21,6 +21,7 @@ import Footweb from "../shopify-pricing/Footweb";
 // import FacebookAds from "./FacebookAds";
 import ShopifyWebsite from "../../../public/img/Shopify Website.png";
 import ServicesPricing from "./ServicesPricing";
+import BrandsLogos from "../shopify-pricing/BrandsLogos";
 
 
 
@@ -42,7 +43,9 @@ const page = () => {
      
       />
       <MarketingPackages />
-      <Brand heading="Our Digital Marketing Clients" bgcolor=""  color="text-white" />
+      {/* <Brand heading="Our Digital Marketing Clients" bgcolor=""  color="text-white" /> */}
+      <BrandsLogos heading={"Our Digital Marketing Clients"}  bgcolor="" color="text-white" />
+      
       {/* <FacebookAds /> not use  */}
     <ServicesPricing/>
       {/* <SocialMediaMarketingI /> */}

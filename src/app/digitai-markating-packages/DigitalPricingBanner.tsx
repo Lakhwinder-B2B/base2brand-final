@@ -7,6 +7,7 @@ const DigitalPricing = () => {
   // State for form visibility
   const [submitform, setSubmit] = useState(true);
 
+  // State for form validation errors
   const [error, setError] = useState({
     name: true,
     email: true,
@@ -38,24 +39,23 @@ const DigitalPricing = () => {
 
   // Handle button click and log form data
   function handleClick() {
+    // Create a new error object to validate fields
     const newError = {
       name: formData.name !== "",
       email: formData.email !== "",
       phone: formData.phone !== "",
     };
 
+    // Update the error state
     setError(newError);
 
-    // Check if there are any false values in the error object
+    // Check if all required fields are filled
     if (newError.name && newError.email && newError.phone) {
-      console.log("Form submitted successfully:");
-      
-      return;
-    }else{
+      // Log form data as an object in the console
+      console.log(`Form submitted successfully: ${formData.name}`, formData);
+    } else {
       console.log("Please fill in all required fields.");
     }
-
-    console.log(formData);
   }
 
   return (
@@ -74,16 +74,23 @@ const DigitalPricing = () => {
             <div className="col-sm-1 col-md-12 col-lg-6 col-xl-6">
               <div className="pricing-shopifty-page">
                 <h1 className="gk-sub-heading text-white">
-                Award Winning Digital Marketing Company in India
-
+                  Award Winning Digital Marketing Company in India
                 </h1>
                 <p className="b2b-sub-text">
-                Base2Brand is a leading digital marketing company in India with professionals with more than 10 years of experience in digital marketing services.
-
+                  Base2Brand is a leading digital marketing company in India
+                  with professionals with more than 10 years of experience in
+                  digital marketing services.
                 </p>
               </div>
-              <button className="gk-b2b-btn b2b-btn-sm mt-3">
-                Let’s Talk
+              <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
+                <a
+                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white"
+                >
+                  Let’s Talk
+                </a>
               </button>
             </div>
             {submitform && (
@@ -98,10 +105,10 @@ const DigitalPricing = () => {
                     <h3 className="b2b-sub-heading text-black">
                       Submit Details Below To Get A Call Back
                     </h3>
-                    <form className="">
+                    <form>
                       <div className="mb-3">
                         <label htmlFor="name" className="text-black mb-2">
-                          Name
+                          Name<span style={{ color: "red" }}> *</span>
                         </label>
                         <input
                           id="name"
@@ -125,17 +132,9 @@ const DigitalPricing = () => {
                         )}
                       </div>
                       <div className="d-flex justify-content-between mb-3">
-                        <div className=" flex-fill">
+                        <div className="flex-fill">
                           <label htmlFor="email" className="text-black mb-2">
-                            Email
-                            <span
-                              style={{
-                                color: "red",
-                              }}
-                            >
-                              {" "}
-                              *
-                            </span>
+                            Email<span style={{ color: "red" }}> *</span>
                           </label>
                           <input
                             id="email"
@@ -154,18 +153,18 @@ const DigitalPricing = () => {
                           />
                           {!error.email && (
                             <span style={{ color: "red" }}>
-                              Please Enter your Email
+                              Please Enter a valid Email
                             </span>
                           )}
                         </div>
                         <div className="ms-2 flex-fill">
                           <label htmlFor="phone" className="text-black mb-2">
-                            Phone Number
+                            Phone Number<span style={{ color: "red" }}> *</span>
                           </label>
                           <input
                             id="phone"
                             name="phone"
-                            type="number"
+                            type="text"
                             placeholder="Enter your number"
                             className="form-control w-100"
                             style={{

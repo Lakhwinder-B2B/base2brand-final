@@ -34,8 +34,16 @@ const MarketingPackages = (props: Props) => {
                 where finding a reliable source becomes crucial.
               </p>
               <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
-                Let’s Talk
-              </button>
+                  <a
+                    href="https://wa.me/+918360116967?text=Hello%20there!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white"
+                  >
+                    Let’s Talk
+                  </a>
+                </button>
+              
             </div>
             <div className="col-lg-6">
               <Image
