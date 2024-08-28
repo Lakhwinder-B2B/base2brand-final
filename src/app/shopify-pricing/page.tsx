@@ -235,7 +235,7 @@ const Page = () => {
                       <button
                         type="submit"
                         className="gk-b2b-btn b2b-btn-sm mt-3"
-                      >
+                      > 
                         SUBMIT
                       </button>
                     </div>
