@@ -16,22 +16,11 @@ const MarketingPackages = (props: Props) => {
             <div className="col-lg-6 pb-lg-0 pb-3">
               <h1 className="gk-sub-heading-bold"></h1>
            
-              <p className=" b2b-sub-text">
-                Digital marketing packages are essential for establishing a
-                strong business foundation. With various online marketing plans
-                available, these packages significantly contribute to the growth
-                of businesses of all sizes. However, one cannot afford all the
-                diverse marketing strategies available in the market. This is
-                where finding a reliable source becomes crucial.
-              </p>
+          
             
               <p className=" b2b-sub-text">
-                Digital marketing packages are essential for establishing a
-                strong business foundation. With various online marketing plans
-                available, these packages significantly contribute to the growth
-                of businesses of all sizes. However, one cannot afford all the
-                diverse marketing strategies available in the market. This is
-                where finding a reliable source becomes crucial.
+              Digital marketing packages are vital for building a robust business foundation. With a range of online marketing plans available, these packages play a key role in driving growth for businesses of all sizes. However, not all businesses can afford every marketing strategy on the market. That’s why choosing a reliable provider is essential.
+
               </p>
               <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
                   <a
