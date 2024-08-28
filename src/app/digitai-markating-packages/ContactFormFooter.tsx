@@ -30,12 +30,10 @@ const ContactFormFooter = ({ param }) => {
     }));
 
     // Reset error for the field that's being changed
-    if (value) {
-      setErrors((prev) => ({
-        ...prev,
-        [name]: false,
-      }));
-    }
+    setErrors((prev) => ({
+      ...prev,
+      [name]: value === "",
+    }));
   };
 
   // Handle form submission
@@ -53,6 +51,15 @@ const ContactFormFooter = ({ param }) => {
 
     // Check if all required fields are filled
     if (!newErrors.name && !newErrors.email && !newErrors.phone) {
+      console.log("Form submitted successfully:", formData);
+
+      // Clear form data after successful submission
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
       console.log("Form submitted successfully:", formData);
     } else {
       console.log("Please fill in all required fields.");
@@ -79,7 +86,8 @@ const ContactFormFooter = ({ param }) => {
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="name" className="text-white mb-2">
-                    Name
+                    
+                  Name<span style={{ color: "red" }}> *</span>
                   </label>
                   <input
                     id="name"
@@ -93,9 +101,10 @@ const ContactFormFooter = ({ param }) => {
                       padding: "10px",
                       borderStyle: "none",
                       border: "1px solid",
+                      borderColor: errors.name ? "red" : "#ced4da",
                     }}
                   />
-                  {errors.name && <p className="text-danger">Name is required.</p>}
+                  {errors.name && <p className="text-danger required-text">Name is required.</p>}
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
                   <div className="me-md-2 flex-fill mb-3 mb-md-0">
@@ -114,21 +123,20 @@ const ContactFormFooter = ({ param }) => {
                         padding: "10px",
                         borderStyle: "none",
                         border: "1px solid",
-                        borderColor: errors.name ? "red" : "#ced4da",
+                        borderColor: errors.email ? "red" : "#ced4da",
                       }}
-                   
-                     
                     />
-                    {errors.email && <p className="text-danger">Email is required.</p>}
+                    {errors.email && <p className="text-danger required-text">Email is required.</p>}
                   </div>
                   <div className="ms-md-2 flex-fill">
                     <label htmlFor="phone" className="text-white mb-2">
-                      Phone Number
+                   
+                      Phone Number<span style={{ color: "red" }}> *</span>
                     </label>
                     <input
                       id="phone"
                       name="phone"
-                      type="text"
+                      type="number"
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="Enter your number"
@@ -137,10 +145,10 @@ const ContactFormFooter = ({ param }) => {
                         padding: "10px",
                         borderStyle: "none",
                         border: "1px solid",
-                        borderColor: errors.name ? "red" : "#ced4da",
+                        borderColor: errors.phone ? "red" : "#ced4da",
                       }}
                     />
-                    {errors.phone && <p className="text-danger">Phone number is required.</p>}
+                    {errors.phone && <p className="text-danger required-text">Phone number is required.</p>}
                   </div>
                 </div>
                 <div className="mb-3">

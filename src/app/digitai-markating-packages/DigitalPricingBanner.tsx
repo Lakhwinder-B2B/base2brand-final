@@ -4,14 +4,14 @@ import BannerImage from "../../../public/img/digitai-markating-packags/digitai-m
 import Image from "next/image";
 
 const DigitalPricing = () => {
-  // State for form visibility
-  const [submitform, setSubmit] = useState(true);
+  // State for form visibility (initially hidden)
+  const [submitform, setSubmit] = useState(false);
 
   // State for form validation errors
   const [error, setError] = useState({
-    name: true,
-    email: true,
-    phone: true,
+    name: false,
+    email: false,
+    phone: false,
   });
 
   // State for form fields
@@ -33,26 +33,35 @@ const DigitalPricing = () => {
     // Reset error for the field that's being changed
     setError((prev) => ({
       ...prev,
-      [name]: true,
+      [name]: value === "",
     }));
   }
 
-  // Handle button click and log form data
-  function handleClick() {
-    // Create a new error object to validate fields
+  // Handle form submission
+  function handleSubmit(event) {
+    event.preventDefault(); // Prevent default form submission behavior
+
+    // Validate form fields
     const newError = {
-      name: formData.name !== "",
-      email: formData.email !== "",
-      phone: formData.phone !== "",
+      name: formData.name === "",
+      email: formData.email === "",
+      phone: formData.phone === "",
     };
 
     // Update the error state
     setError(newError);
 
     // Check if all required fields are filled
-    if (newError.name && newError.email && newError.phone) {
-      // Log form data as an object in the console
-      console.log(`Form submitted successfully: ${formData.name}`, formData);
+    if (!newError.name && !newError.email && !newError.phone) {
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      })
+      console.log("Form submitted successfully:", formData);
+      // Optionally hide the form after successful submission
+      setSubmit(false);
     } else {
       console.log("Please fill in all required fields.");
     }
@@ -82,18 +91,16 @@ const DigitalPricing = () => {
                   digital marketing services.
                 </p>
               </div>
-              <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
-                <a
-                  href="https://wa.me/+918360116967?text=Hello%20there!"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white"
-                >
-                  Let’s Talk
-                </a>
+              <button
+                className="gk-b2b-btn b2b-btn-sm mt-3 m-0"
+               
+              >
+                Let’s Talk
               </button>
             </div>
-            {submitform && (
+
+            {/* Conditionally render the form based on submitform state */}
+          
               <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 pt-4 pt-lg-0">
                 <div
                   className="p-20px bg-white"
@@ -105,7 +112,7 @@ const DigitalPricing = () => {
                     <h3 className="b2b-sub-heading text-black">
                       Submit Details Below To Get A Call Back
                     </h3>
-                    <form>
+                    <form onSubmit={handleSubmit}>
                       <div className="mb-3">
                         <label htmlFor="name" className="text-black mb-2">
                           Name<span style={{ color: "red" }}> *</span>
@@ -120,13 +127,13 @@ const DigitalPricing = () => {
                             padding: "10px",
                             borderStyle: "none",
                             border: "1px solid",
-                            borderColor: !error.name ? "red" : "#ced4da",
+                            borderColor: error.name ? "red" : "#ced4da",
                           }}
                           value={formData.name}
                           onChange={handleChange}
                         />
-                        {!error.name && (
-                          <span style={{ color: "red" }}>
+                        {error.name && (
+                          <span className="required-text" style={{ color: "red" }}>
                             Please Enter your Name
                           </span>
                         )}
@@ -134,7 +141,7 @@ const DigitalPricing = () => {
                       <div className="d-flex justify-content-between mb-3">
                         <div className="flex-fill">
                           <label htmlFor="email" className="text-black mb-2">
-                            Email<span style={{ color: "red" }}> *</span>
+                            Email<span  style={{ color: "red" }}> *</span>
                           </label>
                           <input
                             id="email"
@@ -146,13 +153,13 @@ const DigitalPricing = () => {
                               padding: "10px",
                               borderStyle: "none",
                               border: "1px solid",
-                              borderColor: !error.email ? "red" : "#ced4da",
+                              borderColor: error.email ? "red" : "#ced4da",
                             }}
                             value={formData.email}
                             onChange={handleChange}
                           />
-                          {!error.email && (
-                            <span style={{ color: "red" }}>
+                          {error.email && (
+                            <span className="required-text"  style={{ color: "red" }}>
                               Please Enter a valid Email
                             </span>
                           )}
@@ -164,20 +171,20 @@ const DigitalPricing = () => {
                           <input
                             id="phone"
                             name="phone"
-                            type="text"
+                            type="number"
                             placeholder="Enter your number"
                             className="form-control w-100"
                             style={{
                               padding: "10px",
                               borderStyle: "none",
                               border: "1px solid",
-                              borderColor: !error.phone ? "red" : "#ced4da",
+                              borderColor: error.phone ? "red" : "#ced4da",
                             }}
                             value={formData.phone}
                             onChange={handleChange}
                           />
-                          {!error.phone && (
-                            <span style={{ color: "red" }}>
+                          {error.phone && (
+                            <span className="required-text"  style={{ color: "red" }}>
                               Please Enter your Number
                             </span>
                           )}
@@ -204,9 +211,8 @@ const DigitalPricing = () => {
                       </div>
                       <div>
                         <button
-                          type="button"
+                          type="submit"
                           className="gk-b2b-btn b2b-btn-sm mt-3"
-                          onClick={handleClick}
                         >
                           SUBMIT
                         </button>
@@ -215,7 +221,7 @@ const DigitalPricing = () => {
                   </div>
                 </div>
               </div>
-            )}
+      
           </div>
         </div>
       </section>
