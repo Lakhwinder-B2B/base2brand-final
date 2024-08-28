@@ -2,7 +2,7 @@
 export default function IndexPage() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <h1>Hello World!</h1>
     </>
   )
