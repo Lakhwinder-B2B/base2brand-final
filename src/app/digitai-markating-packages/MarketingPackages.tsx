@@ -16,25 +16,20 @@ const MarketingPackages = (props: Props) => {
             <div className="col-lg-6 pb-lg-0 pb-3">
               <h1 className="gk-sub-heading-bold"></h1>
            
-              <p className=" b2b-sub-text">
-                Digital marketing packages are essential for establishing a
-                strong business foundation. With various online marketing plans
-                available, these packages significantly contribute to the growth
-                of businesses of all sizes. However, one cannot afford all the
-                diverse marketing strategies available in the market. This is
-                where finding a reliable source becomes crucial.
-              </p>
+         
             
               <p className=" b2b-sub-text">
-                Digital marketing packages are essential for establishing a
-                strong business foundation. With various online marketing plans
-                available, these packages significantly contribute to the growth
-                of businesses of all sizes. However, one cannot afford all the
-                diverse marketing strategies available in the market. This is
-                where finding a reliable source becomes crucial.
+              Digital marketing packages are essential for establishing a strong business foundation. With various online marketing plans available, these packages significantly contribute to the growth of businesses of all sizes. However, one cannot afford all the diverse marketing strategies available in the market. This is where finding a reliable source becomes crucial.
               </p>
               <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
-                Let’s Talk
+                <a
+                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white"
+                >
+                  Let’s Talk
+                </a>
               </button>
             </div>
             <div className="col-lg-6">

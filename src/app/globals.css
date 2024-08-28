@@ -2690,6 +2690,9 @@ li.nav-item-gk {
     flex-wrap: wrap;
     gap: 10px;
   }
+  .required-text{
+    font-size: 12px;
+  }
 }
 
 .card-body-gk {
@@ -2713,6 +2716,7 @@ li.nav-item-gk {
   align-items: center;
   height: 100%;
   width: 95%;
+  margin: 0 auto;
 }
 
 .custom-button {

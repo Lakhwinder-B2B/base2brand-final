@@ -288,7 +288,14 @@ const PerfectPlan = () => {
                     </ul>
                     <div className="parent-container">
                       <button className="custom-button" data-ico="￫">
-                        <span className="btn-custom "> Call Us</span>
+                      <a
+  href="https://wa.me/+918360116967?text=Hello%20there!"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-custom text-black" // Custom class to style as a button
+>
+  Call Us
+</a>
                       </button>
                     </div>
                   </div>
@@ -568,7 +575,14 @@ const PerfectPlan = () => {
                     </ul>
                     <div className="parent-container">
                       <button className="custom-button" data-ico="￫">
-                        <span className="btn-custom "> Call Us</span>
+                      <a
+  href="https://wa.me/+918360116967?text=Hello%20there!"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-custom text-black" // Custom class to style as a button
+>
+  Call Us
+</a>
                       </button>
                     </div>
                   </div>
@@ -849,7 +863,14 @@ const PerfectPlan = () => {
                     </ul>
                     <div className="parent-container">
                       <button className="custom-button" data-ico="￫">
-                        <span className="btn-custom "> Call Us</span>
+                      <a
+  href="https://wa.me/+918360116967?text=Hello%20there!"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-custom text-black" // Custom class to style as a button
+>
+  Call Us
+</a>
                       </button>
                     </div>
                   </div>

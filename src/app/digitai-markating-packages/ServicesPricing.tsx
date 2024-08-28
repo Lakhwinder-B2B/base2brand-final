@@ -488,7 +488,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -872,7 +879,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -1257,7 +1271,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -1814,7 +1835,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -2360,7 +2388,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -2905,7 +2940,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -2937,7 +2979,7 @@ const ServicesPricing = () => {
                             </p>
                             <ul className="list-unstyled features-list text-white">
                               <li className="d-flex gap-2 ">
-                              <span>
+                                <span>
                                   <Image
                                     className="appesect-ico"
                                     src={appesect}
@@ -3131,7 +3173,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -3153,14 +3202,14 @@ const ServicesPricing = () => {
                             </p>
                             <ul className="list-unstyled features-list text-white">
                               <li className="d-flex gap-2 ">
-                              <span>
+                                <span>
                                   <Image
                                     className="appesect-ico"
                                     src={appesect}
                                     alt=""
                                   />
                                 </span>
-                                
+
                                 Campaign – 2
                               </li>
                               <li className="d-flex gap-2">
@@ -3348,7 +3397,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -3371,7 +3427,7 @@ const ServicesPricing = () => {
                             </p>
                             <ul className="list-unstyled features-list text-white">
                               <li className="d-flex gap-2 ">
-                              <span>
+                                <span>
                                   <Image
                                     className="appesect-ico"
                                     src={appesect}
@@ -3566,7 +3622,14 @@ const ServicesPricing = () => {
 
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -3590,7 +3653,7 @@ const ServicesPricing = () => {
                             </h5>
                             <hr />
                             <p className="card-text-gk  fontlinear text-center ">
-                            11,999 INR / 149 USD
+                              11,999 INR / 149 USD
                             </p>
                             <p className="card-desc text-white text-center">
                               Monthly EXCLUSIVE OF ALL TAXES
@@ -3650,7 +3713,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -3665,7 +3735,7 @@ const ServicesPricing = () => {
                             </h5>
                             <hr />
                             <p className="card-text-gk  fontlinear text-center ">
-                            16,999 INR / 199 USD
+                              16,999 INR / 199 USD
                             </p>
                             <p className="card-desc text-white text-center">
                               Monthly EXCLUSIVE OF ALL TAXES
@@ -3725,7 +3795,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -3741,7 +3818,7 @@ const ServicesPricing = () => {
                             </h5>
                             <hr />
                             <p className="card-text-gk  fontlinear text-center ">
-                            
+
                               23,999 INR / 300 USD
                             </p>
                             <p className="card-desc text-white text-center">
@@ -3801,7 +3878,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -3825,7 +3909,7 @@ const ServicesPricing = () => {
                             </h5>
                             <hr />
                             <p className="card-text-gk  fontlinear text-center ">
-                            20,000 INR/250 USD
+                              20,000 INR/250 USD
                             </p>
                             <p className="card-desc text-white text-center">
                               Monthly EXCLUSIVE OF ALL TAXES
@@ -4287,7 +4371,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -4302,15 +4393,15 @@ const ServicesPricing = () => {
                             </h5>
                             <hr />
                             <p className="card-text-gk  fontlinear text-center ">
-                            30,000 INR/400 USD
+                              30,000 INR/400 USD
                             </p>
                             <p className="card-desc text-white text-center">
                               Monthly EXCLUSIVE OF ALL TAXES
                             </p>
                             <ul className="list-unstyled features-list text-white">
-                             
 
-                            <li className="d-flex gap-2">
+
+                              <li className="d-flex gap-2">
                                 <span>
                                   <Image
                                     className="appesect-ico"
@@ -4760,7 +4851,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>
@@ -4776,13 +4874,13 @@ const ServicesPricing = () => {
                             </h5>
                             <hr />
                             <p className="card-text-gk  fontlinear text-center ">
-                            45, 000 INR/600 USD
+                              45, 000 INR/600 USD
                             </p>
                             <p className="card-desc text-white text-center">
                               Monthly EXCLUSIVE OF ALL TAXES
                             </p>
                             <ul className="list-unstyled features-list text-white">
-                            <li className="d-flex gap-2">
+                              <li className="d-flex gap-2">
                                 <span>
                                   <Image
                                     className="appesect-ico"
@@ -5231,7 +5329,14 @@ const ServicesPricing = () => {
                             </ul>
                             <div className="parent-container">
                               <button className="custom-button" data-ico="￫">
-                                <span className="btn-custom "> Call Us</span>
+                                <a
+                                  href="https://wa.me/+918360116967?text=Hello%20there!"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="btn-custom text-black" // Custom class to style as a button
+                                >
+                                  Call Us
+                                </a>
                               </button>
                             </div>
                           </div>

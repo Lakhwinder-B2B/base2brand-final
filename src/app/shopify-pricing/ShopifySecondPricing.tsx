@@ -59,8 +59,15 @@ const ShopifySecondPricing = ({
                
               </p>
               <button className="gk-b2b-btn b2b-btn-sm mt-3 m-0">
-                {btntx}
-              
+               
+                <a
+  href="https://wa.me/+918360116967?text=Hello%20there!"
+  target="_blank"
+  rel="noopener noreferrer"
+  className=" text-white" // Apply button styles
+>
+{btntx}
+</a>
               </button>
             </div>
           </div>

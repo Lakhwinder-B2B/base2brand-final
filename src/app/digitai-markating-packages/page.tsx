@@ -37,8 +37,11 @@ const page = () => {
         heading="Digital Marketing Packages – Get An Affordable Online Marketing Packages"
         subtxt="Join Base2Brand and board on a journey towards unmatched revenue growth for your business. Working with us, we can ensure that your brand achieves remarkable success in the future. Explore our digital marketing pricing packages or online marketing packages today and let’s achieve greatness together!"
         btntx="Let’s Talk"
-        para1="Digital marketing packages are essential for establishing a strong business foundation. With various online marketing plans available, these packages significantly contribute to the growth of businesses of all sizes. However, one cannot afford all the diverse marketing strategies available in the market. This is where finding a reliable source becomes crucial."
-        para2="Digital marketing packages are essential for establishing a strong business foundation. With various online marketing plans available, these packages significantly contribute to the growth of businesses of all sizes. However, one cannot afford all the diverse marketing strategies available in the market. This is where finding a reliable source becomes crucial."
+        para1="At Base2Brand, we take pride in being a leading digital marketing company based in India, dedicated to empowering small to medium-sized businesses globally. 
+
+Our mission is to deliver comprehensive digital marketing solutions that foster growth, increase brand visibility, and achieve measurable results. Whether it's SEO, social media marketing, or PPC campaigns, we tailor our strategies to meet the unique needs of each client, ensuring their success in a competitive market. 
+"
+        para2="With a commitment to excellence and innovation, Base2Brand is your trusted partner in driving digital transformation and achieving your business goals."
      
       />
       <MarketingPackages />
