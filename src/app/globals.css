@@ -2331,12 +2331,7 @@ ul.nav.nav-pills.mb-3 {
   h1.big {
     font-size: 32px !important;
   }
-  .footerMenu h5, .footerMenu ul li, .footerMenu ul li a, .footerMenu h2 {
-    text-align: center;
-  }
-  footer.footer .social {
-    justify-content: center;
-  }
+  
   .main_footer>.row {
     row-gap: 1rem !important;
   }

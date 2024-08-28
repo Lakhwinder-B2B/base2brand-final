@@ -94,8 +94,22 @@ li.active {
     }  
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:600px) {
     footer.footer .footerMenu,.main_footer .footerMenu {
         max-width: 100%;
+    }
+    footer.footer button.accordion-button.collapsed,
+    footer.footer .accordion-button:not(.collapsed) {
+        padding: 10px 0 !important;
+        color: #B6CCFF !important;
+    }
+    .footerMenu h5 {
+        margin-bottom: 0;
+    }
+    .footerMenu ul li a, .footerMenu ul li {
+        font-size: 12px;
+    }
+    footer .accordion-item {
+        border: 0;
     }
 }
