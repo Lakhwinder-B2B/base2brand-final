@@ -276,6 +276,35 @@ button.carousel-control-next:hover .carousel-control-next-icon, button.carousel-
 }
 
 /* CSS 6 june  */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: unset; 
+  border-radius: 10px;
+  background-color: transparent;
+}
+/* Track */
+body::-webkit-scrollbar-track {
+  box-shadow: unset; 
+  border-radius: 10px;
+  background-color: #111616;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #525252; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #525252; 
+}
+
 .sub_heading{
   font-size: 35px;
   font-weight: 600;
@@ -384,7 +413,7 @@ a.b2b-btn{
 .b2b-sub-heading-bold{
   font-size: 30px;
   font-weight: 700;
-  line-height: 75px;
+  line-height: 40px;
   color:#ffffff;
 }
 .b2b-sub-text{
@@ -588,7 +617,7 @@ button.b2b-blog-btn {
 }
 .bg_feedback {
   background: linear-gradient(182.02deg, rgba(66, 65, 65, 0.3) 1.69%, rgba(0, 0, 0, 0.3) 98.31%) !important;
-  height: 395px;
+  height: 500px;
   border-radius: 10px;
   margin: 0 15px;
 }
@@ -1079,9 +1108,28 @@ body .request-form.fade.transformAnim .modal-dialog {
   margin-top: 0;
   height: calc(100vh - 100px) !important;
 }
-.sub_heading {
+.bannerSection .sub_heading {
   font-size: 40px;
-  line-height: 46px;
+  line-height: 50px;
+  margin-bottom: 0 !important;
+}
+.bannerSection .Typewriter {
+  margin-bottom: -7px;
+}
+.mapWrapper-lg{
+  transform: scale(1.2);
+}
+.mapWrapper-lg .tooltipText{
+  font-size:10px;
+  font-weight: 400;
+  line-height: normal;
+}
+.mapWrapper-lg .tooltipTitle{
+  font-size:12px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2px;
+  text-transform: uppercase;
 }
 @media only screen and (max-width: 767px){
   .logo_brand img {
@@ -1209,7 +1257,9 @@ body .request-form.fade.transformAnim .modal-dialog {
 
 
 @media screen and (max-width:1800px) {
- 
+  .bg_feedback {
+    height: 450px;
+  }
 
   .footerMenu h5 {
     font-size: 14px;
@@ -1265,7 +1315,9 @@ body .request-form.fade.transformAnim .modal-dialog {
  
 }
 @media screen and (max-width: 1600px){
-  
+  .bg_feedback {
+    height: 400px;
+  }
  
   .b2b-sub-heading {
     font-size: 24px;
@@ -1423,6 +1475,13 @@ body .request-form.fade.transformAnim .modal-dialog {
   img.name_latter {
     height: 80px !important;
   }
+  .bannerSection .sub_heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .bannerSection .Typewriter span {
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 1366px){
   .b2b-heading {
@@ -1454,6 +1513,10 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .service_box_gradiant .b2b-service-heading {
     font-size: 18px;
+  }
+  .bannerSection .sub_heading {
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 
@@ -1585,6 +1648,16 @@ body .request-form.fade.transformAnim .modal-dialog {
   img.service_tab_icon+span{
     font-size: 13px;
   }
+  .bannerSection .sub_heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .bannerSection .Typewriter span {
+    font-size: 32px;
+  }
+  .animated-imgs.animated-banner-img {
+    height: 280px;
+  }
 }
 
 @media screen and (max-width: 1024px){
@@ -1615,7 +1688,6 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .bg_feedback {
     padding: 2rem;
-    height: 350px;
     
   }
   .bgimg_feed1 .slick-prev {
@@ -1674,10 +1746,6 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 20px !important;
     line-height: 27px;
   }
-  .service-banner h1 {
-    font-size: 25px !important;
-    line-height: 33px !important;
-  } 
   .row.process.text-white.align-items-center.mb-5.justify-content-center.pt-5.px-5 {
     padding: 10px !important;
 }
@@ -1733,6 +1801,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .bg_feedback {
     padding: 2rem !important;
+    height: 328px;
   }
   .b2b-partners-heading {
     font-size: 20px;
@@ -1767,6 +1836,19 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   .banner_icon_section {
     width: 114px;
+  }
+  .bannerSection .sub_heading {
+    font-size: 20px;
+    line-height: 31px;
+  }
+  .bannerSection .Typewriter span {
+    font-size: 22px !important;
+  }
+  .b2b-service-text {
+    font-size: 12px;
+  }
+  .b2b-service-text img{
+    margin-left: 4px;
   }
 }
 
@@ -2275,10 +2357,12 @@ ul.nav.nav-pills.mb-3 {
   }
   .bg_feedback{
     position: relative;
+    height: 375px;
   }
   .feedback_user {
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
   }
   .footer-form .form-btn {
     font-size: 12px;
@@ -2325,6 +2409,16 @@ ul.nav.nav-pills.mb-3 {
     justify-content: flex-start !important;
     margin-top: 30px !important;
   }
+  .animated-imgs.animated-banner-img {
+    height: 350px;
+  }
+  .bannerSection .sub_heading {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .bannerSection .Typewriter span {
+    font-size: 30px !important;
+  }
 }
 
 @media screen and (max-width:575px) {
@@ -2354,7 +2448,7 @@ ul.nav.nav-pills.mb-3 {
   .bg_feedback {
     margin-top: 1rem;
     padding: 1rem !important;
-    height: 330px;
+    height: 360px;
   }
   .bg_home .sub_text {
     font-size: 11px;
@@ -2405,6 +2499,16 @@ ul.nav.nav-pills.mb-3 {
   .row.appIcons {
     justify-content: flex-start !important;
     margin-top: 30px !important;
+  }
+  .bannerSection .Typewriter span {
+    font-size: 22px !important;
+  }
+  .bannerSection .sub_heading {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .bannerSection .Typewriter {
+    margin-bottom: -3px;
   }
 }
 @media screen and (max-width: 375px){
@@ -2473,6 +2577,27 @@ ul.nav.nav-pills.mb-3 {
   }
   .appIcons .col.mb-5{
     margin-bottom: 20px !important;
+  }
+  .bannerSection .sub_heading {
+    text-align: center;
+  }
+  .bannerSection .typewriterWrap {
+    flex-direction: column;
+    gap: .2rem !important;
+  }
+  .bannerSection .Typewriter {
+    margin-bottom: 0;
+  }
+  .bannerSection .sub_text {
+    text-align: center;
+  }
+  .bannerSection .b2b-btn {
+    margin: auto;
+    display: block;
+  }
+  .bannerSection .sub_heading {
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 @media screen and (max-height: 600px){

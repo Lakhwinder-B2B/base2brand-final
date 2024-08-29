@@ -11,7 +11,7 @@ import phone from '../public/header/phone.svg';
 import india from '../public/header/india.svg';
 import mail from '../public/header/mail.svg';
 import whatsapp from '../public/header/whatsapp.svg';
-import canada from '../public/header/canada.svg';
+import usa from '../public/header/usa.svg';
 import uk from '../public/header/uk.svg';
 import './footer.css'
 import { usePathname } from 'next/navigation';
@@ -234,7 +234,7 @@ useEffect(() => {
             <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={india.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+91 836 011 6967</h3>
+                  <h3 className='b2b-sub-text text-white'>+91 9872487850</h3>
               </div>
             </Link>
             </li>
@@ -273,8 +273,8 @@ useEffect(() => {
             <li className='mega-menu'>
             <Link href="">
               <div className="menuInner align-items-center">
-                <div className='phoneMenuIcon'><img src={canada.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+1(416) 879-2244</h3>
+                <div className='phoneMenuIcon'><img src={usa.src} alt="" /></div>
+                  <h3 className='b2b-sub-text text-white'>+1 (720) 903-5933</h3>
               </div>
             </Link>
             </li>
@@ -282,7 +282,7 @@ useEffect(() => {
             <Link href="">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={uk.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+44 07448435973</h3>
+                  <h3 className='b2b-sub-text text-white'>+44 7552 535341</h3>
               </div>
             </Link>
             </li>

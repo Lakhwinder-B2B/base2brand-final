@@ -244,7 +244,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 <div className="address">
                                     <p>Ms Ady 114, Bellchase Trail Brampton<br />
-                                    ON L6P 3LA +1(416) 879-22444</p>
+                                    ON L6P 3LA +44 7552 535341</p>
                                 </div>
                             </div>
                         </div>
@@ -260,8 +260,8 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                     </div>
                                 </div>
                                 <div className="address">
-                                    <p>Ms Ady 114, Bellchase Trail Brampton<br />
-                                    ON L6P 3LA +1(416) 879-22444</p>
+                                    <p>7311 Gladys Ave, El Cerrito, CA 94530,<br />
+                                    USA, +1 (720) 903-5933</p>
                                 </div>
                             </div>
                         </div>

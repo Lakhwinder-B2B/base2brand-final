@@ -45,10 +45,10 @@ const toggleModal = () => {
     <>
       <Header />
       <div className="b2b-black-bg">
-        <div className="service-banner full_height p-md-5 p-0" >
+        <div className="service-banner" >
           <div className="container mx-auto">
             <div className="row d-flex flex-wrap align-items-center m-auto"> 
-              <div className="col-12 col-sm-12 col-md-6 d-flex flex-wrap align-items-center " data-aos="fade-up" >
+              <div className="col-12 col-sm-12 col-md-7  " data-aos="fade-up" >
                  <h1 className="mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">graphic &amp; Ui/Ux designing</h1>
                  <p className="text-white col-12 col-sm-12 col-md-12 m-auto">
                  Let us improve your digital presence and fascinate your audience with captivating and visually stunning designs with our UI/UX and graphic design services</p>
@@ -56,7 +56,7 @@ const toggleModal = () => {
                   <button onClick={toggleModal} className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
                  </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
+              <div className="col-12 col-sm-12 col-md-5 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
               <DotLottieReact
                   src='/json/banner/UX-UI.json'
                   loop

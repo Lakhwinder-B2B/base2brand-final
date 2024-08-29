@@ -113,7 +113,8 @@
     z-index: 2;
     position: relative;
     height: 238px;
-    overflow-x: scroll;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     padding-top: 1px;
     padding-left: 2px;
     padding-right: 15px;

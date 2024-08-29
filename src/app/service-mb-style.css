@@ -55,7 +55,9 @@ body .designTabsWrap .slick-track {
     transition: 0.9s !important;
     
 }
-
+.animated-imgs.animated-banner-img {
+    height: 500px !important;
+}
 /* responsive style
 services pages */
 @media screen and (min-width: 1700px){
@@ -405,6 +407,10 @@ services pages */
     }
 }
 @media screen and (max-width: 991px) {
+    .service-banner h1 {
+        font-size: 22px !important;
+        line-height: 32px !important;
+    }
     .service-banner p {
         font-size: 14px;
         line-height: 22px;
@@ -534,16 +540,13 @@ services pages */
     .shopify-banner .full_height{
         height: auto;
     }
-    .animated-imgs {
-        height: 300px;
+    .animated-imgs.animated-banner-img {
+        height: 300px !important; 
         width: 100%;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
     }
     .animated-banner-img canvas {
         margin-top: 0;
-        height: 800px !important;
+        height: 100% !important;
     }
     h1.banner-text-outline {
         font-size: 50px !important;
@@ -644,6 +647,7 @@ services pages */
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
+        overflow: unset;
     }
     .platform-tabs {
         flex-wrap: wrap;
@@ -754,6 +758,25 @@ services pages */
         font-size: 34px !important;
         line-height: normal;
     }
+    .service-banner h1,
+    .service-banner p {
+        text-align: center !important;
+    }
+    .service-btn {
+        justify-content: center;
+    }
+    .animated-imgs.animated-banner-img {
+        margin-top: 35px;
+    }
+    .whyChoosewrap img.icon {
+        margin-left: 0 !important;
+    }
+    .service-banner{
+        padding: 30px 0 10px 0;
+    }
+    .choose-us-wrap .hoverGradient {
+        margin-right: 0 !important;
+    }
 }
 @media screen and (max-width:575px) {
     .service-banner h1 {
@@ -824,6 +847,31 @@ services pages */
         margin-bottom: 10px !important;
     }
 }
+@media screen and (max-width: 425px){
+    .whyChoosewrap img.icon {
+        height: 33px;
+        width: auto;
+    }
+    .whyChoosewrap .dmWrap p {
+        font-size: 10px;
+        margin: 4px 0;
+        padding: 0 8px;
+    }
+    .dmWrap {
+        padding: 34px 4px;
+        height: 155px;
+        width: 90px;
+    }
+    .dmWrap:before {
+        width: calc(100% - 15px);
+        height: calc(100% - 15px);
+        left: 8px;
+        top: 8px;
+    }
+    .growBusinessType p {
+        padding-right: 0;
+    }
+}
 @media screen and (max-width: 375px){
     .deliverable-step-outer {
         width: calc(100% - 50px);
@@ -858,4 +906,8 @@ services pages */
         width: 230px !important;
         margin: auto;
     }
+    .mobileAppWrap {
+        padding: 40px 15px !important;
+    }
 }
+

@@ -80,18 +80,18 @@ export default function Digital() {
     <>
       <Header />
       <div className="bg_home p-0">
-        <div className="service-banner full_height p-md-5 p-0" >
+        <div className="service-banner" >
           <div className="container mx-auto">
             <div className="row flex-wrap align-items-center m-auto"> 
-              <div className="col-12 col-sm-12 col-md-6 d-flex flex-wrap align-items-center " data-aos="fade-up" >
+              <div className="col-12 col-sm-12 col-md-7 " data-aos="fade-up" >
                  <h1 className=" mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">Digital Marketing</h1>
-                 <p className="text-white col-12 col-sm-12 col-md-12 m-auto">
+                 <p className="text-white col-12 col-sm-12 col-md-10">
                  Improve Your Online Presence with Our Proven Digital Marketing Strategies. Partner with us for digital marketing excellence</p>
                  <div className="service-btn d-flex flex-wrap mt-3 w-100">
                   <button className="b2b-btn b2b-btn-lg m-0" onClick={toggleModal}>Request a Quote</button>
                  </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
+              <div className="col-12 col-sm-12 col-md-5 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
               <DotLottieReact
                   src='/json/banner/digital marketing.json'
                   loop

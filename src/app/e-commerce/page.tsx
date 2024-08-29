@@ -36,10 +36,10 @@ export default function Ecommerce() {
     <>
       <Header />
       <div className="b2b-black-bg">
-      <div className="service-banner full_height p-md-5 p-0">
+      <div className="service-banner ">
           <div className="container mx-auto">
             <div className="row d-flex flex-wrap align-items-center m-auto"> 
-              <div className="col-12 col-sm-12 col-md-6 d-flex flex-wrap align-items-center" data-aos="fade-up" >
+              <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up" >
                  <h1 className="mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h1>
                  <p className="text-white col-12 col-sm-12 col-md-12 m-auto">
                  We specialize in E-commerce theme and app development, providing customized solutions to enhance your web store</p>

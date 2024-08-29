@@ -50,7 +50,7 @@ export default function FooterMap() {
   return (
     <>  
         <div className="footer-map" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
-            <div className="container pt-5 pb-5">  
+            <div className="container pt-md-5 pt-3 pb-5">  
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-5 m-auto'>
                         <h2 className='text-center b2b-main-heading text-uppercase' data-aos="fade-up">Get in touch</h2>
@@ -59,7 +59,7 @@ export default function FooterMap() {
 
                     <div className="row">
                         <div className="col-lg-6 col-md-12 text-center mb-5 mb-md-0"    >
-                            <div className="mapWrapper">
+                            <div className="mapWrapper mapWrapper-lg">
                                 <img className="m-auto" src={footerMap.src} alt="Map" data-aos="zoom-in-up" data-aos-delay="300"/>
                                 <div className="address1" data-aos="zoom-in" data-aos-delay="600">
                                     

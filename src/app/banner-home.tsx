@@ -26,11 +26,11 @@ export default function HomeBanner() {
     <>
     
 
-      <div className="bannerSection pt-5 pb-5">
+      <div className="bannerSection pt-md-5 pt-3 pb-md-5 pb-1">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-7">
-              <div className="d-flex align-items-center gap-2">
+              <div className="typewriterWrap d-flex align-items-center gap-2">
                 <h2 className="sub_heading">Build your</h2>
               <Typewriter 
                   options={{
