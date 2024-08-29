@@ -1,71 +1,73 @@
 "use client";
 import { useState } from "react";
 import BannerImage from "../../../public/img/digitai-markating-packags/digitai-markating-packagsbanner.svg";
-import Image from "next/image";
-
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const DigitalPricing = () => {
-  // State for form visibility (initially hidden)
-  const [submitform, setSubmit] = useState(false);
-
-  // State for form validation errors
   const [error, setError] = useState({
-    name: false,
+    userName: false,
     email: false,
-    phone: false,
+    phoneNo: false,
   });
-
-  // State for form fields
   const [formData, setFormData] = useState({
-    name: "",
+    userName: "",
     email: "",
-    phone: "",
-    message: "",
+    phoneNo: "",
+    messages: "",
   });
-
-  // Handle form data changes
   function handleChange(event) {
     const { name, value } = event.target;
     setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
-
-    // Reset error for the field that's being changed
     setError((prev) => ({
       ...prev,
       [name]: value === "",
     }));
   }
 
-  // Handle form submission
-  function handleSubmit(event) {
-    event.preventDefault(); // Prevent default form submission behavior
-
-    // Validate form fields
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
     const newError = {
-      name: formData.name === "",
+      userName: formData.userName === "",
       email: formData.email === "",
-      phone: formData.phone === "",
+      phoneNo: formData.phoneNo === "",
     };
 
-    // Update the error state
     setError(newError);
 
-    // Check if all required fields are filled
-    if (!newError.name && !newError.email && !newError.phone) {
+    if (!newError.userName && !newError.email && !newError.phoneNo) {
+      // Clear the form fields immediately
       setFormData({
-        name: "",
+        userName: "",
         email: "",
-        phone: "",
-        message: "",
-      })
-      console.log("Form submitted successfully:", formData);
-      // Optionally hide the form after successful submission
-      setSubmit(false);
+        phoneNo: "",
+        messages: "",
+      });
+
+      try {
+        const response = await fetch("https://empbackend.base2brand.com/base2-brand", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        if (response.ok) {
+          toast.success('Form submitted successfully');
+        } else {
+          toast.error('Failed to submit the form');
+        }
+      } catch (error) {
+        console.error("An error occurred while submitting the form:", error);
+      }
     } else {
       console.log("Please fill in all required fields.");
     }
   }
+
 
   return (
     <>
@@ -93,135 +95,131 @@ const DigitalPricing = () => {
               </div>
               <button
                 className="gk-b2b-btn b2b-btn-sm mt-3 m-0"
-               
+
               >
                 Let’s Talk
               </button>
             </div>
 
             {/* Conditionally render the form based on submitform state */}
-          
-              <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 pt-4 pt-lg-0">
-                <div
-                  className="p-20px bg-white"
-                  style={{
-                    borderRadius: "20px",
-                  }}
-                >
-                  <div className="p-lg-4 p-4">
-                    <h3 className="b2b-sub-heading text-black">
-                      Submit Details Below To Get A Call Back
-                    </h3>
-                    <form onSubmit={handleSubmit}>
-                      <div className="mb-3">
-                        <label htmlFor="name" className="text-black mb-2">
-                          Name<span style={{ color: "red" }}> *</span>
+
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 pt-4 pt-lg-0">
+              <div
+                className="p-20px bg-white"
+                style={{
+                  borderRadius: "20px",
+                }}
+              >
+                <div className="p-lg-4 p-4">
+                  <h3 className="b2b-sub-heading text-black">
+                    Submit Details Below To Get A Call Back
+                  </h3>
+                  <form onSubmit={handleSubmit}>
+                    <div className="mb-3">
+                      <label className="text-black mb-2">
+                        Name<span style={{ color: "red" }}> *</span>
+                      </label>
+                      <input
+                        name="userName"
+                        type="text"
+                        placeholder="Enter your name"
+                        className="form-control w-100"
+                        style={{
+                          padding: "10px",
+                          borderStyle: "none",
+                          border: "1px solid",
+                          borderColor: error.userName ? "red" : "#ced4da",
+                        }}
+                        value={formData.userName}
+                        onChange={handleChange}
+                      />
+                      {error.userName && (
+                        <span className="required-text" style={{ color: "red" }}>
+                          Please Enter your Name
+                        </span>
+                      )}
+                    </div>
+                    <div className="d-flex justify-content-between mb-3">
+                      <div className="flex-fill">
+                        <label className="text-black mb-2">
+                          Email<span style={{ color: "red" }}> *</span>
                         </label>
                         <input
-                          id="name"
-                          name="name"
-                          type="text"
-                          placeholder="Enter your name"
+                          name="email"
+                          type="email"
+                          placeholder="Enter your email"
                           className="form-control w-100"
                           style={{
                             padding: "10px",
                             borderStyle: "none",
                             border: "1px solid",
-                            borderColor: error.name ? "red" : "#ced4da",
+                            borderColor: error.email ? "red" : "#ced4da",
                           }}
-                          value={formData.name}
+                          value={formData.email}
                           onChange={handleChange}
                         />
-                        {error.name && (
+                        {error.email && (
                           <span className="required-text" style={{ color: "red" }}>
-                            Please Enter your Name
+                            Please Enter a valid Email
                           </span>
                         )}
                       </div>
-                      <div className="d-flex justify-content-between mb-3">
-                        <div className="flex-fill">
-                          <label htmlFor="email" className="text-black mb-2">
-                            Email<span  style={{ color: "red" }}> *</span>
-                          </label>
-                          <input
-                            id="email"
-                            name="email"
-                            type="email"
-                            placeholder="Enter your email"
-                            className="form-control w-100"
-                            style={{
-                              padding: "10px",
-                              borderStyle: "none",
-                              border: "1px solid",
-                              borderColor: error.email ? "red" : "#ced4da",
-                            }}
-                            value={formData.email}
-                            onChange={handleChange}
-                          />
-                          {error.email && (
-                            <span className="required-text"  style={{ color: "red" }}>
-                              Please Enter a valid Email
-                            </span>
-                          )}
-                        </div>
-                        <div className="ms-2 flex-fill">
-                          <label htmlFor="phone" className="text-black mb-2">
-                            Phone Number<span style={{ color: "red" }}> *</span>
-                          </label>
-                          <input
-                            id="phone"
-                            name="phone"
-                            type="number"
-                            placeholder="Enter your number"
-                            className="form-control w-100"
-                            style={{
-                              padding: "10px",
-                              borderStyle: "none",
-                              border: "1px solid",
-                              borderColor: error.phone ? "red" : "#ced4da",
-                            }}
-                            value={formData.phone}
-                            onChange={handleChange}
-                          />
-                          {error.phone && (
-                            <span className="required-text"  style={{ color: "red" }}>
-                              Please Enter your Number
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                      <div className="mb-3">
-                        <label htmlFor="message" className="text-black mb-2">
-                          Message
+                      <div className="ms-2 flex-fill">
+                        <label className="text-black mb-2">
+                          Phone Number<span style={{ color: "red" }}> *</span>
                         </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          placeholder="Give us a small brief about your project"
+                        <input
+                          name="phoneNo"
+                          type="tel"
+                          placeholder="Enter your number"
                           className="form-control w-100"
                           style={{
-                            height: "150px",
                             padding: "10px",
                             borderStyle: "none",
-                            border: "1px solid #ced4da",
+                            border: "1px solid",
+                            borderColor: error.phoneNo ? "red" : "#ced4da",
                           }}
-                          value={formData.message}
+                          value={formData.phoneNo}
                           onChange={handleChange}
-                        ></textarea>
+                        />
+                        {error.phoneNo && (
+                          <span className="required-text" style={{ color: "red" }}>
+                            Please Enter your Number
+                          </span>
+                        )}
                       </div>
-                      <div>
-                        <button
-                          type="submit"
-                          className="gk-b2b-btn b2b-btn-sm mt-3"
-                        >
-                          SUBMIT
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
+                    <div className="mb-3">
+                      <label className="text-black mb-2">
+                        Message
+                      </label>
+                      <textarea
+                        name="messages"
+                        placeholder="Give us a small brief about your project"
+                        className="form-control w-100"
+                        style={{
+                          height: "150px",
+                          padding: "10px",
+                          borderStyle: "none",
+                          border: "1px solid #ced4da",
+                        }}
+                        value={formData.messages}
+                        onChange={handleChange}
+                      ></textarea>
+                    </div>
+                    <div>
+                      <button
+                        type="submit"
+                        className="gk-b2b-btn b2b-btn-sm mt-3"
+                      >
+                        SUBMIT
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
-      
+            </div>
+
           </div>
         </div>
       </section>

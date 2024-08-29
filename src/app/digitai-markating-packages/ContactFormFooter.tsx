@@ -4,21 +4,22 @@ import Image from "next/image";
 import callto from "../../../public/img/logo/logo2.svg";
 import mailto from "../../../public/img/logo/logo3.svg";
 import location from "../../../public/img/logo/logo1.svg";
-
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const ContactFormFooter = ({ param }) => {
   // State for form data
   const [formData, setFormData] = useState({
-    name: "",
+    userName: "",
     email: "",
-    phone: "",
-    message: "",
+    phoneNo: "",
+    messages: "",
   });
 
   // State for form validation errors
   const [errors, setErrors] = useState({
-    name: false,
+    userName: false,
     email: false,
-    phone: false,
+    phoneNo: false,
   });
 
   // Handle form data changes
@@ -36,35 +37,46 @@ const ContactFormFooter = ({ param }) => {
     }));
   };
 
-  // Handle form submission
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
-    // Validate form fields
-    const newErrors = {
-      name: formData.name === "",
+    const newError = {
+      userName: formData.userName === "",
       email: formData.email === "",
-      phone: formData.phone === "",
+      phoneNo: formData.phoneNo === "",
     };
 
-    setErrors(newErrors);
+    setErrors(newError);
 
-    // Check if all required fields are filled
-    if (!newErrors.name && !newErrors.email && !newErrors.phone) {
-      console.log("Form submitted successfully:", formData);
-
-      // Clear form data after successful submission
+    if (!newError.userName && !newError.email && !newError.phoneNo) {
+      // Clear the form fields immediately
       setFormData({
-        name: "",
+        userName: "",
         email: "",
-        phone: "",
-        message: "",
+        phoneNo: "",
+        messages: "",
       });
-      console.log("Form submitted successfully:", formData);
+
+      try {
+        const response = await fetch("https://empbackend.base2brand.com/base2-brand", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        if (response.ok) {
+          toast.success('Form submitted successfully');
+        } else {
+          toast.error('Failed to submit the form');
+        }
+      } catch (error) {
+        console.error("An error occurred while submitting the form:", error);
+      }
     } else {
       console.log("Please fill in all required fields.");
     }
-  };
+  }
 
   return (
     <section className="gk-bg-Contact pt-5 pb-5">
@@ -85,15 +97,13 @@ const ContactFormFooter = ({ param }) => {
               </h3>
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
-                  <label htmlFor="name" className="text-white mb-2">
-                    
-                  Name<span style={{ color: "red" }}> *</span>
+                  <label className="text-white mb-2">
+                    Name<span style={{ color: "red" }}> *</span>
                   </label>
                   <input
-                    id="name"
-                    name="name"
+                    name="userName"
                     type="text"
-                    value={formData.name}
+                    value={formData.userName}
                     onChange={handleChange}
                     placeholder="Enter your name"
                     className="form-control w-100"
@@ -101,18 +111,17 @@ const ContactFormFooter = ({ param }) => {
                       padding: "10px",
                       borderStyle: "none",
                       border: "1px solid",
-                      borderColor: errors.name ? "red" : "#ced4da",
+                      borderColor: errors?.userName ? "red" : "#ced4da",
                     }}
                   />
-                  {errors.name && <p className="text-danger required-text">Name is required.</p>}
+                  {errors.userName && <p className="text-danger required-text">Name is required.</p>}
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
                   <div className="me-md-2 flex-fill mb-3 mb-md-0">
-                    <label htmlFor="email" className="text-white mb-2">
+                    <label className="text-white mb-2">
                       Email<span style={{ color: "red" }}> *</span>
                     </label>
                     <input
-                      id="email"
                       name="email"
                       type="email"
                       value={formData.email}
@@ -129,15 +138,14 @@ const ContactFormFooter = ({ param }) => {
                     {errors.email && <p className="text-danger required-text">Email is required.</p>}
                   </div>
                   <div className="ms-md-2 flex-fill">
-                    <label htmlFor="phone" className="text-white mb-2">
-                   
+                    <label className="text-white mb-2">
+
                       Phone Number<span style={{ color: "red" }}> *</span>
                     </label>
                     <input
-                      id="phone"
-                      name="phone"
+                      name="phoneNo"
                       type="number"
-                      value={formData.phone}
+                      value={formData.phoneNo}
                       onChange={handleChange}
                       placeholder="Enter your number"
                       className="form-control w-100"
@@ -145,20 +153,19 @@ const ContactFormFooter = ({ param }) => {
                         padding: "10px",
                         borderStyle: "none",
                         border: "1px solid",
-                        borderColor: errors.phone ? "red" : "#ced4da",
+                        borderColor: errors.phoneNo ? "red" : "#ced4da",
                       }}
                     />
-                    {errors.phone && <p className="text-danger required-text">Phone number is required.</p>}
+                    {errors.phoneNo && <p className="text-danger required-text">Phone number is required.</p>}
                   </div>
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="message" className="text-white mb-2">
+                  <label className="text-white mb-2">
                     Message
                   </label>
                   <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
+                    name="messages"
+                    value={formData.messages}
                     onChange={handleChange}
                     placeholder="Give us a small brief about your project"
                     className="form-control w-100"
@@ -212,7 +219,7 @@ const ContactFormFooter = ({ param }) => {
                   <Image className="Image-icon" src={callto} alt="Call Icon" />
                   <span className="gk-acco-text text-white">
                     <a href="tel:+9872487850" className="text-white">
-                      +9872487850
+                      +919872487850
                     </a>
                   </span>
                 </div>
