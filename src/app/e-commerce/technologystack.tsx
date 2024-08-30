@@ -11,12 +11,12 @@ export default function technologystack() {
    
   return (
     <>  
-      <div className="b2b-container-lg mb-md-5 mb-0"> 
+      <div className="b2b-container-lg mb-md-5 mb-0" data-aos="fade-up"> 
          <div className="row">
             <div className="col-lg-12">
-                <h2 className="b2b-main-heading text-center mb-3">Platforms Used by Our eCommerce <br />Website Developers</h2>
+                <h2 className="b2b-main-heading text-center mb-3" data-aos="fade-up" data-aos-delay="300">Platforms Used by Our eCommerce <br />Website Developers</h2>
                 <div className="platform-tabs px-md-5 px-0">
-                  <ul className="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                  <ul className="nav nav-pills mb-3 " id="pills-tab" role="tablist" data-aos="fade-up" data-aos-delay="400">
                       <li className="nav-item" role="presentation">
                           <button className="nav-link active btn_platfotm" id="pill-tab" data-bs-toggle="pill" data-bs-target="#pills" type="button" role="tab" aria-controls="pills" aria-selected="true">
                             <div className="btnIcon"><img src={btnIcon1.src} alt="" /></div><span>Shopify Development</span></button>
@@ -42,7 +42,7 @@ export default function technologystack() {
                             <div className="btnIcon"><img src={btnIcon6.src} alt="" /></div><span>PrestaShop Development</span></button>
                       </li>
                   </ul>
-                  <div className="tab-content b2b-gray-bg" id="pills-tabContent">
+                  <div className="tab-content b2b-gray-bg" id="pills-tabContent" data-aos="fade-up" data-aos-delay="300">
                     <div className="tab-pane fade show active" id="pills" role="tabpanel" aria-labelledby="pill-tab">
                       <h2 className="b2b-sub-heading mb-4">Shopify Development</h2>
                       <p className="mb-0">Shopify is a fully hosted platform for developing an eCommerce Website quickly and efficiently. With 100+ professional themes and several useful plugins, it takes minimal development efforts. Our Shopify developers can build and deliver an eCommerce storefront for your business with features like Drop Shipping, Fraud Prevention, SEO optimized, Social Media Integration and more.</p>

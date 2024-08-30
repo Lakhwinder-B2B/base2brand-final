@@ -204,6 +204,9 @@ li.mail a{
     height: calc(100vh - 200px);
     width: calc(100% + 90px);
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .animated-imgs.animated-contact-img canvas{
     height: calc(100vh - 100px) !important;
@@ -222,10 +225,16 @@ li.mail a{
     .address-icon {
         height: 64px;
     }
+    .animated-imgs.animated-contact-img {
+        height: 400px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .contact-img {
         margin-left: 0;
+    }
+    .animated-imgs.animated-contact-img {
+        width: 100%;
     }
 }
 @media screen and (max-width: 991px) {
@@ -354,5 +363,10 @@ li.mail a{
     }
     .addressRow>div {
         border-right: 0px solid #D9D9D9;
+    }
+    .animated-imgs.animated-contact-img {
+        height: 270px;
+        width: 290px;
+        margin: auto;
     }
 }

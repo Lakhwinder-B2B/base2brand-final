@@ -13,11 +13,11 @@ export default function FAQ() {
         <div className="container">
             <div className="row">
               <div className="col-md-12">
-                  <h2 className='text-white b2b-main-heading text-center'>Frequently Asked Questions</h2>
+                  <h2 className='text-white b2b-main-heading text-center' data-aos="fade-up" data-aos-delay="300">Frequently Asked Questions</h2>
               </div>
               <div className="col-xl-8 col-lg-9 col-md-12 m-auto mt-5">
                 <div className="accordion accordion-flush b2b-accordion" id="accordionFlushExample">
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header fs-4">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
                       What is app development?
@@ -27,7 +27,7 @@ export default function FAQ() {
                       <div className="accordion-body"><p>App development refers to the process of creating software applications designed to run on mobile devices like smartphones and tablets.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
                       What platforms do you develop apps for?
@@ -37,7 +37,7 @@ export default function FAQ() {
                       <div className="accordion-body"> <p>We specialize in developing apps for both iOS and Android platforms, ensuring compatibility with a wide range of devices.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
                       How long does it take to develop an app?
@@ -48,7 +48,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
                       What technologies do you use for app development?
@@ -59,7 +59,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
                       Do you provide ongoing maintenance and support after app launch?
@@ -70,7 +70,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
                       Can you help with app design?
@@ -81,7 +81,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
                       Do you assist with app store submission?
@@ -92,7 +92,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
                       How do you ensure the security of the apps you develop?

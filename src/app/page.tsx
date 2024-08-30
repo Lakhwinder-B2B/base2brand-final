@@ -13,7 +13,7 @@ import Brand from '../app/brand'
 import HomeBlog from '../app/homeblog'
 import Feedback from '../app/home-review'
 import Career from '../app/career'
-import FooterMap from '../app/footer-map'
+
 
 import b2b1 from '../../public/img/b2b1.png'; 
 import b2b2 from '../../public/img/b2b2.png'; 
@@ -186,11 +186,12 @@ export default function Home() {
         {/* <HomeBlog /> */}
         <Feedback />
         <Career />
-        {/* <VerticalScroll /> */}
-                
-        <FooterMap />
-        <Footer />
       </div>
+        <VerticalScroll />
+                
+        
+        <Footer />
+      
 
       {showModal && 
         <Request 

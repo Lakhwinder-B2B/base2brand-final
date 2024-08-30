@@ -7,7 +7,7 @@ import Footer from "../../../component/footer";
 import Quote from "../../../public/services2-img/quote-ico.png";
 import Bg from '../../../public/services2-img/service-mask.svg';
 import Process from "../our-process";
-import Services2 from "../service2-section";
+import Services2 from "./service2-section";
 import './services2.css'
 import "../service-mb-style.css";
 import Request from "../request-form";

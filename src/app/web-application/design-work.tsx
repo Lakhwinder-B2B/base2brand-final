@@ -40,13 +40,13 @@ export default function DesignWork() {
   return (
     <>  
        
-        <div className="py-lg-5 py-3 interfaceWrap mt-lg-4 mt-md-3 mt-2">
+        <div className="py-lg-5 py-3 interfaceWrap mt-lg-4 mt-md-3 mt-2" data-aos="fade-up" >
             <div className="b2b-container-lg">
                 <div className="row">
                     <div className="col-lg-12 mb-5">
-                        <h2 className="text-center mb-3 b2b-heading">Proficient in Each Interface of a Website Development</h2>
+                        <h2 className="text-center mb-3 b2b-heading" data-aos="fade-up" data-aos-delay="300">Proficient in Each Interface of a Website Development</h2>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg text-center">
                           <img src={develop.src} className="imgIcon" alt="" />
@@ -55,7 +55,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg text-center">
                           <img src={backend.src} className="imgIcon" alt="" />
@@ -64,7 +64,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-7 mx-sm-auto mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg text-center">
                           <img src={adminPanel.src} className="imgIcon" alt="" />
@@ -77,31 +77,31 @@ export default function DesignWork() {
                 </div>
             </div>
         </div>
-        <div className="py-md-5 py-4 b2b-gray-bg">
+        <div className="py-md-5 py-4 b2b-gray-bg" data-aos="fade-up">
           <div className="b2b-container-lg">
               <div className="row align-items-center"> 
                   <div className="col-md-5 mb-md-0 mb-4">
-                    <img className="w-100" src={system_website.src} alt="" /> 
+                    <img className="w-100" src={system_website.src} alt=""  data-aos="fade-up" data-aos-delay="300"/> 
                   </div>
                   <div className="col-md-7 text-white"> 
-                      <h2 className="b2b-heading mb-3">Why Does Your Business <br />Need a Website?</h2>
-                      <p className="b2b-text-sm">In today's digital landscape, a website serves as your business's virtual storefront, accessible to potential customers 24/7. It establishes credibility, expands market reach, and facilitates customer engagement. A well-designed website showcases your brand, offers valuable information, and converts visitors into loyal customers, driving growth and fostering lasting relationships.</p>
-                      <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0 mt-3" >Request a Quote</button>
+                      <h2 className="b2b-heading mb-3" data-aos="fade-up" data-aos-delay="300">Why Does Your Business <br />Need a Website?</h2>
+                      <p className="b2b-text-sm" data-aos="fade-up" data-aos-delay="300">In today's digital landscape, a website serves as your business's virtual storefront, accessible to potential customers 24/7. It establishes credibility, expands market reach, and facilitates customer engagement. A well-designed website showcases your brand, offers valuable information, and converts visitors into loyal customers, driving growth and fostering lasting relationships.</p>
+                      <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0 mt-3"  data-aos="fade-up" data-aos-delay="300">Request a Quote</button>
                   </div>
                   
               </div>
           </div>
         </div>
-        <div className="w-100 py-md-5 py-4"> 
+        <div className="w-100 py-md-5 py-4" data-aos="fade-up"> 
             <div className="b2b-container-lg">
                 <div className="row">
                     <div className="col-lg-9 m-auto">
-                        <h3 className="b2b-heading text-center">Web Development Services We Offer</h3>
-                        <p className="b2b-text text-center letterSpacing-1">We cater to our client&apos;s unique and diverse business requirements with our end-to-end web development services. Design responsive web apps that work perfectly on desktops, tablets, and smartphones.</p>
+                        <h3 className="b2b-heading text-center" data-aos="fade-up" data-aos-delay="300">Web Development Services We Offer</h3>
+                        <p className="b2b-text text-center letterSpacing-1" data-aos="fade-up" data-aos-delay="300">We cater to our client&apos;s unique and diverse business requirements with our end-to-end web development services. Design responsive web apps that work perfectly on desktops, tablets, and smartphones.</p>
                     </div>
                 </div>
                 <div className="row mt-5">
-                    <div className="col-xl-6 col-lg-6 mb-5">
+                    <div className="col-xl-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                         <div className="deliverable-step-outer">
                           <div className="deliverable-step">
                                 <div className="deliverable-icon">
@@ -116,7 +116,7 @@ export default function DesignWork() {
                           </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6 mb-5">
+                    <div className="col-xl-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                       <div className="deliverable-step-outer">
                           <div className="deliverable-step">
                               <div className="deliverable-icon">
@@ -131,7 +131,7 @@ export default function DesignWork() {
                           </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6 mb-5">
+                    <div className="col-xl-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                       <div className="deliverable-step-outer">
                           <div className="deliverable-step">
                               <div className="deliverable-icon">
@@ -146,7 +146,7 @@ export default function DesignWork() {
                           </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6 mb-5">
+                    <div className="col-xl-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                       <div className="deliverable-step-outer">
                           <div className="deliverable-step">
                               <div className="deliverable-icon">
@@ -161,7 +161,7 @@ export default function DesignWork() {
                           </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 col-lg-6 mb-5">
+                    <div className="col-xl-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="300">
                       <div className="deliverable-step-outer">
                           <div className="deliverable-step">
                               <div className="deliverable-icon">
@@ -180,18 +180,18 @@ export default function DesignWork() {
         </div>
         
         </div>
-        <div className="py-md-5 py-4 b2b-gray-bg">
+        <div className="py-md-5 py-4 b2b-gray-bg" data-aos="fade-up">
           <div className="b2b-container-lg">
               <div className="row align-items-center"> 
                   <div className="col-md-6 text-white"> 
-                      <h2 className="b2b-sub-heading mb-3">More About Custom <br />Website Development</h2>
-                      <p className="b2b-text-sm letterSpacing-1">Custom website development crafts unique, brand-tailored sites, bypassing templates for precise alignment with your objectives. This approach allows for unlimited creativity, specialized features, and optimal user experience, driving standout online presence and business growth. With advanced functionalities and search engine optimization, your website stands out, effectively meeting business goals in the digital realm.</p>
-                      <p className="b2b-text-sm letterSpacing-1">Our custom approach integrates advanced functionalities and SEO, ensuring your website's prominence and effectiveness in achieving business objectives in the digital realm.</p>
+                      <h2 className="b2b-sub-heading mb-3" data-aos="fade-up" data-aos-delay="300">More About Custom <br />Website Development</h2>
+                      <p className="b2b-text-sm letterSpacing-1" data-aos="fade-up" data-aos-delay="300">Custom website development crafts unique, brand-tailored sites, bypassing templates for precise alignment with your objectives. This approach allows for unlimited creativity, specialized features, and optimal user experience, driving standout online presence and business growth. With advanced functionalities and search engine optimization, your website stands out, effectively meeting business goals in the digital realm.</p>
+                      <p className="b2b-text-sm letterSpacing-1" data-aos="fade-up" data-aos-delay="300">Our custom approach integrates advanced functionalities and SEO, ensuring your website's prominence and effectiveness in achieving business objectives in the digital realm.</p>
                       
                   </div>
                   <div className="col-md-6 text-white"> 
                     <div className="accordion accordion-flush b2b-accordion about-accordion" id="accordionFlushExample">
-                        <div className="accordion-item"  >
+                        <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                             <h2 className="accordion-header fs-4">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-abt-1" aria-expanded="false" aria-controls="flush-collapse-abt-1">
                             UI/UX Designers
@@ -201,7 +201,7 @@ export default function DesignWork() {
                                 <div className="accordion-body"><p className=" letterSpacing-1">Our UI/UX designers create custom websites by focusing on optimizing user experience through intuitive navigation and aesthetic appeal. They align functionalities with client goals, integrating user research, wireframing, prototyping, and testing to ensure engaging digital experiences for target audiences.</p></div>
                             </div>
                         </div>
-                        <div className="accordion-item"  >
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="300" >
                             <h2 className="accordion-header fs-4">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-abt-2" aria-expanded="false" aria-controls="flush-collapse-abt-2">
                             Front-end Developers
@@ -211,7 +211,7 @@ export default function DesignWork() {
                                 <div className="accordion-body"><p className=" letterSpacing-1">Team of front-end developers at Base2Brand enhance user experience by translating UI/UX designs into interactive web interfaces. They utilize languages like HTML, CSS, and JavaScript to ensure responsiveness, accessibility, and seamless functionality across various devices and browsers.</p></div>
                             </div>
                         </div>
-                        <div className="accordion-item"  >
+                        <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                             <h2 className="accordion-header fs-4">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-abt-3" aria-expanded="false" aria-controls="flush-collapse-abt-3">
                             Back-end Developers
@@ -221,7 +221,7 @@ export default function DesignWork() {
                                 <div className="accordion-body"><p className=" letterSpacing-1">To create a custom website, our back-end developers focus on server-side operations and database management to ensure the functionality and performance of websites and applications. They use languages like Python, PHP, Ruby, or Java to handle data storage, security, and server logic.</p></div>
                             </div>
                         </div>
-                        <div className="accordion-item"  >
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="300" >
                             <h2 className="accordion-header fs-4">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-abt-4" aria-expanded="false" aria-controls="flush-collapse-abt-4">
                             Full-Stack Developers
@@ -236,16 +236,16 @@ export default function DesignWork() {
               </div>
           </div>
         </div>
-        <div className="py-md-5 py-3 whyChooseWrap" >
+        <div className="py-md-5 py-3 whyChooseWrap" data-aos="fade-up" >
           <div className="b2b-container-lg">
             <div className="row">
               <div className="col-md-8 text-center m-auto" >
-                <h3 className='b2b-partners-heading'>Why Choose Us?</h3> 
-                <p className="text-white b2b-text letterSpacing-1">Choose us for web development Service because we offer tailored solutions that align with your unique business goals. Our experienced team ensures top-notch quality, timely delivery, and ongoing support.</p>
+                <h3 className='b2b-partners-heading' data-aos="fade-up" data-aos-delay="300">Why Choose Us?</h3> 
+                <p className="text-white b2b-text letterSpacing-1" data-aos="fade-up" data-aos-delay="300">Choose us for web development Service because we offer tailored solutions that align with your unique business goals. Our experienced team ensures top-notch quality, timely delivery, and ongoing support.</p>
               </div>
               <div className="col-lg-10 m-auto">
                 <div className="row mt-4">
-                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons4.src} className="imgIcon" alt="" />
@@ -256,7 +256,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons1.src} className="imgIcon" alt="" />
@@ -267,7 +267,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons2.src} className="imgIcon" alt="" />
@@ -278,7 +278,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons3.src} className="imgIcon" alt="" />
@@ -289,7 +289,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons4.src} className="imgIcon" alt="" />
@@ -300,7 +300,7 @@ export default function DesignWork() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
+                    <div className="col-lg-4 col-md-4 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD withGray">
                         <div className="cell-wrap b2b-gray-bg">
                           <img src={Icons5.src} className="imgIcon" alt="" />

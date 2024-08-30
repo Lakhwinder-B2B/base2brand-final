@@ -92,25 +92,25 @@ export default function BigCommence() {
             </div>
           </div> 
         </div>
-        <div className="b2b-gray-bg py-5 nextGenWrap">
+        <div className="b2b-gray-bg py-5 nextGenWrap" data-aos="fade-up">
           <div className="container">
               <div className="row align-items-center"> 
                   <div className="col-lg-7 col-md-12 text-white order-lg-1 order-2"> 
-                      <h1 className="b2b-main-heading mb-3">Developing Custom, Scalable, And <br />Next-Generation Mobile Apps</h1>
-                      <p className="b2b-text-sm letterSpacing-1">Crafting innovative, scalable mobile apps demands a holistic approach. We delve into client needs, user expectations, and tech trends. Our process begins with thorough consultations, understanding your goals. Leveraging cutting-edge tech, our skilled team tailors solutions for optimal user experience and interface design.</p>
-                      <p className="b2b-text-sm letterSpacing-1">We prioritize scalability, ensuring seamless growth. From concept to deployment, maintenance, and updates, we offer comprehensive development services. Collaborate with us to realize your vision and redefine mobile excellence.</p>
+                      <h1 className="b2b-main-heading mb-3" data-aos="fade-up" data-aos-delay="300">Developing Custom, Scalable, And <br />Next-Generation Mobile Apps</h1>
+                      <p className="b2b-text-sm letterSpacing-1" data-aos="fade-up" data-aos-delay="300">Crafting innovative, scalable mobile apps demands a holistic approach. We delve into client needs, user expectations, and tech trends. Our process begins with thorough consultations, understanding your goals. Leveraging cutting-edge tech, our skilled team tailors solutions for optimal user experience and interface design.</p>
+                      <p className="b2b-text-sm letterSpacing-1" data-aos="fade-up" data-aos-delay="300">We prioritize scalability, ensuring seamless growth. From concept to deployment, maintenance, and updates, we offer comprehensive development services. Collaborate with us to realize your vision and redefine mobile excellence.</p>
                   </div>
                   <div className="col-lg-5 col-md-12 order-lg-2 order-1 mb-lg-0 mb-4">
-                    <img className="w-100" src={nextGeneration.src} alt="" />
+                    <img className="w-100" src={nextGeneration.src} alt=""  data-aos="fade-up" data-aos-delay="300"/>
                   </div>
               </div>
           </div>
         </div>
                 <BigCommerce /> 
-                <div className="bg_light_green"> 
+                <div className="bg_light_green" data-aos="fade-up"> 
                   <div className="container pt-md-5 pt-3 ">
                       <div className="row mb-5">
-                        <div className="col-lg-3 col-md-3 mb-4">
+                        <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                           <div className="hoverGradient blueGD">
                             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
                               <div className="me-lg-3 me-md-1 me-3"><img src={Icon1.src} alt="IOS App Development" /></div>
@@ -118,7 +118,7 @@ export default function BigCommence() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 mb-4">
+                        <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                           <div className="hoverGradient blueGD">
                             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
                               <div className="me-lg-3 me-md-1 me-3"><img src={Icon2.src} alt="Android App Development" /></div>
@@ -126,7 +126,7 @@ export default function BigCommence() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 mb-4">
+                        <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                           <div className="hoverGradient blueGD">
                             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
                               <div className="me-lg-3 me-md-1 me-3"><img src={Icon3.src} alt="React Native App Development" /></div>
@@ -134,7 +134,7 @@ export default function BigCommence() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-lg-3 col-md-3 mb-4">
+                        <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                           <div className="hoverGradient blueGD">
                             <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
                               <div className="me-lg-3 me-md-1 me-3"><img src={Icon4.src} alt="Flutter App Development" /></div>
@@ -145,12 +145,12 @@ export default function BigCommence() {
                       </div>
                       <div className="row mb-5">
                         <div className="col-lg-8 m-auto">
-                          <h2 className="b2b-main-heading text-center">Technology Stacks We Use For Developing Mobile Apps</h2>
+                          <h2 className="b2b-main-heading text-center" data-aos="fade-up" data-aos-delay="300">Technology Stacks We Use For Developing Mobile Apps</h2>
                         </div>
                       </div>
                       <div className="row">
                         <div className="col-md-12 col-xl-12 col-xxl-10  m-auto">
-                            <ul className="nav nav-pills mb-3 service_tabs justify-content-center" id="pills-tab" role="tablist">
+                            <ul className="nav nav-pills mb-3 service_tabs justify-content-center" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-delay="300">
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link active btn_service" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">FRONT END</button>
                                 </li>
@@ -168,7 +168,7 @@ export default function BigCommence() {
                                 </li>
                             
                             </ul>
-                            <div className="tab-content" id="pills-tabContent">
+                            <div className="tab-content" id="pills-tabContent" data-aos="fade-up" data-aos-delay="300">
                                     <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                       <div className="container">
                                         <div className="row appIcons row-cols-2 row-cols-lg-5 row-cols-md-3  row-cols-sm-2  row-cols-xs-2 text-white mt-4 justify-content-center align-items-center">

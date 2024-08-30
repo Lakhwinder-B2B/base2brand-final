@@ -55,12 +55,12 @@ default function WebApplication() {
             </div>
           </div> 
         </div>
-        <div className="py-5 b2b-gray-bg" >
+        <div className="py-5 b2b-gray-bg" data-aos="fade-up">
           <div className="b2b-container-lg">
             <div className="row">
               <div className="col-md-8 text-center m-auto" >
-                <h3 className='b2b-partners-heading'>Our Website Development Process</h3> 
-                <p className="text-white b2b-text-sm letterSpacing-1">We follow a streamlined process in our web development service. From initial discovery to deployment and optimization, each step is carefully executed to ensure your website meets your goals, engages your audience effectively, and delivers exceptional results.</p>
+                <h3 className='b2b-partners-heading' data-aos="fade-up" data-aos-delay="300">Our Website Development Process</h3> 
+                <p className="text-white b2b-text-sm letterSpacing-1" data-aos="fade-up" data-aos-delay="300">We follow a streamlined process in our web development service. From initial discovery to deployment and optimization, each step is carefully executed to ensure your website meets your goals, engages your audience effectively, and delivers exceptional results.</p>
               </div>
             </div>
           </div>

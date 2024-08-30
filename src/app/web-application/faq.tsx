@@ -13,11 +13,11 @@ export default function FAQ() {
         <div className="container">
             <div className="row">
               <div className="col-md-12">
-                  <h2 className='text-white b2b-main-heading text-center'>Frequently Asked Questions</h2>
+                  <h2 className='text-white b2b-main-heading text-center' data-aos="fade-up" data-aos-delay="300">Frequently Asked Questions</h2>
               </div>
               <div className="col-xl-8 col-lg-9 col-md-12 m-auto mt-5">
                 <div className="accordion accordion-flush b2b-accordion" id="accordionFlushExample">
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header fs-4">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
                       What is web development?
@@ -27,7 +27,7 @@ export default function FAQ() {
                       <div className="accordion-body"><p>Web development refers to the process of building and maintaining websites. It involves tasks such as web design, content creation, client-side/server-side scripting, and network security configuration.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
                       What services do web development include?
@@ -37,7 +37,7 @@ export default function FAQ() {
                       <div className="accordion-body"> <p>Web development companies typically offer a range of services including website design, front-end and back-end development, e-commerce solutions, content management systems (CMS) development, website maintenance, and website optimization for performance and search engines</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
                       How long does it take to develop a website?
@@ -48,7 +48,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
                       Do I need to have technical knowledge to work with a web development company?
@@ -59,7 +59,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
                       Does your web development company provide ongoing support and maintenance?
@@ -70,7 +70,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
                       Do you guarantee completion of the project on time?
@@ -81,7 +81,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
                       Will the website be optimized for sales?
@@ -92,7 +92,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
                       How can I trust your service?

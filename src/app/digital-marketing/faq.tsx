@@ -13,11 +13,11 @@ export default function FAQ() {
         <div className="container">
             <div className="row">
               <div className="col-md-12">
-                  <h2 className='text-white b2b-main-heading text-center'>Frequently Asked Questions</h2>
+                  <h2 className='text-white b2b-main-heading text-center' data-aos="fade-up" data-aos-delay="300">Frequently Asked Questions</h2>
               </div>
               <div className="col-xl-8 col-lg-9 col-md-12 m-auto mt-5">
                 <div className="accordion accordion-flush b2b-accordion" id="accordionFlushExample">
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header fs-4">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
                       What is Search Engine Optimization (SEO)?
@@ -27,7 +27,7 @@ export default function FAQ() {
                       <div className="accordion-body"><p>SEO improves your website's visibility on search engines like Google, driving organic traffic and enhancing online presence.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
                       How long does it take to see results with SEO?
@@ -37,7 +37,7 @@ export default function FAQ() {
                       <div className="accordion-body"> <p>SEO results vary, but significant improvements often take 3-6 months, with ongoing optimizations for sustained success.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
                       What are Google Ads (PPC) and how do they work?
@@ -48,7 +48,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
                       What is the typical turnaround time for setting up Google Ads campaigns?
@@ -59,7 +59,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
                       What is Social Media Optimization (SMO)?
@@ -70,7 +70,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
                       How does Social Media Optimization benefit my business?
@@ -81,7 +81,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
                       What is Online Reputation Management (ORM)?
@@ -92,7 +92,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
                       What kind of ongoing support do you offer for ORM?
@@ -103,7 +103,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
                       What is YouTube Marketing?
@@ -114,7 +114,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
                       How do you ensure success with YouTube Marketing?

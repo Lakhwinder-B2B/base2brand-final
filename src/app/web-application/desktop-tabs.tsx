@@ -22,11 +22,11 @@ export default function DesktopTabs() {
  
   return (
     <>  
-        <div className="designTabsWrap b2b-gray-bg"> 
+        <div className="designTabsWrap b2b-gray-bg" > 
             <div className="b2b-container-lg"> 
                 <div className="row">
                     <div className="col-lg-12 m-auto">
-                        <ul className="nav nav-pills mb-3 designTabs" id="pills-tab" role="tablist">
+                        <ul className="nav nav-pills mb-3 designTabs" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-delay="300">
                             <li className="nav-item" role="presentation">
                                 <button className=" active btn_design" id="pill1-tab" data-bs-toggle="pill" data-bs-target="#pill1" type="button" role="tab" aria-controls="pill1" aria-selected="true">
                                 Web<br />Strategy
@@ -68,7 +68,7 @@ export default function DesktopTabs() {
                 </div>
             </div>
         </div>
-        <div className="designTabsContentWrap"> 
+        <div className="designTabsContentWrap" data-aos="fade-up" data-aos-delay="300"> 
             <div className="b2b-container-lg"> 
                 <div className="row">
                     <div className="col-lg-12 m-auto">                

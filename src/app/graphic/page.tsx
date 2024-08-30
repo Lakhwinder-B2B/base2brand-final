@@ -67,16 +67,16 @@ const toggleModal = () => {
             </div>
           </div> 
         </div>
-        <div className="py-5">
+        <div className="py-5" data-aos="fade-up">
           <div className="container">
               <div className="row align-items-center"> 
-                  <div className="col-md-5 mb-md-0 mb-4">
+                  <div className="col-md-5 mb-md-0 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <img className="w-100" src={nextGeneration.src} alt="" />
                   </div>
                   <div className="col-md-7 text-white"> 
-                      <h1 className="b2b-main-heading mb-3">How UI/UX Affect Your App<br />or Website&apos;s Performance?</h1>
-                      <p className="b2b-text-sm">Studies show that 86% of visitors leave a website or app within two seconds if it does not have good visuals and graphics. So the performance of your online platform largely depends on how it presents itself to visitors. No matter how skillfully and sincerely your content describes your services or products, if it lacks quality graphics and the product images are pixelated and unenhanced, it is a waste of resources.</p>
-                      <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0 d-none-md" >Request a Quote</button>
+                      <h1 className="b2b-main-heading mb-3" data-aos="fade-up" data-aos-delay="300">How UI/UX Affect Your App<br />or Website&apos;s Performance?</h1>
+                      <p className="b2b-text-sm" data-aos="fade-up" data-aos-delay="300">Studies show that 86% of visitors leave a website or app within two seconds if it does not have good visuals and graphics. So the performance of your online platform largely depends on how it presents itself to visitors. No matter how skillfully and sincerely your content describes your services or products, if it lacks quality graphics and the product images are pixelated and unenhanced, it is a waste of resources.</p>
+                      <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0 d-none-md"  data-aos="fade-up" data-aos-delay="300">Request a Quote</button>
                   </div>
                   
               </div>

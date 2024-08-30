@@ -58,16 +58,16 @@ export default function Ecommerce() {
             </div>
           </div> 
         </div>
-        <div className="py-5">
+        <div className="py-5" data-aos="fade-up">
           <div className="container">
               <div className="row align-items-center"> 
                   <div className="col-md-5 mb-md-0 mb-4">
-                    <img className="w-100" src={nextGeneration.src} alt="" />
+                    <img className="w-100" src={nextGeneration.src} alt=""  data-aos="fade-up" data-aos-delay="300"/>
                   </div>
                   <div className="col-md-7 text-white"> 
-                      <h1 className="b2b-main-heading mb-3">E-Commerce Store That<br />Match Your Needs</h1>
-                      <p className="b2b-text-sm">Base2Brand offers bespoke eCommerce solutions tailored to your specific requirements. From design to development, our team ensures your online store reflects your brand identity while providing a seamless shopping experience for your customers. With our expertise, we'll bring your vision to life and create an eCommerce platform that meets your needs and exceeds your expectations.</p>
-                      <button className="b2b-btn b2b-btn-sm m-0" >Read More</button>
+                      <h1 className="b2b-main-heading mb-3" data-aos="fade-up" data-aos-delay="300">E-Commerce Store That<br />Match Your Needs</h1>
+                      <p className="b2b-text-sm" data-aos="fade-up" data-aos-delay="300">Base2Brand offers bespoke eCommerce solutions tailored to your specific requirements. From design to development, our team ensures your online store reflects your brand identity while providing a seamless shopping experience for your customers. With our expertise, we'll bring your vision to life and create an eCommerce platform that meets your needs and exceeds your expectations.</p>
+                      <button className="b2b-btn b2b-btn-sm m-0"  data-aos="fade-up" data-aos-delay="300">Read More</button>
                   </div>
                   
               </div>

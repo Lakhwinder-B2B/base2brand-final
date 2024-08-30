@@ -104,7 +104,7 @@ export default function Digital() {
         </div>
           <div className="container py-5">
             <div className="row">
-              <div className="col-md-4 mb-md-0 mb-4"> 
+              <div className="col-md-4 mb-md-0 mb-4" data-aos="fade-up"> 
                 <div className="hoverGradient blueGD">
                   <div className="digital_box">
                     <img className="digital_img" src={Digital0.src} alt="" />
@@ -117,7 +117,7 @@ export default function Digital() {
                 </div>
               </div>
 
-              <div className="col-md-4 mb-md-0 mb-4">
+              <div className="col-md-4 mb-md-0 mb-4" data-aos="fade-up">
                 <div className="hoverGradient blueGD">
                   <div className="digital_box">
                     <img className="digital_img" src={Digital2.src} alt="" />
@@ -129,7 +129,7 @@ export default function Digital() {
                 </div>
               </div>
 
-              <div className="col-md-4 mb-md-0 mb-4">
+              <div className="col-md-4 mb-md-0 mb-4" data-aos="fade-up">
                 <div className="hoverGradient blueGD">
                   <div className="digital_box">
                     <img className="digital_img" src={Digital1.src} alt="" />
@@ -142,7 +142,7 @@ export default function Digital() {
               </div>
             </div>
           </div>
-          <div className="main_gallery">
+          <div className="main_gallery" data-aos="fade-up">
               <div className="b2b-container-lg">
                 <div className="gallery_slider">
                   <div className="left_thumnails">
@@ -287,32 +287,32 @@ export default function Digital() {
                 </div>
               </div>
           </div>
-          <div className="py-5" >
+          <div className="py-5"data-aos="fade-up" >
             <div className="container-fluid">
               <div className="row">
-                <div className="col-md-6 mb-md-0 mb-4" >
+                <div className="col-md-6 mb-md-0 mb-4" data-aos="fade-up" data-aos-delay="300">
                   <img className='w-100' src={growBusiness.src} alt="" />
                 </div>
                 <div className="col-md-5" >
-                  <h3 className='b2b-heading mb-4'>Are you Ready to Grow <br />your Businesses</h3> 
-                  <p className="b2b-text mb-4">Over a decade of digital marketing experience fuels our strategies, ensuring maximum impact for your brand. Trust our expertise to navigate the complexities of the online landscape and drive tangible results for your business.</p>
+                  <h3 className='b2b-heading mb-4' data-aos="fade-up" data-aos-delay="300">Are you Ready to Grow <br />your Businesses</h3> 
+                  <p className="b2b-text mb-4" data-aos="fade-up" data-aos-delay="300">Over a decade of digital marketing experience fuels our strategies, ensuring maximum impact for your brand. Trust our expertise to navigate the complexities of the online landscape and drive tangible results for your business.</p>
                   <div className="row growBusinessType">
-                    <div className="col-lg-6 col-md-6 col-6 d-flex align-items-center">
+                    <div className="col-lg-6 col-md-6 col-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
                       <img src={I1.src} alt="" />
                       <p className="mb-0">Businesses Growth</p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-6 d-flex align-items-center">
+                    <div className="col-lg-6 col-md-6 col-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
                       <img src={I2.src} alt="" />
                       <p className="mb-0">Marketing Solution</p>
                     </div>
                   </div>
                   <ul className="checkListing">
-                      <li>Collaborated with businesses from various sectors</li>
-                      <li>Small and new businesses are well-served</li>
-                      <li>Define valuable content and marketing channels</li>
-                      <li>Convert the funds you have invested into a priceless asset.</li>
+                      <li data-aos="fade-up" data-aos-delay="300">Collaborated with businesses from various sectors</li>
+                      <li data-aos="fade-up" data-aos-delay="300">Small and new businesses are well-served</li>
+                      <li data-aos="fade-up" data-aos-delay="300">Define valuable content and marketing channels</li>
+                      <li data-aos="fade-up" data-aos-delay="300">Convert the funds you have invested into a priceless asset.</li>
                   </ul>
-                  <div className='mt-5'>
+                  <div className='mt-5' data-aos="fade-up" data-aos-delay="300">
                     <a className='b2b-btn b2b-btn-sm'>Read More</a>
                   </div>
                 </div>
@@ -320,15 +320,15 @@ export default function Digital() {
             </div>
           </div> 
 
-          <div className="py-5 b2b-gray-bg" >
+          <div className="py-5 b2b-gray-bg" data-aos="fade-up" >
             <div className="b2b-container-lg">
               <div className="row">
                 <div className="col-md-12" >
-                  <h3 className='b2b-heading mb-4 text-center'>What a Digital Marketing Services Company Can <br />Do for Your Business</h3> 
+                  <h3 className='b2b-heading mb-4 text-center' data-aos="fade-up" data-aos-delay="300">What a Digital Marketing Services Company Can <br />Do for Your Business</h3> 
                 </div>
               </div>
               <div className="row counterWrap mt-5">
-                <div className="col-md-6 mb-5 counterInnerWrap" >
+                <div className="col-md-6 mb-5 counterInnerWrap" data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD">
                     <div className=" w-100 h-100 border-bottom" >
                   
@@ -341,7 +341,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-5 counterInnerWrap" >
+                <div className="col-md-6 mb-5 counterInnerWrap" data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD">
                     <div className=" w-100 h-100 border-bottom" >
                  
@@ -354,7 +354,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-5 counterInnerWrap" >
+                <div className="col-md-6 mb-5 counterInnerWrap" data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD">
                     <div className=" w-100 h-100 border-bottom" >
                  
@@ -367,7 +367,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-5 counterInnerWrap" >
+                <div className="col-md-6 mb-5 counterInnerWrap" data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD">
                     <div className=" w-100 h-100 border-bottom" >
                  
@@ -380,7 +380,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-5 counterInnerWrap" >
+                <div className="col-md-6 mb-5 counterInnerWrap" data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD">
                     <div className=" w-100 h-100 border-bottom" >
                  
@@ -393,7 +393,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 mb-5 counterInnerWrap" >
+                <div className="col-md-6 mb-5 counterInnerWrap" data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD">
                     <div className=" w-100 h-100 border-bottom" >
                  
@@ -410,29 +410,29 @@ export default function Digital() {
             </div>
           </div> 
 
-          <div className="py-5 whyChoosewrap">
+          <div className="py-5 whyChoosewrap" data-aos="fade-up">
             <div className="b2b-container-lg">
               <div className="row gap-5">
                 <div className="col-lg-6 col-md-7 order-md-1 order-2" >
-                  <div className="hoverGradient blueGD mb-4 w-100">
+                  <div className="hoverGradient blueGD mb-4 w-100" data-aos="fade-up" data-aos-delay="300">
                     <div className='b2b-gray-bg p-3 w-100'>
                       <h4>Customized Solutions</h4>
                       <p className='b2b-text'>We understand that every business is unique, so we craft personalized strategies that align with your goals and objectives, delivering tailored solutions for maximum impact.</p>
                     </div>
                   </div>
-                  <div className="hoverGradient blueGD mb-4 w-100">
+                  <div className="hoverGradient blueGD mb-4 w-100" data-aos="fade-up" data-aos-delay="300">
                     <div className='b2b-gray-bg p-3 w-100'>
                       <h4>Transparency</h4>
                       <p className='b2b-text'>We believe in open communication and transparency throughout our partnership, providing regular updates, performance reports, and insights to keep you informed every step of the way.</p>
                     </div>
                   </div>
-                  <div className="hoverGradient blueGD mb-4 w-100">
+                  <div className="hoverGradient blueGD mb-4 w-100" data-aos="fade-up" data-aos-delay="300">
                     <div className='b2b-gray-bg p-3 w-100'>
                       <h4>Proven Results</h4>
                       <p className='b2b-text'>With a track record of success and satisfied clients, we deliver tangible results that drive business growth, whether it's increased website traffic, higher conversion rates, or improved brand visibility.</p>
                     </div>
                   </div>
-                  <div className="hoverGradient blueGD mb-4 w-100">
+                  <div className="hoverGradient blueGD mb-4 w-100" data-aos="fade-up" data-aos-delay="300">
                     <div className='b2b-gray-bg p-3 w-100'>
                       <h4>Innovative Approach</h4>
                       <p className='b2b-text'>We stay ahead of the curve with cutting-edge tools, techniques, and trends in digital marketing, ensuring our strategies are always fresh, relevant, and effective in today's ever-evolving landscape.</p>
@@ -440,20 +440,20 @@ export default function Digital() {
                   </div>
                 </div>
                 <div className="col-lg-5 col-md-5 order-md-2 order-1 mb-md-0 mb-5" >
-                  <h3 className='b2b-heading mb-4'>Why Choose Us for <br />Marketing Your Business or <br />Services?</h3> 
-                  <p className="b2b-text mb-4">Our team comprises seasoned professionals with years of experience in digital marketing.</p>
-                  <img className="mt-4" src={whyChoose.src} alt="" />
+                  <h3 className='b2b-heading mb-4' data-aos="fade-up" data-aos-delay="300">Why Choose Us for <br />Marketing Your Business or <br />Services?</h3> 
+                  <p className="b2b-text mb-4" data-aos="fade-up" data-aos-delay="300">Our team comprises seasoned professionals with years of experience in digital marketing.</p>
+                  <img className="mt-4" src={whyChoose.src} alt="" data-aos="fade-up" data-aos-delay="300"/>
                   
                 </div>
               </div>
               <div className='row mt-5'>
                 <div className="col-lg-9 m-auto">
-                  <h2 className="b2b-heading text-center mb-3">How to Choose a Full-Service Digital Marketing <br />Agency For your Project</h2>
+                  <h2 className="b2b-heading text-center mb-3" data-aos="fade-up" data-aos-delay="300">How to Choose a Full-Service Digital Marketing <br />Agency For your Project</h2>
 
                 </div>
               </div>
               <div className="row row-cols-md-6 row-cols-3 gap-3 mt-md-5 mt-3 whyChoosewrap-row">
-                <div className='col mb-4'>
+                <div className='col mb-4' data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD withGray">
                     <div className='dmWrap'>
                       <img className="icon" src={dm1.src} alt="" />
@@ -462,7 +462,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className='col mb-4'>
+                <div className='col mb-4' data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD withGray">
                     <div className='dmWrap'>
                       <img className="icon" src={dm2.src} alt="" />
@@ -471,7 +471,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className='col mb-4'>
+                <div className='col mb-4' data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD withGray">
                     <div className='dmWrap'>
                       <img className="icon" src={dm3.src} alt="" />
@@ -480,7 +480,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className='col mb-4'>
+                <div className='col mb-4' data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD withGray">
                     <div className='dmWrap'>
                       <img className="icon" src={dm4.src} alt="" />
@@ -489,7 +489,7 @@ export default function Digital() {
                     </div>
                   </div>
                 </div>
-                <div className='col mb-4'>
+                <div className='col mb-4' data-aos="fade-up" data-aos-delay="300">
                   <div className="hoverGradient blueGD withGray">
                     <div className='dmWrap'>
                       <img className="icon" src={dm5.src} alt="" />
@@ -501,16 +501,16 @@ export default function Digital() {
               </div>
               </div>
             </div>
-            <div className="py-5 b2b-gray-bg businessNeed" >
+            <div className="py-5 b2b-gray-bg businessNeed" data-aos="fade-up">
             <div className="b2b-container-lg">
               <div className="row">
                 <div className="col-md-12" >
-                  <h3 className='b2b-heading mb-4 text-center'>Why Does Your Business Need <br />Digital Marketing Service?</h3> 
+                  <h3 className='b2b-heading mb-4 text-center' data-aos="fade-up" data-aos-delay="300">Why Does Your Business Need <br />Digital Marketing Service?</h3> 
                 </div>
               
                 <div className='col-lg-9 m-auto'>
                   <div className="row counterWrap mt-5">
-                    <div className="col-md-6 mb-4 counterInnerWrap" >
+                    <div className="col-md-6 mb-4 counterInnerWrap"  data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD">
                         <div className=" w-100 h-100 " >
                           <ul className='counter-checklist'>
@@ -522,7 +522,7 @@ export default function Digital() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 mb-4 counterInnerWrap" >
+                    <div className="col-md-6 mb-4 counterInnerWrap"  data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD">
                         <div className=" w-100 h-100 " >
                           <ul className='counter-checklist'>
@@ -534,7 +534,7 @@ export default function Digital() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 mb-4 counterInnerWrap" >
+                    <div className="col-md-6 mb-4 counterInnerWrap"  data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD">
                         <div className=" w-100 h-100 " >
                           <ul className='counter-checklist'>
@@ -546,7 +546,7 @@ export default function Digital() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 mb-4 counterInnerWrap" >
+                    <div className="col-md-6 mb-4 counterInnerWrap"  data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD">
                         <div className=" w-100 h-100 " >
                           <ul className='counter-checklist'>
@@ -558,7 +558,7 @@ export default function Digital() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 mb-4 counterInnerWrap" >
+                    <div className="col-md-6 mb-4 counterInnerWrap"  data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD">
                         <div className=" w-100 h-100 " >
                           <ul className='counter-checklist'>
@@ -570,7 +570,7 @@ export default function Digital() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6 mb-4 counterInnerWrap" >
+                    <div className="col-md-6 mb-4 counterInnerWrap"  data-aos="fade-up" data-aos-delay="300">
                       <div className="hoverGradient blueGD">
                         <div className=" w-100 h-100 " >
                           <ul className='counter-checklist'>
@@ -582,7 +582,7 @@ export default function Digital() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-12 mt-3 text-center">
+                    <div className="col-lg-12 mt-3 text-center" data-aos="fade-up" data-aos-delay="300">
                       <button onClick={toggleModal} className='b2b-btn b2b-btn-sm'>Get In Touch</button>
                     </div>
                   </div>

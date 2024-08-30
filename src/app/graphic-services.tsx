@@ -28,16 +28,16 @@ export default function Graphicservices() {
 
   return (
     <>  
-    <div className="w-100 b2b-gray-bg py-md-5 py-4 deliverableSteps"> 
+    <div className="w-100 b2b-gray-bg py-md-5 py-4 deliverableSteps" data-aos="fade-up"> 
        <div className="b2b-container-lg">
         <div className="row">
             <div className="col-lg-12">
-                <h3 className="b2b-sub-heading">what we create</h3>
-                <h2 className="b2b-heading">Deliverables</h2>
+                <h3 className="b2b-sub-heading" data-aos="fade-up" data-aos-delay="300">what we create</h3>
+                <h2 className="b2b-heading" data-aos="fade-up" data-aos-delay="300">Deliverables</h2>
             </div>
         </div>
         <div className="row mt-5">
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -52,7 +52,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -67,7 +67,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -82,7 +82,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -97,7 +97,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -112,7 +112,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -127,7 +127,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">
@@ -142,7 +142,7 @@ export default function Graphicservices() {
                     </div>
                 </div>
             </div>
-            <div className="col-xl-6 col-lg-6 mb-4">
+            <div className="col-xl-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="deliverable-step-outer">
                     <div className="deliverable-step">
                         <div className="deliverable-icon">

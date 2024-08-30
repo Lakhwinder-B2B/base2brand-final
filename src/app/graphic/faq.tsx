@@ -13,11 +13,11 @@ export default function FAQ() {
         <div className="container">
             <div className="row">
               <div className="col-md-12">
-                  <h2 className='text-white b2b-main-heading text-center'>Frequently Asked Questions</h2>
+                  <h2 className='text-white b2b-main-heading text-center' data-aos="fade-up" data-aos-delay="300">Frequently Asked Questions</h2>
               </div>
               <div className="col-xl-8 col-lg-9 col-md-12 m-auto mt-5">
                 <div className="accordion accordion-flush b2b-accordion" id="accordionFlushExample">
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header fs-4">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
                       What is the difference between UI and UX design?
@@ -27,7 +27,7 @@ export default function FAQ() {
                       <div className="accordion-body"><p>UI (User Interface) design focuses on the visual elements of an interface, while UX (User Experience) design is about the overall feel and functionality, emphasizing user satisfaction and usability.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
                       Why is UI/UX design important for my business?
@@ -37,7 +37,7 @@ export default function FAQ() {
                       <div className="accordion-body"> <p>Effective UI/UX design can enhance user satisfaction, increase customer loyalty, boost conversion rates, and ultimately drive business growth by providing seamless and engaging digital experiences.</p></div>
                     </div>
                   </div>
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
                       What tools do you use for UI/UX design?
@@ -48,7 +48,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
                       What is the typical process for UI/UX design projects?
@@ -59,7 +59,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
                       How do you ensure consistency across different devices and platforms?
@@ -70,7 +70,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
                       Can you work with our existing brand guidelines?
@@ -81,7 +81,7 @@ export default function FAQ() {
                     </div>
                     </div>
                   </div> 
-                  <div className="accordion-item"  >
+                  <div className="accordion-item"  data-aos="fade-up" data-aos-delay="300">
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
                       How do you handle feedback and revisions during the design process?

@@ -75,8 +75,8 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                     <div className="col-md-7">
                         
                         <div className="formHeading">
-                            <h1>Let&apos;s Reach <br />Out To Us</h1>
-                            <div className="call-us mobileShow">
+                            <h1 data-aos="fade-up" data-aos-delay="300">Let&apos;s Reach <br />Out To Us</h1>
+                            <div className="call-us mobileShow" data-aos="fade-up" data-aos-delay="300">
                             <ul>
                                 
                                 <li className="phone-link"><span>IND: </span><a href="tel:+918360116967">+918360116967</a><a href="mailto:hello@base2brand.com" className="mailID">hello@base2brand.com</a></li>
@@ -85,9 +85,9 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 
                             </ul>
                         </div>
-                            <p>Fill Out the Form</p>
+                            <p data-aos="fade-up" data-aos-delay="300">Fill Out the Form</p>
                         </div>
-                        <form className="py-5" onSubmit={handleSubmit}>
+                        <form className="py-5" onSubmit={handleSubmit} data-aos="fade-up" data-aos-delay="300">
                             <div className="firstForm" onClick={handleClick}>
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Hi ! am</label>
@@ -171,8 +171,8 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                         </form>
                         
                     </div>
-                    <div className="col-md-5 call-us-wrap">
-                        <div className="contact-img">
+                    <div className="col-md-5 call-us-wrap" >
+                        <div className="contact-img" data-aos="fade-up" data-aos-delay="300">
                             {/* <img src={contactImg.src} alt="" /> */}
                             <DotLottieReact
                                 src='/json/banner/Contact us.json'
@@ -183,10 +183,10 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                         </div>
                         <div className="call-us mobileHide">
                             <ul>
-                                <li className="mail"><a href="mailto:hello@base2brand.com">hello@base2brand.com</a></li>
-                                <li className="phone-link Ind"><span>IND: </span><a href="tel:+918360116967">+918360116967</a></li>
-                                <li className="phone-link"><span>CANADA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
-                                <li className="phone-link"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
+                                <li className="mail" data-aos="fade-up" data-aos-delay="300"><a href="mailto:hello@base2brand.com">hello@base2brand.com</a></li>
+                                <li className="phone-link Ind" data-aos="fade-up" data-aos-delay="300"><span>IND: </span><a href="tel:+918360116967">+918360116967</a></li>
+                                <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>CANADA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
+                                <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
                             </ul>
                         </div>
                     </div>
@@ -194,10 +194,10 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                 
               </div>
             </div>
-            <div className="b2b-gray-bg my-lg-5 my-3 w-100 py-5">
+            <div className="b2b-gray-bg my-lg-5 my-3 w-100 py-5" data-aos="fade-up" data-aos-delay="300">
                 <div className="b2b-container-lg">
                     <div className="row addressRow ">
-                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5">
+                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -231,7 +231,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                         </div> */}
-                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5">
+                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -248,7 +248,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5">
+                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">

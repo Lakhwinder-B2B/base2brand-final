@@ -5,39 +5,19 @@ import Why from "../../public/img/why-choose.svg"
 import  link  from '../../public/img/link1.svg';
 import Slider from "react-slick";
 // import { debounce } from 'lodash';
-
+import FooterMap from '../app/footer-map'
 
 export default function HorizontalScroll() {
-  const settings = {
-    dots: true,
-    arrows : false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    swipeToSlide:true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      }
-    ]
-  };
+ 
  
   return (
   
     <div className='slider_vertical'>
-      <Slider {...settings}>
-      <section className='slide_data text-center text-white slide_height'>
+     
+      <section className='stickySection slideswrap slide_data text-center text-white slide_height'>
         <h1>What sets <br /> us apart  </h1> 
         </section>
-      <section className='slide_data1 pt-5'>
+      <section className='stickySection slideswrap slide_data1 pt-5'>
         <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
@@ -79,7 +59,7 @@ export default function HorizontalScroll() {
         </div>
         </div>
       </section>
-      <section className='slide_data2 py-5 py-sm-3'>
+      <section className='stickySection slideswrap slide_data2 py-5 py-sm-3'>
         <div className='b2b-container'>
           <div className="row align-items-center">
             <div className="col-md-6">
@@ -111,7 +91,7 @@ export default function HorizontalScroll() {
           </div>
         </div>
       </section>
-      <section className='slide_data3'>
+      <section className='stickySection slideswrap slide_data3'>
         <div className="row align-items-center">
         <div className="col-md-6 mx-auto text-center">
           <p>Do You Have a Project to Start?</p>
@@ -123,7 +103,9 @@ export default function HorizontalScroll() {
         </div>
         </div>
         </section> 
-        </Slider>
+        <section className='stickySection'>
+          <FooterMap />
+        </section>
     </div>
   );
 };

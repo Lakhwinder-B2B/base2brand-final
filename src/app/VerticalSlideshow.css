@@ -157,3 +157,15 @@ img.link_icon {
     margin-top: 1rem;
   }
 }
+
+.slider_vertical {
+  position: relative;
+}
+.slideswrap{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.stickySection{
+  position: sticky;
+  top: 94px;
+}

@@ -382,7 +382,7 @@ a.b2b-btn{
 .b2b-partners-heading{
   font-weight: 500;
   font-size: 30px;
-  line-height: 59px;
+  line-height: 45px;
   color: #ffffff;
 }
 .logo-slider{
@@ -465,6 +465,9 @@ a.b2b-btn{
 }
 .b2b-primary-text{
   color: #396BDB;
+}
+footer.footer {
+  background-color: #111616;
 }
 .hoverGradient{
   position: relative;
@@ -831,8 +834,8 @@ span.addressDot {
 }
 .address1 {
   position: absolute;
-  top: 18%;
-  left: 112px;
+  top: 23%;
+  left: 116px;
 }
 .address2 {
   position: absolute;
@@ -841,7 +844,7 @@ span.addressDot {
 }
 .address3 {
   position: absolute;
-  top: 54%;
+  top: 52%;
   left: 66%;
 }
 .tooltipText{
@@ -1117,7 +1120,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   margin-bottom: -7px;
 }
 .mapWrapper-lg{
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 .mapWrapper-lg .tooltipText{
   font-size:10px;
@@ -1130,6 +1133,10 @@ body .request-form.fade.transformAnim .modal-dialog {
   line-height: normal;
   margin-bottom: 2px;
   text-transform: uppercase;
+}
+.mapWrapper-lg span.addressDot {
+  width: 14px;
+  height: 14px;
 }
 @media only screen and (max-width: 767px){
   .logo_brand img {
@@ -1482,6 +1489,10 @@ body .request-form.fade.transformAnim .modal-dialog {
   .bannerSection .Typewriter span {
     font-size: 40px;
   }
+  .address1 {
+    top: 23%;
+    left: 18%;
+  }
 }
 @media screen and (max-width: 1366px){
   .b2b-heading {
@@ -1818,7 +1829,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     justify-content: center !important;
   }
   
-  .slider_vertical{
+  body .slider_vertical .slideswrap{
     display: none !important;
   }
   .service_tabs li {
@@ -2550,6 +2561,10 @@ ul.nav.nav-pills.mb-3 {
   span.addressDot {
     width: 14px;
     height: 14px;
+  }
+  .mapWrapper-lg span.addressDot {
+    width: 10px;
+    height: 10px;
   }
   .b2b-text {
     font-size: 12px;

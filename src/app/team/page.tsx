@@ -433,7 +433,7 @@ export default function Team() {
                       </div>
                     </a> 
                   </div>
-                  <div className="col-xl-4 col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="400">
+                  <div className="col-xl-4 col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                     <a className="menuLink" href="/career">
                       <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Career</h3>

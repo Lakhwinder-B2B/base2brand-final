@@ -32,11 +32,11 @@ export default function MobileTabs() {
 
   return (
     <>  
-        <div className="designTabsWrap b2b-gray-bg"> 
+        <div className="designTabsWrap b2b-gray-bg" > 
             <div className="b2b-container-lg"> 
                 <div className="row">
                     <div className="col-lg-12 m-auto">
-                        <div className="mb-3 designTabs">
+                        <div className="mb-3 designTabs" data-aos="fade-up" data-aos-delay="300">
                         <Slider
                         asNavFor={nav1}
                         ref={(slider2) => setNav2(slider2)}
@@ -84,7 +84,7 @@ export default function MobileTabs() {
                 </div>
             </div>
         </div>
-        <div className="designTabsContentWrap"> 
+        <div className="designTabsContentWrap" data-aos="fade-up" data-aos-delay="300"> 
             <div className="b2b-container-lg"> 
                 <div className="row">
                     <div className="col-lg-12 m-auto">                

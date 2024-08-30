@@ -49,8 +49,8 @@ export default function FooterMap() {
     };
   return (
     <>  
-        <div className="footer-map" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
-            <div className="container pt-md-5 pt-3 pb-5">  
+        <div className="footer-map b2b-black-bg " style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+            <div className="container pt-md-5 pt-3 pb-5 b2b-overflow-hidden">  
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 col-sm-12 header-columns p-5 m-auto'>
                         <h2 className='text-center b2b-main-heading text-uppercase' data-aos="fade-up">Get in touch</h2>

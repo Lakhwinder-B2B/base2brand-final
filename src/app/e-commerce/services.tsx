@@ -17,16 +17,16 @@ export default function services() {
 
   return (
     <>  
-    <div className="p-md-5 p-0 b2b-gray-bg w-100"> 
+    <div className="p-md-5 p-0 b2b-gray-bg w-100" data-aos="fade-up"> 
           <div className="container"> 
             <div className="row p-2">
               <div className="col-md-9 col-12 mx-auto text-center">
-                <h2 className='text-white b2b-main-heading text-center'>eCommerce Design &amp; Development<br />Service Process</h2>
-                <p className='b2b-text'>Our eCommerce development service follows a strategic process to ensure your online store meets your specific requirements and exceeds your expectations.</p>
+                <h2 className='text-white b2b-main-heading text-center' data-aos="fade-up" data-aos-delay="300">eCommerce Design &amp; Development<br />Service Process</h2>
+                <p className='b2b-text' data-aos="fade-up" data-aos-delay="300">Our eCommerce development service follows a strategic process to ensure your online store meets your specific requirements and exceeds your expectations.</p>
               </div>
               <div className="col-lg-12 m-auto mt-5">
                 <div className='row row-cols-lg-3 row-cols-md-2 row-cols-1 ecommerceserviceWrap'>
-                  <div className="col mb-4">
+                  <div className="col mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                         <div><img src={s1.src} className="imgIcon" alt="" />
@@ -36,7 +36,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col mb-4">
+                  <div className="col mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                         <div><img src={s2.src} className="imgIcon" alt="" />
@@ -46,7 +46,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col mb-4">
+                  <div className="col mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                       <div><img src={s3.src} className="imgIcon" alt="" />
@@ -56,7 +56,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col mb-4">
+                  <div className="col mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                       <div><img src={s4.src} className="imgIcon" alt="" />
@@ -66,7 +66,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col mb-4">
+                  <div className="col mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                       <div><img src={s5.src} className="imgIcon" alt="" />
@@ -76,7 +76,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col mb-4">
+                  <div className="col mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div className="hoverGradient blueGD">
                       <div className="cell-wrap ">
                           <div> <img src={s6.src} className="imgIcon" alt="" />
@@ -92,20 +92,20 @@ export default function services() {
             </div> 
           </div>
         </div> 
-        <div className="py-5">
+        <div className="py-5" data-aos="fade-up">
           <div className="container">
               <div className="row align-items-center "> 
                   <div className="col-md-6 mb-4 order-md-1 order-2">
-                    <img src={nextGeneration.src} alt="" />
+                    <img src={nextGeneration.src} alt=""  data-aos="fade-up" data-aos-delay="300"/>
                   </div>
                   <div className="col-md-6 text-white mb-4 order-md-2 order-1"> 
-                      <h1 className="b2b-main-heading mb-3">Why Choose Us for <br />Designing and Developing <br />a Store?</h1>
-                      <p className="b2b-text-sm pr-5 pr-sm-0">With our experienced team, customizable solutions, rigorous quality assurance, and ongoing support, there are multiple reasons to choose us for your eCommerce development needs.</p>
+                      <h1 className="b2b-main-heading mb-3" data-aos="fade-up" data-aos-delay="300">Why Choose Us for <br />Designing and Developing <br />a Store?</h1>
+                      <p className="b2b-text-sm pr-5 pr-sm-0" data-aos="fade-up" data-aos-delay="300">With our experienced team, customizable solutions, rigorous quality assurance, and ongoing support, there are multiple reasons to choose us for your eCommerce development needs.</p>
            
                   </div>
                 </div>
                 <div className="row choose-us-wrap"> 
-                  <div className="col-md-6 text-white mb-5"> 
+                  <div className="col-md-6 text-white mb-5" data-aos="fade-up" data-aos-delay="300"> 
                    <div className="hoverGradient blueGD me-3">
                       <div className='chosseInnerWrap'>
                         <h1 className="b2b-sub-heading mb-3">Experience &amp; Expertise</h1>
@@ -113,7 +113,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 text-white mb-5"> 
+                  <div className="col-md-6 text-white mb-5" data-aos="fade-up" data-aos-delay="300"> 
                    <div className="hoverGradient blueGD me-3">
                       <div className='chosseInnerWrap'>
                         <h1 className="b2b-sub-heading mb-3">Customization</h1>
@@ -121,7 +121,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 text-white mb-5">
+                  <div className="col-md-6 text-white mb-5" data-aos="fade-up" data-aos-delay="300">
                      <div className="hoverGradient blueGD me-3"> 
                       <div className='chosseInnerWrap'>
                         <h1 className="b2b-sub-heading mb-3">Quality Assurance</h1>
@@ -129,7 +129,7 @@ export default function services() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 text-white mb-5"> 
+                  <div className="col-md-6 text-white mb-5" data-aos="fade-up" data-aos-delay="300"> 
                    <div className="hoverGradient blueGD me-3">
                       <div className='chosseInnerWrap'>
                         <h1 className="b2b-sub-heading mb-3">Support and Collaboration</h1>
