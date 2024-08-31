@@ -206,12 +206,12 @@ export default function AboutUs() {
           <div className="container ">
             <div className="row">
               <div className="col-lg-10 col-md-12 mx-auto text-center text-white"> 
-          <h2 className='b2b-heading mb-xl-5 mb-lg-3 mb-2' data-aos="fade-up">About Us</h2>
-          <p className='b2b-text-sm' data-aos="fade-up" data-aos-delay="300">Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
-        <p className='b2b-text-sm' data-aos="fade-up" data-aos-delay="400">Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
-        <div className="mt-xl-5 mt-lg-3 mt-2 text-center" data-aos="fade-up" data-aos-delay="500">
-                <button className="b2b-btn b2b-btn-sm">Read More</button>
-                </div>
+                <h2 className='b2b-heading mb-xl-5 mb-lg-3 mb-2' data-aos="fade-up">About Us</h2>
+                <p className='b2b-text-sm' data-aos="fade-up" data-aos-delay="300">Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.</p>
+                <p className='b2b-text-sm' data-aos="fade-up" data-aos-delay="400">Here at Base2Brand, we specialize in providing results-oriented online marketing solutions for small, medium and large businesses across the globe. We help businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with expected growth in the competitive market.</p>
+                {/* <div className="mt-xl-5 mt-lg-3 mt-2 text-center" data-aos="fade-up" data-aos-delay="500">
+                  <button className="b2b-btn b2b-btn-sm">Read More</button>
+                </div> */}
         </div>
         </div>
         </div>
@@ -308,10 +308,10 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
-            <div className="tabs_section pb-5 b2b-black-bg">
+            <div className="tabs_section pb-5 b2b-black-bg" data-aos="fade-up" data-aos-delay="300" >
               <div className='container d-flex align-items-start'>
                 
-                  <div className='col-lg-3 col-md-3 tabsLink'>
+                  <div className='col-lg-3 col-md-3 tabsLink' >
                       <a id="mission_btn" className="tabBtn b2b-main-heading text-uppercase" href="#mission_tab" >
                         Mission
                       </a>

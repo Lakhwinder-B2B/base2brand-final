@@ -52,7 +52,7 @@ export default function Creative() {
 
   return (
     <>  
-    <div className="p-5 process_steps" data-aos="fade-up" > 
+    <div className="p-md-5 p-3 process_steps" data-aos="fade-up" > 
           <div className="b2b-container-lg"> 
             <div className="row text-white justify-content-center">
               <div className="col-md-12 mx-auto text-center">
@@ -60,7 +60,7 @@ export default function Creative() {
                 <h3 className="b2b-heading mt-5" data-aos="fade-up" data-aos-delay="300">Our <span className='b2b-primary-text'>process</span></h3>
               </div>
             </div>
-
+            <span className='mobileSectionNav'><span className='dotNavrap'><span className='dotNav'></span></span></span>
             <div className="row gap-4 justify-content-center align-items-center  process_row odd-row first-row ">
                 <div className='col-md-5'>
                     <div className='textWrap'>

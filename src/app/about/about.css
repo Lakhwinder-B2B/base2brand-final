@@ -3,11 +3,11 @@
 }
 .tabInnerWrap {
     opacity: 0;
-    transition:   2s;
+    /* transition:   2s; */
 }
 .tabInnerWrap.b2b_vissible{
     opacity: 1;
-    transition:   2s;
+    /* transition:   2s; */
 
 }
 .bg_about{

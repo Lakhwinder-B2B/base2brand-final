@@ -32,7 +32,7 @@ const useMediaQuery = (width) => {
 const DesignTabs = () => {
    const isBreakpoint = useMediaQuery(991)
    return (
-    <div>
+    <div className='b2b-overflow-hidden'>
         { isBreakpoint ? (
             <div>
                <div className="b2b-gray-bg w-100 py-5"> 

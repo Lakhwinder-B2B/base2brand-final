@@ -62,32 +62,32 @@ export default function Team() {
                   <div className='col-md-3 col-6 mb-5' data-aos="zoom-in-up" data-aos-delay="100">
                     <img src={Img1.src} alt='' />
                     <div className='team-details'>
-                      <h3 className='mb-0'>UI/UX designer</h3>
-                      <p>Experience: 2 years</p>
+                      <h3 className='mb-0'>QA</h3>
+                      <p>Experience: Fresher (6 months)</p>
                     </div>
                   </div>
                   <div className='col-md-3 col-6 mb-5' data-aos="zoom-in-up" data-aos-delay="200">
                     <img src={Img2.src} alt='' />
                     <div className='team-details'>
-                      <h3 className='mb-0'>front-end developer</h3>
-                      <p>Experience: 2 years</p>
+                      <h3 className='mb-0'>Digital Marketing</h3>
+                      <p>Experience: 6 months - 1 year</p>
                     </div>
                   </div>
                   <div className='col-md-3 col-6 mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={Img3.src} alt='' />
                     <div className='team-details'>
-                      <h3 className='mb-0'>Node.JS Developer</h3>
-                      <p>Experience: 2 years</p>
+                      <h3 className='mb-0'>Content Writer</h3>
+                      <p>Experience: 6 months - 1 year</p>
                     </div>
                   </div>
                   <div className='col-md-3 col-6 mb-5' data-aos="zoom-in-up" data-aos-delay="400">
                     <img src={Img4.src} alt='' />
                     <div className='team-details'>
-                      <h3 className='mb-0'>Wordpress Developer</h3>
-                      <p>Experience: 2 years</p>
+                      <h3 className='mb-0'>Graphic Designer</h3>
+                      <p>Experience: 6 months - 1 year</p>
                     </div>
                   </div>
-                  <div className='col-md-3 col-6 mb-5' data-aos="zoom-in-up" data-aos-delay="500">
+                  {/* <div className='col-md-3 col-6 mb-5' data-aos="zoom-in-up" data-aos-delay="500">
                     <img src={Img5.src} alt='' />
                     <div className='team-details'>
                       <h3 className='mb-0'>Content writer</h3>
@@ -156,7 +156,7 @@ export default function Team() {
                       <h3 className='mb-0'>Flutter</h3>
                       <p>Experience: 2 years</p>
                     </div>
-                  </div>
+                  </div> */}
                   
                   
                   

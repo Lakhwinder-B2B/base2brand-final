@@ -700,7 +700,7 @@ img.social_icons {
 }
 .footer-form .form-btn {
   background: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
-  border-radius: 5px;
+  border-radius: 41px;
   text-align: center;
   color: #FFFFFF;
   font-size: 14px;
@@ -709,6 +709,7 @@ img.social_icons {
   padding: 15px 35px;
   position: relative;
   overflow: hidden;
+  border: 0;
 }
 .footer-form .form-btn::after {
   position: absolute;
@@ -831,6 +832,9 @@ span.addressDot {
 
 .mapWrapper{
   position: relative;
+}
+.mapWrapper img {
+  filter: brightness(2);
 }
 .address1 {
   position: absolute;

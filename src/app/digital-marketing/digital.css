@@ -232,6 +232,7 @@ img.digital_icon {
     height: 50px !important;
     object-fit: contain !important;
     z-index: 2;
+    cursor: pointer;
 }
 .right_slider {
     width: calc(100% - 200px);

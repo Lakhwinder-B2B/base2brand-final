@@ -237,7 +237,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                     <div className="formRow pb-2">
                                         <label className="form-label">Country</label>
                                         <select required className="form-control removeBorder" id="" name="service" > 
-                                            <option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="AmericanSamoa">AmericanSamoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina"></option><option value="Armenia"></option>
+                                        <option value="India">India</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="AmericanSamoa">AmericanSamoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina"></option><option value="Armenia"></option>
                                         </select>
                                     </div>
                                     <div className="formRow pb-2">

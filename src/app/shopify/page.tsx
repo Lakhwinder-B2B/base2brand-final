@@ -19,7 +19,7 @@ export default function services() {
         <div className="service-banner shopify-banner" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
           <div className="container-fluid mx-auto">
             <div className="row d-flex flex-wrap align-items-center justify-content-center m-auto"> 
-              <div className="full_height col-12 col-sm-12 col-md-12 d-flex flex-wrap align-items-center justify-content-center py-2">
+              <div className="col-12 col-sm-12 col-md-12 d-flex flex-wrap align-items-center justify-content-center py-2">
               <DotLottieReact
                   src='/json/Solar-system-Shopify.json'
                   loop

@@ -102,7 +102,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Country</label>
                                     <select className="form-control removeBorder" id="" name="service" value={formData.service} onChange={handleChange}  required> 
-                                         <option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="AmericanSamoa">AmericanSamoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina"></option><option value="Armenia"></option>
+                                    <option value="India">India</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="AmericanSamoa">AmericanSamoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina"></option><option value="Armenia"></option>
                                     </select>
                                 </div>
                                 <div className="formRow mb-4 pb-2">
@@ -210,7 +210,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 <div className="address">
                                     <p>F-209, Industrial area<br />
-                                        Phase 8-B, Sector 74, Mohali, 160074</p>
+                                        Phase 8-B, Sector 74, Mohali, 160074 <br/>+91 9872487850</p>
                                 </div>
                             </div>
                         </div>

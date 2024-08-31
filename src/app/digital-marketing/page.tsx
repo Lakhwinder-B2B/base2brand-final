@@ -179,7 +179,13 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img" src={Social.src} alt="" />
+                              {/* <img className="social_img" src={Social.src} alt="" /> */}
+                              <DotLottieReact
+                                src='/json/Digital Marketing/Meta ads JSON.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -198,7 +204,13 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img w-100" src={Social1.src} alt="" />
+                              {/* <img className="social_img w-100" src={Social1.src} alt="" /> */}
+                              <DotLottieReact
+                                src='/json/Digital Marketing/Google Ads JSON.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -216,7 +228,13 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img w-100" src={Social2.src} alt="" />
+                              {/* <img className="social_img w-100" src={Social2.src} alt="" /> */}
+                              <DotLottieReact
+                                src='/json/Digital Marketing/SEO JSON.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -233,7 +251,13 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img w-100" src={Social3.src} alt="" />
+                              {/* <img className="social_img w-100" src={Social3.src} alt="" /> */}
+                              <DotLottieReact
+                                src='/json/Digital Marketing/CRO JSON.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -250,7 +274,13 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img w-100" src={Social4.src} alt="" />
+                              {/* <img className="social_img w-100" src={Social4.src} alt="" /> */}
+                              <DotLottieReact
+                                src='/json/Digital Marketing/Email Marketing JSON.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">
@@ -267,7 +297,13 @@ export default function Digital() {
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
-                              <img className="social_img w-100" src={Social5.src} alt="" />
+                              {/* <img className="social_img w-100" src={Social5.src} alt="" /> */}
+                              <DotLottieReact
+                                src='/json/Digital Marketing/E Commerce JSON.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             <div className="col-md-6">
                               <div className="social_ads">

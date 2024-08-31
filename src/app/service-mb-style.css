@@ -58,6 +58,9 @@ body .designTabsWrap .slick-track {
 .animated-imgs.animated-banner-img {
     height: 500px !important;
 }
+.mobileSectionNav{
+    display: none !important;
+}
 /* responsive style
 services pages */
 @media screen and (min-width: 1700px){
@@ -814,83 +817,76 @@ services pages */
     .choose-us-wrap .hoverGradient {
         margin-right: 0 !important;
     }
-    .odd-row .textWrap,
-    .even-row .textWrap {
-        padding: 0;
-        width: 260px;
-        margin: auto;
-        padding-top: 15px;
-    }
-    .odd-row img, .even-row img {
-        height: 186px;
-        width: auto;
-        margin: auto;
-        display: block;
+    .process_row::before,
+    .process_row:after,
+    .textWrap:before,
+    .textWrap:after
+    {
+        display: none !important;
     }
     .even-row {
         flex-direction: column-reverse;
     }
-    .odd-row h2.b2b-heading {
-        position: static;
+    .first-row {
+        margin-top: 22px !important;
     }
-    .odd-row:before {
-        content: '';
-        width: 70%;
-        height: 111px;
+    .process_steps {
+        overflow: unset;
+    }
+    .mobileSectionNav {
         position: absolute;
-        left: 10px;
-        display: block;
-        top: -9px;
-        background-image: url(../../public/graphics/left-to-right-line.svg);
-        background-size: 166%;
-        background-position: center;
-        transform: rotate(90deg);
-        transform-origin: 0;
+        left: 13px;
+        top: 198px;
+        width: 35px;
+        height: calc(100% - 198px);
+        display: block !important;
     }
-    .even-row:before {
+    span.dotNav {
+        position: relative;
+        left: 50%;
+        width: 30px;
+        height: 30px;
+        display: block;
+        transform: translateX(-50%);
+    }
+    .mobileSectionNav:before {
         content: '';
-        width: 78%;
-        height: 111px;
         position: absolute;
-        left: calc(100% - 5px);
-        display: block;
-        top: -14px;
-        background-image: url(../../public/graphics/left-to-right-line.svg);
-        background-size: 166%;
-        background-position: center;
-        transform: rotate(90deg);
-        transform-origin: 0;
-    }
-    .process_row {
-        width: 424px;
-        margin: 0 auto 0 !important;
-    }
-    .even-row .textWrap:before {
-        right: -4px;
-    }
-    .even-row .textWrap:after {
-        right: 1px;
-    }
-    .odd-row .textWrap:before {
-        left: -11px;
-    }
-    .odd-row .textWrap:after {
-        left: -6px;
-    }
-    .last-row::after {
-        content: '';
-        width: 100%;
+        left: 50%;
+        width: 1px;
         height: 100%;
-        background-image: url(../../public/graphics/top-line.svg);
+        top: 0;
+        transform: translateX(-50%);
+        border-left: 1px dashed #fff;
+    }
+    .mobileSectionNav .dotNav:before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        border: 1px dashed #fff;
+        border-radius: 50%;
         position: absolute;
-        top: calc(50% - 28px);
-        left: 0;
-        background-size: 56% 100%;
-        background-repeat: no-repeat;
-        background-position: right;
-        z-index: 1;
-        transform: rotateY(180deg);
-        transform-origin: center;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #111616;
+    }
+    .mobileSectionNav .dotNav:after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: #396BDB;
+        transform: translate(-50%, -50%);
+    }
+    span.dotNavrap {
+        position: sticky;
+        top: 120px;
+    }
+    .process_steps .b2b-heading br {
         display: block;
     }
 }
@@ -961,6 +957,9 @@ services pages */
     .platform-tabs .tab-pane.active h2 {
         font-size: 24px !important;
         margin-bottom: 10px !important;
+    }
+    .process_steps .b2b-heading br {
+        display: none;
     }
 }
 @media screen and (max-width: 425px){
