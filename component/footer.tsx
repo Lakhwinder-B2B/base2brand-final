@@ -13,30 +13,30 @@ export default function Header() {
   return (
     <footer className="footer">
       <div className="p-5 borderbottom b2b-black-bg">
-        <div className="row footer-box">
+          <div className="row footer-box">
           <div className="col footerMenu">
             <h5>Digital Marketing</h5>
             <ul className="mb-0">
               <li>
-                <a href="/digital-marketing">Media Buyer</a>
+                <Link href="/underconstrution">Media Buyer</Link>
               </li>
               <li>
-                <a href="/digital-marketing">Content Writing</a>
+                <Link href="/underconstrution">Content Writing</Link>
               </li>
               <li>
-                <a href="/digital-marketing">Google Ads (PPC)</a>
+                <Link href="/underconstrution">Google Ads (PPC)</Link>
               </li>
               <li>
-                <a href="/digital-marketing">YouTube Marketing</a>
+                <Link href="/underconstrution">YouTube Marketing</Link>
               </li>
               <li>
-                <a href="/digital-marketing">Search Engine Optimization</a>
+                <Link href="/underconstrution">Search Engine Optimization</Link>
               </li>
               <li>
-                <a href="/digital-marketing">Social Media Optimization</a>
+                <Link href="/underconstrution">Social Media Optimization</Link>
               </li>
               <li>
-                <a href="/digital-marketing">Online Reputation Management</a>
+                <Link href="/underconstrution">Online Reputation Management</Link>
               </li>
             </ul>
           </div>
@@ -44,25 +44,25 @@ export default function Header() {
             <h5>Web/Mobile Development</h5>
             <ul className="mb-0">
               <li>
-                <a href="/web-application">Remix Framework</a>
+                <Link href="/underconstrution">Remix Framework</Link>
               </li>
               <li>
-                <a href="/web-application">Laravel Development</a>
+                <Link href="/underconstrution">Laravel Development</Link>
               </li>
               <li>
-                <a href="/web-application">MEAN Stack Development</a>
+                <Link href="/underconstrution">MEAN Stack Development</Link>
               </li>
               <li>
-                <a href="/web-application">ASP.NET Development</a>
+                <Link href="/underconstrution">ASP.NET Development</Link>
               </li>
               <li>
-                <a href="/web-application">MERN Stack Development</a>
+                <Link href="/underconstrution">MERN Stack Development</Link>
               </li>
               <li>
-                <a href="/web-application">Native IOS and Android</a>
+                <Link href="/underconstrution">Native IOS and Android</Link>
               </li>
               <li>
-                <a href="/web-application">Hybrid apps Development</a>
+                <Link href="/underconstrution">Hybrid apps Development</Link>
               </li>
             </ul>
           </div>
@@ -70,43 +70,42 @@ export default function Header() {
             <h5>Graphic Design</h5>
             <ul className="mb-0">
               <li>
-                <a href="/graphic">Branding &amp; Identity</a>
+                <Link href="/underconstrution">Branding &amp; Identity</Link>
               </li>
               <li>
-                <a href="/graphic">Website &amp; App Design</a>
+                <Link href="/underconstrution">Website &amp; App Design</Link>
               </li>
               <li>
-                <a href="/graphic">Motion Graphics</a>
+                <Link href="/underconstrution">Motion Graphics</Link>
               </li>
               <li>
-                <a href="/graphic">Social Media Design</a>
+                <Link href="/underconstrution">Social Media Design</Link>
               </li>
               <li>
-                <a href="/graphic">2D &amp; infographic Design</a>
+                <Link href="/underconstrution">2D &amp; infographic Design</Link>
               </li>
-              
             </ul>
           </div>
           <div className="col footerMenu">
-            <h5>Ecommerce  Development</h5>
+            <h5>Ecommerce Development</h5>
             <ul className="mb-0">
               <li>
-                <a href="/shopify">Shopify Theme Development</a>
+                <Link href="/underconstrution">Shopify Theme Development</Link>
               </li>
               <li>
-                <a href="/e-commerce">Woo Commerce Development</a>
+                <Link href="/underconstrution">Woo Commerce Development</Link>
               </li>
               <li>
-                <a href="/e-commerce">Magento Development</a>
+                <Link href="/underconstrution">Magento Development</Link>
               </li>
               <li>
-                <a href="/e-commerce">Big Commerce Development</a>
+                <Link href="/underconstrution">Big Commerce Development</Link>
               </li>
               <li>
-                <a href="/e-commerce">Open Cart Development</a>
+                <Link href="/underconstrution">Open Cart Development</Link>
               </li>
               <li>
-                <a href="/shopify">Shopify App Developemnt</a>
+                <Link href="/underconstrution">Shopify App Development</Link>
               </li>
             </ul>
           </div>
@@ -114,19 +113,19 @@ export default function Header() {
             <h5>Quick Links</h5>
             <ul className="mb-0">
               <li>
-                <a href="/services">Services</a>
+                <Link href="/services">Services</Link>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <Link href="/about">About Us</Link>
               </li>
               <li>
-                <a href="/blog">Blogs</a>
+                <Link href="/blog">Blogs</Link>
               </li>
               <li>
-                <a href="/career">Career</a>
+                <Link href="/career">Career</Link>
               </li>
               <li>
-                <a href="/resources">Hire Resources</a>
+                <Link href="/resources">Hire Resources</Link>
               </li>
             </ul>
           </div>
@@ -134,19 +133,19 @@ export default function Header() {
             <h5>Other Links</h5>
             <ul className="mb-0">
               <li>
-                <a href="">Case Studies</a>
+                <Link href="/underconstrution">Case Studies</Link>
               </li>
               <li>
-                <a href="">Privacy policy</a>
+                <Link href="/underconstrution">Privacy policy</Link>
               </li>
               <li>
-                <a href="">Cookies Policy</a>
+                <Link href="/underconstrution">Cookies Policy</Link>
               </li>
               <li>
-                <a href="">Terms &amp; Conditions</a>
+                <Link href="/underconstrution">Terms &amp; Conditions</Link>
               </li>
               <li>
-                <a href="">Refund Policy</a>
+                <Link href="/underconstrution">Refund Policy</Link>
               </li>
             </ul>
           </div>
@@ -226,7 +225,8 @@ export default function Header() {
       </div>
       <div className="text-center p-3">
         <p className="m-0 text-white">
-          ©2024 base2brand.com .All rights reserved{" "}
+          <Link href="/"className="text-white">  ©2024 base2brand.com </Link>
+        .All rights reserved{" "}
         </p>
       </div>
     </footer>

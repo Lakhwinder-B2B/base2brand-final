@@ -25,10 +25,10 @@ export default function home() {
                 <div className="tab-pane fades show active d-flex flex-wrap align-items-center justify-content-center" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
                 {/* <img className="w-70 active_img m-auto" src={shopifyDev.src} alt="Search Engine Optimization" /> */}
                 <DotLottieReact
-                      src='/json/home-page/Shopify-development-services.json'
+                      src='/json/home-page/Shopify-development-services-new.json'
                       loop
                       autoplay
-                      className="animated-imgs"
+                      className="animated-imgs panam"
                     />
                 </div>
               </div>

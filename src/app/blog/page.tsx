@@ -10,6 +10,8 @@ import Typewriter from 'typewriter-effect';
 import Footer from "../../../component/footer"; 
 import "./blog.css"; 
 import { useRouter } from 'next/navigation'
+import awwor from "../../../public/img/arrow.svg"
+import Image from 'next/image';
 interface BlogItem {
   id: string;
   title: string;
@@ -67,56 +69,33 @@ interface BlogItem {
          </div>  
         </div> 
         </div>  
+        
       <div className="container-fluid p-5 pb-5"> 
           <div className="row text-white mb-5 pb-5"  > 
           {data &&
         data.map((blog: BlogItem) => (
-          <div key={blog.id} className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
+          <div key={blog.id} className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-6 col-lg-6 col-xl-4">
             <div className="blog_section bg-dark">
               <img className="blog" src={blog.image_url} alt="Blog" />
-              <div className="p-4 pb-3 bgblack">
-                <p className="date">{new Date(blog.created_at).toLocaleDateString()}</p>
-                <p className="blog_desc mb-2">{blog.title}</p>
-                <div dangerouslySetInnerHTML={{ __html: blog.term }} className="title_desc"></div>
+              <div className="p-4 pb-3 " style={{
+                background:"#1F222F"
+              }}>
+              <div className="d-flex date-boxx justify-content-end" style={{ position: 'relative', top: '-46px', transform: 'translate(10px, 10px)' }}>
+                <p className="date Date-box m-0">{new Date(blog.created_at).toLocaleDateString()}</p>
+                </div>
+                <p className="blog_desc mb-2 blog-title">{blog.title}</p>
+                {/* <div dangerouslySetInnerHTML={{ __html: blog.term }} className="title_desc"></div> */}
                   <div className="mt-4 mb-2">
-                <button className='btn btn-outline-primary m-0' onClick={() => router.push(`/blog-detail?id=${blog.id}`)}>View Detail</button>
+                <button className='btn btn-outline-primary btn-custom m-0 d-flex gap-2' onClick={() => router.push(`/blog-detail?id=${blog.id}`)}>View Detail
+                 <Image className='awwow' src={awwor}  alt='' />
+                </button>
                 </div>
               </div>
             </div>
           </div>
         ))}
 
-          {/* <div className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
-            <div className="blog_section bg-dark">
-            <img className="blog" src={blog1.src} alt="Blog" />
-            <div className="p-4 pb-3 bgblack">
-              <p className="date">September 19, 2021</p>
-              <p className="blog_desc mb-2">The Power of Typography in Web Design: Choosing the Right Fonts for Your Business Website</p>
-              <p className="title_desc">In the dynamic world of web design, where visual aesthetics and user experience reign supreme, typography emerges as a subtle yet powerful tool that can significantly influence a website’s overall appeal and impact....</p>
-            </div>
-            </div>
-          </div>
-
-          <div className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
-            <div className="blog_section bg-dark">
-            <img className="blog" src={blog2.src} alt="Blog" />
-            <div className="p-4 pb-3 bgblack">
-              <p className="date">September 19, 2021</p>
-              <p className="blog_desc mb-2">The Power of Typography in Web Design: Choosing the Right Fonts for Your Business Website</p>
-              <p className="title_desc">In the dynamic world of web design, where visual aesthetics and user experience reign supreme, typography emerges as a subtle yet powerful tool that can significantly influence a website’s overall appeal and impact....</p>
-            </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 mb-sm-4 mb-4 col-md-4">
-            <div className="blog_section bg-dark">
-            <img className="blog" src={blog3.src} alt="Blog" />
-            <div className="p-4 pb-3 bgblack">
-              <p className="date">September 19, 2021</p>
-              <p className="blog_desc mb-2">The Power of Typography in Web Design: Choosing the Right Fonts for Your Business Website</p>
-              <p className="title_desc">In the dynamic world of web design, where visual aesthetics and user experience reign supreme, typography emerges as a subtle yet powerful tool that can significantly influence a website’s overall appeal and impact....</p>
-            </div>
-            </div>
-          </div> */}
+ 
            
         </div> 
       </div> 

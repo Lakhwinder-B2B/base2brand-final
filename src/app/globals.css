@@ -588,7 +588,7 @@ button.b2b-blog-btn {
 }
 .bg_feedback {
   background: linear-gradient(182.02deg, rgba(66, 65, 65, 0.3) 1.69%, rgba(0, 0, 0, 0.3) 98.31%) !important;
-  height: 395px;
+  height: 516px;
   border-radius: 10px;
   margin: 0 15px;
 }
@@ -1873,6 +1873,7 @@ h3.text_primary.mt-5 {
   .bg_feedback{
       margin-top:1rem;
       padding: 2rem !important;
+      /* height: 300px !important; */
   }
   .active h2 { 
     font-size: 26px !important;
@@ -2359,7 +2360,7 @@ ul.nav.nav-pills.mb-3 {
   .bg_feedback {
     margin-top: 1rem;
     padding: 1rem !important;
-    height: 330px;
+    height: 375px;
   }
   .bg_home .sub_text {
     font-size: 11px;
@@ -3020,4 +3021,9 @@ form textarea {
       color-stop(0.86, #7411E1)
   );
 }
-
+/* gaurav blog class */
+p.date.Date-box {
+  padding: 10px;
+  background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
+  border-radius: 30px;
+}
