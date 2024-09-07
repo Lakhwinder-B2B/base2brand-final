@@ -10,93 +10,86 @@ import tab4Icon4 from "../../../public/shopify/tab4-icon3.png";
 
 
 export default function Tab4() {
-    const [nav7, setNav7] = useState(null);
-    const [nav8, setNav8] = useState(null);
-    let sliderRef7 = useRef(null);
-    let sliderRef8 = useRef(null);
-  
-    useEffect(() => {
-      setNav7(sliderRef7);
-      setNav8(sliderRef8);
-    }, []);
+  useEffect(() => {
+    const memoriesSection = document.querySelector(".gallery_slider");
+    const headerSection = document.querySelector("header");
+    const headerHeight = headerSection.offsetHeight;
 
-    // useEffect(() => {
-    //   const memoriesSection = document.querySelector(".tabMainWrap");
-    //   const headerSection = document.querySelector("header");
-    //   const bodySection = document.querySelector("body");
-    //   const headerHeight = headerSection.offsetHeight;
-  
-    //   if (!memoriesSection) {
-    //     console.error("Element with class 'tabMainWrap' not found");
-    //     return;
-    //   }
-  
-    //   const handleScroll = () => {
-    //     const clientHeight = document.documentElement.clientHeight;
-    //     const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
-    //     if (clientHeight > memoriesSectionY) {
-    //        memoriesSection.classList.add("stickyElement");
-    //        (memoriesSection as HTMLElement).style.top = `${headerHeight}px`;
-    //        if(memoriesSectionY == headerHeight){
-    //             // (bodySection as HTMLElement).style.overflow = `hidden`;
-    //             console.log('reached');
+    if (!memoriesSection) {
+      console.error("Element with class 'gallery slider' not found");
+      return;
+    }
+
+    const handleScroll = () => {
+      const clientHeight = document.documentElement.clientHeight;
+      const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+      if (clientHeight > memoriesSectionY) {
+            
+            if(memoriesSectionY <= (headerHeight + 100)){
+
+                const tabs = document.querySelectorAll(".slider_icon");
+                const tabbtns = document.querySelectorAll(".slider_right_main");
+
+
+                tabbtns.forEach(tabbtn => {
+                  const tabSectionY = tabbtn.getBoundingClientRect().y;
+
+                  if(tabSectionY <= (headerHeight + 180)){
+                    
+                      const btnID = tabbtn.getAttribute("data-tab-id");
+                      console.log(btnID);
+                      
+                      if(btnID !== null){
+                        const btnSection = document.querySelector(`#${btnID}`);
+                        btnSection.classList.add("b2b_tab_vissible");
+                      }
+                      
+                  }else{
+                      const btnID = tabbtn.getAttribute("data-tab-id");
+                      console.log(btnID);
+                      
+                      if(btnID !== null){
+                        const btnSection = document.querySelector(`#${btnID}`);
+                        btnSection.classList.remove("b2b_tab_vissible");
+                      }
+                      
+                  }
+
+                });
+
+
                 
-    //        }
-    //     }
-    //     if (clientHeight < memoriesSectionY) {
-    //       memoriesSection.classList.remove("stickyElement");
-    //       (memoriesSection as HTMLElement).style.top = `unset`;
-    //     }
-    //   };
-  
-    //   document.addEventListener("scroll", handleScroll);
-  
-    //   // Clean up the event listener on component unmount
-    //   return () => {
-    //     document.removeEventListener("scroll", handleScroll);
-    //   };
-    // }, []);
+                
+          }
+      }
+     
+    };
+
+    document.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
      <>  
         <div className="gallery_slider">
                   <div className="left_thumnails">
-                    <Slider
-                        asNavFor={nav7}
-                        ref={(slider8) => setNav8(slider8)}
-                        slidesToShow={1}
-                        slidesToScroll={0}
-                        swipeToSlide={false}
-                        autoplay={false}
-                        arrows={false}
-                        focusOnSelect={true}
-                        speed={500}
-                        infinite={false}
-                      >
+                   
+                      <a id="tab4-1" className='slider_icon firstTab b2b_tab_vissible'><img src={tab4Icon1.src} alt="" /></a>
+                      <a id="tab4-2" className='slider_icon'><img src={tab4Icon2.src} alt="" /></a>
+                      <a id="tab4-3" className='slider_icon'><img src={tab4Icon3.src} alt="" /></a>
+                      <a id="tab4-4" className='slider_icon'><img src={tab4Icon4.src} alt="" /></a> 
                     
-                      
-                      <a><img src={tab4Icon1.src} alt="" /></a>
-                      <a><img src={tab4Icon2.src} alt="" /></a>
-                      <a><img src={tab4Icon3.src} alt="" /></a>
-                      <a><img src={tab4Icon4.src} alt="" /></a> 
-                    
-                      </Slider>
                   </div>
                   <div className="right_slider">
-                      <Slider className="right_slider1" asNavFor={nav8} ref={(slider7) => setNav7(slider7)}
-                      autoplay={false}
-                      centerMode= {true}
-                      centerPadding= '60px'
-                      arrows={true}
-                      dots={true}
-                      slidesToShow={3}
-                      slidesToScroll={1}
-                      speed={500}
-                      infinite={true}
-                      focusOnSelect= {true}
-                      cssEase= 'linear'
-                      >
-                        <div className='slider_right_main'>
+                          <div className="left_thumnails">
+                          
+                            <a id="tab4-1" className='slider_icon'><img src={tab4Icon1.src} alt="" /></a>
+                          </div>
+                        <div className='slider_right_main' data-tab-id="tab4-1">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -111,9 +104,12 @@ export default function Tab4() {
                               </div>
                           </div>
                         </div>
+                        <div className="left_thumnails">
+                          
+                          <a id="tab4-2" className='slider_icon'><img src={tab4Icon2.src} alt="" /></a>
+                        </div>
 
-
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main' data-tab-id="tab4-2">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -128,9 +124,12 @@ export default function Tab4() {
                             </div>
                           </div>
                         </div>
-
+                        <div className="left_thumnails">
+                          
+                          <a id="tab4-3" className='slider_icon'><img src={tab4Icon3.src} alt="" /></a>
+                        </div>
                         
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main' data-tab-id="tab4-3">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -145,7 +144,11 @@ export default function Tab4() {
                             </div>
                           </div>
                         </div>
-                        <div className='slider_right_main'>
+                        <div className="left_thumnails">
+                          
+                            <a id="tab4-4" className='slider_icon'><img src={tab4Icon4.src} alt="" /></a>
+                          </div>
+                        <div className='slider_right_main' data-tab-id="tab4-4">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -161,8 +164,6 @@ export default function Tab4() {
                           </div>
                         </div>
 
-                       
-                      </Slider>
                   </div>
                 </div>
      </>

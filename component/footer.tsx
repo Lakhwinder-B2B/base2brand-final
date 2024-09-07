@@ -27,8 +27,6 @@ const useMediaQuery = (width) => {
 
   return targetReached;
 };
-
-
 const Footer = () => {
    const isBreakpoint = useMediaQuery(600)
    return (
@@ -45,5 +43,4 @@ const Footer = () => {
     </div>
     )}
 
-
-export default Footer;
+    export default Footer;

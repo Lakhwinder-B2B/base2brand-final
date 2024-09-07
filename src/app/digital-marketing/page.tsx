@@ -145,37 +145,9 @@ export default function Digital() {
           <div className="main_gallery" data-aos="fade-up">
               <div className="b2b-container-lg">
                 <div className="gallery_slider">
-                  <div className="left_thumnails">
-                    <Slider
-                        asNavFor={nav1}
-                        ref={(slider2) => setNav2(slider2)}
-                        slidesToShow={6}
-                        slidesToScroll={0}
-                        swipeToSlide={false}
-                        autoplay={false}
-                        arrows={false}
-                        focusOnSelect={true}
-                        speed={800}
-                      >
+                  
+                  <div className="right_slider m-auto">
                     
-                      
-                      <a><img src={Ads.src} alt="" /></a>
-                      <a><img src={Ads5.src} alt="" /></a>
-                      <a><img src={Ads4.src} alt="" /></a>
-                      <a><img src={Ads3.src} alt="" /></a>
-                      <a><img src={Ads2.src} alt="" /></a>
-                      <a><img src={Ads1.src} alt="" /></a> 
-                    
-                      </Slider>
-                  </div>
-                  <div className="right_slider">
-                      <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)}
-                      autoplay={false}
-                      arrows={false}
-                      slidesToShow={1}
-                      slidesToScroll={1}
-                      speed={800}
-                      >
                         <div className='slider_right_main'>
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
@@ -318,7 +290,6 @@ export default function Digital() {
                           </div>
                         </div>
 
-                      </Slider>
                   </div>
                 </div>
               </div>

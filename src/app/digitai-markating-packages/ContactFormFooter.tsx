@@ -218,8 +218,8 @@ const ContactFormFooter = ({ param }) => {
                 <div className="d-flex align-items-center gap-3 mb-3 justify-content-start">
                   <Image className="Image-icon" src={callto} alt="Call Icon" />
                   <span className="gk-acco-text text-white">
-                    <a href="tel:+9872487850" className="text-white">
-                      +919872487850
+                    <a href="tel:+91872487850" className="text-white">
+                      +91872487850
                     </a>
                   </span>
                 </div>

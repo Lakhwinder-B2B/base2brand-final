@@ -63,7 +63,7 @@ button.btn_design span img{
 .gallery_slider {
     display: flex;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
 }
 .main_gallery {
     background: #1F222F;
@@ -77,7 +77,20 @@ button.btn_design span img{
     justify-content: center;
     background: transparent;
     z-index: 2;
-    position: relative;
+    position: absolute;
+    left: calc(50% + 22px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+}
+.left_thumnails a.firstTab{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.left_thumnails a.b2b_tab_vissible{
+    opacity: 1;
+    visibility: visible;
 }
 .left_thumnails a,
 .left_thumnails .slick-slide {
@@ -111,6 +124,7 @@ button.btn_design span img{
 .right_slider {
     max-width: calc(100% - 350px) !important;
     width: 100% !important;
+    height: unset !important;
 }
 .left_thumnails .slick-slider,
 .right_slider .slick-slider {
@@ -183,7 +197,7 @@ button.btn_design span img{
 .right_slider .slick-slider, 
 .right_slider .slick-track {
     /* width: 100% !important; */
-    height: 350px !important;
+    /* height: 350px !important; */
     /* transform: unset !important;
     position: relative;
     display: block; */
@@ -252,12 +266,14 @@ button.btn_design span img{
     position: relative;
 }
 
-.gallery_slider.sticky {
+.left_thumnails,
+.slider_right_main {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: white; /* or any other background color */
+    top: 150px;
+}
+.slider_right_main {
+    background-color: #111616;
 }
 
 .left_thumnails {
@@ -318,7 +334,9 @@ button.btn_design span img{
     font-size: 100px;
     font-weight: 700;
 }
-
+.right_slider .left_thumnails {
+    display: none;
+}
 @keyframes stroke {
     0% {
         fill: rgba(72, 138, 20, 0);
@@ -386,10 +404,29 @@ button.btn_design span img{
         background-color: #fff;
     }
     
-    .mobileTabsContentShopify .slick-list, 
+    /* .mobileTabsContentShopify .slick-list, 
     .mobileTabsContentShopify .slick-slider, 
     .mobileTabsContentShopify .slick-track {
         height: 350px !important;
+    } */
+    .left_thumnails {
+        display: none;
+    }
+    .right_slider {
+        max-width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .right_slider .left_thumnails {
+        display: block;
+    }
+    .left_thumnails, .slider_right_main {
+        position: relative;
+        top: unset;
+    }
+    .right_slider .left_thumnails a {
+        opacity: 1;
+        visibility: visible;
     }
 }
 @media screen and (max-width: 767px) {
@@ -435,6 +472,9 @@ button.btn_design span img{
     .mobileTabsContentShopify .left_thumnails .slick-track {
         width: 100% !important;
         height: 100% !important;
+    }
+    .left_thumnails a {
+        left: calc(50% + 56px);
     }
     
 }
