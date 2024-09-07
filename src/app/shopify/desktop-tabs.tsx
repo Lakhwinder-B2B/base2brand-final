@@ -64,7 +64,7 @@ export default function DesktopTabs() {
                </div>
                </div>
                <div className="designTabsContentWrap"> 
-                    <div className=""> 
+                    <div className="px-3"> 
                          <div className="row">
                               <div className="col-lg-12 m-auto">                
                               <div className="tab-content" id="pills-tabContent">
