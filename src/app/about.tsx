@@ -44,16 +44,33 @@ export default function Homeabout() {
     <div className="blackGradient">
       <div className="b2b-container-lg py-md-5 py-sm-1 py-1">  
           <div className="row align-items-center row-reverse-mb"> 
+            <div className="col-md-12 text-center">
+            <h2 className="b2b-main-heading" data-aos="fade-up-right">Technologies we use</h2> 
+            <h3 className="b2b-title-text" data-aos="fade-up-right" data-aos-delay="300">We use cutting-edge technologies to craft fully automated solutions</h3>
+            </div>
             <div className="col-lg-7 col-md-12 col-12 text-white" >
-              <h2 className="b2b-main-heading" data-aos="fade-up-right">Technologies we use</h2> 
-              <h3 className="b2b-title-text" data-aos="fade-up-right" data-aos-delay="300">We use cutting-edge technologies to craft fully automated solutions</h3>
-              <p className="b2b-sub-text" data-aos="fade-up-right" data-aos-delay="400">Our approach includes use of state-of-the-art technologies and tools across digital marketing, web development, and graphic design to deliver customized digital solutions tailored to address your most intricate challenges.</p>
+            <div className="d-flex align-items-start">
+  <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button className="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">FRONTEND</button>
+    <button className="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">BACKEND</button> 
+    <button className="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">ECOMMERCE</button>
+    <button className="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">FRAMEWORK</button>
+  </div>
+  <div className="tab-content" id="v-pills-tabContent">
+    <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >...</div>
+    <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" >...</div>
+    <div className="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" >...</div>
+    <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" >...</div>
+    <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" >...</div>
+  </div>
+</div>
+              {/* <p className="b2b-sub-text" data-aos="fade-up-right" data-aos-delay="400">Our approach includes use of state-of-the-art technologies and tools across digital marketing, web development, and graphic design to deliver customized digital solutions tailored to address your most intricate challenges.</p>
               <p className="b2b-sub-text" data-aos="fade-up-right" data-aos-delay="500">From leveraging advanced analytics in digital marketing strategies to employing the latest coding languages and frameworks in web development, and employing cutting-edge design software in graphic design, we ensure that every aspect of our solutions is at the forefront of innovation.</p>
               <p className="b2b-sub-text" data-aos="fade-up-right" data-aos-delay="600">With our commitment to staying ahead of the curve, we empower your business to thrive in today's dynamic digital landscape with bespoke solutions that drive results.</p>
             
-              <a href="/services"><button className="b2b-btn b2b-btn-sm mt-4 m-0" data-aos="fade-up-right" data-aos-delay="700"> Read More </button></a>
+              <a href="/services"><button className="b2b-btn b2b-btn-sm mt-4 m-0" data-aos="fade-up-right" data-aos-delay="700"> Read More </button></a> */}
             </div>
-            <div className="col-lg-5 col-md-12 col-12 text-center mb-5 mb-md-0 about_order" data-aos="fade-up-left" data-aos-delay="900">
+            <div className="col-lg-8 col-md-12 col-12 text-center mb-5 mb-md-0 about_order" data-aos="fade-up-left" data-aos-delay="900">
             {/* <img className="m-auto" src={technologies.src} alt="Product" /> */}
             <DotLottieReact
               src='/json/home-page/Software JSON.json'

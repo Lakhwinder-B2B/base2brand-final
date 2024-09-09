@@ -265,15 +265,26 @@ button.btn_design span img{
 .gallery_slider {
     position: relative;
 }
-
+.sticky_tabs{
+    position: sticky !important;
+    top: 6rem;
+    z-index: 5;
+}
 .left_thumnails,
 .slider_right_main {
     position: -webkit-sticky;
     position: sticky;
-    top: 150px;
+    top: 17rem;
 }
 .slider_right_main {
     background-color: #111616;
+}
+.slider_right_main .social_ads h2{
+    font-size: 50px;
+}
+.slider_right_main .social_ads p{
+    font-size: 28px;
+    line-height: 32px;
 }
 
 .left_thumnails {

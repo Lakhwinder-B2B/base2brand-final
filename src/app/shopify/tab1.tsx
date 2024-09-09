@@ -13,71 +13,72 @@ import tab1Icon5 from "../../../public/shopify/tab1-icon5.png";
 export default function Tab1() {
  
 
-    useEffect(() => {
-      const memoriesSection = document.querySelector(".gallery_slider");
-      const headerSection = document.querySelector("header");
-      const headerHeight = headerSection.offsetHeight;
+    // useEffect(() => {
+    //   const memoriesSection = document.querySelector(".gallery_slider");
+    //   const headerSection = document.querySelector("header");
+    //   const headerHeight = headerSection.offsetHeight;
   
-      if (!memoriesSection) {
-        console.error("Element with class 'gallery slider' not found");
-        return;
-      }
+    //   if (!memoriesSection) {
+    //     console.error("Element with class 'gallery slider' not found");
+    //     return;
+    //   }
   
-      const handleScroll = () => {
-        const clientHeight = document.documentElement.clientHeight;
-        const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
-        if (clientHeight > memoriesSectionY) {
+    //   const handleScroll = () => {
+    //     const clientHeight = document.documentElement.clientHeight;
+    //     const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+    //     if (clientHeight > memoriesSectionY) {
               
-              if(memoriesSectionY <= (headerHeight + 100)){
+    //           if(memoriesSectionY <= (headerHeight + 10)){
   
-                  const tabs = document.querySelectorAll(".slider_icon");
-                  const tabbtns = document.querySelectorAll(".slider_right_main");
+    //               const tabs = document.querySelectorAll(".slider_icon");
+    //               const tabbtns = document.querySelectorAll(".slider_right_main");
   
 
-                  tabbtns.forEach(tabbtn => {
-                    const tabSectionY = tabbtn.getBoundingClientRect().y;
+    //               tabbtns.forEach(tabbtn => {
+    //                 const tabSectionY = tabbtn.getBoundingClientRect().y;
 
-                    if(tabSectionY <= (headerHeight + 180)){
+    //                 if(tabSectionY <= (headerHeight + 10)){
                       
-                        const btnID = tabbtn.getAttribute("data-tab-id");
-                        console.log(btnID);
+    //                     const btnID = tabbtn.getAttribute("data-tab-id");
+    //                     console.log(btnID);
                         
-                        if(btnID !== null){
-                          const btnSection = document.querySelector(`#${btnID}`);
-                          btnSection.classList.add("b2b_tab_vissible");
-                        }
+    //                     if(btnID !== null){
+    //                       const btnSection = document.querySelector(`#${btnID}`);
+    //                       btnSection.classList.add("b2b_tab_vissible");
+    //                     }
                         
-                    }else{
-                        const btnID = tabbtn.getAttribute("data-tab-id");
-                        console.log(btnID);
+    //                 }else{
+    //                     const btnID = tabbtn.getAttribute("data-tab-id");
+    //                     console.log(btnID);
                         
-                        if(btnID !== null){
-                          const btnSection = document.querySelector(`#${btnID}`);
-                          btnSection.classList.remove("b2b_tab_vissible");
-                        }
+    //                     if(btnID !== null){
+    //                       const btnSection = document.querySelector(`#${btnID}`);
+    //                       btnSection.classList.remove("b2b_tab_vissible");
+    //                     }
                         
-                    }
+    //                 }
 
-                  });    
-            }
-        }
+    //               });    
+    //         }
+    //     }
        
-      };
+    //   };
   
-      document.addEventListener("scroll", handleScroll);
+    //   document.addEventListener("scroll", handleScroll);
   
-      // Clean up the event listener on component unmount
-      return () => {
-        document.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
+    //   // Clean up the event listener on component unmount
+    //   return () => {
+    //     document.removeEventListener("scroll", handleScroll);
+    //   };
+    // }, []);
   
 
   return (
      <>  
         <div className="gallery_slider">
                   <div className="left_thumnails">
-                      <a id="tab1-1" className='slider_icon firstTab b2b_tab_vissible'><img src={tab1Icon1.src} alt="" /></a>
+                      <a id="tab1-1" className='slider_icon firstTab b2b_tab_vissible'>
+                        <img src={tab1Icon1.src} alt="" /></a>
                       <a id="tab1-2" className='slider_icon'><img src={tab1Icon2.src} alt="" /></a>
                       <a id="tab1-3" className='slider_icon'><img src={tab1Icon3.src} alt="" /></a>
                       <a id="tab1-4" className='slider_icon'><img src={tab1Icon4.src} alt="" /></a> 

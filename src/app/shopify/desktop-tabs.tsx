@@ -23,7 +23,7 @@ export default function DesktopTabs() {
      <>  
      
           <div className='tabMainWrap'>
-               <div className="designTabsWrap b2b-gray-bg"> 
+               <div className="designTabsWrap b2b-gray-bg sticky_tabs"> 
                <div className="b2b-container-lg"> 
                     <div className="row">
                          <div className="col-lg-12 m-auto">
