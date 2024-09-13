@@ -30,11 +30,15 @@ export default function services() {
                 
                 {/* <h1 className="banner-text-outline text-center mb-3 text-uppercase">SHOPIFY EXPERTS</h1> */}
                 <div className="bannerTitle">
-                     <svg viewBox="0 0 1320 300">
+                <svg viewBox="0 0 1320 300" className="text_show">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">SHOPIFY EXPERTS</text>
+                </svg>
+
+                     {/* <svg viewBox="0 0 1320 300">
                          <text x="50%" y="50%" dy=".35em" text-anchor="middle" stroke-dasharray="5,5">
                              SHOPIFY EXPERTS
                          </text>
-                     </svg>
+                     </svg> */}
                  </div>
              </div>
                 </div>

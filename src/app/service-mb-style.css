@@ -55,9 +55,9 @@ body .designTabsWrap .slick-track {
     transition: 0.9s !important;
     
 }
-.animated-imgs.animated-banner-img {
+/* .animated-imgs.animated-banner-img {
     height: 500px !important;
-}
+} */
 .mobileSectionNav{
     display: none !important;
 }

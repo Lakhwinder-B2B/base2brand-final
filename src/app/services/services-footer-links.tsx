@@ -32,7 +32,7 @@ export default function WebApplication() {
                  {currentRoute === "/digital-marketing" ? ( '' ) : ( 
                     <div className="col-lg-4 col-md-6 col-sm-8 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                         <a className="menuLink" href="/digital-marketing">
-                            <div className="menuInner b2b-pink-bg">
+                            <div className="menuInner b2b-lightBlue-bg">
                                 <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
                                 <div className='d-flex align-items-center justify-content-between'>
                                 <p className='menuText mb-0'>Marketing Strategies that Grow Sales</p>
@@ -45,7 +45,7 @@ export default function WebApplication() {
                 {currentRoute === "/graphic" ? ( '' ) : ( 
                     <div className="col-lg-4 col-md-6 col-sm-8 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                         <a className="menuLink" href="/graphic">
-                            <div className="menuInner b2b-lightBlue-bg">
+                            <div className="menuInner b2b-pink-bg">
                                 <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
                                 <div className='d-flex align-items-center justify-content-between'>
                                 <p className='menuText mb-0'>Designs that Enhances User Engagement</p>
@@ -71,7 +71,7 @@ export default function WebApplication() {
                 {currentRoute === "/web-application" ? ( '' ) : ( 
                     <div className="col-lg-4 col-md-6 col-sm-8 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                         <a className="menuLink" href="/web-application">
-                        <div className="menuInner b2b-lightBlue-bg">
+                        <div className="menuInner b2b-pink-bg">
                             <h3 className='b2b-title-text text-black'>Web Development</h3>
                             <div className='d-flex align-items-center justify-content-between'>
                                 <p className='menuText mb-0'>Dynamic Website for Mobile Devices</p>
@@ -84,7 +84,7 @@ export default function WebApplication() {
                 {currentRoute === "/app-development" ? ( '' ) : ( 
                     <div className="col-lg-4 col-md-6 col-sm-8 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                         <a className="menuLink" href="/app-development">
-                            <div className="menuInner b2b-pink-bg">
+                            <div className="menuInner b2b-lightBlue-bg">
                                 <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
                                 <div className='d-flex align-items-center justify-content-between'>
                                 <p className='menuText mb-0'>Sales Friendly App for Your Business</p>
