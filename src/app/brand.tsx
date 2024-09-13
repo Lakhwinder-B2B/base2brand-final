@@ -36,15 +36,14 @@ interface BrandProps {
 export default function Brand({ heading, bgcolor, color }: BrandProps) {
 
   const settings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
     autoplay: true,
-    autoplaySpeed: 500,
-    speed: 2000,
-    slidesToShow: 5,
-    slidesToScroll: 1,
+    autoplaySpeed: 0,
+    speed: 5000,
+    arrows: false,
+    swipe: false,
+    slidesToShow: 6,
     cssEase: 'linear',
+    pauseOnFocus: false,
     pauseOnHover: false,
     responsive: [
       {
@@ -85,29 +84,107 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
           </h3>
           <div className="logo_brand" data-aos="fade-up" data-aos-delay="300">
             <Slider {...settings} className="w-100">
+              <div>
               <img className="logo_brands" src={Brand1.src} alt="Logo" />
+              </div>
+              <div>
+
               <img className="logo_brands" src={Brand2.src} alt="Logo" />
+              </div>
+
+              <div>
+
+
               <img className="logo_brands" src={Brand3.src} alt="Logo" />
+              </div>
+
+              <div>
+
               <img className="logo_brands" src={Brand4.src} alt="Logo" />
+              </div>
+
+              <div>
+
               <img className="logo_brands" src={Brand5.src} alt="Logo" />
+              </div>
+
+
+              <div>
               <img className="logo_brands" src={Brand6.src} alt="Logo" />
+              </div>
+
+
+              <div>
               <img className="logo_brands" src={Brand7.src} alt="Logo" />
+              </div>
+
+
+              <div>
               <img className="logo_brands" src={Brand8.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand9.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand10.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand11.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand12.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand13.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand14.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand15.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand16.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand17.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand18.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand19.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand20.src} alt="Logo" />
+              </div>
+
+              <div>
+
               <img className="logo_brands" src={Brand21.src} alt="Logo" />
+              </div>
+
+              <div>
+
               <img className="logo_brands" src={Brand22.src} alt="Logo" />
+              </div>
+
+              <div>
               <img className="logo_brands" src={Brand23.src} alt="Logo" />
+              </div>
+
             </Slider>
  
           </div>

@@ -1,3 +1,52 @@
+ 
+
+svg.text_show text {
+    text-transform: uppercase;
+    stroke: #007A00;
+    font-size: 100px;
+    font-weight: 700;
+    stroke-width: 2;
+    animation: stroke 5s infinite alternate;
+}
+
+svg.text_show {
+    overflow: hidden;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #007A00;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #007A00;
+    }
+
+    80% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #007A00;
+        stroke-width: 3;
+    }
+
+    100% {
+        fill: #007A00;
+        stroke: rgba(54, 95, 160, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+
+
+
 h1.banner-text-outline {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #007A00;
@@ -137,7 +186,7 @@ button.btn_design span img{
     top: 0;
     height: 100%;
     width: 200%;
-    border: 1px dashed #fff;
+    /* border: 1px dashed #fff; */
     border-radius: 50%;
 }
 
@@ -270,6 +319,10 @@ button.btn_design span img{
     top: 6rem;
     z-index: 5;
 }
+.slider_right_main { 
+    height: 90vh;
+    overflow: hidden;
+}
 .left_thumnails,
 .slider_right_main {
     position: -webkit-sticky;
@@ -337,18 +390,18 @@ button.btn_design span img{
     height: 150px;
     overflow: hidden;
 }
-.bannerTitle svg text {
+/* .bannerTitle svg text {
     text-transform: uppercase;
     animation: stroke 5s infinite;
     stroke-width: 3px;
     stroke: #007A00;
     font-size: 100px;
     font-weight: 700;
-}
+} */
 .right_slider .left_thumnails {
     display: none;
 }
-@keyframes stroke {
+/* @keyframes stroke {
     0% {
         fill: rgba(72, 138, 20, 0);
         stroke: #007A00;
@@ -375,7 +428,7 @@ button.btn_design span img{
         stroke-dasharray: 50% 0;
         stroke-width: 0;
     }
-}
+} */
 
 .right_slider .slick-next:before{
     background-image: url(../../../public/team-img/arrow-right.svg);
@@ -402,6 +455,20 @@ button.btn_design span img{
     }
 }
 @media screen and (max-width: 991px) {
+ 
+    .slider_right_main {
+        height: auto !important;
+        overflow: auto;
+    }
+    .slider_right_main .social_ads p {
+        font-size: 16px;
+    }
+    .slider_right_main .social_ads h2 {
+        font-size: 30px;
+    }
+    .bannerTitle { 
+        height: 80px; 
+    }
     .mobileTabsContentShopify .right_slider .slick-dots li button:before {
         width: 10px;
         height: 10px;
@@ -441,6 +508,11 @@ button.btn_design span img{
     }
 }
 @media screen and (max-width: 767px) {
+    .animated-imgs.animated-banner-img {
+        max-height: 150px !important;
+        width: 100%;
+        margin-top: 0 !important;
+    }
     .mobileTabsContentShopify .right_slider {
         max-width: 100% !important;
         width: 100% !important;

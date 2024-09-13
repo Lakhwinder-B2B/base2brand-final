@@ -23,6 +23,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
         email: '',
         phoneNo: '',
         service: 'web development',
+        companyname:'',
         message: ''
     });
 
@@ -47,6 +48,15 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
             if (response.ok) {
                 // Handle success, maybe show a success message
                 toast.success('Form submitted successfully'); 
+                setFormData({
+                    name: '',
+                    email: '',
+                    phoneNo: '',
+                    service: 'web development', // reset to default selected value
+                    companyname: '',
+                    message: ''
+                });
+              
             } else { 
                 toast.error('Failed to submit form');
             }
@@ -101,8 +111,18 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                             <div className="secondForm">
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Country</label>
-                                    <select className="form-control removeBorder" id="" name="service" value={formData.service} onChange={handleChange}  required> 
-                                    <option value="India">India</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="AmericanSamoa">AmericanSamoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina"></option><option value="Armenia"></option>
+                                    <select className="form-control removeBorder text-white background-black" id="" name="service" value={formData.service} onChange={handleChange}  required> 
+                                    <option value="India">India</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="AmericanSamoa">AmericanSamoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
                                     </select>
                                 </div>
                                 <div className="formRow mb-4 pb-2">
@@ -111,7 +131,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Company Name</label>
-                                    <input type="number" placeholder="Base2brand" className="form-control removeBorder" name="phoneNo" value={formData.phoneNo} onChange={handleChange}  required/>
+                                    <input type="text" placeholder="Base2brand" className="form-control removeBorder" name="companyname" value={formData.companyname} onChange={handleChange}  required/>
                                 </div>
                                 
                                 <div className="formServices mb-4 pb-2">
@@ -150,7 +170,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 
                                 <div className="formTextarea">
                                     <label className="form-label pb-2">Comments</label>
-                                    <textarea className="form-control removeBorder" id="" name='message' value={formData.message} onChange={handleChange}  required></textarea>
+                                    <textarea className="form-control removeBorder text-white" id="" name='message' value={formData.message} onChange={handleChange}  required></textarea>
                                 </div>
                             </div>
                             
