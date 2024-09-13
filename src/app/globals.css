@@ -620,8 +620,8 @@ button.b2b-blog-btn {
 }
 .bg_feedback {
   background: linear-gradient(182.02deg, rgba(66, 65, 65, 0.3) 1.69%, rgba(0, 0, 0, 0.3) 98.31%) !important;
-  height: 500px;
-  height: 516px;
+  height: 430px;
+ 
   border-radius: 10px;
   margin: 0 15px;
 }
@@ -3167,4 +3167,71 @@ p.date.Date-box {
   padding: 10px;
   background-image: linear-gradient(90deg, #7411E1 0%, #396BDB 100%);
   border-radius: 30px;
+}
+.gk-radialGradient {
+  background: radial-gradient(85.95% 85.95% at 51.75% 51.4%, rgb(50 18 189 / 79%) 0%, rgb(0 0 0 / 88%) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.gk-motion .Typewriter span {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200% 100%;
+  background-position: 100%;
+  background-image: linear-gradient(348deg, #7411E1 0%, #396BDB 100%);
+  background-position: 0;
+  -webkit-text-fill-color: white;
+}
+
+.underconstraction{
+  font-size: 90px;
+  font-weight: 700;
+}
+
+
+/* about tab sction */
+.btn-tab {
+  background: linear-gradient(45deg, #424141db, #0000006b) ;
+}
+/* Default styling for all active buttons */
+.btn-col .nav-pills .nav-link.active {
+  background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #168df39e -15%, #111616 100%);
+}
+
+/* Unique background colors for each button */
+.btn-col .nav-pills .nav-link.frontend-active {
+  background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #ff7f50 -15%, #111616 100%); /* Coral color */
+}
+
+.btn-col .nav-pills .nav-link.backend-active {
+  background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #48d1cc -15%, #111616 100%); /* Medium turquoise color */
+}
+
+.btn-col .nav-pills .nav-link.ecommerce-active {
+
+  background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #32cd32 -15%, #111616 100%); /* Lime green color */
+}
+
+.btn-col .nav-pills .nav-link.framework-active {
+  background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #ff6347 -15%, #111616 100%); /* Tomato color */
+ 
+}
+
+.btn-col .nav-pills .nav-link {
+  background: linear-gradient(45deg, #424141db, #0000006b);
+  height: 85px;
+  border: 1px solid #ffffff63;
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn-col .nav-pills .nav-link {
+    background: linear-gradient(45deg, #424141db, #0000006b);
+    height: 60px;
+    border: 1px solid #ffffff63;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .btn-col .nav-pills .nav-link {
+    background: linear-gradient(45deg, #424141db, #0000006b);
+    height: 62px;
+    border: 1px solid #ffffff63;
+  }
 }

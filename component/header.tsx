@@ -192,9 +192,9 @@ useEffect(() => {
         </li>
         
 
-        <li>
+        {/* <li>
         <Link href="/resources" className={currentRoute === "/resources"? "active  py-2 px-1 " : "block py-2 px-1"}>Resource Outsourcing</Link>
-        </li>
+        </li> */}
 
         <li>
         <Link href="/blog" className={currentRoute === "/blog"? "active  py-2 px-1 " : "block py-2 px-1"}>Blogs</Link>

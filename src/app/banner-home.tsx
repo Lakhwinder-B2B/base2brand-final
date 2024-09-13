@@ -43,7 +43,7 @@ export default function HomeBanner() {
               <h2 className="sub_heading">with flawless technology, <br /> design, and execution</h2> 
               <p className='sub_text text-white mt-4'>Let&apos;s Build something Digital together, We are Leading <br /> Innovative Partner for Start-ups and Enterprises</p>
               <div className="mt-4">
-                <button onClick={toggleModal} className='b2b-btn b2b-btn-lg'> 
+                <button onClick={toggleModal} className='b2b-btn b2b-btn-sm  m-0'> 
                 
                 Request a Quote </button> 
               </div>
