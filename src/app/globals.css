@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities; */
 
- 
+
  body {
   font-family: 'Poppins', sans-serif !important;
 }
@@ -96,6 +96,10 @@ a.btn.btn-outline-primary {
 }
 .title_desc {
   font-size: 14px;
+}
+.b2b-sub-text-gk {
+  font-size: 18px;
+  font-weight: 300;
 }
 .bg_home{
 background:#111616;
@@ -769,31 +773,84 @@ span.menuIcon:before{
   overflow: hidden;
   height: 100%;
 }
-#collapsibleNavbar .menuInner:before,
-.menuLink .menuInner:before {
-  content: '';
-  width: 100%;
-  height: 200%;
-  position: absolute;
-  top: -30px;
-  left: 0;
-  transition: 0.8s;
+  #collapsibleNavbar .menuInner:before,
+  .menuLink .menuInner:before {
+    content: '';
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    transition: 0.8s;
+    background-image: url(../../public/img/wave1.svg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    opacity: .5;
+  }
+  #collapsibleNavbar .menuInner.b2b-lightBlue-bg:before,
+  .menuLink .menuInner.b2b-lightBlue-bg:before {
+    background-image: url(../../public/img/wave2.svg);
+  }
+  
+  .menuInner-gk {
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 100%;
+  }
+
+/* Odd elements */
+.footer-menue > .col-lg-4:nth-child(even) .menuInner-gk {
+  background-color: #C896FF !important;
   background-image: url(../../public/img/wave1.svg);
-  background-size: 100%;
-  background-position: bottom;
+
   background-repeat: no-repeat;
-  opacity: .5;
+  background-size: cover;
+  opacity: 1;
+  background-position: 50% 0%; 
+  transition: background-position 0.8s ease; 
 }
-#collapsibleNavbar .menuInner.b2b-lightBlue-bg:before,
-.menuLink .menuInner.b2b-lightBlue-bg:before {
-  background-image: url(../../public/img/wave2.svg);
+.footer-menue > .col-lg-4:nth-child(even) .menuInner-gk:hover {
+
+  background-position: 50% 300%; 
+
 }
+
+/* For odd elements */
+.footer-menue > .col-lg-4:nth-child(odd) .menuInner-gk {
+  background-color: #B6CCFF !important;
+  background-image: url(../../public/img/wave2.svg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  background-position: 50% 0%; 
+  transition: background-position 0.8s ease; 
+}
+
+.footer-menue > .col-lg-4:nth-child(odd) .menuInner-gk:hover {
+  background-position: 50% 300%; 
+}
+
+
+
+
+
+
+
 /* .menuInner.b2b-pink-bg:before{
   background-color: #b16af7;
 }
 .menuInner.b2b-lightBlue-bg:before{
   background-color: #88acff;
 } */
+
+
+
+/* important */
+
 .menuLink:hover .menuInner:before,
 #collapsibleNavbar .mega-menu a:hover .menuInner:before{
   top:-200%;
@@ -1039,6 +1096,11 @@ img.check_icon {
   width: 100%;
   overflow: hidden;
 }
+.animated-shopify {
+  height: calc(100vh - 200px);
+  width: 85%;
+  overflow: hidden;
+}
 .tabs_link {
   line-height: normal !important;
   margin-bottom: 15px;
@@ -1085,14 +1147,24 @@ img.name_latter {
   position: sticky;
   top: 93px;
 }
-.Typewriter span{
+/* .Typewriter span{
     background-clip: text;
     background-size: 200% 100%;
     background-position: 100%;
     background-image: linear-gradient(348deg, #7411E1 0%, #396BDB 100%);
     background-position: 0;
     -webkit-text-fill-color: transparent;
-}
+} */
+ 
+/* .gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  background-size: 200% 100%;
+  background-position: 0;
+  display: inline-block;
+} */
+
 
 body .request-form.fade .modal-dialog {
   transform: translate(150%,150%);
@@ -2371,6 +2443,11 @@ ul.nav.nav-pills.mb-3 {
   }
   .animated-imgs {
     height: 300px;
+  }
+  .animated-shopify {
+    height: 300px;
+    width: 100%;
+  
   }
   .bg_feedback{
     position: relative;

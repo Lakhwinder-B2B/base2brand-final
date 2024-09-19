@@ -26,7 +26,7 @@
     border: 0 !important;
     background-color: transparent !important;
 }
-.b2b-continue-btn:before {
+/* .b2b-continue-btn:before {
     content: '→';
     font-family: monospace;
     font-size: 36px;
@@ -38,10 +38,37 @@
     top: 49%;
     transform: translateY(-50%);
     transition: 0.5s;
-}
-.b2b-continue-btn:hover::before{
+} */
+ 
+ /* .b2b-continue-btn:hover::before{
     left: calc(100% + 15px);
+} */
+
+.b2b-continue-btn:before {
+    content: '→';
+    font-family: monospace;
+    font-size: 40px;
+    color: #396BDB;
+    font-weight: 400;
+    line-height: 34px;
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 49%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    animation: arrowMove 1s infinite alternate;
 }
+
+@keyframes arrowMove {
+    0% {
+        left: calc(100% + 10px);
+    }
+    100% {
+        left: calc(100% + 20px);
+    }
+}
+
+
 .b2b-btn-close {
     border-radius: 50% !important;
     background-color: #D9D9D9 !important;
@@ -106,9 +133,9 @@
 }
 .formServices input:checked+label,
 .formServices input+label:hover {
-    background-color: transparent;
-    border-color: #396BDB !important;
-    color: #396BDB;
+    background: linear-gradient(90deg, #7411e1, #396BDB);
+    border-style: none;
+    color: white;
 }
 .box-tab {
     max-width: 850px;
@@ -121,10 +148,21 @@
     visibility: hidden;
 }
 .formDescription  textarea {
-    width: 350px;
     border: 0 !important;
     border-bottom: 1px solid #D9D9D9 !important;
-    height: 80px;
+    color: #000;
+    height: 90px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.modal-dialog.modal-lg {
+    width: 100%;
+}
+.box-tab {
+    max-width: 850px;
+    width: 100%;
+    padding: 0 15px;
 }
 .formDescription  textarea:focus-visible {
     outline: 0 !important;

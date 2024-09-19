@@ -9,6 +9,14 @@ button.nav-link.btn_portfolio.active {
     padding: 9px 30px;
     border: 1px solid #396BDB !important;
 }
-.case_box img {
+/* .case_box img {
     width: 100%;
+    height: calc(436px - 15px);
+    object-fit: cover;
+    border-radius: 25px;
+    object-position: center;
+} */
+ .case_box img {
+    width: 100%;
+
 }

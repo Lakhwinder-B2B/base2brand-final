@@ -470,10 +470,14 @@ ul.counter-checklist li:before {
     border-color: rgba(42, 54, 156, 0.99);
 }
 .slider_right_main {
-    padding: 40px 0;
+    padding: 100px 0;
     position: sticky;
     top: 100px;
     background-color: #1f222f;
+}
+.image-meta {
+    width: 80%;
+    margin: 0 auto;
 }
 @media screen and (max-width:991px) {
     .counterWrap .counterInnerWrap:nth-child(odd){
@@ -487,4 +491,12 @@ ul.counter-checklist li:before {
     .slider-grid .single-img img.slider__item {
         min-height: 500px;
     } 
+    .slider_right_main {
+        padding: 50px 0;
+
+    }
+    .image-meta {
+        width: 70%;
+        margin: 0 auto;
+    }
 }

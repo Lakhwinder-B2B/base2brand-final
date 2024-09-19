@@ -210,7 +210,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                             </div>
                             <div className="box-tab box-tab-3 d-none">
                                 <h2>Quote</h2>
-                                <h3>Project description</h3>
+                                <h3 className="text-center">Project description</h3>
                                 <div className="formDescription mb-2 pb-2">
                                     <div>
                                         <textarea className="project_description" name="project_description" ></textarea>

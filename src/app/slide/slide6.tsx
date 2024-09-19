@@ -28,7 +28,7 @@ export default function home() {
                       src='/json/Development-shopify.json'
                       loop
                       autoplay
-                      className="animated-imgs panam"
+                      className=" panam animated-shopify"
                     />
                 </div>
               </div>

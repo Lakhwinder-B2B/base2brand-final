@@ -178,7 +178,7 @@ header .navbar ul.navbar-nav.main-menu li > a.active{
 }
 .dropdown-menu-right .menuInner{
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     column-gap: 10px;
     width: 100%;
     border-radius: 0 !important;
@@ -189,7 +189,8 @@ header .navbar ul.navbar-nav.main-menu li > a.active{
 }
 .phoneMenuIcon {
     width: 34px;
-    padding-top: 4px;
+    /* padding-top: 4px; */
+    margin-bottom: 0.5rem;
 }
 li.menuBtn {
     margin-right: 40px;
@@ -286,7 +287,7 @@ li.menuBtn a:hover span{
     z-index: -1;
     animation: 3s ease-out infinite ripple;
 }
-.dropdown-menu-right a .b2b-sub-text{
+/* .dropdown-menu-right a .b2b-sub-text{
     overflow: hidden !important;
     display: block;
     background-clip: text;
@@ -301,7 +302,22 @@ li.menuBtn a:hover span{
     background-position: 0;
     -webkit-text-fill-color: transparent;
     
+} */
+
+.dropdown-menu-right a .b2b-sub-text{
+    overflow: hidden !important;
+   color: #ffffff;
+
 }
+.dropdown-menu-right a:hover .b2b-sub-text{
+    color: #f47b52 !important; 
+}
+
+
+
+
+
+
 .navbar-toggler span.navbar-toggler-icon {
     background-image: unset;
     width: 30px;
@@ -418,10 +434,15 @@ li.menuBtn a:hover span{
         position: absolute !important;
         left: 0px !important;
         top: 3rem !important;
-        padding: 0px 15px !important;
-        min-width: 200px ;
+        right: 0 !important;
+        padding: 0px 10px !important;
+       width: 305px !important;
         background: #212529;
         border: 1px solid #ccc; 
+    }
+    li.mega-menu {
+        padding: 15px 15px !important;
+        background-color: rgb(17 22 22 / 92%);
     }
     .navbar-nav li.dropdown ul.dropdown-menu li.hover-menus a {
         color: #fff !important;

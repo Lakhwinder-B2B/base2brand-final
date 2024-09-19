@@ -123,7 +123,7 @@ useEffect(() => {
                   </div>
                   <div className="col-lg-3 mb-3">
                     <Link href="/digital-marketing">
-                      <div className="menuInner b2b-pink-bg">
+                      <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Digital Marketing</h3>
                           <div className='d-flex align-items-center justify-content-between'>
                             <p className='menuText mb-0'>Bespoke Brand Growth Strategies</p>
@@ -134,7 +134,7 @@ useEffect(() => {
                   </div>
                   <div className="col-lg-3 mb-3">
                     <Link href="/graphic">
-                      <div className="menuInner b2b-lightBlue-bg">
+                      <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Graphic &amp; UI/UX designing</h3>
                           <div className='d-flex align-items-center justify-content-between'>
                             <p className='menuText mb-0'>Creating Visual Solutions</p>
@@ -161,7 +161,7 @@ useEffect(() => {
                   </div>
                   <div className="col-lg-3 mb-3">
                     <Link href="/web-application">
-                      <div className="menuInner b2b-lightBlue-bg">
+                      <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Web Development</h3>
                           <div className='d-flex align-items-center justify-content-between'>
                             <p className='menuText mb-0'>Innovative apps for mobile devices</p>
@@ -172,7 +172,7 @@ useEffect(() => {
                   </div>
                   <div className="col-lg-3 mb-3">
                     <Link href='/app-development'>
-                      <div className="menuInner b2b-pink-bg">
+                      <div className="menuInner b2b-lightBlue-bg">
                           <h3 className='b2b-title-text text-black'>Mobile App Development</h3>
                           <div className='d-flex align-items-center justify-content-between'>
                             <p className='menuText mb-0'>Innovative apps for mobile devices</p>
@@ -219,7 +219,7 @@ useEffect(() => {
             <Link href="">
               <div className="menuInner b2b-blue-bg">
                 <div className='phoneMenuIcon'><img src={phone.src} alt="" /></div>
-                  <h3 className='b2b-title-text text-white'>Let&apos;s Connect with mobilecoderzb Team</h3>
+                  <h3 className='b2b-title-text text-white'>Let&apos;s Connect with Base2brand Team</h3>
               </div>
             </Link>
             </li>
@@ -232,18 +232,18 @@ useEffect(() => {
             
             </li>
             <li className='mega-menu'>
-            <Link href="">
+            <Link href="tel:+919872487850">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={india.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+91 9872487850</h3>
+                  <h3 className='b2b-sub-text-gk text-white'>+91 (987) 248 -7850</h3>
               </div>
             </Link>
             </li>
             <li className='mega-menu'>
-            <Link href="">
+            <Link href="mailto:hello@base2brand.com">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={mail.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>hello@base2brand.com</h3>
+                  <h3 className='b2b-sub-text-gk text-white'>hello@base2brand.com</h3>
               </div>
             </Link>
             </li>
@@ -256,34 +256,34 @@ useEffect(() => {
             
             </li>
             <li className='mega-menu'>
-            <Link href="">
+            <Link href="https://wa.me/919041700209">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={whatsapp.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+91 9041700209</h3>
+                  <h3 className='b2b-sub-text-gk text-white'>+91 (904) 170-0209</h3>
               </div>
             </Link>
             </li>
-            <li className='mega-menu'>
+            {/* <li className='mega-menu'>
             
               <div className="menuInner border-bottom pt-3">
                 <div className='phoneMenuIcon'></div>
                   <h3 className='b2b-title-text text-white text-uppercase'>others</h3>
               </div>
             
-            </li>
+            </li> */}
             <li className='mega-menu'>
-            <Link href="">
+            <Link href="tel:+17209035933">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={usa.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+1 (720) 903-5933</h3>
+                  <h3 className='b2b-sub-text-gk text-white'>+1 (720) 903-5933</h3>
               </div>
             </Link>
             </li>
             <li className='mega-menu'>
-            <Link href="">
+            <Link href="tel:+447552535341">
               <div className="menuInner align-items-center">
                 <div className='phoneMenuIcon'><img src={uk.src} alt="" /></div>
-                  <h3 className='b2b-sub-text text-white'>+44 7552 535341</h3>
+                  <h3 className='b2b-sub-text-gk text-white'>+44 (755) 253-5341</h3>
               </div>
             </Link>
             </li>

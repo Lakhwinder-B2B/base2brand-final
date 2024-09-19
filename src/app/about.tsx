@@ -77,7 +77,7 @@ useCountUp({
 
   const renderImages = (category) => (
     images[category].map(({ src, alt, width, height }, index) => (
-      <div key={index} className="p-0 m-1 col">
+      <div key={index} className="p-0 m-1 col" >
         <Image src={src} alt={alt} width={width} height={height} />
       </div>
     ))
@@ -95,9 +95,9 @@ useCountUp({
           <h2 className="b2b-main-heading" data-aos="fade-up-right">Technologies we use</h2> 
           <h3 className="b2b-title-text" data-aos="fade-up-right" data-aos-delay="300">We use cutting-edge technologies to craft fully automated solutions</h3>
         </div>
-        <div className="row pt-4">
+        <div className="row pt-4 "  >
           <div className="btn-col col-lg-5">
-            <div className="nav flex-column nav-pills me-3 gap-lg-5 gap-md-4 gap-2 gap-md-3 btn-col" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <div className="nav flex-column nav-pills me-3 gap-lg-5 gap-md-4 gap-2 gap-md-3 btn-col" id="v-pills-tab" role="tablist" aria-orientation="vertical" >
               {Object.keys(images).map((key) => (
                 <button
                   key={key}
@@ -110,6 +110,7 @@ useCountUp({
                   aria-controls={`v-pills-${key}`}
                   aria-selected={key === activeTab}
                   onClick={() => setActiveTab(key)}
+                  
                 >
                   {key.toUpperCase()}
                 </button>

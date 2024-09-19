@@ -435,7 +435,7 @@ export default function Team() {
                   </div>
                   <div className="col-xl-4 col-lg-4 col-md-6 mb-3" data-aos="zoom-in-up" data-aos-delay="300">
                     <a className="menuLink" href="/career">
-                      <div className="menuInner b2b-lightBlue-bg">
+                      <div className="menuInner b2b-pink-bg">
                           <h3 className='b2b-title-text text-black'>Career</h3>
                           <div className='d-flex align-items-center justify-content-between'>
                             <p className='menuText mb-0'>Can you offer such<br /> experience?</p>

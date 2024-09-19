@@ -9,9 +9,15 @@
     mask-composite: exclude;
 } */
 
-.blog_section.bg-dark {
+/* .blog_section.bg-dark {
     border: 2px solid;
     border-radius: 5px;
+} */
+.blog_section.bg-dark {
+    border: 2px solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: #1f222f !important;
 }
 /* img.blog_recent {
     width: 130px;
@@ -59,15 +65,18 @@ p.blog_desc {
     font-size: 14px;
 }
 img.blog {
-    border-radius:  0px;
+    border-radius: 0px;
     height: 295px;
     width: 100%;
+    object-fit: cover;
 }
 img.awwow {
     width: 20px;
 }
 p.date {
     color: #ccc;
+    font-size:13px;
+    font-weight: 500;
 }
 p.blog_desc.mb-5 {
     font-size: 20px;
