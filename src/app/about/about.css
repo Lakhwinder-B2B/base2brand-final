@@ -258,7 +258,12 @@ span.slide-number {
 }
 .tabs_section .tabsLink {
     position: sticky;
-    top: 150px;
+    top: 295px;
+}
+.pt-5.b2b-black-bg {
+    position: sticky;
+    top: 100px;
+    z-index: 9;
 }
 .about-gif {
     width: 100%;
