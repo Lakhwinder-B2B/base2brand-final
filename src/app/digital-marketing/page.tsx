@@ -53,7 +53,13 @@ import Image from 'next/image';
 
 
 // gif changes 
-import MetaAds from "../../../public/img/Digitalmarketingigif/seo.gif"
+import MetaAds from "../../../public/img/Digitalmarketingigif/metasdds.gif"
+import googleadd from "../../../public/img/Digitalmarketingigif/googleadd.gif"
+import seo from "../../../public/img/Digitalmarketingigif/SEO.gif"
+
+
+import EmailMarketing from "../../../public/img/Digitalmarketingigif/emailmarketing.gif"
+import Ecommerce from "../../../public/img/Digitalmarketingigif/ecommerse.gif"
 
 export default function Digital() {
   const [showModal, setShowModal] = useState(false);
@@ -188,7 +194,7 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                  <Image className='MetaAds_img' src={MetaAds}  alt=''/>
+                  <Image className='MetaAds_img' src={googleadd}  alt=''/>
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/Google Ads JSON.json'
@@ -215,7 +221,7 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                  <Image className='MetaAds_img' src={MetaAds}  alt=''/>
+                  <Image className='MetaAds_img' src={seo}  alt=''/>
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/SEO JSON.json'
@@ -241,7 +247,7 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                  <Image className='MetaAds_img' src={MetaAds}  alt=''/>
+                  {/* <Image className='MetaAds_img' src={}  alt=''/> */}
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/CRO JSON.json'
@@ -267,7 +273,7 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                            <Image className='MetaAds_img' src={MetaAds}  alt=''/>
+                            <Image className='MetaAds_img' src={EmailMarketing}  alt=''/>
                             </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/Email Marketing JSON.json'
@@ -293,7 +299,7 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                  <Image className='MetaAds_img' src={MetaAds}  alt=''/>
+                  <Image className='MetaAds_img' src={Ecommerce}  alt=''/>
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/E Commerce JSON.json'
