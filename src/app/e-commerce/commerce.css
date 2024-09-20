@@ -51,7 +51,7 @@
 }
 .box-nav {
     position: absolute;
-    width: 40px;
+    width: 40px !important;
     height: 40px;
     background-color: #B6CCFF;
     display: grid;

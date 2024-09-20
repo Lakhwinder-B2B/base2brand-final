@@ -32,7 +32,7 @@ export default function services() {
                         <div><img src={s1.src} className="imgIcon" alt="" />
                         <h3 className=' b2b-sub-heading'>Consultation and Planning</h3> </div>
                         <p className='b2b-text mb-0'>Thorough consultations gather business goals, target audience, and needs, followed by meticulous planning for transparent, successful project outcomes.</p>
-                        <a href="" className='box-nav'><span></span></a>
+                       <span className='box-nav'><span></span></span>
                       </div>
                     </div>
                   </div>

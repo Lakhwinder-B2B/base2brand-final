@@ -41,7 +41,7 @@ default function WebApplication() {
                  <p className="text-white col-12 col-sm-12 col-md-12 m-auto">
                  Our web development service offers tailored digital solutions through a collaborative team approach. We align our strategies with your project goals to create innovative websites that engage your audience effectively.</p>
                  <div className="service-btn d-flex flex-wrap mt-3 w-100">
-                  <button onClick={toggleModal} className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
+                  <button onClick={toggleModal} className="b2b-btn b2b-btn-sm  m-0" >Request a Quote</button>
                  </div>
               </div>
               <div className="col-12 col-sm-12 col-md-6 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
