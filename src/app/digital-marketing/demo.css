@@ -1,0 +1,31 @@
+/* styles/VerticalSlider.module.css */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  scroll-snap-type: y mandatory;
+}
+
+.slide {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: opacity 0.5s ease;
+  scroll-snap-align: start;
+  position: sticky;
+  top: 0;
+  background-color: white; /* Change as needed */
+  color: black; /* Change as needed */
+}
+
+.active {
+  filter: none;
+}
+
+.slide:not(.active) {
+  filter: blur(4px);
+}
