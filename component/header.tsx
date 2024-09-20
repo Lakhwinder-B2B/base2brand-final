@@ -219,7 +219,7 @@ useEffect(() => {
             <Link href="">
               <div className="menuInner b2b-blue-bg">
                 <div className='phoneMenuIcon'><img src={phone.src} alt="" /></div>
-                  <h3 className='b2b-title-text text-white'>Let&apos;s Connect with Base2brand Team</h3>
+                  <h4 className='b2b-title-text text-white'>Let&apos;s Connect with Base2brand Team</h4>
               </div>
             </Link>
             </li>
@@ -227,7 +227,7 @@ useEffect(() => {
             
               <div className="menuInner border-bottom pt-3">
                 <div className='phoneMenuIcon'></div>
-                  <h3 className='b2b-title-text text-white text-uppercase'>for sales inquiry</h3>
+                  <h4 className='b2b-title-text text-white text-uppercase'>for sales inquiry</h4>
               </div>
             
             </li>
@@ -251,7 +251,7 @@ useEffect(() => {
             
               <div className="menuInner border-bottom pt-3">
                 <div className='phoneMenuIcon'></div>
-                  <h3 className='b2b-title-text text-white text-uppercase'>for quick connect :</h3>
+                  <h4 className='b2b-title-text text-white text-uppercase'>for quick connect :</h4>
               </div>
             
             </li>

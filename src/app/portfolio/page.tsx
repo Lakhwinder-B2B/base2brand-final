@@ -42,6 +42,7 @@ import Typewriter from 'typewriter-effect';
 import Footer from "../../../component/footer";
 import "./portfolio.css";
 import Request from "../request-form";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 export default function Portfolio() {
   const [showModal, setShowModal] = useState(false);
@@ -64,8 +65,30 @@ export default function Portfolio() {
   return (
     <>
       <Header />
+      <div className="service-banner b2b-black-bg" >
+          <div className="container mx-auto">
+            <div className="row flex-wrap align-items-center m-auto"> 
+              <div className="col-12 col-sm-12 col-md-7 " data-aos="fade-up" >
+                 <h1 className=" mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">Welcome to our Portfolio</h1>
+                 <p className="text-white col-12 col-sm-12 col-md-10">
+                 What sets us apart is the inspiring, creative people behind us; they are the soul of our company. Here, we proudly display the results of our hard work and dedication.</p>
+                 <div className="service-btn d-flex flex-wrap mt-3 w-100">
+                  <button className="b2b-btn b2b-btn-lg m-0" onClick={toggleModal}>Request a Quote</button>
+                 </div>
+              </div>
+              <div className="col-12 col-sm-12 col-md-5 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
+              <DotLottieReact
+                  src='/json/Portfolio banner.json'
+                  loop
+                  autoplay
+                  className="animated-imgs animated-banner-img"
+                />
+              </div>
+            </div>
+          </div> 
+        </div>
       <div className="b2b-black-bg">
-        <div className="py-5">
+        {/* <div className="py-5">
           <div className="w-100">
             <div className="col-md-6 text-center text-white mt-5 m-auto mb-5 px-5">
               <h1 className="text-uppercase b2b-heading">Welcome to our Portfolio</h1>
@@ -73,7 +96,7 @@ export default function Portfolio() {
               <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0">Request a Quote</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="work-gallery" style={{ backgroundImage: `url(${radialLeft.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
           <div className="w-100 pt-3">

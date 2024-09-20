@@ -472,6 +472,8 @@ a.b2b-btn{
 }
 footer.footer {
   background-color: #111616;
+  position: relative;
+  z-index: 3;
 }
 .hoverGradient{
   position: relative;

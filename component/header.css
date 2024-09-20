@@ -192,6 +192,9 @@ header .navbar ul.navbar-nav.main-menu li > a.active{
     /* padding-top: 4px; */
     margin-bottom: 0.5rem;
 }
+.b2b-sub-text-gk:hover{
+    color: #F47B52 !important;
+  }
 li.menuBtn {
     margin-right: 40px;
     padding: 0 !important;
