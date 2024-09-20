@@ -26,6 +26,7 @@ import Brand22 from '../../public/brand/brand22.svg';
 import Brand23 from '../../public/brand/brand23.svg';
 import './our-project.css'
 import Slider from "react-slick";
+import Marquee from "react-fast-marquee";
 
 interface BrandProps {
   heading?: string;
@@ -75,6 +76,9 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
       }
     ]
   };
+
+
+
   return (
     <>
       <div className={`w-100 b2b-brands-wrap radialGradient  ${bgcolor === "b2b-gray-bg" ? "b2b-white-bg" : "BG-RED "}`} >
@@ -83,7 +87,7 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
             {heading}
           </h3>
           <div className="logo_brand" data-aos="fade-up" data-aos-delay="300">
-            <Slider {...settings} className="w-100">
+          <Marquee>
               <div>
               <img className="logo_brands" src={Brand1.src} alt="Logo" />
               </div>
@@ -185,7 +189,7 @@ export default function Brand({ heading, bgcolor, color }: BrandProps) {
               <img className="logo_brands" src={Brand23.src} alt="Logo" />
               </div>
 
-            </Slider>
+              </Marquee>
  
           </div>
         </div>

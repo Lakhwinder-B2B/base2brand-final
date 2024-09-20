@@ -45,6 +45,7 @@ import checkCircle from "../../../public/digital/check-circle.svg";
 
 import radialRight from '../../../public/img/radial-right.svg'; 
 import Faq from "./faq"; 
+import Demo from "./demo"; 
 
 import Slider from 'react-slick';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
@@ -147,10 +148,10 @@ export default function Digital() {
               </div>
             </div>
           </div>
+                  {/* <Demo /> */}
           <div className="main_gallery" data-aos="fade-up">
               <div className="b2b-container-lg">
                 <div className="gallery_slider">
-                  
                   <div className="right_slider m-auto">
                     
                         <div className='slider_right_main'>

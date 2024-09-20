@@ -31,6 +31,8 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: ${{ secrets.LIVE_PATH }}
+          SOURCE: "*"
+          EXCLUDE: "/.git/"
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
