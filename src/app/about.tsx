@@ -158,7 +158,7 @@ useCountUp({
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-achievements-wrap'>
                       <div><img src={yrInIndustury.src} /></div>
                       <div className='ms-2 w-100'>
-                        <h2 className='text-white text-center'><CountUp end={10} enableScrollSpy />
+                        <h2 className='text-white text-center'><CountUp end={5} enableScrollSpy />
                         +</h2>
                         <p className='text-white text-center'>Years of IT Industury</p>
                       </div>

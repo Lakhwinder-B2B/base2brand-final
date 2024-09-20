@@ -40,6 +40,13 @@ export default function FooterMap() {
             if (response.ok) {
                 // Handle success, maybe show a success message
                 toast.success('Form submitted successfully'); 
+                setFormData({
+                    name: '',
+                    email: '',
+                    phoneNo: '',
+                    service: 'web development', // reset to default selected value 
+                    message: ''
+                });
             } else { 
                 toast.error('Failed to submit form');
             }

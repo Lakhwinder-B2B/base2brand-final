@@ -18,6 +18,8 @@
     border-radius: 25px;
     overflow: hidden;
     background: #1f222f !important;
+    position: sticky;
+    top: 125px;
 }
 /* img.blog_recent {
     width: 130px;

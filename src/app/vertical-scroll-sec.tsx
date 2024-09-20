@@ -15,15 +15,17 @@ export default function HorizontalScroll() {
     <div className='slider_vertical'>
      
       <section className='stickySection slideswrap slide_data text-center text-white slide_height'>
-        <h1>What sets <br /> us apart  </h1> 
+        <h1>What sets <br /> us apart  ? </h1> 
         </section>
       <section className='stickySection slideswrap slide_data1 pt-5'>
         <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <p className='heading_why'>Why Choose Us</p>
-            <h2 className='desc_slide'>Excellence in every line of <br /> code,  from ideation to <br /> implementation.</h2>
-            <p className='our_border mt-4'>Our area of expertise is enterprise software development, and we use our knowledge of Python, Java, and mobile app development to transform creative concepts into functional software. We bring a plethora of experience and expertise to the table with our offshore team of talented developers, achieving results with state-of-the-art technology and meticulous attention to detail.</p>
+            <p className='heading_why'>Why Choose Us ?</p>
+            <h2 className='desc_slide'>From ideation to implementation, <br /> we provide excellence in every <br /> strategy and line of code.
+            </h2>
+            <p className='our_border mt-4'>We specialize in enterprise software development, utilizing our expertise in Python, Java, and mobile app development to turn innovative ideas into fully functional software solutions. In addition to software development, we offer comprehensive digital marketing services, helping businesses grow their online presence and achieve measurable success through tailored strategies and the latest marketing tools.
+            </p>
           </div>
           <div className="col-md-6">
             <div className="client_descs d-flex gap-5 mb-4">
@@ -75,12 +77,12 @@ export default function HorizontalScroll() {
                   </div>
 
                   <div className="number_pro">
-                    <h4 className='b2b-sub-heading-bold text-dark'>200+</h4>
+                    <h4 className='b2b-sub-heading-bold text-dark'>50+</h4>
                     <small className='b2b-sub-text text-dark'>Employees</small>
                   </div>
 
                   <div className="number_pro">
-                    <h4 className='b2b-sub-heading-bold text-dark'>9+</h4>
+                    <h4 className='b2b-sub-heading-bold text-dark'>5+</h4>
                     <small className='b2b-sub-text text-dark'>Years Experience</small>
                   </div>
                 </div>

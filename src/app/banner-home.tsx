@@ -31,7 +31,7 @@ export default function HomeBanner() {
           <div className="row align-items-center">
             <div className="col-md-7">
               <div className="typewriterWrap d-flex align-items-center gap-2">
-                <h2 className="sub_heading">Build your</h2>
+                <h1 className="sub_heading">Build your</h1>
                 <div>
                   <Typewriter
                     options={{
@@ -46,9 +46,9 @@ export default function HomeBanner() {
                   />
                 </div>
               </div>
-              <h2 className="sub_heading">
+              <h1 className="sub_heading">
                 with flawless technology, <br /> design, and execution
-              </h2>
+              </h1>
               <p className="sub_text text-white mt-4">
                 Let&apos;s Build something Digital together, We are Leading{" "}
                 <br /> Innovative Partner for Start-ups and Enterprises

@@ -345,7 +345,7 @@ export default function Digital() {
                       <li data-aos="fade-up" data-aos-delay="300">Convert the funds you have invested into a priceless asset.</li>
                   </ul>
                   <div className='mt-5' data-aos="fade-up" data-aos-delay="300">
-                    <a className='b2b-btn b2b-btn-sm'>Read More</a>
+                    <a className='b2b-btn b2b-btn-sm'  onClick={toggleModal}>Request a Quote</a>
                   </div>
                 </div>
               </div>

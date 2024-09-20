@@ -6,14 +6,15 @@ import design3 from '../../../public/web-app/design3.svg';
 import design4 from '../../../public/web-app/design4.svg'; 
 import design5 from '../../../public/web-app/design5.svg'; 
 import design6 from '../../../public/web-app/design6.svg'; 
+import Image from "next/image";
 
-
-import WEB_STRATEGY from '../../../public/web-app/WEB_STRATEGY.svg'; 
-import PLANNING_INFORMATION from '../../../public/web-app/PLANNING_INFORMATION.svg'; 
-import CREATIVE_DESIGN from '../../../public/web-app/CREATIVE_DESIGN.svg'; 
-import RESPONSIVE_DEVELOPMENT from '../../../public/web-app/RESPONSIVE_DEVELOPMENT.svg'; 
-import QUALITY_ASSURANCE from '../../../public/web-app/QUALITY_ASSURANCE.svg'; 
-import LAUNCH_OPTIMIZATION from '../../../public/web-app/LAUNCH_OPTIMIZATION.svg';
+// import WEB_STRATEGY from '../../../public/web-app/WEB_STRATEGY.svg'; 
+// import PLANNING_INFORMATION from '../../../public/web-app/PLANNING_INFORMATION.svg'; 
+// import CREATIVE_DESIGN from '../../../public/web-app/CREATIVE_DESIGN.svg'; 
+// import RESPONSIVE_DEVELOPMENT from '../../../public/web-app/RESPONSIVE_DEVELOPMENT.svg'; 
+// import QUALITY_ASSURANCE from '../../../public/web-app/QUALITY_ASSURANCE.svg'; 
+// import LAUNCH_OPTIMIZATION from '../../../public/web-app/LAUNCH_OPTIMIZATION.svg';
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 import Slider from 'react-slick';
 
@@ -50,32 +51,32 @@ export default function MobileTabs() {
                       >
                             <a>
                                 <button className=" active btn_design" id="pill1-tab" data-bs-toggle="pill" data-bs-target="#pill1" type="button" role="tab" aria-controls="pill1" aria-selected="true">
-                                    <span><img src={design1.src} alt="" /></span>
+                                <span>  <Image src={design1} alt="" /></span>
                                 </button>
                             </a>
                             <a>
                                 <button className=" active btn_design" id="pill2-tab" data-bs-toggle="pill" data-bs-target="#pill2" type="button" role="tab" aria-controls="pill2" aria-selected="false">
-                                   <span><img src={design2.src} alt="" /></span>
+                                <span>  <Image src={design2} alt="" /></span>
                                 </button>
                             </a>
                             <a>
                                 <button className="active btn_design" id="pill3-tab" data-bs-toggle="pill" data-bs-target="#pill3" type="button" role="tab" aria-controls="pill3" aria-selected="false">
-                                    <span><img src={design3.src} alt="" /></span>
+                                <span>  <Image src={design3} alt="" /></span>
                                 </button>
                             </a>
                             <a>
                                 <button className="active btn_design" id="pill4-tab" data-bs-toggle="pill" data-bs-target="#pill4" type="button" role="tab" aria-controls="pill4" aria-selected="false">
-                                    <span><img src={design4.src} alt="" /></span>
+                                <span>  <Image src={design4} alt="" /></span>
                                 </button>
                             </a>
                             <a>
                                 <button className="active btn_design" id="pill5-tab" data-bs-toggle="pill" data-bs-target="#pill5" type="button" role="tab" aria-controls="pill5" aria-selected="false">
-                                    <span><img src={design5.src} alt="" /></span>
+                                <span>  <Image src={design5} alt="" /></span>
                                 </button>
                             </a>
                             <a>
                                 <button className="active btn_design" id="pill6-tab" data-bs-toggle="pill" data-bs-target="#pill6" type="button" role="tab" aria-controls="pill6" aria-selected="false">
-                                    <span><img src={design6.src} alt="" /></span>
+                                <span>  <Image src={design6} alt="" /></span>
                                 </button>
                             </a>
                             </Slider>
@@ -113,7 +114,12 @@ export default function MobileTabs() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6">
-                                            <img src={WEB_STRATEGY.src} alt="" />
+                                        <DotLottieReact
+                                            src="/json/web developement/Web Strategy.json"
+                                            loop
+                                            autoplay
+                                            className="animated-imgs  animated-banner-img"
+                                            />
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +139,12 @@ export default function MobileTabs() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6">
-                                            <img src={PLANNING_INFORMATION.src} alt="" />
+                                        <DotLottieReact
+                                            src="/json/web developement/Planning.json"
+                                            loop
+                                            autoplay
+                                            className="animated-imgs  animated-banner-img"
+                                            />
                                         </div>
                                     </div>
                                 </div> 
@@ -152,7 +163,12 @@ export default function MobileTabs() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6">
-                                            <img src={CREATIVE_DESIGN.src} alt="" />
+                                        <DotLottieReact
+                                            src="/json/web developement/Creative.json"
+                                            loop
+                                            autoplay
+                                            className="animated-imgs  animated-banner-img"
+                                            />
                                         </div>
                                     </div>
                             </div>
@@ -170,7 +186,12 @@ export default function MobileTabs() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6">
-                                            <img src={RESPONSIVE_DEVELOPMENT.src} alt="" />
+                                        <DotLottieReact
+                                            src="/json/web developement/Responsive.json"
+                                            loop
+                                            autoplay
+                                            className="animated-imgs  animated-banner-img"
+                                            />
                                         </div>
                                     </div>
                             </div>
@@ -188,7 +209,12 @@ export default function MobileTabs() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6">
-                                            <img src={QUALITY_ASSURANCE.src} alt="" />
+                                        <DotLottieReact
+                                            src="/json/web developement/QualityAssurance.json"
+                                            loop
+                                            autoplay
+                                            className="animated-imgs  animated-banner-img"
+                                            />
                                         </div>
                                     </div>
                             </div>
@@ -206,7 +232,13 @@ export default function MobileTabs() {
                                             </ul>
                                         </div>
                                         <div className="col-md-6">
-                                            <img src={LAUNCH_OPTIMIZATION.src} alt="" />
+                                        
+                                            <DotLottieReact
+                                            src="/json/web developement/Launch.json"
+                                            loop
+                                            autoplay
+                                            className="animated-imgs  animated-banner-img"
+                                            />
                                         </div>
                                     </div>
                             </div>

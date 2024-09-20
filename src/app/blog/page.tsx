@@ -12,6 +12,7 @@ import "./blog.css";
 import { useRouter } from "next/navigation";
 import awwor from "../../../public/img/arrow.svg";
 import Image from "next/image";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 interface BlogItem {
   id: string;
@@ -45,11 +46,12 @@ function Home() {
     fetchData();
   }, []);
 
+
   return (
     <>
       <Header />
-      <div className="bgblack">
-        <div
+
+        {/* <div
           className="  pt-5"
           style={{
             backgroundImage: `url(${blog.src})`,
@@ -72,12 +74,36 @@ function Home() {
               <p className="mb-5 mt-4 fs-4">
                 The latest in IT Trends, Strategies and Tips.
               </p>
-              {/* <button className="btn btn-outline-primary"> 
-            <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> 
-            Request a Quote </button> */}
+          
             </div>
           </div>
-        </div>
+        </div> */}
+
+<div className="service-banner b2b-black-bg" >
+          <div className="container mx-auto">
+            <div className="row flex-wrap align-items-center m-auto"> 
+              <div className="col-12 col-sm-12 col-md-7 " data-aos="fade-up" >
+                 <h1 className=" mb-md-3 mb-2 b2b-sub-heading-bold text-uppercase">Our Recent Blogs</h1>
+                 <p className="text-white col-12 col-sm-12 col-md-10">
+                 The latest in IT Trends, Strategies and Tips.
+                </p>
+                 <div className="service-btn d-flex flex-wrap mt-3 w-100">
+                 <button className="b2b-btn b2b-btn-lg m-0" >Request a Quote</button>
+                 {/* onClick={toggleModal} */}
+                 </div>
+              </div>
+              <div className="col-12 col-sm-12 col-md-5 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
+              <DotLottieReact
+                  src='/json/Blogs banner.json'
+                  loop
+                  autoplay
+                  className="animated-imgs animated-banner-img"
+                />
+              </div>
+            </div>
+          </div> 
+     
+
 
         <div className="container-fluid p-5 pb-5">
           <div className="row text-white mb-5 pb-5">
@@ -134,7 +160,7 @@ function Home() {
           </div>
         </div>
         <Footer />
-      </div>
+        </div>
     </>
   );
 }

@@ -299,11 +299,11 @@ export default function AboutUs() {
               </div>
           
          
-            <div className="pt-5 b2b-black-bg">
+              <div className="pt-5 b2b-black-bg position-sticky" style={{ top: '87px', zIndex: '1' }}>
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-12'>
-                    <h2 className='b2b-main-heading text-center mb-5' data-aos="fade-up" >Reasons to collaborate<br />with Base2Brand</h2>
+                    <h2 className='b2b-main-heading text-center mb-5'  >Reasons to collaborate<br />with Base2Brand</h2>
                   </div>
                 </div>
               </div>
@@ -360,7 +360,7 @@ export default function AboutUs() {
 
             
             </div>
-              <div className="b2b-black-bg pb-3 pt-5" style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
+              <div className="b2b-black-bg pb-3 pt-5 position-relative z-3  " style={{ backgroundImage: `url(${radialRight.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'bottom right'}}>
                 <div className="container p-lg-5 p-4">
                   <div className="row">
                     <div className="col-xxl-10 col-xl-10 col-lg-9 col-md-12 mx-auto" data-aos="fade-up" data-aos-delay="300">
