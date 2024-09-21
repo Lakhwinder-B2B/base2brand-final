@@ -53,7 +53,7 @@ import Image from 'next/image';
 
 
 // gif changes 
-import MetaAds from "../../../public/img/Digitalmarketingigif/seo.gif"
+import MetaAds from "../../../public/img/Digitalmarketingigif/SEO.gif"
 
 export default function Digital() {
   const [showModal, setShowModal] = useState(false);
