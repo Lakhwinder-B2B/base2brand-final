@@ -72,7 +72,7 @@ export default function BigCommence() {
     <>
 
       <Header />
-      <div className="bg-black">
+      <div className="bg-black tab-btn">
         <div className="service-banner" >
           <div className="container mx-auto">
             <div className="row d-flex flex-wrap align-items-center  m-auto">
@@ -115,7 +115,7 @@ export default function BigCommence() {
             <div className="row mb-5">
               <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="hoverGradient blueGD">
-                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap  mobile-w">
                     <div className="me-lg-3 me-md-1 me-3"><img src={Icon1.src} alt="IOS App Development" /></div>
                     <h3 className="b2b-sub-text ml-3 mb-0">IOS App<br />Development</h3>
                   </div>
@@ -123,7 +123,7 @@ export default function BigCommence() {
               </div>
               <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="hoverGradient blueGD">
-                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap  mobile-w">
                     <div className="me-lg-3 me-md-1 me-3"><img src={Icon2.src} alt="Android App Development" /></div>
                     <h3 className="b2b-sub-text ml-3 mb-0">Android App<br />Development</h3>
                   </div>
@@ -131,7 +131,7 @@ export default function BigCommence() {
               </div>
               <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="hoverGradient blueGD">
-                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap  mobile-w">
                     <div className="me-lg-3 me-md-1 me-3"><img src={Icon3.src} alt="React Native App Development" /></div>
                     <h3 className="b2b-sub-text ml-3 mb-0">React Native App<br />Development</h3>
                   </div>
@@ -139,7 +139,7 @@ export default function BigCommence() {
               </div>
               <div className="col-lg-3 col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="hoverGradient blueGD">
-                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap">
+                  <div className="d-flex h-100 align-items-center b2b-black-bg b2b-achievements-wrap  mobile-w">
                     <div className="me-lg-3 me-md-1 me-3"><img src={Icon4.src} alt="Flutter App Development" /></div>
                     <h3 className="b2b-sub-text ml-3 mb-0">Flutter App<br />Development</h3>
                   </div>

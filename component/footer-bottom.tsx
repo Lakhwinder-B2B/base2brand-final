@@ -45,6 +45,12 @@ export default function FooterBottom() {
               >
                 <img src={Linkedin.src} className="SocialIcon" alt="Linkedin" />{" "}
               </a>
+              <a
+                href="https://www.youtube.com/channel/UCEHsjR1TFlEfsbcYQPlLW4Q"
+                target="_blank"
+              >
+                <img src={Youtube.src} className="SocialIcon" alt="Youtube" />{" "}
+              </a>
               
               {/* <a href="https://maps.app.goo.gl/xMquw6oWpdiJwLBh8"><img src={Googlemap.src} className="SocialIcon" alt="Googlemap"/> </a> */}
             </div>
@@ -52,7 +58,7 @@ export default function FooterBottom() {
           <div className="mb-sm-0 mb-4 footerMenu">
             <h5>Working Hours:</h5>
             <ul className="mb-0">
-              <li>Mon-Fri: 9 am- 6 pm</li>
+              <li>Mon-Fri: 11 am- 8 pm</li>
               <li>Sat-Sun: Holiday</li>
             </ul>
           </div>
@@ -87,7 +93,9 @@ export default function FooterBottom() {
       </div>
       <div className="text-center p-3">
         <p className="m-0 text-white">
-          ©2024 base2brand.com .All rights reserved{" "}
+        © 2024 All rights reserved |  <Link className="text-white" href="/"> Base2brand</Link> |  <Link className="text-white" href="/disclaimer"> Disclaimer</Link> | 
+        <Link className="text-white" href="/privacy-policy"> Privacy Policy</Link>
+       
         </p>
       </div>
     </>

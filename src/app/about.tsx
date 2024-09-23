@@ -155,7 +155,7 @@ useCountUp({
             <div className='b2b-container-lg'>
               <div className='row progress-count d-flex flex-wrap justify-content-between'>
                 <div className="count-col">
-                  <div className='d-flex h-100 align-items-center justify-content-between b2b-achievements-wrap'>
+                  <div className='d-flex h-100 align-items-center justify-content-between b2b-achievements-wrap '>
                       <div><img src={yrInIndustury.src} /></div>
                       <div className='ms-2 w-100'>
                         <h2 className='text-white text-center'><CountUp end={5} enableScrollSpy />
@@ -169,7 +169,7 @@ useCountUp({
                   <div className='d-flex h-100 align-items-center justify-content-between b2b-achievements-wrap'>
                       <div><img src={projects.src} /></div>
                       <div className='ms-2 w-100'>
-                        <h2 className='text-white text-center'><CountUp end={500} enableScrollSpy />+</h2>
+                        <h2 className='text-white text-center'><CountUp end={250} enableScrollSpy />+</h2>
                         <p className='text-white text-center'>Successfull Project</p>
                       </div>
                   </div>

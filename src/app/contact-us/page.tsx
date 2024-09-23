@@ -209,7 +209,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                     </div>
                                     <div>
                                         <img src={starRating.src} className="starImg" alt="" />
-                                        <span>26 Review</span>
+                                        <span> 85 Review</span>
                                     </div>
                                 </div>
                             </div>

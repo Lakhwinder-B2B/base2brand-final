@@ -911,8 +911,9 @@ services pages */
         height: auto;
     }
     .deliverable-step-outer {
-        width: 259px;
+        /* width: 259px; */
         padding-left: 30px;
+        width: 100%;
     }
     .deliverable-icon {
         width: 80px;

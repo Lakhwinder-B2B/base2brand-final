@@ -45,7 +45,7 @@ import checkCircle from "../../../public/digital/check-circle.svg";
 
 import radialRight from '../../../public/img/radial-right.svg'; 
 import Faq from "./faq"; 
-import Demo from "./demo"; 
+import DemoPage  from "./DemoPage"; 
 
 import Slider from 'react-slick';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
@@ -57,6 +57,7 @@ import MetaAds from "../../../public/img/Digitalmarketingigif/metasdds.gif"
 import googleadd from "../../../public/img/Digitalmarketingigif/googleadd.gif"
 import seo from "../../../public/img/Digitalmarketingigif/SEO.gif"
 
+import cro from "../../../public/img/Digitalmarketingigif/cro.gif"
 
 import EmailMarketing from "../../../public/img/Digitalmarketingigif/emailmarketing.gif"
 import Ecommerce from "../../../public/img/Digitalmarketingigif/ecommerse.gif"
@@ -100,7 +101,8 @@ export default function Digital() {
                  <p className="text-white col-12 col-sm-12 col-md-10">
                  Improve Your Online Presence with Our Proven Digital Marketing Strategies. Partner with us for digital marketing excellence</p>
                  <div className="service-btn d-flex flex-wrap mt-3 w-100">
-                  <button className="b2b-btn b2b-btn-lg m-0" onClick={toggleModal}>Request a Quote</button>
+                  <button className="b2b-btn b2b-btn-sm" onClick={toggleModal}>Request a Quote</button>
+                  {/* b2b-btn b2b-btn-lg m-0 */}
                  </div>
               </div>
               <div className="col-12 col-sm-12 col-md-5 d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up" >
@@ -154,7 +156,7 @@ export default function Digital() {
               </div>
             </div>
           </div>
-                  {/* <Demo /> */}
+                  {/* <DemoPage /> */}
           <div className="main_gallery" data-aos="fade-up">
               <div className="b2b-container-lg">
                 <div className="gallery_slider">
@@ -247,7 +249,7 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                  {/* <Image className='MetaAds_img' src={}  alt=''/> */}
+                  <Image className='MetaAds_img' src={cro}  alt=''/>
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/CRO JSON.json'

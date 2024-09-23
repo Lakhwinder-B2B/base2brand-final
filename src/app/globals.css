@@ -1,7 +1,9 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
-
+html {
+  scroll-behavior: smooth;
+}
 
  body {
   font-family: 'Poppins', sans-serif !important;
@@ -1034,8 +1036,17 @@ button.nav-link.btn_service{
   background: #1A1A1A !important;
   border-radius: 0px !important;
   padding: 10px !important;
-  border-bottom: 2px solid #1A1A1A;
+ 
 }
+
+
+.tab-btn ul#pills-tab li.nav-item button.active {
+  background: linear-gradient(45deg, #7411e1, #396BDB) !important;
+  border: none !important;
+}
+
+
+
 .service_tabs li{
   border-right:1px solid #989393 !important;
   width: 140px;
@@ -3313,4 +3324,11 @@ p.date.Date-box {
     height: 62px;
     border: 1px solid #ffffff63;
   }
+}
+
+
+
+
+.mobile-w{
+  width: 100% !important;
 }
