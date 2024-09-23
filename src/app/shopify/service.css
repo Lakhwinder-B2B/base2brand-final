@@ -470,6 +470,7 @@ button.btn_design span img{
     }
     .slider_right_main .social_ads p {
         font-size: 16px;
+        line-height: 25px;
     }
     .slider_right_main .social_ads h2 {
         font-size: 30px;
@@ -526,17 +527,17 @@ button.btn_design span img{
         max-width: 100% !important;
         width: 100% !important;
     }
-    .mobileTabsContentShopify .left_thumnails, 
+    /* .mobileTabsContentShopify .left_thumnails, 
     .mobileTabsContentShopify .left_thumnails .slick-track {
         width: 270px !important;
         height: 300px !important;
-    }
+    } */
     .mobileTabsContentShopify .left_thumnails a, 
     .mobileTabsContentShopify .left_thumnails .slick-slide {
-        height: 130px !important;
-        width: 130px !important;
+        height: 100px !important;
+        width: 100px !important;
     }
-    .mobileTabsContentShopify .left_thumnails:before {
+    /* .mobileTabsContentShopify .left_thumnails:before {
         content: '';
         position: absolute;
         right: 62px;
@@ -546,7 +547,7 @@ button.btn_design span img{
         border: 1px dashed #fff;
         border-radius: 50%;
         left: unset;
-    }
+    } */
     .mobileTabsContentShopify .gallery_slider {
         flex-wrap: wrap;
         padding: 0;
@@ -566,7 +567,9 @@ button.btn_design span img{
         height: 100% !important;
     }
     .left_thumnails a {
-        left: calc(50% + 56px);
+        /* position: unset !important;
+        transform: unset !important; */
+        left: 50% !important;
     }
     
 }
