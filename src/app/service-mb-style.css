@@ -912,7 +912,11 @@ services pages */
     }
     .deliverable-step-outer {
         width: 259px;
-        padding-left: 30px;
+        padding-left: 10px;
+    }
+    .deliverable-step{
+        padding-left: 35px;
+        
     }
     .deliverable-icon {
         width: 80px;

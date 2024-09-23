@@ -10,6 +10,13 @@
     /* transition:   2s; */
 
 }
+.tabs_section.pb-5.b2b-black-bg.aos-init.aos-animate {
+    margin-top: 3rem;
+}
+.about_sticky{
+    top: 100px;
+    z-index: 1;
+}
 .bg_about{
     background-color: #111616;
 }
@@ -477,6 +484,10 @@ span.slide-number {
     
 }
 @media screen and (max-width:767px) {
+    .about_sticky {
+        top: 80px;
+        z-index: 1;
+    }
     .aboutHeader {
         padding-top: 50px;
         max-width: 500px;

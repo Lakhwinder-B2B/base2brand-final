@@ -469,8 +469,9 @@ ul.counter-checklist li:before {
 .hoverGradient.blueGD:hover .digital_box img.digital_img{
     border-color: rgba(42, 54, 156, 0.99);
 }
-.slider_right_main {
-    padding: 100px 0;
+.slider_right_main { 
+    padding-top: 5rem;
+    height: 100vh;
     position: sticky;
     top: 100px;
     background-color: #1f222f;
@@ -479,6 +480,16 @@ ul.counter-checklist li:before {
     width: 80%;
     margin: 0 auto;
 }
+
+@media screen and (min-width:992px) {
+    .right_slider .tab-active{
+        filter: blur(4px);
+    }
+    .right_slider .tab-active:nth-last-of-type(){
+        filter: blur(0px);
+    }
+}
+
 @media screen and (max-width:991px) {
     .counterWrap .counterInnerWrap:nth-child(odd){
         padding-right:15px;

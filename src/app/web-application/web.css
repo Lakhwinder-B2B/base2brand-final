@@ -11,6 +11,9 @@
 .designTabsWrap *{
     z-index: 2;
 }
+.animated-imgs.animated-banner-img.small_json canvas {
+    height: 500px !important;
+}
 button.btn_design {
     font-size: 16px !important;
     line-height: normal;

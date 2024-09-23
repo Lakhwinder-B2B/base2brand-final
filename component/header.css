@@ -433,6 +433,14 @@ li.menuBtn a:hover span{
     .navbar-nav li a::before{
         display: none !important;
     }
+    div#collapsibleNavbar {
+        position: absolute;
+        top: 70px;
+        background: #000000;
+        width: 100%;
+        left: 0;
+        padding-left: 1rem;
+    }
     ul.dropdown-menu.ph_align_drop {
         position: absolute !important;
         left: 0px !important;
@@ -442,6 +450,8 @@ li.menuBtn a:hover span{
        width: 305px !important;
         background: #212529;
         border: 1px solid #ccc; 
+        height: 200px;
+        overflow: auto;
     }
     li.mega-menu {
         padding: 15px 15px !important;

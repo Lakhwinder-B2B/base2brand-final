@@ -2694,7 +2694,7 @@ ul.nav.nav-pills.mb-3 {
     text-align: center;
   }
   .bannerSection .b2b-btn {
-    margin: auto;
+    margin: auto !important;
     display: block;
   }
   .bannerSection .sub_heading {

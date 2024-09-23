@@ -80,7 +80,89 @@ export default function Digital() {
     }, []);
   
 
-   
+    useEffect(() => {
+      const memoriesSection = document.querySelector(".gallery_slider");
+      const headerSection = document.querySelector("header");
+      const headerHeight = headerSection.offsetHeight;
+  
+      if (!memoriesSection) {
+        console.error("Element with class 'gallery slider' not found");
+        return;
+      }
+  
+      const handleScroll = () => {
+        const clientHeight = document.documentElement.clientHeight;
+        const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+        if (clientHeight > memoriesSectionY) {
+              
+              if(memoriesSectionY <= (headerHeight + 10)){
+  
+                  // const tabs = document.querySelectorAll(".slider_icon");
+                  const tabbtns = document.querySelectorAll(".slider_right_main");
+  
+                  let stepcount = 0;
+                  tabbtns.forEach(tabbtn => {
+                    const tabSectionY = tabbtn.getBoundingClientRect().y;
+
+                    if(tabSectionY <= (headerHeight + 10)){
+                      
+                      
+                        const btnID = tabbtn.getAttribute("data-tab-id");
+                        // console.log(btnID);
+                        
+                        // if(btnID !== null){
+                        //   const btnSection = document.querySelector(`#${btnID}`);
+                        //   btnSection.classList.add("b2b_tab_vissible");
+                        // }
+                        
+                    }else{
+                      
+                        const btnID = tabbtn.getAttribute("data-tab-id");
+                        // console.log(btnID);
+                        
+                        // if(btnID !== null){
+                        //   const btnSection = document.querySelector(`#${btnID}`);
+                        //   btnSection.classList.remove("b2b_tab_vissible");
+                        // }
+                        
+                    }
+                    if(tabSectionY < clientHeight && tabSectionY > 272){
+                      
+                      stepcount = parseInt(tabbtn.getAttribute("data-step"));
+                      stepcount --;
+                      if(stepcount > 0){
+                        console.log(`.tab1-step-${stepcount}`);
+                        const stepSection1 = document.querySelector(`.tab1-step-${stepcount}`);
+                        console.log(stepSection1,'sadasda');
+                        
+                          stepSection1.classList.add('tab-active');
+                       
+                      }
+                     
+                    }else{
+                      
+                      stepcount = parseInt(tabbtn.getAttribute("data-step"));
+                      stepcount --;
+                      if(stepcount > 0){
+                        const stepSection1 = document.querySelector(`.tab1-step-${stepcount}`);
+                          stepSection1.classList.remove('tab-active');
+                      }
+                    }
+                    
+                  });    
+            }
+        }
+       
+      };
+  
+      document.addEventListener("scroll", handleScroll);
+  
+      // Clean up the event listener on component unmount
+      return () => {
+        document.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+
 
   return (
     <>
@@ -152,9 +234,9 @@ export default function Digital() {
           <div className="main_gallery" data-aos="fade-up">
               <div className="b2b-container-lg">
                 <div className="gallery_slider">
-                  <div className="right_slider m-auto">
+                  <div className="right_slider m-auto"> 
                     
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main tab1-step-1' data-step="1" data-tab-id="tab1-1">
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
@@ -183,7 +265,7 @@ export default function Digital() {
                         </div>
 
 
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main tab1-step-2' data-step="2" data-tab-id="tab1-2">
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
@@ -210,7 +292,7 @@ export default function Digital() {
                           </div>
                         </div>
 
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main tab1-step-3' data-step="3" data-tab-id="tab1-3">
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
@@ -236,7 +318,7 @@ export default function Digital() {
                             </div>
                           </div>
                         </div>
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main tab1-step-4' data-step="4" data-tab-id="tab1-4">
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
@@ -262,7 +344,7 @@ export default function Digital() {
                             </div>
                           </div>
                         </div>
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main tab1-step-5' data-step="5" data-tab-id="tab1-5">
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
@@ -288,7 +370,7 @@ export default function Digital() {
                             </div>
                           </div>
                         </div>
-                        <div className='slider_right_main'>
+                        <div className='slider_right_main tab1-step-6' data-step="6" data-tab-id="tab1-6">
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>

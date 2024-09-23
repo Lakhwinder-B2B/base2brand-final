@@ -121,7 +121,7 @@ export default function DesktopTabs() {
                                             </ul>
                                         </div>
                       <div className="col-md-6">
-                        <DotLottieReact src="/json/web developement/Web Strategy.json" loop autoplay className="animated-imgs animated-banner-img" />
+                        <DotLottieReact  src="/json/web developement/Web Strategy.json" loop autoplay className="animated-imgs animated-banner-img small_json" />
                       </div>
                     </div>
                   </div>
@@ -140,7 +140,7 @@ export default function DesktopTabs() {
                                             </ul>
                                         </div>
                       <div className="col-md-6">
-                        <DotLottieReact src="/json/web developement/Planning.json" loop autoplay className="animated-imgs animated-banner-img" />
+                        <DotLottieReact src="/json/web developement/Planning.json" loop autoplay className="animated-imgs animated-banner-img small_json" />
                       </div>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ export default function DesktopTabs() {
                                                                 src="/json/web developement/Creative.json"
                                                                 loop
                                                                 autoplay
-                                                                className="animated-imgs  animated-banner-img"
+                                                                className="animated-imgs  animated-banner-img small_json"
                                                                 />
                                                             </div>
                     </div>
@@ -188,7 +188,7 @@ export default function DesktopTabs() {
                                             src="/json/web developement/Responsive.json"
                                             loop
                                             autoplay
-                                            className="animated-imgs  animated-banner-img"
+                                            className="animated-imgs  animated-banner-img small_json"
                                             />
                                         </div>
                     </div>
@@ -236,7 +236,7 @@ export default function DesktopTabs() {
                                             src="/json/web developement/Launch.json"
                                             loop
                                             autoplay
-                                            className="animated-imgs  animated-banner-img"
+                                            className="animated-imgs  animated-banner-img small_json"
                                             />
                                         </div>
                     </div>

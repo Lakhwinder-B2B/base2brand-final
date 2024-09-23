@@ -299,11 +299,11 @@ export default function AboutUs() {
               </div>
           
          
-              <div className="pt-5 b2b-black-bg position-sticky" style={{ top: '87px', zIndex: '1' }}>
+              <div className="pt-1 b2b-black-bg position-sticky about_sticky">
               <div className='container'>
                 <div className='row'>
                   <div className='col-lg-12'>
-                    <h2 className='b2b-main-heading text-center mb-5'  >Reasons to collaborate<br />with Base2Brand</h2>
+                    <h2 className='b2b-main-heading text-center mb-2'  >Reasons to collaborate<br />with Base2Brand</h2>
                   </div>
                 </div>
               </div>

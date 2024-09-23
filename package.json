@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.44",
     "@lottiefiles/dotlottie-react": "^0.6.3",
     "@lottiefiles/dotlottie-web": "^0.23.2",
     "@nextui-org/tooltip": "^2.0.35",
