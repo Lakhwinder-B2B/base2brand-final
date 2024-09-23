@@ -61,7 +61,7 @@ import cro from "../../../public/img/Digitalmarketingigif/cro.gif"
 
 import EmailMarketing from "../../../public/img/Digitalmarketingigif/emailmarketing.gif"
 import Ecommerce from "../../../public/img/Digitalmarketingigif/ecommerse.gif"
-
+// import MetaAds from "../../../public/img/Digitalmarketingigif/SEO.gif"
 export default function Digital() {
   const [showModal, setShowModal] = useState(false);
 

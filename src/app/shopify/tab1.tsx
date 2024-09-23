@@ -13,64 +13,88 @@ import tab1Icon5 from "../../../public/shopify/tab1-icon5.png";
 export default function Tab1() {
  
 
-    // useEffect(() => {
-    //   const memoriesSection = document.querySelector(".gallery_slider");
-    //   const headerSection = document.querySelector("header");
-    //   const headerHeight = headerSection.offsetHeight;
+    useEffect(() => {
+      const memoriesSection = document.querySelector(".gallery_slider");
+      const headerSection = document.querySelector("header");
+      const headerHeight = headerSection.offsetHeight;
   
-    //   if (!memoriesSection) {
-    //     console.error("Element with class 'gallery slider' not found");
-    //     return;
-    //   }
+      if (!memoriesSection) {
+        console.error("Element with class 'gallery slider' not found");
+        return;
+      }
   
-    //   const handleScroll = () => {
-    //     const clientHeight = document.documentElement.clientHeight;
-    //     const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
-    //     if (clientHeight > memoriesSectionY) {
+      const handleScroll = () => {
+        const clientHeight = document.documentElement.clientHeight;
+        const memoriesSectionY = memoriesSection.getBoundingClientRect().y;
+        if (clientHeight > memoriesSectionY) {
               
-    //           if(memoriesSectionY <= (headerHeight + 10)){
+              if(memoriesSectionY <= (headerHeight + 10)){
   
-    //               const tabs = document.querySelectorAll(".slider_icon");
-    //               const tabbtns = document.querySelectorAll(".slider_right_main");
+                  const tabs = document.querySelectorAll(".slider_icon");
+                  const tabbtns = document.querySelectorAll(".slider_right_main1");
   
+                  let stepcount = 0;
+                  tabbtns.forEach(tabbtn => {
+                    const tabSectionY = tabbtn.getBoundingClientRect().y;
 
-    //               tabbtns.forEach(tabbtn => {
-    //                 const tabSectionY = tabbtn.getBoundingClientRect().y;
-
-    //                 if(tabSectionY <= (headerHeight + 10)){
+                    if(tabSectionY <= (headerHeight + 10)){
                       
-    //                     const btnID = tabbtn.getAttribute("data-tab-id");
-    //                     console.log(btnID);
+                      
+                        const btnID = tabbtn.getAttribute("data-tab-id");
+                        // console.log(btnID);
                         
-    //                     if(btnID !== null){
-    //                       const btnSection = document.querySelector(`#${btnID}`);
-    //                       btnSection.classList.add("b2b_tab_vissible");
-    //                     }
+                        if(btnID !== null){
+                          const btnSection = document.querySelector(`#${btnID}`);
+                          btnSection.classList.add("b2b_tab_vissible");
+                        }
                         
-    //                 }else{
-    //                     const btnID = tabbtn.getAttribute("data-tab-id");
-    //                     console.log(btnID);
+                    }else{
+                      
+                        const btnID = tabbtn.getAttribute("data-tab-id");
+                        // console.log(btnID);
                         
-    //                     if(btnID !== null){
-    //                       const btnSection = document.querySelector(`#${btnID}`);
-    //                       btnSection.classList.remove("b2b_tab_vissible");
-    //                     }
+                        if(btnID !== null){
+                          const btnSection = document.querySelector(`#${btnID}`);
+                          btnSection.classList.remove("b2b_tab_vissible");
+                        }
                         
-    //                 }
-
-    //               });    
-    //         }
-    //     }
+                    }
+                    if(tabSectionY < clientHeight && tabSectionY > 272){
+                      
+                      stepcount = parseInt(tabbtn.getAttribute("data-step"));
+                      stepcount --;
+                      if(stepcount > 0){
+                        console.log(`.tab1-step-${stepcount}`);
+                        const stepSection1 = document.querySelector(`.tab1-step-${stepcount}`);
+                        console.log(stepSection1);
+                        
+                          stepSection1.classList.add('tab-active');
+                       
+                      }
+                     
+                    }else{
+                      
+                      stepcount = parseInt(tabbtn.getAttribute("data-step"));
+                      stepcount --;
+                      if(stepcount > 0){
+                        const stepSection1 = document.querySelector(`.tab1-step-${stepcount}`);
+                          stepSection1.classList.remove('tab-active');
+                      }
+                    }
+                    
+                  });    
+            }
+        }
        
-    //   };
+      };
   
-    //   document.addEventListener("scroll", handleScroll);
+      document.addEventListener("scroll", handleScroll);
   
-    //   // Clean up the event listener on component unmount
-    //   return () => {
-    //     document.removeEventListener("scroll", handleScroll);
-    //   };
-    // }, []);
+      // Clean up the event listener on component unmount
+      return () => {
+        document.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
   
 
   return (
@@ -86,11 +110,12 @@ export default function Tab1() {
                     
                   </div>
                   <div className="right_slider">
+
+                        <div className='slider_right_main slider_right_main1 tab1-step-1' data-step="1" data-tab-id="tab1-1">
                         <div className="left_thumnails">
                             <a id="tab1-1" className='slider_icon'><img src={tab1Icon1.src} alt="" /></a>
                           
                         </div>
-                        <div className='slider_right_main' data-tab-id="tab1-1">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -106,11 +131,12 @@ export default function Tab1() {
                           </div>
                         </div>
 
+                        
+                        <div className='slider_right_main slider_right_main1 tab1-step-2' data-step="2" data-tab-id="tab1-2">
                         <div className="left_thumnails">
                             <a id="tab1-2" className='slider_icon'><img src={tab1Icon2.src} alt="" /></a>
                           
                         </div>
-                        <div className='slider_right_main' data-tab-id="tab1-2">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -125,12 +151,13 @@ export default function Tab1() {
                             </div>
                           </div>
                         </div>
+                       
+                        
+                        <div className='slider_right_main slider_right_main1 tab1-step-3' data-step="3" data-tab-id="tab1-3">
                         <div className="left_thumnails">
                             <a id="tab1-3" className='slider_icon'><img src={tab1Icon3.src} alt="" /></a>
                           
                         </div>
-                        
-                        <div className='slider_right_main' data-tab-id="tab1-3">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -145,11 +172,12 @@ export default function Tab1() {
                             </div>
                           </div>
                         </div>
+                        
+                        <div className='slider_right_main slider_right_main1 tab1-step-4' data-step="4" data-tab-id="tab1-4">
                         <div className="left_thumnails">
                             <a id="tab1-4" className='slider_icon'><img src={tab1Icon4.src} alt="" /></a>
                           
                         </div>
-                        <div className='slider_right_main' data-tab-id="tab1-4">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -164,11 +192,12 @@ export default function Tab1() {
                             </div>
                           </div>
                         </div>
+                        
+                        <div className='slider_right_main slider_right_main1 tab1-step-5' data-step="5" data-tab-id="tab1-5">
                         <div className="left_thumnails">
                             <a id="tab1-5" className='slider_icon'><img src={tab1Icon5.src} alt="" /></a>
                           
                         </div>
-                        <div className='slider_right_main' data-tab-id="tab1-5">
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">

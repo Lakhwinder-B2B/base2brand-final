@@ -30,16 +30,16 @@ export default function Tab2() {
             if(memoriesSectionY <= (headerHeight + 100)){
 
                 const tabs = document.querySelectorAll(".slider_icon");
-                const tabbtns = document.querySelectorAll(".slider_right_main");
+                const tabbtns = document.querySelectorAll(".slider_right_main2");
 
-
+                let stepcount = 0;
                 tabbtns.forEach(tabbtn => {
                   const tabSectionY = tabbtn.getBoundingClientRect().y;
 
                   if(tabSectionY <= (headerHeight + 180)){
                     
                       const btnID = tabbtn.getAttribute("data-tab-id");
-                      console.log(btnID);
+                      // console.log(btnID);
                       
                       if(btnID !== null){
                         const btnSection = document.querySelector(`#${btnID}`);
@@ -48,13 +48,33 @@ export default function Tab2() {
                       
                   }else{
                       const btnID = tabbtn.getAttribute("data-tab-id");
-                      console.log(btnID);
+                      // console.log(btnID);
                       
                       if(btnID !== null){
                         const btnSection = document.querySelector(`#${btnID}`);
                         btnSection.classList.remove("b2b_tab_vissible");
                       }
                       
+                  }
+                  if(tabSectionY < (clientHeight - 50) && tabSectionY > 272){
+                      
+                    stepcount = parseInt(tabbtn.getAttribute("data-step"));
+                    stepcount --;
+                    if(stepcount > 0){
+                      const stepSection = document.querySelector(`.tab2-step-${stepcount}`);
+                      if(stepSection !== null)
+                      stepSection.classList.add('tab-active');
+                    }
+                   
+                  }else{
+                    
+                    stepcount = parseInt(tabbtn.getAttribute("data-step"));
+                    stepcount --;
+                    if(stepcount > 0){
+                      const stepSection = document.querySelector(`.tab2-step-${stepcount}`);
+                      if(stepSection !== null)
+                      stepSection.classList.remove('tab-active');
+                    }
                   }
 
                 });
@@ -91,11 +111,12 @@ export default function Tab2() {
                      
                   </div>
                   <div className="right_slider">
-                    <div className="left_thumnails">
+                    
+                        <div className='slider_right_main slider_right_main2 tab2-step-1' data-step="1" data-tab-id="tab2-1">
+                        <div className="left_thumnails">
                   
-                      <a id="tab2-1" className='slider_icon'><img src={tab2Icon1.src} alt="" /></a>
-                    </div>
-                        <div className='slider_right_main' data-tab-id="tab2-1">
+                          <a id="tab2-1" className='slider_icon'><img src={tab2Icon1.src} alt="" /></a>
+                        </div>
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -110,11 +131,12 @@ export default function Tab2() {
                               </div>
                           </div>
                         </div>
-                        <div className="left_thumnails">
-                            <a id="tab2-2" className='slider_icon'><img src={tab2Icon2.src} alt="" /></a>
-                          </div>
+                        
 
-                        <div className='slider_right_main' data-tab-id="tab2-2">
+                        <div className='slider_right_main slider_right_main2 tab2-step-2' data-step="2" data-tab-id="tab2-2">
+                         <div className="left_thumnails">
+                            <a id="tab2-2" className='slider_icon'><img src={tab2Icon2.src} alt="" /></a>
+                          </div> 
                           <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
@@ -129,12 +151,13 @@ export default function Tab2() {
                             </div>
                           </div>
                         </div>
-                        <div className="left_thumnails">
+                       
+                        
+                        <div className='slider_right_main slider_right_main2 tab2-step-3' data-step="3" data-tab-id="tab2-3">
+                           <div className="left_thumnails">
                             <a id="tab2-3" className='slider_icon'><img src={tab2Icon3.src} alt="" /></a>
                         </div>
-                        
-                        <div className='slider_right_main' data-tab-id="tab2-3">
-                          <div className="row gap-5 align-items-center">
+                        <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
@@ -148,11 +171,12 @@ export default function Tab2() {
                             </div>
                           </div>
                         </div>
-                        <div className="left_thumnails">
+                       
+                        <div className='slider_right_main slider_right_main2 tab2-step-4' data-step="4" data-tab-id="tab2-4">
+                          <div className="left_thumnails">
                           <a id="tab2-4" className='slider_icon'><img src={tab2Icon4.src} alt="" /></a> 
-                        </div>
-                        <div className='slider_right_main' data-tab-id="tab2-4">
-                          <div className="row gap-5 align-items-center">
+                        </div> 
+                        <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
@@ -166,11 +190,12 @@ export default function Tab2() {
                             </div>
                           </div>
                         </div>
-                        <div className="left_thumnails">
+                        
+                        <div className='slider_right_main slider_right_main2 tab2-step-5' data-step="5" data-tab-id="tab2-5">
+                          <div className="left_thumnails">
                             <a id="tab2-5" className='slider_icon'><img src={tab2Icon5.src} alt="" /></a> 
-                        </div>
-                        <div className='slider_right_main' data-tab-id="tab2-5">
-                          <div className="row gap-5 align-items-center">
+                          </div>
+                        <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
@@ -184,11 +209,12 @@ export default function Tab2() {
                             </div>
                           </div>
                         </div>
-                        <div className="left_thumnails">
+                        
+                        <div className='slider_right_main slider_right_main2 tab2-step-6' data-step="6" data-tab-id="tab2-6">
+                          <div className="left_thumnails">
                             <a id="tab2-6" className='slider_icon'><img src={tab2Icon6.src} alt="" /></a> 
-                        </div>
-                        <div className='slider_right_main' data-tab-id="tab2-6">
-                          <div className="row gap-5 align-items-center">
+                          </div>
+                        <div className="row gap-5 align-items-center">
                             
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">

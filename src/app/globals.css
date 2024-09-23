@@ -100,7 +100,7 @@ a.btn.btn-outline-primary {
   font-size: 14px;
 }
 .b2b-sub-text-gk {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
 }
 .bg_home{
@@ -1444,6 +1444,7 @@ body .request-form.fade.transformAnim .modal-dialog {
   }
   body .dropdown-menu-right .menuInner {
     padding: 6px 15px;
+    align-items: center;
   }
   img.check_icon {
     width: 14px;

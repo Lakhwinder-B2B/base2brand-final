@@ -316,7 +316,7 @@ button.btn_design span img{
 }
 .sticky_tabs{
     position: sticky !important;
-    top: 6rem;
+    top: 5.5rem;
     z-index: 5;
 }
 .slider_right_main { 
@@ -443,6 +443,14 @@ button.btn_design span img{
     margin-top: 0;
     height: calc(100vh - 100px) !important;
 }
+@media screen and (min-width:992px) {
+    .right_slider .tab-active{
+        filter: blur(4px);
+    }
+    .right_slider .tab-active:nth-last-of-type(){
+        filter: blur(0px);
+    }
+}
 @media screen and (max-width: 1200px) {
     .designTabsContentWrap .left_thumnails a, 
     .designTabsContentWrap .left_thumnails .slick-slide {
@@ -497,6 +505,7 @@ button.btn_design span img{
     }
     .right_slider .left_thumnails {
         display: block;
+        float: unset !important;
     }
     .left_thumnails, .slider_right_main {
         position: relative;
