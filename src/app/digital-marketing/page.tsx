@@ -44,8 +44,7 @@ import dm5 from "../../../public/digital/dm5.svg";
 import checkCircle from "../../../public/digital/check-circle.svg";
 
 import radialRight from '../../../public/img/radial-right.svg'; 
-import Faq from "./faq"; 
-import DemoPage  from "./DemoPage"; 
+import Faq from "./faq";  
 
 import Slider from 'react-slick';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
