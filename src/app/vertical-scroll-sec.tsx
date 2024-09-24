@@ -72,7 +72,7 @@ export default function HorizontalScroll() {
                   </div>
 
                   <div className="number_pro">
-                    <h4 className='b2b-sub-heading-bold text-dark'>200+</h4>
+                    <h4 className='b2b-sub-heading-bold text-dark'>100+</h4>
                     <small className='b2b-sub-text text-dark'>Happy Clients</small>
                   </div>
 

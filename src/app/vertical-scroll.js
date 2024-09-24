@@ -159,12 +159,12 @@ const MyComponent = () => {
               <div className="col-md-6">
                 <div className="b2b_data">
                   <div className="number_pro">
-                    <h4 className='b2b-sub-heading-bold text-dark'>350+</h4>
+                    <h4 className='b2b-sub-heading-bold text-dark'>250+</h4>
                     <small className='b2b-sub-text text-dark'>Products</small>
                   </div>
 
                   <div className="number_pro">
-                    <h4 className='b2b-sub-heading-bold text-dark'>200+</h4>
+                    <h4 className='b2b-sub-heading-bold text-dark'>100+</h4>
                     <small className='b2b-sub-text text-dark'>Happy Clients</small>
                   </div>
 

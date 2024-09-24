@@ -7,6 +7,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './request-form.css';
+
 interface ModalProps {
     onCloseModal: () => void;
 }
@@ -170,7 +171,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                             <div className="box-tab box-tab-1 d-block">
                                 <h2>Quote</h2>
                                 <h3>What services would you like to opt?</h3>
-                                <div className="formServices mb-2 pb-2">
+                                <div className="formServices request mb-2 pb-2">
                                     <div>
                                         <input className="serviceCheckbox" id="uxui" type="checkbox" name="service" value="UI/UX" />
                                         <label htmlFor="uxui">UX-UI</label>
@@ -208,7 +209,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                             <div className="box-tab box-tab-2 d-none">
                                 <h2>Quote</h2>
                                 <h3>What services would you like to opt?</h3>
-                                <div className="formServices mb-2 pb-2">
+                                <div className="formServices request mb-2 pb-2">
                                     <div>
                                         <input className="serviceType" id="Project" type="radio" name="service_type" value="Project" />
                                         <label onClick={handleClick} htmlFor="Project">Project</label>
@@ -235,7 +236,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                 <h3 className="text-center">Project description</h3>
                                 <div className="formDescription mb-2 pb-2">
                                     <div>
-                                        <textarea className="project_description" name="project_description" ></textarea>
+                                        <textarea  name='message'  value={formData.message} onChange={handleChange} className="project_description"   ></textarea>
                                     </div>
                                 </div> 
                                 <div className="errorBox descError" style={{display: 'none'}}>

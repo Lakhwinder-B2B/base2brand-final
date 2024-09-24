@@ -219,8 +219,12 @@ export default function AboutUs() {
             </div>
 
 
-
-              <div className="slick_slider_about position-relative b2b-black-bg" data-aos="fade-up">
+                   
+              <div className="slick_slider_about position-relative b2b-black-bg pt-0" data-aos="fade-up">
+              <div className="col-md-12 text-center text-white">
+                      <h2 className='mb-0'>Our History</h2>
+                    </div>
+                    
               <Slider {...settings} className="w-100">
 
                 <div className="center_slide">

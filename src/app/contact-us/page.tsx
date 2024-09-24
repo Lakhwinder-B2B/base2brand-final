@@ -244,7 +244,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
             <div className="b2b-gray-bg my-lg-5 my-3 w-100 py-5" data-aos="fade-up" data-aos-delay="300">
                 <div className="b2b-container-lg">
                     <div className="row addressRow ">
-                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-lg-4 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -278,7 +278,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                         </div> */}
-                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-lg-4 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -295,7 +295,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-lg-4 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -313,7 +313,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                             </div>
                             
                         </div>  
-                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        {/* <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
@@ -330,7 +330,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                             
-                        </div>  
+                        </div>   */}
                     </div>
                 </div>
             </div>
