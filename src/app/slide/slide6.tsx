@@ -9,8 +9,8 @@ import Sh3 from '../../../public/services-img/sh3.svg';
 import Sh4 from '../../../public/services-img/sh4.svg';
 import Sh5 from '../../../public/services-img/sh5.svg';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-  
-import '../project.css'; 
+import Link from "next/link";
+import '../project.css';  
  
 
 export default function home() {
@@ -40,13 +40,13 @@ export default function home() {
                       <h1 className="b2b-sub-heading" data-aos="fade-up-left">We Excel in Shopify <br />Development Services</h1>
                         <p className='col-12 b2b-sub-text' data-aos="fade-up-left" data-aos-delay="300">In Shopify development services, we don't just meet expectations; we exceed them. With a proven track record of success, we outperform in every aspect of Shopify development. </p>
                         <div className="d-flex justify-content-between flex-wrap">
-                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="400"><img src={Sh1.src} className='social_icons me-3' alt="" />  App development</div>
-                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="500"><img src={Sh2.src} className='social_icons me-3' alt="" />  Headless Store Development</div>
+                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="400"><img src={Sh1.src} className='social_icons me-3' alt="" /> <Link className='text-white' href='/shopify'> App development </Link></div>
+                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="500"><img src={Sh2.src} className='social_icons me-3' alt="" /> <Link className='text-white' href='/shopify'> Headless Store Development </Link></div>
 
-                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="600"><img src={Sh3.src} className='social_icons me-3' alt="" />  Custom Integration</div>
-                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="700"><img src={Sh4.src} className='social_icons me-3' alt="" />  CRO ( Conversation Rate Optimization)</div>
+                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="600"><img src={Sh3.src} className='social_icons me-3' alt="" />  <Link className='text-white' href='/shopify'> Custom Integration </Link></div>
+                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="700"><img src={Sh4.src} className='social_icons me-3' alt="" />  <Link className='text-white' href='/shopify'> CRO ( Conversation Rate Optimization) </Link></div>
 
-                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="800"><img src={Sh5.src} className='social_icons me-3' alt="" />  E-commerce Store Design</div>
+                          <div className="tabs_link b2b-text" data-aos="fade-up-left" data-aos-delay="800"><img src={Sh5.src} className='social_icons me-3' alt="" />  <Link className='text-white' href='/shopify'> E-commerce Store Design </Link></div>
                         </div>
                         <a className='remove_under_line' href='/shopify' data-aos="fade-up-left" data-aos-delay="900">  <button className="b2b-btn b2b-btn-sm mt-4 m-0"> Read More </button></a>
                   </li>

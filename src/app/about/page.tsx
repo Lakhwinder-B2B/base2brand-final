@@ -224,7 +224,7 @@ export default function AboutUs() {
               <div className="col-md-12 text-center text-white">
                       <h2 className='mb-0'>Our History</h2>
                     </div>
-                    
+
               <Slider {...settings} className="w-100">
 
                 <div className="center_slide">
@@ -353,20 +353,20 @@ export default function AboutUs() {
                       }}>
                         <div className='innerWrap'>
                         
-                          <div className="tabInnerWrap" id='mission_tab' data-id="mission_btn">
+                          <div className="tabInnerWrap" id='mission_tab' data-id="mission_btn" data-aos="fade-up">
                             <h3 className='title text-uppercase'>Mission</h3>
                             <p className='b2b-text'>Our mission is to create innovative products and hand-over excellency with constant emphasis on process quality, consumer satisfaction and transparency.</p>
                             <p className='b2b-text'>We aim to become a remarkable institution by providing premier IT-based services and solutions to establishments worldwide</p>
                           </div>
                          
                         
-                            <div className="tabInnerWrap" id='vission_tab' data-id="vission_btn">
+                            <div className="tabInnerWrap" id='vission_tab' data-id="vission_btn" data-aos="fade-up">
                                 <h3 className='title text-uppercase'>Vision</h3>
                                 <p className='b2b-text'>The vision in your mind is the future you wish to achieve! The vision of the company is to provide high-quality services to our global clients.</p> 
                                 <p className='b2b-text'>With our vision, we want to create a work environment that encourages creativity, innovation and self-growth.</p>
                             </div>
                        
-                          <div className="tabInnerWrap" id='values_tab' data-id="values_btn">
+                          <div className="tabInnerWrap" id='values_tab' data-id="values_btn" data-aos="fade-up">
                             <h3 className='title text-uppercase'>Values</h3>
                             <p className='b2b-text'>The strengths of any organization lie in the values they uphold. We believe that quality should be maintained while meeting deadlines. Hence, our USP is delivering quality services within the deadlines!</p>
 

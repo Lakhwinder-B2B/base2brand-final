@@ -11,6 +11,7 @@ import s4 from '../../../public/ecommerce/s4.svg';
 import s5 from '../../../public/ecommerce/s5.svg';            
 import s6 from '../../../public/ecommerce/s6.svg';     
 import nextGeneration from '../../../public/ecommerce/choose.png';
+import Link from 'next/link';
 export default function services() {
  
   
@@ -32,7 +33,7 @@ export default function services() {
                         <div><img src={s1.src} className="imgIcon" alt="" />
                         <h3 className=' b2b-sub-heading'>Consultation and Planning</h3> </div>
                         <p className='b2b-text mb-0'>Thorough consultations gather business goals, target audience, and needs, followed by meticulous planning for transparent, successful project outcomes.</p>
-                       <span className='box-nav'><span></span></span>
+                       <Link href='/underconstrution'><span className='box-nav'><span></span></span></Link>
                       </div>
                     </div>
                   </div>
@@ -42,7 +43,7 @@ export default function services() {
                         <div><img src={s2.src} className="imgIcon" alt="" />
                         <h3 className=' b2b-sub-heading'>Design &amp; Work Plan</h3></div>
                         <p className='b2b-text mb-0'>Create visually stunning, user-friendly designs reflecting brand identity and enhancing shopping experience using cutting-edge principles.</p>
-                        <a href="" className='box-nav'><span></span></a>
+                       <Link href='/underconstrution'><span className='box-nav'><span></span></span></Link>
                       </div>
                     </div>
                   </div>
@@ -52,7 +53,7 @@ export default function services() {
                       <div><img src={s3.src} className="imgIcon" alt="" />
                       <h3 className=' b2b-sub-heading'>Coding</h3></div>
                       <p className='b2b-text mb-0'>Expert developers bring designs to life, building robust eCommerce platforms with latest technologies for scalability and flexibility.</p>
-                      <a href="" className='box-nav'><span></span></a>
+                     <Link href='/underconstrution'><span className='box-nav'><span></span></span></Link>
                       </div>
                     </div>
                   </div>
@@ -62,7 +63,7 @@ export default function services() {
                       <div><img src={s4.src} className="imgIcon" alt="" />
                       <h3 className=' b2b-sub-heading'>Testing</h3></div>
                       <p className='b2b-text mb-0'>Rigorous testing ensures bug-free, optimized eCommerce stores, identifying and addressing issues before launch with comprehensive strategies.</p>
-                      <a href="" className='box-nav'><span></span></a>
+                     <Link href='/underconstrution'><span className='box-nav'><span></span></span></Link>
                       </div>
                     </div>
                   </div>
@@ -72,7 +73,7 @@ export default function services() {
                       <div><img src={s5.src} className="imgIcon" alt="" />
                       <h3 className=' b2b-sub-heading'>Deployment</h3></div>
                       <p className='b2b-text mb-0'>Post-testing, deploy eCommerce stores seamlessly, minimizing downtime, ensuring uninterrupted access for customers to browse and make purchases effortlessly.</p>
-                      <a href="" className='box-nav'><span></span></a>
+                     <Link href='/underconstrution'><span className='box-nav'><span></span></span></Link>
                       </div>
                     </div>
                   </div>
@@ -82,7 +83,7 @@ export default function services() {
                           <div> <img src={s6.src} className="imgIcon" alt="" />
                             <h3 className=' b2b-sub-heading'>Support &amp; Maintenance</h3></div>
                             <p className='b2b-text mb-0'>Offer ongoing support, maintenance, updates, and enhancements for smooth eCommerce store operations, providing proactive monitoring and issue resolution.</p>
-                            <a href="" className='box-nav'><span></span></a>
+                           <Link href='/underconstrution'><span className='box-nav'><span></span></span></Link>
                           </div>
                       </div>
                     </div>

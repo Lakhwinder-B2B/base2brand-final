@@ -465,7 +465,12 @@ button.btn_design span img{
     }
 }
 @media screen and (max-width: 991px) {
- 
+    a.slider_icon img {
+        width: 120px;
+    }
+    .right_sliders .tab-active {
+        filter: blur(0px);
+    }
     .slider_right_main {
         height: auto !important;
         overflow: auto;

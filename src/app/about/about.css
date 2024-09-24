@@ -488,6 +488,12 @@ p.col-md-3.mb-0.pt-3.year_slide {
     
 }
 @media screen and (max-width:767px) {
+    p.col-md-3.mb-0.pt-3.year_slide {
+        font-size: 16px;
+        padding-top: 0px !important;
+        position: absolute;
+        top: 50px;
+    }
     .about_sticky {
         top: 80px;
         z-index: 1;

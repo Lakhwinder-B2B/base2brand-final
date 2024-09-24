@@ -82,9 +82,9 @@ function BlogDetail() {
                     alt="Blog"
                   />
                   <div className="p-4 pb-3 bgblack">
-                    <p className="date">
+                    {/* <p className="date">
                       {new Date(blogpost.created_at).toLocaleDateString()}
-                    </p>
+                    </p> */}
                     <p className="blog_desc mb-2">{blogpost.title}</p>
                     <div
                       className="title_description"

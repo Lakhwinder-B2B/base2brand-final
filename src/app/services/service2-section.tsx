@@ -49,6 +49,7 @@ import Brand from '../brand';
 import Request from '../request-quote';
 import RequestForm from "../request-form";
 import PlaningProcess from "./planing-process";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 
 
@@ -68,7 +69,13 @@ export default function Servicetwo() {
         <div className="row process text-white align-items-center mb-md-5 mb-0 justify-content-center pt-5 px-md-5 px-0"> 
       
            <div className="ser-digital col-12 col-md-6 pb-md-5 pb-3 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
-                  <img src={Service1.src} alt=""/>
+                  {/* <img src={Service1.src} alt=""/> */}
+                  <DotLottieReact
+                  src='/json\service\service - web development.json'  
+                  loop
+                  autoplay   
+                  className="animated-imgs animated-banner-img"
+                />
             </div>
             <div className="ser-digital-col col-12 col-md-6 pb-5" data-aos="fade-left">
               <div className="d-flex flex-wrap justify-content-start align-items-center">
@@ -201,7 +208,14 @@ export default function Servicetwo() {
                   </div>
               </div>
               <div className="ser-digital col-12 col-md-6 pb-md-5 pb-3 justify-content-start d-flex flex-wrap"  data-aos="fade-left">
-                  <img src={Service2.src} alt=""/>
+                  {/* <img src={Service2.src} alt=""/> */}
+
+                  <DotLottieReact 
+                  src='/json\service\Service - app development.json'  
+                  loop
+                  autoplay   
+                  className="animated-imgs animated-banner-img"
+                />
               </div> 
         
         </div>
@@ -243,7 +257,14 @@ export default function Servicetwo() {
         <div className="row process text-white align-items-center mb-md-5 mb-0 justify-content-center px-md-5 px-0"> 
       
            <div className="ser-digital col-12 col-sm-6 col-md-6 pb-md-5 pb-3 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
-                  <img src={Service3.src} alt="" />
+                  {/* <img src={Service3.src} alt="" /> */}
+                  
+                  <DotLottieReact 
+                  src='/json\service\service - graphic & desgin.json'  
+                  loop
+                  autoplay   
+                  className="animated-imgs animated-banner-img"
+                />
             </div>
             <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-md-5 pb-3" data-aos="fade-left">
               <div className="d-flex flex-wrap justify-content-start align-items-center">
@@ -301,7 +322,14 @@ export default function Servicetwo() {
                   </div>
               </div>
               <div className="ser-digital col-12 col-md-6 pb-md-5 pb-3  justify-content-start d-flex flex-wrap"  data-aos="fade-left">
-                  <img src={Service4.src} alt=""/>
+                  {/* <img src={Service4.src} alt=""/> */}
+                 
+                  <DotLottieReact 
+                  src='/json\service\service - digital marketing.json'  
+                  loop
+                  autoplay   
+                  className="animated-imgs animated-banner-img"
+                />
               </div> 
         
         </div>

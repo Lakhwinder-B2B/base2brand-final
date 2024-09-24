@@ -105,14 +105,14 @@ export default function Team() {
                   <div className="col-md-12 mx-auto text-center text-white mb-5"> 
                       <h1 className='b2b-sub-heading-bold text-uppercase' data-aos="fade-up">Higher Officials</h1>
                   </div>
-                  <div className='col-md-3 col-sm-4 col-6 mb-md-5 mb-4' data-aos="zoom-in-up" data-aos-delay="100">
+                  <div className='col-md-3 col-sm-4 col-5 mb-md-5 mb-4' data-aos="zoom-in-up" data-aos-delay="100">
                     <img src={Icon1.src} alt='' />
                     <div className='team-details'>
                       <h3>Rakesh Arora</h3>
                       <p>Managing Director (MD)</p>
                     </div>
                   </div>
-                  <div className='col-md-3 col-sm-4 col-6 mb-md-5 mb-4' data-aos="zoom-in-up" data-aos-delay="200">
+                  <div className='col-md-3 col-sm-4 col-5 mb-md-5 mb-4' data-aos="zoom-in-up" data-aos-delay="200">
                     <img src={Icon2.src} alt='' />
                     <div className='team-details'>
                       <h3>Rahul Dhyaniya</h3>
@@ -244,8 +244,8 @@ export default function Team() {
                   <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={VarshaKumari.src} alt='' />
                     <div className='team-details'>
-                      <h3>Varsha Kumari</h3>
-                      <p>graphic &amp; uI/UX designer</p>
+                      <h3>Kanishtha Sharma</h3>
+                      <p>Business Development Executive</p>
                     </div>
                   </div>
                   <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">

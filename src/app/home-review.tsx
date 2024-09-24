@@ -20,8 +20,8 @@ const feedbacks = [
   {
     imgSrc: '/img/Askus Anytime Limited.svg',
     text: 'Excellent and skilled work and advice. Arti made sure that she understood our requirements and provided consistent feedback and provision as to what was being done and why with worked examples.',
-    name: 'Askus Anytime Limited',
-    company: 'CSEM, Inc.',
+    name: 'Owen',
+    company: 'Askus Anytime Limited',
   },
   {
     imgSrc: '/img/David Mandler.svg',

@@ -85,7 +85,8 @@ export default function FooterBottom() {
             <h5>UK</h5>
             <ul className="mb-0">
               <li>Ms Ady 114, Bellchase Trail Brampton <br/>
-               ON L6P 3LA <a className="text-white" href="tel:+44-7552-535341">+44 7552 535341</a></li>
+               ON L6P 3LA <a className="text-white" href="tel:+44-7552-535341">+(0044) 7448435973
+               </a></li>
              
             </ul>
           </div>

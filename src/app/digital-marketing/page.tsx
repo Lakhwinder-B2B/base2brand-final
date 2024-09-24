@@ -60,6 +60,7 @@ import cro from "../../../public/img/Digitalmarketingigif/cro.gif"
 
 import EmailMarketing from "../../../public/img/Digitalmarketingigif/emailmarketing.gif"
 import Ecommerce from "../../../public/img/Digitalmarketingigif/ecommerse.gif"
+import Link from 'next/link';
 // import MetaAds from "../../../public/img/Digitalmarketingigif/SEO.gif"
 export default function Digital() {
   const [showModal, setShowModal] = useState(false);
@@ -264,7 +265,7 @@ export default function Digital() {
                                 <h2>Meta Ads</h2>
                                 <p>We provide comprehensive social media marketing and advertising services, crafting tailored strategies to elevate your brand's online presence and drive results.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">See All Services</a>
+                                  <Link href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">See All Services</Link>
                                 </div>
                               </div>
                               </div>
@@ -292,7 +293,7 @@ export default function Digital() {
                                 <h2>Google Ads</h2>
                                 <p>Maximize your online visibility with our expert Google Ads management, driving targeted traffic and delivering measurable results for your business growth.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">See All Services</a>
+                                <Link href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">See All Services</Link>
                                 </div>
                               </div>
                             </div>
@@ -319,7 +320,7 @@ export default function Digital() {
                                 <h2>SEO (Search Engine Optimization)</h2>
                                 <p>Boost your website's search engine rankings and organic traffic with our customized SEO strategies, tailored to enhance your online visibility and drive conversions.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">See All Services</a>
+                                <Link href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">See All Services</Link>
                                 </div>
                               </div>
                             </div>
@@ -345,7 +346,7 @@ export default function Digital() {
                                 <h2>CRO (Conversion Rate Optimization)</h2>
                                 <p>Maximize conversions with our CRO. Elevate sales, engage customers, and amplify ROI. Let your brand thrive through data-driven optimization</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">See All Services</a>
+                                <Link href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">See All Services</Link>
                                 </div>
                               </div>
                             </div>
@@ -371,7 +372,7 @@ export default function Digital() {
                                 <h2>Email Marketing</h2>
                                 <p>Engage your audience and drive conversions with our effective email marketing campaigns, delivering personalized messages and valuable content to nurture customer relationships.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">See All Services</a>
+                                <Link href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">See All Services</Link>
                                 </div>
                               </div>
                             </div>
@@ -397,7 +398,7 @@ export default function Digital() {
                                 <h2>E-commerce</h2>
                                 <p>Expand your reach and increase sales with our Amazon marketing solutions, leveraging optimization strategies to enhance product visibility and drive conversions on the platform.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">See All Services</a>
+                                <Link href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">See All Services</Link>
                                 </div>
                               </div>
                             </div>
@@ -455,7 +456,7 @@ export default function Digital() {
                   
                       <div className='counter'>
                         <span>01</span>
-                        <a href="" className='box-nav'><span></span></a>
+                        <Link href="/underconstrution" className='box-nav'><span></span></Link>
                       </div>
                       <h3>Search Engine Optimization (SEO)</h3> 
                       <p className="b2b-text mb-4">Enhance online visibility with Base2Brand's SEO expertise. 93% of online experiences begin with a search engine. Let our strategies elevate your rankings and boost organic traffic.</p>
@@ -468,7 +469,8 @@ export default function Digital() {
                  
                       <div className='counter'>
                         <span>02</span>
-                        <a href="" className='box-nav'><span></span></a>
+                                                <Link href="/underconstrution" className='box-nav'><span></span></Link>
+
                       </div>
                       <h3>Meta Ads</h3> 
                       <p className="b2b-text mb-4">Supercharge your social media presence with targeted Facebook and Instagram Ads. With over 3.5 billion active users combined, these platforms offer unparalleled reach for businesses.</p>
@@ -481,7 +483,8 @@ export default function Digital() {
                  
                       <div className='counter'>
                         <span>03</span>
-                        <a href="" className='box-nav'><span></span></a>
+                                                <Link href="/underconstrution" className='box-nav'><span></span></Link>
+
                       </div>
                       <h3>Social Media Optimization (SMO)</h3> 
                       <p className="b2b-text mb-4">We specializes in SMO, optimizing social platforms to enhance brand visibility and engagement, tailored to your business goals.</p>
@@ -494,7 +497,8 @@ export default function Digital() {
                  
                       <div className='counter'>
                         <span>04</span>
-                        <a href="" className='box-nav'><span></span></a>
+                                                <Link href="/underconstrution" className='box-nav'><span></span></Link>
+
                       </div>
                       <h3>YouTube Marketing</h3> 
                       <p className="b2b-text mb-4">Base2Brand excels in YouTube Marketing, leveraging engaging video content to drive business profits from its vast audience</p>
@@ -507,7 +511,8 @@ export default function Digital() {
                  
                       <div className='counter'>
                         <span>05</span>
-                        <a href="" className='box-nav'><span></span></a>
+                                                <Link href="/underconstrution" className='box-nav'><span></span></Link>
+
                       </div>
                       <h3>Online Reputation Management</h3> 
                       <p className="b2b-text mb-4">Base2Brand is your expert in ORM, safeguarding your brand's reputation, addressing negative feedback, and fostering positive sentiments for online success.</p>
@@ -520,7 +525,8 @@ export default function Digital() {
                  
                       <div className='counter'>
                         <span>06</span>
-                        <a href="" className='box-nav'><span></span></a>
+                                                <Link href="/underconstrution" className='box-nav'><span></span></Link>
+
                       </div>
                       <h3>Content Writing</h3> 
                       <p className="b2b-text mb-4">Our Content Writing service crafts engaging, SEO-friendly content, tailored to your brand across blog posts, website copy, and social media.</p>

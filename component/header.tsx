@@ -324,7 +324,7 @@ export default function Header() {
                           <img src={india.src} alt="" />
                         </div>
                         <h3 className="b2b-sub-text-gk text-white">
-                          +91 (987) 248 -7850
+                          +91 (987) 248 7850
                         </h3>
                       </div>
                     </Link>
@@ -356,7 +356,7 @@ export default function Header() {
                           <img src={whatsapp.src} alt="" />
                         </div>
                         <h3 className="b2b-sub-text-gk text-white">
-                          +91 (904) 170-0209
+                          +91 (904) 1700209
                         </h3>
                       </div>
                     </Link>
@@ -376,19 +376,19 @@ export default function Header() {
                           <img src={usa.src} alt="" />
                         </div>
                         <h3 className="b2b-sub-text-gk text-white">
-                          +1 (720) 903-5933
+                          +1 (720) 9035933
                         </h3>
                       </div>
                     </Link>
                   </li>
                   <li className="mega-menu">
-                    <Link href="tel:+447552535341">
+                    <Link href="tel:+0047448435973">
                       <div className="menuInner align-items-center">
                         <div className="phoneMenuIcon">
                           <img src={uk.src} alt="" />
                         </div>
                         <h3 className="b2b-sub-text-gk text-white">
-                          +44 (755) 253-5341
+                        + (0044) 7448435973
                         </h3>
                       </div>
                     </Link>

@@ -21,7 +21,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const images = {
   frontend: [
-    { src: "/img/languages/Group 1707480008.svg", alt: "HTML", width: 50, height: 50 },
+    { src: "/img/languages/Group 1707480008.svg", alt: "HTML", width: 50, height: 50, text:"At our company, we leverage cutting-edge technologies for front-end development to deliver seamless user experiences. From React to Angular, our team ensures fast, responsive, and visually stunning websites and applications.", },
     { src: "/img/languages/Group 1707480009.svg", alt: "CSS", width: 50, height: 50 },
     { src: "/img/languages/Group 1707480012.svg", alt: "Angular", width: 50, height: 50 },
     { src: "/img/languages/Group 1707480011.svg", alt: "JavaScript", width: 50, height: 50 },
@@ -29,12 +29,12 @@ const images = {
     { src: "/img/languages/Group 1707480015.svg", alt: "Flutter", width: 50, height: 50 },
   ],
   backend: [
-    { src: "/img/languages/php.svg", alt: "PHP", width: 50, height: 50 },
+    { src: "/img/languages/php.svg", alt: "PHP", width: 50, height: 50, text:"Our backend development utilizes the latest technologies and robust architectures to ensure secure, scalable, and high-performing applications, providing seamless data management and optimized server performance." },
     { src: "/img/languages/nodejs.svg", alt: "Node.js", width: 50, height: 50 },
     { src: "/img/languages/jsbackend.svg", alt: "JavaScript Backend", width: 50, height: 50 },
   ],
   ecommerce: [
-    { src: "/img/languages/shopify.svg", alt: "Shopify", width: 50, height: 50 },
+    { src: "/img/languages/shopify.svg", alt: "Shopify", width: 50, height: 50, text:'We build dynamic e-commerce platforms using advanced tools, enabling smooth transactions, secure payment gateways, and user-friendly interfaces that drive online sales and enhance customer experiences.' },
     { src: "/img/languages/woocemerse.svg", alt: "WooCommerce", width: 50, height: 50 },
     { src: "/img/languages/shopiftpp.svg", alt: "Shopify Plus", width: 50, height: 50 },
     { src: "/img/languages/emet.svg", alt: "Emet", width: 50, height: 50 },
@@ -42,7 +42,7 @@ const images = {
     { src: "/img/languages/shopifyplus.svg", alt: "Shopify Plus", width: 50, height: 50 },
   ],
   framework: [
-    { src: "/img/languages/net.svg", alt: ".NET", width: 50, height: 50 },
+    { src: "/img/languages/net.svg", alt: ".NET", width: 50, height: 50, text:"With expertise in modern frameworks like .Net, Laravel, and Node.js, we develop flexible, reliable, and maintainable applications tailored to meet your specific business needs." },
     { src: "/img/languages/f1.svg", alt: "Framework 1", width: 50, height: 50 },
     { src: "/img/languages/firebase.svg", alt: "Firebase", width: 50, height: 50 },
     { src: "/img/languages/codeintiger.svg", alt: "CodeIgniter", width: 50, height: 50 },
@@ -74,6 +74,19 @@ useCountUp({
 });
 
   const [activeTab, setActiveTab] = useState('frontend'); // State for active tab
+
+
+  const renderText = (category) => (
+    images[category].map(({ text }, index) => (
+                <>
+               
+                 {text} 
+                  </>
+
+     
+    ))
+  );
+
 
   const renderImages = (category) => (
     images[category].map(({ src, alt, width, height }, index) => (
@@ -128,7 +141,7 @@ useCountUp({
                   aria-labelledby={`v-pills-${key}-tab`}
                 >
                   <p className="col-12 b2b-sub-text aos-init aos-animate pt-lg-2 pt-2">
-                    Our approach includes use of state-of-the-art technologies and tools across digital marketing, web development, and graphic design to deliver customized digital solutions tailored to address your most intricate challenges.
+                    {renderText(key)}
                   </p>
                   <div className="row row-cols-lg-4 row-cols-3 justify-content-center justify-content-lg-start pt-lg-2 pt-2 gap-4">
                     {renderImages(key)}
