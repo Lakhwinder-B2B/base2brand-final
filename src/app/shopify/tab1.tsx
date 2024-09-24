@@ -99,8 +99,8 @@ export default function Tab1() {
 
   return (
      <>  
-        <div className="gallery_slider">
-                  <div className="left_thumnails">
+        <div className="gallery_slider container">
+                  {/* <div className="left_thumnails">
                       <a id="tab1-1" className='slider_icon firstTab b2b_tab_vissible'>
                         <img src={tab1Icon1.src} alt="" /></a>
                       <a id="tab1-2" className='slider_icon'><img src={tab1Icon2.src} alt="" /></a>
@@ -108,23 +108,25 @@ export default function Tab1() {
                       <a id="tab1-4" className='slider_icon'><img src={tab1Icon4.src} alt="" /></a> 
                       <a id="tab1-5" className='slider_icon'><img src={tab1Icon5.src} alt="" /></a> 
                     
-                  </div>
-                  <div className="right_slider">
+                  </div> */}
+                  <div className="right_sliders w-100">
 
                         <div className='slider_right_main slider_right_main1 tab1-step-1' data-step="1" data-tab-id="tab1-1">
-                        <div className="left_thumnails">
+                        {/* <div className="left_thumnails">
                             <a id="tab1-1" className='slider_icon'><img src={tab1Icon1.src} alt="" /></a>
                           
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                        </div> */}
+                          <div className="row align-items-center">
+                            <div className="col-md-2 p-3">
+                            <a id="tab1-1" className='slider_icon'><img src={tab1Icon1.src} alt="" /></a>
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                
                                 <h2>Checkout UI Extension</h2>
                                 <p>A Checkout UI Extension enhances the user experience during the checkout process on Shopify. Our Shopify experts can tailor this extension to streamline checkout, optimize form fields, implement guest checkout options, and integrate secure payment gateways, ensuring seamless transactions and higher conversion rates for your online store.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                  <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
                               </div>
                               </div>
@@ -133,19 +135,19 @@ export default function Tab1() {
 
                         
                         <div className='slider_right_main slider_right_main1 tab1-step-2' data-step="2" data-tab-id="tab1-2">
-                        <div className="left_thumnails">
+                    
+                          <div className="row   align-items-center">
+                          <div className="col-md-2 p-3">
                             <a id="tab1-2" className='slider_icon'><img src={tab1Icon2.src} alt="" /></a>
-                          
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Up Sell</h2>
                                 <p>Upselling is a strategic technique to increase average order value by offering complementary or upgraded products during the checkout process. Our Shopify experts can implement upsell features, suggest related items, and design compelling offers to maximize revenue and enhance customer satisfaction.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+
                                 </div>
                               </div>
                             </div>
@@ -154,19 +156,19 @@ export default function Tab1() {
                        
                         
                         <div className='slider_right_main slider_right_main1 tab1-step-3' data-step="3" data-tab-id="tab1-3">
-                        <div className="left_thumnails">
+                       
+                          <div className="row   align-items-center">
+                          <div className="col-md-2 p-3">
                             <a id="tab1-3" className='slider_icon'><img src={tab1Icon3.src} alt="" /></a>
-                          
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Discount Formula&apos;s</h2>
                                 <p>The Discount Formula in Shopify allows you to apply discounts to products based on fixed amounts or percentages. Our Shopify experts can configure discount codes, automatic discounts, or bulk discounts tailored to your promotional strategies, encouraging sales and customer engagement in your online store.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+
                                 </div>
                               </div>
                             </div>
@@ -174,19 +176,19 @@ export default function Tab1() {
                         </div>
                         
                         <div className='slider_right_main slider_right_main1 tab1-step-4' data-step="4" data-tab-id="tab1-4">
-                        <div className="left_thumnails">
+                      
+                          <div className="row   align-items-center">
+                          <div className="col-md-2 p-3">
                             <a id="tab1-4" className='slider_icon'><img src={tab1Icon4.src} alt="" /></a>
-                          
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Custom Filters</h2>
                                 <p>Custom Filters enable personalized product searches on Shopify, enhancing user experience. Our experts can implement filters based on attributes like size, color, or price, empowering customers to find products quickly. With tailored filters, you can boost conversion rates and improve customer satisfaction in your Shopify store.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+
                                 </div>
                               </div>
                             </div>
@@ -194,19 +196,19 @@ export default function Tab1() {
                         </div>
                         
                         <div className='slider_right_main slider_right_main1 tab1-step-5' data-step="5" data-tab-id="tab1-5">
-                        <div className="left_thumnails">
+                      
+                          <div className="row   align-items-center">
+                          <div className="col-md-2 p-3">
                             <a id="tab1-5" className='slider_icon'><img src={tab1Icon5.src} alt="" /></a>
-                          
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Custom Search</h2>
                                 <p>Custom Search functionality allows users to find specific products or information on a Shopify store with ease. Our experts can integrate advanced search features, such as autocomplete suggestions, filters, and synonyms, optimizing the search experience and helping customers discover relevant items efficiently, ultimately increasing sales.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+
                                 </div>
                               </div>
                             </div>

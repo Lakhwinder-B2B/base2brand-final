@@ -115,25 +115,22 @@ export default function FooterLinks({ id }: linkProps) {
           <li>
             <Link href="/underconstrution">Hire Resources</Link>
           </li>
+          <li>
+            <Link href="/underconstrution">Case Studies</Link>
+          </li>
         </ul>
       ) : null}
       {id === 6 ? (
         <ul className="mb-0">
-          <li>
-            <Link href="/underconstrution">Case Studies</Link>
-          </li>
+        
           <li>
             <Link href="/underconstrution">Privacy policy</Link>
           </li>
-          <li>
-            <Link href="/underconstrution">Cookies Policy</Link>
-          </li>
+        
           <li>
             <Link href="/underconstrution">Terms &amp; Conditions</Link>
           </li>
-          <li>
-            <Link href="/underconstrution">Refund Policy</Link>
-          </li>
+         
         </ul>
       ) : null}
     </>

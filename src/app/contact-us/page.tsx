@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState , ChangeEvent  } from "react";
+import React, { useState , ChangeEvent , useEffect   } from "react";
 import Header from "../../../component/header";  
 import Footer from "../../../component/footer";
 import "../../../src/app/contact-us/contact.css";
@@ -75,6 +75,33 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
         event.preventDefault();
         showForm();
     };
+    const [times, setTimes] = useState({
+        indiaTime: '',
+        canadaTime: '',
+        ukTime: '',
+        usaTime: ''
+    });
+
+    useEffect(() => {
+        // Function to update time based on time zones
+        const updateTime = () => {
+            const indiaTime = new Date().toLocaleTimeString("en-US", { timeZone: "Asia/Kolkata", hour: '2-digit', minute: '2-digit' });
+            const canadaTime = new Date().toLocaleTimeString("en-US", { timeZone: "America/Toronto", hour: '2-digit', minute: '2-digit' });
+            const ukTime = new Date().toLocaleTimeString("en-US", { timeZone: "Europe/London", hour: '2-digit', minute: '2-digit' });
+            const usaTime = new Date().toLocaleTimeString("en-US", { timeZone: "America/Los_Angeles", hour: '2-digit', minute: '2-digit' });
+
+            setTimes({
+                indiaTime,
+                canadaTime,
+                ukTime,
+                usaTime
+            });
+        };
+
+        updateTime();
+        const intervalId = setInterval(updateTime, 60000); // Update every 1 minute
+        return () => clearInterval(intervalId); // Cleanup the interval on component unmount
+    }, []);
   return (
     <>
       <Header /> 
@@ -90,7 +117,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                             <ul>
                                 
                                 <li className="phone-link"><span>IND: </span><a href="tel:+918360116967">+918360116967</a><a href="mailto:hello@base2brand.com" className="mailID">hello@base2brand.com</a></li>
-                                <li className="phone-link"><span>CANADA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
+                                <li className="phone-link"><span>USA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
                                 <li className="phone-link"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
                                 
                             </ul>
@@ -112,17 +139,17 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Country</label>
                                     <select className="form-control removeBorder text-white background-black" id="" name="service" value={formData.service} onChange={handleChange}  required> 
-                                    <option value="India">India</option>
-                                    <option value="Afghanistan">Afghanistan</option>
-                                    <option value="Albania">Albania</option>
-                                    <option value="Algeria">Algeria</option>
-                                    <option value="AmericanSamoa">AmericanSamoa</option>
-                                    <option value="Andorra">Andorra</option>
-                                    <option value="Angola">Angola</option>
-                                    <option value="Anguilla">Anguilla</option>
-                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                    <option value="Argentina">Argentina</option>
-                                    <option value="Armenia">Armenia</option>
+                                    <option  className="b2b-black-bg opt-r" value="India">India</option>
+                                    <option  className="b2b-black-bg opt-r" value="Afghanistan">Afghanistan</option>
+                                    <option  className="b2b-black-bg opt-r" value="Albania">Albania</option>
+                                    <option  className="b2b-black-bg opt-r" value="Algeria">Algeria</option>
+                                    <option  className="b2b-black-bg opt-r" value="AmericanSamoa">AmericanSamoa</option>
+                                    <option  className="b2b-black-bg opt-r" value="Andorra">Andorra</option>
+                                    <option  className="b2b-black-bg opt-r" value="Angola">Angola</option>
+                                    <option  className="b2b-black-bg opt-r" value="Anguilla">Anguilla</option>
+                                    <option  className="b2b-black-bg opt-r" value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                    <option  className="b2b-black-bg opt-r" value="Argentina">Argentina</option>
+                                    <option  className="b2b-black-bg opt-r" value="Armenia">Armenia</option>
                                     </select>
                                 </div>
                                 <div className="formRow mb-4 pb-2">
@@ -176,15 +203,15 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                             
                             <div className="formBtn">
                                 <button type="submit" className="b2b-btn b2b-btn-sm">Send Message</button>
-                                <div className="googleReview">
+                                <a href="https://g.co/kgs/pnbnBvi" target="_blank" className="googleReview">
                                     <div>
                                         <img src={googleTag.src} className="googleImg" alt="" />
                                     </div>
                                     <div>
                                         <img src={starRating.src} className="starImg" alt="" />
-                                        <span>26 Review</span>
+                                        <span> 85 Review</span>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             
                         
@@ -217,12 +244,12 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
             <div className="b2b-gray-bg my-lg-5 my-3 w-100 py-5" data-aos="fade-up" data-aos-delay="300">
                 <div className="b2b-container-lg">
                     <div className="row addressRow ">
-                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
                                         <h3>INDIA</h3>
-                                        <p>05:18 PM</p>
+                                        <p>{times.indiaTime}</p>
                                     </div>
                                     <div className="address-icon">
                                         <img src={Icon1.src} alt="" />
@@ -251,12 +278,12 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                         </div> */}
-                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
                                         <h3>UK</h3>
-                                        <p>10:10 PM</p>
+                                        <p>{times.ukTime}</p>
                                     </div>
                                     <div className="address-icon">
                                         <img src={Icon3.src} alt="" />
@@ -268,12 +295,12 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
                             <div className="addressWrap">
                                 <div className="d-flex align-items-center mb-3">
                                     <div className="address-title">
                                         <h3>USA</h3>
-                                        <p>10:10 PM</p>
+                                        <p>{times.usaTime}</p>
                                     </div>
                                     <div className="address-icon">
                                         <img src={Icon4.src} alt="" />
@@ -284,7 +311,26 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                     USA, +1 (720) 903-5933</p>
                                 </div>
                             </div>
-                        </div>
+                            
+                        </div>  
+                        <div className="col-12 col-lg-3 col-md-6 mb-md-0 mb-5" data-aos="fade-up" data-aos-delay="300">
+                            <div className="addressWrap">
+                                <div className="d-flex align-items-center mb-3">
+                                    <div className="address-title">
+                                    <h3>CANADA</h3>
+                                    <p>{times.canadaTime}</p>
+                                    </div>
+                                    <div className="address-icon">
+                                    <img src={Icon2.src} alt="" />
+                                    </div>
+                                </div>
+                                <div className="address">
+                                <p>Ms Ady 114, Bellchase Trail Brampton<br />
+                                ON L6P 3LA +1(416) 879-22444</p>
+                                </div>
+                            </div>
+                            
+                        </div>  
                     </div>
                 </div>
             </div>

@@ -111,6 +111,26 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
     };
     const handleClick = (event) => {
         event.preventDefault();
+    
+        // Get all checkboxes with name "service"
+        const checkboxes = document.querySelectorAll('input[name="service"]:checked');
+    
+    // Check if at least one checkbox is checked
+    const errorBox = document.querySelector('.serviceError') as HTMLElement;
+
+    if (checkboxes.length === 0) {
+        // Show error message
+        errorBox.style.display = 'block';
+       
+    } else {
+        // Hide error message
+        errorBox.style.display = 'none';
+        nextForm();
+
+        
+        // Proceed with form submission or next steps
+        // handleSubmit();
+    }
         // const ModalBody = document.querySelector(".b2b-modal-body");
         // const TabNumber = ModalBody.getAttribute("data-tab");
         // if(parseInt(TabNumber) == 1){
@@ -133,7 +153,6 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
         //     }
         // }
 
-        nextForm();
         
     };
     return (
@@ -175,6 +194,9 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                         <input className="serviceCheckbox" id="all" type="checkbox" name="service" value="All Services" />
                                         <label htmlFor="all">All Services</label>
                                     </div>
+                                </div>
+                                <div className="errorBox serviceError" style={{ display: 'none' }}>
+                                    <span className="error">Please fill out this field</span>
                                 </div>
                                 <div className="errorBox serviceError" style={{display: 'none'}}>
                                     <span className="error">Please fill out this field</span>

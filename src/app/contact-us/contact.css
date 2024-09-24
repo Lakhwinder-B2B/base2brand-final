@@ -82,7 +82,7 @@ li.mail a{
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
-    color: #fff;
+    color: #fff !important;
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid #D9D9D9;
@@ -177,7 +177,7 @@ li.mail a{
     border-radius: 5px;
     text-align: center;
     height: 50px;
-    width: 120px;
+    width: 150px;
     line-height: 36px;
     
 }
@@ -211,14 +211,15 @@ li.mail a{
 .animated-imgs.animated-contact-img canvas{
     height: calc(100vh - 100px) !important;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
+    .formHeading {
+        margin-top: 10px;
+    }
     .formHeading h1 {
         font-size: 34px;
         line-height: 46px;
     }
-    .formHeading {
-        margin-top: 36px;
-    }
+  
     .address-title h3 {
         font-size: 24px;
     }

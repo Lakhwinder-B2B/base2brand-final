@@ -442,12 +442,12 @@ li.menuBtn a:hover span{
         padding-left: 1rem;
     }
     ul.dropdown-menu.ph_align_drop {
-        position: absolute !important;
+        position: relative !important;
         left: 0px !important;
         top: 3rem !important;
         right: 0 !important;
         padding: 0px 10px !important;
-       width: 305px !important;
+       width: 100% !important;
         background: #212529;
         border: 1px solid #ccc; 
         height: 200px;

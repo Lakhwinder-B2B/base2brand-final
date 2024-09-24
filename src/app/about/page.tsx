@@ -190,7 +190,8 @@ export default function AboutUs() {
                       <h1 className='b2b-heading'>We Create Smart Ideas For<br />Your Brand Growth</h1>
                       <p className='b2b-text'>Our team of experts generate innovative concepts and strategies to drive your growth, offering smart solutions that propel your business forward and achieve your objectives efficiently.</p>
                       <div className="mt-lg-4 mt-md-3 mt-2 text-center">
-                    <button onClick={toggleModal} className="b2b-btn b2b-btn-lg">Request a Quote </button>
+                    <button onClick={toggleModal} className="b2b-btn b2b-btn-sm">Request a Quote </button>
+                    {/* b2b-btn b2b-btn-lg */}
                     </div>
                   </div>
                 </div>
@@ -224,7 +225,11 @@ export default function AboutUs() {
 
                 <div className="center_slide">
                   <div className="product_name">
-                    <p className="border_pro_name col-md-3">Sahbad Guru</p> 
+                    <div className='col-md-3'>
+                    <p className="border_pro_name mb-0 pt-4">Sahbad Guru</p> 
+                      <p className='col-md-3 mb-0 pt-3 year_slide'>2021</p>
+                    </div>
+
                     <div className="detail_box col-lg-6 col-md-7">
                       <p>Dedicated SEO work for ShabadGuru for 2 years, a premier website for Gurbani, Raags, and Kirtan.</p>
                       <p>We've enhanced Shabad Guru online visibility and accessibility so that spiritual wisdom can easily be found. </p>
@@ -234,7 +239,10 @@ export default function AboutUs() {
 
                 <div className="center_slide">
                   <div className="product_name">
-                    <p className="border_pro_name col-md-3">VIP Number Shop</p> 
+                  <div className='col-md-3'>
+                    <p className="border_pro_name mb-0 pt-4">VIP Number Shop</p> 
+                      <p className='col-md-3 mb-0 pt-3 year_slide'>2023</p>
+                    </div> 
                     <div className="detail_box col-lg-6 col-md-7">
                       <p>We have propelled VIP Number Shop to new heights, a Bollywood celebrities trusted brand, through targeted Meta Ads, Google Ads, Social Media campaigns, and SEO optimizations.</p>
                       <p>We&apos;ve boosted visibility, engagement, and sales of VIP phone numbers for VIP Number Shop.</p>
@@ -243,7 +251,10 @@ export default function AboutUs() {
                 </div>
                 <div className="center_slide">
                   <div className="product_name">
-                    <p className="border_pro_name col-md-3">International Nanny</p> 
+                  <div className='col-md-3'>
+                    <p className="border_pro_name mb-0 pt-4">International Nanny</p> 
+                      <p className='col-md-3 mb-0 pt-3 year_slide'>2020</p>
+                    </div>  
                     <div className="detail_box col-lg-6 col-md-7">
                       <p>With four years of dedicated SEO efforts, International Nanny has achieved remarkable success in ranking for various keywords related to nanny services.</p>
                       <p>Our goal is to provide quality work to our clients like International Nanny for the long term.</p>
@@ -261,7 +272,10 @@ export default function AboutUs() {
                 </div>
                 <div className="center_slide">
                   <div className="product_name">
-                    <p className="border_pro_name col-md-3">CZUR</p> 
+                  <div className='col-md-3'>
+                    <p className="border_pro_name mb-0 pt-4">CZUR</p> 
+                      <p className='col-md-3 mb-0 pt-3 year_slide'>2021</p>
+                    </div>  
                     <div className="detail_box col-lg-6 col-md-7">
                       <p>Our partnership with CZUR, a leading brand in office gadgets and equipment, has been achieving their sales goals through organic traffic.</p>
                       <p>Together, we have opened up the possibility of using digital marketing to supply companies or individuals with electronic equipment.</p>
@@ -270,7 +284,10 @@ export default function AboutUs() {
                 </div>
                 <div className="center_slide">
                   <div className="product_name">
-                    <p className="border_pro_name col-md-3">Mayacare Foundation</p> 
+                  <div className='col-md-3'>
+                    <p className="border_pro_name mb-0 pt-4">Mayacare Foundation</p> 
+                      <p className='col-md-3 mb-0 pt-3 year_slide'>2023</p>
+                    </div> 
                     <div className="detail_box col-lg-6 col-md-7">
                       <p>Mayacare, a charitable organization that makes a difference in the lives of Persons with Disabilities (PWDs) and the elderly.</p>
                       <p>By using social media marketing strategically, we've been able to expand Mayacare&apos;s reach and reach more people in need.</p>
@@ -288,7 +305,10 @@ export default function AboutUs() {
                 </div>
                 <div className="center_slide">
                   <div className="product_name">
-                    <p className="border_pro_name col-md-3">Healthy Bedroom</p> 
+                  <div className='col-md-3'>
+                    <p className="border_pro_name mb-0 pt-4">Healthy Bedroom</p> 
+                      <p className='col-md-3 mb-0 pt-3 year_slide'>2020</p>
+                    </div> 
                     <div className="detail_box col-lg-6 col-md-7">
                       <p>Healthy Bedroom, a luxurious mattress seller, has thrived under our guidance for four years.</p>
                       <p>Through meticulous Google Ads and SEO strategies, we've positioned Healthy Bedroom at the forefront of the luxury mattress market.</p>

@@ -1,11 +1,11 @@
-'use client' 
-import React, { useRef, useState, useEffect } from "react";  
-import design1 from '../../../public/web-app/design1.svg'; 
-import design2 from '../../../public/web-app/design2.svg'; 
-import design3 from '../../../public/web-app/design3.svg'; 
-import design4 from '../../../public/web-app/design4.svg'; 
-import design5 from '../../../public/web-app/design5.svg'; 
-import design6 from '../../../public/web-app/design6.svg'; 
+'use client'
+import React, { useRef, useState, useEffect } from "react";
+import design1 from '../../../public/web-app/design1.svg';
+import design2 from '../../../public/web-app/design2.svg';
+import design3 from '../../../public/web-app/design3.svg';
+import design4 from '../../../public/web-app/design4.svg';
+import design5 from '../../../public/web-app/design5.svg';
+import design6 from '../../../public/web-app/design6.svg';
 import Image from "next/image";
 
 
@@ -24,107 +24,108 @@ export default function DesktopTabs() {
     const [activeTab, setActiveTab] = useState('pill1');
 
     const handleTabClick = (tab) => {
-      setActiveTab(tab);
+        setActiveTab(tab);
     };
-  return (
-    <>  
-        <div className="designTabsWrap b2b-gray-bg" > 
-            <div className="b2b-container-lg"> 
-                <div className="row">
-                    <div className="col-lg-12 m-auto">
-                    <ul className="designTabsWrap b2b-gray-bg">
-        <div className="b2b-container-lg">
-          <div className="row">
-            <div className="col-lg-12 m-auto">
-              <ul className="nav nav-pills mb-3 designTabs" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-delay="300">
-                <li className="nav-item" role="presentation">
-                  <button
-                    className={`btn_design ${activeTab === 'pill1' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('pill1')}
-                  >
-                    Web<br />Strategy
-                    <span><Image src={design1} alt="" /></span>
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className={`btn_design ${activeTab === 'pill2' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('pill2')}
-                  >
-                    Planning &amp; Information<br />Architecture
-                    <span><Image src={design2} alt="" /></span>
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className={`btn_design ${activeTab === 'pill3' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('pill3')}
-                  >
-                    Creative<br />Design
-                    <span><Image src={design3} alt="" /></span>
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className={`btn_design ${activeTab === 'pill4' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('pill4')}
-                  >
-                    Responsive<br />Development
-                    <span><Image src={design4} alt="" /></span>
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className={`btn_design ${activeTab === 'pill5' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('pill5')}
-                  >
-                    Quality<br />Assurance (QA)
-                    <span><Image src={design5} alt="" /></span>
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className={`btn_design ${activeTab === 'pill6' ? 'active' : ''}`}
-                    onClick={() => handleTabClick('pill6')}
-                  >
-                    Launch &amp;<br />Optimization
-                    <span><Image src={design6} alt="" /></span>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </ul>
+    return (
+        <>
+            <div className="designTabsWrap b2b-gray-bg" >
+                <div className="b2b-container-lg">
+                    <div className="row">
+                        <div className="col-lg-12 m-auto">
+                            <ul className="designTabsWrap b2b-gray-bg">
+                                <div className="b2b-container-lg">
+                                    <div className="row">
+                                        <div className="col-lg-12 m-auto">
+                                            <ul className="nav nav-pills mb-3 designTabs" id="pills-tab" role="tablist" data-aos="fade-up" data-aos-delay="300">
+                                                <li className="nav-item" role="presentation">
+                                                    <button
+                                                        className={`btn_design ${activeTab === 'pill1' ? 'active' : ''}`}
+                                                        onClick={() => handleTabClick('pill1')}
+                                                    >
+                                                        Web<br />Strategy
+                                                        <span><Image src={design1} alt="" /></span>
+                                                    </button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button
+                                                        className={`btn_design ${activeTab === 'pill2' ? 'active' : ''}`}
+                                                        onClick={() => handleTabClick('pill2')}
+                                                    >
+                                                        Planning &amp; Information<br />Architecture
+                                                        <span><Image src={design2} alt="" /></span>
+                                                    </button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button
+                                                        className={`btn_design ${activeTab === 'pill3' ? 'active' : ''}`}
+                                                        onClick={() => handleTabClick('pill3')}
+                                                    >
+                                                        Creative<br />Design
+                                                        <span><Image src={design3} alt="" /></span>
+                                                    </button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button
+                                                        className={`btn_design ${activeTab === 'pill4' ? 'active' : ''}`}
+                                                        onClick={() => handleTabClick('pill4')}
+                                                    >
+                                                        Responsive<br />Development
+                                                        <span><Image src={design4} alt="" /></span>
+                                                    </button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button
+                                                        className={`btn_design ${activeTab === 'pill5' ? 'active' : ''}`}
+                                                        onClick={() => handleTabClick('pill5')}
+                                                    >
+                                                        Quality<br />Assurance (QA)
+                                                        <span><Image src={design5} alt="" /></span>
+                                                    </button>
+                                                </li>
+                                                <li className="nav-item" role="presentation">
+                                                    <button
+                                                        className={`btn_design ${activeTab === 'pill6' ? 'active' : ''}`}
+                                                        onClick={() => handleTabClick('pill6')}
+                                                    >
+                                                        Launch &amp;<br />Optimization
+                                                        <span><Image src={design6} alt="" /></span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div className="designTabsContentWrap" data-aos="fade-up" data-aos-delay="300">
-        <div className="b2b-container-lg">
-          <div className="row">
-            <div className="col-lg-12 m-auto">
-              <div className="tab-content" id="pills-tabContent">
-                {activeTab === 'pill1' && (
-                  <div className="tab-pane active" id="pill1" role="tabpanel">
-                    <div className="row align-items-center">
-                    <div className="col-md-6 text-white"> 
-                                            <h2 className="b2b-sub-heading mb-3">Web Strategy</h2>
-                                            <p className="b2b-text-sm letterSpacing-1">Before we put pen to paper (or start on your digital design, rather), we conduct thorough research into your industry, competitors and target market to gather insights that will inform your custom digital strategy</p>
-                                            <p className="b2b-text-sm fw-semibold">In this phase, we</p>
-                                            <ul className="arrowListing">
-                                                <li>Identify the ideal positioning for your brand</li>
-                                                <li>Collect target audience data and create user personas</li>
-                                                <li>Define valuable content and marketing channels</li>
-                                                <li>Define KPIs to measure performance</li>
-                                            </ul>
-                                        </div>
-                      <div className="col-md-6">
+            <div className="designTabsContentWrap" data-aos="fade-up" data-aos-delay="300">
+                <div className="b2b-container-lg">
+                    <div className="row">
+                        <div className="col-lg-12 m-auto">
+                            <div className="tab-content" id="pills-tabContent">
+                                {activeTab === 'pill1' && (
+                                    <div className="tab-pane active" id="pill1" role="tabpanel">
+                                        <div className="row align-items-center">
+                                            <div className="col-md-6 text-white">
+                                                <h2 className="b2b-sub-heading mb-3">Web Strategy</h2>
+                                                <p className="b2b-text-sm letterSpacing-1">Before we put pen to paper (or start on your digital design, rather), we conduct thorough research into your industry, competitors and target market to gather insights that will inform your custom digital strategy</p>
+                                                <p className="b2b-text-sm fw-semibold">In this phase, we</p>
+                                                <ul className="arrowListing">
+                                                    <li>Identify the ideal positioning for your brand</li>
+                                                    <li>Collect target audience data and create user personas</li>
+                                                    <li>Define valuable content and marketing channels</li>
+                                                    <li>Define KPIs to measure performance</li>
+                                                </ul>
+                                            </div>
+                                            <div className="col-md-6">
                         <DotLottieReact  src="/json/web developement/Web Strategy.json" loop autoplay className="animated-imgs animated-banner-img small_json" />
                       </div>
-                    </div>
-                  </div>
+                                        </div>
+                   
+                    </div> 
                 )}
                 {activeTab === 'pill2' && (
                   <div className="tab-pane active" id="pill2" role="tabpanel">
@@ -245,10 +246,10 @@ export default function DesktopTabs() {
                 {/* Repeat for other tabs */}
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-        {/* <div className="designTabsContentWrap" data-aos="fade-up" data-aos-delay="300"> 
+            </div>
+            </div>
+            </div>
+            {/* <div className="designTabsContentWrap" data-aos="fade-up" data-aos-delay="300"> 
             <div className="b2b-container-lg"> 
                 <div className="row">
                     <div className="col-lg-12 m-auto">                
@@ -405,7 +406,7 @@ export default function DesktopTabs() {
                 </div>
             </div>
         </div> */}
-        
-</>
-)
+
+        </>
+    )
 }

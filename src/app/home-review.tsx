@@ -15,7 +15,7 @@ const feedbacks = [
     imgSrc: '/img/Tim Hildebrand.svg',
     text: 'Excellent creatives, excellent ads posted. Highest quality work. Thank you! Already referred them to a friend who owns a marketing agency.',
     name: 'Tim Hildebrand ',
-    company: 'VIP NUMBER SHOP',
+    company: 'DIG AGENCY',
   },
   {
     imgSrc: '/img/Askus Anytime Limited.svg',

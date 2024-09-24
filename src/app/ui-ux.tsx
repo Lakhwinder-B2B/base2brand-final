@@ -7,6 +7,8 @@ import UiUx from '../../public/graphics/ui-ux.svg';
 import UiUxIcons from '../../public/graphics/ui-ux-icons.svg';
 
 import Request from "./request-form";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
 export default function UIUX() {
  
     const [showModal, setShowModal] = useState(false);
@@ -44,7 +46,9 @@ export default function UIUX() {
                     <button onClick={toggleModal} className="b2b-btn b2b-btn-sm m-0"  data-aos="fade-up" data-aos-delay="300">Request a Quote</button>
                 </div>
                 <div className='col-lg-6 col-md-6 order-md-2 order-1 mb-md-0 mb-4'>
-                    <img className='w-100 ui-ux-img' src={UiUx.src} alt="" data-aos="fade-up" data-aos-delay="300" />
+                <DotLottieReact src="\json\ui-ux.json" loop autoplay className="animated-imgs animated-banner-img small_json" />
+
+                    {/* <img className='w-100 ui-ux-img' src={UiUx.src} alt="" data-aos="fade-up" data-aos-delay="300" /> */}
                 </div>
             </div>
         </div>

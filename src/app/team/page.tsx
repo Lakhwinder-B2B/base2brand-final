@@ -31,7 +31,7 @@ import AmbalikaPhanker from '../../../public/team-img/AmbalikaPhanker.png';
 import RajanKumar from '../../../public/team-img/RajanKumar.png'; 
 import AnuragSharma from '../../../public/team-img/AnuragSharma.png'; 
 import RahulRaj from '../../../public/team-img/RahulRaj.png'; 
-import MDSahjadAnsari from '../../../public/team-img/MDSahjadAnsari.png'; 
+import MDSahjadAnsari from '../../../public/team-img/md-sir.svg'; 
 import DeepakChauhan from '../../../public/team-img/DeepakChauhan.png'; 
 import Lakhwinder from '../../../public/team-img/Lakhwinder.png'; 
 import VikashSoni from '../../../public/team-img/VikashSoni.png'; 
@@ -174,12 +174,23 @@ export default function Team() {
                     </div>
                   </div>
                   <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
+                    <img src={MDSahjadAnsari.src} alt='' />
+                    <div className='team-details'>
+                      <h3>Md. Sahjad Ansari</h3>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+
+                  {/*  */}
+                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SahilSolanki.src} alt='' />
                     <div className='team-details'>
                       <h3>Sahil Solanki</h3>
                       <p>graphic &amp; uI/UX designer</p>
                     </div>
                   </div>
+
+                  {/*  */}
                   <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={SameerKathat.src} alt='' />
                     <div className='team-details'>
@@ -287,13 +298,7 @@ export default function Team() {
                       <p>Software Developer</p>
                     </div>
                   </div>
-                  <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
-                    <img src={MDSahjadAnsari.src} alt='' />
-                    <div className='team-details'>
-                      <h3>MD. Sahjad Ansari</h3>
-                      <p>Software Developer</p>
-                    </div>
-                  </div>
+                
                   <div className='col mb-5' data-aos="zoom-in-up" data-aos-delay="300">
                     <img src={DeepakChauhan.src} alt='' />
                     <div className='team-details'>

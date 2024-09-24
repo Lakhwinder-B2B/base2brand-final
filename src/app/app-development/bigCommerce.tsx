@@ -48,12 +48,12 @@ export default function Big_Commerce() {
                 <div className="benefit-wrap">
                     <div className="px-3 mt-md-0 mt-4" data-aos="fade-up" data-aos-delay="300">
                         <h4 className='b2b-text-lg'>3. Marketing Efforts</h4>
-                        <p className='b2b-text-sm letterSpacing-1 text-md-end text-start mb-0'>Apps facilitate targeted campaigns through user data analysis, tailoring promotions and offers to maximize conversion rates and optimize ROI.</p>
+                        <p className='b2b-text-sm letterSpacing-1 text-md-start text-start mb-0'>Apps facilitate targeted campaigns through user data analysis, tailoring promotions and offers to maximize conversion rates and optimize ROI.</p>
                         
                     </div>
                     <div className="px-3 mt-md-0 mt-4" data-aos="fade-up" data-aos-delay="300">
                         <h4 className='b2b-text-lg'>4. Customer Service</h4>
-                        <p className='b2b-text-sm letterSpacing-1 text-md-end text-start mb-0'>Convenient platforms for support, offering features like live chat and FAQs, enhance user experience, resolve issues promptly, and foster long-term loyalty.</p>
+                        <p className='b2b-text-sm letterSpacing-1 text-md-start text-start mb-0'>Convenient platforms for support, offering features like live chat and FAQs, enhance user experience, resolve issues promptly, and foster long-term loyalty.</p>
                         
                     </div>
                 </div>

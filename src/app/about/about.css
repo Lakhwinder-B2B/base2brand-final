@@ -14,7 +14,7 @@
     margin-top: 3rem;
 }
 .about_sticky{
-    top: 100px;
+    top: 90px;
     z-index: 1;
 }
 .bg_about{
@@ -298,6 +298,10 @@ span.slide-number {
 .tabInnerWrap .title{
     display: none;
 } 
+p.col-md-3.mb-0.pt-3.year_slide {
+    font-size: 26px;
+    padding-top: 0px !important;
+}
 @media screen and (max-width: 1800px){
     .ceo_name_align .b2b-text {
         font-size: 20px;

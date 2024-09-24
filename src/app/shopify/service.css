@@ -429,7 +429,9 @@ button.btn_design span img{
         stroke-width: 0;
     }
 } */
-
+.right_sliders .tab-active {
+    filter: blur(4px);
+}
 .right_slider .slick-next:before{
     background-image: url(../../../public/team-img/arrow-right.svg);
 }

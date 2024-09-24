@@ -95,31 +95,30 @@ export default function Tab4() {
 
   return (
      <>  
-        <div className="gallery_slider">
-                  <div className="left_thumnails">
+        <div className="gallery_slider container">
+                  {/* <div className="left_thumnails">
                    
                       <a id="tab4-1" className='slider_icon firstTab b2b_tab_vissible'><img src={tab4Icon1.src} alt="" /></a>
                       <a id="tab4-2" className='slider_icon'><img src={tab4Icon2.src} alt="" /></a>
                       <a id="tab4-3" className='slider_icon'><img src={tab4Icon3.src} alt="" /></a>
                       <a id="tab4-4" className='slider_icon'><img src={tab4Icon4.src} alt="" /></a> 
                     
-                  </div>
-                  <div className="right_slider">
+                  </div> */}
+                  <div className="right_sliders">
                           
                         <div className='slider_right_main slider_right_main4 tab4-step-1' data-step="1" data-tab-id="tab4-1">
-                        <div className="left_thumnails">
-                          
-                          <a id="tab4-1" className='slider_icon'><img src={tab4Icon1.src} alt="" /></a>
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                     
+                          <div className="row  align-items-center">
+                          <div className="col-md-2 p-3">
+                            <a id="tab4-1" className='slider_icon'><img src={tab4Icon1.src} alt="" /></a>
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                
                                 <h2>Special Optimization</h2>
                                 <p>Special optimization involves fine-tuning various aspects of a Shopify store to enhance performance and user experience. This may include optimizing images, minimizing code, improving page load times, and ensuring mobile responsiveness. Our experts implement tailored optimizations to boost speed, SEO ranking, and conversions, maximizing your store's success.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                  <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
                               </div>
                               </div>
@@ -128,19 +127,21 @@ export default function Tab4() {
                         
 
                         <div className='slider_right_main slider_right_main4 tab4-step-2' data-step="2" data-tab-id="tab4-2">
-                        <div className="left_thumnails">
+                        {/* <div className="left_thumnails">
                           
                           <a id="tab4-2" className='slider_icon'><img src={tab4Icon2.src} alt="" /></a>
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                        </div> */}
+                          <div className="row  align-items-center">
+                          <div className="col-md-2 p-3">
+                            <a id="tab4-2" className='slider_icon'><img src={tab4Icon2.src} alt="" /></a>
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>UI/UX Improvement</h2>
                                 <p>UI/UX improvement in Shopify focuses on enhancing the design and usability of your online store. Our experts analyze user behavior, streamline navigation, optimize product presentation, and refine checkout processes. By prioritizing user satisfaction and engagement, we elevate your Shopify store's performance and drive conversions.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                  <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
                               </div>
                             </div>
@@ -149,19 +150,18 @@ export default function Tab4() {
                        
                         
                         <div className='slider_right_main slider_right_main4 tab4-step-3' data-step="3" data-tab-id="tab4-3">
-                        <div className="left_thumnails">
-                          
-                          <a id="tab4-3" className='slider_icon'><img src={tab4Icon3.src} alt="" /></a>
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                        
+                          <div className="row   align-items-center">
+                          <div className="col-md-2 p-3">
+                            <a id="tab4-3" className='slider_icon'><img src={tab4Icon3.src} alt="" /></a>
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Up Sell</h2>
                                 <p>Upselling involves suggesting additional or upgraded products to customers to increase their purchase value. Our strategy includes personalized recommendations during checkout or product pages, enticing offers, and seamless integration to enhance user experience and maximize revenue in your Shopify store.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                  <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
                               </div>
                             </div>
@@ -169,19 +169,18 @@ export default function Tab4() {
                         </div>
                         
                         <div className='slider_right_main slider_right_main4 tab4-step-4' data-step="4" data-tab-id="tab4-4">
-                        <div className="left_thumnails">
-                          
-                          <a id="tab4-4" className='slider_icon'><img src={tab4Icon4.src} alt="" /></a>
-                        </div>
-                          <div className="row gap-5 align-items-center">
-                            
+                        
+                          <div className="row align-items-center">
+                          <div className="col-md-2 p-3">
+                            <a id="tab4-4" className='slider_icon'><img src={tab4Icon4.src} alt="" /></a>
+                            </div>
                             <div className="col-md-10 m-auto">
                               <div className="social_ads text-white text-center">
                                 
                                 <h2>Cash Flow</h2>
                                 <p>Cash flow refers to the movement of money into and out of a business. In a Shopify store, optimizing cash flow involves managing inventory, sales, and expenses efficiently. Our experts implement strategies like inventory management tools, sales forecasting, and payment gateway optimization to ensure consistent cash flow and business stability.</p>
                                 <div className="mt-4">
-                                  <a href="" className="b2b-btn b2b-btn-sm m-0">Read More</a>
+                                  <a href="/underconstrution" className="b2b-btn b2b-btn-sm m-0">Read More</a>
                                 </div>
                               </div>
                             </div>

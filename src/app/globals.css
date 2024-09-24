@@ -1,7 +1,9 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
-
+html {
+  scroll-behavior: smooth;
+}
 
  body {
   font-family: 'Poppins', sans-serif !important;
@@ -20,6 +22,9 @@ h1, h2, h3 ,h4, h5, h6{
 }
 a{
   text-decoration: none !important;
+}
+.service-banner p {
+  font-size: 20px;
 }
 ul.flex li a {
     font-weight: 100;
@@ -1034,8 +1039,17 @@ button.nav-link.btn_service{
   background: #1A1A1A !important;
   border-radius: 0px !important;
   padding: 10px !important;
-  border-bottom: 2px solid #1A1A1A;
+ 
 }
+
+
+.tab-btn ul#pills-tab li.nav-item button.active {
+  background: linear-gradient(45deg, #7411e1, #396BDB) !important;
+  border: none !important;
+}
+
+
+
 .service_tabs li{
   border-right:1px solid #989393 !important;
   width: 140px;
@@ -2595,8 +2609,9 @@ ul.nav.nav-pills.mb-3 {
     font-size: 12px;
   }
   .row.appIcons {
-    justify-content: flex-start !important;
+    justify-content: start !important;
     margin-top: 30px !important;
+    text-align: left !important;
   }
   .bannerSection .Typewriter span {
     font-size: 22px !important;
@@ -3314,4 +3329,11 @@ p.date.Date-box {
     height: 62px;
     border: 1px solid #ffffff63;
   }
+}
+
+
+
+
+.mobile-w{
+  width: 100% !important;
 }
