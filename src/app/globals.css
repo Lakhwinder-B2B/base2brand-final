@@ -1444,7 +1444,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: 22px;
   }
   .b2b-text {
-    font-size: 14px;
+    font-size: 16px;
   }
   .menuText {
     font-size: 14px;
@@ -1498,7 +1498,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: 24px;
   }
   .b2b-text {
-    font-size: 13px;
+    font-size: 16px;
     line-height: normal;
   }
   .b2b-btn-sm {
@@ -1655,7 +1655,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: normal;
   }
   .b2b-text {
-    font-size: 12px;
+    font-size: 16px;
     line-height: normal;
   }
   .b2b-sub-text {
@@ -1798,7 +1798,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     font-size: 9px;
   }
   .b2b-text {
-    font-size: 11px;
+    font-size: 16px;
   }
   .pert_num {
     height: 62px !important;
@@ -2369,7 +2369,7 @@ ul.nav.nav-pills.mb-3 {
     line-height: 24px;
   }
   .b2b-text {
-    font-size: 14px;
+    font-size: 16px;
   }
   .b2b-btn-sm {
     font-size: 14px;
@@ -2685,7 +2685,7 @@ ul.nav.nav-pills.mb-3 {
     height: 10px;
   }
   .b2b-text {
-    font-size: 12px;
+    font-size: 16px;
   }
   .b2b-main-heading {
     font-size: 18px;
@@ -2946,6 +2946,9 @@ li.nav-item-gk {
   }
 }
 @media only screen and (max-width: 767px) {
+  header .navbar ul.navbar-nav.main-menu li > a:before{
+    display: none;
+  }
   li.nav-item-gk {
     width: 100%;
   }

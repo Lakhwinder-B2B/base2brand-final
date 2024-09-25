@@ -65,8 +65,8 @@
 
 @media screen and (max-width:1200px) {
     .team-details p {
-        font-size: 10px;
-        line-height: 18px;
+        font-size: 14px;
+        line-height: 24px;
     }
     
 }
@@ -94,7 +94,7 @@
 @media screen and (max-width: 600px) {
     .crew-wrap .employeesWrap .team-details h3 {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 24px;
     }
     .crew-wrap .employeesWrap.row {
         column-gap: 0px;

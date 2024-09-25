@@ -90,6 +90,7 @@ export default function MobileTabs() {
                             slidesToScroll={1}
                             speed={800}
                             fade= {true}
+                            adaptiveHeight={true}
                             >
                             <div>
                                 <Tab1 />

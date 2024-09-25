@@ -102,7 +102,7 @@ services pages */
         line-height: 35px;
     }
     .deliverable-content .b2b-text {
-        font-size: 14px;
+        font-size: 16px;
         line-height: normal;
     }
     .deliverable-icon {
@@ -130,7 +130,7 @@ services pages */
         line-height: 30px;
       }
       .b2b-text-sm, .designTabsContentWrap ul li{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 24px;
       }
       .interfaceWrap h3 {
@@ -183,7 +183,7 @@ services pages */
 }
 @media screen and (max-width: 1366px){
     .deliverable-content .b2b-text {
-        font-size: 12px;
+        font-size: 14px;
         line-height: normal;
     }
     .benefitOuterWrap .b2b-text-sm {
@@ -222,8 +222,8 @@ services pages */
         margin: auto;
     }
     .benefitOuterWrap .b2b-text-sm {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .b2b-sub-text {
         font-size: 16px;
@@ -335,7 +335,7 @@ services pages */
         padding: 15px 20px;
     }
     .b2b-text-sm, .designTabsContentWrap ul li {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 22px;
     }
     ul.arrowListing li:before {
@@ -383,7 +383,7 @@ services pages */
         font-size: 20px;
     }
     .social_ads p {
-        font-size: 12px;
+        font-size: 16px;
     }
     .social_ads small {
         font-size: 12px;
@@ -461,12 +461,12 @@ services pages */
         padding-left: 0rem!important;
     }
     .benefitOuterWrap .b2b-text-lg {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 24px;
     }
     .benefitOuterWrap .b2b-text-sm {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .benefitOuterWrap .p-3 {
         padding: 0rem !important;
@@ -493,7 +493,7 @@ services pages */
         padding: 40px 45px 50px 80px;
     }
     .platform-tabs p {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 22px;
     }
     img.digital_img {
@@ -609,7 +609,7 @@ services pages */
         height: auto;
     }
     .whyChooseWrap .cell-wrap .b2b-text {
-        font-size: 12px;
+        font-size: 14px;
     }
     .whyChooseWrap .cell-wrap h3 {
         font-size: 16px;
@@ -934,7 +934,7 @@ services pages */
         padding: 18px 14px 18px 26px;
     }
     .deliverable-content .b2b-text {
-        font-size: 10px;
+        font-size: 14px;
         line-height: normal;
     }
     .whyChooseWrap .cell-wrap .imgIcon {
@@ -1005,7 +1005,7 @@ services pages */
         height: 20px;
     }
     .platform-tabs p {
-        font-size: 13px;
+        font-size: 16px;
         line-height: 20px;
     }
     .left_thumnails .slick-slide img {
