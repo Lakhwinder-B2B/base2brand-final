@@ -226,8 +226,8 @@ services pages */
         line-height: 18px;
     }
     .b2b-sub-text {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .mobileAppWrap .cell-wrap span {
         font-size: 12px;
@@ -422,8 +422,8 @@ services pages */
         line-height: 32px !important;
     }
     .service-banner p {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .designTabsWrap * {
         display: block !important;
@@ -475,8 +475,8 @@ services pages */
         height: 30px;
     }
     .b2b-achievements-wrap .b2b-sub-text {
-        font-size: 11px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .mobileAppWrap .cell-wrap {
         padding: 20px 12px;
@@ -594,8 +594,8 @@ services pages */
 }
 @media screen and (max-width: 767px) {
     .service-banner p {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .designTabsContentWrap img{
         margin: auto;
@@ -626,8 +626,8 @@ services pages */
         margin: auto;
     }
     .b2b-achievements-wrap .b2b-sub-text {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 24px;
     }
     body .b2b-achievements-wrap {
         justify-content: flex-start !important;
@@ -896,8 +896,8 @@ services pages */
         line-height: 26px !important;
     }
     .service-banner p {
-        font-size: 10px;
-        line-height: 18px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .designTabs {
         width: calc(100% - 50px);

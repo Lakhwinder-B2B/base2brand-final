@@ -77,7 +77,7 @@ export default function FooterMap() {
                                         className="tooltipText"
                                         place="top"
                                         html="<p class='tooltipTitle'>USA</p>
-                                        7311 Gladys Ave, El Cerrito, CA 94530,<br/> USA, +1 (720) 903-5933"
+                                        7311 Gladys Ave El Cerrito CA 94530,<br/> USA, +1 (720) 903-5933"
                                     />
                                 <div className="address2" data-aos="zoom-in" data-aos-delay="700">
                                     <span data-tooltip-id="my-tooltip-2" className="addressDot"></span>
@@ -87,8 +87,8 @@ export default function FooterMap() {
                                         className="tooltipText"
                                         place="top"
                                         html="<p class='tooltipTitle'>Uk</p>
-                                        Ms Ady 114, Bellchase Trail Brampton,<br />
-                                        ON L6P 3LA +44 7552 535341"
+                                       	69 Grove St, Edinburgh. EH3 8FD<br />
+                                        UK +(0044) 7448435973"
                                     />
                                 <div className="address3" data-aos="zoom-in" data-aos-delay="800">
                                     <span data-tooltip-id="my-tooltip-3" className="addressDot"></span>
@@ -123,6 +123,7 @@ export default function FooterMap() {
                                                 <option value="graphic design">Graphic Design</option> 
                                                 <option value="web development">Web Development</option>
                                                 <option value="mobile app development">Mobile App Development</option>
+                                                <option value="other">Other</option>
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-3">

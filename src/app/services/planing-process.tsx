@@ -23,7 +23,7 @@ export default function Servicetwo() {
       <div className="container m-auto"> 
             <div className="row">
                 <div className="col-12">
-                    <h2 className="text-white b2b-main-heading text-center text-uppercase mb-5" data-aos="fade-up">Our Planning &amp; Execution Process</h2>
+                    <h2 className="text-white b2b-sub-heading-bold text-center text-uppercase mb-5" data-aos="fade-up">Our Planning &amp; Execution Process</h2>
                 </div>
             </div>
             <div className="row row-cols-lg-5 row-cols-1 planningSteps pt-3">

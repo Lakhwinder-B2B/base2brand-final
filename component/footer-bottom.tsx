@@ -58,7 +58,7 @@ export default function FooterBottom() {
           <div className="mb-sm-0 mb-4 footerMenu">
             <h5>Working Hours:</h5>
             <ul className="mb-0">
-              <li>Mon-Fri: 10 am- 7 pm</li>
+              <li>Mon-Fri: 11 Am- 08 Pm</li>
               <li>Sat-Sun: Holiday</li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ export default function FooterBottom() {
           <div className="mb-sm-0 mb-4 footerMenu">
           <h5>USA</h5>
             <ul className="mb-0">
-              <li>7311 Gladys Ave, El Cerrito, CA 94530, <br/>
+              <li>7311 Gladys Ave El Cerrito CA 94530, <br/>
                USA, <a className="text-white" href="tel:+1-720-903-5933">+1 (720) 903-5933</a></li>
              
             </ul>
@@ -84,8 +84,8 @@ export default function FooterBottom() {
           <div className="mb-sm-0 mb-4 footerMenu">
             <h5>UK</h5>
             <ul className="mb-0">
-              <li>Ms Ady 114, Bellchase Trail Brampton <br/>
-               ON L6P 3LA <a className="text-white" href="tel:+44-7552-535341">+(0044) 7448435973
+              <li>69 Grove St, Edinburgh. EH3 8FD<br />
+              UK  <a className="text-white" href="tel:+44-7552-535341">+(0044) 7448435973
                </a></li>
              
             </ul>
@@ -95,7 +95,7 @@ export default function FooterBottom() {
       <div className="text-center p-3">
         <p className="m-0 text-white">
         © 2024 All rights reserved |  <Link className="text-white" href="/"> Base2brand</Link> |  <Link className="text-white" href="/disclaimer"> Disclaimer</Link> | 
-        <Link className="text-white" href="/privacy-policy"> Privacy Policy</Link>
+        <Link className="text-white" href="/privacy-policy"> Privacy Policy</Link> |  <Link className="text-white" href="/underconstrution">Terms of Service</Link>
        
         </p>
       </div>

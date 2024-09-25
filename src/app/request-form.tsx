@@ -195,6 +195,10 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                         <input className="serviceCheckbox" id="all" type="checkbox" name="service" value="All Services" />
                                         <label htmlFor="all">All Services</label>
                                     </div>
+                                    <div>
+                                        <input className="serviceCheckbox" id="other" type="checkbox" name="other" value="other" />
+                                        <label htmlFor="other">Other</label>
+                                    </div>
                                 </div>
                                 <div className="errorBox serviceError" style={{ display: 'none' }}>
                                     <span className="error">Please fill out this field</span>

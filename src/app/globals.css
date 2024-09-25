@@ -11,6 +11,17 @@ html {
 li{
 list-style: none;
 }
+ul.privacy_policy li {
+  list-style: disc;
+  line-height: 34px;
+}
+.policy_heading_main{
+  font-size: 70px;
+  color: #fff;
+}
+.animated-imgs.animated-banner-imgs {
+  height: calc(60vh - 200px);
+}
  #__next {
   margin: 0;
   padding: 0;
@@ -1232,6 +1243,11 @@ body .request-form.fade.transformAnim .modal-dialog {
   height: 14px;
 }
 @media only screen and (max-width: 767px){
+  .policy_heading_main {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
   .logo_brand img {
     margin: auto;
     display: flex !important;
@@ -1613,8 +1629,8 @@ body .request-form.fade.transformAnim .modal-dialog {
     padding: 10px 35px;
   }
   .bannerSection .sub_text {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .service_box_gradiant .b2b-service-heading {
     font-size: 18px;
@@ -1643,7 +1659,7 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: normal;
   }
   .b2b-sub-text {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
   }
   .b2b-title-text {
@@ -1825,8 +1841,8 @@ body .request-form.fade.transformAnim .modal-dialog {
     line-height: 26px;
   }
   .bannerSection .sub_text {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .b2b-btn-lg {
     font-size: 12px;
@@ -2337,9 +2353,9 @@ ul.nav.nav-pills.mb-3 {
     margin-top: 14px !important;
   }
   .b2b-btn-lg {
-    font-size: 8px;
+    font-size: 14px;
     line-height: normal;
-    padding: 8px 20px;
+    padding: 15px 30px;
   }
   img.social_logo {
     height: 82px;
@@ -2349,7 +2365,7 @@ ul.nav.nav-pills.mb-3 {
     font-size: 20px;
   }
   .b2b-sub-text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
   }
   .b2b-text {
@@ -2476,9 +2492,9 @@ ul.nav.nav-pills.mb-3 {
     width: 100%;
   }
   .footer-form .form-btn {
-    font-size: 12px;
-    padding: 9px 24px;
-    border-radius: 25px;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 25px;  
     margin: auto;
     display: block;
   }

@@ -232,7 +232,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                             <ul>
                                 <li className="mail" data-aos="fade-up" data-aos-delay="300"><a href="mailto:hello@base2brand.com">hello@base2brand.com</a></li>
                                 <li className="phone-link Ind" data-aos="fade-up" data-aos-delay="300"><span>IND: </span><a href="tel:+918360116967">+918360116967</a></li>
-                                <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>CANADA: </span><a href="tel:+1(416)879-2244">+1(416)879-2244</a></li>
+                                <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>USA: </span><a href="tel:+1720903-5933">+1 (720) 903-5933</a></li>
                                 <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
                             </ul>
                         </div>
@@ -290,8 +290,8 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                     </div>
                                 </div>
                                 <div className="address">
-                                    <p>Ms Ady 114, Bellchase Trail Brampton<br />
-                                    ON L6P 3LA +44 7552 535341</p>
+                                    <p>69 Grove St, Edinburgh. EH3 8FD <br />
+                                    UK +(0044) 7448435973</p>
                                 </div>
                             </div>
                         </div>
@@ -307,7 +307,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                     </div>
                                 </div>
                                 <div className="address">
-                                    <p>7311 Gladys Ave, El Cerrito, CA 94530,<br />
+                                    <p>7311 Gladys Ave El Cerrito CA 94530,<br />
                                     USA, +1 (720) 903-5933</p>
                                 </div>
                             </div>

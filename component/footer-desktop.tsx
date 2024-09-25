@@ -26,10 +26,10 @@ export default function FooterDesktop() {
             <h5>Quick Links</h5>
             <FooterLinks id={5} />
           </div>
-          <div className="col footerMenu">
+          {/* <div className="col footerMenu">
             <h5>Other Links</h5>
             <FooterLinks id={6} />
-          </div>
+          </div> */}
         </div>
       </div>
       <FooterBottom />
