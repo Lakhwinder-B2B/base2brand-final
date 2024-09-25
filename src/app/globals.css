@@ -596,6 +596,9 @@ footer.footer {
   border-radius: 10px !important;
   height: 100%;
 }
+.p-0.m-1.col.ph_align_tec_icon img {
+  width: 75%;
+}
 .b2b-home-blog .blog_section img.blog {
   border-radius: 10px;
   background: #111616;
@@ -1812,10 +1815,10 @@ body .request-form.fade.transformAnim .modal-dialog {
     
   }
   .bgimg_feed1 .slick-prev {
-    left: -35px !important;
-  }
+    left: -20px !important;
+  } 
   .bgimg_feed1 .slick-next {
-    right: -35px !important;
+    right: -20px !important;
   }
   .b2b-main-heading {
     font-size: 22px;
@@ -2381,7 +2384,7 @@ ul.nav.nav-pills.mb-3 {
     line-height: 32px;
   }
   .b2b-achievements .count-col {
-    width: 85%;
+    width: 100%;
     margin-bottom: 18px;
   }
   .b2b-main-heading {
@@ -2557,7 +2560,7 @@ ul.nav.nav-pills.mb-3 {
     row-gap: 1rem !important;
   }
   .reviewSlider {
-    padding: 0 40px;
+    padding: 0 5px;
   }
   body .mb-mb-0{
     margin-bottom: 0 !important;
@@ -2609,8 +2612,11 @@ ul.nav.nav-pills.mb-3 {
     display: none;
   }
   .service_tabs li {
-    width: 100px;
+    width: 48%;
   }
+  .p-5.b2b-gray-bg.mobileAppWrap.aos-init.aos-animate {
+    padding: 2rem 0rem !important;
+}
   ul.nav.nav-pills.service_tabs {
     width: 375px !important;
   }
@@ -3334,14 +3340,6 @@ p.date.Date-box {
   height: 85px;
   border: 1px solid #ffffff63;
 }
-
-@media only screen and (max-width: 1024px) {
-  .btn-col .nav-pills .nav-link {
-    background: linear-gradient(45deg, #424141db, #0000006b);
-    height: 60px;
-    border: 1px solid #ffffff63;
-  }
-}
 @media only screen and (max-width: 1440px) {
   .btn-col .nav-pills .nav-link {
     background: linear-gradient(45deg, #424141db, #0000006b);
@@ -3349,7 +3347,30 @@ p.date.Date-box {
     border: 1px solid #ffffff63;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .btn-col .nav-pills .nav-link {
+    background: linear-gradient(45deg, #424141db, #0000006b);
+    height: 60px;
+    border: 1px solid #ffffff63;
+  }
+}
 
+@media only screen and (max-width: 767px) {
+  .btn-col .nav-pills .nav-link {
+    height: 46px;
+    width: 93px !important;
+    font-size: 12px !important;
+    padding: 12px 6px;
+  }
+  .ph_align_tec_icon{
+    width: 25% !important;
+    max-width: 25% !important;
+    flex: inherit !important;
+  }
+  .nav.flex-column.nav-pills.me-3.gap-lg-4.gap-md-4.gap-2.gap-md-3.btn-col {
+    flex-direction: row !important;
+}
+}
 
 
 

@@ -154,7 +154,12 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Mobile No.</label>
-                                    <input type="number" placeholder="7686788766" className="form-control removeBorder" name="phoneNo" value={formData.phoneNo} onChange={handleChange}  required/>
+                                    <input type="number" placeholder="7686788766" className="form-control removeBorder" name="phoneNo" value={formData.phoneNo} onChange={handleChange} 
+                                     onInput={(e: React.FormEvent<HTMLInputElement>) => {
+                                        const inputElement = e.target as HTMLInputElement; // Cast the target to HTMLInputElement
+                                        inputElement.value = inputElement.value.replace(/[^0-9]/g, ''); // Only allows digits
+                                      }}
+                                      required/>
                                 </div>
                                 <div className="formRow mb-4 pb-2">
                                     <label className="form-label">Company Name</label>
@@ -232,7 +237,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                             <ul>
                                 <li className="mail" data-aos="fade-up" data-aos-delay="300"><a href="mailto:hello@base2brand.com">hello@base2brand.com</a></li>
                                 <li className="phone-link Ind" data-aos="fade-up" data-aos-delay="300"><span>IND: </span><a href="tel:+918360116967">+918360116967</a></li>
-                                <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>USA: </span><a href="tel:+1720903-5933">+1 (720) 903-5933</a></li>
+                                <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>USA: </span><a href="tel:+1720903-5933">+1 720 9035933</a></li>
                                 <li className="phone-link" data-aos="fade-up" data-aos-delay="300"><span>UK: </span><a href="tel:+4407448435973">+4407448435973</a></li>
                             </ul>
                         </div>
@@ -291,7 +296,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 <div className="address">
                                     <p>69 Grove St, Edinburgh. EH3 8FD <br />
-                                    UK +(0044) 7448435973</p>
+                                    UK +44 7448435973</p>
                                 </div>
                             </div>
                         </div>
@@ -308,7 +313,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 <div className="address">
                                     <p>7311 Gladys Ave El Cerrito CA 94530,<br />
-                                    USA, +1 (720) 903-5933</p>
+                                    USA, +1 720 9035933</p>
                                 </div>
                             </div>
                             

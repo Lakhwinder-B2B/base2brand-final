@@ -15,7 +15,7 @@ export default function FooterMap() {
         name: '',
         email: '',
         phoneNo: '',
-        service: 'web development',
+        service: '',
         message: ''
     });
 
@@ -77,7 +77,7 @@ export default function FooterMap() {
                                         className="tooltipText"
                                         place="top"
                                         html="<p class='tooltipTitle'>USA</p>
-                                        7311 Gladys Ave El Cerrito CA 94530,<br/> USA, +1 (720) 903-5933"
+                                        7311 Gladys Ave El Cerrito CA 94530,<br/> USA, +1 720 9035933"
                                     />
                                 <div className="address2" data-aos="zoom-in" data-aos-delay="700">
                                     <span data-tooltip-id="my-tooltip-2" className="addressDot"></span>
@@ -88,7 +88,7 @@ export default function FooterMap() {
                                         place="top"
                                         html="<p class='tooltipTitle'>Uk</p>
                                        	69 Grove St, Edinburgh. EH3 8FD<br />
-                                        UK +(0044) 7448435973"
+                                        UK +44 7448435973"
                                     />
                                 <div className="address3" data-aos="zoom-in" data-aos-delay="800">
                                     <span data-tooltip-id="my-tooltip-3" className="addressDot"></span>
@@ -113,11 +113,15 @@ export default function FooterMap() {
                                             <input type="email" className="form-control removeBorder" name="email"   placeholder="Email" value={formData.email} onChange={handleChange}  required/>
                                         </div>
                                         <div className="col-lg-6 mb-3">
-                                            <input type="number" className="form-control removeBorder" name="phoneNo" placeholder="Phone" value={formData.phoneNo} onChange={handleChange}  required/>
+                                            <input type="number" className="form-control removeBorder" name="phoneNo" placeholder="Phone" value={formData.phoneNo} onChange={handleChange}  required  
+                                             onInput={(e: React.FormEvent<HTMLInputElement>) => {
+                                                const inputElement = e.target as HTMLInputElement; // Cast the target to HTMLInputElement
+                                                inputElement.value = inputElement.value.replace(/[^0-9]/g, ''); // Only allows digits
+                                              }}/>
                                         </div>
                                         <div className="col-lg-6 mb-3">
                                             <select className="form-control removeBorder" id="" name="service" value={formData.service} onChange={handleChange}  required> 
-                                                <option value="">Select Services</option>
+                                                <option value="" selected>Select Services</option>
                                                 <option value="digital marketing">Digital Marketing</option>
                                                 <option value="ecommerce development">Ecommerce Development</option>
                                                 <option value="graphic design">Graphic Design</option> 

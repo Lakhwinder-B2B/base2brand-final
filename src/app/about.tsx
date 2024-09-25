@@ -90,7 +90,7 @@ useCountUp({
 
   const renderImages = (category) => (
     images[category].map(({ src, alt, width, height }, index) => (
-      <div key={index} className="p-0 m-1 col" >
+      <div key={index} className="p-0 m-1 col ph_align_tec_icon" >
         <Image src={src} alt={alt} width={width} height={height} />
       </div>
     ))

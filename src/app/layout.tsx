@@ -5,7 +5,7 @@ import Home from "./home-backup";
 import Script from "next/script";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor"; 
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+     
+
       <body>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

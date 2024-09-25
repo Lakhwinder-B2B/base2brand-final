@@ -498,18 +498,18 @@ services pages */
     }
     img.digital_img {
         width: 100%;
-        height: 200px;
+        height: auto;
     }
     img.digital_icon {
         padding: 10px;
-        bottom: 60px;
+        bottom: 7px;
         left: 10px;
         width: 50px;
         height: 50px;
     }
     .leader_box {
-        padding: 20px 38px 20px 60px;
-        font-size: 13px;
+        padding: 20px 38px 20px 72px;
+        font-size: 16px;
     }
     .leader_box i {
         right: 12px;
@@ -551,7 +551,7 @@ services pages */
         height: auto;
     }
     .animated-imgs.animated-banner-img {
-        height: 300px !important; 
+        height: 400px !important; 
         width: 100%;
     }
     .animated-banner-img canvas {
@@ -666,7 +666,7 @@ services pages */
         height: auto;
     }
     .ecommerceserviceWrap .cell-wrap {
-        max-width: 280px;
+        max-width: 100%;
         margin: auto;
     }
     .choose-us-wrap>div:nth-child(even) {
@@ -722,12 +722,12 @@ services pages */
         height: unset;
     }
     .digital_box {
-        width: 280px;
+        width: 100%;
         margin: auto;
     }
     .leader_box i {
         right: 20px;
-        bottom: 14px;
+        bottom: 23px;
     }
     .gallery_slider {
         flex-wrap: wrap;
@@ -892,8 +892,9 @@ services pages */
 }
 @media screen and (max-width:575px) {
     .service-banner h1 {
-        font-size: 18px !important;
+        font-size: 24px !important;
         line-height: 26px !important;
+        margin-bottom: 14px !important;
     }
     .service-banner p {
         font-size: 16px;
@@ -911,7 +912,7 @@ services pages */
         height: auto;
     }
     .deliverable-step-outer {
-        width: 259px;
+        width: 90%;
         padding-left: 10px;
     }
     .deliverable-step{

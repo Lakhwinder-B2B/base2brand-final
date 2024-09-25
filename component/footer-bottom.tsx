@@ -75,7 +75,7 @@ export default function FooterBottom() {
           <h5>USA</h5>
             <ul className="mb-0">
               <li>7311 Gladys Ave El Cerrito CA 94530, <br/>
-               USA, <a className="text-white" href="tel:+1-720-903-5933">+1 (720) 903-5933</a></li>
+               USA, <a className="text-white" href="tel:+1-720-903-5933">+1 720 9035933</a></li>
              
             </ul>
         </div>
@@ -85,7 +85,7 @@ export default function FooterBottom() {
             <h5>UK</h5>
             <ul className="mb-0">
               <li>69 Grove St, Edinburgh. EH3 8FD<br />
-              UK  <a className="text-white" href="tel:+44-7552-535341">+(0044) 7448435973
+              UK  <a className="text-white" href="tel:+44-7552-535341">+44 7448435973
                </a></li>
              
             </ul>

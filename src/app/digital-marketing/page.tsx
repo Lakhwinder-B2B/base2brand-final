@@ -207,7 +207,7 @@ export default function Digital() {
                     <img className="digital_icon" src={Icon3.src} alt="" /> 
                   
                     <div className="leader_box">
-                      <a>Leader in <br />digital marketing <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      <a>Leader in digital marketing <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
                     </div>
                   </div>
                 </div>
@@ -219,7 +219,7 @@ export default function Digital() {
                     <img className="digital_img" src={Digital2.src} alt="" />
                     <img className="digital_icon" src={Icon2.src} alt="" /> 
                   <div className="leader_box">
-                  <a>Highest Success <br />rates <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  <a>Highest Success rates <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                   </div>
                 </div>
@@ -231,7 +231,7 @@ export default function Digital() {
                     <img className="digital_img" src={Digital1.src} alt="" />
                     <img className="digital_icon" src={Icon1.src} alt="" /> 
                   <div className="leader_box">
-                  <a>Quality Marketing <br />Solutions <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  <a>Quality Marketing Solutions <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                   </div>
                 </div>
