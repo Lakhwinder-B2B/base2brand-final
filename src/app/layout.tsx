@@ -9,7 +9,36 @@ import "react-toastify/dist/ReactToastify.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {};
+export function generateMetadata() {
+  return {
+    title: "Digital marketing agency",
+    description: "Digital marketing agency in Mohali",
+
+    openGraph: {
+      title: "Team Page",
+      description: "Meet our amazing team.",
+      url: "img/portfolio/b1.png",
+      images: [
+        {
+          url: "img/portfolio/b1.png",
+          width: 800,
+          height: 600,
+          alt: "Team Image",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Team Page",
+      description: "Meet our amazing team.",
+    },
+    // Add canonical tag
+    alternates: {
+      canonical: "http://localhost:3000", // Replace with your canonical URL
+    },
+  };
+}
+
 
 export default function RootLayout({
   children,

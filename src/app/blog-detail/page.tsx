@@ -71,8 +71,8 @@ function BlogDetail() {
     <>
       <Header />
       <div className="bgblack">
-        <div className="container-fluid p-5 pb-5">
-          <div className="row text-white mb-5 pb-5 justify-content-center g-0 g-lg-0 g-xl-5">
+        <div className="container-fluid p-3  p-md-5">
+          <div className="row text-white mb-5 pb-1 justify-content-center g-0 g-lg-0 g-xl-5">
             {blogpost && (
               <div className="col-md-12 mb-4 col-lg-12 col-xl-8">
                 <div className="blog_section bg-dark">
@@ -81,11 +81,11 @@ function BlogDetail() {
                     src={blogpost.image_url}
                     alt="Blog"
                   />
-                  <div className="p-4 pb-3 bgblack">
+                  <div className="p-2  p-md-4 pb-3 bgblack">
                     {/* <p className="date">
                       {new Date(blogpost.created_at).toLocaleDateString()}
                     </p> */}
-                    <p className="blog_desc mb-2">{blogpost.title}</p>
+                    <h1 className="blog_desc mb-2">{blogpost.title}</h1>
                     <div
                       className="title_description"
                       dangerouslySetInnerHTML={{ __html: blogpost.term }}

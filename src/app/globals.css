@@ -2279,14 +2279,18 @@ button.nav-link {
 img.Icon_lines{
   margin-top: 0px !important;
 }
-p.blog_desc { 
-  font-size: 16px !important;
+h1.blog_desc { 
+  font-size: 24px !important;
+  line-height: 34px;
 }
 .contentBox {
   display: block !important;
 }
 img.ecommerce_img {
   margin-bottom: 20px;
+}
+p.blog_descs {
+  font-size: 14px !important;
 }
 
 
