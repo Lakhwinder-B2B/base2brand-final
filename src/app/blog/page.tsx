@@ -13,6 +13,7 @@ import { useRouter } from "next/navigation";
 import awwor from "../../../public/img/arrow.svg";
 import Image from "next/image";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import PageHead from "../../../component/PageHead";
 
 interface BlogItem {
   id: string;
@@ -23,6 +24,13 @@ interface BlogItem {
 }
 
 function Home() {
+
+  const PageMeta={
+    title:"Latest Insights | Stay Updated with Our Blog | Read More",
+    descripation:"Stay updated with the latest insights on digital marketing and web development. Read Base2Brand India's blog for expert advice. Dive in now!",
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+  }
   const router = useRouter();
 
   const [data, setData] = useState<BlogItem[] | null>(null);
@@ -49,6 +57,7 @@ function Home() {
 
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
 
         {/* <div

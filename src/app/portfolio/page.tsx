@@ -50,8 +50,15 @@ import Footer from "../../../component/footer";
 import "./portfolio.css";
 import Request from "../request-form";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import PageHead from "../../../component/PageHead";
 
 export default function Portfolio() {
+  const PageMeta = {
+    title: "Our Work | View Portfolio Now | Base2Brand India",
+    description: "Discover Base2Brand India's success through our portfolio. View our impactful work that drives digital excellence. Explore now to see our achievements!",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+        image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+      };
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -115,6 +122,7 @@ export default function Portfolio() {
 
   return (
     <>
+     <PageHead PageMeta={PageMeta} />
       <Header />
       <div className="service-banner b2b-black-bg">
         <div className="container mx-auto">

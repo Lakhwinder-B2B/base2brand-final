@@ -54,8 +54,17 @@ import test3 from "../../../public/services2-img/test3.svg";
 import radialRight from '../../../public/img/radial-right.svg';
 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { title } from "process";
+import PageHead from "../../../component/PageHead";
 
 export default function BigCommence() {
+
+  const PageMeta={
+    title:"Mobile App Development Services India by Base2brand",
+    description:"Launch your mobile app with Base2brand's expert developers. Tailored app solutions that drive growth. Begin your development journey today!",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -70,7 +79,7 @@ export default function BigCommence() {
   };
   return (
     <>
-
+<PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="bg-black tab-btn">
         <div className="service-banner" >

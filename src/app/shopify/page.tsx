@@ -10,10 +10,20 @@ import radialRight from '../../../public/img/radial-right.svg';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import "../shopify/service.css";
 import "../service-mb-style.css"; 
+import PageHead from "../../../component/PageHead";
+import { title } from "process";
 export default function services() {
+
+  const PageMeta ={
+    title:"Shopify Development Services (Hire Shopify Partner Agency)",
+    description:"Enhance your e-commerce with our Shopify development services. Hire a certified Shopify Partner Agency. Start optimizing your store today!",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
  
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="bg_home pt-0">
         <div className="service-banner shopify-banner" style={{backgroundImage: `url(${Bg.src})`,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>

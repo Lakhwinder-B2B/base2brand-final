@@ -19,6 +19,7 @@ import nextGeneration from '../../../public/graphics/representations-ui-ux.png';
 import radialRight from '../../../public/img/radial-right.svg'; 
 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import PageHead from "../../../component/PageHead";
 
 export default function Graphic() {
 //   useEffect(() => {
@@ -27,7 +28,12 @@ export default function Graphic() {
 //          once: false,
 //        })
 //  }, [])
-
+const PageMeta ={
+  title:"Graphic Design Services (#1 Find a Graphic Designer Today)",
+  description:"Transform your brand with top-rated graphic design services. Find a skilled designer today and bring your visual ideas to life. Start your project now!",
+  canonical: "https://localhost:3000", // Replace with your page's canonical URL
+  image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+};
 const [showModal, setShowModal] = useState(false);
 
 const toggleModal = () => {
@@ -43,6 +49,7 @@ const toggleModal = () => {
   return (
     
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="b2b-black-bg">
         <div className="service-banner" >

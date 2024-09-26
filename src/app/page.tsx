@@ -34,9 +34,20 @@ import Slider from "react-slick";
 import Typewriter from 'typewriter-effect';
 import VerticalScroll from "./vertical-scroll-sec";
 import Request from "./request-form";
+import { title } from "process";
+import PageHead from "../../component/PageHead";
+import { metadata } from "./layout";
 // import styles from "./VerticalSlideshow.module.css";
 
 export default function Home() {
+
+  const PageMeta = {
+    title: "Digital Marketing & Web & Mobile App Development Agency",
+    description: "Boost your business with our Digital Marketing, Web, and Mobile App Development services. Discover expert solutions tailored to your needs. Contact us!",
+    canonical: "https://http://localhost:3000", // Replace with your page's canonical URL
+    image: "https://www.example.com/images/og-image.jpg", // Replace with your image URL for sharing
+  };
+
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -88,7 +99,7 @@ export default function Home() {
   };
   return (
     <>
-    
+    <PageHead PageMeta={PageMeta} />
       <Header />
 
       <HomeBanner />

@@ -12,11 +12,20 @@ import './services2.css'
 import "../service-mb-style.css";
 import Request from "../request-form";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { title } from "process";
+import PageHead from "../../../component/PageHead";
 
 // import 'aos/dist/aos.css';
 // import AOS from 'aos';
 
 export default function Service() {
+
+  const PageMeta = {
+    title: "Our Services | Request a Quote | Base2Brand India",
+    description: "Explore Base2Brand India's comprehensive digital services. Get customized solutions for your business needs. Request a quote today!",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -33,6 +42,7 @@ export default function Service() {
 
   return (
     <>
+     <PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="bg_home p-0">
 

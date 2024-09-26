@@ -1,27 +1,90 @@
-// import Head from "next/head";
-// import { usePathname } from "next/navigation";
+"use client"; // Marking this as a Client Component
 
-// export default function PageHead({ PageMeta }) {
-//     const pathname = usePathname();
-//     const baseUrl = "http://localhost:3000/"; // Define your base URL
+import { useEffect } from "react";
 
-//     return (    
-//         <Head>        
-//             <title>{PageMeta.title}</title>
-//             <meta name="title" content={PageMeta.title} />
-//             <meta name="description" content={PageMeta.description} />
-//             <link rel="canonical" href={`${baseUrl}${pathname}`} /> {/* Updated canonical URL */}
-//             <meta property="og:locale" content="en_US" />
-//             <meta property="og:type" content="website" />
-//             <meta property="og:title" content={PageMeta.title} />
-//             <meta property="og:description" content={PageMeta.description} />
-//             <meta property="og:url" content={`${baseUrl}${pathname}`} /> {/* Updated Open Graph URL */}
-//             <meta property="og:site_name" content="Jemeson Construction Ltd" />
-//             <meta property="og:image" content="/images/abacus.jpg" />
-//             <meta property="og:image:width" content="1024" />
-//             <meta property="og:image:height" content="506" />
-//             <meta property="og:image:type" content="image/jpg" />
-//             <meta name="twitter:card" content="summary_large_image" />        
-//         </Head>
-//     );
-// }
+export default function PageHead({ PageMeta }) {
+  useEffect(() => {
+    // Set title
+    document.title = PageMeta.title;
+
+    // Update the meta description tag
+    const metaDescription = document.querySelector("meta[name='description']");
+    if (metaDescription) {
+      metaDescription.setAttribute("content", PageMeta.description);
+    } else {
+      const newMetaTag = document.createElement("meta");
+      newMetaTag.name = "description";
+      newMetaTag.content = PageMeta.description;
+      document.head.appendChild(newMetaTag);
+    }
+
+    // Add or update the canonical URL
+    let canonicalLink = document.querySelector("link[rel='canonical']");
+if (canonicalLink) {
+  canonicalLink.setAttribute("href", PageMeta.canonical);
+} else {
+  canonicalLink = document.createElement("link");
+  canonicalLink.setAttribute("rel", "canonical"); // Corrected the attribute assignment
+  canonicalLink.setAttribute("href", PageMeta.canonical); // Corrected the attribute assignment
+  document.head.appendChild(canonicalLink);
+}
+
+    // Add or update Open Graph image
+    let ogImage = document.querySelector("meta[property='og:image']");
+    if (ogImage) {
+      ogImage.setAttribute("content", PageMeta.image);
+    } else {
+      ogImage = document.createElement("meta");
+      ogImage.setAttribute("property", "og:image");
+      ogImage.setAttribute("content", PageMeta.image);
+      document.head.appendChild(ogImage);
+    }
+
+    // Add or update Open Graph title
+    let ogTitle = document.querySelector("meta[property='og:title']");
+    if (ogTitle) {
+      ogTitle.setAttribute("content", PageMeta.title);
+    } else {
+      ogTitle = document.createElement("meta");
+      ogTitle.setAttribute("property", "og:title");
+      ogTitle.setAttribute("content", PageMeta.title);
+      document.head.appendChild(ogTitle);
+    }
+
+    // Add or update Open Graph description
+    let ogDescription = document.querySelector("meta[property='og:description']");
+    if (ogDescription) {
+      ogDescription.setAttribute("content", PageMeta.description);
+    } else {
+      ogDescription = document.createElement("meta");
+      ogDescription.setAttribute("property", "og:description");
+      ogDescription.setAttribute("content", PageMeta.description);
+      document.head.appendChild(ogDescription);
+    }
+
+    // Add or update Twitter image
+    let twitterImage = document.querySelector("meta[name='twitter:image']");
+    if (twitterImage) {
+      twitterImage.setAttribute("content", PageMeta.image);
+    } else {
+      twitterImage = document.createElement("meta");
+      twitterImage.setAttribute("name", "twitter:image");
+      twitterImage.setAttribute("content", PageMeta.image);
+      document.head.appendChild(twitterImage);
+    }
+
+    // Add or update Twitter card type
+    let twitterCard = document.querySelector("meta[name='twitter:card']");
+    if (twitterCard) {
+      twitterCard.setAttribute("content", "summary_large_image");
+    } else {
+      twitterCard = document.createElement("meta");
+      twitterCard.setAttribute("name", "twitter:card");
+      twitterCard.setAttribute("content", "summary_large_image");
+      document.head.appendChild(twitterCard);
+    }
+
+  }, [PageMeta]); // Dependency array to re-run the effect if PageMeta changes
+
+  return null; // No UI elements are rendered here
+}

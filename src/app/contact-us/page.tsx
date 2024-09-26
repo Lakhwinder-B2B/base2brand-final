@@ -17,7 +17,14 @@ import googleTag from '../../../public/contact-us/google-tag.svg';
 import starRating from '../../../public/contact-us/star-rating.svg';
 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import PageHead from "../../../component/PageHead";
   function ContactUs() { 
+    const PageMeta={
+        title:"Get in Touch (Schedule a Consultation)",
+        description:"Learn about Base2Brand India: Our mission, values, and history of driving client success. Explore our story and connect with us to grow your business.",
+        canonical: "https://localhost:3000", // Replace with your page's canonical URL
+        image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+      };
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -104,6 +111,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
     }, []);
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header /> 
       <div className="pt-0 pb-0 b2b-black-bg">
             <div className="about-mask pt-md-5 pt-3" style={{backgroundImage: `url(${radialBg.src})`,backgroundSize: 'contain',backgroundRepeat: 'no-repeat'}}>

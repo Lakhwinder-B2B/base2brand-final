@@ -35,10 +35,18 @@ import {
   scroller,
 } from "react-scroll";
 import radialRight from "../../../public/img/radial-bg-right1.svg";
+import PageHead from "../../../component/PageHead";
 
 export default function Team() {
+  const PageMeta = {
+    title: "Join Our Team | Career | Apply Now | Base2Brand India",
+    description: "Embark on a career with Base2Brand India! Explore exciting opportunities and apply now to join our innovative team committed to excellence.",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="pt-0 pb-0 b2b-black-bg">
         <div
@@ -49,7 +57,8 @@ export default function Team() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="crew-wrap">
+          {/* <div className="crew-wrap"> */}
+          <div className="container mx-auto">
             <div className="row m-0 position-relative align-items-center text-white pt-md-5 pt-0">
               <div
                 className="col-12 col-sm-12 col-md-5 bannerContent"

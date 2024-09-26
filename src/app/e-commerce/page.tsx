@@ -18,7 +18,15 @@ import Bg from '../../../public/services2-img/service-mask.svg';
 import nextGeneration from '../../../public/ecommerce/e-commerce.png';
 import radialRight from '../../../public/img/radial-right.svg'; 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import PageHead from "../../../component/PageHead";
 export default function Ecommerce() {
+
+  const PageMeta = {
+    title:"E-commerce Website Development Services India by Base2brand",
+    description:"Scale your business with our e-commerce development services. Trust Base2brand to build a robust online store. Start your success story today!",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -34,6 +42,7 @@ export default function Ecommerce() {
 
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="b2b-black-bg">
       <div className="service-banner ">

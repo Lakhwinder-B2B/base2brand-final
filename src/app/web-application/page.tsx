@@ -15,8 +15,16 @@ import Bg from '../../../public/services2-img/service-mask.svg';
 import Request from "../request-form";
 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import PageHead from "../../../component/PageHead";
 export 
 default function WebApplication() {
+
+  const PageMeta={
+    title:"Web Application Development Services India by Base2brand",
+    description:"Develop cutting-edge web applications with Base2brand. Tailor solutions to your business needs. Start your project with us today!",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -31,6 +39,7 @@ default function WebApplication() {
   };
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
       <div className="b2b-black-bg" >
         <div className="service-banner" >

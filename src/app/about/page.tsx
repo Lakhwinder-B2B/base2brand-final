@@ -17,10 +17,19 @@ import radialBg from '../../../public/img/radial_bg.svg';
 import Slider from "react-slick";
 import { Link,  Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import radialRight from '../../../public/img/radial-right.svg'; 
+import { title } from 'process';
+import PageHead from '../../../component/PageHead';
 
 
 
 export default function AboutUs() {
+
+  const PageMeta ={
+    title: "About Us | Base2Brand India",
+    description:"Learn about Base2Brand India: Our mission, values, and history of driving client success. Explore our story and connect with us to grow your business.",
+    canonical: "https://localhost:3000", // Replace with your page's canonical URL
+    image: "/img/portfolio/b1.png", // Replace with your image URL for sharing
+  };
 
   const [showModal, setShowModal] = useState(false);
 
@@ -174,6 +183,7 @@ export default function AboutUs() {
 
   return (
     <>
+    <PageHead PageMeta={PageMeta}/>
       <Header />
         <div className="bg_about pt-0 pb-0">
           <div className="about-mask aboutWrap" style={{backgroundImage: `url(${radialBg.src})`,backgroundRepeat: 'no-repeat'}}>
