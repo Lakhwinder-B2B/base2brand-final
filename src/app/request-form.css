@@ -131,12 +131,49 @@
     line-height: normal;
     border: 1px solid #000;
 }
-.formServices input:checked+label,
-.formServices input+label:hover {
+.formServices .ux_color input:checked+label,
+.formServices .ux_color input+label:hover {
+    background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #ff7f50 -15%, #111616 100%);
+    border-style: none;
+    color: white;
+}
+
+.formServices .branding_color input:checked+label,
+.formServices .branding_color input+label:hover {
+    background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #48d1cc -15%, #111616 100%);
+    border-style: none;
+    color: white;
+}
+
+.formServices .development_color input:checked+label,
+.formServices .development_color input+label:hover {
+    background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #32cd32 -15%, #111616 100%);
+    border-style: none;
+    color: white;
+}
+
+.formServices .marketing_color input:checked+label,
+.formServices .marketing_color input+label:hover {
+    background: radial-gradient(48.78% 174.29% at 26.18% 52.75%, #ff6347 -15%, #111616 100%);
+    border-style: none;
+    color: white;
+}
+
+.formServices .service_color input:checked+label,
+.formServices .service_color input+label:hover {
+    background: linear-gradient(90deg, #b7e111, #111616);
+    border-style: none;
+    color: white;
+}
+
+.formServices .other_color input:checked+label,
+.formServices .other_color input+label:hover {
     background: linear-gradient(90deg, #7411e1, #396BDB);
     border-style: none;
     color: white;
 }
+ 
+
 .box-tab {
     max-width: 850px;
     width: 100%;

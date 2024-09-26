@@ -172,30 +172,30 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                 <h2>Quote</h2>
                                 <h3>What services would you like to opt?</h3>
                                 <div className="formServices request mb-2 pb-2">
-                                    <div>
+                                    <div className="ux_color">
                                         <input className="serviceCheckbox" id="uxui" type="checkbox" name="service" value="UI/UX" />
                                         <label htmlFor="uxui">UX-UI</label>
                                     </div>
-                                    <div>
+                                    <div className="branding_color">
                                         <input className="serviceCheckbox" id="branding" type="checkbox" name="service" value="Branding" />
                                         <label htmlFor="branding">Branding</label>
                                         
                                     </div>
-                                    <div>
+                                    <div className="development_color">
                                         <input className="serviceCheckbox" id="development" type="checkbox" name="service" value="Development" />
                                         <label htmlFor="development">Development</label>
                                 
                                     </div>
-                                    <div>
+                                    <div className="marketing_color">
                                         <input className="serviceCheckbox" id="marketing" type="checkbox" name="service" value="Marketing" />
                                         <label htmlFor="marketing">Marketing</label>
                                         
                                     </div>
-                                    <div>
+                                    <div className="service_color">
                                         <input className="serviceCheckbox" id="all" type="checkbox" name="service" value="All Services" />
                                         <label htmlFor="all">All Services</label>
                                     </div>
-                                    <div>
+                                    <div className="other_color">
                                         <input className="serviceCheckbox" id="other" type="checkbox" name="other" value="other" />
                                         <label htmlFor="other">Other</label>
                                     </div>
@@ -240,7 +240,7 @@ const RequestForm: React.FC<ModalProps> = ({ onCloseModal }) => {
                                 <h3 className="text-center">Project description</h3>
                                 <div className="formDescription mb-2 pb-2">
                                     <div>
-                                        <textarea  name='message'  value={formData.message} onChange={handleChange} className="project_description"   ></textarea>
+                                        <textarea  name='message'  value={formData.message} onChange={handleChange} className="project_description"   maxLength={200}  ></textarea>
                                     </div>
                                 </div> 
                                 <div className="errorBox descError" style={{display: 'none'}}>

@@ -249,7 +249,13 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                            <Image className='MetaAds_img' src={MetaAds}  alt=''/>
+                            {/* <Image className='MetaAds_img' src={MetaAds}  alt=''/> */}
+                            <DotLottieReact
+                                src='/json\Meta Ads.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              />
                             </div>
                             
                               {/* <DotLottieReact
@@ -278,7 +284,13 @@ export default function Digital() {
                             <div className="col-md-5">
                             <div className='image-meta'>
                   
-                  <Image className='MetaAds_img' src={googleadd}  alt=''/>
+                  {/* <Image className='MetaAds_img' src={googleadd}  alt=''/> */}
+                  <DotLottieReact
+                                src='/json\Google Ads.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              /> 
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/Google Ads JSON.json'
@@ -304,11 +316,16 @@ export default function Digital() {
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
-                  
-                  <Image className='MetaAds_img' src={seo}  alt=''/>
-                  </div>
+                            <DotLottieReact
+                                src='/json\SEO.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              /> 
+                  {/* <Image className='MetaAds_img' src={seo}  alt=''/> */}
+                  </div>  
                               {/* <DotLottieReact
-                                src='/json/Digital Marketing/SEO JSON.json'
+                                src='/json\SEO.json'
                                 loop
                                 autoplay
                                 className="animated-imgs"
@@ -330,8 +347,13 @@ export default function Digital() {
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
-                  
-                  <Image className='MetaAds_img' src={cro}  alt=''/>
+                            <DotLottieReact
+                                src='/json\CRO.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              /> 
+                  {/* <Image className='MetaAds_img' src={cro}  alt=''/> */}
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/CRO JSON.json'
@@ -356,8 +378,13 @@ export default function Digital() {
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
-                  
-                            <Image className='MetaAds_img' src={EmailMarketing}  alt=''/>
+                            <DotLottieReact
+                                src='/json\Email Marketing.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              /> 
+                            {/* <Image className='MetaAds_img' src={EmailMarketing}  alt=''/> */}
                             </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/Email Marketing JSON.json'
@@ -382,8 +409,13 @@ export default function Digital() {
                           <div className="row gap-5 align-items-center">
                             <div className="col-md-5">
                             <div className='image-meta'>
-                  
-                  <Image className='MetaAds_img' src={Ecommerce}  alt=''/>
+                            <DotLottieReact
+                                src='/json\E-commerce.json'
+                                loop
+                                autoplay
+                                className="animated-imgs"
+                              /> 
+                  {/* <Image className='MetaAds_img' src={Ecommerce}  alt=''/> */}
                   </div>
                               {/* <DotLottieReact
                                 src='/json/Digital Marketing/E Commerce JSON.json'

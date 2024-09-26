@@ -167,34 +167,34 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 </div>
                                 
                                 <div className="formServices mb-4 pb-2">
-                                    <div>
+                                    <div className="ux_color">
                                         <input id="uxui" type="checkbox" name="service" value="UI/UX" />
                                         <label htmlFor="uxui">UX-UI</label>
                                     </div>
-                                    <div>
+                                    <div className="branding_color">
                                         <input id="mob_apps" type="checkbox" name="service" value="Mobile Apps" />
                                         <label htmlFor="mob_apps">Mobile Apps</label>
                                 
                                     </div>
-                                    <div>
+                                    <div className="development_color">
                                         <input id="web_tech" type="checkbox" name="service" value="Web Tech" />
                                         <label htmlFor="web_tech">Web Tech</label>
                                         
                                     </div>
-                                    <div>
+                                    <div className="marketing_color">
                                         <input id="seo" type="checkbox" name="service" value="SEO" />
                                         <label htmlFor="seo">SEO</label>
                                     </div>
-                                    <div>
+                                    <div className="service_color">
                                         <input id="smm" type="checkbox" name="service" value="SMM" />
                                         <label htmlFor="smm">SMM</label>
                                     </div>
-                                    <div>
+                                    <div className="brand_color">
                                         <input id="branding" type="checkbox" name="service" value="Branding" />
                                         <label htmlFor="branding">Branding</label>
                                         
                                     </div>
-                                    <div>
+                                    <div className="other_color">
                                         <input id="others" type="checkbox" name="service" value="Others" />
                                         <label htmlFor="others">Others</label>
                                     </div>
@@ -202,7 +202,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
                                 
                                 <div className="formTextarea">
                                     <label className="form-label pb-2">Comments</label>
-                                    <textarea className="form-control removeBorder text-white" id="" name='message' value={formData.message} onChange={handleChange}  required></textarea>
+                                    <textarea className="form-control removeBorder text-white" id="" name='message' value={formData.message} onChange={handleChange}   maxLength={200} required></textarea>
                                 </div>
                             </div>
                             

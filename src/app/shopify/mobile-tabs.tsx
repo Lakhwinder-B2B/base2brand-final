@@ -33,7 +33,7 @@ export default function MobileTabs() {
             <div className="b2b-container-lg"> 
                 <div className="row">
                     <div className="col-lg-12 m-auto">
-                        <div className="mb-3 designTabs">
+                        <div className="mb-3 designTabs mobile_block">
                         <Slider
                         asNavFor={nav1}
                         ref={(slider2) => setNav2(slider2)}

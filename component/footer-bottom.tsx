@@ -95,7 +95,7 @@ export default function FooterBottom() {
       <div className="text-center p-3">
         <p className="m-0 text-white">
         © 2024 All rights reserved |  <Link className="text-white" href="/"> Base2brand</Link> |  <Link className="text-white" href="/disclaimer"> Disclaimer</Link> | 
-        <Link className="text-white" href="/privacy-policy"> Privacy Policy</Link> |  <Link className="text-white" href="/underconstrution">Terms of Service</Link>
+        <Link className="text-white" href="/privacy-policy"> Privacy Policy</Link> |  <Link className="text-white" href="/terms-of-service">Terms of Service</Link>
        
         </p>
       </div>

@@ -131,7 +131,7 @@ export default function FooterMap() {
                                             </select>
                                         </div>
                                         <div className="col-lg-12 mb-3">
-                                            <textarea className="form-control removeBorder" id="" name='message' placeholder="Your Message" value={formData.message} onChange={handleChange}  required></textarea>
+                                            <textarea className="form-control removeBorder" id="" name='message' placeholder="Your Message" value={formData.message} onChange={handleChange}   maxLength={200}  required></textarea>
                                         </div>
                                         <div className="col-lg-12 mb-3">
                                             <button type="submit" className="form-btn">Send Message</button>

@@ -525,6 +525,14 @@ button.btn_design span img{
     }
 }
 @media screen and (max-width: 767px) {
+    .mb-3.designTabs.mobile_block{
+        display: block !important;
+    }
+    .designTabsWrap.mobileTabsShopify.b2b-gray-bg {
+        z-index: 2;
+        position: sticky;
+        top: 87px;
+    }
     .animated-imgs.animated-banner-img {
         max-height: 150px !important;
         width: 100%;

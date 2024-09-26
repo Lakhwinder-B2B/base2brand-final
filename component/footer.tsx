@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import FooterDesktop from './footer-desktop';
 import FooterMobile from './footer-mobile';
+import FooterMobileMenu from './moblile-footer-menu';
 
 const useMediaQuery = (width) => {
   const [targetReached, setTargetReached] = useState(false);
@@ -34,6 +35,7 @@ const Footer = () => {
         { isBreakpoint ? (
             <div>
                 <FooterMobile />
+                <FooterMobileMenu />
             </div>
         ) : (
             <div>

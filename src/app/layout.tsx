@@ -19,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
      
-
+      <head>
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      </head>
       <body>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

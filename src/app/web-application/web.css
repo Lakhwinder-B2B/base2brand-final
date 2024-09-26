@@ -215,3 +215,14 @@ ul.arrowListing li:before {
 .about-accordion .accordion-item {
     border-style: dashed;
 }
+
+@media screen and (max-width: 767px) {
+
+.designTabsWrap.b2b-gray-bg {
+    position: sticky;
+    top: 88px;
+}
+.mb-3.designTabs.mobile_block{
+    display: block !important;
+}
+}
